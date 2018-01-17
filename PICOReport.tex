@@ -1,0 +1,91 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb,amsmath,times}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+\usepackage{cite}
+\usepackage{color}
+\usepackage{natbib}
+\usepackage{acronym}
+
+% define formatting
+%\pagestyle{empty}
+\parindent=0pt
+\topmargin=0.in \headheight=0in \headsep=-0.1in \textheight=9.2in
+\textwidth=6.5in \oddsidemargin=0in
+
+\def\Neff{{N_{\rm eff}}}
+\input{PICOReport_defs.tex}
+
+\setlength{\floatsep}{0.5\floatsep}
+\setlength{\textfloatsep}{0.5\textfloatsep}
+\setlength{\intextsep}{0.5\intextsep}
+\setlength{\floatsep}{0.5\floatsep}
+\setlength{\dblfloatsep}{0.5\dblfloatsep}
+\setlength{\dbltextfloatsep}{0.5\dbltextfloatsep}
+
+\begin{document}
+
+\bibliographystyle{unsrt}
+
+\setlength{\baselineskip}{0.96\baselineskip} %% measured, 5.0 lines/inch.  Can go to 0.96\baselineskip
+\setlength{\parskip}{1.\parskip}
+
+\parindent = 15pt
+
+\tableofcontents
+
+\setcounter{page}{0}
+\setcounter{figure}{0}
+
+\newpage
+%\twocolumn
+
+\section{Executive Summary (1 pg)} 
+\input{executive.tex}
+
+\section{PICO in Brief (2 pages)}
+\input{picoinbrief.tex}
+
+\section{Science (22 pgs)}
+
+\subsection{Fundamental Physics}
+\input{fundamentalsci.tex}
+
+\subsection{Extragalactic Science}
+\input{extragalacticsci.tex}
+
+\subsection{Galactic Science}
+\input{galacticsci.tex}
+
+\subsection{Legacy Science}
+\input{legacysci.tex}
+
+\subsection{Foregrounds}
+\input{foregrounds.tex}
+
+\subsection{Systematic Errors}
+\input{systematics.tex}
+
+\section{Instrument Implementation (10 pgs)}
+\input{instrument.tex}
+
+\section{Mission Implementation (5 pgs)}
+\input{mission.tex}
+
+\section{Technology Development (4 pgs)}
+\input{technology.tex}
+
+\section{Cost (6 pgs)}
+\input{cost.tex}
+
+\newpage
+
+\bibliography{mybib}
+
+\input{acronym}
+
+\end{document}
+
+
