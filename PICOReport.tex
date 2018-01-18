@@ -9,6 +9,7 @@
 \usepackage{natbib}
 \usepackage{acronym}
 
+
 % define formatting
 %\pagestyle{empty}
 \parindent=0pt
@@ -24,6 +25,11 @@
 \setlength{\floatsep}{0.5\floatsep}
 \setlength{\dblfloatsep}{0.5\dblfloatsep}
 \setlength{\dbltextfloatsep}{0.5\dbltextfloatsep}
+
+%subfiles
+\usepackage{subfiles}
+\graphicspath{{images/}{../images/}}
+
 
 \begin{document}
 
@@ -43,42 +49,42 @@
 %\twocolumn
 
 \section{Executive Summary (1 pg)} 
-\input{executive.tex}
+\subfile{sections/executive.tex}
 
 \section{PICO in Brief (2 pages)}
-\input{picoinbrief.tex}
+\subfile{sections/picoinbrief.tex}
 
 \section{Science (22 pgs)}
 
 \subsection{Fundamental Physics}
-\input{fundamentalsci.tex}
+\subfile{sections/fundamentalsci.tex}
 
 \subsection{Extragalactic Science}
-\input{extragalacticsci.tex}
+\subfile{sections/extragalacticsci.tex}
 
 \subsection{Galactic Science}
-\input{galacticsci.tex}
+\subfile{sections/galacticsci.tex}
 
 \subsection{Legacy Science}
-\input{legacysci.tex}
+\subfile{sections/legacysci.tex}
 
 \subsection{Foregrounds}
-\input{foregrounds.tex}
+\subfile{sections/foregrounds.tex}
 
 \subsection{Systematic Errors}
-\input{systematics.tex}
+\subfile{sections/systematics.tex}
 
 \section{Instrument Implementation (10 pgs)}
-\input{instrument.tex}
+\subfile{sections/instrument.tex}
 
 \section{Mission Implementation (5 pgs)}
-\input{mission.tex}
+\subfile{sections/mission.tex}
 
 \section{Technology Development (4 pgs)}
-\input{technology.tex}
+\subfile{sections/technology.tex}
 
 \section{Cost (6 pgs)}
-\input{cost.tex}
+\subfile{sections/cost.tex}
 
 \newpage
 
