@@ -6,6 +6,8 @@
 \usepackage{multirow}
 \usepackage{cite}
 \usepackage{color}
+\usepackage{longtable}
+
 \usepackage{natbib}
 \usepackage[pdftex,
  pdfauthor={PICO Systematics Working Group},
@@ -21,7 +23,47 @@
 \topmargin=0.in \headheight=0in \headsep=-0.1in \textheight=9.2in
 \textwidth=6.5in \oddsidemargin=0in
 
+\usepackage{array}
+\usepackage[table]{xcolor}   
+
+
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{K}[1]{>{\raggedright\centering\arraybackslash}m{#1}}
+
+
+\newcommand\PRL{{\it Phys.~Rev.~Lett.}}
+\newcommand\prl{{\it Phys.~Rev.~Lett.}}
+\newcommand\ApJ{{\it Ap.~J.}}
+\newcommand\apj{{\it Ap.~J.}}
+\newcommand\ApJL{{\it Ap.~J.~Lett.}}
+\newcommand\apjl{{\it Ap.~J.~Lett.}}
+\newcommand\ApJS{{\it Ap.~J.~Suppl.}}
+\newcommand\apjs{{\it Ap.~J.~Suppl.}}
+\newcommand\PR{{\it Phys.~Rev.}}
+\newcommand\PL{{\it Phys.~Lett.}}
+\newcommand\MNRAS{{\it MNRAS}}
+\newcommand\mnras{{\it MNRAS}}
+\newcommand\MNRASL{{\it MNRAS\ Lett.}}
+\newcommand\AnA{{\it Astron.~Astrophys.}}
+\newcommand\BAAS{{\it Bull.~Am.~Astron.~Soc.}}
+\newcommand\NP{{\it Nucl.~Phys.}}
+\newcommand\RMP{{\it Rev.~Mod.~Phys.}}
+\newcommand\ARAA{{\it ARAA}}
+\newcommand\prd{{\it Phys.~Rev.~D.}}
+\newcommand\plb{{\it Phys.~Lett.~B.}}
+\newcommand\ao{{\it Appl.~Optics}}
+\newcommand\aap{{\it Astron.~Astrophys.}}
+\newcommand\aaps{{\it Astron.~Astrophys.~Suppl.}}
+\newcommand\pasp{{\it Proc.~Ast.~Soc.~Pac.}}
+\newcommand\josa{{\it J.~Opt.~Soc.~Am.}}
+\newcommand\phr{{\it Phys. Reports}}
+\newcommand\aj{{\it Astronomical Journal}}
+\newcommand\jcap{{\it JCAP}}
+\newcommand\apss{{\it ApSS}}
+
 \begin{document}
+\bibliographystyle{unsrt}
+
   \maketitle 
 
 \section{Introduction}
@@ -30,9 +72,29 @@ Here we list systematic errors that impact the polarization science of the PICO 
 
 We relied a lot on previous thinking for the CORE and Litebird concepts.
 
-\section{Review of Major Systematics Encountered in Previous Missions}
+\section{Review of Major Systematics}
 
-Specifically Planck and any ground-based relevant work.
+Specifically Planck\cite{Planck_LowEll} and any ground-based relevant work.
+\begin{center}
+ \begin{longtable}{K{3cm} L{4.3cm} L{4.3cm} L{4.3cm}}
+ \hline
+\textbf{Name} & Description & Effect & Mitigation \\
+ \hline
+ \endhead
+ Bandpass Mismatch & 
+ Edges and shapes of the the spectral filters vary from detector to detector. Can be thought of as spectral-source-dependent gain variation between detectors. &
+ T ? P, P ? P leakage &
+ a) Calibration 
+b) The Planck papers give a prescription for correction and a map-making algorithm 'SRoll'. Ranajoy(RB) has developed a technique to filter out the spurious signal demonstrated in ECO paper and the independent paper will be out shortly. 
+c) full I/Q/U maps for individual detectors 
+d) polarization modulation \\
+  
+ 
+ \hline
+ \rowcolor{white}
+ \caption{\label{tbl:TechnologyGaps} \textbf{Technologies to be developed for exo-Earth direct imaging and characterization.}}
+ \end{longtable}
+ \end{center}
 
 \section{PICO Reference Mission}
 
@@ -64,7 +126,10 @@ Here are more details about the three that worried us the most.
 
 What possible overlap with S4.
 
-\bibliographystyle{unsrt}
+\newpage
+
+\bibliography{PICO_systematics_memo}
+
 \end{document}
 
 
