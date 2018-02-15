@@ -14,9 +14,10 @@
  pdftitle={PICO Systematic Error Report},
  pdfdisplaydoctitle=True]{hyperref}
 
-\title{Systematics Error Study for the PICO Probe Study} 
+\title{Probe of Inflation and Cosmic Origins (PICO) Systematic Errors and their Mitigation} 
 
-\author{PICO Systematics Working Group: Brendan Crill, etc, etc.}
+\author{PICO Systematic Working Group: Brendan Crill, Ranajoy Banerji, \\ Colin Bischoff, Julian Borrill, 
+Jacques Delabrouille, Joy Didier, Shaul Hanany, Eric Hivon, \\Brad Johnson, Paolo Natoli, Maurizio Tomasi, Andrea Zonca, et al.}
 % define formatting
 %\pagestyle{empty}
 \parindent=0pt
@@ -74,22 +75,71 @@ We relied a lot on previous thinking for the CORE and Litebird concepts.
 
 \section{Review of Major Systematics}
 
-Specifically Planck\cite{Planck_LowEll} and any ground-based relevant work.
+
 \begin{center}
  \begin{longtable}{K{3cm} L{4.3cm} L{4.3cm} L{4.3cm}}
  \hline
-\textbf{Name} & Description & Effect & Mitigation \\
+\textbf{Name} & \textbf{Description} & \textbf{State-of-the-art} & \textbf{Additional Possible Mitigation} \\
  \hline
  \endhead
+  \rowcolor{lightgray}
+&  \textbf{Pair Differencing} & & \\
  Bandpass Mismatch & 
- Edges and shapes of the the spectral filters vary from detector to detector. Can be thought of as spectral-source-dependent gain variation between detectors. &
- T ? P, P ? P leakage &
- a) Calibration 
-b) The Planck papers give a prescription for correction and a map-making algorithm 'SRoll'. Ranajoy(RB) has developed a technique to filter out the spurious signal demonstrated in ECO paper and the independent paper will be out shortly. 
-c) full I/Q/U maps for individual detectors 
-d) polarization modulation \\
-  
- 
+ Edges and shapes of the the spectral filters vary from detector to detector. leaks T $\to$ P, P $\to$ P leakage if the source's bandpass differs from calibrator's bandpass\cite{Hoang_2017} & Precise bandpass measurement\cite{Pajot_2010};
+SRoll algorithm\cite{Planck_Lowell}; filtering technique\cite{CORE_systematics};   &
+polarization modulation; full I/Q/U maps for individual detectors mitigates; \textbf{Current techniques may be adequate}  \\
+Beam mismatch &
+\\
+Gain mismatch &
+\\
+\hline 
+  \rowcolor{lightgray}
+&  \textbf{Optics} & & \\
+Instrumental Polarization Sky T$\to$P & 
+\\
+Instrumental emission & 
+\\
+Cross-polarization &
+\\
+Sidelobes: Reflector Spillover & & &
+See Sect.~\ref{sec:fsl}\\
+Sidelobes: Stray reflections & & &
+See Sect.~\ref{sec:fsl}
+\\
+Sidelobes: Diffraction & & &
+See Sect.~\ref{sec:fsl}
+\\
+Beam ghosting & & &
+See Sect.~\ref{sec:fsl}
+\\
+Scattering & & &
+See Sect.~\ref{sec:fsl}
+\\
+Pointing systematic error
+\\
+Pointing jitter
+\\
+Chromatic beam shape
+\\
+\hline
+  \rowcolor{lightgray}
+&  \textbf{Detectors} & & \\
+Time Response Accuracy and Stability  &
+\\
+Readout Cross-talk &
+\\
+Polarization Angle & & &
+See Sect.~\ref{sec:angle}
+\\
+Gain Stability & & &
+See Sect.~\ref{sec:gain}
+\\
+Detector Non-linearity &
+\\
+Residual correlated cosmic ray hits &
+\\
+ADC non-linearity &
+\\
  \hline
  \rowcolor{white}
  \caption{\label{tbl:TechnologyGaps} \textbf{Technologies to be developed for exo-Earth direct imaging and characterization.}}
@@ -106,17 +156,16 @@ We used toast, quickpol, and other tools.
 
 \section{Highest Priority Systematics}
 
-Include the table of systematic errors from the wiki.
-
 Here are more details about the three that worried us the most.
 
 \subsection{Far Sidelobes}
+\label{sec:fsl}
 
 \subsection{Polarization Angle Calibration}
+\label{sec:angle}
 
 \subsection{Time-variable Gain Mismatch}
-
-\subsection{Lower Priority Systematics}
+\label{sec:gain}
 
 \section{Other Systematics}
 
