@@ -39,7 +39,7 @@
 
 \parindent = 15pt
 
-\tableofcontents
+%\tableofcontents
 
 \setcounter{page}{0}
 \setcounter{figure}{0}
@@ -48,50 +48,48 @@
 %\twocolumn
 
 %test figure in main file
-\begin{figure}[!htb]
-\centering
-\includegraphics[width=4cm]{images/example0}
-\caption{example0}
-\label{fig:im_1}
-\end{figure}
 %
 
-\section{Executive Summary (1 pg)} 
+\section{Executive Summary (2 pg)} 
 \subfile{executive.tex}
 
-\section{PICO in Brief (2 pages)}
-\subfile{picoinbrief.tex}
+\section{The Science Landscape (4 pages)}
+\subfile{landscape.tex}
 
-\section{Science (22 pgs)}
+\section{Probe of Inflation and Cosmic Origins - PICO (24 pgs)}
 
-\subsection{Fundamental Physics}
-\subfile{fundamentalsci.tex}
+Science goals and objectives; STM; perceived science impact; Observations, measurements (including science yield estimates)
 
-\subsection{Extragalactic Science}
-\subfile{extragalacticsci.tex}
+The subsections below should follow the key science questions identified in the previous section. The Subsection names that are currently here are temporary. 
+ 
+   \subsection{Fundamental Physics (5 pgs)}
+   \subfile{fundamentalsci.tex}
 
-\subsection{Galactic Science}
-\subfile{galacticsci.tex}
+   \subsection{Extragalactic Science (5 pgs)}
+   \subfile{extragalacticsci.tex}
 
-\subsection{Legacy Science}
-\subfile{legacysci.tex}
+   \subsection{Galactic Science (4 pgs)}
+   \subfile{galacticsci.tex}
 
-\subsection{Foregrounds}
-\subfile{foregrounds.tex}
+   \subsection{Legacy Science (3 pgs)}
+   \subfile{legacysci.tex}
 
-\subsection{Systematic Errors}
-\subfile{systematics.tex}
+   \subsection{Foregrounds (4 pgs)}
+   \subfile{foregrounds.tex}
 
-\section{Instrument Implementation (10 pgs)}
+   \subsection{Systematic Errors (3 pgs)}
+   \subfile{systematics.tex}
+
+\section{Instrument (6 pgs)}
 \subfile{instrument.tex}
 
-\section{Mission Implementation (5 pgs)}
+\section{Mission (3 pgs)}
 \subfile{mission.tex}
 
-\section{Technology Development (4 pgs)}
+\section{Technology Maturation (4 pgs)}
 \subfile{technology.tex}
 
-\section{Cost (6 pgs)}
+\section{Cost (5 pgs)}
 \subfile{cost.tex}
 
 \newpage
@@ -102,4 +100,10 @@
 
 \end{document}
 
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[width=4cm]{images/example0}
+%\caption{example0}
+%\label{fig:im_1}
+%\end{figure}
 
