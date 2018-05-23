@@ -50,73 +50,104 @@
 %test figure in main file
 %
 
-\section{Executive Summary (2 pg)} 
+
+\section{Executive Summary (2 pg, Hanany)} 
 \subfile{executive.tex}
 
-Page count should sum to 49 + 1 margin
+\section{Science (30.5 pages)}
 
-\section{Science (29.5 pages)}
-\subfile{landscape.tex}
+    \subsection{Introduction (1 pg, Hanany)}
+     NASA suggested table of contents says Science Intro or Landscape section should include:
+        \begin{itemize}
+        \item State of the Art in the Field
+        \item Compelling Outstanding Questions
+        \item Needed Capabilities for Progress
+        \end{itemize}
 
-\subsection{Science Goals (18 pgs) } 
+      \subfile{landscape.tex}
 
-This describes the goals that drive the design
+\subsection{Science Objectives (17.5 pgs) } 
 
-\subsubsection{Cosmic Inflation}
+  The PICO Science Traceability Matrix (2pg, Hanany\&Trangsrud) will be inserted around here.  It is an 11x17 foldout, so it counts as 2 pages, which leaves 16 to all the rest in 2.2. 
+    
+    \vspace{12pt}
+     FOR EACH OF THE BELOW SUBSECTIONS:
+    \begin{itemize}
+    \item Introduce and elaborate on the applicable PICO ``Science Objectives" from the STM table (what do they mean and why are they important)
+    \item Observations/Measurements that enable PICO to accomplish each Science Objective (tell the data analysis story that connects the Observations column of the STM to the Science Objective column)
+    \item Contextualize relative to sub-orbital and other space missions
+    \item Science yield estimate (be quantitative. how well will PICO do at Baseline/Required performance? at Current Best Estimate performance?)
+    \item Include a summary plot or table which demonstrates PICO's performance against the Science Objective as written (e.g. how it discriminates between different theories) 
+    \item Perceived science impact (be qualitative. this isn't about reducing the sigma on a parameter.  this is about what we will learn about nature)
+    \end{itemize}
 
-\subsubsection{Light Relics} 
 
-\subsubsection{Neutrinos}
+\subsubsection{Fundamental Physics (6 pgs, Flauger, Green)}
 
-\subsubsection{Cosmic Structure Formation and Evolution}
+To include: Cosmic Inflation, Particle Physics (Neutrinos and Light Relics)
 
-\subsubsection{Galactic Structure and Star Formation}
+        Should address these Science Objectives from the STM:
+        \begin{itemize}
+        \item ``Probe the physics of the big bang by detecting the energy scale at which inflation occurred if it is above $4\times10^{15}$ GeV, or place an upper limit if it is below" [$r$]
+        \item ``Probe the physics of the big bang by excluding classes of potentials as the driving force of inflation" [$n_s$, $n_{run}$]
+        \item ``Determine the sum of neutrino masses, and distinguish between inverted and normal neutrino mass hierarchies" [$\Sigma m_{\nu}$]
+        \item ``Detect departures from or tightly constrain the thermal history of the universe" [$N_{eff}$]
+        \item Origin of magnetic fields and cosmic birefringence
+        \end{itemize} 
 
-\subsection{Measurement Requirements (2 pgs)}
+\subsubsection{Cosmic Structure Formation and Evolution (4 pgs. Battaglia \& Alvarez)}
+
+Should address these Science Objectives from the STM that relate to reionization + ??
+
+\subsubsection{Galactic Structure and Star Formation (5 pgs, Chuss \& Fissel)}
+
+Should address these Science Objectives from the STM:
+        \begin{itemize}
+        \item ``Determine whether the interstellar medium of our galaxy is unique by comparing the ratio of energy in magnetic field to turbulence to that in nearby galaxies."
+        \item ``Determine if magnetic fields are the dominant cause of low star formation efficiency in our Galaxy."
+        \item ``Determine whether radiative torque is responsible for the alignment of dust grains with magnetic fields"
+        \item ``Determine the influence of the magnetic field on Galactic dynamics within the Milky Way."
+        \end{itemize}
+
+\subsection{Measurement Requirements (2 pgs, Hanany \& Trangsrud)}
 
 Some requirements derive from the science ($\tau$ = full sky)
 Some requirements derive from foregrounds (frequency coverage) and some from systematics (particular scan pattern)
 
-\subsection{Ancillary Science (2 pgs)} 
+\subsection{Additional Science (2 pgs, de Zotti)} 
 
 Describe science that we get for free. 
 
-\subsection{Complementarity with Sub-Orbital Measurements (0.5 pg)} 
+\subsection{Complementarity with other Measurements and Surveys (1 pg)} 
 
-%\section{Probe of Inflation and Cosmic Origins - PICO (24 pgs)}
+Should describe complementarity with sub-orbital CMB measurements and with other surveys, 
+both in space and on the ground.  This is summary text (more detail in subsections about specific objectives)
 
-%Science goals and objectives; STM; perceived science impact; Observations, measurements (including science yield estimates)
-
-%The subsections below should follow the key science questions identified in the previous section. The Subsection names that are currently here are temporary. 
- 
-%   \subsection{Fundamental Physics (5 pgs)}
-%   \subfile{fundamentalsci.tex}
-
-%   \subsection{Extragalactic Science (5 pgs)}
-%  \subfile{extragalacticsci.tex}
-
-%   \subsection{Galactic Science (4 pgs)}
-%   \subfile{galacticsci.tex}
-
-%   \subsection{Legacy Science (3 pgs)}
-%   \subfile{legacysci.tex}
 
 \subsection{Foregrounds (4 pgs)}
 \subfile{foregrounds.tex}
 
-\subsection{Systematic Errors (3 pgs)}
+\subsection{Systematic Errors (3 pgs, Crill)}
 \subfile{systematics.tex}
 
-\section{Instrument (6 pgs)}
+\section{Instrument (6 pgs, Trangsrud \& Hanany)}
 \subfile{instrument.tex}
 
-\section{Mission (3 pgs)}
+\section{Mission (3 pgs, Trangsrud)}
 \subfile{mission.tex}
 
-\section{Technology Maturation (4 pgs)}
+\section{Technology Maturation (4 pgs, O'Brient \& Trangsrud)}
 \subfile{technology.tex}
 
-\section{Cost (4 pgs)}
+For each technology include:
+\begin{itemize}
+\item Requirements
+\item Planned activities
+\item Schedule and Milestones
+\item Estimated Cost
+\end{itemize}
+
+\section{Management, Risk, Heritage, and Cost (4 pgs, Trangsrud)}
 \subfile{cost.tex}
 
 \newpage
