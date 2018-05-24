@@ -1,9 +1,126 @@
 \documentclass[PICOReport.tex]{subfiles}
 
+%\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%\newcolumntype{K}[1]{>{\raggedright\centering\arraybackslash}m{#1}}
+
 \begin{document}
 
-State of knowledge; What have we assessed in this study; what's left to be done (Crill)
+A CMB mission aiming for the unprescedented sensitivity of PICO must control
+systematic errors to avoid bias or an increased variance of the
+science measurement.   
+Systematics must be controlled or corrected to a level that enables the PICO
+science goals.
+Mitigation of systematic errors is the most important reason (along with the broad
+wavelength band) to perform a measurement of the CMB polarization from a space telescope,.
+Compared with a ground-based, sub-orbital, or even a space mission in
+low-Earth orbit, the L2 environment offers excellent stability as well
+as the ability to observe large fractions of the sky on many time
+scales without interference from the Sun, Earth, or Moon.
+This redundancy of observations allows the checking of consisitency of
+results and an improved ability to correct systematic errors in
+post-processing analysis.
 
+During the course of the PICO Study, a systematics working group
+examined systematic errors affecting PICO, based on the experience of 
+past missions, in particular Planck.  
+Most  systematic errors can be mitigated by careful design and engineering of 
+the spacecraft and instrument, and the use of present-day state-of-the-art
+technology and data analysis tools.   
+However, some systematic errors do still present a risk that they may
+limit the measurement and the group studied these in further detail.
+
+End-to-end simulation of the experiment is an essential tool,
+including realistic instabilities and non-idealities of the spacecraft,
+telescope, instrument and folding in data post-processing techniques
+used to mitigate the effects.  During the study, the PICO team used 
+simulation and analysis tools developed for the Planck mission\cite{plank2015_xii_focalplane} and for
+the CORE mission concept, adapting them for PICO.  While not fully
+developed, these tools allowed a deeper examination of the most
+worrisome systematic errors.
+
+\subsubsection{List of Systematics}
+The systematic errors face by PICO can be categorized into three broad categories 
+1) Intensity-to-polarization leakage, 2) stability, and 3)
+straylight.  
+
+\begin{table}[h!]
+\centering
+\scriptsize
+ \begin{tabular}{p{4.1cm} p{4.1cm} p{4.1cm} p{4.1cm}}
+ \hline
+\textbf{Name} & \textbf{Description} & \textbf{State-of-the-art} & \textbf{Additional Possible Mitigation} \\
+ \hline
+\textbf{Leakage} & & \\
+ Bandpass Mismatch & 
+ Edges and shapes of the the spectral filters vary from detector to detector. leaks T $\to$ P, P $\to$ P leakage if the source's bandpass differs from calibrator's bandpass\cite{Hoang_2017} & Precise bandpass measurement\cite{Pajot_2010};
+SRoll algorithm\cite{Planck_Lowell}; filtering technique\cite{CORE_systematics};   &
+polarization modulation; full I/Q/U maps for individual detectors mitigates; \textbf{Current techniques may be adequate}  \\
+Beam mismatch & & See Sect.~\ref{sec:angle}
+\\
+Gain mismatch &
+\\
+Time Response Accuracy and Stability  &
+\\
+Readout Cross-talk & &
+\\
+Polarization Angle & & &
+See Sect.~\ref{sec:angle}
+\\
+
+Cross-polarization &
+\\
+Chromatic beam shape
+\\
+\hline 
+\textbf{Stability} & & \\
+
+Pointing jitter
+\\
+
+Gain Stability & & &
+See Sect.~\ref{sec:gain}
+\\
+\hline
+\textbf{Straylight} & & \\
+Far Sidelobes& & &
+See Sect.~\ref{sec:fsl}\\
+ \hline
+\textbf{Other} \\
+Residual correlated cosmic ray hits &
+\\
+\hline
+ \end{tabular}
+\caption{\label{tbl:SystematicsList} Systematic errors expected to affect PICO.}
+ \end{table}
+
+\subsubsection{Absolute polarization angle calibration}
+\label{sec:angle}
+...
+
+\subsubsection{Gain Stability}
+\label{sec:gain}
+...
+
+\subsubsection{Far Sidelobe Pickup}
+\label{sec:fsl}
+...
+
+\subsubsection{Key Findings}
+Understanding and controlling the effects of systematic errors in a
+next-generation CMB probe is critical.
+
+The raw sensitivity of the instrument should include enough margin
+that data subsets can independently archieve the science goals.
+This allows testing of the results in the data analysis, some margin
+for data cuts as needed, and  
+
+In a PICO mission's phase A, a complete end-to-end system-level
+simulation facility would be developed to assist the team to set
+requirements and conduct trades between subsystem requirements while
+realistically accounting for post-processing mitigation.  Any future
+CMB mission is likely to have similar orbit  
+and scan characteristics to those of PICO, and there is an opportunity for NASA and
+the CMB community to begin to develop this capability now.
 
 
 \end{document}
