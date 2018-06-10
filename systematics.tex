@@ -21,27 +21,29 @@ results and an improved ability to correct systematic errors in
 post-processing analysis.
 
 During the course of the PICO Study, a systematics working group
-examined systematic errors affecting PICO, based on the experience of 
-past missions, in particular Planck.  
+examined systematic errors affecting PICO,
 Most  systematic errors can be mitigated by careful design and engineering of 
 the spacecraft and instrument, and the use of present-day state-of-the-art
 technology and data analysis tools.   
-However, some systematic errors do still present a risk that they may
-limit the measurement and the group studied these in further detail.
+However, some systematic errors may
+limit the precision of the B-mode measurement and the group studied
+these in further detail. 
+The work was based on the experience of the group's involvement with
+past missions, in particular Planck, and in recent detailed studies on
+the CORE and LiteBird  concepts
 
 End-to-end simulation of the experiment is an essential tool,
 including realistic instabilities and non-idealities of the spacecraft,
 telescope, instrument and folding in data post-processing techniques
 used to mitigate the effects.  During the study, the PICO team used 
-simulation and analysis tools developed for the Planck mission\cite{plank2015_xii_focalplane} and for
-the CORE mission concept, adapting them for PICO.  While not fully
-developed, these tools allowed a deeper examination of the most
-worrisome systematic errors.
+ simulation and analysis tools developed for the Planck mission\cite{plank2015_xii_focalplane} and 
+the CORE mission concept, adapting them for PICO.  These tools allowed
+a deeper examination of several key systematic errors. 
 
 \subsubsection{List of Systematics}
 The systematic errors face by PICO can be categorized into three broad categories 
 1) Intensity-to-polarization leakage, 2) stability, and 3)
-straylight.  
+straylight.    These were prioritized for further study based on how 
 
 \begin{table}[h!]
 \centering
@@ -50,11 +52,22 @@ straylight.
  \hline
 \textbf{Name} & \textbf{Description} & \textbf{State-of-the-art} & \textbf{Additional Possible Mitigation} \\
  \hline
-\textbf{Leakage} & & \\
+\textbf{Leakage} & &\\
  Bandpass Mismatch & 
  Edges and shapes of the the spectral filters vary from detector to detector. leaks T $\to$ P, P $\to$ P leakage if the source's bandpass differs from calibrator's bandpass\cite{Hoang_2017} & Precise bandpass measurement\cite{Pajot_2010};
 SRoll algorithm\cite{Planck_Lowell}; filtering technique\cite{CORE_systematics};   &
-polarization modulation; full I/Q/U maps for individual detectors mitigates; \textbf{Current techniques may be adequate}  \\
+polarization modulation; full I/Q/U maps for individual detectors
+                                                                                     mitigates;
+                                                                                     addiaional
+                                                                                     component
+                                                                                     solution
+                                                                                     (see
+                                                                                     Banerji\&
+                                                                                              Delabrouille
+                                                                                               (in
+                                                                                             prep)
+                                                                                               \textbf{Current
+                                                                                     techniques may be adequate}  \\
 Beam mismatch & & See Sect.~\ref{sec:angle}
 \\
 Gain mismatch &
@@ -95,6 +108,15 @@ Residual correlated cosmic ray hits &
 
 \subsubsection{Absolute polarization angle calibration}
 \label{sec:angle}
+%An error in the angle of polarization sensitivity of the
+%polarization-sensive detectors  mixes E-mode and B-mode polarization
+%and can thus confuse a measurement of primoridal gravitational wave
+%signature. The polarization direction must be calibrated to high
+%precision.  The relative angle between polarimeters can be determined
+%to very good precision but an absolute angle must be calibrated
+%ref). The ground-based calibration of Planck/HFI (Rosset et al 
+%2010) achieved better than 1$^\circ$.  PICO requires XXX$^\circ$
+%precision which can instead by detemied by .
 ...
 
 \subsubsection{Gain Stability}
@@ -111,8 +133,8 @@ next-generation CMB probe is critical.
 
 The raw sensitivity of the instrument should include enough margin
 that data subsets can independently archieve the science goals.
-This allows testing of the results in the data analysis, some margin
-for data cuts as needed, and  
+This allows testing of the results in the data analysis and additional
+data cuts, if needed.
 
 In a PICO mission's phase A, a complete end-to-end system-level
 simulation facility would be developed to assist the team to set
