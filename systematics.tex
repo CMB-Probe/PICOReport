@@ -9,10 +9,11 @@ A CMB mission aiming for the unprescedented sensitivity of PICO must control
 systematic errors to avoid bias or an increased variance of the
 science measurement.   
 Systematics must be controlled or corrected to a level that enables the PICO
-science goals.
-Mitigation of systematic errors is the most important reason (along with the broad
-wavelength band) to perform a measurement of the CMB polarization from a space telescope,.
-Compared with a ground-based, sub-orbital, or even a space mission in
+science goals (better than 1 nanoKelvin in the map).
+Mitigation of systematic errors is the most important reason (along
+with the availability of broad wavelength coverage) to perform a
+measurement of the CMB polarization from a space telescope; Compared
+with a ground-based, sub-orbital, or even a space mission in 
 low-Earth orbit, the L2 environment offers excellent stability as well
 as the ability to observe large fractions of the sky on many time
 scales without interference from the Sun, Earth, or Moon.
@@ -35,7 +36,9 @@ the CORE and LiteBird  concepts
 End-to-end simulation of the experiment is an essential tool,
 including realistic instabilities and non-idealities of the spacecraft,
 telescope, instrument and folding in data post-processing techniques
-used to mitigate the effects.  During the study, the PICO team used 
+used to mitigate the effects.  Systematics are coupled with the
+spacecraft scan strategy, and the details of the 
+data analysis pipeline.  During the study, the PICO team used 
  simulation and analysis tools developed for the Planck mission\cite{plank2015_xii_focalplane} and 
 the CORE mission concept, adapting them for PICO.  These tools allowed
 a deeper examination of several key systematic errors. 
@@ -43,7 +46,10 @@ a deeper examination of several key systematic errors.
 \subsubsection{List of Systematics}
 The systematic errors face by PICO can be categorized into three broad categories 
 1) Intensity-to-polarization leakage, 2) stability, and 3)
-straylight.    These were prioritized for further study based on how 
+straylight.    These were prioritized for further study based on the
+team's assessment of how well these systematics are understood by the
+community, whether mitigation techniques exist - either in instrument
+design or in data analysis.
 
 \begin{table}[h!]
 \centering
@@ -58,7 +64,7 @@ straylight.    These were prioritized for further study based on how
 SRoll algorithm\cite{Planck_Lowell}; filtering technique\cite{CORE_systematics};   &
 polarization modulation; full I/Q/U maps for individual detectors
                                                                                      mitigates;
-                                                                                     addiaional
+                                                                                     additional
                                                                                      component
                                                                                      solution
                                                                                      (see
@@ -137,12 +143,12 @@ This allows testing of the results in the data analysis and additional
 data cuts, if needed.
 
 In a PICO mission's phase A, a complete end-to-end system-level
-simulation facility would be developed to assist the team to set
-requirements and conduct trades between subsystem requirements while
+simulation software facility would be developed to assist the team in setting 
+requirements and conducting trades between subsystem requirements while
 realistically accounting for post-processing mitigation.  Any future
 CMB mission is likely to have similar orbit  
-and scan characteristics to those of PICO, and there is an opportunity for NASA and
-the CMB community to begin to develop this capability now.
+and scan characteristics to those of PICO, thus there is an opportunity for NASA and
+the CMB community to invest in further development of this capability now.
 
 
 \end{document}
