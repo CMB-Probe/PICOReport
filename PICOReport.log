@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 JUL 2018 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 JUL 2018 14:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -315,24 +315,24 @@ Overfull \hbox (13.83615pt too wide) in paragraph at lines 137--137
 g, Lawrence?
  []
 
-[2] (./foregrounds.tex) (./systematics.tex [3]
+(./foregrounds.tex) [2] (./systematics.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
 
 
-Package natbib Warning: Citation `Hoang_2017' on page 4 undefined on input line
+Package natbib Warning: Citation `Hoang_2017' on page 3 undefined on input line
  73.
 
 
-Package natbib Warning: Citation `Pajot_2010' on page 4 undefined on input line
+Package natbib Warning: Citation `Pajot_2010' on page 3 undefined on input line
  73.
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
+Package natbib Warning: Citation `Planck_Lowell' on page 3 undefined on input l
 ine 74.
 
 
-Package natbib Warning: Citation `CORE_systematics' on page 4 undefined on inpu
+Package natbib Warning: Citation `CORE_systematics' on page 3 undefined on inpu
 t line 74.
 
 
@@ -340,13 +340,16 @@ Overfull \hbox (44.87086pt too wide) in paragraph at lines 67--122
  [][] 
  []
 
-[4]) (./instrument.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3]) (./instrument.tex
 Overfull \hbox (3.97801pt too wide) in paragraph at lines 5--6
 \OT1/ptm/m/n/12 Telescope (Hanany / Young), fo-cal plane (Hanany / Young), cool
 -ing (Trangsrud), read-out (O'Brient) 
  []
 
-) (./mission.tex) (./technology.tex) (./cost.tex) [5] (./PICOReport.bbl)
+) [4] (./mission.tex) (./technology.tex) (./cost.tex) [5] (./PICOReport.bbl)
 (./acronym.tex)
 
 Package natbib Warning: There were undefined citations.
@@ -355,7 +358,7 @@ Package natbib Warning: There were undefined citations.
 Here is how much of TeX's memory you used:
  3767 strings out of 493014
  48807 string characters out of 6133351
- 122759 words of memory out of 5000000
+ 124759 words of memory out of 5000000
  7192 multiletter control sequences out of 15000+600000
  25591 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -370,7 +373,7 @@ pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (7 pages, 104568 bytes).
+Output written on PICOReport.pdf (7 pages, 104552 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
