@@ -1,8 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  16 JUL 2018 09:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  18 JUL 2018 14:29
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**PICOReport
+**PICOReport.tex
 (./PICOReport.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
@@ -358,7 +359,7 @@ Here is how much of TeX's memory you used:
  7192 multiletter control sequences out of 15000+600000
  25591 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,43p,292b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,43p,296b,333s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/bas
 e/8r.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
 i12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
@@ -369,7 +370,7 @@ pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/20
 16/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (7 pages, 104579 bytes).
+Output written on PICOReport.pdf (7 pages, 104568 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
