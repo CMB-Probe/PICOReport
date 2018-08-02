@@ -9,23 +9,14 @@ In developing the theoretical framework for measuring the faint CMB
 polarization signal, the CMB community has long recognized the impacts
 of systematic errors due to instrumentation and data analysis.   A rich literature investigates the types of
 systematic errors that confound the polarization measurement and ways
-to mitigate them. (Cite Hu(20013)).
-% Hu, W., Hedman, M. M., & Zaldarriaga, M. (2003). Benchmark
-% parameters for CMB polarization experiments. Physical Review D,
-% 67(4), 043004. http://doi.org/10.1103/PhysRevD.67.043004
+to mitigate them\cite{hu03}. 
 Each on-orbit measurement of CMB polarization was limited by
 sysetmatic errors until an in-depth study of the systematics was
 performed and the post-processing data analysis removed them as well
-as possible (cite Bennet et al (2013), Planck intermediate XLVI).
-% Planck collaboration, et al. (2016). Planck intermediate results - XLVI. Reduction of large-scale systematic effects in HFI polarization maps and estimation of the reionization optical depth. Astronomy and Astrophysics, 596, A107. http://doi.org/10.1051/0004-6361/201628890
-% Bennett, C. L., Larson, D., Weiland, J. L., Jarosik, N., Hinshaw, G., Odegard, N., et al. (2013). NINE-YEAR WILKINSON MICROWAVE ANISOTROPY PROBE( WMAP) OBSERVATIONS: FINAL MAPS AND RESULTS. The Astrophysical Journal Supplement Series, 208(2), 20. http://doi.org/10.1088/0067-0049/208/2/20
+as possible\cite{Bennett13,planck2016_xlvi}. 
 Additionally, recently proposed CMB missions, such as LiteBird and CORE, have placed
 systematic error mitigation at the forefront of the case for their
-mission (cite Natoli et al Wallis et al, some litebird paper).
-% Wallis, C. G. R., Brown, M. L., Battye, R. A., & Delabrouille,
-% J. (2017). Optimal scan strategies for future CMB satellite
-% experiments. Monthly Notices of the Royal Astronomical Society,
-% 466(1), 425–442. http://doi.org/10.1093/mnras/stw2577
+mission\cite{hazumi2012,wallis2017,Natoli2018}.
 
 \textbf{Note: Calculate a defensible level of acceptable systematics.
 For example, integrate r $10^{-3}$ and $10^{-4}$ power from ell 2-10, 10-50,(do a signal to
@@ -69,7 +60,7 @@ used to mitigate the effects.  Systematics are coupled with the
 spacecraft scan strategy, and the details of the 
 data analysis pipeline.  During the study, the PICO team used 
  simulation and analysis tools developed for the Planck mission\cite{plank2015_xii_focalplane} and 
-the CORE mission concept, adapting them for PICO.  These tools allowed
+the \core mission concept, adapting them for PICO.  These tools allowed
 a deeper examination of several key systematic errors. 
 
 \subsubsection{List of Systematics}
@@ -79,8 +70,6 @@ straylight.    These were prioritized for further study based on the
 team's assessment of how well these systematics are understood by the
 community, whether mitigation techniques exist - either in instrument
 design or in data analysis.
-
-In many cases, these systematic errors
 
 \begin{table}[h!]
 \centering
@@ -145,16 +134,89 @@ Residual correlated cosmic ray hits &
 
 \subsubsection{Absolute polarization angle calibration}
 \label{sec:angle}
-%An error in the angle of polarization sensitivity of the
-%polarization-sensive detectors  mixes E-mode and B-mode polarization
-%and can thus confuse a measurement of primoridal gravitational wave
-%signature. The polarization direction must be calibrated to high
-%precision.  The relative angle between polarimeters can be determined
-%to very good precision but an absolute angle must be calibrated
-%ref). The ground-based calibration of Planck/HFI (Rosset et al 
-%2010) achieved better than 1$^\circ$.  PICO requires XXX$^\circ$
-%precision which can instead by detemied by .
-\textbf{Eric H to write up}
+
+The rotation of the CMB polarization can have different causes,
+including 1. a birefringent primordial Universe, or a Faraday rotation
+due a primordial magnetic field \citep{Pogosian+2018}, 2. birefringent
+foregrounds, or interaction with the Galactic magnetic field,
+3. systematic effects in the instrument, and in particular an error on
+the actual direction of polarization measured by each detector.  
+While the first two sources create a rotation that may depend on scale,
+position and/or frequency, the latter is expected to mostly depend on
+the detector considered. 
+
+A rotation {\prang} of the direction of polarization mixes the $Q$ and $U$ Stokes parameters via
+$Q\pm iU \longrightarrow e^{\mp i 2 \prang} (Q\pm iU)$
+and affects the power spectra via (assuming the rotation to be independent on scale and location)
+\begin{subequations}
+\begin{align}
+C^{TT}_\ell &\longrightarrow & C^{TT}_\ell                                             &= & C^{TT}_\ell \\
+C^{TE}_\ell &\longrightarrow & \cos 2\prang\  C^{TE}_\ell                                &\sim & \left(1 - 2\prang^2\right)\ C^{TE}_\ell \\
+C^{EE}_\ell &\longrightarrow & \cos^2 2\prang\  C^{EE}_\ell + \sin^2 2\prang\  C^{BB}_\ell &\sim & C^{EE}_\ell - 4\prang^2\ \left(C^{EE}_\ell - C^{BB}_\ell\right) \\
+C^{BB}_\ell &\longrightarrow & \sin^2 2\prang\  C^{EE}_\ell + \cos^2 2\prang\  C^{BB}_\ell &\sim & C^{BB}_\ell + 4\prang^2\ \left(C^{EE}_\ell - C^{BB}_\ell\right)\\
+C^{TB}_\ell &\longrightarrow & \sin 2\prang\  C^{TE}_\ell                                &\sim & 2\prang\  C^{TE}_\ell \\
+C^{EB}_\ell &\longrightarrow & \sin 2\prang \cos 2\prang \left(C^{EE}_\ell -  C^{BB}_\ell\right)  &\sim & 2\prang\ \left(C^{EE}_\ell -  C^{BB}_\ell\right)
+\end{align}
+\end{subequations}
+as illustrated in Fig.~\ref{fig:rot_bb_tb_eb}.
+
+%------------------------------------------------------------------------------------------
+\begin{figure}[htb]
+\includegraphics[width=0.8\textwidth]{images/PICO_rotate_eb2_v0.\suffix}
+\caption{\label{fig:rot_bb_tb_eb} Effect of a rotation of the angle of polarization, assuming the Planck 2018 $\Lambda$-CDM best fit model \citep{Planck2018_VI} and expected \pico performances, with a perfect delensing \EFH{(the beam related systematics effects are still arbitrary; to be improved or removed)}.}
+\end{figure}
+%------------------------------------------------------------------------------------------
+%
+%------------------------------------------------------------------------------------------
+\begin{figure}[htb]
+\includegraphics[width=0.40\textwidth]{images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_2_4000.\suffix}
+\includegraphics[width=0.40\textwidth]{images/PICO_sens2_v0_F15p0_f0p5_n0p62_k4_a1p0_2_4000.\suffix}
+\caption{\label{fig:rot_sens_0} Upper panels: signal to noise ratio of the polarization angle {\prang} measurement
+by $EB$ (blue lines), $TB$ (green lines) and $BB$ (red lines), assuming either no delensing (solid lines) 
+or perfect delensing (dashes); the shaded area is $|\prang|/\sigma_\prang < 3$.
+Lower panels: degradation on measurement of $r$, for $r=10^{-2},\ 10^{-3},\ 10^{-4}$ (magenta, orange and cyan lines, respectively),
+either with no delensing (solid lines) or perfect delensing (dashes).
+The underlying cosmology is Planck 2018 $\Lambda$-CDM model (with $\tau = 0.054$), and assuming a polarized noise of rms = $0.62 \mu K.\arcmin$ and power spectrum $(1 + (\ell_{\rm knee}/\ell)^n)$ with $\ell_{\rm knee}=4$ and $n=1$, with the analysis done on the multipole range $[2,4000]$ over a sky fraction $\fsky=0.5$. The beam FWHM$=5\arcmin$ on the \emph{lhs} and $15\arcmin$
+on the \emph{rhs} panels.}
+\end{figure}
+%
+% \begin{figure*}[htb]
+% \includegraphics[width=0.5\textwidth]{fig_efh/PICO_sens2_v0_F15.0_f0.5_n0.62_k4_a1.0_2_4000.\suffix}
+% \caption{\label{fig:rot_sens_1} Same as Fig.~\ref{fig:rot_sens_0}, with a FWHM=$15\arcmin$.}
+% \end{figure*}
+%
+\begin{figure}[htb]
+\includegraphics[width=0.40\textwidth]{images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_20_4000.\suffix}
+\includegraphics[width=0.40\textwidth]{images/PICO_sens2_v0_F5p0_f0p5_n1p86_k4_a1p0_2_4000.\suffix}
+\caption{\label{fig:rot_sens_2} Same as Fig.~\ref{fig:rot_sens_0}, left panels, reducing the multipole range $[20,4000]$ (\emph{lhs}) or with a noise rms multiplied by 3 (\emph{rhs}).}
+\end{figure}
+% %
+% \begin{figure*}[htb]
+% \caption{\label{fig:rot_sens_3} Same as Fig.~\ref{fig:rot_sens_0}, with a noise rms multiplied by 3.}
+% \end{figure*}
+% %------------------------------------------------------------------------------------------
+
+In Planck, the ground measurements of the detectors orientation had an error of $\pm 0.9\degree$ (rel.) $\pm 0.3\degree$ (abs.) \citep{Rosset+2010}.
+
+The most recent constraints on cosmological birefringence (or systematic rotation) was set in \citet{Planck2016_XLIX}, looking for residual signal in $TB$ and $EB$ spectra, but are dominated by the uncertainties on the detector orientations.
+
+In \pico, the relative rotation of the detectors, could be measured with a good accuracy (a few $0.1\arcmin$ ?, \EFH{refs?}) on the CMB, but the overall rotation is difficult to determine.
+Known polarized sources, such as the Crab Nebula, could be used to do that but \citet{Aumont+2018} show that the current uncertainty of $0.33\degree = 20\arcmin$ on the Crab polarization orientation, obtained when combining all the available measurements, 
+would not the measurement of tensorial $B$ modes below $r \sim 0.01$ (assuming everything else to be nominal), far from \pico's target.
+
+Figures \ref{fig:rot_sens_0} and \ref{fig:rot_sens_2} show how the measurement of $r$ by PICO is degraded because of an overall rotation of polarization, and how $TB$ and $EB$ can be used to monitor precisely this rotation, assuming that the only source of polarization rotation is instrumental.
+These results are obtained assuming the spectra to have a Gaussian likelihood, with a variance $\propto 1/\fsky$, and ignoring the foreground contributions.
+
+
+
+$TB$ and $EB$ spectra can detect and measure a global polarisation rotation at levels ($~0.1 \arcmin$) well below those affecting $r$ measurements in $BB$ ($> 1 \arcmin$).
+However, in doing such studies, one can not ignore other important aspects of the measurements of CMB polarization:
+For instance, one has to consider how the delensing will affect the $B$ maps and their final noise levels.
+At large scales, the interaction with foregrounds makes masking necessary, which creates some extra $E$ to $B$ leakage, and complicates the estimation of $B$ modes and of their likelihood. It also necessitates a proper component separation technique, especially in presence of finite and probably mismatched spectral bandwith of the detectors.
+The time correlation of the noise (with a $1/f$ spectral shape), will also complicate the analysis.
+At intermediate and small scales, many other systematics, like those related to beams, will also have to be modeled.
+
+
 
 \subsubsection{Gain Stability}
 \label{sec:gain}
