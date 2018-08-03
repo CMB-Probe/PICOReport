@@ -1,4 +1,123 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{hu03}
+W.~{Hu}, M.~M. {Hedman}, and M.~{Zaldarriaga}.
+\newblock {Benchmark parameters for CMB polarization experiments}.
+\newblock {\em \prd}, 67:043004--+, February 2003.
+\newblock astro-ph/0210096.
+
+\bibitem{Bennett13}
+C.~L. {Bennett}, D.~{Larson}, J.~L. {Weiland}, N.~{Jarosik}, G.~{Hinshaw},
+  N.~{Odegard}, K.~M. {Smith}, R.~S. {Hill}, B.~{Gold}, M.~{Halpern},
+  E.~{Komatsu}, M.~R. {Nolta}, L.~{Page}, D.~N. {Spergel}, E.~{Wollack},
+  J.~{Dunkley}, A.~{Kogut}, M.~{Limon}, S.~S. {Meyer}, G.~S. {Tucker}, and
+  E.~L. {Wright}.
+\newblock {Nine-year Wilkinson Microwave Anisotropy Probe (WMAP) Observations:
+  Final Maps and Results}.
+\newblock {\em The Astrophysical Journal Supplement Series}, 208:20, October
+  2013.
+
+\bibitem{planck2016_xlvi}
+{Planck Collaboration}, N.~{Aghanim}, M.~{Ashdown}, J.~{Aumont},
+  C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday}, R.~B. {Barreiro},
+  N.~{Bartolo}, S.~{Basak}, R.~{Battye}, K.~{Benabed}, J.-P. {Bernard},
+  M.~{Bersanelli}, P.~{Bielewicz}, J.~J. {Bock}, A.~{Bonaldi}, L.~{Bonavera},
+  J.~R. {Bond}, J.~{Borrill}, F.~R. {Bouchet}, F.~{Boulanger}, M.~{Bucher},
+  C.~{Burigana}, R.~C. {Butler}, E.~{Calabrese}, J.-F. {Cardoso}, J.~{Carron},
+  A.~{Challinor}, H.~C. {Chiang}, L.~P.~L. {Colombo}, C.~{Combet}, B.~{Comis},
+  A.~{Coulais}, B.~P. {Crill}, A.~{Curto}, F.~{Cuttaia}, R.~J. {Davis}, P.~{de
+  Bernardis}, A.~{de Rosa}, G.~{de Zotti}, J.~{Delabrouille}, J.-M. {Delouis},
+  E.~{Di Valentino}, C.~{Dickinson}, J.~M. {Diego}, O.~{Dor{\'e}},
+  M.~{Douspis}, A.~{Ducout}, X.~{Dupac}, G.~{Efstathiou}, F.~{Elsner}, T.~A.
+  {En{\ss}lin}, H.~K. {Eriksen}, E.~{Falgarone}, Y.~{Fantaye}, F.~{Finelli},
+  F.~{Forastieri}, M.~{Frailis}, A.~A. {Fraisse}, E.~{Franceschi}, A.~{Frolov},
+  S.~{Galeotta}, S.~{Galli}, K.~{Ganga}, R.~T. {G{\'e}nova-Santos},
+  M.~{Gerbino}, T.~{Ghosh}, J.~{Gonz{\'a}lez-Nuevo}, K.~M. {G{\'o}rski},
+  S.~{Gratton}, A.~{Gruppuso}, J.~E. {Gudmundsson}, F.~K. {Hansen}, G.~{Helou},
+  S.~{Henrot-Versill{\'e}}, D.~{Herranz}, E.~{Hivon}, Z.~{Huang}, S.~{Ilic},
+  A.~H. {Jaffe}, W.~C. {Jones}, E.~{Keih{\"a}nen}, R.~{Keskitalo}, T.~S.
+  {Kisner}, L.~{Knox}, N.~{Krachmalnicoff}, M.~{Kunz}, H.~{Kurki-Suonio},
+  G.~{Lagache}, J.-M. {Lamarre}, M.~{Langer}, A.~{Lasenby}, M.~{Lattanzi},
+  C.~R. {Lawrence}, M.~{Le Jeune}, J.~P. {Leahy}, F.~{Levrier}, M.~{Liguori},
+  P.~B. {Lilje}, M.~{L{\'o}pez-Caniego}, Y.-Z. {Ma}, J.~F.
+  {Mac{\'{\i}}as-P{\'e}rez}, G.~{Maggio}, A.~{Mangilli}, M.~{Maris}, P.~G.
+  {Martin}, E.~{Mart{\'{\i}}nez-Gonz{\'a}lez}, S.~{Matarrese}, N.~{Mauri},
+  J.~D. {McEwen}, P.~R. {Meinhold}, A.~{Melchiorri}, A.~{Mennella},
+  M.~{Migliaccio}, M.-A. {Miville-Desch{\^e}nes}, D.~{Molinari}, A.~{Moneti},
+  L.~{Montier}, G.~{Morgante}, A.~{Moss}, S.~{Mottet}, P.~{Naselsky},
+  P.~{Natoli}, C.~A. {Oxborrow}, L.~{Pagano}, D.~{Paoletti}, B.~{Partridge},
+  G.~{Patanchon}, L.~{Patrizii}, O.~{Perdereau}, L.~{Perotto}, V.~{Pettorino},
+  F.~{Piacentini}, S.~{Plaszczynski}, L.~{Polastri}, G.~{Polenta}, J.-L.
+  {Puget}, J.~P. {Rachen}, B.~{Racine}, M.~{Reinecke}, M.~{Remazeilles},
+  A.~{Renzi}, G.~{Rocha}, M.~{Rossetti}, G.~{Roudier}, J.~A.
+  {Rubi{\~n}o-Mart{\'{\i}}n}, B.~{Ruiz-Granados}, L.~{Salvati}, M.~{Sandri},
+  M.~{Savelainen}, D.~{Scott}, G.~{Sirri}, R.~{Sunyaev}, A.-S. {Suur-Uski},
+  J.~A. {Tauber}, M.~{Tenti}, L.~{Toffolatti}, M.~{Tomasi}, M.~{Tristram},
+  T.~{Trombetti}, J.~{Valiviita}, F.~{Van Tent}, L.~{Vibert}, P.~{Vielva},
+  F.~{Villa}, N.~{Vittorio}, B.~D. {Wandelt}, R.~{Watson}, I.~K. {Wehus},
+  M.~{White}, A.~{Zacchei}, and A.~{Zonca}.
+\newblock {Planck intermediate results. XLVI. Reduction of large-scale
+  systematic effects in HFI polarization maps and estimation of the
+  reionization optical depth}.
+\newblock {\em ArXiv e-prints}, May 2016.
+
+\bibitem{hazumi2012}
+M.~{Hazumi}, J.~{Borrill}, Y.~{Chinone}, M.~A. {Dobbs}, H.~{Fuke}, A.~{Ghribi},
+  M.~{Hasegawa}, K.~{Hattori}, M.~{Hattori}, W.~L. {Holzapfel}, Y.~{Inoue},
+  K.~{Ishidoshiro}, H.~{Ishino}, K.~{Karatsu}, N.~{Katayama}, I.~{Kawano},
+  A.~{Kibayashi}, Y.~{Kibe}, N.~{Kimura}, K.~{Koga}, E.~{Komatsu}, A.~T. {Lee},
+  H.~{Matsuhara}, T.~{Matsumura}, S.~{Mima}, K.~{Mitsuda}, H.~{Morii},
+  S.~{Murayama}, M.~{Nagai}, R.~{Nagata}, S.~{Nakamura}, K.~{Natsume},
+  H.~{Nishino}, A.~{Noda}, T.~{Noguchi}, I.~{Ohta}, C.~{Otani}, P.~L.
+  {Richards}, S.~{Sakai}, N.~{Sato}, Y.~{Sato}, Y.~{Sekimoto}, A.~{Shimizu},
+  K.~{Shinozaki}, H.~{Sugita}, A.~{Suzuki}, T.~{Suzuki}, O.~{Tajima},
+  S.~{Takada}, Y.~{Takagi}, Y.~{Takei}, T.~{Tomaru}, Y.~{Uzawa}, H.~{Watanabe},
+  N.~{Yamasaki}, M.~{Yoshida}, T.~{Yoshida}, and K.~{Yotsumoto}.
+\newblock {LiteBIRD: a small satellite for the study of B-mode polarization and
+  inflation from cosmic background radiation detection}.
+\newblock In {\em Space Telescopes and Instrumentation 2012: Optical, Infrared,
+  and Millimeter Wave}, volume 8442, page 844219, September 2012.
+
+\bibitem{wallis2017}
+Christopher G.~R. Wallis, Michael~L. Brown, Richard~A. Battye, and Jacques
+  Delabrouille.
+\newblock Optimal scan strategies for future cmb satellite experiments.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  466(1):425--442, 2017.
+
+\bibitem{Natoli2018}
+P.~{Natoli}, M.~{Ashdown}, R.~{Banerji}, J.~{Borrill}, A.~{Buzzelli}, G.~{de
+  Gasperis}, J.~{Delabrouille}, E.~{Hivon}, D.~{Molinari}, G.~{Patanchon},
+  L.~{Polastri}, M.~{Tomasi}, F.~R. {Bouchet}, S.~{Henrot-Versill{\'e}}, D.~T.
+  {Hoang}, R.~{Keskitalo}, K.~{Kiiveri}, T.~{Kisner}, V.~{Lindholm},
+  D.~{McCarthy}, F.~{Piacentini}, O.~{Perdereau}, G.~{Polenta}, M.~{Tristram},
+  A.~{Achucarro}, P.~{Ade}, R.~{Allison}, C.~{Baccigalupi}, M.~{Ballardini},
+  A.~J. {Banday}, J.~{Bartlett}, N.~{Bartolo}, S.~{Basak}, D.~{Baumann},
+  M.~{Bersanelli}, A.~{Bonaldi}, M.~{Bonato}, F.~{Boulanger}, T.~{Brinckmann},
+  M.~{Bucher}, C.~{Burigana}, Z.~Y. {Cai}, M.~{Calvo}, C.~S. {Carvalho}, M.~G.
+  {Castellano}, A.~{Challinor}, J.~{Chluba}, S.~{Clesse}, I.~{Colantoni},
+  A.~{Coppolecchia}, M.~{Crook}, G.~{D'Alessandro}, P.~{de Bernardis}, G.~{De
+  Zotti}, E.~{Di Valentino}, J.~M. {Diego}, J.~{Errard}, S.~{Feeney},
+  R.~{Fernandez-Cobos}, F.~{Finelli}, F.~{Forastieri}, S.~{Galli},
+  R.~{Genova-Santos}, M.~{Gerbino}, J.~{Gonz{\'a}lez-Nuevo}, S.~{Grandis},
+  J.~{Greenslade}, A.~{Gruppuso}, S.~{Hagstotz}, S.~{Hanany}, W.~{Handley},
+  C.~{Hernandez-Monteagudo}, C.~{Herv{\'\i}as-Caimapo}, M.~{Hills},
+  E.~{Keih{\"a}nen}, T.~{Kitching}, M.~{Kunz}, H.~{Kurki- Suonio},
+  L.~{Lamagna}, A.~{Lasenby}, M.~{Lattanzi}, J.~{Lesgourgues}, A.~{Lewis},
+  M.~{Liguori}, M.~{L{\'o}pez-Caniego}, G.~{Luzzi}, B.~{Maffei},
+  N.~{Mandolesi}, E.~{Martinez-Gonz{\'a}lez}, C.~J.~A.~P. {Martins}, S.~{Masi},
+  S.~{Matarrese}, A.~{Melchiorri}, J.~B. {Melin}, M.~{Migliaccio},
+  A.~{Monfardini}, M.~{Negrello}, A.~{Notari}, L.~{Pagano}, A.~{Paiella},
+  D.~{Paoletti}, M.~{Piat}, G.~{Pisano}, A.~{Pollo}, V.~{Poulin}, M.~{Quartin},
+  M.~{Remazeilles}, M.~{Roman}, G.~{Rossi}, J.~A. {Rubino- Martin},
+  L.~{Salvati}, G.~{Signorelli}, A.~{Tartari}, D.~{Tramonte}, N.~{Trappe},
+  T.~{Trombetti}, C.~{Tucker}, J.~{Valiviita}, R.~{Van de Weijgaert}, B.~{van
+  Tent}, V.~{Vennin}, P.~{Vielva}, N.~{Vittorio}, C.~{Wallis}, K.~{Young}, and
+  M.~{Zannoni}.
+\newblock {Exploring cosmic origins with CORE: Mitigation of systematic
+  effects}.
+\newblock {\em Journal of Cosmology and Astro-Particle Physics}, 2018:022,
+  April 2018.
 
 \bibitem{plank2015_xii_focalplane}
 {Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~{Arnaud},
@@ -6,5 +125,43 @@
   {Barreiro}, J.~G. {Bartlett}, and et~al.
 \newblock {Planck 2015 results. XII. Full focal plane simulations}.
 \newblock {\em \aap}, 594:A12, September 2016.
+
+\bibitem{Pogosian+2018}
+Levon Pogosian and Alex Zucca.
+\newblock {Searching for primordial magnetic fields with CMB B-modes}.
+\newblock {\em Classical and Quantum Gravity}, 35(12):124004, May 2018.
+
+\bibitem{Planck2018_VI}
+{Planck 2018-VI}.
+\newblock {Planck 2018 results. VI. Cosmological parameters}.
+\newblock July 2018.
+
+\bibitem{Rosset+2010}
+C.~{Rosset}, M.~{Tristram}, N.~{Ponthieu}, P.~{Ade}, J.~{Aumont},
+  A.~{Catalano}, L.~{Conversi}, F.~{Couchot}, B.~P. {Crill}, {F.-X.}
+  {D{\'e}sert}, K.~{Ganga}, M.~{Giard}, Y.~{Giraud-H{\'e}raud},
+  J.~{Ha{\"i}ssinski}, S.~{Henrot-Versill{\'e}}, W.~{Holmes}, W.~C. {Jones},
+  {J.-M.} {Lamarre}, A.~{Lange}, C.~{Leroy}, J.~{Mac{\'{\i}}as-P{\'e}rez},
+  B.~{Maffei}, P.~{de Marcillac}, {M.-A.} {Miville-Desch{\^e}nes},
+  L.~{Montier}, F.~{Noviello}, F.~{Pajot}, O.~{Perdereau}, F.~{Piacentini},
+  M.~{Piat}, S.~{Plaszczynski}, E.~{Pointecouteau}, {J.-L.} {Puget},
+  I.~{Ristorcelli}, G.~{Savini}, R.~{Sudiwala}, M.~{Veneziani}, and D.~{Yvon}.
+\newblock {Planck pre-launch status: High Frequency Instrument polarization
+  calibration}.
+\newblock {\em A\&A}, 520:A13+, September 2010.
+
+\bibitem{Planck2016_XLIX}
+{Planck collaboration}.
+\newblock {Planck intermediate results. XLIX. Parity-violation constraints from
+  polarization data}.
+\newblock {\em Astronomy and Astrophysics}, 596:A110, December 2016.
+
+\bibitem{Aumont+2018}
+Jonathan Aumont, Juan-Francisco Macias-Perez, Alessia Ritacco, Nicolas
+  Ponthieu, and Anna Mangilli.
+\newblock {Absolute calibration of the polarisation angle for future CMB
+  $B$-mode experiments from current and future measurements of the Crab
+  nebula}.
+\newblock May 2018.
 
 \end{thebibliography}
