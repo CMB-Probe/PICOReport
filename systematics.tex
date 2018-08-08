@@ -74,13 +74,13 @@ design or in data analysis.
 \begin{table}[h!]
 \centering
 \scriptsize
- \begin{tabular}{p{4.1cm} p{4.1cm} p{4.1cm} p{4.1cm}}
+ \begin{tabular}{p{3.8cm} p{4.2cm} p{4.2cm} p{4.2cm}}
  \hline
 \textbf{Name} & \textbf{Description} & \textbf{State-of-the-art} & \textbf{Additional Possible Mitigation} \\
  \hline
-\textbf{Leakage} & &\\
- Bandpass Mismatch & 
- Edges and shapes of the the spectral filters vary from detector to detector. leaks T $\to$ P, P $\to$ P leakage if the source's bandpass differs from calibrator's bandpass\cite{Hoang_2017} & Precise bandpass measurement\cite{Pajot_2010};
+\textbf{Leakage}& &\\
+ Bandpass Mismatch\dotfill& 
+ Edges and shapes of the the spectral filters vary from detector to detector. leaks T $\to$ P, P $\to$ P if the source's bandpass differs from calibrator's bandpass\cite{Hoang_2017} & Precise bandpass measurement\cite{Pajot_2010};
 SRoll algorithm\cite{Planck_Lowell}; filtering technique\cite{CORE_systematics};   &
 polarization modulation; full I/Q/U maps for individual detectors
                                                                                      mitigates;
@@ -91,45 +91,83 @@ polarization modulation; full I/Q/U maps for individual detectors
                                                                                      Banerji\&
                                                                                               Delabrouille
                                                                                                (in
-                                                                                             prep)
-                                                                                               \textbf{Current
-                                                                                     techniques may be adequate}  \\
-Beam mismatch & & See Sect.~\ref{sec:angle}
+                                                                                             prep).Current
+                                                                                     techniques may be adequate  \\
+Beam mismatch\dotfill& 
+Beam shapes differ between detectors that are combined to reconstruct polarization; leaks T $\to$ P, P $\to$ P
+& See Sect.~\ref{sec:angle} & Current techniques may be adequate.\\
+Gain mismatch\dotfill&
+Relative gain between detectors that are combined to reconstruct polarization; error leaks T$\to$P &
+mission-average relative calibration demonstrated to 10$^{-4}$ to 10$^{-5}$ level \cite{Planck_Lowell}
+&
+Sect.~\ref{sec:gain} describes effects of stability in time in relative gains.  
 \\
-Gain mismatch &
+Time Response Accuracy and Stability\dotfill&
+Uncertainty of detector in time constants (measurement errors, time variability) biases polarization angle, pointing and beam size. In a constant spin-rate mission (\pico) is degenerate with the beam shape. leaks T$\to$P, P$\to$P&
+
+&
 \\
-Time Response Accuracy and Stability  &
+Readout Cross-talk\dotfill& 
+Power in one detector leaks into other detectors
+&
+&
 \\
-Readout Cross-talk & &
-\\
-Polarization Angle & & &
-See Sect.~\ref{sec:angle}
+Polarization Angle\dotfill& 
+Uncertainty in polarization calibration leaks E$\to$B.
+& 
+Knowledge of astrophysical calibrators to 0.3$^\circ$\citet{Aumont+2018}; reconstruction to 0.2$^\circ$ using $TB$ and $EB$ demonstrated by \planck\citet{Planck_Lowell}
+& 
+Polarization modulation; See Sect.~\ref{sec:angle} for discussion; Must mitigate through developing further analysis techniques.
 \\
 
-Cross-polarization &
+Cross-polarization\dotfill&
+Q$\to$U rotation by the optical elements of the instrument.
+&
+Degenerate with polarization gain calibration.
+&
+Polarization modulation; State-of-the-art polarization gain calibration may be adequate.
 \\
-Chromatic beam shape
+Chromatic beam shape\dotfill&
+Beam shape is a function of source SED: measured using a planet, used to build a window function to correct CMB power spectrum.
+&
+&
 \\
 \hline 
 \textbf{Stability} & & \\
 
-Pointing jitter
+Pointing jitter\dotfill&
+Random pointing error mixes T, E and B at small angular scale
+&
+&
 \\
 
-Gain Stability & & &
-See Sect.~\ref{sec:gain}
+Gain Stability\dotfill& 
+Time-variation of detector gain due to time variability of bath temperature variations, optical power.
+& 
+
+&
+See Sect.~\ref{sec:gain}; Gain fluctuations on the level of XXX\% on time scales of YYY can be corrected in post-processing.
 \\
 \hline
-\textbf{Straylight} & & \\
-Far Sidelobes& & &
-See Sect.~\ref{sec:fsl}\\
+\textbf{Straylight}& & \\
+Far Sidelobes\dotfill& 
+Pickup of Galactic signals at large angles from the main beam axis; Spillover can be highly polarized.
+& 
+Design of optical system and baffling, informed by telescope straylight.
+&
+See Sect.~\ref{sec:fsl} for a study of the \pico\ reference mission.\\
  \hline
 \textbf{Other} \\
-Residual correlated cosmic ray hits &
+Residual correlated cosmic ray hits\dotfill&
+detectors experience correlated cosmic ray hits below detection threshold
+&
+\planck\ /HFI found ...
+&
+Detector design to reduce cosmic ray cross-section; Current analysis techniques generating correlated noise simulations may be adequate.
 \\
 \hline
  \end{tabular}
-\caption{\label{tbl:SystematicsList} Systematic errors expected to affect PICO.}
+\caption{\label{tbl:SystematicsList} Systematic errors expected to affect PICO's measurement of CMB polarization, with assessment of likely impacts and mitigation techniques.}
  \end{table}
 
 \subsubsection{Absolute polarization angle calibration}
@@ -204,7 +242,7 @@ In \pico, the relative rotation of the detectors, could be measured with a good 
 Known polarized sources, such as the Crab Nebula, could be used to do that but \citet{Aumont+2018} show that the current uncertainty of $0.33\degree = 20\arcmin$ on the Crab polarization orientation, obtained when combining all the available measurements, 
 would not the measurement of tensorial $B$ modes below $r \sim 0.01$ (assuming everything else to be nominal), far from \pico's target.
 
-Figures \ref{fig:rot_sens_0} and \ref{fig:rot_sens_2} show how the measurement of $r$ by PICO is degraded because of an overall rotation of polarization, and how $TB$ and $EB$ can be used to monitor precisely this rotation, assuming that the only source of polarization rotation is instrumental.
+Figures \ref{fig:rot_sens_0} and \ref{fig:rot_sens_2} show how the measurement of $r$ by \pico\ is degraded because of an overall rotation of polarization, and how $TB$ and $EB$ can be used to monitor precisely this rotation, assuming that the only source of polarization rotation is instrumental.
 These results are obtained assuming the spectra to have a Gaussian likelihood, with a variance $\propto 1/\fsky$, and ignoring the foreground contributions.
 
 
