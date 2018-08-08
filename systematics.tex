@@ -284,7 +284,11 @@ Results of the simulation are shown in Figures~XXX and YYY. The scanning strateg
 
 \subsubsection{Far Sidelobe Pickup}
 \label{sec:fsl}
-...
+The main beam (within a few degrees of the axis of beam response) in a CMB mission can be measured to high precision using the planets as compact sources.  Measurement of each detector's response to signals more than a few degrees off axis, which tends to be at a very low level (more than --80dB less than the peak response) but spread over a very large solid angle, is difficult to do pre-launch, and may not be done accurately after launch.  Nonetheless, this far sidelobe can couple bright Galactic signal from many tens of degrees off-axis and confuse it with polarized signal from the CMB off the Galactic plane.  
+
+To evaluate this systematic error, GRASP software\footnote{https://www.ticra.com} was used to compute the \pico\ telescope's pickup over the full sky.  This full-sky beam was convolved with a polarized Galactic signal and a full \pico\ mission scan using the simulation pipeline.  The far sidelibe pickup was estimated to contribute less than XXX to the B-mode angular power spectrum and thus an error in $r$ of YYY.
+
+In a real mission due to the difficulties of measuring this beam, physical optics simulation capabilities must be maintained and validated as well as possible with on-orbit data.
 
 \subsubsection{Key Findings}
 Understanding and controlling the effects of systematic errors in a
