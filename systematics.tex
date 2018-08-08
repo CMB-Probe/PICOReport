@@ -104,18 +104,20 @@ Sect.~\ref{sec:gain} describes effects of stability in time in relative gains.
 \\
 Time Response Accuracy and Stability\dotfill&
 Uncertainty of detector in time constants (measurement errors, time variability) biases polarization angle, pointing and beam size. In a constant spin-rate mission (\pico) is degenerate with the beam shape. leaks T$\to$P, P$\to$P&
-
-&
+On-orbit reconstruction of time response to 0.1\% across a wide signal band\cite{planck2013_vii}, residuals corrected as part of beam and map-making algorithm\cite{Planck_Lowell}.
+& Treatment of residual time response as part of the beam may be adequate.
 \\
 Readout Cross-talk\dotfill& 
 Power in one detector leaks into other detectors
 &
+\planck's high-impedence bolometers with crosstalk measured at the level of 10$^{-3}$ did not impact CMB polarization science\cite{Planck_Lowell}.  Cross-talk low-impedence bolometers measured at XXX.
 &
+State-of-the-art (reconstruction and correction at map-making level) is adequate.
 \\
 Polarization Angle\dotfill& 
 Uncertainty in polarization calibration leaks E$\to$B.
 & 
-Knowledge of astrophysical calibrators to 0.3$^\circ$\citet{Aumont+2018}; reconstruction to 0.2$^\circ$ using $TB$ and $EB$ demonstrated by \planck\citet{Planck_Lowell}
+Knowledge of astrophysical calibrators to 0.3$^\circ$\citet{Aumont+2018}; ground measurement to 0.9$^\circ$ reconstruction to 0.2$^\circ$ using $TB$ and $EB$ demonstrated by \planck\citet{Planck_Lowell}
 & 
 Polarization modulation; See Sect.~\ref{sec:angle} for discussion; Must mitigate through developing further analysis techniques.
 \\
@@ -130,7 +132,9 @@ Polarization modulation; State-of-the-art polarization gain calibration may be a
 Chromatic beam shape\dotfill&
 Beam shape is a function of source SED: measured using a planet, used to build a window function to correct CMB power spectrum.
 &
+\planck\ simulations and parameterization as part of the likelihood.
 &
+Should be further investigated in Phase A of a mission using physical optics simulations.  
 \\
 \hline 
 \textbf{Stability} & & \\
@@ -138,36 +142,37 @@ Beam shape is a function of source SED: measured using a planet, used to build a
 Pointing jitter\dotfill&
 Random pointing error mixes T, E and B at small angular scale
 &
+Pointing reconstruction in \planck\ to 
 &
 \\
 
 Gain Stability\dotfill& 
 Time-variation of detector gain due to time variability of bath temperature variations, optical power.
 & 
-
+Reconstruction of time variability of gain to 0.2\% in \planck\cite{Planck_Lowell}.
 &
-See Sect.~\ref{sec:gain}; Gain fluctuations on the level of XXX\% on time scales of YYY can be corrected in post-processing.
+See Sect.~\ref{sec:gain}; Gain fluctuations in \pico\ on the level of XXX\% on time scales of YYY can be corrected in post-processing.
 \\
 \hline
 \textbf{Straylight}& & \\
 Far Sidelobes\dotfill& 
 Pickup of Galactic signals at large angles from the main beam axis; Spillover can be highly polarized.
 & 
-Design of optical system and baffling, informed by telescope straylight.
+\planck\ validated straylight model in anechoic chamber to -80~dBi\cite{Tauber2010}.
 &
-See Sect.~\ref{sec:fsl} for a study of the \pico\ reference mission.\\
+Design of optical system and baffling, informed by telescope straylight simulations. See Sect.~\ref{sec:fsl} for a study of beams calculated with a physical optics code for the \pico\ telescope and simulated Galactic pickup during the reference mission.\\
  \hline
 \textbf{Other} \\
 Residual correlated cosmic ray hits\dotfill&
-detectors experience correlated cosmic ray hits below detection threshold
+detectors experience correlated cosmic ray hits below detection threshold resulting in misestimated noise covariance.
 &
-\planck\ /HFI found ...
+\planck/HFI found the 5\% percent noise correlation due to this effect did not impact results\cite{Planck_Lowell}. 
 &
-Detector design to reduce cosmic ray cross-section; Current analysis techniques generating correlated noise simulations may be adequate.
+Detector design to reduce cosmic ray cross-section; Current analysis techniques (accounting for correlated noise) may be adequate.
 \\
 \hline
  \end{tabular}
-\caption{\label{tbl:SystematicsList} Systematic errors expected to affect PICO's measurement of CMB polarization, with assessment of likely impacts and mitigation techniques.}
+\caption{\label{tbl:SystematicsList} Systematic errors expected in \pico's measurement of CMB polarization, with assessment of currently known mitigation techniques.  Those systematic errors found to be most likely to impact \pico\ are described further in the text.}
  \end{table}
 
 \subsubsection{Absolute polarization angle calibration}
