@@ -126,6 +126,71 @@ P.~{Natoli}, M.~{Ashdown}, R.~{Banerji}, J.~{Borrill}, A.~{Buzzelli}, G.~{de
 \newblock {Planck 2015 results. XII. Full focal plane simulations}.
 \newblock {\em \aap}, 594:A12, September 2016.
 
+\bibitem{planck2013_vii}
+P~A~R Planck Collaboration:~Ade, N~Aghanim, C~Armitage-Caplan, M~Arnaud,
+  M~Ashdown, F~Atrio-Barandela, J~Aumont, C~Baccigalupi, A~J Banday, R~B
+  Barreiro, E~Battaner, K~Benabed, A~Beno{\^\i}t, A~Benoit-L{\'e}vy, J~P
+  Bernard, M~Bersanelli, P~Bielewicz, J~Bobin, J~J Bock, J~R Bond, J~Borrill,
+  F~R Bouchet, J~W Bowyer, M~Bridges, M~Bucher, C~Burigana, J~F Cardoso,
+  A~Catalano, A~Challinor, A~Chamballu, R~R Chary, L~Y Chiang, H~C Chiang, P~R
+  Christensen, S~Church, D~L Clements, S~Colombi, L~P~L Colombo, F~Couchot,
+  A~Coulais, B~P Crill, A~Curto, F~Cuttaia, L~Danese, R~D Davies,
+  P~de~Bernardis, A~de~Rosa, G~de~Zotti, J~Delabrouille, J~M Delouis, F~X
+  D{\'e}sert, J~M Diego, H~Dole, S~Donzelli, O~Dore, M~Douspis, J~Dunkley,
+  X~Dupac, G~Efstathiou, T~A En{\ss}lin, H~K Eriksen, F~Finelli, O~Forni,
+  M~Frailis, A~A Fraisse, E~Franceschi, S~Galeotta, K~Ganga, M~Giard,
+  Y~Giraud-H{\'e}raud, J~Gonz{\'a}lez-Nuevo, K~M Gorski, S~Gratton, A~Gregorio,
+  A~Gruppuso, J~E Gudmundsson, J~Haissinski, F~K Hansen, D~Hanson, D~Harrison,
+  S~Henrot-Versill{\'e}, C~Hernandez-Monteagudo, D~Herranz, S~R Hildebrandt,
+  E~Hivon, M~Hobson, W~A Holmes, A~Hornstrup, Z~Hou, W~Hovest, K~M
+  Huffenberger, T~R Jaffe, A~H Jaffe, W~C Jones, M~Juvela, E~Keih{\"a}nen,
+  R~Keskitalo, T~S Kisner, R~Kneissl, J~Knoche, L~Knox, M~Kunz, H~Kurki-Suonio,
+  G~Lagache, J~M Lamarre, A~Lasenby, R~J Laureijs, C~R Lawrence, R~Leonardi,
+  C~Leroy, J~Lesgourgues, M~Liguori, P~B Lilje, M~Linden-V{\o}rnle,
+  M~L{\'o}pez-Caniego, P~M Lubin, J~F Mac{\'\i}as-P{\'e}rez, C~J MacTavish,
+  B~Maffei, N~Mandolesi, M~Maris, D~J Marshall, P~G Martin,
+  E~Mart{\'\i}nez-Gonz{\'a}lez, S~Masi, S~Matarrese, T~Matsumura, F~Matthai,
+  P~Mazzotta, P~McGehee, A~Melchiorri, L~Mendes, A~Mennella, M~Migliaccio,
+  S~Mitra, M~A Miville-Desch{\^e}nes, A~Moneti, L~Montier, G~Morgante,
+  D~Mortlock, D~Munshi, J~A Murphy, P~Naselsky, F~Nati, P~Natoli, C~B
+  Netterfield, H~U N{\o}rgaard-Nielsen, F~Noviello, D~Novikov, I~Novikov,
+  S~Osborne, C~A Oxborrow, F~Paci, L~Pagano, F~Pajot, D~Paoletti, F~Pasian,
+  G~Patanchon, O~Perdereau, L~Perotto, F~Perrotta, F~Piacentini, M~Piat,
+  E~Pierpaoli, D~Pietrobon, S~Plaszczynski, E~Pointecouteau, A~M Polegre,
+  G~Polenta, N~Ponthieu, L~Popa, T~Poutanen, G~W Pratt, G~Pr{\'e}zeau,
+  S~Prunet, J~L Puget, J~P Rachen, M~Reinecke, M~Remazeilles, C~Renault,
+  S~Ricciardi, T~Riller, I~Ristorcelli, G~Rocha, C~Rosset, G~Roudier,
+  M~Rowan-Robinson, B~Rusholme, M~Sandri, D~Santos, A~Sauv{\'e}, G~Savini,
+  E~P~S Shellard, L~D Spencer, J~L Starck, V~Stolyarov, R~Stompor, R~Sudiwala,
+  F~Sureau, D~Sutton, A~S Suur-Uski, J~F Sygnet, J~A Tauber, D~Tavagnacco,
+  L~Terenzi, M~Tomasi, M~Tristram, M~Tucci, G~Umana, L~Valenziano, J~Valiviita,
+  B~Van~Tent, P~Vielva, F~Villa, N~Vittorio, L~A Wade, B~D Wandelt, D~Yvon,
+  A~Zacchei, and A~Zonca.
+\newblock {Planck 2013 results. VII. HFI time response and beams}.
+\newblock {\em arXiv.org}, pages 1--31, March 2013.
+
+\bibitem{Aumont+2018}
+Jonathan Aumont, Juan-Francisco Macias-Perez, Alessia Ritacco, Nicolas
+  Ponthieu, and Anna Mangilli.
+\newblock {Absolute calibration of the polarisation angle for future CMB
+  $B$-mode experiments from current and future measurements of the Crab
+  nebula}.
+\newblock May 2018.
+
+\bibitem{Tauber2010}
+J~A Tauber, H~U N{\o}rgaard-Nielsen, P~A~R Ade, J~Amiri~Parian, T~Banos,
+  M~Bersanelli, C~Burigana, A~Chamballu, D~de~Chambure, P~R Christensen,
+  O~Corre, A~Cozzani, B~Crill, G~Crone, O~D'Arcangelo, R~Daddato, D~Doyle,
+  D~Dubruel, G~Forma, R~Hills, K~Huffenberger, A~H Jaffe, N~Jessen,
+  P~Kletzkine, J~M Lamarre, J~P Leahy, Y~Longval, P~de~Maagt, B~Maffei,
+  N~Mandolesi, J~Mart{\'\i}-Canales, A~Mart{\'\i}n-Polegre, P~Martin, L~Mendes,
+  J~A Murphy, P~Nielsen, F~Noviello, M~Paquay, T~Peacocke, N~Ponthieu,
+  K~Pontoppidan, I~Ristorcelli, J~B Riti, L~Rolo, C~Rosset, M~Sandri, G~Savini,
+  R~Sudiwala, M~Tristram, L~Valenziano, M~van~der Vorst, K~van~'t Klooster,
+  F~Villa, and V~Yurchenko.
+\newblock {Planckpre-launch status: The optical system}.
+\newblock {\em Astronomy and Astrophysics}, 520:A2, September 2010.
+
 \bibitem{Pogosian+2018}
 Levon Pogosian and Alex Zucca.
 \newblock {Searching for primordial magnetic fields with CMB B-modes}.
@@ -155,13 +220,5 @@ C.~{Rosset}, M.~{Tristram}, N.~{Ponthieu}, P.~{Ade}, J.~{Aumont},
 \newblock {Planck intermediate results. XLIX. Parity-violation constraints from
   polarization data}.
 \newblock {\em Astronomy and Astrophysics}, 596:A110, December 2016.
-
-\bibitem{Aumont+2018}
-Jonathan Aumont, Juan-Francisco Macias-Perez, Alessia Ritacco, Nicolas
-  Ponthieu, and Anna Mangilli.
-\newblock {Absolute calibration of the polarisation angle for future CMB
-  $B$-mode experiments from current and future measurements of the Crab
-  nebula}.
-\newblock May 2018.
 
 \end{thebibliography}
