@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  10 AUG 2018 10:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  17 AUG 2018 13:14
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -322,148 +322,167 @@ Overfull \hbox (13.83615pt too wide) in paragraph at lines 137--137
 g, Lawrence?
  []
 
-(./foregrounds.tex) [2] (./systematics.tex [3]
+(./foregrounds.tex) [2] (./systematics.tex
+
+Package natbib Warning: Citation `Takahaski2010' on page 3 undefined on input l
+ine 20.
+
+
+Package natbib Warning: Citation `BICEP2_III' on page 3 undefined on input line
+ 20.
+
+[3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
 
 
 Package natbib Warning: Citation `Hoang_2017' on page 4 undefined on input line
- 83.
+ 92.
 
 
 Package natbib Warning: Citation `Pajot_2010' on page 4 undefined on input line
- 83.
+ 92.
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
-ine 84.
+ine 93.
 
 
 Package natbib Warning: Citation `CORE_systematics' on page 4 undefined on inpu
-t line 84.
+t line 93.
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 85--96
+Underfull \hbox (badness 1142) in paragraph at lines 94--105
 \OT1/ptm/m/n/8 maps for in-di-vid-ual de-tec-tors mit-
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 85--96
+Underfull \hbox (badness 1014) in paragraph at lines 94--105
 \OT1/ptm/m/n/8 i-gates; ad-di-tional com-po-nent so-lu-
  []
 
 
+Underfull \hbox (badness 3281) in paragraph at lines 94--105
+\OT1/ptm/m/n/8 prep).Current tech-niques meet re-
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 107--108
+[]\OT1/ptm/m/n/8 Current tech-niques meet re-quire-
+ []
+
+
 Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
-ine 101.
+ine 110.
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 101--102
+Underfull \hbox (badness 1178) in paragraph at lines 110--111
 []\OT1/ptm/m/n/8 mission-average rel-a-tive cal-i-bra-tion
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 105--105
+Underfull \hbox (badness 4454) in paragraph at lines 114--114
 []\OT1/ptm/m/n/8 Time Re-sponse Ac-cu-racy and
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 106--106
+Underfull \hbox (badness 5771) in paragraph at lines 115--115
 \OT1/ptm/m/n/8 stants (mea-sure-ment er-rors, time
  []
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
-ine 107.
+ine 116.
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
-ine 113.
+ine 122.
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 115--117
+Underfull \hbox (badness 2119) in paragraph at lines 124--126
 []\OT1/ptm/m/n/8 State-of-the-art (re-con-struc-tion and
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
+\OT1/ptm/m/n/8 cor-rec-tion at map-making level)
+ []
+
+
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
-(natbib)                on page 4 on input line 120.
+(natbib)                on page 4 on input line 129.
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
-ine 120.
+ine 129.
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 120--121
+Underfull \hbox (badness 1173) in paragraph at lines 129--130
 \OT1/ptm/m/n/8 tors to 0.3$[]$\OT1/ptm/b/n/8 (author?) [][][]\OT1/ptm/m/n/8 ; g
 round
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--124
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
 []\OT1/ptm/m/n/8 Polarization mod-u-la-tion; See
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 122--124
+Underfull \hbox (badness 3942) in paragraph at lines 131--133
 \OT1/ptm/m/n/8 Sect. 2.7.2[] for dis-cus-sion; Must
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 126--127
+Underfull \hbox (badness 1019) in paragraph at lines 135--136
 []\OT1/ptm/m/n/8 Q$\OMS/cmsy/m/n/8 !$\OT1/ptm/m/n/8 U ro-ta-tion by the op-ti-c
 al el-e-
  []
 
 
-Underfull \hbox (badness 2865) in paragraph at lines 128--129
+Underfull \hbox (badness 2865) in paragraph at lines 137--138
 []\OT1/ptm/m/n/8 Degenerate with po-lar-iza-tion gain
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 130--132
-[]\OT1/ptm/m/n/8 Polarization mod-u-la-tion; State-of-
- []
-
-
-Underfull \hbox (badness 3108) in paragraph at lines 137--139
+Underfull \hbox (badness 3108) in paragraph at lines 146--148
 []\OT1/ptm/m/n/8 Should be fur-ther in-ves-ti-gated in
  []
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
-ine 152.
+ine 161.
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 159--160
+Underfull \hbox (badness 1655) in paragraph at lines 168--169
 \OT1/ptm/m/n/8 an-gles from the main beam axis;
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 166--166
+Underfull \hbox (badness 1694) in paragraph at lines 175--175
 []\OT1/ptm/m/n/8 Residual cor-re-lated cos-mic ray
  []
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
-ine 169.
+ine 178.
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 169--170
+Underfull \hbox (badness 1442) in paragraph at lines 178--179
 []\OT1/ptm/m/it/8 Planck\OT1/ptm/m/n/8 /HFI found the 5% per-cent
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 171--173
+Underfull \hbox (badness 1917) in paragraph at lines 180--182
 []\OT1/ptm/m/n/8 Detector de-sign to re-duce cos-mic
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 171--173
+Underfull \hbox (badness 1009) in paragraph at lines 180--182
 \OT1/ptm/m/n/8 ray cross-section; Cur-rent anal-y-sis
  []
 
 
-Overfull \hbox (44.87pt too wide) in paragraph at lines 77--175
+Overfull \hbox (44.87pt too wide) in paragraph at lines 86--184
  [][] 
  []
 
@@ -473,7 +492,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <images/PICO_rotate_eb2_v0.pdf, id=24, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb2_v0.pdf Graphic file (type pdf)
 <use images/PICO_rotate_eb2_v0.pdf>
-Package pdftex.def Info: images/PICO_rotate_eb2_v0.pdf  used on input line 208.
+Package pdftex.def Info: images/PICO_rotate_eb2_v0.pdf  used on input line 217.
 
 (pdftex.def)             Requested size: 375.80542pt x 250.11967pt.
 <images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_2_4000.pdf, id=25, 447.6725pt x 5
@@ -482,7 +501,7 @@ File: images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_2_4000.pdf Graphic file (typ
 e pdf)
 <use images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_2_4000.pdf>
 Package pdftex.def Info: images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_2_4000.pd
-f  used on input line 215.
+f  used on input line 224.
 (pdftex.def)             Requested size: 187.89912pt x 250.68048pt.
 <images/PICO_sens2_v0_F15p0_f0p5_n0p62_k4_a1p0_2_4000.pdf, id=26, 447.6725pt x 
 597.23125pt>
@@ -490,7 +509,7 @@ File: images/PICO_sens2_v0_F15p0_f0p5_n0p62_k4_a1p0_2_4000.pdf Graphic file (ty
 pe pdf)
 <use images/PICO_sens2_v0_F15p0_f0p5_n0p62_k4_a1p0_2_4000.pdf>
 Package pdftex.def Info: images/PICO_sens2_v0_F15p0_f0p5_n0p62_k4_a1p0_2_4000.p
-df  used on input line 216.
+df  used on input line 225.
 (pdftex.def)             Requested size: 187.89912pt x 250.68048pt.
 <images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_20_4000.pdf, id=27, 447.6725pt x 
 597.23125pt>
@@ -498,7 +517,7 @@ File: images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_20_4000.pdf Graphic file (ty
 pe pdf)
 <use images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_20_4000.pdf>
 Package pdftex.def Info: images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_20_4000.p
-df  used on input line 232.
+df  used on input line 241.
 (pdftex.def)             Requested size: 187.89912pt x 250.68048pt.
 <images/PICO_sens2_v0_F5p0_f0p5_n1p86_k4_a1p0_2_4000.pdf, id=28, 447.6725pt x 5
 97.23125pt>
@@ -506,18 +525,18 @@ File: images/PICO_sens2_v0_F5p0_f0p5_n1p86_k4_a1p0_2_4000.pdf Graphic file (typ
 e pdf)
 <use images/PICO_sens2_v0_F5p0_f0p5_n1p86_k4_a1p0_2_4000.pdf>
 Package pdftex.def Info: images/PICO_sens2_v0_F5p0_f0p5_n1p86_k4_a1p0_2_4000.pd
-f  used on input line 233.
+f  used on input line 242.
 (pdftex.def)             Requested size: 187.89912pt x 250.68048pt.
 
 Package natbib Warning: Author undefined for citation`Planck2016_XLIX' 
-(natbib)                on page 4 on input line 244.
+(natbib)                on page 4 on input line 253.
 
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
-(natbib)                on page 4 on input line 247.
+(natbib)                on page 4 on input line 256.
 
 [4] [5]
-Overfull \hbox (1.64862pt too wide) in paragraph at lines 266--267
+Overfull \hbox (1.64862pt too wide) in paragraph at lines 275--276
 \OT1/ptm/m/n/12 Photometric cal-i-bra-tion is the pro-cess of con-vert-ing the 
 raw out-put of the re-ceivers into a physically-
  []
@@ -531,16 +550,16 @@ Overfull \hbox (3.97801pt too wide) in paragraph at lines 5--6
 -ing (Trangsrud), read-out (O'Brient) 
  []
 
-) (./mission.tex) (./technology.tex) (./cost.tex) [9] (./PICOReport.bbl
-[10] [11] [12]) (./acronym.tex)
+) (./mission.tex) (./technology.tex) [9] (./cost.tex) [10] (./PICOReport.bbl
+[11] [12] [13]) (./acronym.tex)
 
 Package natbib Warning: There were undefined citations.
 
-[13] (./PICOReport.aux) ) 
+[14] (./PICOReport.aux) ) 
 Here is how much of TeX's memory you used:
  3853 strings out of 492649
  51410 string characters out of 6129622
- 141797 words of memory out of 5000000
+ 142142 words of memory out of 5000000
  7609 multiletter control sequences out of 15000+600000
  31499 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -558,10 +577,10 @@ sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr
 ocal/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texli
 ve/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/te
 xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (14 pages, 623443 bytes).
+Output written on PICOReport.pdf (15 pages, 624753 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

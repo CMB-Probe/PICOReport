@@ -5,33 +5,24 @@
 
 \begin{document}
 
-
-% 
-% Technology solutions vs. analysis solutions
 %
 % be congizant of cost reviewer as a reader.
 %
 % Sensitivity margin
-%
-% trade between systematics and 
-% mention cube sat?
-% remove "may be adequate"
-% continued suborbital 
+
 
 In developing the theoretical framework for measuring the faint CMB
 polarization signal, the CMB community has long recognized the impacts
 of systematic errors due to instrumentation, observation strategies, and data analysis.   
 A rich literature investigates the types of
-systematic errors that confound the polarization measurement and ways
-to mitigate them\cite{hu03}. 
-Ground-based and suborbital experiments have found themselves to be limited by systematic errors rather than random noise, and have advanced technological solutions and analysis techniques in response (see, for example, the advancement of BICEP\cite{Takahaski2010} to BICEP2\cite{BICEP2_III}).
-While on-orbit systematic errors related to stability in particular are likely to be at a lower level compared to the ground, each on-orbit measurement of CMB polarization was limited by
-systematic errors until an in-depth study of the systematics was
-performed and the post-processing data analysis suppressed them\cite{Bennett13,planck2016_xlvi}. 
+systematic errors that confound the polarization measurement \cite{hu03}. 
+Ground-based and suborbital experiments have found themselves to be limited by systematic errors rather than random noise, and have advanced many sophisticated techniques to mitigate systematics, finding both new technological solutions and new analysis techniques.
+An example in progress made within a single ground-based program can be seen by comparing BICEP's systematics limits at r=0.1\cite{Takahaski2010} to those of BICEP2 at r=6$\times$10$^{-3}$\cite{BICEP2_III}).
+On-orbit systematic errors, especially those related to stability,  are likely to be at a lower level as compared to the ground, and in fact all prior on-orbit measurements of CMB polarization were limited by systematic errors until an in-depth study of the systematics was performed and the post-processing data analysis suppressed them\cite{Bennett13,planck2016_xlvi}. 
 Additionally, recently proposed CMB missions, such as LiteBird and \core, have placed
 systematic error mitigation at the forefront of the case for their
 mission\cite{hazumi2012,wallis2017,Natoli2018}.
-The ground based and suborbital CMB community will continue to develop new technques in handling systemaics.
+The ground based and suborbital CMB community will continue to develop new techniques in handling systematics.
 
 \textbf{Note: Calculate a defensible level of acceptable systematics.
 For example, integrate r $10^{-3}$ and $10^{-4}$ power from ell 2-10, 10-50,(do a signal to
@@ -86,6 +77,9 @@ team's assessment of how well these systematics are understood by the
 community, whether mitigation techniques exist - either in instrument
 design or in data analysis.
 
+In many cases the systematics are completely mitigated through the use of a polarization modulator such as a half-wave plate or a variable phase delay modulator.  
+For the purposes of the cost constraints of PICO, in each case we investigated mitigation techniques that do not require a modulator.
+
 \begin{table}[h!]
 \centering
 \scriptsize
@@ -107,10 +101,10 @@ polarization modulation; full I/Q/U maps for individual detectors
                                                                                               Delabrouille
                                                                                                (in
                                                                                              prep).Current
-                                                                                     techniques may be adequate  \\
+                                                                                     techniques meet requirements.  \\
 Beam mismatch\dotfill& 
 Beam shapes differ between detectors that are combined to reconstruct polarization; leaks T $\to$ P, P $\to$ P
-& See Sect.~\ref{sec:angle} & Current techniques may be adequate.\\
+& See Sect.~\ref{sec:angle} & Current techniques meet requirements.\\
 Gain mismatch\dotfill&
 Relative gain between detectors that are combined to reconstruct polarization; error leaks T$\to$P &
 mission-average relative calibration demonstrated to 10$^{-4}$ to 10$^{-5}$ level \cite{Planck_Lowell}
@@ -120,14 +114,14 @@ Sect.~\ref{sec:gain} describes effects of stability in time in relative gains.
 Time Response Accuracy and Stability\dotfill&
 Uncertainty of detector in time constants (measurement errors, time variability) biases polarization angle, pointing and beam size. In a constant spin-rate mission (\pico) is degenerate with the beam shape. leaks T$\to$P, P$\to$P&
 On-orbit reconstruction of time response to 0.1\% across a wide signal band\cite{planck2013_vii}, residuals corrected as part of beam and map-making algorithm\cite{Planck_Lowell}.
-& Treatment of residual time response as part of the beam may be adequate.
+& Treatment of residual time response as part of the beam meets requirements.
 \\
 Readout Cross-talk\dotfill& 
 Power in one detector leaks into other detectors
 &
 \planck's high-impedence bolometers with crosstalk measured at the level of 10$^{-3}$ did not impact CMB polarization science\cite{Planck_Lowell}.  Cross-talk low-impedence bolometers measured at XXX.
 &
-State-of-the-art (reconstruction and correction at map-making level) is adequate.
+State-of-the-art (reconstruction and correction at map-making level) meets requirements.
 \\
 Polarization Angle\dotfill& 
 Uncertainty in polarization calibration leaks E$\to$B.
@@ -142,7 +136,7 @@ Q$\to$U rotation by the optical elements of the instrument.
 &
 Degenerate with polarization gain calibration.
 &
-Polarization modulation; State-of-the-art polarization gain calibration may be adequate.
+State-of-the-art polarization gain calibration meets requirement at .
 \\
 Chromatic beam shape\dotfill&
 Beam shape is a function of source SED: measured using a planet, used to build a window function to correct CMB power spectrum.
@@ -183,7 +177,7 @@ detectors experience correlated cosmic ray hits below detection threshold result
 &
 \planck/HFI found the 5\% percent noise correlation due to this effect did not impact results\cite{Planck_Lowell}. 
 &
-Detector design to reduce cosmic ray cross-section; Current analysis techniques (accounting for correlated noise) may be adequate.
+Detector design to reduce cosmic ray cross-section; Current analysis techniques (accounting for correlated noise) meet the needs.
 \\
 \hline
  \end{tabular}
@@ -310,11 +304,11 @@ Understanding and controlling the effects of systematic errors in a
 next-generation CMB probe is critical.
 
 The raw sensitivity of the instrument should include enough margin
-that data subsets can independently archieve the science goals.
+that data subsets can independently achieve the science goals.
 This allows testing of the results in the data analysis and additional
 data cuts, if needed.
 
-Support of ground-based and suborbital CMB missions will continue to develop analysis techniques and technology that would reduce the systematics in a future space mission such as PICO.
+NASA's support of ground-based and suborbital CMB missions will mitigate risk to a future space mission as PICO by continuing to develop analysis techniques and technology for mitigation of systematic errors.
 
 In a PICO mission's phase A, a complete end-to-end system-level
 simulation software facility would be developed to assist the team in setting 
