@@ -1,21 +1,54 @@
 \begin{thebibliography}{10}
 
-\bibitem{hu03}
-W.~{Hu}, M.~M. {Hedman}, and M.~{Zaldarriaga}.
-\newblock {Benchmark parameters for CMB polarization experiments}.
-\newblock {\em \prd}, 67:043004--+, February 2003.
-\newblock astro-ph/0210096.
+\bibitem{1979ARNPS..29..313S}
+G.~{Steigman}.
+\newblock {Cosmology confronts particle physics.}
+\newblock {\em Annual Review of Nuclear and Particle Science}, 29:313--338,
+  1979.
 
-\bibitem{Bennett13}
-C.~L. {Bennett}, D.~{Larson}, J.~L. {Weiland}, N.~{Jarosik}, G.~{Hinshaw},
-  N.~{Odegard}, K.~M. {Smith}, R.~S. {Hill}, B.~{Gold}, M.~{Halpern},
-  E.~{Komatsu}, M.~R. {Nolta}, L.~{Page}, D.~N. {Spergel}, E.~{Wollack},
-  J.~{Dunkley}, A.~{Kogut}, M.~{Limon}, S.~S. {Meyer}, G.~S. {Tucker}, and
-  E.~L. {Wright}.
-\newblock {Nine-year Wilkinson Microwave Anisotropy Probe (WMAP) Observations:
-  Final Maps and Results}.
-\newblock {\em The Astrophysical Journal Supplement Series}, 208:20, October
-  2013.
+\bibitem{Bolz:2000fu}
+M.~Bolz, A.~Brandenburg, and W.~Buchmuller.
+\newblock {Thermal production of gravitinos}.
+\newblock {\em Nucl. Phys.}, B606:518--544, 2001.
+\newblock [Erratum: Nucl. Phys.B790,336(2008)].
+
+\bibitem{Brust:2013xpv}
+Christopher Brust, David~E. Kaplan, and Matthew~T. Walters.
+\newblock {New Light Species and the CMB}.
+\newblock {\em JHEP}, 12:058, 2013.
+
+\bibitem{Baumann:2016wac}
+Daniel Baumann, Daniel Green, and Benjamin Wallisch.
+\newblock {A New Target for Cosmic Axion Searches}.
+\newblock {\em Phys. Rev. Lett.}, 117(17):171301, 2016.
+
+\bibitem{Green:2016cjr}
+Daniel Green, Joel Meyers, and Alexander van Engelen.
+\newblock {CMB Delensing Beyond the B Modes}.
+\newblock {\em ArXiv e-prints}, 2016.
+
+\bibitem{Dvorkin:2013cea}
+Cora Dvorkin, Kfir Blum, and Marc Kamionkowski.
+\newblock {Constraining Dark Matter-Baryon Scattering with Linear Cosmology}.
+\newblock {\em Phys. Rev.}, D89(2):023519, 2014.
+
+\bibitem{Cyr-Racine:2013fsa}
+Francis-Yan Cyr-Racine, Roland de~Putter, Alvise Raccanelli, and Kris
+  Sigurdson.
+\newblock {Constraints on Large-Scale Dark Acoustic Oscillations from
+  Cosmology}.
+\newblock {\em Phys. Rev.}, D89(6):063517, 2014.
+
+\bibitem{Buen-Abad:2015ova}
+Manuel~A. Buen-Abad, Gustavo Marques-Tavares, and Martin Schmaltz.
+\newblock {Non-Abelian dark matter and dark radiation}.
+\newblock {\em Phys. Rev.}, D92(2):023531, 2015.
+
+\bibitem{Lesgourgues:2015wza}
+Julien Lesgourgues, Gustavo Marques-Tavares, and Martin Schmaltz.
+\newblock {Evidence for dark matter interactions in cosmological precision
+  data?}
+\newblock {\em JCAP}, 1602(02):037, 2016.
 
 \bibitem{planck2016_xlvi}
 {Planck Collaboration}, N.~{Aghanim}, M.~{Ashdown}, J.~{Aumont},
@@ -60,6 +93,47 @@ C.~L. {Bennett}, D.~{Larson}, J.~L. {Weiland}, N.~{Jarosik}, G.~{Hinshaw},
   systematic effects in HFI polarization maps and estimation of the
   reionization optical depth}.
 \newblock {\em ArXiv e-prints}, May 2016.
+
+\bibitem{Kaplinghat:2003bh}
+Manoj Kaplinghat, Lloyd Knox, and Yong-Seon Song.
+\newblock {Determining neutrino mass from the CMB alone}.
+\newblock {\em Phys. Rev. Lett.}, 91:241301, 2003.
+
+\bibitem{Levi:2013gra}
+Michael Levi et~al.
+\newblock {The DESI Experiment, a whitepaper for Snowmass 2013}.
+\newblock {\em ArXiv e-prints}, 2013.
+
+\bibitem{hu03}
+W.~{Hu}, M.~M. {Hedman}, and M.~{Zaldarriaga}.
+\newblock {Benchmark parameters for CMB polarization experiments}.
+\newblock {\em \prd}, 67:043004--+, February 2003.
+\newblock astro-ph/0210096.
+
+\bibitem{BICEP2_III}
+{Bicep2 Collaboration}, P.~A.~R. {Ade}, R.~W. {Aikin}, D.~{Barkats}, S.~J.
+  {Benton}, C.~A. {Bischoff}, J.~J. {Bock}, J.~A. {Brevik}, I.~{Buder},
+  E.~{Bullock}, C.~D. {Dowell}, L.~{Duband}, J.~P. {Filippini}, S.~{Fliescher},
+  S.~R. {Golwala}, M.~{Halpern}, M.~{Hasselfield}, S.~R. {Hildebrandt}, G.~C.
+  {Hilton}, K.~D. {Irwin}, K.~S. {Karkare}, J.~P. {Kaufman}, B.~G. {Keating},
+  S.~A. {Kernasovskiy}, J.~M. {Kovac}, C.~L. {Kuo}, E.~M. {Leitch},
+  M.~{Lueker}, C.~B. {Netterfield}, H.~T. {Nguyen}, R.~{O'Brient}, R.~W.
+  {Ogburn}, IV, A.~{Orlando}, C.~{Pryke}, S.~{Richter}, R.~{Schwarz}, C.~D.
+  {Sheehy}, Z.~K. {Staniszewski}, R.~V. {Sudiwala}, G.~P. {Teply}, J.~E.
+  {Tolan}, A.~D. {Turner}, A.~G. {Vieregg}, C.~L. {Wong}, and K.~W. {Yoon}.
+\newblock {Bicep2 III: Instrumental Systematics}.
+\newblock {\em \apj}, 814:110, December 2015.
+
+\bibitem{Bennett13}
+C.~L. {Bennett}, D.~{Larson}, J.~L. {Weiland}, N.~{Jarosik}, G.~{Hinshaw},
+  N.~{Odegard}, K.~M. {Smith}, R.~S. {Hill}, B.~{Gold}, M.~{Halpern},
+  E.~{Komatsu}, M.~R. {Nolta}, L.~{Page}, D.~N. {Spergel}, E.~{Wollack},
+  J.~{Dunkley}, A.~{Kogut}, M.~{Limon}, S.~S. {Meyer}, G.~S. {Tucker}, and
+  E.~L. {Wright}.
+\newblock {Nine-year Wilkinson Microwave Anisotropy Probe (WMAP) Observations:
+  Final Maps and Results}.
+\newblock {\em The Astrophysical Journal Supplement Series}, 208:20, October
+  2013.
 
 \bibitem{hazumi2012}
 M.~{Hazumi}, J.~{Borrill}, Y.~{Chinone}, M.~A. {Dobbs}, H.~{Fuke}, A.~{Ghribi},
