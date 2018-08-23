@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 AUG 2018 20:01
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  23 AUG 2018 14:57
+>>>>>>> reorganizing systematics text
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -318,6 +322,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
 <images/cmb_powspec_PICOv2.pdf, id=13, 375.804pt x 303.534pt>
 File: images/cmb_powspec_PICOv2.pdf Graphic file (type pdf)
 
+<<<<<<< HEAD
 <use images/cmb_powspec_PICOv2.pdf>
 Package pdftex.def Info: images/cmb_powspec_PICOv2.pdf used on input line 16.
 (pdftex.def)             Requested size: 289.07999pt x 233.49957pt.
@@ -351,6 +356,10 @@ Package pdftex.def Info: images/Mnu_tauprior_log.pdf used on input line 70.
 
 Package natbib Warning: Citation `Peebles2000' on page 4 undefined on input lin
 e 98.
+=======
+Package natbib Warning: Citation `Takahaski2010' on page 3 undefined on input l
+ine 16.
+>>>>>>> reorganizing systematics text
 
 
 Package natbib Warning: Citation `Chen2004' on page 4 undefined on input line 9
@@ -407,9 +416,10 @@ ine 20.
 
 [7]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 88.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
 
 
+<<<<<<< HEAD
 Package natbib Warning: Citation `Hoang_2017' on page 8 undefined on input line
  92.
 
@@ -424,66 +434,97 @@ ine 93.
 
 Package natbib Warning: Citation `CORE_systematics' on page 8 undefined on inpu
 t line 93.
+=======
+Package natbib Warning: Citation `Hoang_2017' on page 4 undefined on input line
+ 66.
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 94--105
+Package natbib Warning: Citation `Pajot_2010' on page 4 undefined on input line
+ 66.
+
+
+Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
+ine 67.
+
+
+Package natbib Warning: Citation `CORE_systematics' on page 4 undefined on inpu
+t line 67.
+>>>>>>> reorganizing systematics text
+
+
+Underfull \hbox (badness 1142) in paragraph at lines 68--79
 \OT1/ptm/m/n/8 maps for in-di-vid-ual de-tec-tors mit-
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 94--105
+Underfull \hbox (badness 1014) in paragraph at lines 68--79
 \OT1/ptm/m/n/8 i-gates; ad-di-tional com-po-nent so-lu-
  []
 
 
-Underfull \hbox (badness 3281) in paragraph at lines 94--105
+Underfull \hbox (badness 3281) in paragraph at lines 68--79
 \OT1/ptm/m/n/8 prep).Current tech-niques meet re-
  []
 
 
-Underfull \hbox (badness 5832) in paragraph at lines 107--108
+Underfull \hbox (badness 5832) in paragraph at lines 81--82
 []\OT1/ptm/m/n/8 Current tech-niques meet re-quire-
  []
 
 
+<<<<<<< HEAD
 Package natbib Warning: Citation `Planck_Lowell' on page 8 undefined on input l
 ine 110.
+=======
+Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
+ine 84.
+>>>>>>> reorganizing systematics text
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 110--111
+Underfull \hbox (badness 1178) in paragraph at lines 84--85
 []\OT1/ptm/m/n/8 mission-average rel-a-tive cal-i-bra-tion
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 114--114
+Underfull \hbox (badness 4454) in paragraph at lines 88--88
 []\OT1/ptm/m/n/8 Time Re-sponse Ac-cu-racy and
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 115--115
+Underfull \hbox (badness 5771) in paragraph at lines 89--89
 \OT1/ptm/m/n/8 stants (mea-sure-ment er-rors, time
  []
 
 
+<<<<<<< HEAD
 Package natbib Warning: Citation `Planck_Lowell' on page 8 undefined on input l
 ine 116.
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 8 undefined on input l
 ine 122.
+=======
+Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
+ine 90.
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 124--126
+Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
+ine 96.
+>>>>>>> reorganizing systematics text
+
+
+Underfull \hbox (badness 2119) in paragraph at lines 98--100
 []\OT1/ptm/m/n/8 State-of-the-art (re-con-struc-tion and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 \OT1/ptm/m/n/8 cor-rec-tion at map-making level)
  []
 
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
+<<<<<<< HEAD
 (natbib)                on page 8 on input line 129.
 
 
@@ -492,65 +533,90 @@ ine 129.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 131--133
+=======
+(natbib)                on page 4 on input line 103.
+
+
+Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
+ine 103.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+>>>>>>> reorganizing systematics text
 []\OT1/ptm/m/n/8 Polarization mod-u-la-tion; See
  []
 
 
+<<<<<<< HEAD
 Underfull \hbox (badness 3942) in paragraph at lines 131--133
 \OT1/ptm/m/n/8 Sect. 2.6.2[] for dis-cus-sion; Must
+=======
+Underfull \hbox (badness 3942) in paragraph at lines 105--107
+\OT1/ptm/m/n/8 Sect. 2.7.2[] for dis-cus-sion; Must
+>>>>>>> reorganizing systematics text
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 135--136
+Underfull \hbox (badness 1019) in paragraph at lines 109--110
 []\OT1/ptm/m/n/8 Q$\OMS/cmsy/m/n/8 !$\OT1/ptm/m/n/8 U ro-ta-tion by the op-ti-c
 al el-e-
  []
 
 
-Underfull \hbox (badness 2865) in paragraph at lines 137--138
+Underfull \hbox (badness 2865) in paragraph at lines 111--112
 []\OT1/ptm/m/n/8 Degenerate with po-lar-iza-tion gain
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 146--148
+Underfull \hbox (badness 3108) in paragraph at lines 120--122
 []\OT1/ptm/m/n/8 Should be fur-ther in-ves-ti-gated in
  []
 
 
+<<<<<<< HEAD
 Package natbib Warning: Citation `Planck_Lowell' on page 8 undefined on input l
 ine 161.
+=======
+Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
+ine 135.
+>>>>>>> reorganizing systematics text
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 168--169
+Underfull \hbox (badness 1655) in paragraph at lines 142--143
 \OT1/ptm/m/n/8 an-gles from the main beam axis;
  []
 
 
-Underfull \hbox (badness 1694) in paragraph at lines 175--175
+Underfull \hbox (badness 1694) in paragraph at lines 149--149
 []\OT1/ptm/m/n/8 Residual cor-re-lated cos-mic ray
  []
 
 
+<<<<<<< HEAD
 Package natbib Warning: Citation `Planck_Lowell' on page 8 undefined on input l
 ine 178.
+=======
+Package natbib Warning: Citation `Planck_Lowell' on page 4 undefined on input l
+ine 152.
+>>>>>>> reorganizing systematics text
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 178--179
+Underfull \hbox (badness 1442) in paragraph at lines 152--153
 []\OT1/ptm/m/it/8 Planck\OT1/ptm/m/n/8 /HFI found the 5% per-cent
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 180--182
+Underfull \hbox (badness 1917) in paragraph at lines 154--156
 []\OT1/ptm/m/n/8 Detector de-sign to re-duce cos-mic
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 180--182
+Underfull \hbox (badness 1009) in paragraph at lines 154--156
 \OT1/ptm/m/n/8 ray cross-section; Cur-rent anal-y-sis
  []
 
 
-Overfull \hbox (44.87pt too wide) in paragraph at lines 86--184
+Overfull \hbox (44.87pt too wide) in paragraph at lines 60--158
  [][] 
  []
 
@@ -559,6 +625,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8] [9] <images/PICO_rotate_eb2_v0.pdf, id=212, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb2_v0.pdf Graphic file (type pdf)
+<<<<<<< HEAD
+=======
+<use images/PICO_rotate_eb2_v0.pdf>
+Package pdftex.def Info: images/PICO_rotate_eb2_v0.pdf  used on input line 192.
+>>>>>>> reorganizing systematics text
 
 <use images/PICO_rotate_eb2_v0.pdf>
 Package pdftex.def Info: images/PICO_rotate_eb2_v0.pdf used on input line 217.
@@ -570,7 +641,11 @@ File: images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_2_4000.pdf Graphic file (typ
 e pdf)
  <use images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_2_4000.pdf>
 Package pdftex.def Info: images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_2_4000.pd
+<<<<<<< HEAD
 f used on input line 224.
+=======
+f  used on input line 199.
+>>>>>>> reorganizing systematics text
 (pdftex.def)             Requested size: 187.89912pt x 250.68048pt.
 
 <images/PICO_sens2_v0_F15p0_f0p5_n0p62_k4_a1p0_2_4000.pdf, id=214, 447.6725pt x
@@ -579,7 +654,11 @@ File: images/PICO_sens2_v0_F15p0_f0p5_n0p62_k4_a1p0_2_4000.pdf Graphic file (ty
 pe pdf)
  <use images/PICO_sens2_v0_F15p0_f0p5_n0p62_k4_a1p0_2_4000.pdf>
 Package pdftex.def Info: images/PICO_sens2_v0_F15p0_f0p5_n0p62_k4_a1p0_2_4000.p
+<<<<<<< HEAD
 df used on input line 225.
+=======
+df  used on input line 200.
+>>>>>>> reorganizing systematics text
 (pdftex.def)             Requested size: 187.89912pt x 250.68048pt.
 
 <images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_20_4000.pdf, id=215, 447.6725pt x
@@ -588,7 +667,11 @@ File: images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_20_4000.pdf Graphic file (ty
 pe pdf)
  <use images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_20_4000.pdf>
 Package pdftex.def Info: images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_20_4000.p
+<<<<<<< HEAD
 df used on input line 241.
+=======
+df  used on input line 216.
+>>>>>>> reorganizing systematics text
 (pdftex.def)             Requested size: 187.89912pt x 250.68048pt.
 
 <images/PICO_sens2_v0_F5p0_f0p5_n1p86_k4_a1p0_2_4000.pdf, id=216, 447.6725pt x 
@@ -597,32 +680,56 @@ File: images/PICO_sens2_v0_F5p0_f0p5_n1p86_k4_a1p0_2_4000.pdf Graphic file (typ
 e pdf)
  <use images/PICO_sens2_v0_F5p0_f0p5_n1p86_k4_a1p0_2_4000.pdf>
 Package pdftex.def Info: images/PICO_sens2_v0_F5p0_f0p5_n1p86_k4_a1p0_2_4000.pd
+<<<<<<< HEAD
 f used on input line 242.
+=======
+f  used on input line 217.
+>>>>>>> reorganizing systematics text
 (pdftex.def)             Requested size: 187.89912pt x 250.68048pt.
 
 
 Package natbib Warning: Author undefined for citation`Planck2016_XLIX' 
+<<<<<<< HEAD
 (natbib)                on page 10 on input line 253.
+=======
+(natbib)                on page 4 on input line 228.
+>>>>>>> reorganizing systematics text
 
+[4 <./images/PICO_rotate_eb2_v0.pdf>]
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
+<<<<<<< HEAD
 (natbib)                on page 10 on input line 256.
 
 [10 <./images/PICO_rotate_eb2_v0.pdf>]
 Overfull \hbox (1.64862pt too wide) in paragraph at lines 275--276
+=======
+(natbib)                on page 5 on input line 231.
+
+[5]
+Overfull \hbox (1.64862pt too wide) in paragraph at lines 241--242
+>>>>>>> reorganizing systematics text
 \OT1/ptm/m/n/12 Photometric cal-i-bra-tion is the pro-cess of con-vert-ing the 
 raw out-put of the re-ceivers into a physically-
  []
 
+<<<<<<< HEAD
 [11 <./images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_2_4000.pdf> <./images/PICO_
 sens2_v0_F15p0_f0p5_n0p62_k4_a1p0_2_4000.pdf>] [12 <./images/PICO_sens2_v0_F5p0
 _f0p5_n0p62_k4_a1p0_20_4000.pdf> <./images/PICO_sens2_v0_F5p0_f0p5_n1p86_k4_a1p
 0_2_4000.pdf>] [13]) (./instrument.tex
+=======
+[6 <./images/PICO_sens2_v0_F5p0_f0p5_n0p62_k4_a1p0_2_4000.pdf> <./images/PICO_s
+ens2_v0_F15p0_f0p5_n0p62_k4_a1p0_2_4000.pdf>] [7 <./images/PICO_sens2_v0_F5p0_f
+0p5_n0p62_k4_a1p0_20_4000.pdf> <./images/PICO_sens2_v0_F5p0_f0p5_n1p86_k4_a1p0_
+2_4000.pdf>] [8]) (./instrument.tex
+>>>>>>> reorganizing systematics text
 Overfull \hbox (3.97801pt too wide) in paragraph at lines 5--6
 \OT1/ptm/m/n/12 Telescope (Hanany / Young), fo-cal plane (Hanany / Young), cool
 -ing (Trangsrud), read-out (O'Brient) 
  []
 
+<<<<<<< HEAD
 ) (./mission.tex) (./technology.tex) (./cost.tex) [14] (./PICOReport.bbl
 Underfull \hbox (badness 2150) in paragraph at lines 36--41
 []\OT1/ptm/m/n/12 Francis-Yan Cyr-Racine, Roland de Put-ter, Alvise Rac-canelli
@@ -668,6 +775,39 @@ Output written on PICOReport.pdf (19 pages, 2331283 bytes).
 PDF statistics:
  308 PDF objects out of 1000 (max. 8388607)
  196 compressed objects within 2 object streams
+=======
+) (./mission.tex) (./technology.tex) (./cost.tex) [9] (./PICOReport.bbl
+[10] [11] [12]) (./acronym.tex)
+
+Package natbib Warning: There were undefined citations.
+
+[13] (./PICOReport.aux) ) 
+Here is how much of TeX's memory you used:
+ 3865 strings out of 492649
+ 51629 string characters out of 6129622
+ 134861 words of memory out of 5000000
+ 7621 multiletter control sequences out of 15000+600000
+ 31499 words of font info for 67 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,12n,43p,1086b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2018/texmf-dist/fonts/enc/dvips/ba
+se/8r.enc}</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texli
+ve/2018/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on PICOReport.pdf (14 pages, 622120 bytes).
+PDF statistics:
+ 114 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+>>>>>>> reorganizing systematics text
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

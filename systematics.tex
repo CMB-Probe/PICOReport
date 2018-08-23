@@ -4,51 +4,25 @@
 %\newcolumntype{K}[1]{>{\raggedright\centering\arraybackslash}m{#1}}
 
 \begin{document}
+Aside from control of foregrounds, the most compelling reason to observe the CMB from space is the favorable environment of an orbit around Earth-Sun L2, and the opportunity for excellent control of systematic errors that affect CMB measurements from any platform.  
+Compared with a ground-based, sub-orbital, or even a space mission in low-Earth orbit, the L2 environment offers excellent stability as well as the ability to observe large fractions of the sky on many time scales without interference from the Sun, Earth, or Moon.
+The redundancy of observations allows the checking of consistency of results and an improved ability to correct systematic errors in
+post-processing analysis.
 
-%
-% be congizant of cost reviewer as a reader.
-%
-% Sensitivity margin
+As of today, we see a clear path to demonstrate that state-of-the-art technology and data processing can take advantage of the L2 environment and control systematic errors to a level that enables the science goals of PICO. 
 
+A rich literature investigates the types of systematic errors due to the environment, the instrumentation, observation strategies, and data analysis that confound the polarization measurement by creating a bias or an increased variance\cite{hu03,shimon2008,yadav2010}. 
+Every measurement to date has at one point reached a systematic error limit, and have advanced many sophisticated techniques to mitigate systematics, finding both new technological solutions and new analysis techniques.
+As an example, the BICEP's systematics limited it to r=0.1\cite{Takahaski2010} while through additional effort within the program, BICEP2 achieved a systematics limit of r=6$\times$10$^{-3}$\cite{BICEP2_III}).
+In the near term, the ground based and suborbital CMB community will continue to develop new techniques in handling systematics.
 
-In developing the theoretical framework for measuring the faint CMB
-polarization signal, the CMB community has long recognized the impacts
-of systematic errors due to instrumentation, observation strategies, and data analysis.   
-A rich literature investigates the types of
-systematic errors that confound the polarization measurement \cite{hu03}. 
-Ground-based and suborbital experiments have found themselves to be limited by systematic errors rather than random noise, and have advanced many sophisticated techniques to mitigate systematics, finding both new technological solutions and new analysis techniques.
-An example in progress made within a single ground-based program can be seen by comparing BICEP's systematics limits at r=0.1\cite{Takahaski2010} to those of BICEP2 at r=6$\times$10$^{-3}$\cite{BICEP2_III}).
-On-orbit systematic errors, especially those related to stability,  are likely to be at a lower level as compared to the ground, and in fact all prior on-orbit measurements of CMB polarization were limited by systematic errors until an in-depth study of the systematics was performed and the post-processing data analysis suppressed them\cite{Bennett13,planck2016_xlvi}. 
+All prior on-orbit measurements of CMB polarization were limited by systematic errors until an in-depth study of the systematics was performed and the post-processing data analysis suppressed them\cite{Bennett13,planck2016_xlvi,Planck2018_I}. 
 Additionally, recently proposed CMB missions, such as LiteBird and \core, have placed
 systematic error mitigation at the forefront of the case for their
 mission\cite{hazumi2012,wallis2017,Natoli2018}.
-The ground based and suborbital CMB community will continue to develop new techniques in handling systematics.
-
-\textbf{Note: Calculate a defensible level of acceptable systematics.
-For example, integrate r $10^{-3}$ and $10^{-4}$ power from ell 2-10, 10-50,(do a signal to
-noise calculation), then state what map rms that corresponds to.  }
-
-A CMB mission aiming for the unprescedented sensitivity of PICO must control
-systematic errors to avoid bias or an increased variance of the
-science measurement.   
-Systematics must be controlled or corrected to a level that enables the PICO
-science goals (better than 1 nanoKelvin (\textbf{Note: make sure this is a
-  correct statement - also be careful about reducing a complicated
-  concept such as systematic errors to a single map rms number, could also
-  quote this as a $\delta$r error}) in the map).
-Mitigation of systematic errors is the most important reason (along
-with the availability of broad wavelength coverage) to perform a
-measurement of the CMB polarization from a space telescope; Compared
-with a ground-based, sub-orbital, or even a space mission in 
-low-Earth orbit, the L2 environment offers excellent stability as well
-as the ability to observe large fractions of the sky on many time
-scales without interference from the Sun, Earth, or Moon.
-This redundancy of observations allows the checking of consisitency of
-results and an improved ability to correct systematic errors in
-post-processing analysis.
 
 During the course of the PICO Study, a systematics working group
-examined systematic errors affecting PICO,
+examined systematic errors affecting PICO  (approximately 1 nanoKelvin in the map),
 Most  systematic errors can be mitigated by careful design and engineering of 
 the spacecraft and instrument, and the use of present-day state-of-the-art
 technology and data analysis tools.   
@@ -194,28 +168,29 @@ foregrounds, or interaction with the Galactic magnetic field,
 3. systematic effects in the instrument, and in particular an error on
 the actual direction of polarization measured by each detector.  
 While the first two sources create a rotation that may depend on scale,
-position and/or frequency, the latter is expected to mostly depend on
+position and/or frequency, the latter depends mainly on
 the detector considered. 
 
 A rotation {\prang} of the direction of polarization mixes the $Q$ and $U$ Stokes parameters via
 $Q\pm iU \longrightarrow e^{\mp i 2 \prang} (Q\pm iU)$
-and affects the power spectra via (assuming the rotation to be independent on scale and location)
-\begin{subequations}
-\begin{align}
-C^{TT}_\ell &\longrightarrow & C^{TT}_\ell                                             &= & C^{TT}_\ell \\
-C^{TE}_\ell &\longrightarrow & \cos 2\prang\  C^{TE}_\ell                                &\sim & \left(1 - 2\prang^2\right)\ C^{TE}_\ell \\
-C^{EE}_\ell &\longrightarrow & \cos^2 2\prang\  C^{EE}_\ell + \sin^2 2\prang\  C^{BB}_\ell &\sim & C^{EE}_\ell - 4\prang^2\ \left(C^{EE}_\ell - C^{BB}_\ell\right) \\
-C^{BB}_\ell &\longrightarrow & \sin^2 2\prang\  C^{EE}_\ell + \cos^2 2\prang\  C^{BB}_\ell &\sim & C^{BB}_\ell + 4\prang^2\ \left(C^{EE}_\ell - C^{BB}_\ell\right)\\
-C^{TB}_\ell &\longrightarrow & \sin 2\prang\  C^{TE}_\ell                                &\sim & 2\prang\  C^{TE}_\ell \\
-C^{EB}_\ell &\longrightarrow & \sin 2\prang \cos 2\prang \left(C^{EE}_\ell -  C^{BB}_\ell\right)  &\sim & 2\prang\ \left(C^{EE}_\ell -  C^{BB}_\ell\right)
-\end{align}
-\end{subequations}
-as illustrated in Fig.~\ref{fig:rot_bb_tb_eb}.
+and thus mixes the the power spectra and their correlations as illustrated in Fig.~\ref{fig:rot_bb_tb_eb}.
+% via (assuming the rotation to be independent on scale and location)
+%\begin{subequations}
+%\begin{align}
+%C^{TT}_\ell &\longrightarrow & C^{TT}_\ell                                             &= & C^{TT}_\ell \\
+%C^{TE}_\ell &\longrightarrow & \cos 2\prang\  C^{TE}_\ell                                &\sim & \left(1 - 2\prang^2\right)\ C^{TE}_\ell \\
+%C^{EE}_\ell &\longrightarrow & \cos^2 2\prang\  C^{EE}_\ell + \sin^2 2\prang\  C^{BB}_\ell &\sim & C^{EE}_\ell - 4\prang^2\ \left(C^{EE}_\ell - C^{BB}_\ell\right) \\
+%C^{BB}_\ell &\longrightarrow & \sin^2 2\prang\  C^{EE}_\ell + \cos^2 2\prang\  C^{BB}_\ell &\sim & C^{BB}_\ell + 4\prang^2\ \left(C^{EE}_\ell - C^{BB}_\ell\right)\\
+%C^{TB}_\ell &\longrightarrow & \sin 2\prang\  C^{TE}_\ell                                &\sim & 2\prang\  C^{TE}_\ell \\
+%C^{EB}_\ell &\longrightarrow & \sin 2\prang \cos 2\prang \left(C^{EE}_\ell -  C^{BB}_\ell\right)  &\sim & 2\prang\ \left(C^{EE}_\ell -  C^{BB}_\ell\right)
+%\end{align}
+%\end{subequations}
+
 
 %------------------------------------------------------------------------------------------
 \begin{figure}[htb]
 \includegraphics[width=0.8\textwidth]{images/PICO_rotate_eb2_v0.\suffix}
-\caption{\label{fig:rot_bb_tb_eb} Effect of a rotation of the angle of polarization, assuming the Planck 2018 $\Lambda$-CDM best fit model \citep{Planck2018_VI} and expected \pico performances, with a perfect delensing \EFH{(the beam related systematics effects are still arbitrary; to be improved or removed)}.}
+\caption{\label{fig:rot_bb_tb_eb} Effect of a rotation of the angle of polarization, assuming the Planck 2018 $\Lambda$-CDM best fit model \citep{Planck2018_VI} and expected \pico\ noise performance, assuming perfect delensing \EFH{Remove the r=0.01 curve; decide whether to keep beam leakage curve; perhaps remove 60' and 10'}.}
 \end{figure}
 %------------------------------------------------------------------------------------------
 %
@@ -252,23 +227,14 @@ In Planck, the ground measurements of the detectors orientation had an error of 
 
 The most recent constraints on cosmological birefringence (or systematic rotation) was set in \citet{Planck2016_XLIX}, looking for residual signal in $TB$ and $EB$ spectra, but are dominated by the uncertainties on the detector orientations.
 
-In \pico, the relative rotation of the detectors, could be measured with a good accuracy (a few $0.1\arcmin$ ?, \EFH{refs?}) on the CMB, but the overall rotation is difficult to determine.
+For \pico, the relative rotation of the detectors, could be measured with a good accuracy (a few $0.1\arcmin$ ?, \EFH{refs?}) on the CMB, but the overall rotation is difficult to determine.
 Known polarized sources, such as the Crab Nebula, could be used to do that but \citet{Aumont+2018} show that the current uncertainty of $0.33\degree = 20\arcmin$ on the Crab polarization orientation, obtained when combining all the available measurements, 
 would not the measurement of tensorial $B$ modes below $r \sim 0.01$ (assuming everything else to be nominal), far from \pico's target.
 
-Figures \ref{fig:rot_sens_0} and \ref{fig:rot_sens_2} show how the measurement of $r$ by \pico\ is degraded because of an overall rotation of polarization, and how $TB$ and $EB$ can be used to monitor precisely this rotation, assuming that the only source of polarization rotation is instrumental.
+Figures \ref{fig:rot_sens_0} and \ref{fig:rot_sens_2} show how the measurement of $r$ by \pico\ is degraded because of an overall rotation of polarization, and how $TB$ and $EB$ can be used to monitor this rotation, assuming that the only source of polarization rotation is instrumental.
 These results are obtained assuming the spectra to have a Gaussian likelihood, with a variance $\propto 1/\fsky$, and ignoring the foreground contributions.
 
-
-
-$TB$ and $EB$ spectra can detect and measure a global polarisation rotation at levels ($~0.1 \arcmin$) well below those affecting $r$ measurements in $BB$ ($> 1 \arcmin$).
-However, in doing such studies, one can not ignore other important aspects of the measurements of CMB polarization:
-For instance, one has to consider how the delensing will affect the $B$ maps and their final noise levels.
-At large scales, the interaction with foregrounds makes masking necessary, which creates some extra $E$ to $B$ leakage, and complicates the estimation of $B$ modes and of their likelihood. It also necessitates a proper component separation technique, especially in presence of finite and probably mismatched spectral bandwith of the detectors.
-The time correlation of the noise (with a $1/f$ spectral shape), will also complicate the analysis.
-At intermediate and small scales, many other systematics, like those related to beams, will also have to be modeled.
-
-
+In principle, the technique of using the $TB$ and $EB$ spectra can detect and measure a global polarization rotation error at levels ($~0.1 \arcmin$) well below those affecting $r$ measurements in $BB$ ($> 1 \arcmin$).  However, a future mission should include additional aspects of the measurements of CMB polarization, such as delensing, the interaction with foregrounds, and $1/f$ noise in simulating and assessing the impact of an angle calibration error.
 
 \subsubsection{Gain Stability}
 \label{sec:gain}
@@ -300,24 +266,24 @@ To evaluate this systematic error, GRASP software\footnote{https://www.ticra.com
 In a real mission due to the difficulties of measuring this beam, physical optics simulation capabilities must be maintained and validated as well as possible with on-orbit data.
 
 \subsubsection{Key Findings}
-Understanding and controlling the effects of systematic errors in a
-next-generation CMB probe is critical.
-
-The raw sensitivity of the instrument should include enough margin
+Properly modeling, engineering for, and controlling the effects of systematic errors in a
+next-generation CMB probe is critical.  In particular we note:
+\begin{itemize}
+\item The raw sensitivity of the instrument should include enough margin
 that data subsets can independently achieve the science goals.
 This allows testing of the results in the data analysis and additional
 data cuts, if needed.
 
-NASA's support of ground-based and suborbital CMB missions will mitigate risk to a future space mission as PICO by continuing to develop analysis techniques and technology for mitigation of systematic errors.
+\item NASA's support of ground-based and suborbital CMB missions will mitigate risk to a future space mission as PICO by continuing to develop analysis techniques and technology for mitigation of systematic errors.
 
-In a PICO mission's phase A, a complete end-to-end system-level
+\item In a PICO mission's phase A, a complete end-to-end system-level
 simulation software facility would be developed to assist the team in setting 
 requirements and conducting trades between subsystem requirements while
 realistically accounting for post-processing mitigation.  Any future
 CMB mission is likely to have similar orbit  
 and scan characteristics to those of PICO, thus there is an opportunity for NASA and
 the CMB community to invest in further development of this capability now.
-
+\end{itemize}
 
 \end{document}
 

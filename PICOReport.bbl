@@ -6,6 +6,7 @@ G.~{Steigman}.
 \newblock {\em Annual Review of Nuclear and Particle Science}, 29:313--338,
   1979.
 
+<<<<<<< HEAD
 \bibitem{Bolz:2000fu}
 M.~Bolz, A.~Brandenburg, and W.~Buchmuller.
 \newblock {Thermal production of gravitinos}.
@@ -49,6 +50,44 @@ Julien Lesgourgues, Gustavo Marques-Tavares, and Martin Schmaltz.
 \newblock {Evidence for dark matter interactions in cosmological precision
   data?}
 \newblock {\em JCAP}, 1602(02):037, 2016.
+=======
+\bibitem{shimon2008}
+M.~{Shimon}, B.~{Keating}, N.~{Ponthieu}, and E.~{Hivon}.
+\newblock {CMB polarization systematics due to beam asymmetry: Impact on
+  inflationary science}.
+\newblock {\em \prd}, 77(8):083003--+, April 2008.
+
+\bibitem{yadav2010}
+A.~P.~S. {Yadav}, M.~{Su}, and M.~{Zaldarriaga}.
+\newblock {Primordial B-mode diagnostics and self-calibrating the CMB
+  polarization}.
+\newblock {\em \prd}, 81(6):063512--+, March 2010.
+
+\bibitem{BICEP2_III}
+{Bicep2 Collaboration}, P.~A.~R. {Ade}, R.~W. {Aikin}, D.~{Barkats}, S.~J.
+  {Benton}, C.~A. {Bischoff}, J.~J. {Bock}, J.~A. {Brevik}, I.~{Buder},
+  E.~{Bullock}, C.~D. {Dowell}, L.~{Duband}, J.~P. {Filippini}, S.~{Fliescher},
+  S.~R. {Golwala}, M.~{Halpern}, M.~{Hasselfield}, S.~R. {Hildebrandt}, G.~C.
+  {Hilton}, K.~D. {Irwin}, K.~S. {Karkare}, J.~P. {Kaufman}, B.~G. {Keating},
+  S.~A. {Kernasovskiy}, J.~M. {Kovac}, C.~L. {Kuo}, E.~M. {Leitch},
+  M.~{Lueker}, C.~B. {Netterfield}, H.~T. {Nguyen}, R.~{O'Brient}, R.~W.
+  {Ogburn}, IV, A.~{Orlando}, C.~{Pryke}, S.~{Richter}, R.~{Schwarz}, C.~D.
+  {Sheehy}, Z.~K. {Staniszewski}, R.~V. {Sudiwala}, G.~P. {Teply}, J.~E.
+  {Tolan}, A.~D. {Turner}, A.~G. {Vieregg}, C.~L. {Wong}, and K.~W. {Yoon}.
+\newblock {Bicep2 III: Instrumental Systematics}.
+\newblock {\em \apj}, 814:110, December 2015.
+
+\bibitem{Bennett13}
+C.~L. {Bennett}, D.~{Larson}, J.~L. {Weiland}, N.~{Jarosik}, G.~{Hinshaw},
+  N.~{Odegard}, K.~M. {Smith}, R.~S. {Hill}, B.~{Gold}, M.~{Halpern},
+  E.~{Komatsu}, M.~R. {Nolta}, L.~{Page}, D.~N. {Spergel}, E.~{Wollack},
+  J.~{Dunkley}, A.~{Kogut}, M.~{Limon}, S.~S. {Meyer}, G.~S. {Tucker}, and
+  E.~L. {Wright}.
+\newblock {Nine-year Wilkinson Microwave Anisotropy Probe (WMAP) Observations:
+  Final Maps and Results}.
+\newblock {\em The Astrophysical Journal Supplement Series}, 208:20, October
+  2013.
+>>>>>>> reorganizing systematics text
 
 \bibitem{planck2016_xlvi}
 {Planck Collaboration}, N.~{Aghanim}, M.~{Ashdown}, J.~{Aumont},
@@ -94,6 +133,7 @@ Julien Lesgourgues, Gustavo Marques-Tavares, and Martin Schmaltz.
   reionization optical depth}.
 \newblock {\em ArXiv e-prints}, May 2016.
 
+<<<<<<< HEAD
 \bibitem{Kaplinghat:2003bh}
 Manoj Kaplinghat, Lloyd Knox, and Yong-Seon Song.
 \newblock {Determining neutrino mass from the CMB alone}.
@@ -134,6 +174,13 @@ C.~L. {Bennett}, D.~{Larson}, J.~L. {Weiland}, N.~{Jarosik}, G.~{Hinshaw},
   Final Maps and Results}.
 \newblock {\em The Astrophysical Journal Supplement Series}, 208:20, October
   2013.
+=======
+\bibitem{Planck2018_I}
+{Planck 2018-I}.
+\newblock {Planck 2018 results. I. Overview and the Cosmological Legacy of
+  Planck}.
+\newblock July 2018.
+>>>>>>> reorganizing systematics text
 
 \bibitem{hazumi2012}
 M.~{Hazumi}, J.~{Borrill}, Y.~{Chinone}, M.~A. {Dobbs}, H.~{Fuke}, A.~{Ghribi},
