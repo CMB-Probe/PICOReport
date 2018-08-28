@@ -181,8 +181,8 @@ and thus mixes the the power spectra and their correlations as illustrated in Fi
 
 %------------------------------------------------------------------------------------------
 \begin{figure}[htb]
-\includegraphics[width=0.8\textwidth]{images/PICO_rotate_eb2_v0.\suffix}
-\caption{\label{fig:rot_bb_tb_eb} Effect of a rotation of the angle of polarization, assuming the Planck 2018 $\Lambda$-CDM best fit model \citep{Planck2018_VI} and expected \pico\ noise performance, assuming perfect delensing \EFH{Remove the r=0.01 curve; decide whether to keep beam leakage curve; perhaps remove 60' and 10'}.}
+\includegraphics[width=0.8\textwidth]{images/PICO_rotate_eb3_v0.\suffix}
+\caption{\label{fig:rot_bb_tb_eb} Effect of a rotation of the angle of polarization, assuming the Planck 2018 $\Lambda$-CDM best fit model \citep{Planck2018_VI} with $\tau=0.054$ and expected \pico\ noise performance, assuming perfect delensing.}
 \end{figure}
 %------------------------------------------------------------------------------------------
 %
@@ -223,8 +223,12 @@ For \pico, the relative rotation of the detectors, could be measured with a good
 Known polarized sources, such as the Crab Nebula, could be used to do that but \citet{Aumont+2018} show that the current uncertainty of $0.33\degree = 20\arcmin$ on the Crab polarization orientation, obtained when combining all the available measurements, 
 would not the measurement of tensorial $B$ modes below $r \sim 0.01$ (assuming everything else to be nominal), far from \pico's target.
 
-Figures \ref{fig:rot_sens_0} and \ref{fig:rot_sens_2} show how the measurement of $r$ by \pico\ is degraded because of an overall rotation of polarization, and how $TB$ and $EB$ can be used to monitor this rotation, assuming that the only source of polarization rotation is instrumental.
-These results are obtained assuming the spectra to have a Gaussian likelihood, with a variance $\propto 1/\fsky$, and ignoring the foreground contributions.
+%Figures \ref{fig:rot_sens_0} and \ref{fig:rot_sens_2} show how the measurement of $r$ by \pico\ is degraded because of an overall rotation of polarization, and how $TB$ and $EB$ can be used to monitor this rotation, assuming that the only source of polarization rotation is instrumental.
+%These results are obtained assuming the spectra to have a Gaussian likelihood, with a variance $\propto 1/\fsky$, and ignoring the foreground contributions.
+
+In the absence of other systematics and foregrounds, an unaccounted polarization rotation $\alpha$ of $10\arcmin$ increases
+the error bar of $r$ by 30\%, while $EB$, $TB$ and $BB$ spectra can measure a rotation $\alpha$ at 3$\sigma$ when $\alpha \sim 0.07, 0.2$  and $0.9\arcmin$ respectively
+ on perfectly delensed maps, and $0.25, 0.9$ and $4.5\arcmin$ on raw maps.
 
 In principle, the technique of using the $TB$ and $EB$ spectra can detect and measure a global polarization rotation error at levels ($~0.1 \arcmin$) well below those affecting $r$ measurements in $BB$ ($> 1 \arcmin$).  However, a future mission should include additional aspects of the measurements of CMB polarization, such as delensing, the interaction with foregrounds, and $1/f$ noise in simulating and assessing the impact of an angle calibration error.
 
