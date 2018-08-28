@@ -1,6 +1,84 @@
-\documentclass[PICOReport.tex]{subfiles}
+
+\documentclass[11pt,a4paper]{article}
+%\documentclass[PICOReport.tex]{extragalacticsci.tex}
+\def\simlt{\mathrel{\rlap{\lower 3pt\hbox{$\sim$}}\raise 2.0pt\hbox{$<$}}}
+\def\simgt{\mathrel{\rlap{\lower 3pt\hbox{$\sim$}} \raise2.0pt\hbox{$>$}}}
+
+\usepackage{amssymb,amsmath,times}
+
+\usepackage{color}
+
+\usepackage{graphicx}
+
+\usepackage{fancyhdr}
+
+\usepackage{multirow}
+
+\usepackage{cite}
+
+\usepackage{color}
+
+\usepackage{natbib}
+
+\usepackage{acronym}
+
+%\usepackage{aas_macros}
+
+\def\araa{Ann.~Rev.~Astr.~Ap.}
+
+% define formatting
+
+%\pagestyle{empty}
+
+\parindent=0pt
+
+\topmargin=0.in \headheight=0in \headsep=-0.1in \textheight=9.2in
+
+\textwidth=6.5in \oddsidemargin=0in
+
+
+\setlength{\floatsep}{0.5\floatsep}
+
+\setlength{\textfloatsep}{0.5\textfloatsep}
+
+\setlength{\intextsep}{0.5\intextsep}
+
+\setlength{\floatsep}{0.5\floatsep}
+
+\setlength{\dblfloatsep}{0.5\dblfloatsep}
+
+\setlength{\dbltextfloatsep}{0.5\dbltextfloatsep}
+
+\def\araa{Ann.~Rev.~Astr.~Ap.}
+\input{PICOReport_defs.tex}
+
+%subfiles
+
+
+
+
+
 
 \begin{document}
+
+
+
+\bibliographystyle{unsrt}
+
+
+
+
+
+
+\def\mission{CMB Probe\ }
+
+%% %simple case: 2 authors, same institution
+%% \author{A. Uthor}
+%% \author{and A. Nother Author}
+%% \affiliation{Institution,\\Address, Country}
+
+% %________________________________________________________________
+
 
 \begin{figure*}
 %\vskip-3cm
@@ -16,7 +94,7 @@ $500\,\mu$m as determined by \textit{Herschel} surveys. The vertical red line sh
 \end{center}
 \end{figure*}
 
-\subsubsection{Point extragalactic sources in the PICO frequency range}
+\subsection{Point extragalactic sources in the PICO frequency range}
 
 As illustrated by the left panel of Fig.\,\ref{fig:SED3}, at $\lambda \simgt
 \hbox{few\, mm}$ the  dominant extragalactic population are blazars
@@ -112,7 +190,7 @@ The vertical red line corresponds to the PICO detection limit.
 \end{figure*}
 
 
-\subsubsection{Early phases of cluster evolution}
+\subsection{Early phases of cluster evolution}
 
 PICO will open a new window for the investigation of early phases of cluster
 evolution,  when their member galaxies were actively star forming and before
@@ -142,7 +220,7 @@ characterize the properties of member galaxies, probing the galaxy evolution in
 dense environments and shedding light on the complex physical processes driving
 it.
 
-\subsubsection{Radio sources}
+\subsection{Radio sources}
 
 PICO will increase by orders of magnitude the number of blazars selected at
 sub-mm  wavelengths and will determine the SEDs of many hundreds of them up to
@@ -178,7 +256,7 @@ events, such as blazar outbursts.
 %\label{fig:both}
 %\end{figure}
 
-\subsubsection{Source polarization}
+\subsection{Source polarization}
 
 PICO will make a giant leap forward in the determination of polarization
 properties of both radio sources and of dusty galaxies over a frequency range
@@ -195,12 +273,12 @@ structure and on the ordering of their large-scale magnetic fields.
 
 
 
+\newpage
+
+
+
+\bibliography{mybib}
 
 \end{document}
 
-%\begin{figure}[!htb]
-%\centering
-%\includegraphics[width=4cm]{images/example}
-%\caption{example}
-%\label{fig:im_3}
-%\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
