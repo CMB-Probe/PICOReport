@@ -125,6 +125,26 @@
 \def\map{{\rm map}}
 \long\def\comment#1{}
 
+
+%------------------------------------------------------------------------------------------------------
+% Tables by Charles Lawrence
+%------------------------------------------------------------------------------------------------------
+\newbox\tablebox    \newdimen\tablewidth
+\def\leaderfil{\leaders\hbox to 5pt{\hss.\hss}\hfil}
+\def\endPICOtable{\tablewidth=\wd\tablebox
+    $$\hss\copy\tablebox\hss$$
+    \vskip-\lastskip\vskip -2pt}
+\def\tablenote#1 #2\par{\begingroup \parindent=0.8em
+    \abovedisplayshortskip=0pt\belowdisplayshortskip=0pt
+    \noindent
+    $$\hss\vbox{\hsize\tablewidth \hangindent=\parindent \hangafter=1 \noindent
+    \hbox to \parindent{$^#1$\hss}\strut#2\strut\par}\hss$$
+    \endgroup}
+\def\doubleline{\vskip 3pt\hrule \vskip 1.5pt \hrule \vskip 5pt}
+%-------------------------------------------------------------------------------------------------------
+
+
+
 % \newcommand{\beq}{\begin{equation}}
 % \newcommand{\eeq}{\end{equation}}
 % \newcommand{\bea}{\begin{eqnarray}}
