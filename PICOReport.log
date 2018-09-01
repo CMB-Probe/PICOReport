@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  31 AUG 2018 20:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  31 AUG 2018 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -448,68 +448,68 @@ g, Lawrence,
 \digitwidth=\dimen119
 \signwidth=\dimen120
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 39.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 44.
 
-Underfull \hbox (badness 1127) in paragraph at lines 41--41
+Underfull \hbox (badness 1127) in paragraph at lines 46--46
 \OT1/ptm/m/n/10 by at-mo-sphere or ground.
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 43--43
+Underfull \hbox (badness 1377) in paragraph at lines 48--48
 \OT1/ptm/m/n/10 quen-cies. The fre-quency
  []
 
 
-Underfull \hbox (badness 3229) in paragraph at lines 43--43
+Underfull \hbox (badness 3229) in paragraph at lines 48--48
 \OT1/ptm/m/n/10 range where as-tro-nom-i-cal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--43
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \OT1/ptm/m/n/10 in-ac-ces-
  []
 
 
-Underfull \hbox (badness 2119) in paragraph at lines 43--43
+Underfull \hbox (badness 2119) in paragraph at lines 48--48
 []|\OT1/ptm/m/n/10 Better than ground. Fore-
  []
 
 
-Underfull \hbox (badness 6173) in paragraph at lines 43--43
+Underfull \hbox (badness 6173) in paragraph at lines 48--48
 \OT1/ptm/m/n/10 ground-minimum fre-quen-
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 47--47
+Underfull \hbox (badness 1303) in paragraph at lines 52--52
 \OT1/ptm/m/n/10 ground, plus di-rect noise.
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 47--47
+Underfull \hbox (badness 5563) in paragraph at lines 52--52
 \OT1/ptm/m/n/10 In-di-vid-ual de-tec-tor sen-si-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 []|\OT1/ptm/m/n/10 Atmospheric
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
 \OT1/ptm/m/n/10 direct-detector
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 49--49
+Underfull \hbox (badness 3460) in paragraph at lines 54--54
 []|\OT1/ptm/m/n/10 Continuous ob-ser-va-tions for
  []
 
-[10] [11]) (./foregrounds.tex) (./systematics.tex
+[10] [11] [12]) (./foregrounds.tex) (./systematics.tex
 
-Package natbib Warning: Citation `Takahaski2010' on page 12 undefined on input 
+Package natbib Warning: Citation `Takahaski2010' on page 13 undefined on input 
 line 15.
 
-[12]
+[13]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
 
@@ -524,26 +524,26 @@ Underfull \hbox (badness 1178) in paragraph at lines 52--52
 
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
-(natbib)                on page 13 on input line 56.
+(natbib)                on page 14 on input line 56.
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 13 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 14 undefined on input 
 line 56.
 
 
-Package natbib Warning: Citation `Hoang_2017' on page 13 undefined on input lin
+Package natbib Warning: Citation `Hoang_2017' on page 14 undefined on input lin
 e 62.
 
 
-Package natbib Warning: Citation `Pajot_2010' on page 13 undefined on input lin
+Package natbib Warning: Citation `Pajot_2010' on page 14 undefined on input lin
 e 62.
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 13 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 14 undefined on input 
 line 63.
 
 
-Package natbib Warning: Citation `CORE_systematics' on page 13 undefined on inp
+Package natbib Warning: Citation `CORE_systematics' on page 14 undefined on inp
 ut line 63.
 
 
@@ -557,11 +557,11 @@ Underfull \hbox (badness 5771) in paragraph at lines 72--72
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 13 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 14 undefined on input 
 line 73.
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 13 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 14 undefined on input 
 line 80.
 
 
@@ -570,7 +570,7 @@ Underfull \hbox (badness 3108) in paragraph at lines 90--92
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 13 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 14 undefined on input 
 line 96.
 
 
@@ -595,7 +595,7 @@ Underfull \hbox (badness 2865) in paragraph at lines 106--107
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 13 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 14 undefined on input 
 line 116.
 
 
@@ -609,7 +609,7 @@ Underfull \hbox (badness 2744) in paragraph at lines 140--140
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 13 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 14 undefined on input 
 line 144.
 
 
@@ -630,7 +630,7 @@ Overfull \hbox (56.87pt too wide) in paragraph at lines 47--150
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/PICO_rotate_eb3_v0.pdf, id=241, 597.23125pt x 397.485pt>
+<images/PICO_rotate_eb3_v0.pdf, id=244, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb3_v0.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb3_v0.pdf>
@@ -639,25 +639,25 @@ Package pdftex.def Info: images/PICO_rotate_eb3_v0.pdf used on input line 184.
 
 
 Package natbib Warning: Author undefined for citation`Planck2016_XLIX' 
-(natbib)                on page 13 on input line 220.
+(natbib)                on page 14 on input line 220.
 
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
-(natbib)                on page 13 on input line 223.
+(natbib)                on page 14 on input line 223.
 
-[13] [14]
+[14 <./images/PICO_rotate_eb3_v0.pdf>] [15]
 Overfull \hbox (1.64862pt too wide) in paragraph at lines 237--238
 \OT1/ptm/m/n/12 Photometric cal-i-bra-tion is the pro-cess of con-vert-ing the 
 raw out-put of the re-ceivers into a physically-
  []
 
-[15 <./images/PICO_rotate_eb3_v0.pdf>] [16]) (./instrument.tex
+[16] [17]) (./instrument.tex
 Overfull \hbox (3.97801pt too wide) in paragraph at lines 5--6
 \OT1/ptm/m/n/12 Telescope (Hanany / Young), fo-cal plane (Hanany / Young), cool
 -ing (Trangsrud), read-out (O'Brient) 
  []
 
-) (./mission.tex) (./technology.tex) (./cost.tex) [17] [18] (./PICOReport.bbl
+) (./mission.tex) (./technology.tex) (./cost.tex) [18] (./PICOReport.bbl
 Underfull \hbox (badness 2150) in paragraph at lines 36--41
 []\OT1/ptm/m/n/12 Francis-Yan Cyr-Racine, Roland de Put-ter, Alvise Rac-canelli
 , and Kris Sig-urd-son.
@@ -667,44 +667,41 @@ Underfull \hbox (badness 2150) in paragraph at lines 36--41
 
 Package natbib Warning: There were undefined citations.
 
-[25] (./PICOReport.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+[25] (./PICOReport.aux) ) 
 Here is how much of TeX's memory you used:
  4050 strings out of 493089
  54444 string characters out of 6134842
- 134426 words of memory out of 5000000
+ 132426 words of memory out of 5000000
  7387 multiletter control sequences out of 15000+600000
  37942 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,43p,1504b,405s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
-ype1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type
-1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/
-times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmr
-8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (26 pages, 2877702 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/ba
+se/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cme
+x10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
+pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pf
+b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/u
+rw/times/utmri8a.pfb>
+Output written on PICOReport.pdf (26 pages, 2881583 bytes).
 PDF statistics:
  349 PDF objects out of 1000 (max. 8388607)
  218 compressed objects within 3 object streams
