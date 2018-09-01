@@ -1,0 +1,75 @@
+Should describe complementarity with sub-orbital CMB measurements and with other surveys, 
+both in space and on the ground.  This is summary text (more detail in subsections about specific objectives).
+
+
+
+
+
+% text for section 2.4
+
+Since the first measurements that recognized the existence of the CMB were made in 1964, important observations have been made from the ground, from balloons, and from space.  The question for the future is what should be the roles be of these three types of experiment?  To answer this question, start by considering the advantages and disadvantages of each location (Table~?).
+
+%\midinsert
+\begingroup
+{\footnotesize
+%\ninepoint
+\newdimen\tblskip \tblskip=5pt
+\nointerlineskip
+%\vskip -3mm
+\setbox\tablebox=\vbox{
+ \newdimen\digitwidth
+ \setbox0=\hbox{\rm 0}
+ \digitwidth=\wd0
+ \catcode`*=\active
+ \def*{\kern\digitwidth}
+%
+ \newdimen\signwidth
+ \setbox0=\hbox{+}
+ \signwidth=\wd0
+ \catcode`!=\active
+ \def!{\kern\signwidth}
+\halign{\vtop{\hsize=1.6in\hangafter=1\hangindent=1em\strut#\strut\tolerance=10000}\tabskip 1em&
+\vtop{\hsize=1.7in\hangafter=1\hangindent=1em\strut#\strut\tolerance=10000\par}&
+\vtop{\hsize=1.7in\hangafter=1\hangindent=1em\strut#\strut\tolerance=10000\par}&
+\vtop{\hsize=1.7in\hangafter=1\hangindent=1em\strut#\strut\tolerance=10000\par}\tabskip=0pt\cr
+\noalign{\doubleline}
+\noalign{\vskip 3pt}
+\omit\hfil Characteristic\hfil&\omit\hfil Ground\hfil&\omit\hfil Balloon\hfil&\omit\hfil Space\hfil\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+{\bf Performance}\hfil\cr
+\noalign{\vskip 3pt}
+Sky coverage&Partial from single site&Partial from single flight&Full.   Scan strategy not limited by atmosphere or ground.  Large fractions of the sky can be observed nearly simultaneously with the same detectors.\cr
+%
+Frequency coverage&Limited to atmospheric ``windows'', which get increasingly opaque at higher frequencies.  The frequency range where astronomical foregrounds are minimum is inaccessible from the ground, and frequencies above 300\,GHz are unusable.& Better than ground.  Fore\-ground-minimum frequencies still unusable.&Unrestricted\cr
+%
+Angular resolution&Telescope cost a function of size, but arcminute resolution possible.&Restricted to small telescopes. Arcminute resolution effectively impossible.&Telescope cost a steep function of size.  Arcminute resolution very expensive.\cr
+%
+Backgrounds and noise&Hundreds of K loading of detectors from atmosphere and ground, plus direct noise.  Individual detector sensitivity reduced substantially, with 250\,$\mu$K\,s$^{-1/2}$ the practical limit for a single direct detector.&  Atmospheric loading much less than from ground, but still greater than from space.&Only CMB, CIB, and Galactic backgrounds.  Individu\-al direct-detector sensitivites roughly an order of magnitude better.\cr
+%
+Integration time&Limited by Sun, weather.&Severely imited by flight time.  To date, tens of days per flight.&Continuous observations for years.\cr
+%
+\noalign{\vskip 4pt}
+{\bf Practicalities}\cr
+\noalign{\vskip 3pt}
+Accessibility, repairability&Good&None.  Multiple flights sometimes possible.& \cr
+%
+Mass&Not a big issue&Big issue&Big issue\cr
+\noalign{\vskip 3pt\hrule\vskip 3pt}}}
+\endPICOtable
+%\tablenote {{a}} The percentage contingency for annual operations is high because the cost does not include 40 FTEs of scientist effort supported by DOE research funds.\par
+%\tablenote {{b}} Effective frequencies encapsulate the bandpass effects at each channel.\par
+}
+\endgroup
+\vskip 20pt
+%\endinsert
+
+
+In every respect affecting performance, space has the advantage, and there can be no argument that space will be required to reach the ultimate limits set by astronomical foregrounds.  But the advantages of space come at a high cost, in both time and money, and an essential question is how much can be done from the ground and balloons first?  The answer depends on the specific requirements of the science questions being addressed, which we discuss below. However, some general guidelines can be given.  When the entire sky is needed, as for fluctuations on the largest angular scales, space is necessary.  The difficulties of controlling systematic errors and foregrounds over the whole sky at a level significantly below what has been achieved by Planck are simply too great to overcome on the ground.  Progress on the reionization bump ($2\leq \ell \leq 12$), whether for $\tau$ or for $r$, requires space.  Significant progress can surely be made from the ground on the recombination bump ($30 \leq \ell \leq 300$), and the $r \approx 10^{-3}$ goal of the ``ultimate'' ground-based experiment CMB-S4 looks to be both bold and achievable.  For $r$, the confusing signal from large-scale-structure lensing of CMB $E$-modes into $B$-modes must be measured and removed, and this requires observations on sub-degree scales over a wide frequency range (because of foregrounds) that especially at the lower frequencies is a challenge from space.
+
+The PICO $r$ goal of $10^{-4}$ is beyond the reach of ground observations.  The limited frequency range observable from the ground is not enough to separate foregrounds to the necessary level, and at $10^{-4}$ there is no room to give up any advantage on systematics.  For science requiring higher angular resolution, however, such as observations of galaxy clusters at 1 arcmin resolution, the ground has a clear advantage.
+
+(need more in here)
+
+Balloon observations have been valuable in the past, but the severe limitations on observing time must be recognized.  Even the ultra-long-duration balloons that have been on the horizon for more than two decades but have not yet flown for any astrophysics experiment offer only $10^2$ days per flight, 5--10\% of the duration of the Planck mission (depending on instrument), and 3\% of the duration of WMAP.  Both WMAP and Planck showed the essential power of repeated observations in identical conditions in revealing and controlling systematics.  This will never be possible with balloon experiments.  Reaching $10^{-4}$ will require vigorous exploitation of {\it every\/} possible advantage.  There is nevertheless still an important role for balloon experiments, in demonstrating new technologies, and in training of students.
+
+(Marcel start here with more detailed discussion of various science possibilities.) 
