@@ -264,6 +264,127 @@ B.~D. {Metzger}, P.~K.~G. {Williams}, and E.~{Berger}.
   Surveys. I. Detection Rates and Light Curve Characteristics}.
 \newblock {\em \apj}, 806:224, June 2015.
 
+\bibitem{delabrouille/etal:2013}
+J.~{Delabrouille}, M.~{Betoule}, J.-B. {Melin}, M.-A. {Miville-Desch{\^e}nes},
+  J.~{Gonzalez-Nuevo}, M.~{Le Jeune}, G.~{Castex}, G.~{de Zotti}, S.~{Basak},
+  M.~{Ashdown}, J.~{Aumont}, C.~{Baccigalupi}, A.~J. {Banday}, J.-P. {Bernard},
+  F.~R. {Bouchet}, D.~L. {Clements}, A.~{da Silva}, C.~{Dickinson}, F.~{Dodu},
+  K.~{Dolag}, F.~{Elsner}, L.~{Fauvet}, G.~{Fa{\"y}}, G.~{Giardino},
+  S.~{Leach}, J.~{Lesgourgues}, M.~{Liguori}, J.~F. {Mac{\'{\i}}as-P{\'e}rez},
+  M.~{Massardi}, S.~{Matarrese}, P.~{Mazzotta}, L.~{Montier}, S.~{Mottet},
+  R.~{Paladini}, B.~{Partridge}, R.~{Piffaretti}, G.~{Prezeau}, S.~{Prunet},
+  S.~{Ricciardi}, M.~{Roman}, B.~{Schaefer}, and L.~{Toffolatti}.
+\newblock {The pre-launch Planck Sky Model: a model of sky emission at
+  submillimetre to centimetre wavelengths}.
+\newblock {\em \aap}, 553:A96, May 2013.
+
+\bibitem{Lewis/etal:2000}
+A.~{Lewis}, A.~{Challinor}, and A.~{Lasenby}.
+\newblock {Efficient Computation of Cosmic Microwave Background Anisotropies in
+  Closed Friedmann-Robertson-Walker Models}.
+\newblock {\em \apj}, 538:473--476, August 2000.
+
+\bibitem{Miville-Deschenes/etal:2008}
+M.-A. {Miville-Desch{\^e}nes}, N.~{Ysard}, A.~{Lavabre}, N.~{Ponthieu}, J.~F.
+  {Mac{\'{\i}}as-P{\'e}rez}, J.~{Aumont}, and J.~P. {Bernard}.
+\newblock {Separation of anomalous and synchrotron emissions using WMAP
+  polarization data}.
+\newblock {\em \aap}, 490:1093--1102, November 2008.
+
+\bibitem{Kogut/etal:2007}
+A.~{Kogut}, J.~{Dunkley}, C.~L. {Bennett}, O.~{Dor{\'e}}, B.~{Gold},
+  M.~{Halpern}, G.~{Hinshaw}, N.~{Jarosik}, E.~{Komatsu}, M.~R. {Nolta},
+  N.~{Odegard}, L.~{Page}, D.~N. {Spergel}, G.~S. {Tucker}, J.~L. {Weiland},
+  E.~{Wollack}, and E.~L. {Wright}.
+\newblock {Three-Year Wilkinson Microwave Anisotropy Probe (WMAP) Observations:
+  Foreground Polarization}.
+\newblock {\em \apj}, 665:355--362, August 2007.
+
+\bibitem{dickinson/etal:2018}
+C.~{Dickinson}, Y.~{Ali-Ha{\"i}moud}, A.~{Barr}, E.~S. {Battistelli},
+  A.~{Bell}, L.~{Bernstein}, S.~{Casassus}, K.~{Cleary}, B.~T. {Draine},
+  R.~{G{\'e}nova-Santos}, S.~E. {Harper}, B.~{Hensley}, J.~{Hill-Valler},
+  T.~{Hoang}, F.~P. {Israel}, L.~{Jew}, A.~{Lazarian}, J.~P. {Leahy},
+  J.~{Leech}, C.~H. {L{\'o}pez-Caraballo}, I.~{McDonald}, E.~J. {Murphy},
+  T.~{Onaka}, R.~{Paladini}, M.~W. {Peel}, Y.~{Perrott}, F.~{Poidevin},
+  A.~C.~S. {Readhead}, J.-A. {Rubi{\~n}o-Mart{\'{\i}}n}, A.~C. {Taylor}, C.~T.
+  {Tibbs}, M.~{Todorovi{\'c}}, and M.~{Vidal}.
+\newblock {The State-of-Play of Anomalous Microwave Emission (AME) research}.
+\newblock {\em New Ast. Rev.}, 80:1--28, February 2018.
+
+\bibitem{gorski/etal:2005}
+K.~M. {G{\'o}rski}, E.~{Hivon}, A.~J. {Banday}, B.~D. {Wandelt}, F.~K.
+  {Hansen}, M.~{Reinecke}, and M.~{Bartelmann}.
+\newblock {HEALPix: A Framework for High-Resolution Discretization and Fast
+  Analysis of Data Distributed on the Sphere}.
+\newblock {\em \apj}, 622:759--771, April 2005.
+
+\bibitem{eriksen/etal:2008}
+H.~K. {Eriksen}, J.~B. {Jewell}, C.~{Dickinson}, A.~J. {Banday}, K.~M.
+  {G{\'o}rski}, and C.~R. {Lawrence}.
+\newblock {Joint Bayesian Component Separation and CMB Power Spectrum
+  Estimation}.
+\newblock {\em \apj}, 676:10--32, March 2008.
+
+\bibitem{Planck_2015_X}
+{Planck Collaboration}, R.~{Adam}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~I.~R.
+  {Alves}, M.~{Arnaud}, M.~{Ashdown}, J.~{Aumont}, C.~{Baccigalupi}, A.~J.
+  {Banday}, and et~al.
+\newblock {Planck 2015 results. X. Diffuse component separation: Foreground
+  maps}.
+\newblock {\em \aap}, 594:A10, September 2016.
+
+\bibitem{Planck_2018_IV}
+{Planck Collaboration}, Y.~{Akrami}, M.~{Ashdown}, J.~{Aumont},
+  C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday}, R.~B. {Barreiro},
+  N.~{Bartolo}, S.~{Basak}, K.~{Benabed}, M.~{Bersanelli}, P.~{Bielewicz},
+  J.~R. {Bond}, J.~{Borrill}, F.~R. {Bouchet}, F.~{Boulanger}, M.~{Bucher},
+  C.~{Burigana}, E.~{Calabrese}, J.-F. {Cardoso}, J.~{Carron}, B.~{Casaponsa},
+  A.~{Challinor}, L.~P.~L. {Colombo}, C.~{Combet}, B.~P. {Crill}, F.~{Cuttaia},
+  P.~{de Bernardis}, A.~{de Rosa}, G.~{de Zotti}, J.~{Delabrouille}, J.-M.
+  {Delouis}, E.~{Di Valentino}, C.~{Dickinson}, J.~M. {Diego}, S.~{Donzelli},
+  O.~{Dor{\'e}}, A.~{Ducout}, X.~{Dupac}, G.~{Efstathiou}, F.~{Elsner}, T.~A.
+  {En{\ss}lin}, H.~K. {Eriksen}, E.~{Falgarone}, R.~{Fernandez-Cobos},
+  F.~{Finelli}, F.~{Forastieri}, M.~{Frailis}, A.~A. {Fraisse},
+  E.~{Franceschi}, A.~{Frolov}, S.~{Galeotta}, S.~{Galli}, K.~{Ganga}, R.~T.
+  {G{\'e}nova-Santos}, M.~{Gerbino}, T.~{Ghosh}, J.~{Gonz{\'a}lez-Nuevo}, K.~M.
+  {G{\'o}rski}, S.~{Gratton}, A.~{Gruppuso}, J.~E. {Gudmundsson}, W.~{Handley},
+  F.~K. {Hansen}, G.~{Helou}, D.~{Herranz}, Z.~{Huang}, A.~H. {Jaffe},
+  A.~{Karakci}, E.~{Keih{\"a}nen}, R.~{Keskitalo}, K.~{Kiiveri}, J.~{Kim},
+  T.~S. {Kisner}, N.~{Krachmalnicoff}, M.~{Kunz}, H.~{Kurki-Suonio},
+  G.~{Lagache}, J.-M. {Lamarre}, A.~{Lasenby}, M.~{Lattanzi}, C.~R. {Lawrence},
+  M.~{Le Jeune}, F.~{Levrier}, M.~{Liguori}, P.~B. {Lilje}, V.~{Lindholm},
+  M.~{L{\'o}pez-Caniego}, P.~M. {Lubin}, Y.-Z. {Ma}, J.~F.
+  {Mac{\'{\i}}as-P{\'e}rez}, G.~{Maggio}, D.~{Maino}, N.~{Mandolesi},
+  A.~{Mangilli}, A.~{Marcos-Caballero}, P.~G. {Martin},
+  E.~{Mart{\'{\i}}nez-Gonz{\'a}lez}, S.~{Matarrese}, N.~{Mauri}, J.~D.
+  {McEwen}, P.~R. {Meinhold}, A.~{Melchiorri}, A.~{Mennella}, M.~{Migliaccio},
+  M.-A. {Miville-Desch{\^e}nes}, D.~{Molinari}, A.~{Moneti}, L.~{Montier},
+  G.~{Morgante}, P.~{Natoli}, F.~{Oppizzi}, L.~{Pagano}, D.~{Paoletti},
+  B.~{Partridge}, M.~{Peel}, V.~{Pettorino}, F.~{Piacentini}, G.~{Polenta},
+  J.-L. {Puget}, J.~P. {Rachen}, M.~{Reinecke}, M.~{Remazeilles}, A.~{Renzi},
+  G.~{Rocha}, G.~{Roudier}, J.~A. {Rubi{\~n}o-Mart{\'{\i}}n},
+  B.~{Ruiz-Granados}, L.~{Salvati}, M.~{Sandri}, M.~{Savelainen}, D.~{Scott},
+  D.~S. {Seljebotn}, C.~{Sirignano}, L.~D. {Spencer}, A.-S. {Suur-Uski}, J.~A.
+  {Tauber}, D.~{Tavagnacco}, M.~{Tenti}, H.~{Thommesen}, L.~{Toffolatti},
+  M.~{Tomasi}, T.~{Trombetti}, J.~{Valiviita}, B.~{Van Tent}, P.~{Vielva},
+  F.~{Villa}, N.~{Vittorio}, B.~D. {Wandelt}, I.~K. {Wehus}, A.~{Zacchei}, and
+  A.~{Zonca}.
+\newblock {Planck 2018 results. IV. Diffuse component separation}.
+\newblock {\em ArXiv e-prints}, July 2018.
+
+\bibitem{Remazeilles/etal:2016}
+M.~{Remazeilles}, C.~{Dickinson}, H.~K.~K. {Eriksen}, and I.~K. {Wehus}.
+\newblock {Sensitivity and foreground modelling for large-scale cosmic
+  microwave background B-mode polarization satellite missions}.
+\newblock {\em \mnras}, 458:2032--2050, May 2016.
+
+\bibitem{Remazeilles/etal:2018}
+M.~{Remazeilles}, C.~{Dickinson}, H.~K. {Eriksen}, and I.~K. {Wehus}.
+\newblock {Joint Bayesian estimation of tensor and lensing B modes in the power
+  spectrum of CMB polarization data}.
+\newblock {\em \mnras}, 474:3889--3897, March 2018.
+
 \bibitem{hu03}
 W.~{Hu}, M.~M. {Hedman}, and M.~{Zaldarriaga}.
 \newblock {Benchmark parameters for CMB polarization experiments}.
