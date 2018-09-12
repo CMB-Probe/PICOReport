@@ -5,11 +5,15 @@
 %To cover: Galaxy Formation, Clusters, Reionization, point sources (probably moves to a new section called 'Legacy Science')
 
 {\bf Physics of Reionization}
-\begin{itemize}
-\item E-mode power spectrum: $\tau$
-\item Patchy reionization: kSZ power spectrum and higher-order statistics
-\item Patchy reionization: quadratic estimator reconstruction
-\end{itemize}
+
+The reionization of the Universe imprints multiple signals in the CMB, in both temperature and polarization.  In polarization, the most important reionization signal is the large-scale $E$-mode power sourced by the scattering of the temperature quadrupole during this epoch.  This signal allows a direct measurement of the optical depth, $tau$, with very little degeneracy with other parameters (and, to some extent, a measurement of the reionization history itself).  In contrast, inference of $\tau$ from the $TT$ power spectrum is hindered by its direct degeneracy with the scalar fluctuation amplitude.  Thus, large-scale $EE$ power spectrum measurements are a unique and crucial observable to constrain this parameter.  If measurements of $\tau$ are not improved beyond the current uncertainties from {\em Planck}, inference of several new aspects of cosmological physics (e.g., neutrino mass) will be severely hindered.  PICO is the ideal experiment to make this measurement.  Its noise level and frequency coverage permit a cosmic-variance-limited constraint on $\tau$, i.e., $\sigma(\tau) \approx 0.002$.  \textbf{Does this projected error bar need to be derived from the foreground simulations that are being used for $r$ forecasting?  Or is it obvious that if we can reach the $\sigma(r)$ target, this $\sigma(\tau)$ value can easily be achieved?}
+
+In temperature, the most important small-scale imprint is that sourced by the ``patchy'' kinematic Sunyaev-Zel'dovich (kSZ) effect, due to the peculiar velocities of free electron bubbles around ionizing sources (e.g., galaxies or quasars).  The total kSZ power spectrum receives contributions from both the patchy reionization signal and ``late-time'' sources, e.g., the intergalactic and intracluster media.  The reionization and late-time signals are expected to have comparable amplitudes~\citep{Shaw2012,MMS2012,Battaglia2013}.  With constraints on the late-time contribution from other information (e.g., cross-correlations), effective small-scale foreground removal, and with the primary CMB $TT$ power spectrum constrained by inference from the $EE$ power spectrum, it is possible to extract reionization constraints from the small-scale kSZ power spectrum~\citep{calabrese/etal/2014}.
+
+In addition to these signals, reionization also leaves specific non-Gaussian signatures in the CMB.  In particular, patchy reionization induces non-trivial 4-point functions in both temperature~\citep{SmithFerraro2017} and polarization~\citep{DvorkinSmith2008}.  The temperature 4-point function can be used to separate reionization and late-time kSZ contributions.  Combinations of temperature and polarization data can be used to build quadratic estimators for reconstruction of the patchy $\tau$ field, analogous to CMB lensing reconstruction.  \textbf{Are we planning to try to forecast these here?}
+
+\textbf{FIGURE: $\tau$ constraint, kSZ power spectrum constraints, perhaps patchy $\tau$ reconstruction constraints? I assume the four-point estimator does not look promising given the relatively low resolution of PICO, but we can check the Smith papers.  This will essentially be an analog of Fig. 39 of the SO forecasting paper (Nick and Marcelo have the relevant code).}
+
 
 The Sections below need to be rearranged to match other Science Objective(s) from the STM, but to also relay the 
 breadth of science reachable by PICO, even if those goals are not in the STM. 
