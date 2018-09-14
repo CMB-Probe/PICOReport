@@ -4,14 +4,20 @@
 \begin{document}
 
 The combination of PICO's diverse science goals are achievable using a single instrument that executes 
-a single, continuous observing pattern of the entire sky, and that integrates noise down to unprecedented levels in 
-multiple frequency bands between 20 and 800 GHz. 
-
+one, continuous, simple observing pattern of the entire sky. This pattern integrates noise down to unprecedented levels, 
+and provides for multiple checks of possible systematic errors in the data analysis. \\
+%
 $\bullet$ {\bf Depth} \hspace{0.1in} We quantify survey depth in terms of the RMS fluctuations that would give
-a signal-to-noise ratio of 1 on a sky pixel that is 1~arcminute on a side. To reach the limits on the IGW signal 
-requires a depth of 0.8~\microkamin.  
- (r, foregrounds, systematics)
-
+a signal-to-noise ratio of 1 on a sky pixel that is 1~arcminute on a side. Depth in any frequency band 
+is determined by detector sensitivity, the number of detectors in the focal plane, the sky area covered, and the 
+duration of the mission.  The science objective driving 
+the depth requirement is SO1, the search for the IGW signal which 
+requires a depth of 0.87~\microkamin. This requirement is a combination of the low-level of the signal, the need
+to separate the various signals detected in each band, and the need to detect and subtract systematic effects 
+to the required levels.  
+%The required depth assumes full sky coverage, which is d. We expect to only use 50-60\% of the full sky, which do not include the brightest emission from the Milky Way, for the data analysis leading to a constraint on $r$. But as discussed below, other science objectives, require a scan of the Galaxy, leading to the requirement  
+%To achieve this combined depth we implement the focal plane of detectors listed inTable~\ref{tab:reqs} The requirement on performance includes the following factors  a factor of 1.5 degradation in noise relative to our baseline expectations. 
+%
 $\bullet$ {\bf Sky Coverage} \hspace{0.1in} There are several science goals driving a full sky survey for PICO. The 
 term 'full sky' refers to the entire area of sky available after separating other astrophysical sources of confusion. In 
 practice this implies an area of 50-70\% of the full sky for probing non-Galactic signals, and the rest of the sky
@@ -27,25 +33,33 @@ to survey, as there is no need to separate the signatures of two cosmological si
 (3) The PICO constraint on $N_{eff}$ (STM SO4) requires a determination of the EE power spectrum to limits
 imposed by the statics of available $\ell$ modes. Full sky coverage is required to achieve this limit.  
 (4) PICO's survey of the Galactic plane and regions outside of it is essential to achieving its Galactic structure 
-and star formation science goals (SO6, 7, 8). 
-
-$\bullet$ {\bf Frequency Bands} \hspace{0.1in} The multitude of astrophysical signals that PICO will characterize determine
-the frequency range and number of sub-bands that PICO uses. The IGW signal peaks 
+and star formation science goals (SO6, 7, 8). \\
+%
+$\bullet$ {\bf Frequency Bands} \hspace{0.1in} The multitude of astrophysical signals that PICO will characterize 
+determine the frequency range and number of sub-bands that PICO uses. The IGW signal peaks 
 in the frequency range between 30 and 300 GHz. However, Galactic signals, which are themselves signals PICO strives to 
 characterize, are a source of confusion for the IGW. The Galactic signals and the IGW are separable using their 
-spectral signature, and simulations indicate that 21 bands, each with $\sim$25\% bandwidth, and that are spread across 
-the range of 20 - 800~GHz can achieve the separation at a level of fidelity required by PICO. 
+spectral signature. Simulations indicate that 21 bands, each with $\sim$25\% bandwidth, that are spread across 
+the range of 20 - 800~GHz can achieve the separation at the level of fidelity required by PICO. 
 
 Characterizing the Galactic signals, specifically the make up of Galactic dust (SO7), requires spectral characterization 
 of galactic dust in frequencies between 100 and 800~GHz. \comblue{Aren't there synchrotron questions that 
-are answerable with spectral information?} 
+are answerable with spectral information?} \\
+%
+$\bullet$ {\bf Resolution} \hspace{0.1in} 
+Several science objectives require an aperture of 1.5~m and the resolution listed in Table~\ref{tab:STM}. To reach 
+$\sigma(r) = ??$ we will need to 'delens' the E- and B-mode maps that PICO will generate; see Section~\ref{sec:lensing}. 
+Delensing is enabled with a map that has a native resolution of 2-3 arcminutes at frequencies between ~100 and ~300~GHz. 
+Similar resolution is required to achieve the constraints on the number of light relics (SO??), which will be extracted from the 
+EE power spectrum at multipoles $100 \lessapprox \ell \lessapprox 2500$.  
+The process of delensing may be affected by other signals, primarily the signal due to Galactic dust. It is thus required to 
+map Galactic dust to at least the same resolution as at ~300~GHz. Higher resolution is mandated by science objectives 
+6,7, and 8, which require resolution of 1 arcminute at 800~GHz.  We have thus chosen to implement diffracted limited 
+resolution between 20 and 800~GHz. \\
+%
+%$\bullet$ {\bf Sky Scan Pattern} \hspace{0.1in} 
+%The 
 
-$\bullet$ {\bf Resolution} \hspace{0.1in} (foregrounds, lensing, $N_eff$, )
-
-$\bullet$ {\bf Sky Scan Pattern} \hspace{0.1in} (uniform coverage, and systematic mitigation)
-
-
- 
  
 \end{document}
 
