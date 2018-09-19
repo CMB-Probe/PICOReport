@@ -19,8 +19,24 @@ The Sections below need to be rearranged to match other Science Objective(s) fro
 breadth of science reachable by PICO, even if those goals are not in the STM. 
 
 {\bf Structure Formation via Gravitational Lensing}
+
+
+Measurements of the CMB reveal structure imprinted not only at the early time of recombination, but also at nearly every significant ensuing epoch in cosmic history.  In particular the matter between us and the CMB last-scattering surface will deflect the path of CMB photons, a process known as gravitational lensing.  Although the lensing of the CMB is a weak signal, targeted statistical estimators enable its  extraction.  
+The detection of the lensing signal has rapidly progressed, from the first detections in 2007-8 \citep{2007PhRvD..76d3510S, 2008PhRvD..78d3520H} to the recent $ 40\sigma$ measurement by the {\it Planck} team \cite{2018arXiv180706210P}.  When applied to a rich dataset such as that expected from the PICO satellite, these estimators will provide a map of all the matter in the Universe in projection, with the most sensitivity at redshift $z \simeq 2$ and down to scales of approximately ten arcminutes.  
+
+Forecasts show that the power spectrum of lensing in this map can be detected at approximately 580$\sigma$ or 650$\sigma$ for the requirement or CBE configurations, respectively.  Such high signal to noise measurements represent an order of magnitude improvement over the current state of the art, obtained by the  {\it Planck} team.  Figure \ref{fig:lensingNoisePICO} shows noise curves from the reconstruction of CMB lensing.  
+
+\begin{figure}
+\includegraphics[width=0.8\textwidth]{images/lensingNoisePICO.pdf}
+\caption{\label{fig:lensingNoisePICO} Lensing noise curves for various experimental configuraitons, showing the noise per mode of the reconstructed lensing field.  The  signal curve, the CMB lensing power spectrum is shown in grey; mapping of dark matter is possible at modes  where the noise curves fall below this signal.  Shown in solid are the performance of the $EB$ polarization estimator, including iterated delensing; this estimator performs best on large angular scales.  On smaller angular scales the temperature ($TT$) estimator shows the best performance. The associated signal to noise ratio for the lensing power spectrum is 570 for the 'requirement' configuration and 650 for the 'CBE'  configuration.}
+\end{figure}
+
+
+Lensing breaks the highly symmetric configuration of  primordial density fluctuations appearing as $E$ modes on the sky, turning some of these into $B$ modes.  If not accounted for, this effect yields an  noise floor on the large-scale $B$ modes that can be measured from the early Universe.  However, maps of $E$ modes and of the lensing field, both of which will be obtained with PICO data, can be used together to create a template for these lensed $B$ modes.  This template can then be subtracted from the measured $B$ modes to obtain improved performance, in a process known as ``delensing'' \citep{2004PhRvD..69d3005S,2012JCAP...06..014S}.  Forecasts show that up to 80\% of the lens-induced $B$ mode power can be removed in the 'requirement' configuration, with this number becoming 85\% for the current best estimate.  
+
+
+
 \begin{itemize}
-\item CMB lensing map and auto-power spectrum: figure with signal and quadratic estimator noise curve(s)
 \item Delensing and neutrino mass constraints assumed to go in fundamental physics chapter
 \item Cross-correlations: what to focus on here?
 \item CMB halo lensing: cluster mass calibration
