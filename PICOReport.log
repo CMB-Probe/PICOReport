@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 SEP 2018 20:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  19 SEP 2018 20:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -389,6 +389,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 39.
 LaTeX Info: Redefining \pageref on input line 39.
 LaTeX Info: Redefining \nameref on input line 39.
+
+(./PICOReport.out) (./PICOReport.out)
 \@outlinefile=\write4
 \openout4 = `PICOReport.out'.
 
@@ -423,14 +425,14 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
 
 (./fundamentalsci.tex [1]
-<images/cmb_powspec_PICOv2.pdf, id=22, 375.804pt x 303.534pt>
+<images/cmb_powspec_PICOv2.pdf, id=138, 375.804pt x 303.534pt>
 File: images/cmb_powspec_PICOv2.pdf Graphic file (type pdf)
 
 <use images/cmb_powspec_PICOv2.pdf>
 Package pdftex.def Info: images/cmb_powspec_PICOv2.pdf used on input line 17.
 (pdftex.def)             Requested size: 216.81pt x 175.11426pt.
 
-<images/nsrlabeledrp001_PICOv1.pdf, id=23, 375.804pt x 195.129pt>
+<images/nsrlabeledrp001_PICOv1.pdf, id=139, 375.804pt x 195.129pt>
 File: images/nsrlabeledrp001_PICOv1.pdf Graphic file (type pdf)
 
 <use images/nsrlabeledrp001_PICOv1.pdf>
@@ -442,28 +444,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-Runaway argument?
-{\@firstoffive }\fi . The two most important parameters for improving\ETC.
-./fundamentalsci.tex:69: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.69 
-     
-? 
-<images/Neff_final.pdf, id=112, 554.59674pt x 457.1867pt>
+[3] <images/Neff_final.pdf, id=241, 554.59674pt x 457.1867pt>
 File: images/Neff_final.pdf Graphic file (type pdf)
 
 <use images/Neff_final.pdf>
 Package pdftex.def Info: images/Neff_final.pdf used on input line 72.
 (pdftex.def)             Requested size: 211.3883pt x 174.25595pt.
 
-<images/Mnu_tauprior_final.pdf, id=113, 579.25044pt x 457.1867pt>
+<images/Mnu_tauprior_final.pdf, id=242, 579.25044pt x 457.1867pt>
 File: images/Mnu_tauprior_final.pdf Graphic file (type pdf)
 
 <use images/Mnu_tauprior_final.pdf>
 Package pdftex.def Info: images/Mnu_tauprior_final.pdf used on input line 73.
 (pdftex.def)             Requested size: 220.78542pt x 174.26294pt.
- [3]
+
 
 Package natbib Warning: Citation `Peebles2000' on page 4 undefined on input lin
 e 101.
@@ -480,24 +474,29 @@ Package natbib Warning: Citation `Padmanabhan2005' on page 4 undefined on input
 Package natbib Warning: Citation `Yacine2015DM' on page 4 undefined on input li
 ne 129.
 
+[4 <./images/Neff_final.pdf> <./images/Mnu_tauprior_final.pdf
 
-Package natbib Warning: Citation `Jedamzik2000' on page 4 undefined on input li
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/Mnu_tauprior_final.
+pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+Package natbib Warning: Citation `Jedamzik2000' on page 5 undefined on input li
 ne 135.
 
 
-Package natbib Warning: Citation `Tashiro2012' on page 4 undefined on input lin
+Package natbib Warning: Citation `Tashiro2012' on page 5 undefined on input lin
 e 135.
 
 
-Package natbib Warning: Citation `Dolgov2013' on page 4 undefined on input line
+Package natbib Warning: Citation `Dolgov2013' on page 5 undefined on input line
  135.
 
 
-Package natbib Warning: Citation `Tashiro2013' on page 4 undefined on input lin
+Package natbib Warning: Citation `Tashiro2013' on page 5 undefined on input lin
 e 135.
 
 
-Package natbib Warning: Citation `Caldwell2013' on page 4 undefined on input li
+Package natbib Warning: Citation `Caldwell2013' on page 5 undefined on input li
 ne 135.
 
 
@@ -505,37 +504,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--136
 
  []
 
-[4 <./images/Neff_final.pdf> <./images/Mnu_tauprior_final.pdf
+) (./extragalacticsci.tex [5]
 
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/Mnu_tauprior_final.
-pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
-Runaway argument?
-{\@firstoffive }\fi . With the current uncertainty in $\tau $ one is \ETC.
-./fundamentalsci.tex:164: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.164 
-      
-? 
-) (./extragalacticsci.tex
-
-Package natbib Warning: Citation `Shaw2012' on page 5 undefined on input line 1
+Package natbib Warning: Citation `Shaw2012' on page 6 undefined on input line 1
 1.
 
 
-Package natbib Warning: Citation `MMS2012' on page 5 undefined on input line 11
+Package natbib Warning: Citation `MMS2012' on page 6 undefined on input line 11
 .
 
 
-Package natbib Warning: Citation `Battaglia2013' on page 5 undefined on input l
+Package natbib Warning: Citation `Battaglia2013' on page 6 undefined on input l
 ine 11.
 
 
-Package natbib Warning: Citation `calabrese/etal/2014' on page 5 undefined on i
+Package natbib Warning: Citation `calabrese/etal/2014' on page 6 undefined on i
 nput line 11.
 
-[5]
 
 Package natbib Warning: Citation `SmithFerraro2017' on page 6 undefined on inpu
 t line 13.
@@ -548,23 +533,7 @@ t line 13.
 Package natbib Warning: Citation `2007PhRvD..76d3510S' on page 6 undefined on i
 nput line 25.
 
-
-Package natbib Warning: Citation `2008PhRvD..78d3520H' on page 6 undefined on i
-nput line 25.
-
-
-Package natbib Warning: Citation `2018arXiv180706210P' on page 6 undefined on i
-nput line 25.
-
-Runaway argument?
-{\@firstoffive }\fi  shows noise curves from the reconstruction of CM\ETC.
-./extragalacticsci.tex:28: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.28 
-     
-? 
-<images/lensingNoisePICO.pdf, id=209, 587.19376pt x 587.19376pt>
+<images/lensingNoisePICO.pdf, id=330, 587.19376pt x 587.19376pt>
 File: images/lensingNoisePICO.pdf Graphic file (type pdf)
 
 <use images/lensingNoisePICO.pdf>
@@ -572,14 +541,12 @@ Package pdftex.def Info: images/lensingNoisePICO.pdf used on input line 30.
 (pdftex.def)             Requested size: 375.80542pt x 375.80272pt.
 
 
-Package natbib Warning: Citation `2004PhRvD..69d3005S' on page 6 undefined on i
-nput line 35.
-
-
 Package natbib Warning: Citation `2012JCAP...06..014S' on page 6 undefined on i
 nput line 35.
 
+[6] [7 <./images/lensingNoisePICO.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 40.
+
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
@@ -587,15 +554,14 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
 
 
-Package natbib Warning: Citation `SZ1969' on page 6 undefined on input line 47.
+Package natbib Warning: Citation `SZ1969' on page 8 undefined on input line 47.
 
 
 
-Package natbib Warning: Citation `SZ1972' on page 6 undefined on input line 47.
+Package natbib Warning: Citation `SZ1972' on page 8 undefined on input line 47.
 
 
-[6] [7 <./images/lensingNoisePICO.pdf>]
-<images/PICO_tSZ_PS_plot.pdf, id=263, 462.52798pt x 346.89601pt>
+<images/PICO_tSZ_PS_plot.pdf, id=388, 462.52798pt x 346.89601pt>
 File: images/PICO_tSZ_PS_plot.pdf Graphic file (type pdf)
 
 <use images/PICO_tSZ_PS_plot.pdf>
@@ -606,23 +572,23 @@ Package pdftex.def Info: images/PICO_tSZ_PS_plot.pdf used on input line 67.
 Package natbib Warning: Citation `McKee2007' on page 8 undefined on input line 
 6.
 
-
-Package natbib Warning: Citation `Lazarian2007b' on page 8 undefined on input l
-ine 9.
-
-
-Package natbib Warning: Citation `Andersson2015' on page 8 undefined on input l
-ine 9.
-
-
-Package natbib Warning: Citation `EllsworthBowers2015' on page 8 undefined on i
-nput line 9.
-
-
-Package natbib Warning: Citation `Planck:XXXV' on page 8 undefined on input lin
-e 9.
-
 [8] [9 <./images/PICO_tSZ_PS_plot.pdf>]
+
+Package natbib Warning: Citation `Lazarian2007b' on page 10 undefined on input 
+line 9.
+
+
+Package natbib Warning: Citation `Andersson2015' on page 10 undefined on input 
+line 9.
+
+
+Package natbib Warning: Citation `EllsworthBowers2015' on page 10 undefined on 
+input line 9.
+
+
+Package natbib Warning: Citation `Planck:XXXV' on page 10 undefined on input li
+ne 9.
+
 
 Package natbib Warning: Citation `Crutcher2010' on page 10 undefined on input l
 ine 15.
@@ -667,27 +633,27 @@ Package natbib Warning: Citation `Houde2009' on page 10 undefined on input line
 Package natbib Warning: Citation `Houde2011' on page 10 undefined on input line
  21.
 
+[10]
 
-Package natbib Warning: Citation `Fissel2016' on page 10 undefined on input lin
+Package natbib Warning: Citation `Fissel2016' on page 11 undefined on input lin
 e 22.
 
 
-Package natbib Warning: Citation `King2018' on page 10 undefined on input line 
+Package natbib Warning: Citation `King2018' on page 11 undefined on input line 
 22.
 
 
-Package natbib Warning: Citation `GonzalezCasanova2017' on page 10 undefined on
+Package natbib Warning: Citation `GonzalezCasanova2017' on page 11 undefined on
  input line 23.
 
 
-Package natbib Warning: Citation `Yuen2017' on page 10 undefined on input line 
+Package natbib Warning: Citation `Yuen2017' on page 11 undefined on input line 
 23.
 
 
-Package natbib Warning: Citation `Lazarian2018' on page 10 undefined on input l
+Package natbib Warning: Citation `Lazarian2018' on page 11 undefined on input l
 ine 23.
 
-[10]
 
 Package natbib Warning: Citation `Planck:XXXV' on page 11 undefined on input li
 ne 24.
@@ -713,7 +679,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-<images/Allsky_dust_fig.pdf, id=309, 557.08125pt x 440.64626pt>
+<images/Allsky_dust_fig.pdf, id=434, 557.08125pt x 440.64626pt>
 File: images/Allsky_dust_fig.pdf Graphic file (type pdf)
 
 <use images/Allsky_dust_fig.pdf>
@@ -752,19 +718,19 @@ line 40.
 Package natbib Warning: Citation `Andersson2010' on page 11 undefined on input 
 line 40.
 
+[11]
 
-Package natbib Warning: Citation `Lazarian2007b' on page 11 undefined on input 
+Package natbib Warning: Citation `Lazarian2007b' on page 12 undefined on input 
 line 42.
 
 
-Package natbib Warning: Citation `Hoang2015' on page 11 undefined on input line
+Package natbib Warning: Citation `Hoang2015' on page 12 undefined on input line
  42.
 
 
-Package natbib Warning: Citation `Weingartner2008' on page 11 undefined on inpu
+Package natbib Warning: Citation `Weingartner2008' on page 12 undefined on inpu
 t line 42.
 
-[11]
 
 Package natbib Warning: Citation `Goodman1995' on page 12 undefined on input li
 ne 46.
@@ -774,11 +740,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
+[12 <./images/Allsky_dust_fig.pdf>]
 
-Package natbib Warning: Citation `Hensley2018' on page 12 undefined on input li
+Package natbib Warning: Citation `Hensley2018' on page 13 undefined on input li
 ne 49.
 
-[12 <./images/Allsky_dust_fig.pdf>]
 
 Package natbib Warning: Citation `Smith2000' on page 13 undefined on input line
  51.
@@ -828,14 +794,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--82
 Package natbib Warning: Citation `Heiles:2005' on page 14 undefined on input li
 ne 84.
 
-Runaway argument?
-{\@firstoffive }\fi , PICO will drastically expand our ability to stu\ETC.
-./galacticsci.tex:85: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.85 
-     
-? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
 
 Package natbib Warning: Citation `Clark:2014' on page 14 undefined on input lin
 e 87.
@@ -868,11 +831,11 @@ line 88.
 Package natbib Warning: Citation `Kandel:2017' on page 14 undefined on input li
 ne 88.
 
+[14]
 
-Package natbib Warning: Citation `Planck2018:XI' on page 14 undefined on input 
+Package natbib Warning: Citation `Planck2018:XI' on page 15 undefined on input 
 line 91.
 
-[14]
 
 Package natbib Warning: Citation `HI4PI:2016' on page 15 undefined on input lin
 e 93.
@@ -885,132 +848,43 @@ Package natbib Warning: Citation `Peek:2018' on page 15 undefined on input line
 Package natbib Warning: Citation `McClure-Griffiths2015' on page 15 undefined o
 n input line 93.
 
-) (./legacysci.tex <images/fig_SED3_PICO.jpg, id=363, 325.9377pt x 218.0145pt>
+) (./legacysci.tex <images/fig_SED3_PICO.jpg, id=488, 325.9377pt x 218.0145pt>
 File: images/fig_SED3_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_SED3_PICO.jpg>
 Package pdftex.def Info: images/fig_SED3_PICO.jpg used on input line 8.
 (pdftex.def)             Requested size: 225.48038pt x 150.82602pt.
 
-<images/NgtF_500micron.png, id=365, 1047.915pt x 994.71625pt>
+<images/NgtF_500micron.png, id=490, 1047.915pt x 994.71625pt>
 File: images/NgtF_500micron.png Graphic file (type png)
 
 <use images/NgtF_500micron.png>
 Package pdftex.def Info: images/NgtF_500micron.png used on input line 9.
 (pdftex.def)             Requested size: 225.47322pt x 156.4865pt.
-
-Runaway argument?
-{\@firstoffive }\fi , at $\lambda \simgt \hbox {few\, mm}$ the domina\ETC.
-./legacysci.tex:29: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.29 
-     
-? 
-Runaway argument?
-{\@firstoffive }\fi ). This is an extraordinary selection efficiency:\ETC.
-./legacysci.tex:38: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.38 
-     
-? 
-Runaway argument?
-{\@firstoffive }\fi ; \cite {Combes2012}) would be detectable by PICO\ETC.
-./legacysci.tex:43: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.43 
-     
-? 
-[15 <./images/fig_SED3_PICO.jpg> <./images/NgtF_500micron.png>]
-Runaway argument?
-{\@firstoffive }\fi  also shows that PICO will detect tens of thousan\ETC.
-./legacysci.tex:87: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.87 
-     
-? 
-<images/fig_protocl_PICO.jpg, id=387, 348.8232pt x 246.6816pt>
+ [15] [16 <./images/fig_SED3_PICO.jpg> <./images/NgtF_500micron.png>]
+<images/fig_protocl_PICO.jpg, id=527, 348.8232pt x 246.6816pt>
 File: images/fig_protocl_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_protocl_PICO.jpg>
 Package pdftex.def Info: images/fig_protocl_PICO.jpg used on input line 92.
 (pdftex.def)             Requested size: 150.32503pt x 106.30815pt.
 
-<images/Oteo_2018_protocl.jpg, id=389, 250.7769pt x 270.2898pt>
+<images/Oteo_2018_protocl.jpg, id=529, 250.7769pt x 270.2898pt>
 File: images/Oteo_2018_protocl.jpg Graphic file (type jpg)
 
 <use images/Oteo_2018_protocl.jpg>
 Package pdftex.def Info: images/Oteo_2018_protocl.jpg used on input line 93.
 (pdftex.def)             Requested size: 150.32953pt x 105.27237pt.
 
-<images/NgtFclumps_800GHz.png, id=391, 1371.9255pt x 1163.547pt>
+<images/NgtFclumps_800GHz.png, id=531, 1371.9255pt x 1163.547pt>
 File: images/NgtFclumps_800GHz.png Graphic file (type png)
 
 <use images/NgtFclumps_800GHz.png>
 Package pdftex.def Info: images/NgtFclumps_800GHz.png used on input line 94.
 (pdftex.def)             Requested size: 150.30519pt x 105.26509pt.
- [16 <./images/fig_protocl_PICO.jpg> <./images/Oteo_2018_protocl.jpg> <./images
-/NgtFclumps_800GHz.png>]
-Runaway argument?
-{\@firstoffive }\fi ). \textit {Planck} has demonstrated the power of\ETC.
-./legacysci.tex:135: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.135 
-      
-? 
-Runaway argument?
-{\@firstoffive }\fi ) up to $z\simgt 4$ (left panel). This will allow\ETC.
-./legacysci.tex:144: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.144 
-      
-? 
-
-LaTeX Warning: Command \^ invalid in math mode on input line 167.
-
-./legacysci.tex:167: Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.167 ...cite{Romani2004}). One (SDSS J$013127.34â
-                                                  €“032100.1$ at $z =
-? 
-./legacysci.tex:167: You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.167 ...cite{Romani2004}). One (SDSS J$013127.34â
-                                                  €“032100.1$ at $z =
-? 
-
-./legacysci.tex:167: Package inputenc Error: Keyboard character used is undefin
-ed
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 ...ite{Romani2004}). One (SDSS J$013127.34â€
-                                                  “032100.1$ at $z =
-? 
-
-./legacysci.tex:167: Package inputenc Error: Keyboard character used is undefin
-ed
-(inputenc)                in inputencoding `latin1'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 ...te{Romani2004}). One (SDSS J$013127.34â€“
-                                                  032100.1$ at $z =
-? 
-Missing character: There is no è in font cmex10!
-) (./complementarity.tex [17]
+ [17 <./images/fig_protocl_PICO.jpg> <./images/Oteo_2018_protocl.jpg> <./images
+/NgtFclumps_800GHz.png>])
+(./complementarity.tex [18]
 \tblskip=\dimen122
 \digitwidth=\dimen123
 \signwidth=\dimen124
@@ -1081,7 +955,7 @@ Underfull \hbox (badness 3460) in paragraph at lines 79--79
 []|\OT1/ptm/m/n/10 Continuous ob-ser-va-tions for
  []
 
-[18] [19]) (./foregrounds.tex
+[19] [20]) (./foregrounds.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 11.
@@ -1318,16 +1192,16 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 11.
 
-[20]
+[21]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 21.
- [21]
+ [22]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 61.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-[22] [23]
-<images/bsky_pico_comb_90.00_mean_weight3.pdf, id=506, 614.295pt x 794.97pt>
+[23] [24]
+<images/bsky_pico_comb_90.00_mean_weight3.pdf, id=645, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.00_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.00_mean_weight3.pdf>
@@ -1335,7 +1209,7 @@ Package pdftex.def Info: images/bsky_pico_comb_90.00_mean_weight3.pdf used on i
 nput line 94.
 (pdftex.def)             Requested size: 281.85585pt x 364.7566pt.
 
-<images/bsky_pico_comb_90.91_mean_weight3.pdf, id=507, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.91_mean_weight3.pdf, id=646, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.91_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.91_mean_weight3.pdf>
@@ -1347,7 +1221,7 @@ Overfull \hbox (69.23677pt too wide) in paragraph at lines 94--97
 [][]  [] 
  []
 
-<images/bsky_pico_comb_90.92_mean_weight3.pdf, id=508, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.92_mean_weight3.pdf, id=647, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.92_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.92_mean_weight3.pdf>
@@ -1355,7 +1229,7 @@ Package pdftex.def Info: images/bsky_pico_comb_90.92_mean_weight3.pdf used on i
 nput line 98.
 (pdftex.def)             Requested size: 281.85585pt x 364.7566pt.
 
-<images/bsky_pico_comb_90.93_mean_weight3.pdf, id=509, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.93_mean_weight3.pdf, id=648, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.93_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.93_mean_weight3.pdf>
@@ -1367,7 +1241,7 @@ Overfull \hbox (69.23677pt too wide) in paragraph at lines 98--101
 [][]  [] 
  []
 
-<images/bsky_pico_comb_90.96_mean_weight3.pdf, id=510, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.96_mean_weight3.pdf, id=649, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.96_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.96_mean_weight3.pdf>
@@ -1375,7 +1249,7 @@ Package pdftex.def Info: images/bsky_pico_comb_90.96_mean_weight3.pdf used on i
 nput line 102.
 (pdftex.def)             Requested size: 281.85585pt x 364.7566pt.
 
-<images/bsky_pico_comb_90.99_mean_weight3.pdf, id=511, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.99_mean_weight3.pdf, id=650, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.99_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.99_mean_weight3.pdf>
@@ -1392,18 +1266,10 @@ LaTeX Warning: Float too large for page by 161.38635pt on input line 105.
 
 ) (./systematics.tex
 
-Package natbib Warning: Citation `Takahaski2010' on page 24 undefined on input 
+Package natbib Warning: Citation `Takahaski2010' on page 25 undefined on input 
 line 15.
 
-Runaway argument?
-{\@firstoffive }\fi . These were prioritized for further study using \ETC.
-./systematics.tex:37: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.37 
-     
-? 
-[24] [25 <./images/bsky_pico_comb_90.00_mean_weight3.pdf> <./images/bsky_pico_c
+[25] [26 <./images/bsky_pico_comb_90.00_mean_weight3.pdf> <./images/bsky_pico_c
 omb_90.91_mean_weight3.pdf> <./images/bsky_pico_comb_90.92_mean_weight3.pdf> <.
 /images/bsky_pico_comb_90.93_mean_weight3.pdf> <./images/bsky_pico_comb_90.96_m
 ean_weight3.pdf> <./images/bsky_pico_comb_90.99_mean_weight3.pdf>]
@@ -1421,245 +1287,28 @@ Underfull \hbox (badness 1178) in paragraph at lines 52--52
 
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
-(natbib)                on page 26 on input line 56.
+(natbib)                on page 27 on input line 56.
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 26 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
 line 56.
 
-Runaway argument?
-{\@firstoffive }\fi  for discussion. \\ Bandpass Mismatch\dotfill \@endpbox \ET
-C.
-./systematics.tex:60: Forbidden control sequence found while scanning use of \H
-y@setref@link.
-<inserted text> 
-                \par 
-l.60  Bandpass Mismatch\dotfill&
-                                
-? 
-./systematics.tex:60: Missing } inserted.
-<inserted text> 
-                }
-l.60  Bandpass Mismatch\dotfill&
-                                
-? 
-./systematics.tex:60: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.60  Bandpass Mismatch\dotfill&
-                                
-? 
 
-Package natbib Warning: Citation `Hoang_2017' on page 26 undefined on input lin
+Package natbib Warning: Citation `Hoang_2017' on page 27 undefined on input lin
 e 62.
 
 
-Overfull \hbox (5.3255pt too wide) in paragraph at lines 62--62
-[]\OT1/ptm/m/n/8 Edges
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 and
- []
-
-
-Overfull \hbox (7.1014pt too wide) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 shapes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 the
- []
-
-
-Overfull \hbox (2.65344pt too wide) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 spec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 tral
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 fil-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 ters
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 vary
- []
-
-
-Overfull \hbox (1.3255pt too wide) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 tec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 tor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 de-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 tec-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 tor.
- []
-
-
-Overfull \hbox (2.2134pt too wide) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 leaks
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 T
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OMS/cmsy/m/n/8 !$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OMS/cmsy/m/n/8 !$
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 P if
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 the
- []
-
-
-Overfull \hbox (11.9894pt too wide) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 source's
- []
-
-
-Overfull \hbox (3.98956pt too wide) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 band-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 pass
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 dif-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 fers
- []
-
-
-Overfull \hbox (1.3255pt too wide) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 cal-i-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 bra-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 tor's
- []
-
-
-Overfull \hbox (3.98956pt too wide) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 band-
- []
-
-
-Overfull \hbox (6.21341pt too wide) in paragraph at lines 62--62
-\OT1/ptm/m/n/8 pass[\OT1/ptm/b/n/8 ?
- []
-
-
-Package natbib Warning: Citation `Pajot_2010' on page 26 undefined on input lin
+Package natbib Warning: Citation `Pajot_2010' on page 27 undefined on input lin
 e 62.
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 26 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
 line 63.
 
 
-Package natbib Warning: Citation `CORE_systematics' on page 26 undefined on inp
+Package natbib Warning: Citation `CORE_systematics' on page 27 undefined on inp
 ut line 63.
 
-Runaway argument?
-{\@firstoffive }\fi  \@endpbox \hskip \tabcolsep 
-./systematics.tex:69: Forbidden control sequence found while scanning use of \H
-y@setref@link.
-<inserted text> 
-                \par 
-l.69 & See Sect.~\ref{sec:angle} &
-                                   State-of-the-art meet requirements.\\
-? 
-./systematics.tex:69: Missing } inserted.
-<inserted text> 
-                }
-l.69 & See Sect.~\ref{sec:angle} &
-                                   State-of-the-art meet requirements.\\
-? 
 
 Underfull \hbox (badness 10000) in paragraph at lines 70--70
 []\OT1/ptm/m/n/8 Time Re-sponse Ac-cu-racy
@@ -1671,11 +1320,11 @@ Underfull \hbox (badness 5771) in paragraph at lines 72--72
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 26 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
 line 73.
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 26 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
 line 80.
 
 
@@ -1684,7 +1333,7 @@ Underfull \hbox (badness 3108) in paragraph at lines 90--92
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 26 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
 line 96.
 
 
@@ -1692,93 +1341,15 @@ Underfull \hbox (badness 1178) in paragraph at lines 96--97
 []\OT1/ptm/m/n/8 mission-average rel-a-tive cal-i-bra-tion
  []
 
-Runaway argument?
-{\@firstoffive }\fi  describes effects of stability in time in relati\ETC.
-./systematics.tex:100: Paragraph ended before \Hy@setref@link was complete.
-<to be read again> 
-                   \par 
-l.100 
-      
-? 
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--100
 []\OT1/ptm/m/n/8 State-of-the-art mea-sure-ment of
  []
 
-./systematics.tex:102: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.102 Cross-polarization\dotfill&
-                                 
-? 
 
-Overfull \hbox (5.8257pt too wide) in paragraph at lines 104--105
-[]\OT1/ptm/m/n/8 Q$\OMS/cmsy/m/n/8 !$\OT1/ptm/m/n/8 U
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 ro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 ta-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 by
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 op-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 ti-cal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 el-e-
- []
-
-
-Overfull \hbox (4.88536pt too wide) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 ments
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 in-
- []
-
-
-Overfull \hbox (3.77344pt too wide) in paragraph at lines 104--105
-\OT1/ptm/m/n/8 ment.| 
+Underfull \hbox (badness 1019) in paragraph at lines 104--105
+[]\OT1/ptm/m/n/8 Q$\OMS/cmsy/m/n/8 !$\OT1/ptm/m/n/8 U ro-ta-tion by the op-ti-c
+al el-e-
  []
 
 
@@ -1787,200 +1358,143 @@ Underfull \hbox (badness 2865) in paragraph at lines 106--107
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 26 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
 line 116.
 
-Runaway argument?
-{\@firstoffive }\fi ; Gain fluctuations in \pico \ on the level of XX\ETC.
-./systematics.tex:120: Forbidden control sequence found while scanning use of \
-Hy@setref@link.
-<inserted text> 
-                \par 
-l.120 Pointing jitter\dotfill&
-                              
-? 
-./systematics.tex:120: Missing } inserted.
-<inserted text> 
-                }
-l.120 Pointing jitter\dotfill&
-                              
-? x
- 
+
+Underfull \hbox (badness 1655) in paragraph at lines 133--134
+\OT1/ptm/m/n/8 an-gles from the main beam axis;
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 140--140
+[]\OT1/ptm/m/n/8 Residual cor-re-lated cos-mic
+ []
+
+
+Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
+line 144.
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 144--145
+[]\OT1/ptm/m/it/8 Planck\OT1/ptm/m/n/8 /HFI found the 5% per-cent
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 146--148
+\OT1/ptm/m/n/8 of-the-art anal-y-sis tech-niques (ac-
+ []
+
+
+Overfull \hbox (56.87pt too wide) in paragraph at lines 47--150
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/PICO_rotate_eb3_v0.pdf, id=710, 597.23125pt x 397.485pt>
+File: images/PICO_rotate_eb3_v0.pdf Graphic file (type pdf)
+
+<use images/PICO_rotate_eb3_v0.pdf>
+Package pdftex.def Info: images/PICO_rotate_eb3_v0.pdf used on input line 184.
+(pdftex.def)             Requested size: 375.80542pt x 250.11967pt.
+
+
+Package natbib Warning: Author undefined for citation`Planck2016_XLIX' 
+(natbib)                on page 27 on input line 220.
+
+
+Package natbib Warning: Author undefined for citation`Aumont+2018' 
+(natbib)                on page 27 on input line 223.
+
+[27 <./images/PICO_rotate_eb3_v0.pdf>] [28]
+Overfull \hbox (1.64862pt too wide) in paragraph at lines 237--238
+\OT1/ptm/m/n/12 Photometric cal-i-bra-tion is the pro-cess of con-vert-ing the 
+raw out-put of the re-ceivers into a physically-
+ []
+
+[29]) (./requirements.tex [30]
+
+LaTeX Warning: Reference `tab:STM' on page 31 undefined on input line 50.
+
+
+LaTeX Warning: Reference `sec:lensing' on page 31 undefined on input line 51.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--62
+
+ []
+
+[31]) (./instrument.tex
+Overfull \hbox (3.97801pt too wide) in paragraph at lines 5--6
+\OT1/ptm/m/n/12 Telescope (Hanany / Young), fo-cal plane (Hanany / Young), cool
+-ing (Trangsrud), read-out (O'Brient) 
+ []
+
+) (./mission.tex) (./technology.tex) (./cost.tex) [32] (./PICOReport.bbl
+Underfull \hbox (badness 2150) in paragraph at lines 36--41
+[]\OT1/ptm/m/n/12 Francis-Yan Cyr-Racine, Roland de Put-ter, Alvise Rac-canelli
+, and Kris Sig-urd-son.
+ []
+
+[33] [34] [35] [36] [37] [38] [39] [40]) (./acronym.tex)
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
+[41]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+ (./PICOReport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package rerunfilecheck Info: File `PICOReport.out' has not changed.
+(rerunfilecheck)             Checksum: 1C260D20D2AEDEC7072C71E0127242D4;2818.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
+ ) 
 Here is how much of TeX's memory you used:
- 7810 strings out of 493014
- 112211 string characters out of 6133351
- 212306 words of memory out of 5000000
- 11081 multiletter control sequences out of 15000+600000
- 42980 words of font info for 93 fonts, out of 8000000 for 9000
+ 8084 strings out of 493014
+ 117534 string characters out of 6133351
+ 218973 words of memory out of 5000000
+ 11277 multiletter control sequences out of 15000+600000
+ 45223 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,15n,43p,1517b,481s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{cite.plank2015_xii_focalplane} has been referenced 
-but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Natoli2018} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.wallis2017} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.hazumi2012} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Planck2018_I} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Bennett13} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.BICEP2_III} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.yadav2010} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.shimon2008} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.hu03} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Remazeilles/etal:2018} has been referenced but
- does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Remazeilles/etal:2016} has been referenced but
- does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Planck_2018_IV} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Planck_2015_X} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.eriksen/etal:2008} has been referenced but doe
-s not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.gorski/etal:2005} has been referenced but does
- not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.dickinson/etal:2018} has been referenced but d
-oes not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Kogut/etal:2007} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Miville-Deschenes/etal:2008} has been referenc
-ed but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Lewis/etal:2000} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.delabrouille/etal:2013} has been referenced bu
-t does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Metzger2015} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Ghisellini2015} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Romani2004} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Ghisellini2009} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Overzier2016} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Canameras2017lens} has been referenced but doe
-s not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Canameras2017ALMA} has been referenced but doe
-s not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Canameras2015} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Negrello2017protocl} has been referenced but d
-oes not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Oteo2018} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Wang2016} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Ivison2013} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Treu2010} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.PCCS2} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Kaplinghat:2003bh} has been referenced but doe
-s not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.planck2016_xlvi} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Lesgourgues:2015wza} has been referenced but d
-oes not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Buen-Abad:2015ova} has been referenced but doe
-s not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Cyr-Racine:2013fsa} has been referenced but do
-es not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Dvorkin:2013cea} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Green:2016cjr} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Baumann:2016wac} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Brust:2013xpv} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.Bolz:2000fu} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{cite.1979ARNPS..29..313S} has been referenced but d
-oes not exist, replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
-urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/hel
-vetic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utm
-b8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (26 pages, 3987749 bytes).
+ 29i,15n,43p,1517b,692s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
+e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/font
+s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
+/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvet
+ic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on PICOReport.pdf (42 pages, 4279891 bytes).
 PDF statistics:
- 651 PDF objects out of 1000 (max. 8388607)
- 474 compressed objects within 5 object streams
- 107 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 909 PDF objects out of 1000 (max. 8388607)
+ 711 compressed objects within 8 object streams
+ 157 named destinations out of 1000 (max. 500000)
+ 366 words of extra memory for PDF output out of 10000 (max. 10000000)
 
