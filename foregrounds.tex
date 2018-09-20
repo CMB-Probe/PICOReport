@@ -18,7 +18,7 @@ The thermal dust Q and U template maps are extrapolated across \emph{PICO} frequ
 The PSM simulations are generated at a pixel resolution of HEALPix \cite{gorski/etal:2005} $N_{\rm side}=16$ ($2 \leq \ell \leq 47$), therefore assuming spectral variations of the foregrounds across $N_{\rm side}=16$ pixels.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{\emph{PICO} forecasts with \textsc{Commander}}
+\subsubsection{ PICO forecasts with \textsc{Commander}}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 We have applied the \textsc{Commander} algorithm \cite{eriksen/etal:2008} to the set of PSM $N_{\rm side}=16$ sky simulations for \emph{PICO}.
@@ -31,6 +31,78 @@ ${\sigma(r = 10^{-3}) = 0.4 \times 10^{-3}}$  to ${\sigma(r = 10^{-3}) = 0.7 \ti
 We are working in parallel on \textsc{Commander2}, a new version of the algorithm operating in harmonic space, thus allowing to perform the parametric fit at full resolution and to further reduce the uncertainty on $r$ by the increase of information / modes.
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Needlet analyis of PICO simulations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+The NILC is based on Internal Linear Combinantion (or ILC in short) component separation method. It has been applied to the PICO simulations to determine the angular power spectrum of the B-mode polarized CMB signal. This method only attempts to reconstruct the CMB signal, without using any prior information about foregrounds. It is based on two specific assumptions. Firstly, that the CMB is frequency independent in thermodynamic unit, and secondly, that the CMB is uncorrelated with foreground signals. The ILC method then estimates the CMB, Sb, as a weighted linear combination of the set of input multi-frequency sky maps such that the variance of the estimate is minimum, with unit response to the flat CMB frequency spectrum,
+\begin{eqnarray} 
+\widehat S = w^{T} X = \frac{\displaystyle{a^{T} \widehat R^{-1}}}{\displaystyle{a^{T} \widehat R^{-1} a}} X =\frac{\displaystyle{a^{T} \widehat R^{-1}}}{\displaystyle{a^{T} \widehat R^{-1} a}} \left(a^{ } S + F + N\right),
+\label{equ:ilc} 
+\end{eqnarray}
+where X is the vector of frequency maps, a the constant frequency spectrum of the CMB signal S, F the total foreground signal, N the instrumental noise for the different frequency channels, and Rb the frequency-frequency covariance matrix. The first condition guarantees minimum contamination by foregrounds and instrumental noise whereas the second condition
+guarantees that the CMB signal is conserved without bias. The presence of the foregrounds induces correlated errors across frequencies, so that the ILC weights adjust themselves to minimise the foreground residuals present in the the weighted linear combination. However, in reality the weights result from a trade-off between minimising the foregrounds and minimising
+the instrumental noise contribution in the reconstructed CMB map.
+
+The ILC method can be straightforwardly implemented in either real
+(pixel) space or in harmonic space. Thus, sets of ILC weights can
+either be computed for different regions of the sky or for different
+angular scales, respectively, which allows for variations of the data
+covariance matrix in either space.  However, the ILC in harmonic space
+does not take into account the fact that noise can be a significant
+source of CMB measurement error in at high Galactic latitude, while
+foreground signals are more important at low Galactic
+latitude. Conversely, the ILC in pixel space does not take into
+account the fact that the noise dominates on small angular scales,
+while diffuse Galactic foreground emission dominates on large angular
+scales.
+
+In order to overcome this problem, we implement the ILC on a frame of
+spherical wavelets called needlets, a component-separation approach that we now refer to as the Needlet Internal Linear Combination ({\tt NILC}) method. This technique has already been applied broadly in CMB data analysis. The needlets enable localised filtering in both pixel space and harmonic space because they have compact support in the harmonic domain, while still being very well localised in the pixel domain. The needlet decomposition allows the ILC weights to vary both smoothly on large angular scales and rapidly on small angular scales, which is not possible by sub-dividing the sky into different areas prior to any processing.
+
+To analyse the simulations of sky for PICO, we have used $11$ frequency channels (i.e. every alternate channels starting from the lowest frequency channel) and $11$ needlet filters for the analysis. The needlet filters, $h^{j}_{l}$, in harmonic space that we use in our
+analysis are defined as follows,
+\begin{eqnarray}
+h^{j}_{l} = \left\{
+\begin{array}{rl} 
+\cos\left[\left(\frac{l^{j}_{peak}-l}{l^{j}_{peak}-l^{j}_{min}}\right)
+\frac{\pi}{2}\right]& \text{for } l^{j}_{min} \le l < l^{j}_{peak},\\ 
+\\
+1\hspace{0.5in} & \text{for } l = l_{peak},\\
+\\
+\cos\left[\left(\frac{l-l^{j}_{peak}}{l^{j}_{max}-l^{j}_{peak}}\right)
+\frac{\pi}{2}\right]& \text{for } l^{j}_{peak} < l \le l^{j}_{max} 
+\end{array} \right. 
+\end{eqnarray}
+
+\begin{table}
+\caption{List of needlet bands used in the present
+  analysis.}  \centering \begin{tabular}{c c c c c} \hline\hline
+  Band index & $l_{min}$ & $l_{peak}$ & $l_{max}$ & nside \\ [5ex]
+  \hline 1 & 0 & 0 & 50 & 32\\ 2 & 0 & 50 & 100 & 64 \\ 3 & 50 & 100 &
+  200 & 128 \\ 4 & 100 & 200 & 300 & 256 \\ 5 & 200 & 300 & 400 & 256
+  \\ 6 & 300 & 400 & 500 & 256 \\ 7 & 400 & 500 & 600 & 512 \\ 8 & 500
+  & 600 & 700 & 512 \\ 9 & 600 & 700 & 800 & 512 \\ 10 & 700 & 800 & 900 & 512 \\ 11 & 800 & 900 & 1000 & 512\\ [1ex] \hline
+\end{tabular} 
+\label{tab:needlet-bands} 
+\end{table}
+The simulated sky maps are first convolved or de-convolved in harmonic space to put them all at the same angular resolution (FWHM $15$ arcmin) prior to the application of the NILC algorithm. Since the method as currently implemented is applicable to scalar fields on the sphere, sky maps of the B modes are constructed from the input Stokes parameters, Q and U, on the full sky. The NILC weights used to combine the multi-frequency input data in order to estimate the CMB signal are then computed from the full-mission sky maps for B-mode. The derived weights are also applied to the half-mission maps, which are later used for minimising the impact of residuals of noise on the measurement of angular power spectrum. 
+
+The needlet weights are mostly determined by the galactic contamination, which dominates on large angular scales, and by the noise level, which dominates on small angular scales. Although the weights of for a subset of the frequency channels under consideration are relatively low compared to other channels, they are important for removing the Galactic foreground contamination. However, the reconstructed B-mode maps cannot be completely free from contamination by residual foregrounds and noise. Therefore, for further analysis, a set of conservative masks are derived from the residuals of foreground map. For the computation of the angular power spectrum of the high resolution NILC CMB maps, we use a pseudo-Cl estimator. Currently I am experimenting with different sets of confidence mask. Soon I will share with you the results obtained using those new mask.
+
+\begin{figure}
+\includegraphics[width=0.6\textwidth,angle=0]{images/bsky_pico_comb_90.00_mean_weight3.pdf}
+\hskip-5ex
+\includegraphics[width=0.6\textwidth,angle=0]{images/bsky_pico_comb_90.91_mean_weight3.pdf}
+\vskip-25ex
+\includegraphics[width=0.6\textwidth,angle=0]{images/bsky_pico_comb_90.92_mean_weight3.pdf}
+\hskip-5ex
+\includegraphics[width=0.6\textwidth,angle=0]{images/bsky_pico_comb_90.93_mean_weight3.pdf}
+\vskip-25ex
+\includegraphics[width=0.6\textwidth,angle=0]{images/bsky_pico_comb_90.96_mean_weight3.pdf}
+\hskip-5ex
+\includegraphics[width=0.6\textwidth,angle=0]{images/bsky_pico_comb_90.99_mean_weight3.pdf}
+\end{figure}
 
 
 \end{document}
