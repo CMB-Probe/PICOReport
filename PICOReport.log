@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 OCT 2018 14:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 OCT 2018 16:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -922,124 +922,51 @@ Package pdftex.def Info: images/NgtFclumps_800GHz.png used on input line 94.
 (pdftex.def)             Requested size: 150.30519pt x 105.26509pt.
  [18 <./images/fig_protocl_PICO.jpg> <./images/Oteo_2018_protocl.jpg> <./images
 /NgtFclumps_800GHz.png>])
-(./complementarity.tex [19]
+(./complementarity_sh.tex [19]
 \tblskip=\dimen122
 \digitwidth=\dimen123
 \signwidth=\dimen124
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 63.
 
-Underfull \hbox (badness 1248) in paragraph at lines 63--64
-[]|\OT1/ptm/m/n/10 Full. Scan strat-egy not
+Overfull \hbox (6.30202pt too wide) in paragraph at lines 67--67
+[]|\OT1/ptm/m/n/8 Limited at-mo-spheric win-dows. $\OML/cmm/m/it/8 ^^W \OT1/cmr
+/m/n/8 =
  []
 
-
-Underfull \hbox (badness 2181) in paragraph at lines 63--64
-\OT1/ptm/m/n/10 lim-ited by at-mo-sphere or
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 63--64
-\OT1/ptm/m/n/10 the sky can be ob-served
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-[]|\OT1/ptm/m/n/10 Limited to at-mo-
- []
-
-
-Underfull \hbox (badness 1009) in paragraph at lines 66--68
-\OT1/ptm/m/n/10 spheric ``win-dows'', which
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-\OT1/ptm/m/n/10 nom-i-cal fore-grounds
- []
-
-
-Underfull \hbox (badness 6173) in paragraph at lines 68--69
-\OT1/ptm/m/n/10 ground-minimum fre-quen-
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 71--72
-[]|\OT1/ptm/m/n/10 Restricted to small tele-
- []
-
-
-Underfull \hbox (badness 8019) in paragraph at lines 72--72
-[]|\OT1/ptm/m/n/10 Telescope cost a steep
- []
-
-
-Underfull \hbox (badness 7595) in paragraph at lines 74--76
-\OT1/ptm/m/n/10 and ground, plus di-rect
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-[]|\OT1/ptm/m/n/10 Only
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 77--77
-\OT1/ptm/m/n/10 CMB, CIB, and Galac-tic
- []
-
-
-Underfull \hbox (badness 3919) in paragraph at lines 77--77
-\OT1/ptm/m/n/10 back-grounds. Individu-al
- []
-
-
-Underfull \hbox (badness 3861) in paragraph at lines 77--77
-\OT1/ptm/m/n/10 direct-detector sen-si-tiv-i-ties
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
-[]|\OT1/ptm/m/n/10 Continuous ob-ser-va-tions
- []
-
-
-Underfull \hbox (badness 2990) in paragraph at lines 84--84
-[]|\OT1/ptm/m/n/10 None. Mul-ti-ple flights
- []
-
-[20] [21]) (./foregrounds.tex [22]
+[20]) (./foregrounds.tex [21]
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 32.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 
-Package natbib Warning: Citation `Thorne:2016ifb' on page 23 undefined on input
+Package natbib Warning: Citation `Thorne:2016ifb' on page 22 undefined on input
  line 32.
 
 
-Package natbib Warning: Citation `Thorne:2016ifb' on page 23 undefined on input
+Package natbib Warning: Citation `Thorne:2016ifb' on page 22 undefined on input
  line 34.
 
 
-Package natbib Warning: Citation `Hensley:2015' on page 23 undefined on input l
+Package natbib Warning: Citation `Hensley:2015' on page 22 undefined on input l
 ine 36.
 
 
-Package natbib Warning: Citation `Kritsuk:2017' on page 23 undefined on input l
+Package natbib Warning: Citation `Kritsuk:2017' on page 22 undefined on input l
 ine 39.
 
 
-Package natbib Warning: Citation `Martinez:2017' on page 23 undefined on input 
+Package natbib Warning: Citation `Martinez:2017' on page 22 undefined on input 
 line 41.
 
+[22]
 
 Package natbib Warning: Citation `Vansyngel:2016' on page 23 undefined on input
  line 49.
 
-[23] [24]
-<images/bsky_pico_comb_90.00_mean_weight3.pdf, id=689, 614.295pt x 794.97pt>
+[23]
+<images/bsky_pico_comb_90.00_mean_weight3.pdf, id=680, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.00_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.00_mean_weight3.pdf>
@@ -1047,7 +974,7 @@ Package pdftex.def Info: images/bsky_pico_comb_90.00_mean_weight3.pdf used on i
 nput line 113.
 (pdftex.def)             Requested size: 281.85585pt x 364.7566pt.
 
-<images/bsky_pico_comb_90.91_mean_weight3.pdf, id=690, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.91_mean_weight3.pdf, id=681, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.91_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.91_mean_weight3.pdf>
@@ -1059,7 +986,7 @@ Overfull \hbox (69.23677pt too wide) in paragraph at lines 113--116
 [][]  [] 
  []
 
-<images/bsky_pico_comb_90.92_mean_weight3.pdf, id=691, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.92_mean_weight3.pdf, id=682, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.92_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.92_mean_weight3.pdf>
@@ -1067,7 +994,7 @@ Package pdftex.def Info: images/bsky_pico_comb_90.92_mean_weight3.pdf used on i
 nput line 117.
 (pdftex.def)             Requested size: 281.85585pt x 364.7566pt.
 
-<images/bsky_pico_comb_90.93_mean_weight3.pdf, id=692, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.93_mean_weight3.pdf, id=683, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.93_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.93_mean_weight3.pdf>
@@ -1079,7 +1006,7 @@ Overfull \hbox (69.23677pt too wide) in paragraph at lines 117--120
 [][]  [] 
  []
 
-<images/bsky_pico_comb_90.96_mean_weight3.pdf, id=693, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.96_mean_weight3.pdf, id=684, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.96_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.96_mean_weight3.pdf>
@@ -1087,7 +1014,7 @@ Package pdftex.def Info: images/bsky_pico_comb_90.96_mean_weight3.pdf used on i
 nput line 121.
 (pdftex.def)             Requested size: 281.85585pt x 364.7566pt.
 
-<images/bsky_pico_comb_90.99_mean_weight3.pdf, id=694, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.99_mean_weight3.pdf, id=685, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.99_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.99_mean_weight3.pdf>
@@ -1338,21 +1265,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 127.
 
-[25] [26 <./images/bsky_pico_comb_90.00_mean_weight3.pdf> <./images/bsky_pico_c
+[24] [25 <./images/bsky_pico_comb_90.00_mean_weight3.pdf> <./images/bsky_pico_c
 omb_90.91_mean_weight3.pdf> <./images/bsky_pico_comb_90.92_mean_weight3.pdf> <.
 /images/bsky_pico_comb_90.93_mean_weight3.pdf> <./images/bsky_pico_comb_90.96_m
 ean_weight3.pdf> <./images/bsky_pico_comb_90.99_mean_weight3.pdf>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 137.
-)
-(./systematics.tex [27]
+ [26])
+(./systematics.tex
 
-Package natbib Warning: Citation `Takahaski2010' on page 28 undefined on input 
+Package natbib Warning: Citation `Takahaski2010' on page 27 undefined on input 
 line 13.
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
-
+[27]
 Overfull \hbox (1.3334pt too wide) in paragraph at lines 46--46
 []\OT1/ptm/b/n/8 Risk| 
  []
@@ -1470,7 +1395,7 @@ Overfull \hbox (56.87pt too wide) in paragraph at lines 44--147
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28] <images/PICO_rotate_eb3_v0.pdf, id=791, 597.23125pt x 397.485pt>
+<images/PICO_rotate_eb3_v0.pdf, id=782, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb3_v0.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb3_v0.pdf>
@@ -1479,26 +1404,26 @@ Package pdftex.def Info: images/PICO_rotate_eb3_v0.pdf used on input line 180.
 
 
 Package natbib Warning: Author undefined for citation`Planck2016_XLIX' 
-(natbib)                on page 29 on input line 214.
+(natbib)                on page 28 on input line 214.
 
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
-(natbib)                on page 29 on input line 214.
+(natbib)                on page 28 on input line 214.
 
-[29] [30 <./images/PICO_rotate_eb3_v0.pdf>] [31]) (./requirements.tex
+[28 <./images/PICO_rotate_eb3_v0.pdf>] [29] [30]) (./requirements.tex [31]
 
 LaTeX Warning: Reference `tab:STM' on page 32 undefined on input line 52.
 
 
 LaTeX Warning: Reference `sec:lensing' on page 32 undefined on input line 53.
 
-[32]) (./instrument.tex
+) (./instrument.tex
 Overfull \hbox (3.97801pt too wide) in paragraph at lines 5--6
 \OT1/ptm/m/n/12 Telescope (Hanany / Young), fo-cal plane (Hanany / Young), cool
 -ing (Trangsrud), read-out (O'Brient) 
  []
 
-) (./mission.tex) (./technology.tex) (./cost.tex) [33] (./PICOReport.bbl
+) (./mission.tex) (./technology.tex) [32] (./cost.tex) [33] (./PICOReport.bbl
 Underfull \hbox (badness 2150) in paragraph at lines 36--41
 []\OT1/ptm/m/n/12 Francis-Yan Cyr-Racine, Roland de Put-ter, Alvise Rac-canelli
 , and Kris Sig-urd-son.
@@ -1526,11 +1451,11 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 209.
  ) 
 Here is how much of TeX's memory you used:
- 8102 strings out of 493014
- 117728 string characters out of 6133351
- 220681 words of memory out of 5000000
- 11295 multiletter control sequences out of 15000+600000
- 45223 words of font info for 95 fonts, out of 8000000 for 9000
+ 8099 strings out of 493014
+ 117702 string characters out of 6133351
+ 219681 words of memory out of 5000000
+ 11293 multiletter control sequences out of 15000+600000
+ 43597 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  29i,15n,43p,1517b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1541,29 +1466,28 @@ ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texliv
 e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
 /2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
-/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvet
-ic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a
-.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
-/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (43 pages, 4313596 bytes).
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
+rw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helv
+etic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb
+8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
+sr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on PICOReport.pdf (43 pages, 4306353 bytes).
 PDF statistics:
- 978 PDF objects out of 1000 (max. 8388607)
- 727 compressed objects within 8 object streams
+ 970 PDF objects out of 1000 (max. 8388607)
+ 720 compressed objects within 8 object streams
  158 named destinations out of 1000 (max. 500000)
  379 words of extra memory for PDF output out of 10000 (max. 10000000)
 
