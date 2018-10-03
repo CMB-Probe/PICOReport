@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 SEP 2018 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 OCT 2018 13:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -315,9 +315,8 @@ Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
 (./PICOReport_defs.tex
 \tablebox=\box28
 \tablewidth=\dimen119
-)
-(/usr/local/texlive/2016/texmf-dist/tex/latex/subfiles/subfiles.sty
-Package: subfiles 2012/05/23 Federico Garcia
+) (./subfiles.sty
+Package: subfiles 2018/07/31 Federico Garcia, Gernot Salzer
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
@@ -395,9 +394,9 @@ LaTeX Info: Redefining \nameref on input line 39.
 \openout4 = `PICOReport.out'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--64
+Underfull \hbox (badness 10000) in paragraph at lines 58--63
 
  []
 
@@ -405,106 +404,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--64
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 75.
 
 (./executive.tex)
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 81.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
  (./landscape.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+Overfull \hbox (0.95285pt too wide) in paragraph at lines 8--11
+\OT1/ptm/m/n/12 Theoretical de-vel-op-ment and mea-sure-ments of the cos-mic mi
+-crowave back-ground ra-di-a-tion (PICO)
+ []
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+) [1])
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 113.
 
-(./fundamentalsci.tex [1]
-<images/cmb_powspec_PICOv2.pdf, id=138, 375.804pt x 303.534pt>
+(./fundamentalsci.tex [2]
+<images/cmb_powspec_PICOv2.pdf, id=146, 375.804pt x 303.534pt>
 File: images/cmb_powspec_PICOv2.pdf Graphic file (type pdf)
 
 <use images/cmb_powspec_PICOv2.pdf>
 Package pdftex.def Info: images/cmb_powspec_PICOv2.pdf used on input line 17.
 (pdftex.def)             Requested size: 216.81pt x 175.11426pt.
 
-<images/nsrlabeledrp001_PICOv1.pdf, id=139, 375.804pt x 195.129pt>
+<images/nsrlabeledrp001_PICOv1.pdf, id=147, 375.804pt x 195.129pt>
 File: images/nsrlabeledrp001_PICOv1.pdf Graphic file (type pdf)
 
 <use images/nsrlabeledrp001_PICOv1.pdf>
 Package pdftex.def Info: images/nsrlabeledrp001_PICOv1.pdf used on input line 1
 9.
 (pdftex.def)             Requested size: 260.17244pt x 135.09468pt.
- [2 <./images/cmb_powspec_PICOv2.pdf> <./images/nsrlabeledrp001_PICOv1.pdf>]
+ [3 <./images/cmb_powspec_PICOv2.pdf> <./images/nsrlabeledrp001_PICOv1.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-[3] <images/Neff_final.pdf, id=241, 554.59674pt x 457.1867pt>
+<images/Neff_final.pdf, id=239, 554.59674pt x 457.1867pt>
 File: images/Neff_final.pdf Graphic file (type pdf)
 
 <use images/Neff_final.pdf>
-Package pdftex.def Info: images/Neff_final.pdf used on input line 72.
+Package pdftex.def Info: images/Neff_final.pdf used on input line 70.
 (pdftex.def)             Requested size: 211.3883pt x 174.25595pt.
 
-<images/Mnu_tauprior_final.pdf, id=242, 579.25044pt x 457.1867pt>
+<images/Mnu_tauprior_final.pdf, id=240, 579.25044pt x 457.1867pt>
 File: images/Mnu_tauprior_final.pdf Graphic file (type pdf)
 
 <use images/Mnu_tauprior_final.pdf>
-Package pdftex.def Info: images/Mnu_tauprior_final.pdf used on input line 73.
+Package pdftex.def Info: images/Mnu_tauprior_final.pdf used on input line 71.
 (pdftex.def)             Requested size: 220.78542pt x 174.26294pt.
 
 
 Package natbib Warning: Citation `Peebles2000' on page 4 undefined on input lin
-e 101.
+e 99.
 
 
-Package natbib Warning: Citation `Chen2004' on page 4 undefined on input line 1
-01.
+Package natbib Warning: Citation `Chen2004' on page 4 undefined on input line 9
+9.
 
 
 Package natbib Warning: Citation `Padmanabhan2005' on page 4 undefined on input
- line 101.
+ line 99.
 
-
-Package natbib Warning: Citation `Yacine2015DM' on page 4 undefined on input li
-ne 129.
-
-[4 <./images/Neff_final.pdf> <./images/Mnu_tauprior_final.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/Mnu_tauprior_final.
-pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]
+[4]
 
 Package natbib Warning: Citation `Jedamzik2000' on page 5 undefined on input li
-ne 135.
+ne 133.
 
 
 Package natbib Warning: Citation `Tashiro2012' on page 5 undefined on input lin
-e 135.
+e 133.
 
 
 Package natbib Warning: Citation `Dolgov2013' on page 5 undefined on input line
- 135.
+ 133.
 
 
 Package natbib Warning: Citation `Tashiro2013' on page 5 undefined on input lin
-e 135.
+e 133.
 
 
 Package natbib Warning: Citation `Caldwell2013' on page 5 undefined on input li
-ne 135.
+ne 133.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--136
+Underfull \hbox (badness 10000) in paragraph at lines 131--134
 
  []
 
-) (./extragalacticsci.tex [5]
+[5 <./images/Neff_final.pdf> <./images/Mnu_tauprior_final.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/Mnu_tauprior_final.
+pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]) (./extragalacticsci.tex
 
 Package natbib Warning: Citation `Shaw2012' on page 6 undefined on input line 1
 1.
@@ -521,152 +520,196 @@ ine 11.
 Package natbib Warning: Citation `calabrese/etal/2014' on page 6 undefined on i
 nput line 11.
 
+[6]
 
-Package natbib Warning: Citation `SmithFerraro2017' on page 6 undefined on inpu
+Package natbib Warning: Citation `SmithFerraro2017' on page 7 undefined on inpu
 t line 13.
 
 
-Package natbib Warning: Citation `DvorkinSmith2008' on page 6 undefined on inpu
+Package natbib Warning: Citation `DvorkinSmith2008' on page 7 undefined on inpu
 t line 13.
 
 
-Package natbib Warning: Citation `2007PhRvD..76d3510S' on page 6 undefined on i
-nput line 25.
+<images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=336, 661.71594pt x 533
+.22528pt>
+File: images/Reionization_Contours_zbar_delz_PICO_NEW.pdf Graphic file (type pd
+f)
+ <use images/Reionization_Contours_zbar_delz_PICO_NEW.pdf>
+Package pdftex.def Info: images/Reionization_Contours_zbar_delz_PICO_NEW.pdf us
+ed on input line 16.
+(pdftex.def)             Requested size: 375.80542pt x 302.84315pt.
 
-<images/lensingNoisePICO.pdf, id=330, 587.19376pt x 587.19376pt>
+
+Package natbib Warning: Citation `planck2018:parameters' on page 7 undefined on
+ input line 17.
+
+
+Package natbib Warning: Citation `edges2017' on page 7 undefined on input line 
+17.
+
+
+Package natbib Warning: Citation `Fan2006' on page 7 undefined on input line 17
+.
+
+
+Package natbib Warning: Citation `planck_reio:2016' on page 7 undefined on inpu
+t line 17.
+
+
+Package natbib Warning: Citation `planck2018:parameters' on page 7 undefined on
+ input line 17.
+
+
+Package natbib Warning: Citation `edges2017' on page 7 undefined on input line 
+17.
+
+
+Package natbib Warning: Citation `Fan2006' on page 7 undefined on input line 17
+.
+
+
+Package natbib Warning: Citation `planck_reio:2016' on page 7 undefined on inpu
+t line 17.
+
+[7 <./images/Reionization_Contours_zbar_delz_PICO_NEW.pdf>]
+
+Package natbib Warning: Citation `2007PhRvD..76d3510S' on page 8 undefined on i
+nput line 30.
+
+<images/lensingNoisePICO.pdf, id=407, 587.19376pt x 587.19376pt>
 File: images/lensingNoisePICO.pdf Graphic file (type pdf)
 
 <use images/lensingNoisePICO.pdf>
-Package pdftex.def Info: images/lensingNoisePICO.pdf used on input line 30.
+Package pdftex.def Info: images/lensingNoisePICO.pdf used on input line 35.
 (pdftex.def)             Requested size: 375.80542pt x 375.80272pt.
- [6] [7 <./images/lensingNoisePICO.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 45.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
 
 
-Package natbib Warning: Citation `SZ1969' on page 8 undefined on input line 47.
+Package natbib Warning: Citation `SZ1969' on page 8 undefined on input line 52.
 
 
 
-Package natbib Warning: Citation `SZ1972' on page 8 undefined on input line 47.
+Package natbib Warning: Citation `SZ1972' on page 8 undefined on input line 52.
 
 
-<images/PICO_tSZ_PS_plot.pdf, id=389, 462.52798pt x 346.89601pt>
+<images/PICO_tSZ_PS_plot.pdf, id=410, 462.52798pt x 346.89601pt>
 File: images/PICO_tSZ_PS_plot.pdf Graphic file (type pdf)
 
 <use images/PICO_tSZ_PS_plot.pdf>
-Package pdftex.def Info: images/PICO_tSZ_PS_plot.pdf used on input line 67.
+Package pdftex.def Info: images/PICO_tSZ_PS_plot.pdf used on input line 72.
 (pdftex.def)             Requested size: 375.80542pt x 281.86818pt.
-) (./galacticsci.tex
+ [8] [9 <./images/lensingNoisePICO.pdf>])
+(./galacticsci.tex
 
-Package natbib Warning: Citation `McKee2007' on page 8 undefined on input line 
-6.
+Package natbib Warning: Citation `McKee2007' on page 10 undefined on input line
+ 6.
 
-[8] [9 <./images/PICO_tSZ_PS_plot.pdf>]
+[10 <./images/PICO_tSZ_PS_plot.pdf>]
 
-Package natbib Warning: Citation `Lazarian2007b' on page 10 undefined on input 
+Package natbib Warning: Citation `Lazarian2007b' on page 11 undefined on input 
 line 9.
 
 
-Package natbib Warning: Citation `Andersson2015' on page 10 undefined on input 
+Package natbib Warning: Citation `Andersson2015' on page 11 undefined on input 
 line 9.
 
 
-Package natbib Warning: Citation `EllsworthBowers2015' on page 10 undefined on 
+Package natbib Warning: Citation `EllsworthBowers2015' on page 11 undefined on 
 input line 9.
 
 
-Package natbib Warning: Citation `Planck:XXXV' on page 10 undefined on input li
+Package natbib Warning: Citation `Planck:XXXV' on page 11 undefined on input li
 ne 9.
 
 
-Package natbib Warning: Citation `Crutcher2010' on page 10 undefined on input l
+Package natbib Warning: Citation `Crutcher2010' on page 11 undefined on input l
 ine 15.
 
 
-Package natbib Warning: Citation `Planck:XXXII' on page 10 undefined on input l
+Package natbib Warning: Citation `Planck:XXXII' on page 11 undefined on input l
 ine 16.
 
 
-Package natbib Warning: Citation `Planck:XXXV' on page 10 undefined on input li
+Package natbib Warning: Citation `Planck:XXXV' on page 11 undefined on input li
 ne 16.
 
 
-Package natbib Warning: Citation `Soler2013' on page 10 undefined on input line
+Package natbib Warning: Citation `Soler2013' on page 11 undefined on input line
  16.
 
 
-Package natbib Warning: Citation `Chen2016' on page 10 undefined on input line 
+Package natbib Warning: Citation `Chen2016' on page 11 undefined on input line 
 16.
 
 
-Package natbib Warning: Citation `Mocz2018' on page 10 undefined on input line 
+Package natbib Warning: Citation `Mocz2018' on page 11 undefined on input line 
 16.
 
 
-Package natbib Warning: Citation `Davis1951' on page 10 undefined on input line
+Package natbib Warning: Citation `Davis1951' on page 11 undefined on input line
  21.
 
 
-Package natbib Warning: Citation `Chandrasekhar1953' on page 10 undefined on in
+Package natbib Warning: Citation `Chandrasekhar1953' on page 11 undefined on in
 put line 21.
 
 
-Package natbib Warning: Citation `Hildebrand2009' on page 10 undefined on input
+Package natbib Warning: Citation `Hildebrand2009' on page 11 undefined on input
  line 21.
 
 
-Package natbib Warning: Citation `Houde2009' on page 10 undefined on input line
+Package natbib Warning: Citation `Houde2009' on page 11 undefined on input line
  21.
 
 
-Package natbib Warning: Citation `Houde2011' on page 10 undefined on input line
+Package natbib Warning: Citation `Houde2011' on page 11 undefined on input line
  21.
 
-[10]
+[11]
 
-Package natbib Warning: Citation `Fissel2016' on page 11 undefined on input lin
+Package natbib Warning: Citation `Fissel2016' on page 12 undefined on input lin
 e 22.
 
 
-Package natbib Warning: Citation `King2018' on page 11 undefined on input line 
+Package natbib Warning: Citation `King2018' on page 12 undefined on input line 
 22.
 
 
-Package natbib Warning: Citation `GonzalezCasanova2017' on page 11 undefined on
+Package natbib Warning: Citation `GonzalezCasanova2017' on page 12 undefined on
  input line 23.
 
 
-Package natbib Warning: Citation `Yuen2017' on page 11 undefined on input line 
+Package natbib Warning: Citation `Yuen2017' on page 12 undefined on input line 
 23.
 
 
-Package natbib Warning: Citation `Lazarian2018' on page 11 undefined on input l
+Package natbib Warning: Citation `Lazarian2018' on page 12 undefined on input l
 ine 23.
 
 
-Package natbib Warning: Citation `Planck:XXXV' on page 11 undefined on input li
+Package natbib Warning: Citation `Planck:XXXV' on page 12 undefined on input li
 ne 24.
 
 
-Package natbib Warning: Citation `Soler2017' on page 11 undefined on input line
+Package natbib Warning: Citation `Soler2017' on page 12 undefined on input line
  24.
 
 
-Package natbib Warning: Citation `Fissel2018' on page 11 undefined on input lin
+Package natbib Warning: Citation `Fissel2018' on page 12 undefined on input lin
 e 24.
 
 
-Package natbib Warning: Citation `Soler2017' on page 11 undefined on input line
+Package natbib Warning: Citation `Soler2017' on page 12 undefined on input line
  24.
 
 
-Package natbib Warning: Citation `Soler2017b' on page 11 undefined on input lin
+Package natbib Warning: Citation `Soler2017b' on page 12 undefined on input lin
 e 24.
 
 
@@ -674,7 +717,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-<images/Allsky_dust_fig.pdf, id=436, 557.08125pt x 440.64626pt>
+<images/Allsky_dust_fig.pdf, id=507, 557.08125pt x 440.64626pt>
 File: images/Allsky_dust_fig.pdf Graphic file (type pdf)
 
 <use images/Allsky_dust_fig.pdf>
@@ -682,52 +725,52 @@ Package pdftex.def Info: images/Allsky_dust_fig.pdf used on input line 34.
 (pdftex.def)             Requested size: 289.07999pt x 228.6667pt.
 
 
-Package natbib Warning: Citation `Hall1949' on page 11 undefined on input line 
+Package natbib Warning: Citation `Hall1949' on page 12 undefined on input line 
 40.
 
 
-Package natbib Warning: Citation `Hiltner1949' on page 11 undefined on input li
+Package natbib Warning: Citation `Hiltner1949' on page 12 undefined on input li
 ne 40.
 
 
-Package natbib Warning: Citation `Purcell1979' on page 11 undefined on input li
+Package natbib Warning: Citation `Purcell1979' on page 12 undefined on input li
 ne 40.
 
 
-Package natbib Warning: Citation `Spitzer1979' on page 11 undefined on input li
+Package natbib Warning: Citation `Spitzer1979' on page 12 undefined on input li
 ne 40.
 
 
-Package natbib Warning: Citation `Andersson2015' on page 11 undefined on input 
+Package natbib Warning: Citation `Andersson2015' on page 12 undefined on input 
 line 40.
 
 
-Package natbib Warning: Citation `Lazarian2007a' on page 11 undefined on input 
+Package natbib Warning: Citation `Lazarian2007a' on page 12 undefined on input 
 line 40.
 
 
-Package natbib Warning: Citation `Andersson2007' on page 11 undefined on input 
+Package natbib Warning: Citation `Andersson2007' on page 12 undefined on input 
 line 40.
 
 
-Package natbib Warning: Citation `Andersson2010' on page 11 undefined on input 
+Package natbib Warning: Citation `Andersson2010' on page 12 undefined on input 
 line 40.
 
-[11]
+[12]
 
-Package natbib Warning: Citation `Lazarian2007b' on page 12 undefined on input 
+Package natbib Warning: Citation `Lazarian2007b' on page 13 undefined on input 
 line 42.
 
 
-Package natbib Warning: Citation `Hoang2015' on page 12 undefined on input line
+Package natbib Warning: Citation `Hoang2015' on page 13 undefined on input line
  42.
 
 
-Package natbib Warning: Citation `Weingartner2008' on page 12 undefined on inpu
+Package natbib Warning: Citation `Weingartner2008' on page 13 undefined on inpu
 t line 42.
 
 
-Package natbib Warning: Citation `Goodman1995' on page 12 undefined on input li
+Package natbib Warning: Citation `Goodman1995' on page 13 undefined on input li
 ne 46.
 
 
@@ -735,58 +778,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
-[12 <./images/Allsky_dust_fig.pdf>]
+[13 <./images/Allsky_dust_fig.pdf>]
 
-Package natbib Warning: Citation `Hensley2018' on page 13 undefined on input li
+Package natbib Warning: Citation `Hensley2018' on page 14 undefined on input li
 ne 49.
 
 
-Package natbib Warning: Citation `Smith2000' on page 13 undefined on input line
+Package natbib Warning: Citation `Smith2000' on page 14 undefined on input line
  51.
 
 
-Package natbib Warning: Citation `Chiar2006' on page 13 undefined on input line
+Package natbib Warning: Citation `Chiar2006' on page 14 undefined on input line
  51.
 
 
-Package natbib Warning: Citation `Mason2007' on page 13 undefined on input line
+Package natbib Warning: Citation `Mason2007' on page 14 undefined on input line
  51.
 
 
-Package natbib Warning: Citation `Planck_Int_XXII' on page 13 undefined on inpu
+Package natbib Warning: Citation `Planck_Int_XXII' on page 14 undefined on inpu
 t line 55.
 
 
-Package natbib Warning: Citation `Ashton2018' on page 13 undefined on input lin
+Package natbib Warning: Citation `Ashton2018' on page 14 undefined on input lin
 e 55.
 
 
-Package natbib Warning: Citation `Draine2013' on page 13 undefined on input lin
+Package natbib Warning: Citation `Draine2013' on page 14 undefined on input lin
 e 57.
 
 
-Package natbib Warning: Citation `Lazarian2007b' on page 13 undefined on input 
+Package natbib Warning: Citation `Lazarian2007b' on page 14 undefined on input 
 line 57.
 
 
-Package natbib Warning: Citation `Hoang2015' on page 13 undefined on input line
+Package natbib Warning: Citation `Hoang2015' on page 14 undefined on input line
  57.
 
 
-Package natbib Warning: Citation `Lazarian2007a' on page 13 undefined on input 
+Package natbib Warning: Citation `Lazarian2007a' on page 14 undefined on input 
 line 57.
 
 
-Package natbib Warning: Citation `Draine2013' on page 13 undefined on input lin
+Package natbib Warning: Citation `Draine2013' on page 14 undefined on input lin
 e 57.
 
-[13]
+[14]
 Underfull \hbox (badness 10000) in paragraph at lines 72--82
 
  []
 
 
-Package natbib Warning: Citation `Heiles:2005' on page 14 undefined on input li
+Package natbib Warning: Citation `Heiles:2005' on page 15 undefined on input li
 ne 84.
 
 
@@ -795,124 +838,124 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--85
  []
 
 
-Package natbib Warning: Citation `Clark:2014' on page 14 undefined on input lin
+Package natbib Warning: Citation `Clark:2014' on page 15 undefined on input lin
 e 87.
 
 
-Package natbib Warning: Citation `Clark:2015' on page 14 undefined on input lin
+Package natbib Warning: Citation `Clark:2015' on page 15 undefined on input lin
 e 87.
 
 
-Package natbib Warning: Citation `Kalberla:2016' on page 14 undefined on input 
+Package natbib Warning: Citation `Kalberla:2016' on page 15 undefined on input 
 line 87.
 
 
-Package natbib Warning: Citation `Planck:XXXII' on page 14 undefined on input l
+Package natbib Warning: Citation `Planck:XXXII' on page 15 undefined on input l
 ine 87.
 
 
-Package natbib Warning: Citation `Clark:2015' on page 14 undefined on input lin
+Package natbib Warning: Citation `Clark:2015' on page 15 undefined on input lin
 e 87.
 
 
-Package natbib Warning: Citation `Planck:XXXVIII' on page 14 undefined on input
+Package natbib Warning: Citation `Planck:XXXVIII' on page 15 undefined on input
  line 87.
 
 
-Package natbib Warning: Citation `Caldwell:2017' on page 14 undefined on input 
+Package natbib Warning: Citation `Caldwell:2017' on page 15 undefined on input 
 line 88.
 
 
-Package natbib Warning: Citation `Kandel:2017' on page 14 undefined on input li
+Package natbib Warning: Citation `Kandel:2017' on page 15 undefined on input li
 ne 88.
 
-[14]
+[15]
 
-Package natbib Warning: Citation `Planck2018:XI' on page 15 undefined on input 
+Package natbib Warning: Citation `Planck2018:XI' on page 16 undefined on input 
 line 91.
 
 
-Package natbib Warning: Citation `HI4PI:2016' on page 15 undefined on input lin
+Package natbib Warning: Citation `HI4PI:2016' on page 16 undefined on input lin
 e 93.
 
 
-Package natbib Warning: Citation `Peek:2018' on page 15 undefined on input line
+Package natbib Warning: Citation `Peek:2018' on page 16 undefined on input line
  93.
 
 
-Package natbib Warning: Citation `McClure-Griffiths2015' on page 15 undefined o
+Package natbib Warning: Citation `McClure-Griffiths2015' on page 16 undefined o
 n input line 93.
 
-) (./legacysci.tex <images/fig_SED3_PICO.jpg, id=490, 325.9377pt x 218.0145pt>
+) (./legacysci.tex <images/fig_SED3_PICO.jpg, id=561, 325.9377pt x 218.0145pt>
 File: images/fig_SED3_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_SED3_PICO.jpg>
 Package pdftex.def Info: images/fig_SED3_PICO.jpg used on input line 8.
 (pdftex.def)             Requested size: 225.48038pt x 150.82602pt.
 
-<images/NgtF_500micron.png, id=492, 1047.915pt x 994.71625pt>
+<images/NgtF_500micron.png, id=563, 1047.915pt x 994.71625pt>
 File: images/NgtF_500micron.png Graphic file (type png)
 
 <use images/NgtF_500micron.png>
 Package pdftex.def Info: images/NgtF_500micron.png used on input line 9.
 (pdftex.def)             Requested size: 225.47322pt x 156.4865pt.
- [15] [16 <./images/fig_SED3_PICO.jpg> <./images/NgtF_500micron.png>]
-<images/fig_protocl_PICO.jpg, id=529, 348.8232pt x 246.6816pt>
+ [16] [17 <./images/fig_SED3_PICO.jpg> <./images/NgtF_500micron.png>]
+<images/fig_protocl_PICO.jpg, id=601, 348.8232pt x 246.6816pt>
 File: images/fig_protocl_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_protocl_PICO.jpg>
 Package pdftex.def Info: images/fig_protocl_PICO.jpg used on input line 92.
 (pdftex.def)             Requested size: 150.32503pt x 106.30815pt.
 
-<images/Oteo_2018_protocl.jpg, id=531, 250.7769pt x 270.2898pt>
+<images/Oteo_2018_protocl.jpg, id=603, 250.7769pt x 270.2898pt>
 File: images/Oteo_2018_protocl.jpg Graphic file (type jpg)
 
 <use images/Oteo_2018_protocl.jpg>
 Package pdftex.def Info: images/Oteo_2018_protocl.jpg used on input line 93.
 (pdftex.def)             Requested size: 150.32953pt x 105.27237pt.
 
-<images/NgtFclumps_800GHz.png, id=533, 1371.9255pt x 1163.547pt>
+<images/NgtFclumps_800GHz.png, id=605, 1371.9255pt x 1163.547pt>
 File: images/NgtFclumps_800GHz.png Graphic file (type png)
 
 <use images/NgtFclumps_800GHz.png>
 Package pdftex.def Info: images/NgtFclumps_800GHz.png used on input line 94.
 (pdftex.def)             Requested size: 150.30519pt x 105.26509pt.
- [17 <./images/fig_protocl_PICO.jpg> <./images/Oteo_2018_protocl.jpg> <./images
+ [18 <./images/fig_protocl_PICO.jpg> <./images/Oteo_2018_protocl.jpg> <./images
 /NgtFclumps_800GHz.png>])
-(./complementarity.tex [18]
+(./complementarity.tex [19]
 \tblskip=\dimen122
 \digitwidth=\dimen123
 \signwidth=\dimen124
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
 
-Underfull \hbox (badness 1127) in paragraph at lines 63--64
-\OT1/ptm/m/n/10 by at-mo-sphere or ground.
+Underfull \hbox (badness 1248) in paragraph at lines 63--64
+[]|\OT1/ptm/m/n/10 Full. Scan strat-egy not
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 66--68
-\OT1/ptm/m/n/10 quen-cies. The fre-quency
+Underfull \hbox (badness 2181) in paragraph at lines 63--64
+\OT1/ptm/m/n/10 lim-ited by at-mo-sphere or
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 63--64
+\OT1/ptm/m/n/10 the sky can be ob-served
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 66--68
-\OT1/ptm/m/n/10 range where as-tro-nom-
+[]|\OT1/ptm/m/n/10 Limited to at-mo-
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 66--68
-\OT1/ptm/m/n/10 mum is in-ac-ces-si-ble from
+Underfull \hbox (badness 1009) in paragraph at lines 66--68
+\OT1/ptm/m/n/10 spheric ``win-dows'', which
  []
 
 
-Underfull \hbox (badness 1796) in paragraph at lines 66--68
-\OT1/ptm/m/n/10 above 300GHz are un-us-
- []
-
-
-Underfull \hbox (badness 2119) in paragraph at lines 68--69
-[]|\OT1/ptm/m/n/10 Better than ground. Fore-
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+\OT1/ptm/m/n/10 nom-i-cal fore-grounds
  []
 
 
@@ -921,539 +964,575 @@ Underfull \hbox (badness 6173) in paragraph at lines 68--69
  []
 
 
-Underfull \hbox (badness 1303) in paragraph at lines 74--76
-\OT1/ptm/m/n/10 ground, plus di-rect noise.
+Underfull \hbox (badness 2181) in paragraph at lines 71--72
+[]|\OT1/ptm/m/n/10 Restricted to small tele-
  []
 
 
-Underfull \hbox (badness 5563) in paragraph at lines 74--76
-\OT1/ptm/m/n/10 In-di-vid-ual de-tec-tor sen-si-
+Underfull \hbox (badness 8019) in paragraph at lines 72--72
+[]|\OT1/ptm/m/n/10 Telescope cost a steep
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
-[]|\OT1/ptm/m/n/10 Atmospheric
+Underfull \hbox (badness 7595) in paragraph at lines 74--76
+\OT1/ptm/m/n/10 and ground, plus di-rect
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 77--77
-\OT1/ptm/m/n/10 al direct-detector sen-si-tiv-
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\OT1/ptm/m/n/10 Only
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 77--77
-\OT1/ptm/m/n/10 i-ties roughly an or-der of
+Underfull \hbox (badness 2818) in paragraph at lines 77--77
+\OT1/ptm/m/n/10 CMB, CIB, and Galac-tic
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 79--79
-[]|\OT1/ptm/m/n/10 Continuous ob-ser-va-tions for
+Underfull \hbox (badness 3919) in paragraph at lines 77--77
+\OT1/ptm/m/n/10 back-grounds. Individu-al
  []
 
-[19] [20]) (./foregrounds.tex
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
+Underfull \hbox (badness 3861) in paragraph at lines 77--77
+\OT1/ptm/m/n/10 direct-detector sen-si-tiv-i-ties
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 12.
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\OT1/ptm/m/n/10 Continuous ob-ser-va-tions
+ []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<let>-command' on input line 12.
+Underfull \hbox (badness 2990) in paragraph at lines 84--84
+[]|\OT1/ptm/m/n/10 None. Mul-ti-ple flights
+ []
 
+[20] [21]) (./foregrounds.tex [22]
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 32.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@nomath' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\begingroup' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\setbox' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\thinmuskip' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\medmuskip' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\m@ne' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\thickmuskip' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ne' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\setbox' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\tw@' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@tempa' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathchoice' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\displaystyle' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\textstyle' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scriptstyle' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\mathsurround' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\scriptscriptstyle' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\endgroup' on input line 12.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 12.
-
-[21]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 22.
- [22]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 62.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
+
+Package natbib Warning: Citation `Thorne:2016ifb' on page 23 undefined on input
+ line 32.
+
+
+Package natbib Warning: Citation `Thorne:2016ifb' on page 23 undefined on input
+ line 34.
+
+
+Package natbib Warning: Citation `Hensley:2015' on page 23 undefined on input l
+ine 36.
+
+
+Package natbib Warning: Citation `Kritsuk:2017' on page 23 undefined on input l
+ine 39.
+
+
+Package natbib Warning: Citation `Martinez:2017' on page 23 undefined on input 
+line 41.
+
+
+Package natbib Warning: Citation `Vansyngel:2016' on page 23 undefined on input
+ line 49.
+
 [23] [24]
-<images/bsky_pico_comb_90.00_mean_weight3.pdf, id=647, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.00_mean_weight3.pdf, id=689, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.00_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.00_mean_weight3.pdf>
 Package pdftex.def Info: images/bsky_pico_comb_90.00_mean_weight3.pdf used on i
-nput line 95.
+nput line 113.
 (pdftex.def)             Requested size: 281.85585pt x 364.7566pt.
 
-<images/bsky_pico_comb_90.91_mean_weight3.pdf, id=648, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.91_mean_weight3.pdf, id=690, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.91_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.91_mean_weight3.pdf>
 Package pdftex.def Info: images/bsky_pico_comb_90.91_mean_weight3.pdf used on i
-nput line 97.
+nput line 115.
 (pdftex.def)             Requested size: 281.85585pt x 364.7566pt.
 
-Overfull \hbox (69.23677pt too wide) in paragraph at lines 95--98
+Overfull \hbox (69.23677pt too wide) in paragraph at lines 113--116
 [][]  [] 
  []
 
-<images/bsky_pico_comb_90.92_mean_weight3.pdf, id=649, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.92_mean_weight3.pdf, id=691, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.92_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.92_mean_weight3.pdf>
 Package pdftex.def Info: images/bsky_pico_comb_90.92_mean_weight3.pdf used on i
-nput line 99.
+nput line 117.
 (pdftex.def)             Requested size: 281.85585pt x 364.7566pt.
 
-<images/bsky_pico_comb_90.93_mean_weight3.pdf, id=650, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.93_mean_weight3.pdf, id=692, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.93_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.93_mean_weight3.pdf>
 Package pdftex.def Info: images/bsky_pico_comb_90.93_mean_weight3.pdf used on i
-nput line 101.
+nput line 119.
 (pdftex.def)             Requested size: 281.85585pt x 364.7566pt.
 
-Overfull \hbox (69.23677pt too wide) in paragraph at lines 99--102
+Overfull \hbox (69.23677pt too wide) in paragraph at lines 117--120
 [][]  [] 
  []
 
-<images/bsky_pico_comb_90.96_mean_weight3.pdf, id=651, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.96_mean_weight3.pdf, id=693, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.96_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.96_mean_weight3.pdf>
 Package pdftex.def Info: images/bsky_pico_comb_90.96_mean_weight3.pdf used on i
-nput line 103.
+nput line 121.
 (pdftex.def)             Requested size: 281.85585pt x 364.7566pt.
 
-<images/bsky_pico_comb_90.99_mean_weight3.pdf, id=652, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.99_mean_weight3.pdf, id=694, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.99_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.99_mean_weight3.pdf>
 Package pdftex.def Info: images/bsky_pico_comb_90.99_mean_weight3.pdf used on i
-nput line 105.
+nput line 123.
 (pdftex.def)             Requested size: 281.85585pt x 364.7566pt.
 
-Overfull \hbox (69.23677pt too wide) in paragraph at lines 103--106
+Overfull \hbox (69.23677pt too wide) in paragraph at lines 121--124
 [][]  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 161.38635pt on input line 106.
+LaTeX Warning: Float too large for page by 161.38635pt on input line 124.
 
-) (./systematics.tex
 
-Package natbib Warning: Citation `Takahaski2010' on page 25 undefined on input 
-line 15.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<let>-command' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@nomath' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\begingroup' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thinmuskip' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\medmuskip' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\m@ne' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\thickmuskip' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ne' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tw@' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@tempa' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathchoice' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\displaystyle' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\textstyle' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptstyle' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\mathsurround' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\scriptscriptstyle' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\endgroup' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
 
 [25] [26 <./images/bsky_pico_comb_90.00_mean_weight3.pdf> <./images/bsky_pico_c
 omb_90.91_mean_weight3.pdf> <./images/bsky_pico_comb_90.92_mean_weight3.pdf> <.
 /images/bsky_pico_comb_90.93_mean_weight3.pdf> <./images/bsky_pico_comb_90.96_m
 ean_weight3.pdf> <./images/bsky_pico_comb_90.99_mean_weight3.pdf>]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 49.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/sc' tried instead on input line 137.
+)
+(./systematics.tex [27]
 
-Overfull \hbox (1.3334pt too wide) in paragraph at lines 49--49
+Package natbib Warning: Citation `Takahaski2010' on page 28 undefined on input 
+line 13.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 46.
+
+Overfull \hbox (1.3334pt too wide) in paragraph at lines 46--46
 []\OT1/ptm/b/n/8 Risk| 
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 52--52
+Underfull \hbox (badness 1178) in paragraph at lines 49--49
 []\OT1/ptm/m/n/8 Polarization An-gle Cal-i-bra-
  []
 
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
-(natbib)                on page 27 on input line 56.
+(natbib)                on page 28 on input line 53.
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
-line 56.
+Package natbib Warning: Citation `Planck_Lowell' on page 28 undefined on input 
+line 53.
 
 
-Package natbib Warning: Citation `Hoang_2017' on page 27 undefined on input lin
-e 62.
+Package natbib Warning: Citation `Hoang_2017' on page 28 undefined on input lin
+e 59.
 
 
-Package natbib Warning: Citation `Pajot_2010' on page 27 undefined on input lin
-e 62.
+Package natbib Warning: Citation `Pajot_2010' on page 28 undefined on input lin
+e 59.
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
-line 63.
+Package natbib Warning: Citation `Planck_Lowell' on page 28 undefined on input 
+line 60.
 
 
-Package natbib Warning: Citation `CORE_systematics' on page 27 undefined on inp
-ut line 63.
+Package natbib Warning: Citation `CORE_systematics' on page 28 undefined on inp
+ut line 60.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 []\OT1/ptm/m/n/8 Time Re-sponse Ac-cu-racy
  []
 
 
-Underfull \hbox (badness 5771) in paragraph at lines 72--72
+Underfull \hbox (badness 5771) in paragraph at lines 69--69
 \OT1/ptm/m/n/8 stants (mea-sure-ment er-rors, time
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
-line 73.
+Package natbib Warning: Citation `Planck_Lowell' on page 28 undefined on input 
+line 70.
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
-line 80.
+Package natbib Warning: Citation `Planck_Lowell' on page 28 undefined on input 
+line 77.
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 90--92
+Underfull \hbox (badness 3108) in paragraph at lines 87--89
 []\OT1/ptm/m/n/8 Should be fur-ther in-ves-ti-gated in
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
-line 96.
+Package natbib Warning: Citation `Planck_Lowell' on page 28 undefined on input 
+line 93.
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 96--97
+Underfull \hbox (badness 1178) in paragraph at lines 93--94
 []\OT1/ptm/m/n/8 mission-average rel-a-tive cal-i-bra-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 []\OT1/ptm/m/n/8 State-of-the-art mea-sure-ment of
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 104--105
+Underfull \hbox (badness 1019) in paragraph at lines 101--102
 []\OT1/ptm/m/n/8 Q$\OMS/cmsy/m/n/8 !$\OT1/ptm/m/n/8 U ro-ta-tion by the op-ti-c
 al el-e-
  []
 
 
-Underfull \hbox (badness 2865) in paragraph at lines 106--107
+Underfull \hbox (badness 2865) in paragraph at lines 103--104
 []\OT1/ptm/m/n/8 Degenerate with po-lar-iza-tion gain
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
-line 116.
+Package natbib Warning: Citation `Planck_Lowell' on page 28 undefined on input 
+line 113.
 
 
-Underfull \hbox (badness 1655) in paragraph at lines 133--134
+Underfull \hbox (badness 1655) in paragraph at lines 130--131
 \OT1/ptm/m/n/8 an-gles from the main beam axis;
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 140--140
+Underfull \hbox (badness 2744) in paragraph at lines 137--137
 []\OT1/ptm/m/n/8 Residual cor-re-lated cos-mic
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 27 undefined on input 
-line 144.
+Package natbib Warning: Citation `Planck_Lowell' on page 28 undefined on input 
+line 141.
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 144--145
+Underfull \hbox (badness 1442) in paragraph at lines 141--142
 []\OT1/ptm/m/it/8 Planck\OT1/ptm/m/n/8 /HFI found the 5% per-cent
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 146--148
+Underfull \hbox (badness 2744) in paragraph at lines 143--145
 \OT1/ptm/m/n/8 of-the-art anal-y-sis tech-niques (ac-
  []
 
 
-Overfull \hbox (56.87pt too wide) in paragraph at lines 47--150
+Overfull \hbox (56.87pt too wide) in paragraph at lines 44--147
  [][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/PICO_rotate_eb3_v0.pdf, id=712, 597.23125pt x 397.485pt>
+[28] <images/PICO_rotate_eb3_v0.pdf, id=791, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb3_v0.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb3_v0.pdf>
-Package pdftex.def Info: images/PICO_rotate_eb3_v0.pdf used on input line 184.
+Package pdftex.def Info: images/PICO_rotate_eb3_v0.pdf used on input line 180.
 (pdftex.def)             Requested size: 375.80542pt x 250.11967pt.
 
 
 Package natbib Warning: Author undefined for citation`Planck2016_XLIX' 
-(natbib)                on page 27 on input line 220.
+(natbib)                on page 29 on input line 214.
 
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
-(natbib)                on page 27 on input line 223.
+(natbib)                on page 29 on input line 214.
 
-[27 <./images/PICO_rotate_eb3_v0.pdf>] [28]
-Overfull \hbox (1.64862pt too wide) in paragraph at lines 237--238
-\OT1/ptm/m/n/12 Photometric cal-i-bra-tion is the pro-cess of con-vert-ing the 
-raw out-put of the re-ceivers into a physically-
- []
+[29] [30 <./images/PICO_rotate_eb3_v0.pdf>] [31]) (./requirements.tex
 
-[29] [30]) (./requirements.tex
-
-LaTeX Warning: Reference `tab:STM' on page 31 undefined on input line 52.
+LaTeX Warning: Reference `tab:STM' on page 32 undefined on input line 52.
 
 
-LaTeX Warning: Reference `sec:lensing' on page 31 undefined on input line 53.
+LaTeX Warning: Reference `sec:lensing' on page 32 undefined on input line 53.
 
-[31]) (./instrument.tex
+[32]) (./instrument.tex
 Overfull \hbox (3.97801pt too wide) in paragraph at lines 5--6
 \OT1/ptm/m/n/12 Telescope (Hanany / Young), fo-cal plane (Hanany / Young), cool
 -ing (Trangsrud), read-out (O'Brient) 
  []
 
-) (./mission.tex) (./technology.tex) (./cost.tex) [32] (./PICOReport.bbl
+) (./mission.tex) (./technology.tex) (./cost.tex) [33] (./PICOReport.bbl
 Underfull \hbox (badness 2150) in paragraph at lines 36--41
 []\OT1/ptm/m/n/12 Francis-Yan Cyr-Racine, Roland de Put-ter, Alvise Rac-canelli
 , and Kris Sig-urd-son.
  []
 
-[33] [34] [35] [36] [37] [38] [39] [40]) (./acronym.tex)
+[34] [35] [36] [37] [38] [39] [40] [41]) (./acronym.tex)
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
-[41]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
+[42]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
  (./PICOReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
 Package rerunfilecheck Info: File `PICOReport.out' has not changed.
-(rerunfilecheck)             Checksum: 7EC86835C69D474BE3B8103DC4BB307B;2824.
+(rerunfilecheck)             Checksum: A44F0C2B85C2FE6957197D1A97FD8B65;2864.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
- 8087 strings out of 493014
- 117618 string characters out of 6133351
- 218989 words of memory out of 5000000
- 11279 multiletter control sequences out of 15000+600000
+ 8097 strings out of 493014
+ 117688 string characters out of 6133351
+ 220631 words of memory out of 5000000
+ 11290 multiletter control sequences out of 15000+600000
  45223 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,15n,43p,1517b,696s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,15n,43p,1517b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
@@ -1481,10 +1560,10 @@ ype1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
 ic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (42 pages, 4280372 bytes).
+Output written on PICOReport.pdf (43 pages, 4313134 bytes).
 PDF statistics:
- 911 PDF objects out of 1000 (max. 8388607)
- 713 compressed objects within 8 object streams
+ 978 PDF objects out of 1000 (max. 8388607)
+ 727 compressed objects within 8 object streams
  158 named destinations out of 1000 (max. 500000)
- 366 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 379 words of extra memory for PDF output out of 10000 (max. 10000000)
 
