@@ -33,7 +33,9 @@ Since the first measurements that recognized the existence of the CMB were made 
 
 %\midinsert
 \begingroup
-{\footnotesize
+\overfullrule=0pt
+\scriptsize
+%\footnotesize
 %\ninepoint
 \newdimen\tblskip \tblskip=5pt
 \nointerlineskip
@@ -50,47 +52,38 @@ Since the first measurements that recognized the existence of the CMB were made 
  \signwidth=\wd0
  \catcode`!=\active
  \def!{\kern\signwidth}
-\halign{\vtop{\hsize=1.6in\hangafter=1\hangindent=1em\strut#\strut\tolerance=10000}\tabskip 1em&
-\vtop{\hsize=1.7in\hangafter=1\hangindent=1em\strut#\strut\tolerance=10000\par}&
-\vtop{\hsize=1.7in\hangafter=1\hangindent=1em\strut#\strut\tolerance=10000\par}&
-\vtop{\hsize=1.7in\hangafter=1\hangindent=1em\strut#\strut\tolerance=10000\par}\tabskip=0pt\cr
+\halign{\vtop{\hsize=1.5in\hangafter=1\hangindent=0.5em\strut#\strut}\tabskip 0.5em&
+\vtop{\hsize=1.7in\hangafter=1\hangindent=0.5em\strut#\strut\tolerance=1000\par}&
+\vtop{\hsize=1.7in\hangafter=1\hangindent=0.5em\strut#\strut\tolerance=1000\par}&
+\vtop{\hsize=1.7in\hangafter=1\hangindent=0.5em\strut#\strut\tolerance=10000\par}\tabskip=0pt\cr
 \noalign{\doubleline}
 \noalign{\vskip 3pt}
 \omit\hfil Characteristic\hfil&\omit\hfil Ground\hfil&\omit\hfil Balloon\hfil&\omit\hfil Space\hfil\cr
 \noalign{\vskip 3pt\hrule\vskip 5pt}
 {\bf Performance}\hfil\cr
 \noalign{\vskip 3pt}
-Sky coverage   &   Partial from single site   &   Partial from single flight   &   Full.   Scan strategy not limited by atmosphere 
-or ground.  Large fractions of the sky can be observed nearly simultaneously with the same detectors.\cr
+Sky coverage&Partial from single site&Partial from single flight&Full.    Most of sky observable nearly simultaneously with same detectors.\cr
 %
-Frequency coverage  &  Limited to atmospheric ``windows'', which get increasingly opaque at higher frequencies.  
-The frequency range where astronomical foregrounds are minimum is inaccessible from the ground, 
-and frequencies above 300\,GHz are unusable.  &   Better than ground.  Fore\-ground-minimum frequencies 
-still unusable.  &  Unrestricted  \cr
+Frequency coverage&Limited atmospheric windows. Minimum-foreground frequencies inaccessible. Frequencies $\ge300$\,GHz  unusable.& Better than ground. Minimum-foreground frequencies inacces-sible.&Unrestricted.\cr
 %
-Angular resolution  &  Telescope cost a function of size, but arcminute resolution possible.  &  Restricted to small telescopes. 
-Arcminute resolution effectively impossible.  &  Telescope cost a steep function of size.  Arcminute resolution very expensive.\cr
+Angular resolution&Telescope~cost function of size; arcmin resolution possible.&Small telescopes only.  Arcmin resolution impossible.&Telescope cost steep function of size.  Arcmin resolution expensive.\cr
 %
-Backgrounds and noise  &  Hundreds of K loading of detectors from atmosphere and ground, plus direct noise.  
-Individual detector sensitivity reduced substantially, with 250\,$\mu$K\,s$^{-1/2}$ the practical limit for 
-a single direct detector.  &   Atmospheric loading much less than from ground, but still greater than from 
- space.  &  Only CMB, CIB, and Galactic backgrounds.  Individu\-al direct-detector sensitivities roughly an order of magnitude better.\cr
+Backgrounds and noise&Detector loading from ground and atmosphere, plus direct noise.  Individual detector sensitivity reduced substantially.&  Atmospheric loading less than from ground, greater than from space.&Only CMB, CIB, and Galactic backgrounds.  Direct-detector sensitivites roughly an order of magnitude better.\cr
 %
-Integration time  &   Limited by Sun, weather.  &   Severely limited by flight time.  To date, tens of days per flight.  &  Continuous observations for years.\cr
+Integration time&Limited by Sun, weather.&Severely imited by flight time.  To date, tens of days per flight.&Continuous observations for years.\cr
 %
-\noalign{\vskip 4pt}
+\noalign{\vskip 2pt}
 {\bf Practicalities}\cr
 \noalign{\vskip 3pt}
-Accessibility, repairability  &  Good  &  None.  Multiple flights sometimes possible.  & \cr
+Accessibility, repairability&Good&None.  Multiple flights sometimes possible.&None.\cr
 %
-Mass  &  Not a big issue  &  Big issue  &  Big issue\cr
+Mass&Not a big issue&Big issue&Big issue\cr
 \noalign{\vskip 3pt\hrule\vskip 3pt}}}
 \endPICOtable
-%\tablenote {{a}} The percentage contingency for annual operations is high because the cost does not include 40 FTEs of scientist effort supported by DOE research funds.\par
-%\tablenote {{b}} Effective frequencies encapsulate the bandpass effects at each channel.\par
-}
 \endgroup
-\vskip 20pt
+
+
+\vskip 5pt
 %\endinsert
 
 
