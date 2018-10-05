@@ -74,7 +74,7 @@ Readout Cross-talk\dotfill&
 4&
 Power in one detector leaks into other detectors
 &
-\planck's high-impedence bolometers with crosstalk measured at the level of 10$^{-3}$ did not impact CMB polarization science\cite{Planck_Lowell}.  Cross-talk of low-impedence bolometers measured at XXX.
+\planck's high-impedence bolometers with crosstalk measured at the level of 10$^{-3}$ did not impact CMB polarization science\cite{Planck_Lowell}.  Cross-talk of low-impedence bolometers measured at 0.3\%\cite{BICEP2_II}.
 &
 State-of-the-art meets requirements.
 \\
@@ -112,13 +112,13 @@ Time-variation of detector gain due to time variability of detector heat sink te
 & 
 Reconstruction of time variability of gain to 0.2\% in \planck\cite{Planck_Lowell}.
 &
-See Sect.~\ref{sec:gain}; Gain fluctuations in \pico\ on the level of XXX\% on time scales of YYY can be corrected in post-processing.
+See Sect.~\ref{sec:gain}; Gain fluctuations in \pico\ can be calibrated to $<$10$^{-4}$ on time scales of 40 hrs. on the dipole.
 \\
 Pointing jitter\dotfill&
 3&
 Random pointing error mixes T, E and B at small angular scale
 &
-Pointing reconstruction in \planck\ to XXX arcsec.
+Pointing reconstruction in \planck\ to 0.8 and 1.9 arcsec in-scan and cross-scan \cite{planck2016_l}
 &
 State-of-the-art meets requirements.
 \\
@@ -238,7 +238,9 @@ To analyze the impact of calibration uncertainties on PICO, we performed  the fo
 
 The presence of large-scale Galactic emission features can bias the estimation of calibration factors. Ideally, a full data analysis pipeline would pair the calibration step with the component separation step, following a schema similar to Planck/LFI's legacy data processing\cite{Planck2018_II}: the calibration code is followed by a component separation analysis, and these two steps are iterated until the solution converges.
 
-Results of the simulation (neglecting foregrounds) are shown in Fig.~\ref{fig:calibration_spectra}. The scanning strategy employed by PICO allows for a much better calibration than Planck, thanks to the much faster precession.
+Results of the simulation (neglecting foregrounds) are shown as power spectrum residuals in Fig.~\ref{fig:calibration_spectra}. 
+We estimate the gain fluctuations to better than 10$^{-4}$ solving for the gain every 40 hours (4 precession periods).
+The scanning strategy employed by PICO allows for a much better calibration than Planck, thanks to the much faster precession.
 
 \subsubsection{Far Sidelobe Pickup}
 \label{sec:fsl}
