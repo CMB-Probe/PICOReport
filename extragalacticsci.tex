@@ -27,14 +27,14 @@ breadth of science reachable by PICO, even if those goals are not in the STM.
 
 Measurements of the CMB reveal structure imprinted not only at the early time of recombination, but also at nearly every significant ensuing epoch in cosmic history.  In particular the matter between us and the CMB last-scattering surface will deflect the path of CMB photons, a process known as gravitational lensing.  Although the lensing of the CMB is a weak signal, targeted statistical estimators enable its extraction.  The detection of the lensing signal has rapidly progressed, from the first detections in 2007-8 \citep{2007PhRvD..76d3510S, 2008PhRvD..78d3520H} to the recent $40\sigma$ measurement by the {\it Planck} team \cite{2018arXiv180706210P}.  When applied to a rich dataset such as that expected from the PICO satellite, these estimators will provide a map of all the matter in the Universe in projection, with the most sensitivity at redshift $z \simeq 2$ and down to scales of approximately ten arcminutes.  
 
-Forecasts show that the power spectrum of lensing in this map can be detected at approximately 580$\sigma$ or 650$\sigma$ for the requirement or CBE configurations, respectively.  Such high signal to noise measurements represent an order of magnitude improvement over the current state of the art, obtained by the  {\it Planck} team.  Figure \ref{fig:lensingNoisePICO} shows noise curves from the reconstruction of CMB lensing.  
+Forecasts show that the power spectrum of lensing in the PICO CMB map can be detected at approximately 580$\sigma$ or 650$\sigma$ for the requirement or CBE configurations, respectively.  Such high-S/N measurements are more than an order of magnitude improvement over the current state of the art, obtained by the {\it Planck} team.  The legacy value of the PICO CMB lensing map is immense, as has already been seen with {\it Planck}.  It will enable studies of high-redshift structure formation (including the neutrino mass detection described in the previous section), constraints on the properties of quasars and other high-redshift astrophysics, and likely novel probes that have not yet been conceived.  Figure \ref{fig:lensingNoisePICO} shows per-mode noise curves for the reconstruction of CMB lensing from PICO.  
 
 \begin{figure}
 \includegraphics[width=0.8\textwidth]{images/lensingNoisePICO.pdf}
-\caption{\label{fig:lensingNoisePICO} Lensing noise curves for various experimental configuraitons, showing the noise per mode of the reconstructed lensing field.  The  signal curve, the CMB lensing power spectrum is shown in grey; mapping of dark matter is possible at modes  where the noise curves fall below this signal.  Shown in solid are the performance of the $EB$ polarization estimator, including iterated delensing; this estimator performs best on large angular scales.  On smaller angular scales the temperature ($TT$) estimator shows the best performance. The associated signal to noise ratio for the lensing power spectrum is 570 for the 'requirement' configuration and 650 for the 'CBE' configuration.}
+\caption{\label{fig:lensingNoisePICO} Lensing noise curves for various experimental configurations, showing the noise per mode of the reconstructed lensing field.  The  signal curve, i.e., the CMB lensing power spectrum, is shown in grey; mapping of the matter density field is possible on scales where the noise curves fall below this signal.  Shown in solid are the performance of the $EB$ polarization estimator, including iterated delensing; this estimator performs best on large angular scales.  On smaller angular scales the temperature ($TT$) estimator shows the best performance. The associated signal to noise ratio for the lensing power spectrum is 570 for the 'requirement' configuration and 650 for the 'CBE' configuration. \textbf{Update with foreground-cleaned polarization noise curve(s) to demonstrate robustness}}
 \end{figure}
 
-Lensing breaks the highly symmetric configuration of  primordial density fluctuations appearing as $E$ modes on the sky, turning some of these into $B$ modes.  If not accounted for, this effect yields a noise floor on the large-scale $B$ modes that can be measured from the early Universe.  However, maps of $E$ modes and of the lensing field, both of which will be obtained with PICO data, can be used together to create a template for these lensed $B$ modes.  This template can then be subtracted from the measured $B$ modes to obtain improved performance, in a process known as ``delensing'' \citep{2004PhRvD..69d3005S,2012JCAP...06..014S}.  Forecasts show that up to 80\% of the lens-induced $B$ mode power can be removed in the 'requirement' configuration, with this number becoming 85\% for the current best estimate.  
+Lensing breaks the highly symmetric configuration of primordial density fluctuations appearing as $E$ modes on the sky, turning some of these into $B$ modes.  If not accounted for, this effect yields a noise floor on the large-scale $B$ modes that can be measured from the early Universe.  However, maps of $E$ modes and of the lensing field, both of which will be obtained with PICO data, can be used together to create a template for these lensed $B$ modes.  This template can then be subtracted from the measured $B$ modes to obtain improved performance, in a process known as ``delensing'' \citep{2004PhRvD..69d3005S,2012JCAP...06..014S}.  Forecasts show that up to 80\% of the lens-induced $B$ mode power can be removed in the 'requirement' configuration, with this number becoming 85\% for the current best estimate.  
 
 \textbf{To be added:}
 \textbf{- CMB halo lensing forecast (Jim, Jean-Baptiste)}
@@ -43,13 +43,13 @@ Lensing breaks the highly symmetric configuration of  primordial density fluctua
 
 {\bf Physics of Galaxy Formation via the Sunyaev-Zel'dovich (SZ) Effects}
 
-Not all CMB photons propagate through the universe freely, about 6\% of them are Thomson-scattered by free electrons in the intergalactic medium (IGM) and intracluster medium (ICM). These scattering events leave a measurable imprint on CMB temperature fluctuations called secondary anisotropies, and they contain a wealth of information from how structure grows to the thermodynamic history of baryons. A fraction of these photons produce Sunyaev--Zel'dovich effects~\citep{SZ1969,SZ1972}. The thermal SZ effect (tSZ) is the increase in energy of CMB photons due to scattering off hot electrons. This results in a spectral distortion
+Not all CMB photons propagate through the universe freely; about 6\% are Thomson-scattered by free electrons in the intergalactic medium (IGM) and intracluster medium (ICM). These scattering events leave a measurable imprint on CMB temperature fluctuations, and they contain a wealth of information from how structure grows to the thermodynamic history of baryons. A fraction of these photons are responsible for the Sunyaev--Zel'dovich effects~\citep{SZ1969,SZ1972}. The thermal SZ effect (tSZ) is the increase in energy of CMB photons due to scattering off hot electrons. This results in a spectral distortion
 %, proportinal to the electron pressure,
- of the CMB blackbody that corresponds to a decrement in CMB temperature at frequencies below 217 GHz and an increment at frequencies above. The kSZ is the Doppler shift of CMB photons Thomson-scattering off free electrons that have a non-zero peculiar velocity with respect to the CMB rest frame. 
+ of the CMB blackbody that corresponds to a decrement in CMB temperature at frequencies below 217 GHz and an increment at frequencies above. The kSZ effect is the Doppler shift of CMB photons Thomson-scattering off free electrons that have a non-zero peculiar velocity with respect to the CMB rest frame. 
 %This produces small shifts in the CMB temperature proportional to the radial velocity of the object and its optical depth.
-The amplitdue of tSZ and kSZ proportional to the integrated electron pressure (tSZ) and momentum (kSZ) along the line of sight, thus contain information about the thermodynamic properties of the IGM and ICM 
+The amplitudes of the tSZ and kSZ signals are proportional to the integrated electron pressure (tSZ) and momentum (kSZ) along the line of sight, respectively.  They thus contain information about the thermodynamic properties of the IGM and ICM.
 %since their magnitudes are proportional to the integrated electron pressure (tSZ) and momentum (kSZ) along the line of sight.
-The tSZ effect can be used to esemble statisitcs of galaxy clusters, which contain cosmological information as well as provide uniform cluster samples for galaxy formation studies in dense enviroments.
+The tSZ effect can be used to measure ensemble statistics of galaxy clusters, which contain cosmological information, as well as to provide uniform cluster samples for galaxy formation studies in dense enviroments.
 %
 %\item Cosmological parameters from the abundance of tSZ-detected clusters and statistics of component-separated tSZ maps.
 %\item Thermodynamic properties of galaxies, groups, and clusters from combined tSZ and kSZ cross-correlation measurements.
@@ -60,33 +60,21 @@ The tSZ effect can be used to esemble statisitcs of galaxy clusters, which conta
 
 %Through the tSZ PICO will produce a large all sky catalog of 
 
-Galaxy clusters found via the tSZ provides a well defined sample with a simple to model selection function. Sample of clusters such as these are easy to use for cosmological inferences and studies of galaxy evolution in dense environments. 
+Galaxy clusters found via the tSZ  effect provide a well-defined sample with a simple-to-model selection function. Sample of clusters such as these are easy to use for cosmological inferences and studies of galaxy evolution in dense environments. 
 Points to still hit.
 High z sample,
-Numbers,
+Numbers -- Nick and Jim should cross-check,
 most massive cluster all over the whole sky,
 Cosmology.
 
-\begin{itemize}
-\item{Thermal SZ Effect}
-\begin{itemize}
-\item Cluster count forecast
-\item{$y$-map and tSZ auto-power spectrum: figure with signal and NILC noise curve(s) [M. Remazeilles]}
+{\bf Compton-$y$ map and tSZ auto-power spectrum}
+
+Describe NILC reconstrution briefly, mention important legacy value of the y-map (c.f. Planck).  Give an example cross-correlation S/N, probably LSST (compare to Planck).
 
 \begin{figure}
 \includegraphics[width=0.8\textwidth]{images/PICO_tSZ_PS_plot.pdf}
 \caption{\label{fig:PICO_tSZ_PS} Constraints on the tSZ power spectrum from PICO and current data.  The black curve shows the simulated tSZ power spectrum signal.  The light green shaded region shows the error bars for PICO at each multipole, i.e., with no binning, as determined from NILC analysis of full-sky simulations.  The blue points show the current constraints from Planck, which have been averaged into broad multipole bins.  The orange and dark green points show the constraints from ACT and SPT, respectively, at a single multipole of $\ell=3000$.  The overall PICO $S/N = 1270$, nearly two orders of magnitude larger than current measurements.}
 \end{figure}
-
-\item Cross-correlations: forecast S/N with LSST, Euclid, DESI
-\end{itemize}
-\item Kinematic SZ Effect
-\begin{itemize}
-\item Cross-correlations: forecast S/N with LSST, Euclid, DESI
-\item Constraints on ICM models: figure with gas pressure and density profile plots, error bars
-\item Late-time kSZ power spectrum?
-\end{itemize}
-\end{itemize}
 
 
 \end{document}
