@@ -104,6 +104,12 @@ Michael Levi et~al.
 \newblock {The DESI Experiment, a whitepaper for Snowmass 2013}.
 \newblock {\em ArXiv e-prints}, 2013.
 
+\bibitem{errard_feeney_2015}
+J.~{Errard}, S.~M. {Feeney}, H.~V. {Peiris}, and A.~H. {Jaffe}.
+\newblock {Robust forecasts on fundamental physics from the
+  foreground-obscured, gravitationally-lensed CMB polarization}.
+\newblock {\em \jcap}, 3:052, March 2016.
+
 \bibitem{2008PhRvD..78d3520H}
 C.~M. {Hirata}, S.~{Ho}, N.~{Padmanabhan}, U.~{Seljak}, and N.~A. {Bahcall}.
 \newblock {Correlation of CMB with large-scale structure. II. Weak lensing}.
@@ -318,6 +324,34 @@ B.~D. {Metzger}, P.~K.~G. {Williams}, and E.~{Berger}.
 \newblock {Extragalactic Synchrotron Transients in the Era of Wide-field Radio
   Surveys. I. Detection Rates and Light Curve Characteristics}.
 \newblock {\em \apj}, 806:224, June 2015.
+
+\bibitem{Thorne:2016ifb}
+Ben Thorne, Jo~Dunkley, David Alonso, and Sigurd Naess.
+\newblock {The Python Sky Model: software for simulating the Galactic microwave
+  sky}.
+\newblock 2016.
+
+\bibitem{Hensley:2015}
+Brandon Hensley.
+\newblock {\em On the nature of interstellar grains}.
+\newblock PhD thesis, Princeton University, 2015.
+
+\bibitem{Kritsuk:2017}
+A.~G. {Kritsuk}, S.~D. {Ustyugov}, and M.~L. {Norman}.
+\newblock {The structure and statistics of interstellar turbulence}.
+\newblock {\em New Journal of Physics}, 19(6):065003, June 2017.
+
+\bibitem{Martinez:2017}
+G.~{Mart{\'{\i}}nez-Solaeche}, A.~{Karakci}, and J.~{Delabrouille}.
+\newblock {A 3D model of polarized dust emission in the Milky Way}.
+\newblock {\em \mnras}, 476:1310--1330, May 2018.
+
+\bibitem{Vansyngel:2016}
+F.~{Vansyngel}, F.~{Boulanger}, T.~{Ghosh}, B.~{Wandelt}, J.~{Aumont},
+  A.~{Bracco}, F.~{Levrier}, P.~G. {Martin}, and L.~{Montier}.
+\newblock {Statistical simulations of the dust foreground to cosmic microwave
+  background polarization}.
+\newblock {\em \aap}, 603:A62, July 2017.
 
 \bibitem{delabrouille/etal:2013}
 J.~{Delabrouille}, M.~{Betoule}, J.-B. {Melin}, M.-A. {Miville-Desch{\^e}nes},
@@ -604,6 +638,63 @@ P~A~R Planck Collaboration:~Ade, N~Aghanim, C~Armitage-Caplan, M~Arnaud,
 \newblock {Planck 2013 results. VII. HFI time response and beams}.
 \newblock {\em arXiv.org}, pages 1--31, March 2013.
 
+\bibitem{BICEP2_II}
+{BICEP2 Collaboration}, P.~A.~R. {Ade}, R.~W. {Aikin}, M.~{Amiri},
+  D.~{Barkats}, S.~J. {Benton}, C.~A. {Bischoff}, J.~J. {Bock}, J.~A. {Brevik},
+  I.~{Buder}, E.~{Bullock}, G.~{Davis}, P.~K. {Day}, C.~D. {Dowell},
+  L.~{Duband}, J.~P. {Filippini}, S.~{Fliescher}, S.~R. {Golwala},
+  M.~{Halpern}, M.~{Hasselfield}, S.~R. {Hildebrandt}, G.~C. {Hilton}, K.~D.
+  {Irwin}, K.~S. {Karkare}, J.~P. {Kaufman}, B.~G. {Keating}, S.~A.
+  {Kernasovskiy}, J.~M. {Kovac}, C.~L. {Kuo}, E.~M. {Leitch}, N.~{Llombart},
+  M.~{Lueker}, C.~B. {Netterfield}, H.~T. {Nguyen}, R.~{O'Brient}, IV~{Ogburn},
+  R.~W., A.~{Orlando}, C.~{Pryke}, C.~D. {Reintsema}, S.~{Richter},
+  R.~{Schwarz}, C.~D. {Sheehy}, Z.~K. {Staniszewski}, K.~T. {Story}, R.~V.
+  {Sudiwala}, G.~P. {Teply}, J.~E. {Tolan}, A.~D. {Turner}, A.~G. {Vieregg},
+  P.~{Wilson}, C.~L. {Wong}, and K.~W. {Yoon}.
+\newblock {BICEP2. II. Experiment and three-year Data Set}.
+\newblock {\em \apj}, 792:62, September 2014.
+
+\bibitem{planck2016_l}
+{Planck Collaboration}, N.~{Aghanim}, M.~{Ashdown}, J.~{Aumont},
+  C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday}, R.~B. {Barreiro},
+  N.~{Bartolo}, S.~{Basak}, K.~{Benabed}, J.-P. {Bernard}, M.~{Bersanelli},
+  P.~{Bielewicz}, A.~{Bonaldi}, L.~{Bonavera}, J.~R. {Bond}, J.~{Borrill},
+  F.~R. {Bouchet}, F.~{Boulanger}, A.~{Bracco}, C.~{Burigana}, E.~{Calabrese},
+  J.-F. {Cardoso}, H.~C. {Chiang}, L.~P.~L. {Colombo}, C.~{Combet}, B.~{Comis},
+  B.~P. {Crill}, A.~{Curto}, F.~{Cuttaia}, R.~J. {Davis}, P.~{de Bernardis},
+  A.~{de Rosa}, G.~{de Zotti}, J.~{Delabrouille}, J.-M. {Delouis}, E.~{Di
+  Valentino}, C.~{Dickinson}, J.~M. {Diego}, O.~{Dor{\'e}}, M.~{Douspis},
+  A.~{Ducout}, X.~{Dupac}, S.~{Dusini}, G.~{Efstathiou}, F.~{Elsner}, T.~A.
+  {En{\ss}lin}, H.~K. {Eriksen}, E.~{Falgarone}, Y.~{Fantaye}, F.~{Finelli},
+  M.~{Frailis}, A.~A. {Fraisse}, E.~{Franceschi}, A.~{Frolov}, S.~{Galeotta},
+  S.~{Galli}, K.~{Ganga}, R.~T. {G{\'e}nova-Santos}, M.~{Gerbino}, T.~{Ghosh},
+  M.~{Giard}, J.~{Gonz{\'a}lez-Nuevo}, K.~M. {G{\'o}rski}, A.~{Gregorio},
+  A.~{Gruppuso}, J.~E. {Gudmundsson}, F.~K. {Hansen}, G.~{Helou}, D.~{Herranz},
+  E.~{Hivon}, Z.~{Huang}, A.~H. {Jaffe}, W.~C. {Jones}, E.~{Keih{\"a}nen},
+  R.~{Keskitalo}, T.~S. {Kisner}, N.~{Krachmalnicoff}, M.~{Kunz},
+  H.~{Kurki-Suonio}, G.~{Lagache}, A.~{L{\"a}hteenm{\"a}ki}, J.-M. {Lamarre},
+  A.~{Lasenby}, M.~{Lattanzi}, C.~R. {Lawrence}, M.~{Le Jeune}, F.~{Levrier},
+  M.~{Liguori}, P.~B. {Lilje}, M.~{L{\'o}pez-Caniego}, P.~M. {Lubin}, J.~F.
+  {Mac{\'{\i}}as-P{\'e}rez}, G.~{Maggio}, D.~{Maino}, N.~{Mandolesi},
+  A.~{Mangilli}, M.~{Maris}, P.~G. {Martin}, E.~{Mart{\'{\i}}nez-Gonz{\'a}lez},
+  S.~{Matarrese}, N.~{Mauri}, J.~D. {McEwen}, A.~{Melchiorri}, A.~{Mennella},
+  M.~{Migliaccio}, S.~{Mitra}, M.-A. {Miville-Desch{\^e}nes}, D.~{Molinari},
+  A.~{Moneti}, L.~{Montier}, G.~{Morgante}, A.~{Moss}, P.~{Naselsky}, H.~U.
+  {N{\o}rgaard-Nielsen}, C.~A. {Oxborrow}, L.~{Pagano}, D.~{Paoletti},
+  B.~{Partridge}, L.~{Patrizii}, O.~{Perdereau}, L.~{Perotto}, V.~{Pettorino},
+  F.~{Piacentini}, S.~{Plaszczynski}, G.~{Polenta}, J.-L. {Puget}, J.~P.
+  {Rachen}, M.~{Reinecke}, M.~{Remazeilles}, A.~{Renzi}, G.~{Rocha},
+  M.~{Rossetti}, G.~{Roudier}, J.~A. {Rubi{\~n}o-Mart{\'{\i}}n},
+  B.~{Ruiz-Granados}, L.~{Salvati}, M.~{Sandri}, M.~{Savelainen}, D.~{Scott},
+  C.~{Sirignano}, G.~{Sirri}, L.~{Stanco}, A.-S. {Suur-Uski}, J.~A. {Tauber},
+  M.~{Tenti}, L.~{Toffolatti}, M.~{Tomasi}, M.~{Tristram}, T.~{Trombetti},
+  J.~{Valiviita}, J.~{Vansyngel}, F.~{Van Tent}, P.~{Vielva}, B.~D. {Wandelt},
+  I.~K. {Wehus}, A.~{Zacchei}, and A.~{Zonca}.
+\newblock {Planck intermediate results. L. Evidence for spatial variation of
+  the polarized thermal dust spectral energy distribution and implications for
+  CMB $B$-mode analysis}.
+\newblock {\em ArXiv e-prints}, June 2016.
+
 \bibitem{Tauber2010}
 J~A Tauber, H~U N{\o}rgaard-Nielsen, P~A~R Ade, J~Amiri~Parian, T~Banos,
   M~Bersanelli, C~Burigana, A~Chamballu, D~de~Chambure, P~R Christensen,
@@ -628,6 +719,12 @@ Levon Pogosian and Alex Zucca.
 \newblock {Planck 2018 results. VI. Cosmological parameters}.
 \newblock July 2018.
 
+\bibitem{Planck2016_XLIX}
+{Planck collaboration}.
+\newblock {Planck intermediate results. XLIX. Parity-violation constraints from
+  polarization data}.
+\newblock {\em Astronomy and Astrophysics}, 596:A110, December 2016.
+
 \bibitem{Rosset+2010}
 C.~{Rosset}, M.~{Tristram}, N.~{Ponthieu}, P.~{Ade}, J.~{Aumont},
   A.~{Catalano}, L.~{Conversi}, F.~{Couchot}, B.~P. {Crill}, {F.-X.}
@@ -642,10 +739,9 @@ C.~{Rosset}, M.~{Tristram}, N.~{Ponthieu}, P.~{Ade}, J.~{Aumont},
   calibration}.
 \newblock {\em A\&A}, 520:A13+, September 2010.
 
-\bibitem{Planck2016_XLIX}
-{Planck collaboration}.
-\newblock {Planck intermediate results. XLIX. Parity-violation constraints from
-  polarization data}.
-\newblock {\em Astronomy and Astrophysics}, 596:A110, December 2016.
+\bibitem{Planck2018_II}
+{Planck 2018-II}.
+\newblock {Planck 2018 results. II. Low Frequency Instrument data processing}.
+\newblock July 2018.
 
 \end{thebibliography}
