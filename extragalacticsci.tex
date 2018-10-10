@@ -27,20 +27,34 @@ intracluster media.  The reionization and late-time signals are expected to have
 amplitudes~\citep{Shaw2012,MMS2012,Battaglia2013}.  With constraints on the late-time contribution from other 
 information (e.g., cross-correlations), effective small-scale foreground removal, and with the primary CMB $TT$ power 
 spectrum constrained by inference from the $EE$ power spectrum, it is possible to extract reionization constraints from the 
-small-scale kSZ power spectrum~\citep{calabrese/etal/2014}.
+small-scale kSZ power spectrum~\citep{calabrese/etal/2014}. \comor{if pico is not providing kSZ constraints, only S3 does, there 
+is no need to dwell on it at all, I think}
 
 Fig.~\ref{fig:ReionizationPICO} presents forecasts for reionization constraints obtained from PICO's measurement of 
 $\tau$ in combination with ground-based Stage-III (CMB-S3) constraints on the kSZ power spectrum (note that PICO will also 
-provide some large-scale information on the kSZ power spectrum).  Constraints from existing Planck data and observations at 
-other wavelengths are also presented.  The PICO measurement of $\tau$ is essential for breaking degeneracies and a
-llowing simultaneous precise constraints to be placed on both the mean redshift and duration of reionization.
+provide some large-scale information on the kSZ power spectrum). \comor{what does the parenthesis mean?} 
+Constraints from existing Planck data and observations at 
+other wavelengths are also presented.  The PICO measurement of $\tau$ is essential for breaking degeneracies and allowing 
+simultaneous precise constraints to be placed on both the mean redshift and duration of reionization.
+\comor{Figures 3 has lines for `IGM opacity' and `source efficiency' but those are not explained, and not tied to star formation history 
+in the text.}
 
 \begin{figure}
 \includegraphics[width=0.5\textwidth]{images/Reionization_Contours_zbar_delz_PICO_NEW.pdf}
 \caption{\label{fig:ReionizationPICO} Summary of constraints on the mean redshift and duration of reionization. The forecasts show 68\% and 95\% confidence-level contours for PICO combined with CMB-S3 experiments and Planck combined with CMB-S3 experiments (dark blue and dashed blue, respectively). The solid black lines illustrate how the IGM opacity and source efficiency model parameters map onto this parameter space. The forecasted PICO constraints are compared to: current exclusion limits for the mean redshift of reionization from Planck, shown by the yellow bands \citealp{planck2018:parameters}; recent exclusion limits from the global 21 cm signal measured by EDGES, shown with the red band \citealp{edges2017}; exclusion limits from measurements of the Gunn-Peterson trough from fully absorbed Lyman$\alpha$ in quasar spectra, shown by the grey band \citealp{Fan2006}; exclusion limit on the duration of reionization from Planck and SPT data, shown by the green band \citealp{planck_reio:2016}.}
 \end{figure}
 
-In addition to these signals, reionization also leaves specific non-Gaussian signatures in the CMB.  In particular, patchy reionization induces non-trivial 4-point functions in both temperature~\citep{SmithFerraro2017} and polarization~\citep{DvorkinSmith2008}.  The temperature 4-point function can be used to separate reionization and late-time kSZ contributions.  Combinations of temperature and polarization data can be used to build quadratic estimators for reconstruction of the patchy $\tau$ field, analogous to CMB lensing reconstruction.  These estimators generally require high angular resolution, but also rely on foreground-cleaned CMB maps.  Thus, while PICO alone may not enable high S/N reconstructions, its high-frequency channels --- which have better than 2 arcmin resolution and observe at frequencies that have yet to be demonstrated from the ground --- will enable these estimators to be robustly applied to ground-based CMB data sets, a strong example of ground-space complementarity.
+In addition to these signals, reionization also leaves specific non-Gaussian signatures in the CMB.  In particular, patchy reionization 
+induces non-trivial 4-point functions in both temperature~\citep{SmithFerraro2017} and polarization~\citep{DvorkinSmith2008}.  The 
+temperature 4-point function can be used to separate reionization and late-time kSZ contributions.  Combinations of temperature and 
+polarization data can be used to build quadratic estimators for reconstruction of the patchy $\tau$ field, analogous to CMB lensing 
+reconstruction.  These estimators generally require high angular resolution, but also rely on foreground-cleaned CMB maps.  Thus, 
+while PICO alone may not enable high S/N reconstructions, its high-frequency channels --- which have better than 2 arcmin 
+resolution and observe at frequencies that have yet to be demonstrated from the ground --- will enable these estimators to be 
+robustly applied to ground-based CMB data sets, a strong example of ground-space complementarity.
+\comor{if pico is complementarity by {\it only} providing foreground maps at sufficiently high resolution, I think we should move 
+this to the 'complementarity'. It is not a direct science goal or outcome.}
+
 % JCH: I checked the Smith-Ferraro 4-pt estimator, and PICO does not have sufficient resolution to do this (see Fig. 3 of https://arxiv.org/pdf/1803.07036.pdf )
 
 The Sections below need to be rearranged to match other Science Objective(s) from the STM, but to also relay the 
