@@ -20,7 +20,51 @@
 \usepackage{subfiles}
 \usepackage[small,compact]{titlesec}
 \usepackage[font=small]{caption}
+\usepackage{multirow}
+\usepackage{afterpage}
 
+% Letter-size paper
+
+\newlength{\pagewidthA}
+\newlength{\pageheightA}
+\setlength{\pagewidthA}{8.5in}
+\setlength{\pageheightA}{11in}
+
+% Double-page paper
+
+\newlength{\pagewidthB}
+\newlength{\pageheightB}
+\setlength{\pagewidthB}{17in}
+\setlength{\pageheightB}{11in}
+
+\newlength{\stockwidth}
+\newlength{\stockheight}
+
+\usepackage{geometry}
+\newcommand{\generatePageLayouts}{%
+  \newgeometry{layoutwidth=\pagewidthA,layoutheight=\pageheightA, left=1in,right=1in,top=1in,bottom=1in} 
+  \savegeometry{LayoutPageA}
+
+  \newgeometry{layoutwidth=\pagewidthB,layoutheight=\pageheightB, left=1in,right=1in,top=1in,bottom=1in}
+  \savegeometry{LayoutPageB}
+}
+
+
+\newcommand{\switchToLayoutPageA}{%
+  % switch page size first:
+  \pdfpagewidth=\pagewidthA \pdfpageheight=\pageheightA % for PDF output
+  \paperwidth=\pagewidthA \paperheight=\pageheightA     % for TikZ
+  \stockwidth=\pagewidthA \stockheight=\pageheightA % hyperref (memoir)?!
+  \loadgeometry{LayoutPageA} % note; \loadgeometry may reset paperwidth/h!
+}
+
+\newcommand{\switchToLayoutPageB}{%
+  % switch page size first:
+  \pdfpagewidth=\pagewidthB \pdfpageheight=\pageheightB % for PDF output
+  \paperwidth=\pagewidthB \paperheight=\pageheightB     % for TikZ
+  \stockwidth=\pagewidthB \stockheight=\pageheightB % hyperref (memoir)?!
+  \loadgeometry{LayoutPageB} % note; \loadgeometry may reset paperwidth/h!
+}
 
 % define formatting
 %\pagestyle{empty}
@@ -45,11 +89,15 @@
 
 \begin{document}
 
+% generate page layouts first based on layoutwidth as page size;
+  % don't switch actual page sizes yet:
+  \generatePageLayouts{}
+
 \bibliographystyle{unsrt}
 
 \setlength{\baselineskip}{0.96\baselineskip} %% measured, 5.0 lines/inch.  Can go to 0.96\baselineskip
 \setlength{\parskip}{1.\parskip}
-
+ \switchToLayoutPageA{}
 
 %\tableofcontents
 
@@ -107,8 +155,22 @@
 
 %\vspace{-0.05in}
 
+The Science Traceability Matrix can be found in Table~\ref{tab:STM}.
+
 %  The PICO Science Traceability Matrix (2pg, Hanany\&Trangsrud) will be inserted around here.  It is an 11x17 foldout, so it counts as 2 pages, which leaves 15.5 to all the rest in 2.2. Currently allocating 15 pages.  
-    
+
+% [TJP] ------------------------
+% [TJP] The Science Traceability Matrix goes here. The table is in stm.tex, but the following LaTeX invocation makes it appear on a double-wide page
+\afterpage{%
+  % switch to LayoutPageB (includes switching page size)
+  \switchToLayoutPageB{}
+    \input stm.tex
+   \clearpage
+% start with LayoutPageA (includes switching page size)
+\switchToLayoutPageA{}
+}
+% [TJP] end --------------------
+
 %    \vspace{12pt}
 %     FOR EACH OF THE BELOW SUBSECTIONS:
 %    \begin{itemize}
