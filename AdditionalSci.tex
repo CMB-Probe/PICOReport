@@ -66,12 +66,6 @@
 \bibliographystyle{unsrt}
 
 
-
-
-
-
-\def\mission{CMB Probe\ }
-
 %% %simple case: 2 authors, same institution
 %% \author{A. Uthor}
 %% \author{and A. Nother Author}
@@ -83,87 +77,45 @@
 \begin{figure*}
 %\vskip-3cm
 \begin{center}
-\includegraphics[width=0.48\columnwidth, trim={0 0 0 0cm}, clip]{fig_SED3_PICO.jpg}
-\includegraphics[width=0.48\columnwidth, height=5.5truecm, trim={0 0 0 0cm}, clip]{NgtF_500micron.png}
-\caption{\textbf{Left panel.} Examples of SEDs of extragalactic sources detectable by PICO, compared with its point source detection limits (solid black line). The SED of M\,61 has been scaled down by a factor of 10. The 90\% completeness limits of the Second \textit{Planck} Catalogue of Compact Sources (PCCS2; \cite{PCCS2}) are also shown.  \textbf{Right panel.} Integral counts of the various populations of extragalactic sources at $500\,\mu$m as determined by \textit{Herschel} surveys. The vertical red line shows the estimated PICO detection limit.}
+\includegraphics[width=0.43\columnwidth, trim={0 0 0 0cm}, clip]{fig_SED_PICO.jpg}
+\includegraphics[width=0.50\columnwidth, height=5.5truecm, trim={0 0 0 0cm}, clip]{NgtF_pico_new.jpg}
+\vskip-0.3cm
+\caption{\textbf{Left panel.} Examples of spectral energy distributions (SEDs) of dusty star-forming galaxies detectable by PICO, compared with its point source detection limits (broken black line) and with the \textit{Planck} 90\% completeness limits (broken red line; \cite{PCCS2}). PICO will detect nearby galaxies, like M\,61, whose SED was scaled down by a factor of 10, and high-$z$ redshift strongly lensed galaxies, like SMM\,J2133-0102  at $z=2.3$ \cite{Swinbank2010} and HLSJ$091828.6+514223$ at $z=5.2$ \cite{Combes2012}. The dashed  lines show the SEDs of the two galaxies corrected for the lensing magnification.  \textbf{Right panel.} Integral counts at $500\,\mu$m (600\,GHz). The solid black line and the orange band show counts of unlensed and strongly lensed star-forming galaxies, respectively, based on fits of \textit{Herschel} counts. Above the PICO detection limit (vertical red line) the counts of unlensed galaxies have an Euclidean slope, indicative of low $z$. The yellow square on the bottom right shows the \textit{Planck} count of strongly lensed galaxies, while their \textit{Herschel} counts \cite{Negrello2017lensed} are shown in the inset. The solid blue line shows the counts of proto-clusters of galaxies yielded by the model of ref.~\cite{Negrello2017protocl}.}
 \label{fig:SED3}
 \end{center}
 \end{figure*}
 
-\subsection{Point extragalactic sources in the PICO frequency range}
+\subsection{Early phases of galaxy evolution}
 
-As illustrated by the left panel of Fig.\,\ref{fig:SED3}, at $\lambda \simgt \hbox{few\, mm}$ the dominant extragalactic population are blazars (flat-spectrum radio quasars, FSRQs, and BL Lacs), typically at $z\simgt 1$; the solid blue line shows an example. At shorter wavelengths dusty galaxies take over. The brightest sources in this spectral range are nearby  star-forming galaxies like M\,61. PICO will also see the brightest high-$z$ sub-mm sources which, due to the ``magnification bias'', are those whose flux density is boosted by strong gravitational lensing.
+PICO will have a crucial role in providing answers to major, still open issues on galaxy formation and evolution: which are the main physical mechanisms shaping the galaxy properties (see, e.g., ref.~\cite{SilkMamon2012, SomervilleDave2015}): in situ processes? interactions? mergers? cold flows  from the intergalactic medium? How feedback processes work? To settle these issues we need direct information on the structure and the dynamics of high-$z$ galaxies. But these are compact, with typical sizes of 1--2\,kpc (e.g., ref.~\cite{Fujimoto2018}), corresponding to angular sizes of 0.1--0.2 arcsec at $z\simeq 2$--3. Thus they are hardly resolved even by ALMA and by the HST. If they are resolved, high enough S/N ratios per resolution element are achieved only for the brightest galaxies, probably not representative of the general population.
 
-\textit{Herschel} surveys have shown that, at $500\,\mu$m (600\,GHz), about 25\% of galaxies at the PICO detection limit are strongly lensed (right panel of Fig.\,\ref{fig:SED3}). This is an extraordinary selection efficiency: for   comparison, the fraction of strongly lensed galaxies is of $\sim 10^{-3}$ in all other frequency bands where searches have been carried out. Also, these galaxies have sub-mm colors substantially different from those of the other extragalactic populations and are therefore very easily singled out \cite{Negrello2017lensed}.
+Strong gravitational lensing provides a solution to these problems. PICO will detect galaxies whose flux densities are boosted by large factors (right panel of Fig.~\ref{fig:SED3}). Since lensing conserves the surface brightness, the effective angular size is stretched on average by a factor $\mu^{1/2}$, where $\mu$ is the gravitational magnification, thus substantially increasing the resolving power. A spectacular example are ALMA observations of the strongly lensed galaxy PLCK\_G244.8\-+54.9 at $z \simeq 3.0$  with $\mu \simeq 30$ \cite{Canameras2017ALMA}. ALMA observation with a $0.1''$ resolution reached the astounding spatial resolution of $\simeq 60\,$pc, substantially smaller than the size of Galactic giant molecular clouds. Other high-$z$ galaxies spatially resolved thanks to gravitational lensing, with less extreme magnifications, are reported by refs.~\cite{Dye2018, Lamarche2018, Sharda2018}.
 
-PICO will detect several thousands strongly lensed galaxies. Objects like the $z=5.2$ source HLSJ$091828.6+514223$ (left panel of Fig.\,\ref{fig:SED3}; \cite{Combes2012}) would be detectable by PICO up to extreme redshifts ($z>10$).
+Ca\~{n}ameras et al. \cite{Canameras2017ALMA} have also obtained CO spectroscopy, measuring the kinematics of the molecular gas with an uncertainty of 40--50 km/s. This spectral resolution makes possible a direct investigation of massive outflows driven by AGN feedback at high $z$. In this way ref.~\cite{Spilker2018} were able to detect a fast (800 km/s) molecular outflow due to feedback in a strongly lensed galaxy at $z=5.3$. The outflow carries mass at a rate close to the SFR and can thus remove a large fraction of the gas available for star-formation.
 
-The availability of thousands of strongly lensed galaxies opens exciting prospects both on the astrophysical and on the cosmological side (cf., e.g., ref. \cite{Treu2010}). Compared to searches in other wavebands, PICO detections will extend to much higher redshift sources \cite[most optically-selected strongly lensed galaxies are at $z<1$, cf. Fig.\,7 of ref. ][]{Treu2010} and will pick up the rare most extreme amplifications, thanks to its all sky coverage: the magnification factors, $\mu$, of ``\textit{Planck} dusty GEMS'' are estimated to be of up to 50 \cite{Canameras2015}.
+\textit{Herschel} surveys have demonstrated that, at the PICO detection limit at $\simeq 500\,\mu$m (600\,GHz), about 25\% of all detected extragalactic sources are strongly lensed; for comparison, at optical/near-IR and radio wavelengths, were intensive searches have been carried out for many years, the yield is of only 0.1\%, i.e. more than two orders of magnitude lower \cite{Treu2010}. To add to the extraordinary sub-mm bonanza, the selection of strongly lensed galaxies detected by sub-mm surveys is extremely easy because of their peculiar sub-mm colors (cf. the left panel of Fig.~\ref{fig:SED3}), resulting in a selection efficiency close to 100\% \cite{Negrello2010}.
 
-Sub-mm lensing allows us to probe the most active star-formation phases, hardly visible in the optical. The gravitational flux boosting is accompanied by a stretching of images. Thus follow-up  with ALMA can achieve an effective resolution of several milli-arcsec, i.e. can measure galactic structures at $z\simeq 3$ down to the astounding level of $\sim 50-60\,$pc, much smaller than the sizes of Galactic giant molecular clouds \cite{Canameras2017ALMA}. This provides unique direct information on the mechanisms driving the star-formation  and on the shapes, sizes and surface brightnesses of star-formation regions.
+A straightforward extrapolation of the \textit{Herschel} counts to the much larger area covered by PICO shows that its surveys will yield $\sim 4,500$ strongly lensed galaxies with a redshift distribution peaking at $2\simlt z \simlt 3$ \cite{Negrello2017lensed} but extending up to $z> 5$ (left panel of Fig.~\ref{fig:SED3}). If objects like the $z=5.2$ strongly lensed galaxy HLSJ$091828.6+514223$ exist at higher redshifts, they will be detectable by PICO up to $z>10$.
 
-The detection of several thousands of galaxies at redshifts $\simgt 1$ and up to $z>5$ allows a substantial progress towards a complete census of the dust-enshrouded star-formation history of the universe, i.e. towards tracking the buildup of stellar mass over cosmic time, in particular over epochs of most intense star formation.
-
-The high redshifts of magnified galaxies imply high redshifts of  foreground lenses. Optical follow-up will allow us to investigate the total (visible and dark) mass of the lensing galaxies, their density profiles, dark matter sub-structures in a much higher redshift range than in the case of optical selection \cite{Canameras2017lens}.
-
-Also PICO will explore essentially the entire Hubble volume for the most intense hyperluminous starbursts, testing whether there are physical limits to the star-formation rates of galaxies.
-
-The right panel of Fig.\,\ref{fig:SED3} also shows that PICO will detect tens of thousands star forming galaxies in the nearby universe, reaching a surface density about a factor of two higher than that of the IRAS satellite at its $60\,\mu$m completeness limit \cite{RowanRobinson1991}. The IRAS
-wavebands  are relatively insensitive to low temperature dust emission,
-a significant and largely unexplored component of many nearby galaxies \cite{Planck2011nearby_gal}. PICO will provide a full characterization of this component, complementing IRAS data to establish well calibrated dust SEDs as a function of galaxy morphology, luminosity, dust and gas mass, etc..
-
-
-\begin{figure*}
-%\vskip-6cm
-\begin{center}
-\includegraphics[width=0.32\columnwidth, trim={0 0 0 0cm}, clip]{fig_protocl_PICO}
-\includegraphics[width=0.32\columnwidth, height=3.7truecm, trim={0 0 0 0.cm}, clip]{Oteo_2018_protocl.jpg}
-\includegraphics[width=0.32\columnwidth, height=3.7truecm, trim={0 0 0 0.cm}, clip]{NgtFclumps_800GHz.png}
-%\includegraphics[width=0.48\columnwidth, trim={0 0 0 0.cm}, clip]{dNdzclumps_600GHz.jpg}
-\caption{\textbf{Left panel.} SEDs of the cores of two proto-clusters of starbursting galaxies  discovered by \cite{Ivison2013} at $z=2.41$, by \cite{Wang2016} at $z=2.506$ and by \cite{Oteo2018} at $z=4.0$. The first two SEDs include only the contributions of proto-cluster members within $10''$, i.e. over an angular size below the PICO resolution, corresponding to physical radii $\simeq 80\,$kpc, substantially smaller than the effective proto-cluster sizes. The reported flux densities are therefore lower limits to those that will be measured by PICO. The SED of the $z=4.0$ proto-cluster correspond to a SFR of $6500\,M_\odot\,\hbox{yr}^{-1}$, estimated by \cite{Oteo2018} summing the contributions of galaxies detected by ALMA within a radius of $\simeq 25''$; again this is likely a lower limit to what PICO will measure. The solid black line shows the PICO detection limits. \textbf{Central panel.} ALMA image of the $z=4.0$ proto-cluster discovered by \cite{Oteo2018}, extracted from Fig.~1 of their paper. \textbf{Left panel.} Counts of proto-clusters at 800\,GHz predicted by the  model of ref. \cite{Negrello2017protocl}. The vertical red line corresponds to the PICO detection limit.
-%\textbf{Lower right panel.} Predicted redshift distribution of proto-clusters above the PICO detection limit at 800\,GHz.
-}
-\label{fig:protocluster}
-\end{center}
-\end{figure*}
-
+An intensive high spectral and spatial resolution follow up campaign of such a large sample will be challenging but also extremely rewarding since, as discussed above, it will allow a giant leap forward towards the understanding of the processes driving the early galaxy evolution, in addition to opening many other exciting prospects both on the astrophysical and on the cosmological side (cf., e.g., ref. \cite{Treu2010}). The PICO all-sky surveys will select the brightest objects in the sky, maximizing the efficiency of the effort.
 
 \subsection{Early phases of cluster evolution}
 
-PICO will open a new window for the investigation of early phases of cluster evolution, when their member galaxies were actively star forming and before the hot IGM was in place. In this phase traditional approaches to cluster detection (X-ray and SZ surveys, searches for galaxy red sequences) work only for the minority of evolved objects; indeed they have yielded only a handful of confirmed proto-clusters at $z\simgt 1.5$ \cite{Overzier2016}\footnote{More high-$z$ proto-clusters have been found targeting the environment of tracers of very massive halos, such as radio-galaxies, QSOs, sub-mm galaxies. These searches are however obviously biased.}.
+PICO will open a new window for the investigation of early phases of cluster evolution, when their member galaxies were actively star forming but the hot IGM was not necessarily in place. In this phase, traditional approaches to cluster detection (X-ray and SZ surveys, searches for galaxy red sequences) work only for the more evolved objects; indeed these methods have yielded only a handful of confirmed proto-clusters at $z\simgt 1.5$ \cite{Overzier2016}\footnote{More high-$z$ proto-clusters have been found targeting the environment of tracers of very massive halos, such as radio-galaxies, QSOs, sub-mm galaxies. These searches are however obviously biased.}.
+\textit{Planck} has demonstrated the power of low-resolution surveys for the study of large-scale structure  \cite{Planck2016high_z} but its resolution was too poor to detect individual proto-clusters \cite{Negrello2017protocl}.  Studies of the high-$z$ 2-point correlation function \cite{Chen2016, Negrello2017protocl} and \textit{Herschel} images of the few sub-mm bright protoclusters detected so far, at $z$ of up to 4 \cite{Ivison2013, Wang2016, Oteo2018}, all of which will be detected by PICO, indicate sizes of $\simeq 1'$ for the cluster cores, nicely matching the PICO FWHM at the highest frequencies.
 
-SEDs of spectroscopically confirmed sub-mm-bright proto-clusters detectable by PICO are shown in the left panel of Fig.~\ref{fig:protocluster}). \textit{Planck} has demonstrated the power of low-resolution surveys for the study of large-scale structure  \cite{Planck2016high_z} but its resolution was too poor to detect individual proto-clusters \cite{Negrello2017protocl}.
-As illustrated by the central panel of Fig.~\ref{fig:protocluster}, the typical sizes of high-$z$ proto-cluster cores are of $\sim 1'$ (cf. also ref. \cite{Alberts2014}), nicely matching the PICO FWHM at the highest frequencies.
+PICO will detect many tens of thousands of these objects (blue line in the right-hand panel of Fig.~\ref{fig:SED3}) as peaks in its sub-mm maps, in addition to the evolved ones, detected by the SZ effect. This will constitute a real breakthrough in the observational validation of the formation history of the most massive dark matter halos, traced by clusters, a crucial test of models for structure formation. Follow-up observations will characterize the properties of member galaxies, probing the galaxy evolution in dense environments and shedding light on the complex physical processes driving it.
 
-CMB Probe will detect many tens of thousands of these objects (right-hand panel of Fig.~\ref{fig:protocluster}) up to $z\simgt 4$ (left panel). This will allow a real breakthrough in the observational validation of the formation history of the most massive dark matter halos, traced by clusters, a crucial test of models for structure formation. Follow-up observations will characterize the properties of member galaxies, probing the galaxy evolution in dense environments and shedding light on the complex physical processes driving it.
+\subsection{Additional products of PICO surveys}
 
-\subsection{Radio sources}
+PICO will also yield a complete census of cold dust, available to sustain star formation in the nearby universe, by detecting tens of thousands galaxies mostly at $z\simlt 0.1$. Its statistics will allow us to investigate the distribution of such dust as a function of galaxy properties (morphology, stellar mass, etc.).
 
-PICO will increase by orders of magnitude the number of blazars selected at sub-mm wavelengths and will determine the SEDs of many hundreds of them up to 800\,GHz. The most luminous high-$z$ FSRQs were found to host black holes (BHs) with the largest masses, up to $\sim 4\times 10^{10}\,M_\odot$ (S$5\,0014+813$, at  $z = 3.366$; see ref. \cite{Ghisellini2009}). Such objects have particularly hard mm-wave spectra; thus PICO surveys are well suited to detect them. Objects like S$5\,0014+813$ are detectable by PICO up to $z>5$.
+Moreover, PICO will increase by orders of magnitude the number of blazars selected at sub-mm wavelengths and will determine the SEDs of many hundreds of them up to 800\,GHz and up to $z> 5$. Blazar searches are the most effective way to sample the most massive BHs at high $z$ because of the Doppler boosting of their flux densities. Its surveys of the largely unexplored mm/sub-mm spectral region will also offer the possibility to discover new transient sources \cite{Metzger2015} or events, such as blazar outbursts.
 
-Blazar searches are the most effective way to sample the most massive BHs at high $z$ because of the Doppler boosting of their flux densities. Since the flux boosting occurs for jets closely aligned with the line of sight ($\theta < 1/\Gamma$, $\Gamma \sim 15$ being the bulk Lorentz factor), for each FSRQ there are other $2\Gamma^2$  (i.e. hundreds) sources of similar intrinsic properties but pointing elsewhere.
-
-Very large BH masses at high-$z$ challenge models because it is very hard to grow a seed BH from stellar mass to $> 10^9\,M_\odot$ in the limited age of the universe. It is even more so for jetted quasars because jets are likely associated with rapidly spinning BHs whose radiative efficiency is large so that the mass growth is slow. Yet at least 4 FSRQs has been discovered at $z>5$ (up to $z=5.48$; \cite{Romani2004}). One (SDSS J$013127.34–032100.1$ at $z = 5.18$) has estimated BH mass of $\sim 10^{10}\,M_\odot$ \cite{Ghisellini2015}.
-
-The PICO surveys of the largely unexplored mm/sub-mm spectral region will also offer the possibility to discover new transient sources \cite{Metzger2015} or events, such as blazar outbursts.
-
-%\begin{figure}
-%\vskip-3cm
-%\includegraphics[width=\columnwidth]{./COrE_pol_detections_both.png}
-%\caption{Comparison of the estimated source number counts in polarization for a selection of CORE channels and different source populations: radio sources (solid blue line); and two populations of dusty galaxies (proto-spheroids and late-type, spiral and starburst, galaxies). Proto-spheroids, labelled ``High-z IR'' (solid green line) dominate at faint flux densities while late-types  (LT IR, solid red lines) dominate at the brighter flux densities. The vertical lines show the $4\sigma$ and  $5\sigma$ detection limits obtained from the simulations for the 1-m ({dashed}) and 1.5-m ({solid}) telescope. From \citet{DeZotti2016}.}
-%\label{fig:both}
-%\end{figure}
-
-\subsection{Source polarization}
-
-PICO will make a giant leap forward in the determination of
+PICO will also make a giant leap forward in the determination of
 polarization properties of both radio sources and of dusty galaxies over a
 frequency range where ground based surveys are impractical or impossible.
-Thanks to its high sensitivity, it will detect in polarization both populations over a substantial flux density range, determining directly, for the first time, number counts in polarized flux density.
-
-Mm/sub-mm polarimetry of radio sources provides unique information on the magnetic field configuration (geometry and degree of order) in the innermost, unresolved regions of the jets, close to the active nucleus. Polarimetry of dusty galaxies as a function of their inclination is informative on the structure and on the ordering of their large-scale magnetic fields.
-
-
+Thanks to its high sensitivity, it will detect in polarization both populations over a substantial flux density range, determining directly, for the first time, number counts in polarized flux density and allowing an accurate correction for their contamination of CMB maps.
 
 \newpage
 
