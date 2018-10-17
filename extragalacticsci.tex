@@ -9,31 +9,56 @@ The reionization of the Universe, which according to current measurements takes 
 years~\citep{planckreion}, imprints multiple signals in the temperature and polarization of the CMB.  In polarization, the most 
 important signal is an enhancement of power in the E-mode spectrum at large angular scales $\ell \simlt 20$. 
 %scale $E$-mode power sourced by the scattering of the temperature quadrupole during this epoch.  
-This signal gives a direct measurement of the optical depth to the reionization epoch, $\tau$, with very little degeneracy with other 
-cosmological parameters.  In contrast, inference of $\tau$ from the $TT$ power spectrum is hindered by its direct degeneracy with the scalar fluctuation amplitude.  In fact, the detailed shape of the low-$\ell$ $E$-mode power spectrum is sensitive to the reionization history itself (i.e., $d\tau/dz$), and can provide information beyond that captured in $\tau$ alone.  For example, it has been argued that \planck data show evidence for an extended tail of reionization out to $z \approx 15$-$20$~\cite{Miranda2017}.  A cosmic-variance-limited measurement of the large-scale $E$ modes, as obtained by PICO, will settle this question.  The measurement of $\tau$ constrains the mean redshift of reionization, $z_{re}$ (i.e., when $50$\% of the cosmic volume was reionized), which depends sensitively on the nature of the ionizing sources.  For example, it is currently unknown whether star-forming galaxies or more exotic sources (e.g., supermassive black holes) drove the reionization process.  The PICO constraint on $\tau$ is converted to a constraint on $z_{re}$ in Fig.~\ref{fig:ReionizationPICO}, which is further discussed below.  %\comor{not sure about the comment in the parenthesis. $\tau$ is in the STM to 'distinguish between models that describe the formation of the earliest stars' , but that aspect is not highlighted here ...(??). the paragraph also doesn't reference Figure 3, should it?} 
+This signal gives a direct measurement of the optical depth to the reionization epoch $\tau$, and thus to the 
+mean redshift of reionization $Z_{re}$, with very little degeneracy with other cosmological parameters; see Figure~\ref{fig:ReionizationPICO}. 
+%In contrast, inference of $\tau$ from the $TT$ power spectrum is hindered by its direct degeneracy with the scalar fluctuation amplitude.  
+The mean redshift of reionization $Z_{re}$ (when $50$\% of the cosmic volume was reionized) depends sensitively 
+on the nature of the ionizing sources.  For example, it is currently unknown whether star-forming galaxies or more exotic 
+sources such as supermassive black holes drove the reionization process.  \comor{is this THE question, or are there other 
+examples? Would the answer change $Z_{re}$?}
+%The PICO constraint on $\tau$ is converted to a constraint on $z_{re}$ in Fig.~\ref{fig:ReionizationPICO}, which is further discussed below.
+Furthermore, the detailed shape of the low-$\ell$ $E$-mode power spectrum is sensitive to the reionization history 
+itself (i.e., $d\tau/dz$), and will provide information beyond that captured in $\tau$ alone.  For example, it has been 
+argued that \planck data show evidence for an extended tail of reionization out to $z \approx 15$-$20$~\cite{Miranda2017}.  
+A cosmic-variance-limited measurement of the large-scale $E$ modes, as obtained by PICO, will settle this question.  
+%The measurement of $\tau$ constrains the mean redshift of reionization, $z_{re}$ (i.e., when $50$\% of the cosmic volume was reionized), which depends sensitively on the nature of the ionizing sources.  For example, it is currently unknown whether star-forming galaxies or more exotic sources (e.g., supermassive black holes) drove the reionization process.  The PICO constraint on $\tau$ is converted to a constraint on $z_{re}$ in Fig.~\ref{fig:ReionizationPICO}, which is further discussed below.  %\comor{not sure about the comment in the parenthesis. $\tau$ is in the STM to 'distinguish between models that describe the formation of the earliest stars' , but that aspect is not highlighted here ...(??). the paragraph also doesn't reference Figure 3, should it?} 
  
-Large-scale $EE$ power spectrum measurements are a unique and crucial observable for many aspects of cosmology.  
+Large-scale $EE$ power spectrum measurements are a unique and crucial observable for many aspects of cosmology \comor{which many}.  
 If measurements of $\tau$ are not improved beyond the current uncertainties from {\em Planck}, inference of several new signals 
-of cosmological physics (e.g., neutrino mass) will be severely hindered.  PICO is the ideal experiment to make this measurement.  
+of cosmological physics (e.g., neutrino mass) will be severely hindered \comor{which other new signals}.  
+PICO is the ideal experiment to make this measurement.  
 Its noise level and frequency coverage permit a cosmic-variance-limited constraint on $\tau$, i.e., $\sigma(\tau) \approx 0.002$, which we have verified with explicit forecasts including foregrounds. 
 % We verify this expectation via an explicit forecast following the methodology described in~\citet{errard_feeney_2015}, assuming PICO measurements of the $TT$, $TE$, $EE$, $BB$, and $\phi\phi$ power spectra, with the latter inferred via the iterative $EB$ estimator.  The polarized dust and synchrotron levels match those measured by {\em Planck}~\citep{PlanckFG2015}, including spatial variations, and are cleaned using a parametric maximum-likelihood approach.  Fitting a $\Lambda$CDM$+r$ model, for both the PICO ``requirements'' and ``CBE'' configurations, we find $\sigma(\tau) = 0.002$.  With the exquisite control of systematics needed for the much smaller primordial $BB$ signal, these are not a concern for $EE$ (and hence $\tau$).
 
-In temperature, the most important small-scale imprint of reionization is that sourced by the ``patchy'' kinematic Sunyaev-Zel'dovich (kSZ) effect, due to the peculiar velocities of free electron bubbles around ionizing sources (e.g., galaxies or quasars).  The total kSZ power spectrum receives contributions from both the patchy reionization signal and ``late-time'' sources, e.g., the intergalactic and 
+In temperature, the most important imprint of reionization is that sourced at small angular scales by the ``patchy'' kinematic 
+Sunyaev-Zel'dovich (kSZ) effect, due to the peculiar velocities of free electron bubbles around ionizing sources (e.g., galaxies or quasars).  
+The total kSZ power spectrum receives contributions from both the patchy reionization signal and ``late-time'' sources, e.g., the intergalactic and 
 intracluster media.  The reionization and late-time signals are expected to have comparable 
 amplitudes~\citep{Shaw2012,MMS2012,Battaglia2013}.  With constraints on the late-time contribution from other 
 information (e.g., cross-correlations), effective small-scale foreground removal, and with the primary CMB $TT$ power 
 spectrum constrained by inference from the $EE$ power spectrum, it is possible to extract reionization constraints from the 
-small-scale kSZ power spectrum~\citep{calabrese/etal/2014}.  The most directly constrained quantity is the duration of reionization, $\Delta z_{re}$. \comor{if pico is not providing kSZ constraints, only S3 does, there 
+small-scale kSZ power spectrum~\citep{calabrese/etal/2014}.  The most directly constrained quantity is the duration of 
+reionization, $\Delta z_{re}$. \comor{if pico is not providing kSZ constraints, only S3 does, there 
 is no need to dwell on it at all, I think.  Nick, can you condense this?}
 
-Fig.~\ref{fig:ReionizationPICO} presents forecasts for reionization constraints in the $z_{re}$-$\Delta z_{re}$ parameter space obtained from PICO's measurement of $\tau$ in combination with ground-based Stage-III (CMB-S3) constraints on the kSZ power spectrum.  Constraints from existing Planck data and observations at other wavelengths are also presented.  The PICO measurement of $\tau$ is essential for breaking degeneracies and allowing simultaneous, precise constraints to be placed on both the mean redshift and duration of reionization.  Fig.~\ref{fig:ReionizationPICO} also shows curves of constant source efficiency (i.e., the efficiency of ionizing photon production) and constant intergalactic medium opacity (i.e., the photon mean free path).  PICO will allow simultaneous constraints to be placed on these physical parameters, yielding important information on the nature of the first luminous sources (e.g., star-forming galaxies or quasars predict significantly different values for these parameters).
-%\comor{Figures 3 has lines for `IGM opacity' and `source efficiency' but those are not explained, and not tied to star formation history in the text.}
+Fig.~\ref{fig:ReionizationPICO} presents forecasts for reionization constraints in the $z_{re}$-$\Delta z_{re}$ parameter space obtained 
+from PICO's measurement of $\tau$ in combination with ground-based Stage-III (CMB-S3) constraints on the kSZ power spectrum.  
+Constraints from existing Planck data and observations at other wavelengths are also presented.  The PICO measurement of $\tau$ 
+is essential for breaking degeneracies \comor{does not appear to be borne out by the figure} and allowing simultaneous, 
+precise constraints to be placed on both the mean redshift and 
+duration of reionization.  Fig.~\ref{fig:ReionizationPICO} also shows curves of constant source efficiency (i.e., the efficiency of 
+ionizing photon production) and constant intergalactic medium opacity (i.e., the photon mean free path).  PICO will allow 
+simultaneous constraints to be placed on these physical parameters, yielding important information on the nature of the 
+first luminous sources (e.g., star-forming galaxies or quasars predict significantly different values for these parameters).
 
 \begin{figure}
-\begin{center}
-\includegraphics[width=0.5\textwidth]{images/Reionization_Contours_zbar_delz_PICO_NEW.pdf}
-\end{center}
-\caption{\label{fig:ReionizationPICO} Summary of constraints on the mean redshift and duration of reionization. The forecasts show 68\% and 95\% confidence-level contours for PICO combined with CMB-S3 experiments and Planck combined with CMB-S3 experiments (dark blue and dashed blue, respectively). The solid black lines illustrate how the IGM opacity and source efficiency model parameters map onto this parameter space. The forecasted PICO constraints are compared to: current exclusion limits for the mean redshift of reionization from Planck, shown by the yellow bands \citealp{planck2018:parameters}; recent exclusion limits from the global 21 cm signal measured by EDGES, shown with the red band \citealp{edges2017}; exclusion limits from measurements of the Gunn-Peterson trough from fully absorbed Lyman$\alpha$ in quasar spectra, shown by the grey band \citealp{Fan2006}; exclusion limit on the duration of reionization from Planck and SPT data, shown by the green band \citealp{planck_reio:2016}.}
+\hspace{-0.in}
+\parbox{3.1in}{\centerline {
+\includegraphics[width=3.0in]{images/Reionization_Contours_zbar_delz_PICO_NEW.pdf} } }
+\hspace{0.in}
+\parbox{3.5in}{
+\caption{\label{fig:ReionizationPICO} Summary of constraints on the mean redshift and duration of reionization. The forecasts show 68\% and 95\% confidence-level contours for PICO combined with CMB-S3 experiments and Planck combined with CMB-S3 experiments (dark blue and dashed blue, respectively). The solid black lines illustrate how the IGM opacity and source efficiency model parameters map onto this parameter space. The forecasted PICO constraints are compared to: current exclusion limits for the mean redshift of reionization from Planck, shown by the yellow bands \citealp{planck2018:parameters}; recent exclusion limits from the global 21 cm signal measured by EDGES, shown with the red band \citealp{edges2017}; exclusion limits from measurements of the Gunn-Peterson trough from fully absorbed Lyman$\alpha$ in quasar spectra, shown by the grey band \citealp{Fan2006}; exclusion limit on the duration of reionization from Planck and SPT data, shown by the green band \citealp{planck_reio:2016}.} }
+\vspace{-0.1in}
 \end{figure}
 
 In addition to these signals, reionization also leaves specific non-Gaussian signatures in the CMB.  In particular, patchy reionization 
