@@ -75,6 +75,114 @@ We relied a lot on previous thinking for the CORE and Litebird concepts.
 
 \section{Review of Major Systematics}
 
+\begin{table}[h!]
+\centering
+\scriptsize
+ \begin{tabular}{p{3.3cm} p{0.5cm} p{4.2cm} p{4.2cm} p{4.2cm}}
+ \hline
+\textbf{Name} & \textbf{Risk}&\textbf{Description} & \textbf{State-of-the-art} & \textbf{Additional Mitigation Needed} \\
+ \hline
+\textbf{Leakage}& &\\
+Polarization Angle Calibration\dotfill& 
+5&
+Uncertainty in polarization calibration leaks E$\to$B.
+& 
+Knowledge of astrophysical calibrators to 0.3$^\circ$\citet{Aumont+2018}; ground measurement to 0.9$^\circ$ reconstruction to 0.2$^\circ$ using $TB$ and $EB$ demonstrated by \planck\citet{Planck_Lowell}
+& 
+See Sect.~\ref{sec:angle} for discussion.
+\\
+ Bandpass Mismatch\dotfill&
+ 4& 
+ Edges and shapes of the the spectral filters vary from detector to detector. leaks T $\to$ P, P $\to$ P if the source's bandpass differs from calibrator's bandpass\cite{Hoang_2017} & Precise bandpass measurement\cite{Pajot_2010};
+SRoll algorithm\cite{Planck_Lowell}; filtering technique\cite{CORE_systematics};  additional component solution (see Banerji\& Delabrouille in prep). &
+State-of-the-art meet requirements.
+   \\
+Beam mismatch\dotfill& 
+4&
+Beam shapes differ between detectors that are combined to reconstruct polarization; leaks T $\to$ P, P $\to$ P
+& See Sect.~\ref{sec:angle} & State-of-the-art meet requirements.\\
+Time Response Accuracy and Stability\dotfill&
+4&
+Uncertainty of detector in time constants (measurement errors, time variability) biases polarization angle, pointing and beam size. In a constant spin-rate mission (\pico) is degenerate with the beam shape. leaks T$\to$P, P$\to$P&
+On-orbit reconstruction of time response to 0.1\% across a wide signal band\cite{planck2013_vii}, residuals corrected as part of beam and map-making algorithm\cite{Planck_Lowell}.
+& State-of-the-art meet requirements.
+\\
+Readout Cross-talk\dotfill& 
+4&
+Power in one detector leaks into other detectors
+&
+\planck's high-impedence bolometers with crosstalk measured at the level of 10$^{-3}$ did not impact CMB polarization science\cite{Planck_Lowell}.  Cross-talk of low-impedence bolometers measured at 0.3\%\cite{BICEP2_II}.
+&
+State-of-the-art meets requirements.
+\\
+Chromatic beam shape\dotfill&
+4&
+Beam shape is a function of source SED: measured using a planet, used to build a window function to correct CMB power spectrum.
+&
+\planck\ simulations and parameterization as part of the likelihood.
+&
+Should be further investigated in Phase A of a mission using physical optics simulations.  
+\\
+
+Gain mismatch\dotfill&
+3&
+Relative gain between detectors that are combined to reconstruct polarization; error leaks T$\to$P &
+mission-average relative calibration demonstrated to 10$^{-4}$ to 10$^{-5}$ level \cite{Planck_Lowell}
+&
+State-of-the-art measurement of mission-average gain meets requirements; Sect.~\ref{sec:gain} describes effects of stability in time in relative gains.  
+\\
+
+
+Cross-polarization\dotfill&
+3&
+Q$\to$U rotation by the optical elements of the instrument.
+&
+Degenerate with polarization gain calibration.
+&
+State-of-the-art meets requirements.
+\\
+\hline 
+\textbf{Stability} & & \\
+Gain Stability\dotfill& 
+5&
+Time-variation of detector gain due to time variability of detector heat sink temperature variations and optical loading.
+& 
+Reconstruction of time variability of gain to 0.2\% in \planck\cite{Planck_Lowell}.
+&
+See Sect.~\ref{sec:gain}; Gain fluctuations in \pico\ can be calibrated to $<$10$^{-4}$ on time scales of 40 hrs. on the dipole.
+\\
+Pointing jitter\dotfill&
+3&
+Random pointing error mixes T, E and B at small angular scale
+&
+Pointing reconstruction in \planck\ to 0.8 and 1.9 arcsec in-scan and cross-scan \cite{planck2016_l}
+&
+State-of-the-art meets requirements.
+\\
+
+\hline
+\textbf{Straylight}& & \\
+Far Sidelobes\dotfill& 
+5&
+Pickup of Galactic signals at large angles from the main beam axis; Spillover can be highly polarized.
+& 
+\planck\ validated straylight model in anechoic chamber to -80~dBi\cite{Tauber2010}.
+&
+Design of optical system and baffling, informed by telescope straylight simulations. See Sect.~\ref{sec:fsl} for a study of beams calculated with a physical optics code for the \pico\ telescope and simulated Galactic pickup during the reference mission.\\
+ \hline
+\textbf{Other} \\
+Residual correlated cosmic ray hits\dotfill&
+3 &
+detectors experience correlated cosmic ray hits below detection threshold resulting in misestimated noise covariance.
+&
+\planck/HFI found the 5\% percent noise correlation due to this effect did not impact results\cite{Planck_Lowell}. 
+&
+State-of-the-art detector design to reduce cosmic ray cross-section; State-of-the-art analysis techniques (accounting for correlated noise) meet requirements.
+\\
+\hline
+ \end{tabular}
+\caption{\label{tbl:SystematicsList} Systematic errors expected in \pico's measurement of CMB polarization.}
+ \end{table}
 
 \begin{center}
  \begin{longtable}{K{3cm} L{4.3cm} L{4.3cm} L{4.3cm}}
