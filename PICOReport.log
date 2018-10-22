@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 OCT 2018 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 OCT 2018 10:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1766,135 +1766,135 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
 (./systematics.tex [29]
 
 Package natbib Warning: Citation `Takahaski2010' on page 30 undefined on input 
-line 19.
+line 21.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 52.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 54.
 
-Overfull \hbox (1.3334pt too wide) in paragraph at lines 52--52
+Overfull \hbox (1.3334pt too wide) in paragraph at lines 54--54
 []\T1/ptm/b/n/8 Risk| 
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 52--53
+Underfull \hbox (badness 8189) in paragraph at lines 54--55
 []\T1/ptm/b/n/8 Additional Mit-i-ga-tion
  []
 
 
-Underfull \hbox (badness 1178) in paragraph at lines 55--55
+Underfull \hbox (badness 1178) in paragraph at lines 57--57
 []\T1/ptm/m/n/8 Polarization An-gle Cal-i-bra-
  []
 
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
-(natbib)                on page 30 on input line 59.
+(natbib)                on page 30 on input line 61.
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 30 undefined on input 
-line 59.
+line 61.
 
 
-Underfull \hbox (badness 1087) in paragraph at lines 59--60
+Underfull \hbox (badness 1087) in paragraph at lines 61--62
 \T1/ptm/m/n/8 tors to 0.3$[]$\T1/ptm/b/n/8 (author?) [][][]\T1/ptm/m/n/8 ; grou
 nd
  []
 
 
 Package natbib Warning: Citation `Pajot_2010' on page 30 undefined on input lin
-e 65.
+e 67.
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 30 undefined on input 
-line 66.
+line 68.
 
 
 Package natbib Warning: Citation `CORE_systematics' on page 30 undefined on inp
-ut line 66.
+ut line 68.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--73
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
 []\T1/ptm/m/n/8 Time Re-sponse Ac-cu-racy
  []
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 30 undefined on input 
-line 76.
+line 78.
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 76--77
+Underfull \hbox (badness 2050) in paragraph at lines 78--79
 \T1/ptm/m/n/8 rected as part of beam and map-
  []
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 30 undefined on input 
-line 83.
+line 85.
 
 
-Underfull \hbox (badness 2443) in paragraph at lines 83--84
+Underfull \hbox (badness 2443) in paragraph at lines 85--86
 []\T1/ptm/m/it/8 Planck \T1/ptm/m/n/8 high-impedence bolome-ters:
  []
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 30 undefined on input 
-line 100.
+line 102.
 
 
-Underfull \hbox (badness 4144) in paragraph at lines 100--101
+Underfull \hbox (badness 4144) in paragraph at lines 102--103
 []\T1/ptm/m/n/8 mission-average rel-a-tive cal-i-bra-tion
  []
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 30 undefined on input 
-line 120.
+line 122.
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 144--144
+Underfull \hbox (badness 2744) in paragraph at lines 146--146
 []\T1/ptm/m/n/8 Residual cor-re-lated cos-mic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 []\T1/ptm/m/n/8 increased
  []
 
 
 Package natbib Warning: Citation `Planck_Lowell' on page 30 undefined on input 
-line 148.
+line 150.
 
 
-Underfull \hbox (badness 2961) in paragraph at lines 150--152
+Underfull \hbox (badness 2961) in paragraph at lines 152--154
 \T1/ptm/m/n/8 section; SOA anal-y-sis
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[30] <images/PICO_rotate_eb3_v0.pdf, id=826, 597.23125pt x 397.485pt>
+[30] <images/PICO_rotate_eb3_v0.pdf, id=825, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb3_v0.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb3_v0.pdf>
-Package pdftex.def Info: images/PICO_rotate_eb3_v0.pdf used on input line 187.
+Package pdftex.def Info: images/PICO_rotate_eb3_v0.pdf used on input line 189.
 (pdftex.def)             Requested size: 375.80544pt x 250.11967pt.
 
 
 Package natbib Warning: Author undefined for citation`Planck2016_XLIX' 
-(natbib)                on page 31 on input line 221.
+(natbib)                on page 31 on input line 223.
 
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
-(natbib)                on page 31 on input line 221.
+(natbib)                on page 31 on input line 223.
 
 [31] <images/calibration_spectra.pdf, id=844, 686.26389pt x 334.24562pt>
 File: images/calibration_spectra.pdf Graphic file (type pdf)
 
 <use images/calibration_spectra.pdf>
-Package pdftex.def Info: images/calibration_spectra.pdf used on input line 238.
+Package pdftex.def Info: images/calibration_spectra.pdf used on input line 240.
 
 (pdftex.def)             Requested size: 328.82707pt x 160.15556pt.
- [32 <./images/PICO_rotate_eb3_v0.pdf> <./images/calibration_spectra.pdf>] [33]
-) (./requirements.tex [34]
+ [32 <./images/PICO_rotate_eb3_v0.pdf>]
+[33 <./images/calibration_spectra.pdf>]) (./requirements.tex [34]
 
 LaTeX Warning: Reference `sec:lensing' on page 35 undefined on input line 53.
 
@@ -1925,9 +1925,6 @@ Package rerunfilecheck Info: File `PICOReport.out' has not changed.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
@@ -1960,7 +1957,7 @@ symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr
 .pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (46 pages, 4314183 bytes).
+Output written on PICOReport.pdf (46 pages, 4314554 bytes).
 PDF statistics:
  1049 PDF objects out of 1200 (max. 8388607)
  752 compressed objects within 8 object streams
