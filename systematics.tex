@@ -49,7 +49,83 @@ The three highest risk systematic errors were studied further and are discussed 
 \begin{table}[h!]
 \centering
 \scriptsize
- \begin{tabular}{p{3.3cm} p{0.5cm} p{1.5cm} p{4.3cm} p{2.8cm}}
+ \begin{tabular}{p{3.3cm} p{0.5cm} p{1.5cm} p{2.5cm}}
+ \hline
+\textbf{Name} & \textbf{Risk}&\textbf{Effect} \\
+ \hline
+\textbf{Leakage}& &\\
+Polarization Angle Calibration\dotfill& 
+5&
+E$\to$B &
+See Sect.~\ref{sec:angle}.
+\\
+ Bandpass Mismatch\dotfill&
+ 4& 
+T$\to$P, E$\to$B  
+   \\
+Beam mismatch\dotfill& 
+4&
+T$\to$P, E$\to$B
+& See Sect.~\ref{sec:angle}
+\\
+Time Response Accuracy and Stability\dotfill&
+4&
+T$\to$P, E$\to$B
+\\
+Readout Cross-talk\dotfill& 
+4&
+spurious P
+\\
+Chromatic beam shape\dotfill&
+4&
+spurious P
+\\
+
+Gain mismatch\dotfill&
+3&
+T$\to$P   
+\\
+
+
+Cross-polarization\dotfill&
+3&
+E$\to$B
+\\
+\hline 
+\textbf{Stability} & & \\
+Gain Stability\dotfill& 
+5&
+T$\to$P, E$\to$B
+& 
+See Sect.~\ref{sec:gain}
+\\
+Pointing jitter\dotfill&
+3&
+T$\to$P, E$\to$B
+\\
+
+\hline
+\textbf{Straylight}& & \\
+Far Sidelobes\dotfill& 
+5&
+spurious P
+&
+See Sect.~\ref{sec:fsl}.\\
+ \hline
+\textbf{Other} \\
+Residual correlated cosmic ray hits\dotfill&
+3 &
+increased variance
+\\
+\hline
+ \end{tabular}
+\caption{\label{tbl:SystematicsList2col} Systematic errors expected in \pico's measurement of CMB polarization.}
+ \end{table}
+
+\begin{table}[h!]
+\centering
+\scriptsize
+ \begin{tabular}{p{3.3cm} p{0.5cm} p{1.5cm} p{4.5cm} p{2.8cm}}
  \hline
 \textbf{Name} & \textbf{Risk}&\textbf{Effect} & \textbf{State-of-the-art} & \textbf{Additional Mitigation Needed} \\
  \hline
@@ -58,7 +134,7 @@ Polarization Angle Calibration\dotfill&
 5&
 E$\to$B
 & 
-Knowledge of astrophysical calibrators to 0.3$^\circ$\citet{Aumont+2018}; ground measurement to 0.9$^\circ$ reconstruction to 0.2$^\circ$ using $TB$ and $EB$ demonstrated by \planck\citet{Planck_Lowell}
+Knowledge of astrophysical calibrators to 0.3$^\circ$\citep{Aumont+2018}; ground measurement to 0.9$^\circ$ reconstruction to 0.2$^\circ$ using $TB$ and $EB$ demonstrated by \planck\citet{Planck_Lowell}
 & 
 See Sect.~\ref{sec:angle}.
 \\
