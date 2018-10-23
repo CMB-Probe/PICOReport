@@ -1,0 +1,75 @@
+\documentclass[article,aps,nofootinbib]{revtex4}
+%\documentclass[12pt]{iopart}
+%\newcommand{\gguide}{{\it Preparing graphics for IOP Publishing journals}}
+%Uncomment next line if AMS fonts required
+%\usepackage{iopams}  
+
+\usepackage{graphicx}
+%\usepackage{amsmath}
+%\usepackage{subfigure}
+%\usepackage{subfloat}
+\usepackage{hyperref}
+
+\def\Journal#1#2#3#4{{#1} {\bf #2}, #3 (#4)}
+\def\be{\begin{equation}}
+\def\ee{\end{equation}}
+\def\ba{\begin{eqnarray}}
+\def\ea{\end{eqnarray}}
+\def\nn{\nonumber}
+\newcommand{\bn}{\hat{\bf n}}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=blue,
+}
+
+\begin{document}
+
+\title{Searching for Primordial Magnetic Fields with PICO}
+
+\author{Levon Pogosian}
+\address{Department of Physics, Simon Fraser University, Burnaby, BC, V5A 1S6, Canada}
+%\ead{levon@sfu.ca, azucca@sfu.ca}
+%\vspace{10pt}
+%\begin{indented}
+%\item[]September 2017
+%\end{indented}
+
+%\begin{abstract}
+%No abstract
+%\end{abstract}
+
+\maketitle
+
+%\tableofcontents
+
+% Uncomment for PACS numbers
+%\pacs{00.00, 20.00, 42.10}
+%
+% Uncomment for keywords
+%\vspace{2pc}
+%\noindent{\it Keywords}: XXXXXX, YYYYYYYY, ZZZZZZZZZ
+%
+% Uncomment for Submitted to journal title message
+%\submitto{\JPA}
+%
+% Uncomment if a separate title page is required
+%\maketitle
+% 
+% For two-column output uncomment the next line and choose [10pt] rather than [12pt] in the \documentclass declaration
+%\ioptwocol
+
+One of the long standing puzzles in astrophysics is the origin of micro-Gauss ($\mu$G) strength galactic magnetic fields \cite{Widrow:2002ud}. Producing them through a dynamo mechanism would require a seed field of a certain minimum strength \cite{Widrow:2011hs}. Moreover, $\mu$G strength fields have been observed in proto-galaxies that are too young to have gone through the number of revolutions necessary for the dynamo to work. A primordial magnetic field (PMF), present at the time of galaxy formation, could provide the seed or even eliminate the need for the dynamo altogether. PMFs could have been generated in the aftermath of phase transitions in the early universe \cite{Vachaspati:1991nm}, during inflation \cite{Turner:1987bw,Ratra:1991bn}, or at the end of inflation \cite{DiazGil:2007dy}. Once produced, they would be sustained by the primordial plasma in a frozen-in configuration until the epoch of recombination and beyond leaving potentially observable imprints in the CMB. Thus, constraints on the PMF offer a valuable tool for discriminating among different theories of the early universe \cite{Barnaby:2012tk,Long:2013tha,Durrer:2013pga}.
+
+A stochastic PMF contributes to CMB anisotropies through metric perturbations and the Lorentz force exerted on ions in the pre-recombination plasma \cite{Mack:2001gc,Lewis:2004ef,Finelli:2008xh,Paoletti:2008ck,Shaw:2009nf}. Of particular importance are the vortical perturbations (vector modes) which contribute to the B-mode spectrum \cite{Subramanian:1997gi} on small angular scales  ($l \simeq 2000$) with an amplitude proportional to $B^4_{1\rm{Mpc}}$, where $B_{1\rm{Mpc}}$ is the PMF strength smoothed over one megaparsec. PMF also source gravitational waves (``passive'' tensor modes) which, for a scale-invariant PMF, are indistinguishable from the inflationary gravity wave signal with an amplitude proportional to $B^4_{1\rm{Mpc}} [\ln(a_\nu / a_{\rm{PMF}})]^2$ \cite{Lewis:2004ef}, where $a_\nu$ is the scale factor at neutrino decoupling, and $a_{\rm{PMF}}$ is the scale factor at which PMF was generated. In addition, Faraday rotation (FR) of CMB polarization converts some of the E modes into B modes \cite{Kosowsky:1996yc,Pogosian:2011qv} inducing mode-coupling correlations between E, B and T \cite{Kamionkowski:2008fp,Gluscevic:2009mm,Gluscevic:2012me,Pogosian:2013dya}. Other effects, which are more challenging to model accurately \cite{Chluba:2015lpa}, arise from the dissipation of PMF on small scales, which generates spectral distortions and alters the recombination history \cite{Jedamzik:2013gua,Kunze:2014eka}.
+
+The current CMB bounds on the PMF strength are $B_{\rm 1Mpc}<2$ nG at 95\% CL after marginalizing over the magnetic spectral index and $B_{\rm 1Mpc}<1.2$ nG for the scale-invariant PMF spectrum \cite{Zucca:2016iur}, derived from a combination of the 2015 Planck TT, EE, TE spectra \cite{Adam:2015rua} and the SPT B-mode spectrum \cite{Keisler:2015hfa}. Without the SPT B-modes, the bounds are considerably weaker: $B_{\rm 1Mpc}<4.4$ nG and $B_{\rm 1Mpc}<2$ nG, respectively \cite{Ade:2015cva,Zucca:2016iur}, demonstrating the importance of B-modes for PMF constraints.
+
+The best case 95\% CL bound expected from the PICO B-mode spectrum is $0.5$ nG for a scale-invariant PMF. PICO will be able to measure the B-mode spectrum across the entire range of angular scales, allowing to simultaneously constrain the magnetic amplitude, $B_{1\rm{Mpc}}$, and the epoch of the PMF generation, $a_{\rm{PMF}}$, which is a valuable handle on the early universe physics that is not available today.
+
+Because the magnetic contribution to CMB spectra scales as $B^4_{1\rm{Mpc}}$, an orders of magnitude improvement in the accuracy of the B-mode spectrum would only result in a modest reduction of the bound on $B_{1\rm{Mpc}}$. In contrast, FR scales linearly with $B_{1\rm{Mpc}}$, promising much tighter bounds on the PMF \cite{Pogosian:2018vfr}. At present, such FR-based PMF bounds are not competitive compared to those from CMB spectra, {\it e.g.} the POLARBEAR collaboration obtained $B_{1\rm{Mpc}} < 93$ nG at 95\% CL \cite{Ade:2015cao} based on the analysis of mode-coupling EB correlations in their 150\,GHz map, but they will improve dramatically with the low noise and high resolutions experiments such as PICO.
+
+Our preliminary forecasts show that PICO's sensitivity and resolution would allow to probe PMFs as weak as $0.05$ nG, although imperfect weak lensing subtraction, galactic foregrounds \cite{Oppermann:2011td,De:2013dra,Pogosian:2013dya}, and other systematic effects will likely prevent reducing the bound below $0.1$ nG. It would, nevertheless, be an important improvement which, in particular, would conclusively rule out the purely primordial (no dynamo) origin of galactic magnetic fields.\bibliography{picopmf}
+
+\end{document}
