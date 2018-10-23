@@ -104,49 +104,100 @@ Michael Levi et~al.
 \newblock {The DESI Experiment, a whitepaper for Snowmass 2013}.
 \newblock {\em ArXiv e-prints}, 2013.
 
-\bibitem{2008PhRvD..78d3520H}
-C.~M. {Hirata}, S.~{Ho}, N.~{Padmanabhan}, U.~{Seljak}, and N.~A. {Bahcall}.
-\newblock {Correlation of CMB with large-scale structure. II. Weak lensing}.
-\newblock {\em \prd}, 78(4):043520, August 2008.
+\bibitem{Widrow:2002ud}
+Lawrence~M. Widrow.
+\newblock {Origin of galactic and extragalactic magnetic fields}.
+\newblock {\em Rev. Mod. Phys.}, 74:775--823, 2002.
 
-\bibitem{2018arXiv180706210P}
-{Planck Collaboration}, N.~{Aghanim}, Y.~{Akrami}, M.~{Ashdown}, J.~{Aumont},
-  C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday}, R.~B. {Barreiro},
-  N.~{Bartolo}, S.~{Basak}, K.~{Benabed}, J.-P. {Bernard}, M.~{Bersanelli},
-  P.~{Bielewicz}, J.~J. {Bock}, J.~R. {Bond}, J.~{Borrill}, F.~R. {Bouchet},
-  F.~{Boulanger}, M.~{Bucher}, C.~{Burigana}, E.~{Calabrese}, J.-F. {Cardoso},
-  J.~{Carron}, A.~{Challinor}, H.~C. {Chiang}, L.~P.~L. {Colombo}, C.~{Combet},
-  B.~P. {Crill}, F.~{Cuttaia}, P.~{de Bernardis}, G.~{de Zotti},
-  J.~{Delabrouille}, E.~{Di Valentino}, J.~M. {Diego}, O.~{Dor{\'e}},
-  M.~{Douspis}, A.~{Ducout}, X.~{Dupac}, G.~{Efstathiou}, F.~{Elsner}, T.~A.
-  {En{\ss}lin}, H.~K. {Eriksen}, Y.~{Fantaye}, R.~{Fernandez-Cobos},
-  F.~{Forastieri}, M.~{Frailis}, A.~A. {Fraisse}, E.~{Franceschi}, A.~{Frolov},
-  S.~{Galeotta}, S.~{Galli}, K.~{Ganga}, R.~T. {G{\'e}nova-Santos},
-  M.~{Gerbino}, T.~{Ghosh}, J.~{Gonz{\'a}lez-Nuevo}, K.~M. {G{\'o}rski},
-  S.~{Gratton}, A.~{Gruppuso}, J.~E. {Gudmundsson}, J.~{Hamann}, W.~{Handley},
-  F.~K. {Hansen}, D.~{Herranz}, E.~{Hivon}, Z.~{Huang}, A.~H. {Jaffe}, W.~C.
-  {Jones}, A.~{Karakci}, E.~{Keih{\"a}nen}, R.~{Keskitalo}, K.~{Kiiveri},
-  J.~{Kim}, L.~{Knox}, N.~{Krachmalnicoff}, M.~{Kunz}, H.~{Kurki-Suonio},
-  G.~{Lagache}, J.-M. {Lamarre}, A.~{Lasenby}, M.~{Lattanzi}, C.~R. {Lawrence},
-  M.~{Le Jeune}, F.~{Levrier}, A.~{Lewis}, M.~{Liguori}, P.~B. {Lilje},
-  V.~{Lindholm}, M.~{L{\'o}pez-Caniego}, P.~M. {Lubin}, Y.-Z. {Ma}, J.~F.
-  {Mac{\'{\i}}as-P{\'e}rez}, G.~{Maggio}, D.~{Maino}, N.~{Mandolesi},
-  A.~{Mangilli}, A.~{Marcos-Caballero}, M.~{Maris}, P.~G. {Martin},
-  E.~{Mart{\'{\i}}nez-Gonz{\'a}lez}, S.~{Matarrese}, N.~{Mauri}, J.~D.
-  {McEwen}, A.~{Melchiorri}, A.~{Mennella}, M.~{Migliaccio}, M.-A.
-  {Miville-Desch{\^e}nes}, D.~{Molinari}, A.~{Moneti}, L.~{Montier},
-  G.~{Morgante}, A.~{Moss}, P.~{Natoli}, L.~{Pagano}, D.~{Paoletti},
-  B.~{Partridge}, G.~{Patanchon}, F.~{Perrotta}, V.~{Pettorino},
-  F.~{Piacentini}, L.~{Polastri}, G.~{Polenta}, J.-L. {Puget}, J.~P. {Rachen},
-  M.~{Reinecke}, M.~{Remazeilles}, A.~{Renzi}, G.~{Rocha}, C.~{Rosset},
-  G.~{Roudier}, J.~A. {Rubi{\~n}o-Mart{\'{\i}}n}, B.~{Ruiz-Granados},
-  L.~{Salvati}, M.~{Sandri}, M.~{Savelainen}, D.~{Scott}, C.~{Sirignano},
-  R.~{Sunyaev}, A.-S. {Suur-Uski}, J.~A. {Tauber}, D.~{Tavagnacco}, M.~{Tenti},
-  L.~{Toffolatti}, M.~{Tomasi}, T.~{Trombetti}, J.~{Valiviita}, B.~{Van Tent},
-  P.~{Vielva}, F.~{Villa}, N.~{Vittorio}, B.~D. {Wandelt}, I.~K. {Wehus},
-  M.~{White}, S.~D.~M. {White}, A.~{Zacchei}, and A.~{Zonca}.
-\newblock {Planck 2018 results. VIII. Gravitational lensing}.
-\newblock {\em ArXiv e-prints}, July 2018.
+\bibitem{Widrow:2011hs}
+Lawrence~M. Widrow, Dongsu Ryu, Dominik R.~G. Schleicher, Kandaswamy
+  Subramanian, Christos~G. Tsagas, and Rudolf~A. Treumann.
+\newblock {The First Magnetic Fields}.
+\newblock {\em Space Sci. Rev.}, 166:37--70, 2012.
+
+\bibitem{Vachaspati:1991nm}
+T.~Vachaspati.
+\newblock {Magnetic fields from cosmological phase transitions}.
+\newblock {\em Phys. Lett.}, B265:258--261, 1991.
+
+\bibitem{Turner:1987bw}
+Michael~S. Turner and Lawrence~M. Widrow.
+\newblock {Inflation Produced, Large Scale Magnetic Fields}.
+\newblock {\em Phys. Rev.}, D37:2743, 1988.
+
+\bibitem{Ratra:1991bn}
+Bharat Ratra.
+\newblock {Cosmological 'seed' magnetic field from inflation}.
+\newblock {\em Astrophys. J.}, 391:L1--L4, 1992.
+
+\bibitem{DiazGil:2007dy}
+Andres Diaz-Gil, Juan Garcia-Bellido, Margarita Garcia~Perez, and Antonio
+  Gonzalez-Arroyo.
+\newblock {Magnetic field production during preheating at the electroweak
+  scale}.
+\newblock {\em Phys. Rev. Lett.}, 100:241301, 2008.
+
+\bibitem{Barnaby:2012tk}
+Neil Barnaby, Ryo Namba, and Marco Peloso.
+\newblock {Observable non-gaussianity from gauge field production in slow roll
+  inflation, and a challenging connection with magnetogenesis}.
+\newblock {\em Phys. Rev.}, D85:123523, 2012.
+
+\bibitem{Long:2013tha}
+Andrew~J. Long, Eray Sabancilar, and Tanmay Vachaspati.
+\newblock {Leptogenesis and Primordial Magnetic Fields}.
+\newblock {\em JCAP}, 1402:036, 2014.
+
+\bibitem{Durrer:2013pga}
+Ruth Durrer and Andrii Neronov.
+\newblock {Cosmological Magnetic Fields: Their Generation, Evolution and
+  Observation}.
+\newblock {\em Astron.Astrophys.Rev.}, 21:62, 2013.
+
+\bibitem{Zucca:2016iur}
+Alex Zucca, Yun Li, and Levon Pogosian.
+\newblock {Constraints on Primordial Magnetic Fields from Planck combined with
+  the South Pole Telescope CMB B-mode polarization measurements}.
+\newblock {\em ArXiv e-prints}, 2016.
+
+\bibitem{Oppermann:2011td}
+N.~Oppermann et~al.
+\newblock {An improved map of the Galactic Faraday sky}.
+\newblock {\em Astron. Astrophys.}, 542:A93, 2012.
+
+\bibitem{De:2013dra}
+Soma De, Levon Pogosian, and Tanmay Vachaspati.
+\newblock {CMB Faraday rotation as seen through the Milky Way}.
+\newblock {\em Phys.Rev.}, D88(6):063527, 2013.
+
+\bibitem{Pogosian:2013dya}
+Levon Pogosian.
+\newblock {Searching for primordial magnetism with multifrequency cosmic
+  microwave background experiments}.
+\newblock {\em Mon. Not. Roy. Astron. Soc.}, 438(3):2508--2512, 2014.
+
+\bibitem{Kamionkowski:2008fp}
+Marc Kamionkowski.
+\newblock {How to De-Rotate the Cosmic Microwave Background Polarization}.
+\newblock {\em Phys.Rev.Lett.}, 102:111302, 2009.
+
+\bibitem{Gluscevic:2009mm}
+Vera Gluscevic, Marc Kamionkowski, and Asantha Cooray.
+\newblock {De-Rotation of the Cosmic Microwave Background Polarization:
+  Full-Sky Formalism}.
+\newblock {\em Phys. Rev.}, D80:023510, 2009.
+
+\bibitem{Gluscevic:2012me}
+Vera Gluscevic, Duncan Hanson, Marc Kamionkowski, and Christopher~M. Hirata.
+\newblock {First CMB Constraints on Direction-Dependent Cosmological
+  Birefringence from WMAP-7}.
+\newblock {\em Phys. Rev.}, D86:103529, 2012.
+
+\bibitem{Ade:2015cao}
+Peter A.~R. Ade et~al.
+\newblock {POLARBEAR Constraints on Cosmic Birefringence and Primordial
+  Magnetic Fields}.
+\newblock {\em Phys. Rev.}, D92:123509, 2015.
 
 \bibitem{2004PhRvD..69d3005S}
 U.~{Seljak} and C.~M. {Hirata}.
@@ -158,6 +209,45 @@ U.~{Seljak} and C.~M. {Hirata}.
 K.~M. {Smith}, D.~{Hanson}, M.~{LoVerde}, C.~M. {Hirata}, and O.~{Zahn}.
 \newblock {Delensing CMB polarization with external datasets}.
 \newblock {\em \jcap}, 6:014, June 2012.
+
+\bibitem{2015ApJ...806..247B}
+E.~J. {Baxter}, R.~{Keisler}, S.~{Dodelson}, K.~A. {Aird}, S.~W. {Allen},
+  M.~L.~N. {Ashby}, M.~{Bautz}, M.~{Bayliss}, B.~A. {Benson}, L.~E. {Bleem},
+  S.~{Bocquet}, M.~{Brodwin}, J.~E. {Carlstrom}, C.~L. {Chang}, I.~{Chiu},
+  H.-M. {Cho}, A.~{Clocchiatti}, T.~M. {Crawford}, A.~T. {Crites}, S.~{Desai},
+  J.~P. {Dietrich}, T.~{de Haan}, M.~A. {Dobbs}, R.~J. {Foley}, W.~R. {Forman},
+  E.~M. {George}, M.~D. {Gladders}, A.~H. {Gonzalez}, N.~W. {Halverson}, N.~L.
+  {Harrington}, C.~{Hennig}, H.~{Hoekstra}, G.~P. {Holder}, W.~L. {Holzapfel},
+  Z.~{Hou}, J.~D. {Hrubes}, C.~{Jones}, L.~{Knox}, A.~T. {Lee}, E.~M. {Leitch},
+  J.~{Liu}, M.~{Lueker}, D.~{Luong-Van}, A.~{Mantz}, D.~P. {Marrone},
+  M.~{McDonald}, J.~J. {McMahon}, S.~S. {Meyer}, M.~{Millea}, L.~M. {Mocanu},
+  S.~S. {Murray}, S.~{Padin}, C.~{Pryke}, C.~L. {Reichardt}, A.~{Rest}, J.~E.
+  {Ruhl}, B.~R. {Saliwanchik}, A.~{Saro}, J.~T. {Sayre}, K.~K. {Schaffer},
+  E.~{Shirokoff}, J.~{Song}, H.~G. {Spieler}, B.~{Stalder}, S.~A. {Stanford},
+  Z.~{Staniszewski}, A.~A. {Stark}, K.~T. {Story}, A.~{van Engelen},
+  K.~{Vanderlinde}, J.~D. {Vieira}, A.~{Vikhlinin}, R.~{Williamson}, O.~{Zahn},
+  and A.~{Zenteno}.
+\newblock {A Measurement of Gravitational Lensing of the Cosmic Microwave
+  Background by Galaxy Clusters Using Data from the South Pole Telescope}.
+\newblock {\em \apj}, 806:247, June 2015.
+
+\bibitem{2015PhRvL.114o1302M}
+M.~{Madhavacheril}, N.~{Sehgal}, R.~{Allison}, N.~{Battaglia}, and hysical
+  Review~Letters.
+\newblock 114(15):151302, April 2015.
+
+\bibitem{2016A&A...594A..24P}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~{Arnaud},
+  M.~{Ashdown}, J.~{Aumont}, C.~{Baccigalupi}, A.~J. {Banday}, R.~B.
+  {Barreiro}, J.~G. {Bartlett}, and et~al.
+\newblock {Planck 2015 results. XXIV. Cosmology from Sunyaev-Zeldovich cluster
+  counts}.
+\newblock {\em \aap}, 594:A24, September 2016.
+
+\bibitem{2015A&A...578A..21M}
+J.-B. {Melin} and J.~G. {Bartlett}.
+\newblock {Measuring cluster masses with CMB lensing: a statistical approach}.
+\newblock {\em \aap}, 578:A21, June 2015.
 
 \bibitem{PCCS2}
 {Planck Collaboration XXVI}.

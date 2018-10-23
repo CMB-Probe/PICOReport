@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 OCT 2018 11:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 OCT 2018 13:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -738,11 +738,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
-[1]
-
-LaTeX Warning: Reference `??' on page 2 undefined on input line 72.
-
-[2]) (./fundamentalsci.tex [3] (./stm.tex
+[1] [2]) (./fundamentalsci.tex [3] (./stm.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1.
@@ -954,14 +950,14 @@ LaTeX Warning: Reference `??' on page 5 undefined on input line 64.
 
 
  <./images/cmb_powspec_PICOv2.pdf> <./images/nsrlabeledrp001_PICOv1.pdf>]
-[6] <images/Neff_final.pdf, id=263, 554.59674pt x 457.1867pt>
+<images/Neff_final.pdf, id=253, 554.59674pt x 457.1867pt>
 File: images/Neff_final.pdf Graphic file (type pdf)
 
 <use images/Neff_final.pdf>
 Package pdftex.def Info: images/Neff_final.pdf used on input line 140.
 (pdftex.def)             Requested size: 211.38832pt x 174.25595pt.
 
-<images/Mnu_tauprior_final.pdf, id=264, 579.25044pt x 457.1867pt>
+<images/Mnu_tauprior_final.pdf, id=254, 579.25044pt x 457.1867pt>
 File: images/Mnu_tauprior_final.pdf Graphic file (type pdf)
 
 <use images/Mnu_tauprior_final.pdf>
@@ -969,72 +965,96 @@ Package pdftex.def Info: images/Mnu_tauprior_final.pdf used on input line 141.
 (pdftex.def)             Requested size: 220.78543pt x 174.26294pt.
 
 
-Package natbib Warning: Citation `Peebles2000' on page 7 undefined on input lin
-e 169.
+Package natbib Warning: Citation `Peebles2000' on page 6 undefined on input lin
+e 165.
 
 
-Package natbib Warning: Citation `Chen2004' on page 7 undefined on input line 1
-69.
+Package natbib Warning: Citation `Chen2004' on page 6 undefined on input line 1
+65.
 
 
-Package natbib Warning: Citation `Padmanabhan2005' on page 7 undefined on input
- line 169.
+Package natbib Warning: Citation `Padmanabhan2005' on page 6 undefined on input
+ line 165.
 
+
+Package natbib Warning: Citation `Madhavacheril:2013cna' on page 6 undefined on
+ input line 165.
+
+
+Package natbib Warning: Citation `' on page 6 undefined on input line 165.
+
+[6]
+
+Package natbib Warning: Citation `Jedamzik2000' on page 7 undefined on input li
+ne 180.
+
+
+Package natbib Warning: Citation `Tashiro2012' on page 7 undefined on input lin
+e 180.
+
+
+Package natbib Warning: Citation `Dolgov2013' on page 7 undefined on input line
+ 180.
+
+
+Package natbib Warning: Citation `Tashiro2013' on page 7 undefined on input lin
+e 180.
+
+
+Package natbib Warning: Citation `Caldwell2013' on page 7 undefined on input li
+ne 180.
+
+Package acronym Info: Label `acro:BAO' newly defined as it shall be overridden
+although it is yet undefined on input line 189.
 [7 <./images/Neff_final.pdf> <./images/Mnu_tauprior_final.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/Mnu_tauprior_final.
 pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-Package natbib Warning: Citation `Jedamzik2000' on page 8 undefined on input li
-ne 197.
+Package natbib Warning: Citation `??' on page 8 undefined on input line 223.
 
 
-Package natbib Warning: Citation `Tashiro2012' on page 8 undefined on input lin
-e 197.
+Package natbib Warning: Citation `Carroll:1998zi' on page 8 undefined on input 
+line 229.
 
 
-Package natbib Warning: Citation `Dolgov2013' on page 8 undefined on input line
- 197.
-
-
-Package natbib Warning: Citation `Tashiro2013' on page 8 undefined on input lin
-e 197.
-
-
-Package natbib Warning: Citation `Caldwell2013' on page 8 undefined on input li
-ne 197.
-
-Package acronym Info: Label `acro:BAO' newly defined as it shall be overridden
-although it is yet undefined on input line 206.
-) (./extragalacticsci.tex
-
-Package natbib Warning: Citation `planckreion' on page 8 undefined on input lin
-e 9.
-
-
-Package natbib Warning: Citation `Miranda2017' on page 8 undefined on input lin
-e 22.
+Package natbib Warning: Citation `Carroll:1998zi' on page 8 undefined on input 
+line 231.
 
 [8]
 
-Package natbib Warning: Citation `Shaw2012' on page 9 undefined on input line 3
+LaTeX Warning: Reference `fig:CB-forecast' on page 9 undefined on input line 24
+1.
+
+) (./extragalacticsci.tex
+
+Package natbib Warning: Citation `planckreion' on page 9 undefined on input lin
+e 9.
+
+
+Package natbib Warning: Citation `Miranda2017' on page 9 undefined on input lin
+e 22.
+
+[9]
+
+Package natbib Warning: Citation `Shaw2012' on page 10 undefined on input line 
+37.
+
+
+Package natbib Warning: Citation `MMS2012' on page 10 undefined on input line 3
 7.
 
 
-Package natbib Warning: Citation `MMS2012' on page 9 undefined on input line 37
-.
+Package natbib Warning: Citation `Battaglia2013' on page 10 undefined on input 
+line 37.
 
 
-Package natbib Warning: Citation `Battaglia2013' on page 9 undefined on input l
-ine 37.
+Package natbib Warning: Citation `calabrese/etal/2014' on page 10 undefined on 
+input line 40.
 
 
-Package natbib Warning: Citation `calabrese/etal/2014' on page 9 undefined on i
-nput line 40.
-
-
-<images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=352, 661.71594pt x 533
+<images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=390, 661.71594pt x 533
 .22528pt>
 File: images/Reionization_Contours_zbar_delz_PICO_NEW.pdf Graphic file (type pd
 f)
@@ -1044,36 +1064,36 @@ ed on input line 57.
 (pdftex.def)             Requested size: 216.81pt x 174.71188pt.
 
 
-Package natbib Warning: Citation `planck2018:parameters' on page 9 undefined on
- input line 60.
+Package natbib Warning: Citation `planck2018:parameters' on page 10 undefined o
+n input line 60.
 
 
-Package natbib Warning: Citation `edges2017' on page 9 undefined on input line 
-60.
+Package natbib Warning: Citation `edges2017' on page 10 undefined on input line
+ 60.
 
 
-Package natbib Warning: Citation `Fan2006' on page 9 undefined on input line 60
-.
+Package natbib Warning: Citation `Fan2006' on page 10 undefined on input line 6
+0.
 
 
-Package natbib Warning: Citation `planck_reio:2016' on page 9 undefined on inpu
-t line 60.
+Package natbib Warning: Citation `planck_reio:2016' on page 10 undefined on inp
+ut line 60.
 
 
-Package natbib Warning: Citation `planck2018:parameters' on page 9 undefined on
- input line 60.
+Package natbib Warning: Citation `planck2018:parameters' on page 10 undefined o
+n input line 60.
 
 
-Package natbib Warning: Citation `edges2017' on page 9 undefined on input line 
-60.
+Package natbib Warning: Citation `edges2017' on page 10 undefined on input line
+ 60.
 
 
-Package natbib Warning: Citation `Fan2006' on page 9 undefined on input line 60
-.
+Package natbib Warning: Citation `Fan2006' on page 10 undefined on input line 6
+0.
 
 
-Package natbib Warning: Citation `planck_reio:2016' on page 9 undefined on inpu
-t line 60.
+Package natbib Warning: Citation `planck_reio:2016' on page 10 undefined on inp
+ut line 60.
 
 
 Overfull \hbox (14.06749pt too wide) in paragraph at lines 55--62
@@ -1081,19 +1101,18 @@ Overfull \hbox (14.06749pt too wide) in paragraph at lines 55--62
  []
 
 
-Package natbib Warning: Citation `SmithFerraro2017' on page 9 undefined on inpu
-t line 65.
+Package natbib Warning: Citation `SmithFerraro2017' on page 10 undefined on inp
+ut line 65.
 
 
-Package natbib Warning: Citation `DvorkinSmith2008' on page 9 undefined on inpu
-t line 65.
+Package natbib Warning: Citation `DvorkinSmith2008' on page 10 undefined on inp
+ut line 65.
 
-[9]
+[10]
 
-LaTeX Warning: Reference `??' on page 10 undefined on input line 89.
+LaTeX Warning: Reference `??' on page 11 undefined on input line 89.
 
-[10 <./images/Reionization_Contours_zbar_delz_PICO_NEW.pdf>]
-<images/lensingNoisePICO.pdf, id=426, 587.19376pt x 587.19376pt>
+<images/lensingNoisePICO.pdf, id=397, 587.19376pt x 587.19376pt>
 File: images/lensingNoisePICO.pdf Graphic file (type pdf)
 
 <use images/lensingNoisePICO.pdf>
@@ -1107,23 +1126,8 @@ Overfull \hbox (14.06749pt too wide) in paragraph at lines 111--118
 
 Package natbib Warning: Citation `??' on page 11 undefined on input line 130.
 
-[11 <./images/lensingNoisePICO.pdf>]
-
-Package natbib Warning: Citation `2015ApJ...806..247B' on page 12 undefined on 
-input line 145.
-
-
-Package natbib Warning: Citation `2015PhRvL.114o1302M' on page 12 undefined on 
-input line 145.
-
-
-Package natbib Warning: Citation `2016A&A...594A..24P' on page 12 undefined on 
-input line 145.
-
-
-Package natbib Warning: Citation `2015A&A...578A..21M' on page 12 undefined on 
-input line 147.
-
+[11 <./images/Reionization_Contours_zbar_delz_PICO_NEW.pdf>] [12 <./images/lens
+ingNoisePICO.pdf>]
 Package epstopdf Info: Source file: <images/m500lim_vs_z_pico_polar_v1.eps>
 (epstopdf)                    date: 2018-10-22 16:37:01
 (epstopdf)                    size: 16905 bytes
@@ -1136,7 +1140,7 @@ olar_v1-eps-converted-to.pdf images/m500lim_vs_z_pico_polar_v1.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf, id=491, 505.89pt x 361
+<images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf, id=538, 505.89pt x 361
 .35pt>
 File: images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1146,27 +1150,19 @@ Package pdftex.def Info: images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf
 (pdftex.def)             Requested size: 375.80544pt x 268.4369pt.
 
 
-Package natbib Warning: Citation `2015A&A...578A..21M' on page 12 undefined on 
-input line 155.
-
-
-Package natbib Warning: Citation `2015A&A...578A..21M' on page 12 undefined on 
-input line 155.
-
-
-Package natbib Warning: Citation `SZ1969' on page 12 undefined on input line 16
+Package natbib Warning: Citation `SZ1969' on page 13 undefined on input line 16
 3.
 
 
-Package natbib Warning: Citation `SZ1972' on page 12 undefined on input line 16
+Package natbib Warning: Citation `SZ1972' on page 13 undefined on input line 16
 3.
 
+[13 <./images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf>]
 
-Package natbib Warning: Citation `Delabrouille2009' on page 12 undefined on inp
+Package natbib Warning: Citation `Delabrouille2009' on page 14 undefined on inp
 ut line 189.
 
-[12] [13 <./images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf>]
-<images/PICO_tSZ_PS_plot.pdf, id=505, 462.52798pt x 346.89601pt>
+<images/PICO_tSZ_PS_plot.pdf, id=549, 462.52798pt x 346.89601pt>
 File: images/PICO_tSZ_PS_plot.pdf Graphic file (type pdf)
 
 <use images/PICO_tSZ_PS_plot.pdf>
@@ -1177,25 +1173,24 @@ Package pdftex.def Info: images/PICO_tSZ_PS_plot.pdf used on input line 195.
 Package natbib Warning: Citation `McKee2007' on page 14 undefined on input line
  6.
 
+[14] [15 <./images/PICO_tSZ_PS_plot.pdf>]
 
-Package natbib Warning: Citation `Lazarian2007b' on page 14 undefined on input 
+Package natbib Warning: Citation `Lazarian2007b' on page 16 undefined on input 
 line 9.
 
 
-Package natbib Warning: Citation `Andersson2015' on page 14 undefined on input 
+Package natbib Warning: Citation `Andersson2015' on page 16 undefined on input 
 line 9.
 
 
-Package natbib Warning: Citation `EllsworthBowers2015' on page 14 undefined on 
+Package natbib Warning: Citation `EllsworthBowers2015' on page 16 undefined on 
 input line 9.
 
 
-Package natbib Warning: Citation `Planck:XXXV' on page 14 undefined on input li
+Package natbib Warning: Citation `Planck:XXXV' on page 16 undefined on input li
 ne 9.
 
-[14] [15 <./images/PICO_tSZ_PS_plot.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 13.
-
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
@@ -1226,47 +1221,47 @@ Package natbib Warning: Citation `Chen2016' on page 16 undefined on input line
 Package natbib Warning: Citation `Mocz2018' on page 16 undefined on input line 
 16.
 
+[16]
 
-Package natbib Warning: Citation `Davis1951' on page 16 undefined on input line
+Package natbib Warning: Citation `Davis1951' on page 17 undefined on input line
  21.
 
 
-Package natbib Warning: Citation `Chandrasekhar1953' on page 16 undefined on in
+Package natbib Warning: Citation `Chandrasekhar1953' on page 17 undefined on in
 put line 21.
 
 
-Package natbib Warning: Citation `Hildebrand2009' on page 16 undefined on input
+Package natbib Warning: Citation `Hildebrand2009' on page 17 undefined on input
  line 21.
 
 
-Package natbib Warning: Citation `Houde2009' on page 16 undefined on input line
+Package natbib Warning: Citation `Houde2009' on page 17 undefined on input line
  21.
 
 
-Package natbib Warning: Citation `Houde2011' on page 16 undefined on input line
+Package natbib Warning: Citation `Houde2011' on page 17 undefined on input line
  21.
 
 
-Package natbib Warning: Citation `Fissel2016' on page 16 undefined on input lin
+Package natbib Warning: Citation `Fissel2016' on page 17 undefined on input lin
 e 22.
 
 
-Package natbib Warning: Citation `King2018' on page 16 undefined on input line 
+Package natbib Warning: Citation `King2018' on page 17 undefined on input line 
 22.
 
 
-Package natbib Warning: Citation `GonzalezCasanova2017' on page 16 undefined on
+Package natbib Warning: Citation `GonzalezCasanova2017' on page 17 undefined on
  input line 23.
 
 
-Package natbib Warning: Citation `Yuen2017' on page 16 undefined on input line 
+Package natbib Warning: Citation `Yuen2017' on page 17 undefined on input line 
 23.
 
 
-Package natbib Warning: Citation `Lazarian2018' on page 16 undefined on input l
+Package natbib Warning: Citation `Lazarian2018' on page 17 undefined on input l
 ine 23.
 
-[16]
 
 Package natbib Warning: Citation `Planck:XXXV' on page 17 undefined on input li
 ne 24.
@@ -1292,7 +1287,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-<images/Allsky_dust_fig.pdf, id=551, 557.08125pt x 440.64626pt>
+[17] <images/Allsky_dust_fig.pdf, id=600, 557.08125pt x 440.64626pt>
 File: images/Allsky_dust_fig.pdf Graphic file (type pdf)
 
 <use images/Allsky_dust_fig.pdf>
@@ -1300,50 +1295,49 @@ Package pdftex.def Info: images/Allsky_dust_fig.pdf used on input line 34.
 (pdftex.def)             Requested size: 289.07999pt x 228.6667pt.
 
 
-Package natbib Warning: Citation `Hall1949' on page 17 undefined on input line 
+Package natbib Warning: Citation `Hall1949' on page 18 undefined on input line 
 40.
 
 
-Package natbib Warning: Citation `Hiltner1949' on page 17 undefined on input li
+Package natbib Warning: Citation `Hiltner1949' on page 18 undefined on input li
 ne 40.
 
 
-Package natbib Warning: Citation `Purcell1979' on page 17 undefined on input li
+Package natbib Warning: Citation `Purcell1979' on page 18 undefined on input li
 ne 40.
 
 
-Package natbib Warning: Citation `Spitzer1979' on page 17 undefined on input li
+Package natbib Warning: Citation `Spitzer1979' on page 18 undefined on input li
 ne 40.
 
 
-Package natbib Warning: Citation `Andersson2015' on page 17 undefined on input 
+Package natbib Warning: Citation `Andersson2015' on page 18 undefined on input 
 line 40.
 
 
-Package natbib Warning: Citation `Lazarian2007a' on page 17 undefined on input 
+Package natbib Warning: Citation `Lazarian2007a' on page 18 undefined on input 
 line 40.
 
 
-Package natbib Warning: Citation `Andersson2007' on page 17 undefined on input 
+Package natbib Warning: Citation `Andersson2007' on page 18 undefined on input 
 line 40.
 
 
-Package natbib Warning: Citation `Andersson2010' on page 17 undefined on input 
+Package natbib Warning: Citation `Andersson2010' on page 18 undefined on input 
 line 40.
 
 
-Package natbib Warning: Citation `Lazarian2007b' on page 17 undefined on input 
+Package natbib Warning: Citation `Lazarian2007b' on page 18 undefined on input 
 line 42.
 
 
-Package natbib Warning: Citation `Hoang2015' on page 17 undefined on input line
+Package natbib Warning: Citation `Hoang2015' on page 18 undefined on input line
  42.
 
 
-Package natbib Warning: Citation `Weingartner2008' on page 17 undefined on inpu
+Package natbib Warning: Citation `Weingartner2008' on page 18 undefined on inpu
 t line 42.
 
-[17]
 
 Package natbib Warning: Citation `Goodman1995' on page 18 undefined on input li
 ne 46.
@@ -1353,11 +1347,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
+[18 <./images/Allsky_dust_fig.pdf>]
 
-Package natbib Warning: Citation `Hensley2018' on page 18 undefined on input li
+Package natbib Warning: Citation `Hensley2018' on page 19 undefined on input li
 ne 49.
 
-[18 <./images/Allsky_dust_fig.pdf>]
 
 Package natbib Warning: Citation `Smith2000' on page 19 undefined on input line
  51.
@@ -1444,11 +1438,11 @@ line 88.
 Package natbib Warning: Citation `Kandel:2017' on page 20 undefined on input li
 ne 88.
 
+[20]
 
-Package natbib Warning: Citation `Planck2018:XI' on page 20 undefined on input 
+Package natbib Warning: Citation `Planck2018:XI' on page 21 undefined on input 
 line 91.
 
-[20]
 
 Package natbib Warning: Citation `HI4PI:2016' on page 21 undefined on input lin
 e 93.
@@ -1461,42 +1455,42 @@ Package natbib Warning: Citation `Peek:2018' on page 21 undefined on input line
 Package natbib Warning: Citation `McClure-Griffiths2015' on page 21 undefined o
 n input line 93.
 
-) (./legacysci.tex <images/fig_SED3_PICO.jpg, id=607, 325.9377pt x 218.0145pt>
+) (./legacysci.tex <images/fig_SED3_PICO.jpg, id=651, 325.9377pt x 218.0145pt>
 File: images/fig_SED3_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_SED3_PICO.jpg>
 Package pdftex.def Info: images/fig_SED3_PICO.jpg used on input line 8.
 (pdftex.def)             Requested size: 225.4804pt x 150.82602pt.
 
-<images/NgtF_500micron.png, id=609, 1047.915pt x 994.71625pt>
+<images/NgtF_500micron.png, id=653, 1047.915pt x 994.71625pt>
 File: images/NgtF_500micron.png Graphic file (type png)
 
 <use images/NgtF_500micron.png>
 Package pdftex.def Info: images/NgtF_500micron.png used on input line 9.
 (pdftex.def)             Requested size: 225.47322pt x 156.4865pt.
- [21 <./images/fig_SED3_PICO.jpg> <./images/NgtF_500micron.png>]
-<images/fig_protocl_PICO.jpg, id=636, 348.8232pt x 246.6816pt>
+ [21] [22 <./images/fig_SED3_PICO.jpg> <./images/NgtF_500micron.png>]
+<images/fig_protocl_PICO.jpg, id=689, 348.8232pt x 246.6816pt>
 File: images/fig_protocl_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_protocl_PICO.jpg>
 Package pdftex.def Info: images/fig_protocl_PICO.jpg used on input line 92.
 (pdftex.def)             Requested size: 150.32504pt x 106.30815pt.
 
-<images/Oteo_2018_protocl.jpg, id=638, 250.7769pt x 270.2898pt>
+<images/Oteo_2018_protocl.jpg, id=691, 250.7769pt x 270.2898pt>
 File: images/Oteo_2018_protocl.jpg Graphic file (type jpg)
 
 <use images/Oteo_2018_protocl.jpg>
 Package pdftex.def Info: images/Oteo_2018_protocl.jpg used on input line 93.
 (pdftex.def)             Requested size: 150.32953pt x 105.27237pt.
 
-<images/NgtFclumps_800GHz.png, id=640, 1371.9255pt x 1163.547pt>
+<images/NgtFclumps_800GHz.png, id=693, 1371.9255pt x 1163.547pt>
 File: images/NgtFclumps_800GHz.png Graphic file (type png)
 
 <use images/NgtFclumps_800GHz.png>
 Package pdftex.def Info: images/NgtFclumps_800GHz.png used on input line 94.
 (pdftex.def)             Requested size: 150.30519pt x 105.26509pt.
- [22] [23 <./images/fig_protocl_PICO.jpg> <./images/Oteo_2018_protocl.jpg> <./i
-mages/NgtFclumps_800GHz.png>])
+ [23 <./images/fig_protocl_PICO.jpg> <./images/Oteo_2018_protocl.jpg> <./images
+/NgtFclumps_800GHz.png>])
 Overfull \hbox (22.81671pt too wide) in paragraph at lines 215--215
 |[]\T1/ptm/b/n/12 Complementarity with Other Sur-veys and with Sub-Orbital Mea-
 sure-ments (1 pg, Lawrence,
@@ -1508,7 +1502,7 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 37.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) [27] [28]
-<images/bsky_pico_comb_90.00_mean_weight3.pdf, id=738, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.00_mean_weight3.pdf, id=781, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.00_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.00_mean_weight3.pdf>
@@ -1516,7 +1510,7 @@ Package pdftex.def Info: images/bsky_pico_comb_90.00_mean_weight3.pdf used on i
 nput line 118.
 (pdftex.def)             Requested size: 281.85587pt x 364.7566pt.
 
-<images/bsky_pico_comb_90.91_mean_weight3.pdf, id=739, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.91_mean_weight3.pdf, id=782, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.91_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.91_mean_weight3.pdf>
@@ -1528,7 +1522,7 @@ Overfull \hbox (69.23677pt too wide) in paragraph at lines 118--121
 [][]  [] 
  []
 
-<images/bsky_pico_comb_90.92_mean_weight3.pdf, id=740, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.92_mean_weight3.pdf, id=783, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.92_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.92_mean_weight3.pdf>
@@ -1536,7 +1530,7 @@ Package pdftex.def Info: images/bsky_pico_comb_90.92_mean_weight3.pdf used on i
 nput line 122.
 (pdftex.def)             Requested size: 281.85587pt x 364.7566pt.
 
-<images/bsky_pico_comb_90.93_mean_weight3.pdf, id=741, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.93_mean_weight3.pdf, id=784, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.93_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.93_mean_weight3.pdf>
@@ -1548,7 +1542,7 @@ Overfull \hbox (69.23677pt too wide) in paragraph at lines 122--125
 [][]  [] 
  []
 
-<images/bsky_pico_comb_90.96_mean_weight3.pdf, id=742, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.96_mean_weight3.pdf, id=785, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.96_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.96_mean_weight3.pdf>
@@ -1556,7 +1550,7 @@ Package pdftex.def Info: images/bsky_pico_comb_90.96_mean_weight3.pdf used on i
 nput line 126.
 (pdftex.def)             Requested size: 281.85587pt x 364.7566pt.
 
-<images/bsky_pico_comb_90.99_mean_weight3.pdf, id=743, 614.295pt x 794.97pt>
+<images/bsky_pico_comb_90.99_mean_weight3.pdf, id=786, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.99_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.99_mean_weight3.pdf>
@@ -1807,17 +1801,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 132.
 
-LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 142.
 [29] [30 <./images/bsky_pico_comb_90.00_mean_weight3.pdf> <./images/bsky_pico_c
 omb_90.91_mean_weight3.pdf> <./images/bsky_pico_comb_90.92_mean_weight3.pdf> <.
 /images/bsky_pico_comb_90.93_mean_weight3.pdf> <./images/bsky_pico_comb_90.96_m
-ean_weight3.pdf> <./images/bsky_pico_comb_90.99_mean_weight3.pdf>])
-(./systematics.tex [31]
+ean_weight3.pdf> <./images/bsky_pico_comb_90.99_mean_weight3.pdf>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 142.
+ [31])
+(./systematics.tex
 
 Package natbib Warning: Citation `Takahaski2010' on page 32 undefined on input 
 line 21.
 
+[32]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
@@ -1848,9 +1844,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--120
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Overfull \hbox (1.3334pt too wide) in paragraph at lines 130--130
 []\T1/ptm/b/n/8 Risk| 
  []
@@ -1866,7 +1859,7 @@ Underfull \hbox (badness 1178) in paragraph at lines 133--133
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 32 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 33 undefined on input 
 line 137.
 
 
@@ -1875,15 +1868,15 @@ Underfull \hbox (badness 1466) in paragraph at lines 137--138
  []
 
 
-Package natbib Warning: Citation `Pajot_2010' on page 32 undefined on input lin
+Package natbib Warning: Citation `Pajot_2010' on page 33 undefined on input lin
 e 143.
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 32 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 33 undefined on input 
 line 144.
 
 
-Package natbib Warning: Citation `CORE_systematics' on page 32 undefined on inp
+Package natbib Warning: Citation `CORE_systematics' on page 33 undefined on inp
 ut line 144.
 
 
@@ -1904,11 +1897,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--151
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 32 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 33 undefined on input 
 line 154.
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 32 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 33 undefined on input 
 line 161.
 
 
@@ -1922,7 +1915,7 @@ Underfull \hbox (badness 1117) in paragraph at lines 161--162
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 32 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 33 undefined on input 
 line 178.
 
 
@@ -1931,7 +1924,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--179
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 32 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 33 undefined on input 
 line 198.
 
 
@@ -1955,7 +1948,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
  []
 
 
-Package natbib Warning: Citation `Planck_Lowell' on page 32 undefined on input 
+Package natbib Warning: Citation `Planck_Lowell' on page 33 undefined on input 
 line 226.
 
 
@@ -1966,51 +1959,51 @@ Underfull \hbox (badness 2961) in paragraph at lines 228--230
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32] <images/PICO_rotate_eb3_v0.pdf, id=843, 597.23125pt x 397.485pt>
-File: images/PICO_rotate_eb3_v0.pdf Graphic file (type pdf)
+<images/PICO_rotate_eb4_v2.pdf, id=881, 597.23125pt x 397.485pt>
+File: images/PICO_rotate_eb4_v2.pdf Graphic file (type pdf)
 
-<use images/PICO_rotate_eb3_v0.pdf>
-Package pdftex.def Info: images/PICO_rotate_eb3_v0.pdf used on input line 265.
+<use images/PICO_rotate_eb4_v2.pdf>
+Package pdftex.def Info: images/PICO_rotate_eb4_v2.pdf used on input line 265.
 (pdftex.def)             Requested size: 375.80544pt x 250.11967pt.
- [33]
+
 
 Package natbib Warning: Author undefined for citation`Planck2016_XLIX' 
-(natbib)                on page 34 on input line 299.
+(natbib)                on page 33 on input line 299.
 
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
-(natbib)                on page 34 on input line 299.
+(natbib)                on page 33 on input line 299.
 
-<images/calibration_spectra.pdf, id=859, 686.26389pt x 334.24562pt>
+[33] <images/calibration_spectra.pdf, id=900, 686.26389pt x 334.24562pt>
 File: images/calibration_spectra.pdf Graphic file (type pdf)
 
 <use images/calibration_spectra.pdf>
 Package pdftex.def Info: images/calibration_spectra.pdf used on input line 316.
 
 (pdftex.def)             Requested size: 328.82707pt x 160.15556pt.
- [34 <./images/PICO_rotate_eb3_v0.pdf>]
-[35 <./images/calibration_spectra.pdf>]) (./requirements.tex [36]
+ [34] [35 <./images/PICO_rotate_eb4_v2.pdf> <./images/calibration_spectra.pdf>]
+ [36]) (./requirements.tex
 
 LaTeX Warning: Reference `sec:lensing' on page 37 undefined on input line 53.
 
-) (./instrument.tex
+[37]) (./instrument.tex
 Overfull \hbox (3.97798pt too wide) in paragraph at lines 5--6
 \T1/ptm/m/n/12 Telescope (Hanany / Young), fo-cal plane (Hanany / Young), cool-
 ing (Trangsrud), read-out (O'Brient) 
  []
 
-) (./mission.tex) (./technology.tex) (./cost.tex) [37] [38] (./PICOReport.bbl
+) (./mission.tex) (./technology.tex) (./cost.tex) [38] (./PICOReport.bbl
 Underfull \hbox (badness 2150) in paragraph at lines 36--41
 []\T1/ptm/m/n/12 Francis-Yan Cyr-Racine, Roland de Put-ter, Alvise Rac-canelli,
  and Kris Sig-urd-son.
  []
 
-[39] [40] [41] [42] [43] [44] [45] [46] [47]) (./acronym.tex)
+[39] [40] [41] [42] [43] [44] [45] [46] [47] [48]) (./acronym.tex)
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
-[48]
+[49]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
  (./PICOReport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
@@ -2024,13 +2017,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
- 11399 strings out of 493014
- 168127 string characters out of 6133351
- 291867 words of memory out of 5000000
- 14461 multiletter control sequences out of 15000+600000
+ 11476 strings out of 493014
+ 169767 string characters out of 6133351
+ 289219 words of memory out of 5000000
+ 14518 multiletter control sequences out of 15000+600000
  113037 words of font info for 180 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,15n,92p,1677b,726s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,15n,92p,1677b,802s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
@@ -2052,10 +2045,10 @@ symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr
 .pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (49 pages, 4327629 bytes).
+Output written on PICOReport.pdf (50 pages, 4289868 bytes).
 PDF statistics:
- 1073 PDF objects out of 1200 (max. 8388607)
- 772 compressed objects within 8 object streams
- 179 named destinations out of 1000 (max. 500000)
+ 1125 PDF objects out of 1200 (max. 8388607)
+ 821 compressed objects within 9 object streams
+ 199 named destinations out of 1000 (max. 500000)
  389 words of extra memory for PDF output out of 10000 (max. 10000000)
 
