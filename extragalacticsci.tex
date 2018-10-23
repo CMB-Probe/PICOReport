@@ -82,28 +82,20 @@ Matter between us and the CMB last-scattering surface deflects the path of photo
 matter distribution across the volume of the universe onto the CMB maps. 
 
 The specific quantity being mapped is the projected gravitational 
-potential $\phi$ that is lensing the CMB. A map of $\phi$ is the `lensing potential map' from which we form the angular power spectrum 
-$C_{\ell}^{\phi \phi}$.  
+potential $\phi$ that is lensing the CMB. A map of $\phi$ is the `lensing potential map' which we can reconstruct from the data, and from which we form the angular power spectrum 
+$C_{\ell}^{\phi \phi}$ which depends on cosmological parameters.  
 Both the temperature and polarization maps of the CMB are affected by lensing, and subsequently the angular power spectra. One of the most 
-pronounced effects is the existence of the `B-mode lensing power spectrum'; 
+pronounced effects is the existence of the `lensing B-mode power spectrum'; 
 see Figure~\ref{??}.\footnote{It is a result of graviational lensing of E-modes into B-modes.}  
-While \planck~  had a signal-to-noise ratio (SNR) of 40~\cite{ } \comor{map or phi-phi?}, 
-the PICO combination of resolution, sensitivity and sky coverage \comor{is sky coverage important} enables a measurement with SNR of 638 and 737 
-for the required and CBE configurations, respectively. When accounting for possible foreground contamination, its broad frequency coverage leads 
+
+The value of the reconstructed lensing map is immense, as has already been seen with {\it Planck}. The lensing map is most sensitive to 
+structures at redshift $z \simeq 2$ and represents true mapping (with mode-level signal to noise ratio greater than unity) down to scales of approximately ten arcminutes.  On smaller scales, the map will still contain statistical information.
+
+While \planck~  had a signal-to-noise ratio (SNR) of 40~\citep{2018arXiv180706210P} in the power spectrum of the reconstructed $\phi$ map,
+the PICO combination of resolution, sensitivity and sky coverage  enables a measurement with SNR of 638 and 737 
+for the required and CBE configurations, respectively.  When accounting for possible foreground contamination, its broad frequency coverage leads 
 to a reduction of SNR of less than 20\%; see Figure~\ref{fig:lensingNoisePICO}.  
 % say something about "the best measurement"...?
-The value of such a deep lensing map is immense, as has already been seen with {\it Planck}. The lensing map is most sensitive to 
-structures at redshift $z \simeq 2$ and down to scales of approximately ten arcminutes \comor{talk to Alex; there is a
-comment about `wide range of angular scales'}.  
-Tomographic cross-correlations of the lensing map with samples of galaxies and quasars will yield constraints 
-on structure formation out to redshifts inaccessible to galaxy surveys or galaxy weak lensing maps on their own. \comor{can we talk
-about specific coming surveys?}
-%, particularly through the high-S/N cross-correlation science that will be enabled.  
- These measurements will yield constraints on dark energy, modified gravity, and neutrino mass. Note that this neutrino mass constraint is 
- complementary to that inferred from the CMB lensing auto-power spectrum described earlier \comor{check how we referred to it
- earlier. do we have quantitative values for the constraints?}.  The measurements will constrain the properties of quasars and 
- other high-redshift astrophysics, e.g., a precise determination of the quasar bias (and hence host halo mass) as a function of their 
- properties, such as (non-)obscuration \comor{need to talk to Alex/Marcel about this}.  We provide further quantitative cross-correlation forecasts below.  
 
 % Fig.~\ref{fig:lensingNoisePICO} shows per-mode noise curves for the reconstruction of CMB lensing from PICO, demonstrating the wide range of angular scales over which the matter density field will be  mapped.  \textbf{Add brief discussion of foreground robustness demonstrated in Fig.~\ref{fig:lensingNoisePICO}}
 
@@ -113,7 +105,7 @@ about specific coming surveys?}
 \includegraphics[width=3.0in]{images/lensingNoisePICO.pdf} } }
 \hspace{0.in}
 \parbox{3.5in}{
-\caption{\label{fig:lensingNoisePICO} Lensing noise curves for various experimental configurations, showing the noise per mode of the reconstructed lensing field.  The signal curve, i.e., the CMB lensing power spectrum, is shown in grey; mapping of the matter density field is possible on scales where the noise curves fall below this signal.  Shown in solid are the performance of the $EB$ polarization estimator, including iterated delensing; this estimator performs best on large angular scales.  On smaller angular scales the temperature ($TT$) estimator shows the best performance. The associated signal to noise ratio for the lensing power spectrum is 570 for the 'requirement' configuration and 650 for the 'CBE' configuration. \textbf{Update with foreground-cleaned polarization noise curve(s) to demonstrate robustness.} } }
+\caption{\label{fig:lensingNoisePICO} Lensing noise curves for various experimental configurations, showing the noise per mode of the reconstructed lensing field.  The signal curve, i.e., the CMB lensing power spectrum, is shown in grey; mapping of the matter density field is possible on scales where the noise curves fall below this signal.  Curves include combining the result from lensing of polarization (which dominates at large scales)  with that of temperature (which dominates on small scales).  The expected performance of the requirement sensitivity in shown in solid, and the current best estimate is shown dashed.  We have included foreground power in polarization; blue curves are for no deprojection of foregrounds, and brown curves are for deprojection of dust and synchotron.  The associated signal to noise ratio for the lensing power spectrum is 570 for the 'requirement' configuration and 650 for the 'CBE' configuration.  }
 \vspace{-0.1in}
 \end{figure}
 
@@ -156,6 +148,49 @@ Halo lensing will enable use to calibrate the galaxy cluster mass scale critical
 \end{figure}
 
 \textbf{- Cross-correlation forecast (Marcel)}
+\comor{alex moved this text down here, as it is about cross correlations} 
+Tomographic cross-correlations of the lensing map with samples of galaxies and quasars will yield constraints 
+on structure formation.
+%, particularly through the high-S/N cross-correlation science that will be enabled.  
+The measurements will constrain the properties of quasars and 
+other high-redshift astrophysics, e.g., a precise determination of the quasar bias (and hence host halo mass) as a function of their 
+properties, such as (non-)obscuration. 
+
+\comor{Next two paragraphs section drafted by AVE with MS away - needs verification.} It will also be possible to use cross correlations to probe fundamental physics.  For instance, one can use correlations between large scale structure tracers with different clustering bias factors to effectively cancel cosmic variance  \citep{2009PhRvL.102b1302S,2018PhRvD..97l3540S} and constrain physics that affects the biasing of objects on large scales, such as primordial local non-Gaussianity \citep{2008PhRvD..77l3514D}.  In Fig.~\ref{fig:fnlconstraint} we show the expected constraints for the CMB lensing field as reconstructed with PICO, in cross correlation with  three years of the LSST survey. It can be seen that depending on the minimal multipole that can be used in the cross correlation, which is uncertain in both LSST and the PICO lensing map, the well-motivated theory target of $\sigma (f_\mathrm{NL}) \simeq 1$ \citep{2014arXiv1412.4671A} can be within reach.
+
+
+
+Using the same cross-correlation techniques, it is also possible to constrain the evolution of the amplitude of structure as a function of redshift.  Figure \ref{fig:sigma8constraint} shows constraints on the amplitude of linear structures in several redshift bins.
+These measurements will yield constraints on dark energy, modified gravity, and neutrino mass. Note that this neutrino mass constraint is 
+complementary to that inferred from the CMB lensing auto-power spectrum described earlier.  
+
+
+
+\begin{figure}
+\hspace{-0.in}
+\parbox{3.1in}{\centerline {
+\includegraphics[width=3.0in]{images/fnl_PICOv4.1b_deproj0_SENS0.pdf} } }
+\hspace{0.in}
+\parbox{3.5in}{
+\caption{\label{fig:fnlconstraint} Forecasted sensitivity to  the parameter describing primordial non-Gaussianity of the local type for the PICO CMB lensing map together with three years of the LSST survey, as a function of the minimal multipole used in the analysis. A value of $\sigma (f_\mathrm{NL}) \simeq 1$ is a well-motivated theoretical target.  } }
+\vspace{-0.1in}
+\end{figure}
+
+
+
+
+
+\begin{figure}
+\hspace{-0.in}
+\parbox{3.1in}{\centerline {
+\includegraphics[width=3.0in]{images/sigma8_PICOv4.1b_deproj0_SENS0.pdf} } }
+\hspace{0.in}
+\parbox{3.5in}{
+\caption{\label{fig:sigma8constraint} Forecasted sensitivity to  the parameter describing the amplitude of structure in various redshift bins, as a function of the maximal multipole used in the analysis.  Percent-level constraints on these parameters allow for stringent tests of physics beyond $\Lambda$CDM that modify the rate of growth of structure. } }
+\vspace{-0.1in}
+\end{figure}
+
+
 
 
 {\bf Physics of Galaxy Formation via the Sunyaev-Zel'dovich (SZ) Effects}
