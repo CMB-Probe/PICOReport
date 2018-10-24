@@ -27,28 +27,98 @@ Daniel Green, Joel Meyers, and Alexander van Engelen.
 \newblock {CMB Delensing Beyond the B Modes}.
 \newblock {\em ArXiv e-prints}, 2016.
 
+\bibitem{2013arXiv1310.8327C}
+P.~{Cushman}, C.~{Galbiati}, D.~N. {McKinsey}, H.~{Robertson}, T.~M.~P. {Tait},
+  D.~{Bauer}, A.~{Borgland}, B.~{Cabrera}, F.~{Calaprice}, J.~{Cooley},
+  T.~{Empl}, R.~{Essig}, E.~{Figueroa-Feliciano}, R.~{Gaitskell}, S.~{Golwala},
+  J.~{Hall}, R.~{Hill}, A.~{Hime}, E.~{Hoppe}, L.~{Hsu}, E.~{Hungerford},
+  R.~{Jacobsen}, M.~{Kelsey}, R.~F. {Lang}, W.~H. {Lippincott}, B.~{Loer},
+  S.~{Luitz}, V.~{Mandic}, J.~{Mardon}, J.~{Maricic}, R.~{Maruyama},
+  R.~{Mahapatra}, H.~{Nelson}, J.~{Orrell}, K.~{Palladino}, E.~{Pantic},
+  R.~{Partridge}, A.~{Ryd}, T.~{Saab}, B.~{Sadoulet}, R.~{Schnee},
+  W.~{Shepherd}, A.~{Sonnenschein}, P.~{Sorensen}, M.~{Szydagis},
+  T.~{Volansky}, M.~{Witherell}, D.~{Wright}, and K.~{Zurek}.
+\newblock {Snowmass CF1 Summary: WIMP Dark Matter Direct Detection}.
+\newblock {\em ArXiv e-prints}, October 2013.
+
+\bibitem{2018PhRvD..97l3013K}
+B.~J. {Kavanagh}.
+\newblock {Earth scattering of superheavy dark matter: Updated constraints from
+  detectors old and new}.
+\newblock {\em \prd}, 97(12):123013, June 2018.
+
+\bibitem{2002astro.ph..2496C}
+X.~{Chen}, S.~{Hannestad}, and R.~J. {Scherrer}.
+\newblock {Cosmic microwave background and large scale structure limits on the
+  interaction between dark matter and baryons}.
+\newblock {\em ArXiv Astrophysics e-prints}, February 2002.
+
+\bibitem{2004PhRvD..70h3501S}
+K.~{Sigurdson}, M.~{Doran}, A.~{Kurylov}, R.~R. {Caldwell}, and
+  M.~{Kamionkowski}.
+\newblock {Dark-matter electric and magnetic dipole moments}.
+\newblock {\em \prd}, 70(8):083501, October 2004.
+
 \bibitem{Dvorkin:2013cea}
 Cora Dvorkin, Kfir Blum, and Marc Kamionkowski.
 \newblock {Constraining Dark Matter-Baryon Scattering with Linear Cosmology}.
 \newblock {\em Phys. Rev.}, D89(2):023519, 2014.
 
-\bibitem{Cyr-Racine:2013fsa}
-Francis-Yan Cyr-Racine, Roland de~Putter, Alvise Raccanelli, and Kris
-  Sigurdson.
-\newblock {Constraints on Large-Scale Dark Acoustic Oscillations from
-  Cosmology}.
-\newblock {\em Phys. Rev.}, D89(6):063517, 2014.
+\bibitem{2018PhRvL.121h1301G}
+V.~{Gluscevic} and K.~K. {Boddy}.
+\newblock {Constraints on Scattering of keV-TeV Dark Matter with Protons in the
+  Early Universe}.
+\newblock {\em Physical Review Letters}, 121(8):081301, August 2018.
 
-\bibitem{Buen-Abad:2015ova}
-Manuel~A. Buen-Abad, Gustavo Marques-Tavares, and Martin Schmaltz.
-\newblock {Non-Abelian dark matter and dark radiation}.
-\newblock {\em Phys. Rev.}, D92(2):023531, 2015.
+\bibitem{2018arXiv180108609B}
+K.~K. {Boddy} and V.~{Gluscevic}.
+\newblock {First Cosmological Constraint on the Effective Theory of Dark
+  Matter-Proton Interactions}.
+\newblock {\em ArXiv e-prints}, January 2018.
 
-\bibitem{Lesgourgues:2015wza}
-Julien Lesgourgues, Gustavo Marques-Tavares, and Martin Schmaltz.
-\newblock {Evidence for dark matter interactions in cosmological precision
-  data?}
-\newblock {\em JCAP}, 1602(02):037, 2016.
+\bibitem{2018PhRvD..97j3530X}
+W.~L. {Xu}, C.~{Dvorkin}, and A.~{Chael}.
+\newblock {Probing sub-GeV dark matter-baryon scattering with cosmological
+  observables}.
+\newblock {\em \prd}, 97(10):103530, May 2018.
+
+\bibitem{2018arXiv180800001B}
+K.~K. {Boddy}, V.~{Gluscevic}, V.~{Poulin}, E.~D. {Kovetz}, M.~{Kamionkowski},
+  and R.~{Barkana}.
+\newblock {A Critical Assessment of CMB Limits on Dark Matter-Baryon
+  Scattering: New Treatment of the Relative Bulk Velocity}.
+\newblock {\em ArXiv e-prints}, July 2018.
+
+\bibitem{2018PhRvD..98b3013S}
+T.~R. {Slatyer} and C.-L. {Wu}.
+\newblock {Early-Universe constraints on dark matter-baryon scattering and
+  their implications for a global 21 cm signal}.
+\newblock {\em \prd}, 98(2):023013, July 2018.
+
+\bibitem{2018arXiv180511616D}
+R.~{de Putter}, O.~{Dor{\'e}}, J.~{Gleyzes}, D.~{Green}, and J.~{Meyers}.
+\newblock {Dark Matter Interactions, Helium, and the CMB}.
+\newblock {\em ArXiv e-prints}, May 2018.
+
+\bibitem{2018Natur.555...67B}
+J.~D. {Bowman}, A.~E.~E. {Rogers}, R.~A. {Monsalve}, T.~J. {Mozdzen}, and
+  N.~{Mahesh}.
+\newblock {An absorption profile centred at 78 megahertz in the sky-averaged
+  spectrum}.
+\newblock {\em \nat}, 555:67--70, March 2018.
+
+\bibitem{2018Natur.555...71B}
+R.~{Barkana}.
+\newblock {Possible interaction between baryons and dark-matter particles
+  revealed by the first stars}.
+\newblock {\em \nat}, 555:71--74, March 2018.
+
+\bibitem{2018arXiv180711482K}
+E.~D. {Kovetz}, V.~{Poulin}, V.~{Gluscevic}, K.~K. {Boddy}, R.~{Barkana}, and
+  M.~{Kamionkowski}.
+\newblock {Tighter Limits on Dark Matter Explanations of the Anomalous EDGES
+  21cm Signal}.
+\newblock {\em ArXiv e-prints}, July 2018.
 
 \bibitem{planck2016_xlvi}
 {Planck Collaboration}, N.~{Aghanim}, M.~{Ashdown}, J.~{Aumont},
@@ -263,16 +333,27 @@ Peter A.~R. Ade et~al.
 \newblock {Planck 2018 results. VIII. Gravitational lensing}.
 \newblock {\em ArXiv e-prints}, July 2018.
 
-\bibitem{2004PhRvD..69d3005S}
-U.~{Seljak} and C.~M. {Hirata}.
-\newblock {Gravitational lensing as a contaminant of the gravity wave signal in
-  the CMB}.
-\newblock {\em \prd}, 69(4):043005, February 2004.
+\bibitem{2009PhRvL.102b1302S}
+U.~{Seljak}.
+\newblock {Extracting Primordial Non-Gaussianity without Cosmic Variance}.
+\newblock {\em Physical Review Letters}, 102(2):021302, January 2009.
 
-\bibitem{2012JCAP...06..014S}
-K.~M. {Smith}, D.~{Hanson}, M.~{LoVerde}, C.~M. {Hirata}, and O.~{Zahn}.
-\newblock {Delensing CMB polarization with external datasets}.
-\newblock {\em \jcap}, 6:014, June 2012.
+\bibitem{2018PhRvD..97l3540S}
+M.~{Schmittfull} and U.~{Seljak}.
+\newblock {Parameter constraints from cross-correlation of CMB lensing with
+  galaxy clustering}.
+\newblock {\em \prd}, 97(12):123540, June 2018.
+
+\bibitem{2014arXiv1412.4671A}
+M.~{Alvarez}, T.~{Baldauf}, J.~R. {Bond}, N.~{Dalal}, R.~{de Putter},
+  O.~{Dor{\'e}}, D.~{Green}, C.~{Hirata}, Z.~{Huang}, D.~{Huterer}, D.~{Jeong},
+  M.~C. {Johnson}, E.~{Krause}, M.~{Loverde}, J.~{Meyers}, P.~D. {Meerburg},
+  L.~{Senatore}, S.~{Shandera}, E.~{Silverstein}, A.~{Slosar}, K.~{Smith},
+  M.~{Zaldarriaga}, V.~{Assassi}, J.~{Braden}, A.~{Hajian}, T.~{Kobayashi},
+  G.~{Stein}, and A.~{van Engelen}.
+\newblock {Testing Inflation with Large Scale Structure: Connecting Hopes with
+  Reality}.
+\newblock {\em ArXiv e-prints}, December 2014.
 
 \bibitem{2015ApJ...806..247B}
 E.~J. {Baxter}, R.~{Keisler}, S.~{Dodelson}, K.~A. {Aird}, S.~W. {Allen},
@@ -313,27 +394,16 @@ J.-B. {Melin} and J.~G. {Bartlett}.
 \newblock {Measuring cluster masses with CMB lensing: a statistical approach}.
 \newblock {\em \aap}, 578:A21, June 2015.
 
-\bibitem{2009PhRvL.102b1302S}
-U.~{Seljak}.
-\newblock {Extracting Primordial Non-Gaussianity without Cosmic Variance}.
-\newblock {\em Physical Review Letters}, 102(2):021302, January 2009.
+\bibitem{2004PhRvD..69d3005S}
+U.~{Seljak} and C.~M. {Hirata}.
+\newblock {Gravitational lensing as a contaminant of the gravity wave signal in
+  the CMB}.
+\newblock {\em \prd}, 69(4):043005, February 2004.
 
-\bibitem{2018PhRvD..97l3540S}
-M.~{Schmittfull} and U.~{Seljak}.
-\newblock {Parameter constraints from cross-correlation of CMB lensing with
-  galaxy clustering}.
-\newblock {\em \prd}, 97(12):123540, June 2018.
-
-\bibitem{2014arXiv1412.4671A}
-M.~{Alvarez}, T.~{Baldauf}, J.~R. {Bond}, N.~{Dalal}, R.~{de Putter},
-  O.~{Dor{\'e}}, D.~{Green}, C.~{Hirata}, Z.~{Huang}, D.~{Huterer}, D.~{Jeong},
-  M.~C. {Johnson}, E.~{Krause}, M.~{Loverde}, J.~{Meyers}, P.~D. {Meerburg},
-  L.~{Senatore}, S.~{Shandera}, E.~{Silverstein}, A.~{Slosar}, K.~{Smith},
-  M.~{Zaldarriaga}, V.~{Assassi}, J.~{Braden}, A.~{Hajian}, T.~{Kobayashi},
-  G.~{Stein}, and A.~{van Engelen}.
-\newblock {Testing Inflation with Large Scale Structure: Connecting Hopes with
-  Reality}.
-\newblock {\em ArXiv e-prints}, December 2014.
+\bibitem{2012JCAP...06..014S}
+K.~M. {Smith}, D.~{Hanson}, M.~{LoVerde}, C.~M. {Hirata}, and O.~{Zahn}.
+\newblock {Delensing CMB polarization with external datasets}.
+\newblock {\em \jcap}, 6:014, June 2012.
 
 \bibitem{Brandenburg2005}
 A.~{Brandenburg} and K.~{Subramanian}.
