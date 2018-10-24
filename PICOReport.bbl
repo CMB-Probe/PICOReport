@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{1979ARNPS..29..313S}
 G.~{Steigman}.
@@ -224,6 +224,45 @@ Peter A.~R. Ade et~al.
   Magnetic Fields}.
 \newblock {\em Phys. Rev.}, D92:123509, 2015.
 
+\bibitem{2018arXiv180706210P}
+{Planck Collaboration}, N.~{Aghanim}, Y.~{Akrami}, M.~{Ashdown}, J.~{Aumont},
+  C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday}, R.~B. {Barreiro},
+  N.~{Bartolo}, S.~{Basak}, K.~{Benabed}, J.-P. {Bernard}, M.~{Bersanelli},
+  P.~{Bielewicz}, J.~J. {Bock}, J.~R. {Bond}, J.~{Borrill}, F.~R. {Bouchet},
+  F.~{Boulanger}, M.~{Bucher}, C.~{Burigana}, E.~{Calabrese}, J.-F. {Cardoso},
+  J.~{Carron}, A.~{Challinor}, H.~C. {Chiang}, L.~P.~L. {Colombo}, C.~{Combet},
+  B.~P. {Crill}, F.~{Cuttaia}, P.~{de Bernardis}, G.~{de Zotti},
+  J.~{Delabrouille}, E.~{Di Valentino}, J.~M. {Diego}, O.~{Dor{\'e}},
+  M.~{Douspis}, A.~{Ducout}, X.~{Dupac}, G.~{Efstathiou}, F.~{Elsner}, T.~A.
+  {En{\ss}lin}, H.~K. {Eriksen}, Y.~{Fantaye}, R.~{Fernandez-Cobos},
+  F.~{Forastieri}, M.~{Frailis}, A.~A. {Fraisse}, E.~{Franceschi}, A.~{Frolov},
+  S.~{Galeotta}, S.~{Galli}, K.~{Ganga}, R.~T. {G{\'e}nova-Santos},
+  M.~{Gerbino}, T.~{Ghosh}, J.~{Gonz{\'a}lez-Nuevo}, K.~M. {G{\'o}rski},
+  S.~{Gratton}, A.~{Gruppuso}, J.~E. {Gudmundsson}, J.~{Hamann}, W.~{Handley},
+  F.~K. {Hansen}, D.~{Herranz}, E.~{Hivon}, Z.~{Huang}, A.~H. {Jaffe}, W.~C.
+  {Jones}, A.~{Karakci}, E.~{Keih{\"a}nen}, R.~{Keskitalo}, K.~{Kiiveri},
+  J.~{Kim}, L.~{Knox}, N.~{Krachmalnicoff}, M.~{Kunz}, H.~{Kurki-Suonio},
+  G.~{Lagache}, J.-M. {Lamarre}, A.~{Lasenby}, M.~{Lattanzi}, C.~R. {Lawrence},
+  M.~{Le Jeune}, F.~{Levrier}, A.~{Lewis}, M.~{Liguori}, P.~B. {Lilje},
+  V.~{Lindholm}, M.~{L{\'o}pez-Caniego}, P.~M. {Lubin}, Y.-Z. {Ma}, J.~F.
+  {Mac{\'{\i}}as-P{\'e}rez}, G.~{Maggio}, D.~{Maino}, N.~{Mandolesi},
+  A.~{Mangilli}, A.~{Marcos-Caballero}, M.~{Maris}, P.~G. {Martin},
+  E.~{Mart{\'{\i}}nez-Gonz{\'a}lez}, S.~{Matarrese}, N.~{Mauri}, J.~D.
+  {McEwen}, A.~{Melchiorri}, A.~{Mennella}, M.~{Migliaccio}, M.-A.
+  {Miville-Desch{\^e}nes}, D.~{Molinari}, A.~{Moneti}, L.~{Montier},
+  G.~{Morgante}, A.~{Moss}, P.~{Natoli}, L.~{Pagano}, D.~{Paoletti},
+  B.~{Partridge}, G.~{Patanchon}, F.~{Perrotta}, V.~{Pettorino},
+  F.~{Piacentini}, L.~{Polastri}, G.~{Polenta}, J.-L. {Puget}, J.~P. {Rachen},
+  M.~{Reinecke}, M.~{Remazeilles}, A.~{Renzi}, G.~{Rocha}, C.~{Rosset},
+  G.~{Roudier}, J.~A. {Rubi{\~n}o-Mart{\'{\i}}n}, B.~{Ruiz-Granados},
+  L.~{Salvati}, M.~{Sandri}, M.~{Savelainen}, D.~{Scott}, C.~{Sirignano},
+  R.~{Sunyaev}, A.-S. {Suur-Uski}, J.~A. {Tauber}, D.~{Tavagnacco}, M.~{Tenti},
+  L.~{Toffolatti}, M.~{Tomasi}, T.~{Trombetti}, J.~{Valiviita}, B.~{Van Tent},
+  P.~{Vielva}, F.~{Villa}, N.~{Vittorio}, B.~D. {Wandelt}, I.~K. {Wehus},
+  M.~{White}, S.~D.~M. {White}, A.~{Zacchei}, and A.~{Zonca}.
+\newblock {Planck 2018 results. VIII. Gravitational lensing}.
+\newblock {\em ArXiv e-prints}, July 2018.
+
 \bibitem{2004PhRvD..69d3005S}
 U.~{Seljak} and C.~M. {Hirata}.
 \newblock {Gravitational lensing as a contaminant of the gravity wave signal in
@@ -273,6 +312,385 @@ M.~{Madhavacheril}, N.~{Sehgal}, R.~{Allison}, N.~{Battaglia}, and hysical
 J.-B. {Melin} and J.~G. {Bartlett}.
 \newblock {Measuring cluster masses with CMB lensing: a statistical approach}.
 \newblock {\em \aap}, 578:A21, June 2015.
+
+\bibitem{2009PhRvL.102b1302S}
+U.~{Seljak}.
+\newblock {Extracting Primordial Non-Gaussianity without Cosmic Variance}.
+\newblock {\em Physical Review Letters}, 102(2):021302, January 2009.
+
+\bibitem{2018PhRvD..97l3540S}
+M.~{Schmittfull} and U.~{Seljak}.
+\newblock {Parameter constraints from cross-correlation of CMB lensing with
+  galaxy clustering}.
+\newblock {\em \prd}, 97(12):123540, June 2018.
+
+\bibitem{2014arXiv1412.4671A}
+M.~{Alvarez}, T.~{Baldauf}, J.~R. {Bond}, N.~{Dalal}, R.~{de Putter},
+  O.~{Dor{\'e}}, D.~{Green}, C.~{Hirata}, Z.~{Huang}, D.~{Huterer}, D.~{Jeong},
+  M.~C. {Johnson}, E.~{Krause}, M.~{Loverde}, J.~{Meyers}, P.~D. {Meerburg},
+  L.~{Senatore}, S.~{Shandera}, E.~{Silverstein}, A.~{Slosar}, K.~{Smith},
+  M.~{Zaldarriaga}, V.~{Assassi}, J.~{Braden}, A.~{Hajian}, T.~{Kobayashi},
+  G.~{Stein}, and A.~{van Engelen}.
+\newblock {Testing Inflation with Large Scale Structure: Connecting Hopes with
+  Reality}.
+\newblock {\em ArXiv e-prints}, December 2014.
+
+\bibitem{Brandenburg2005}
+A.~{Brandenburg} and K.~{Subramanian}.
+\newblock {Astrophysical magnetic fields and nonlinear dynamo theory}.
+\newblock {\em \physrep}, 417:1--209, October 2005.
+
+\bibitem{PlanckI2015}
+{Planck Collaboration}, R.~{Adam}, P.~A.~R. {Ade}, N.~{Aghanim}, Y.~{Akrami},
+  M.~I.~R. {Alves}, F.~{Arg{\"u}eso}, M.~{Arnaud}, F.~{Arroja}, M.~{Ashdown},
+  J.~{Aumont}, C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday}, R.~B.
+  {Barreiro}, J.~G. {Bartlett}, N.~{Bartolo}, S.~{Basak}, P.~{Battaglia},
+  E.~{Battaner}, R.~{Battye}, K.~{Benabed}, A.~{Beno{\^\i}t},
+  A.~{Benoit-L{\'e}vy}, J.~P. {Bernard}, M.~{Bersanelli}, B.~{Bertincourt},
+  P.~{Bielewicz}, I.~{Bikmaev}, J.~J. {Bock}, H.~{B{\"o}hringer}, A.~{Bonaldi},
+  L.~{Bonavera}, J.~R. {Bond}, J.~{Borrill}, F.~R. {Bouchet}, F.~{Boulanger},
+  M.~{Bucher}, R.~{Burenin}, C.~{Burigana}, R.~C. {Butler}, E.~{Calabrese},
+  J.~F. {Cardoso}, P.~{Carvalho}, B.~{Casaponsa}, G.~{Castex}, A.~{Catalano},
+  A.~{Challinor}, A.~{Chamballu}, R.~R. {Chary}, H.~C. {Chiang}, J.~{Chluba},
+  G.~{Chon}, P.~R. {Christensen}, S.~{Church}, M.~{Clemens}, D.~L. {Clements},
+  S.~{Colombi}, L.~P.~L. {Colombo}, C.~{Combet}, B.~{Comis}, D.~{Contreras},
+  F.~{Couchot}, A.~{Coulais}, B.~P. {Crill}, M.~{Cruz}, A.~{Curto},
+  F.~{Cuttaia}, L.~{Danese}, R.~D. {Davies}, R.~J. {Davis}, P.~{de Bernardis},
+  A.~{de Rosa}, G.~{de Zotti}, J.~{Delabrouille}, J.~M. {Delouis}, F.~X.
+  {D{\'e}sert}, E.~{Di Valentino}, C.~{Dickinson}, J.~M. {Diego}, K.~{Dolag},
+  H.~{Dole}, S.~{Donzelli}, O.~{Dor{\'e}}, M.~{Douspis}, A.~{Ducout},
+  J.~{Dunkley}, X.~{Dupac}, G.~{Efstathiou}, P.~R.~M. {Eisenhardt},
+  F.~{Elsner}, T.~A. {En{\ss}lin}, H.~K. {Eriksen}, E.~{Falgarone},
+  Y.~{Fantaye}, M.~{Farhang}, S.~{Feeney}, J.~{Fergusson},
+  R.~{Fernandez-Cobos}, F.~{Feroz}, F.~{Finelli}, E.~{Florido}, O.~{Forni},
+  M.~{Frailis}, A.~A. {Fraisse}, C.~{Franceschet}, E.~{Franceschi},
+  A.~{Frejsel}, A.~{Frolov}, S.~{Galeotta}, S.~{Galli}, K.~{Ganga},
+  C.~{Gauthier}, R.~T. {G{\'e}nova-Santos}, M.~{Gerbino}, T.~{Ghosh},
+  M.~{Giard}, Y.~{Giraud-H{\'e}raud}, E.~{Giusarma}, E.~{Gjerl{\o}w},
+  J.~{Gonz{\'a}lez-Nuevo}, K.~M. {G{\'o}rski}, K.~J.~B. {Grainge},
+  S.~{Gratton}, A.~{Gregorio}, A.~{Gruppuso}, J.~E. {Gudmundsson}, J.~{Hamann},
+  W.~{Handley}, F.~K. {Hansen}, D.~{Hanson}, D.~L. {Harrison}, A.~{Heavens},
+  G.~{Helou}, S.~{Henrot- Versill{\'e}}, C.~{Hern{\'a}ndez-Monteagudo},
+  D.~{Herranz}, S.~R. {Hildebrandt}, E.~{Hivon}, M.~{Hobson}, W.~A. {Holmes},
+  A.~{Hornstrup}, W.~{Hovest}, Z.~{Huang}, K.~M. {Huffenberger}, G.~{Hurier},
+  S.~{Ili{\'c}}, A.~H. {Jaffe}, T.~R. {Jaffe}, T.~{Jin}, W.~C. {Jones},
+  M.~{Juvela}, A.~{Karakci}, E.~{Keih{\"a}nen}, R.~{Keskitalo}, I.~{Khamitov},
+  K.~{Kiiveri}, J.~{Kim}, T.~S. {Kisner}, R.~{Kneissl}, J.~{Knoche}, L.~{Knox},
+  N.~{Krachmalnicoff}, M.~{Kunz}, H.~{Kurki-Suonio}, F.~{Lacasa}, G.~{Lagache},
+  A.~{L{\"a}hteenm{\"a}ki}, J.~M. {Lamarre}, M.~{Langer}, A.~{Lasenby},
+  M.~{Lattanzi}, C.~R. {Lawrence}, M.~{Le Jeune}, J.~P. {Leahy}, E.~{Lellouch},
+  R.~{Leonardi}, J.~{Le{\'o}n-Tavares}, J.~{Lesgourgues}, F.~{Levrier},
+  A.~{Lewis}, M.~{Liguori}, P.~B. {Lilje}, M.~{Lilley}, M.~{Linden-V{\o}rnle},
+  V.~{Lindholm}, H.~{Liu}, M.~{L{\'o}pez-Caniego}, P.~M. {Lubin}, Y.~Z. {Ma},
+  J.~F. {Mac{\'\i}as-P{\'e}rez}, G.~{Maggio}, D.~{Maino}, D.~S.~Y. {Mak},
+  N.~{Mandolesi}, A.~{Mangilli}, A.~{Marchini}, A.~{Marcos-Caballero},
+  D.~{Marinucci}, M.~{Maris}, D.~J. {Marshall}, P.~G. {Martin},
+  M.~{Martinelli}, E.~{Mart{\'\i}nez- Gonz{\'a}lez}, S.~{Masi}, S.~{Matarrese},
+  P.~{Mazzotta}, J.~D. {McEwen}, P.~{McGehee}, S.~{Mei}, P.~R. {Meinhold},
+  A.~{Melchiorri}, J.~B. {Melin}, L.~{Mendes}, A.~{Mennella}, M.~{Migliaccio},
+  K.~{Mikkelsen}, M.~{Millea}, S.~{Mitra}, M.~A. {Miville- Desch{\^e}nes},
+  D.~{Molinari}, A.~{Moneti}, L.~{Montier}, R.~{Moreno}, G.~{Morgante},
+  D.~{Mortlock}, A.~{Moss}, S.~{Mottet}, M.~{M{\"u}nchmeyer}, D.~{Munshi},
+  J.~A. {Murphy}, A.~{Narimani}, P.~{Naselsky}, A.~{Nastasi}, F.~{Nati},
+  P.~{Natoli}, M.~{Negrello}, C.~B. {Netterfield}, H.~U. {N{\o}rgaard-Nielsen},
+  F.~{Noviello}, D.~{Novikov}, I.~{Novikov}, M.~{Olamaie}, N.~{Oppermann},
+  E.~{Orlando}, C.~A. {Oxborrow}, F.~{Paci}, L.~{Pagano}, F.~{Pajot},
+  R.~{Paladini}, S.~{Pandolfi}, D.~{Paoletti}, B.~{Partridge}, F.~{Pasian},
+  G.~{Patanchon}, T.~J. {Pearson}, M.~{Peel}, H.~V. {Peiris}, V.~M. {Pelkonen},
+  O.~{Perdereau}, L.~{Perotto}, Y.~C. {Perrott}, F.~{Perrotta}, V.~{Pettorino},
+  F.~{Piacentini}, M.~{Piat}, E.~{Pierpaoli}, D.~{Pietrobon},
+  S.~{Plaszczynski}, D.~{Pogosyan}, E.~{Pointecouteau}, G.~{Polenta},
+  L.~{Popa}, G.~W. {Pratt}, G.~{Pr{\'e}zeau}, S.~{Prunet}, J.~L. {Puget}, J.~P.
+  {Rachen}, B.~{Racine}, W.~T. {Reach}, R.~{Rebolo}, M.~{Reinecke},
+  M.~{Remazeilles}, C.~{Renault}, A.~{Renzi}, I.~{Ristorcelli}, G.~{Rocha},
+  M.~{Roman}, E.~{Romelli}, C.~{Rosset}, M.~{Rossetti}, A.~{Rotti},
+  G.~{Roudier}, B.~{Rouill{\'e} d'Orfeuil}, M.~{Rowan-Robinson}, J.~A.
+  {Rubi{\~n}o-Mart{\'\i}n}, B.~{Ruiz-Granados}, C.~{Rumsey}, B.~{Rusholme},
+  N.~{Said}, V.~{Salvatelli}, L.~{Salvati}, M.~{Sandri}, H.~S. {Sanghera},
+  D.~{Santos}, R.~D.~E. {Saunders}, A.~{Sauv{\'e}}, M.~{Savelainen},
+  G.~{Savini}, B.~M. {Schaefer}, M.~P. {Schammel}, D.~{Scott}, M.~D.
+  {Seiffert}, P.~{Serra}, E.~P.~S. {Shellard}, T.~W. {Shimwell},
+  M.~{Shiraishi}, K.~{Smith}, T.~{Souradeep}, L.~D. {Spencer}, M.~{Spinelli},
+  S.~A. {Stanford}, D.~{Stern}, V.~{Stolyarov}, R.~{Stompor}, A.~W. {Strong},
+  R.~{Sudiwala}, R.~{Sunyaev}, P.~{Sutter}, D.~{Sutton}, A.~S. {Suur-Uski},
+  J.~F. {Sygnet}, J.~A. {Tauber}, D.~{Tavagnacco}, L.~{Terenzi}, D.~{Texier},
+  L.~{Toffolatti}, M.~{Tomasi}, M.~{Tornikoski}, D.~{Tramonte}, M.~{Tristram},
+  A.~{Troja}, T.~{Trombetti}, M.~{Tucci}, J.~{Tuovinen}, M.~{T{\"u}rler},
+  G.~{Umana}, L.~{Valenziano}, J.~{Valiviita}, F.~{Van Tent}, T.~{Vassallo},
+  L.~{Vibert}, M.~{Vidal}, M.~{Viel}, P.~{Vielva}, F.~{Villa}, L.~A. {Wade},
+  B.~{Walter}, B.~D. {Wandelt}, R.~{Watson}, I.~K. {Wehus}, N.~{Welikala},
+  J.~{Weller}, M.~{White}, S.~D.~M. {White}, A.~{Wilkinson}, D.~{Yvon},
+  A.~{Zacchei}, J.~P. {Zibin}, and A.~{Zonca}.
+\newblock {Planck 2015 results. I. Overview of products and scientific
+  results}.
+\newblock {\em \aap}, 594:A1, September 2016.
+
+\bibitem{Fissel2016}
+L.~M. {Fissel}, P.~A.~R. {Ade}, F.~E. {Angil{\`e}}, P.~{Ashton}, S.~J.
+  {Benton}, M.~J. {Devlin}, B.~{Dober}, Y.~{Fukui}, N.~{Galitzki}, N.~N.
+  {Gandilo}, J.~{Klein}, A.~L. {Korotkov}, Z.-Y. {Li}, P.~G. {Martin}, T.~G.
+  {Matthews}, L.~{Moncelsi}, F.~{Nakamura}, C.~B. {Netterfield}, G.~{Novak},
+  E.~{Pascale}, F.~{Poidevin}, F.~P. {Santos}, G.~{Savini}, D.~{Scott}, J.~A.
+  {Shariff}, J.~{Diego Soler}, N.~E. {Thomas}, C.~E. {Tucker}, G.~S. {Tucker},
+  and D.~{Ward-Thompson}.
+\newblock {Balloon-Borne Submillimeter Polarimetry of the Vela C Molecular
+  Cloud: Systematic Dependence of Polarization Fraction on Column Density and
+  Local Polarization-Angle Dispersion}.
+\newblock {\em \apj}, 824:134, June 2016.
+
+\bibitem{Hensley2018}
+B.~S. {Hensley} and P.~{Bull}.
+\newblock {Mitigating Complex Dust Foregrounds in Future Cosmic Microwave
+  Background Polarization Experiments}.
+\newblock {\em \apj}, 853:127, February 2018.
+
+\bibitem{Smith2000}
+C.~H. {Smith}, C.~M. {Wright}, D.~K. {Aitken}, P.~F. {Roche}, and J.~H.
+  {Hough}.
+\newblock {Studies in mid-infrared spectropolarimetry - II. An atlas of
+  spectra}.
+\newblock {\em \mnras}, 312:327--361, February 2000.
+
+\bibitem{Chiar2006}
+J.~E. {Chiar}, A.~J. {Adamson}, D.~C.~B. {Whittet}, A.~{Chrysostomou}, J.~H.
+  {Hough}, T.~H. {Kerr}, R.~E. {Mason}, P.~F. {Roche}, and G.~{Wright}.
+\newblock {Spectropolarimetry of the 3.4 {$\mu$}m Feature in the Diffuse ISM
+  toward the Galactic Center Quintuplet Cluster}.
+\newblock {\em \apj}, 651:268--271, November 2006.
+
+\bibitem{Mason2007}
+R.~E. {Mason}, G.~S. {Wright}, A.~{Adamson}, and Y.~{Pendleton}.
+\newblock {Spectropolarimetry of the 3.4 {$\mu$}m Absorption Feature in NGC
+  1068}.
+\newblock {\em \apj}, 656:798--804, February 2007.
+
+\bibitem{Planck_Int_XXII}
+{Planck Collaboration Int.~XXII}.
+\newblock {Planck intermediate results. XXII. Frequency dependence of thermal
+  emission from Galactic dust in intensity and polarization}.
+\newblock {\em \aap}, 576:A107, April 2015.
+
+\bibitem{Ashton2018}
+P.~C. {Ashton}, P.~A.~R. {Ade}, F.~E. {Angil{\`e}}, S.~J. {Benton}, M.~J.
+  {Devlin}, B.~{Dober}, L.~M. {Fissel}, Y.~{Fukui}, N.~{Galitzki}, N.~N.
+  {Gandilo}, J.~{Klein}, A.~L. {Korotkov}, Z.-Y. {Li}, P.~G. {Martin}, T.~G.
+  {Matthews}, L.~{Moncelsi}, F.~{Nakamura}, C.~B. {Netterfield}, G.~{Novak},
+  E.~{Pascale}, F.~{Poidevin}, F.~P. {Santos}, G.~{Savini}, D.~{Scott}, J.~A.
+  {Shariff}, J.~D. {Soler}, N.~E. {Thomas}, C.~E. {Tucker}, G.~S. {Tucker}, and
+  D.~{Ward-Thompson}.
+\newblock {First Observation of the Submillimeter Polarization Spectrum in a
+  Translucent Molecular Cloud}.
+\newblock {\em \apj}, 857:10, April 2018.
+
+\bibitem{Meisner2015}
+Aaron~M. {Meisner} and Douglas~P. {Finkbeiner}.
+\newblock {Modeling Thermal Dust Emission with Two Components: Application to
+  the Planck High Frequency Instrument Maps}.
+\newblock {\em \apj}, 798:88, January 2015.
+
+\bibitem{Guillet2018}
+V.~{Guillet}, L.~{Fanciullo}, L.~{Verstraete}, F.~{Boulanger}, A.~P. {Jones},
+  M.-A. {Miville-Desch{\^e}nes}, N.~{Ysard}, F.~{Levrier}, and M.~{Alves}.
+\newblock {Dust models compatible with Planck intensity and polarization data
+  in translucent lines of sight}.
+\newblock {\em \aap}, 610:A16, February 2018.
+
+\bibitem{Draine2013}
+B.~T. {Draine} and B.~{Hensley}.
+\newblock {Magnetic Nanoparticles in the Interstellar Medium: Emission Spectrum
+  and Polarization}.
+\newblock {\em \apj}, 765:159, March 2013.
+
+\bibitem{McKee2007}
+C.~F. {McKee} and E.~C. {Ostriker}.
+\newblock {Theory of Star Formation}.
+\newblock {\em \araa}, 45:565--687, September 2007.
+
+\bibitem{Crutcher2010}
+R.~M. {Crutcher}, B.~{Wandelt}, C.~{Heiles}, E.~{Falgarone}, and T.~H.
+  {Troland}.
+\newblock {Magnetic Fields in Interstellar Clouds from Zeeman Observations:
+  Inference of Total Field Strengths by Bayesian Analysis}.
+\newblock {\em \apj}, 725:466--479, December 2010.
+
+\bibitem{Clark:2014}
+S.~E. {Clark}, J.~E.~G. {Peek}, and M.~E. {Putman}.
+\newblock {Magnetically Aligned H I Fibers and the Rolling Hough Transform}.
+\newblock {\em \apj}, 789:82, July 2014.
+
+\bibitem{Clark:2015}
+S.~E. {Clark}, J.~C. {Hill}, J.~E.~G. {Peek}, M.~E. {Putman}, and B.~L.
+  {Babler}.
+\newblock {Neutral Hydrogen Structures Trace Dust Polarization Angle:
+  Implications for Cosmic Microwave Background Foregrounds}.
+\newblock {\em Physical Review Letters}, 115(24):241302, December 2015.
+
+\bibitem{Kalberla:2016}
+P.~M.~W. {Kalberla}, J.~{Kerp}, U.~{Haud}, B.~{Winkel}, N.~{Ben Bekhti},
+  L.~{Fl{\"o}er}, and D.~{Lenz}.
+\newblock {Cold Milky Way HI Gas in Filaments}.
+\newblock {\em \apj}, 821:117, April 2016.
+
+\bibitem{KalberlaKerp:2016}
+P.~M.~W. {Kalberla} and J.~{Kerp}.
+\newblock {Anisotropies in the HI gas distribution toward 3C 196}.
+\newblock {\em \aap}, 595:A37, October 2016.
+
+\bibitem{EllsworthBowers2015}
+T.~P. {Ellsworth-Bowers}, E.~{Rosolowsky}, J.~{Glenn}, A.~{Ginsburg}, N.~J.
+  {Evans}, II, C.~{Battersby}, Y.~L. {Shirley}, and B.~{Svoboda}.
+\newblock {The Bolocam Galactic Plane Survey. XII. Distance Catalog Expansion
+  Using Kinematic Isolation of Dense Molecular Cloud Structures with
+  $^{13}$CO(1-0)}.
+\newblock {\em \apj}, 799:29, January 2015.
+
+\bibitem{Soler2013}
+J.~D. {Soler}, P.~{Hennebelle}, P.~G. {Martin}, M.-A. {Miville-Desch{\^e}nes},
+  C.~B. {Netterfield}, and L.~M. {Fissel}.
+\newblock {An Imprint of Molecular Cloud Magnetization in the Morphology of the
+  Dust Polarized Emission}.
+\newblock {\em \apj}, 774:128, September 2013.
+
+\bibitem{Chen2016}
+C.-Y. {Chen}, P.~K. {King}, and Z.-Y. {Li}.
+\newblock {Change of Magnetic Field-gas Alignment at the Gravity-driven
+  Alfv{\'e}nic Transition in Molecular Clouds: Implications for Dust
+  Polarization Observations}.
+\newblock {\em \apj}, 829:84, October 2016.
+
+\bibitem{Soler2017}
+J.~D. {Soler}, P.~A.~R. {Ade}, F.~E. {Angil{\`e}}, P.~{Ashton}, S.~J. {Benton},
+  M.~J. {Devlin}, B.~{Dober}, L.~M. {Fissel}, Y.~{Fukui}, N.~{Galitzki}, N.~N.
+  {Gandilo}, P.~{Hennebelle}, J.~{Klein}, Z.-Y. {Li}, A.~L. {Korotkov}, P.~G.
+  {Martin}, T.~G. {Matthews}, L.~{Moncelsi}, C.~B. {Netterfield}, G.~{Novak},
+  E.~{Pascale}, F.~{Poidevin}, F.~P. {Santos}, G.~{Savini}, D.~{Scott}, J.~A.
+  {Shariff}, N.~E. {Thomas}, C.~E. {Tucker}, G.~S. {Tucker}, and
+  D.~{Ward-Thompson}.
+\newblock {The relation between the column density structures and the magnetic
+  field orientation in the Vela C molecular complex}.
+\newblock {\em \aap}, 603:A64, July 2017.
+
+\bibitem{Planck:XXXV}
+{Planck Collaboration Int.~XXXV}.
+\newblock {\textit{Planck} intermediate results. XXXV. Probing the role of the
+  magnetic field in the formation of structure in molecular clouds}.
+\newblock {\em \aap}, 586:A138, 2016.
+
+\bibitem{King2018}
+P.~K. {King}, L.~M. {Fissel}, C.-Y. {Chen}, and Z.-Y. {Li}.
+\newblock {Modelling dust polarization observations of molecular clouds through
+  MHD simulations}.
+\newblock {\em \mnras}, 474:5122--5142, March 2018.
+
+\bibitem{GonzalezCasanova2017}
+D.~F. {Gonz{\'a}lez-Casanova} and A.~{Lazarian}.
+\newblock {Velocity Gradients as a Tracer for Magnetic Fields}.
+\newblock {\em \apj}, 835:41, January 2017.
+
+\bibitem{Yuen2017}
+K.~H. {Yuen} and A.~{Lazarian}.
+\newblock {Tracing Interstellar Magnetic Field Using Velocity Gradient
+  Technique: Application to Atomic Hydrogen Data}.
+\newblock {\em \apjl}, 837:L24, March 2017.
+
+\bibitem{Lazarian2018}
+A.~{Lazarian} and K.~H. {Yuen}.
+\newblock {Tracing Magnetic Fields with Spectroscopic Channel Maps}.
+\newblock {\em \apj}, 853:96, January 2018.
+
+\bibitem{Davis1951}
+L.~{Davis}, Jr. and J.~L. {Greenstein}.
+\newblock {The Polarization of Starlight by Aligned Dust Grains.}
+\newblock {\em \apj}, 114:206, September 1951.
+
+\bibitem{Chandrasekhar1953}
+S.~{Chandrasekhar} and E.~{Fermi}.
+\newblock {Magnetic Fields in Spiral Arms.}
+\newblock {\em \apj}, 118:113, July 1953.
+
+\bibitem{Hildebrand2009}
+R.~H. {Hildebrand}, L.~{Kirby}, J.~L. {Dotson}, M.~{Houde}, and J.~E.
+  {Vaillancourt}.
+\newblock {Dispersion of Magnetic Fields in Molecular Clouds. I}.
+\newblock {\em \apj}, 696:567--573, May 2009.
+
+\bibitem{Houde2009}
+M.~{Houde}, J.~E. {Vaillancourt}, R.~H. {Hildebrand}, S.~{Chitsazzadeh}, and
+  L.~{Kirby}.
+\newblock {Dispersion of Magnetic Fields in Molecular Clouds. II.}
+\newblock {\em \apj}, 706:1504--1516, December 2009.
+
+\bibitem{Andersson2015}
+B.~G. {Andersson}, A.~{Lazarian}, and John~E. {Vaillancourt}.
+\newblock {Interstellar Dust Grain Alignment}.
+\newblock {\em Annual Review of Astronomy and Astrophysics}, 53:501--539,
+  August 2015.
+
+\bibitem{Seifried2018}
+D.~{Seifried}, S.~{Walch}, S.~{Reissl}, and J.~C.
+  {Ib{\'a}{\~n}ez-Mej{\'{\i}}a}.
+\newblock {SILCC-Zoom: Polarisation and depolarisation in molecular clouds}.
+\newblock {\em submitted to \apj}, April 2018.
+
+\bibitem{Miville-Deschenes2017}
+M.-A. {Miville-Desch{\^e}nes}, N.~{Murray}, and E.~J. {Lee}.
+\newblock {Physical Properties of Molecular Clouds for the Entire Milky Way
+  Disk}.
+\newblock {\em \apj}, 834:57, January 2017.
+
+\bibitem{HI4PI:2016}
+{HI4PI Collaboration}.
+\newblock {HI4PI: A full-sky H I survey based on EBHIS and GASS}.
+\newblock {\em \aap}, 594:A116, October 2016.
+
+\bibitem{Peek:2018}
+J.~E.~G. {Peek}, B.~L. {Babler}, Y.~{Zheng}, S.~E. {Clark}, K.~A. {Douglas},
+  E.~J. {Korpela}, M.~E. {Putman}, S.~{Stanimirovi{\'c}}, S.~J. {Gibson}, and
+  C.~{Heiles}.
+\newblock {The GALFA-H I Survey Data Release 2}.
+\newblock {\em \apjs}, 234:2, January 2018.
+
+\bibitem{McClure-Griffiths2015}
+N.~M. {McClure-Griffiths}, S.~{Stanimirovic}, C.~{Murray}, D.~{Li}, J.~M.
+  {Dickey}, E.~{Vazquez-Semadeni}, J.~E.~G. {Peek}, M.~{Putman}, S.~E. {Clark},
+  M.~A. {Miville-Deschenes}, J.~{Bland-Hawthorn}, and L.~{Staveley-Smith}.
+\newblock {Galactic and Magellanic Evolution with the SKA}.
+\newblock In {\em Advancing Astrophysics with the Square Kilometre Array
+  (AASKA14)}, page 130, April 2015.
+
+\bibitem{allen_2003}
+A.~{Allen}, Z.-Y. {Li}, and F.~H. {Shu}.
+\newblock {Collapse of Magnetized Singular Isothermal Toroids. II. Rotation and
+  Magnetic Braking}.
+\newblock {\em \apj}, 599:363--379, December 2003.
+
+\bibitem{li_2014}
+Z.-Y. {Li}, R.~{Krasnopolsky}, H.~{Shang}, and B.~{Zhao}.
+\newblock {On the Role of Pseudodisk Warping and Reconnection in Protostellar
+  Disk Formation in Turbulent Magnetized Cores}.
+\newblock {\em \apj}, 793:130, October 2014.
+
+\bibitem{Xu_2018}
+S.~{Xu} and A.~{Lazarian}.
+\newblock {Magnetohydrodynamic turbulence and turbulent dynamo in a partially
+  ionized plasma}.
+\newblock {\em New Journal of Physics}, October 2018.
+
+\bibitem{Lazarian:2006}
+A.~{Lazarian}.
+\newblock {Enhancement and Suppression of Heat Transfer by MHD Turbulence}.
+\newblock {\em \apjl}, 645:L25--L28, July 2006.
+
+\bibitem{Lazarian:2016}
+A.~{Lazarian}.
+\newblock {Damping of Alfv{\'e}n Waves by Turbulence and Its Consequences: From
+  Cosmic-ray Streaming to Launching Winds}.
+\newblock {\em \apj}, 833:131, December 2016.
+
+\bibitem{Lazarian_Vishniac:1999}
+A.~{Lazarian} and E.~T. {Vishniac}.
+\newblock {Reconnection in a Weakly Stochastic Field}.
+\newblock {\em \apj}, 517:700--718, June 1999.
 
 \bibitem{PCCS2}
 {Planck Collaboration XXVI}.
