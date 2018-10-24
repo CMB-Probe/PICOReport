@@ -1,18 +1,15 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.17)  23 OCT 2018 18:32
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 OCT 2018 20:10
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 OCT 2018 20:13
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**PICOReport
+**PICOReport.tex
 (./PICOReport.tex
-LaTeX2e <2016/03/31> patch level 3
+LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
-(/opt/texlive/2016/texmf-dist/tex/latex/base/article.cls
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/opt/texlive/2016/texmf-dist/tex/latex/base/size12.clo
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size12.clo
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -27,10 +24,10 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/opt/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks14
 \symAMSa=\mathgroup4
@@ -38,24 +35,24 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/opt/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/06/28 v2.15d AMS math features
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/10 v2.15b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/opt/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/opt/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks15
 \ex@=\dimen103
 ))
-(/opt/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count87
@@ -96,17 +93,17 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/times.sty
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/opt/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2016/06/19 v1.99m Standard LaTeX file
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/opt/texlive/2016/texmf-dist/tex/latex/psnfss/mathptmx.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/mathptmx.sty
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -142,21 +139,21 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/opt/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/opt/texlive/2016/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/opt/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-(/opt/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count99
@@ -171,28 +168,28 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/opt/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
 
-(/opt/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 96.
 )
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 \fancy@headwidth=\skip46
 \f@ncyO@elh=\skip47
 \f@ncyO@erh=\skip48
@@ -203,15 +200,15 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \f@ncyO@olf=\skip53
 \f@ncyO@orf=\skip54
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen114
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/cite/cite.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 
 
@@ -223,14 +220,14 @@ Package natbib Warning: The `cite' package should not be used
 LaTeX Info: Redefining \cite on input line 694.
 LaTeX Info: Redefining \citenum on input line 708.
 \c@NAT@ctr=\count100
-) (/opt/texlive/2016/texmf-dist/tex/latex/acronym/acronym.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
 
-(/opt/texlive/2016/texmf-dist/tex/latex/bigfoot/suffix.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
 )
-(/opt/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
-(/opt/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
 \integerpart=\count101
 \decimalpart=\count102
@@ -239,14 +236,14 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 \AC@clearlist=\toks21
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
 
-(/opt/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/opt/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -264,7 +261,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2016/05/10 v0.21 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -282,58 +279,58 @@ Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/opt/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen115
 \Hy@linkcounter=\count103
 \Hy@pagecounter=\count104
 
-(/opt/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count105
 
-(/opt/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4486.
-Package hyperref Info: Link nesting OFF on input line 4491.
-Package hyperref Info: Hyper index ON on input line 4494.
-Package hyperref Info: Plain pages OFF on input line 4501.
-Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Hyper figures OFF on input line 4446.
+Package hyperref Info: Link nesting OFF on input line 4451.
+Package hyperref Info: Hyper index ON on input line 4454.
+Package hyperref Info: Plain pages OFF on input line 4461.
+Package hyperref Info: Backreferencing OFF on input line 4466.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4735.
+Package hyperref Info: Bookmarks ON on input line 4691.
 \c@Hy@tempcnt=\count106
 
-(/opt/texlive/2016/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5088.
+LaTeX Info: Redefining \url on input line 5044.
 \XeTeXLinkMargin=\dimen116
 \Fld@menulength=\count107
 \Field@Width=\dimen117
 \Fld@charsize=\dimen118
-Package hyperref Info: Hyper figures OFF on input line 6342.
-Package hyperref Info: Link nesting OFF on input line 6347.
-Package hyperref Info: Hyper index ON on input line 6350.
-Package hyperref Info: backreferencing OFF on input line 6357.
-Package hyperref Info: Link coloring OFF on input line 6362.
-Package hyperref Info: Link coloring with OCG OFF on input line 6367.
-Package hyperref Info: PDF/A mode OFF on input line 6372.
-LaTeX Info: Redefining \ref on input line 6412.
-LaTeX Info: Redefining \pageref on input line 6416.
+Package hyperref Info: Hyper figures OFF on input line 6298.
+Package hyperref Info: Link nesting OFF on input line 6303.
+Package hyperref Info: Hyper index ON on input line 6306.
+Package hyperref Info: backreferencing OFF on input line 6313.
+Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring with OCG OFF on input line 6323.
+Package hyperref Info: PDF/A mode OFF on input line 6328.
+LaTeX Info: Redefining \ref on input line 6368.
+LaTeX Info: Redefining \pageref on input line 6372.
 \Hy@abspage=\count108
 \c@Item=\count109
 \c@Hfootnote=\count110
@@ -341,55 +338,55 @@ LaTeX Info: Redefining \pageref on input line 6416.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/opt/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2016/05/05 v6.83n Hyperref driver for pdfTeX
 \Fld@listcount=\count111
 \c@bookmark@seq@number=\count112
 
-(/opt/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip57
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks22
 \inpenc@posthook=\toks23
 
-(/opt/texlive/2016/texmf-dist/tex/latex/base/latin1.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2015/03/17 v1.2c Input encoding file
 ))
-(/opt/texlive/2016/texmf-dist/tex/latex/oberdiek/grffile.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grffile.sty
 Package: grffile 2016/05/16 v1.17 Extended file name support for graphics (HO)
 Package grffile Info: Option `multidot' is set to `true'.
 Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
 
-(/opt/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/opt/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/opt/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks24
 \XKV@tempa@toks=\toks25
 )
 \XKV@depth=\count113
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/opt/texlive/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/adjustbox/trimclip.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
 
-(/opt/texlive/2016/texmf-dist/tex/latex/collectbox/collectbox.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box28
 )
@@ -399,7 +396,7 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen122
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(/opt/texlive/2016/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+(/usr/local/texlive/2016/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen123
@@ -407,25 +404,27 @@ File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
 \adjbox@Depth=\dimen125
 \adjbox@Totalheight=\dimen126
 
-(/opt/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count114
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box29
 \sift@deathcycles=\count115
 \@vwid@loff=\dimen127
 \@vwid@roff=\dimen128
-)) (./subfiles.sty
+))
+(./subfiles.sty
 Package: subfiles 2018/07/31 Federico Garcia, Gernot Salzer
-(/opt/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks26
 \verbatim@line=\toks27
 \verbatim@in@stream=\read1
 ))
-(/opt/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box30
 \beforetitleunit=\skip58
@@ -437,11 +436,11 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen132
 \titlewidthfirst=\dimen133
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
-(/opt/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen134
 \captionmargin@=\dimen135
@@ -454,7 +453,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \c@ContinuedFloat=\count116
 Package caption Info: hyperref package is loaded.
 )
-(/opt/texlive/2016/texmf-dist/tex/latex/tools/afterpage.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/afterpage.sty
 Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks29
 \AP@partial=\box31
@@ -467,7 +466,7 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \stockwidth=\skip64
 \stockheight=\skip65
 
-(/opt/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@cnth=\count117
 \Gm@cntv=\count118
@@ -485,8 +484,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 (./PICOReport_defs.tex
 \tablebox=\box33
 \tablewidth=\dimen149
-)
-No file PICOReport.aux.
+) (./PICOReport.aux)
 \openout1 = `PICOReport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
@@ -504,10 +502,11 @@ LaTeX Font Info:    ... okay on input line 90.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
 LaTeX Font Info:    ... okay on input line 90.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 90.
-(/opt/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-(/opt/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count120
 \scratchdimen=\dimen150
@@ -520,20 +519,18 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \MPnumerator=\count124
 \makeMPintoPDFobject=\count125
 \everyMPtoPDFconversion=\toks32
-) (/opt/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/opt/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/opt/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2016/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -544,10 +541,10 @@ Package hyperref Warning: Height of page (\stockheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
 Package hyperref Info: Link coloring OFF on input line 90.
-(/opt/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+(/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/opt/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count126
@@ -555,6 +552,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 90.
 LaTeX Info: Redefining \pageref on input line 90.
 LaTeX Info: Redefining \nameref on input line 90.
+
+(./PICOReport.out) (./PICOReport.out)
 \@outlinefile=\write4
 \openout4 = `PICOReport.out'.
 
@@ -673,7 +672,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--118
 
 
 
-{/opt/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
@@ -682,39 +681,33 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (./executive.tex) (./landscape.tex
 Package acronym Info: Label `acro:CMB' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
-
-
-Package acronym Warning: Acronym `CMB' is not defined on input line 8.
-
-
-Package acronym Warning: Acronym `CMB' is not defined on input line 8.
-
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 14
 .
-(/opt/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 14
 .
 
-(/opt/texlive/2016/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 14
 .
 
-(/opt/texlive/2016/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 14
 .
 
-(/opt/texlive/2016/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 14.
 
-(/opt/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -745,21 +738,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 40.
-[1] [2])
-
-LaTeX Warning: Reference `tab:STM' on page 3 undefined on input line 158.
-
-(./fundamentalsci.tex
-
-Package acronym Warning: Acronym `CMB' is not defined on input line 7.
-
-
-Package acronym Warning: Acronym `CMB' is not defined on input line 8.
-
-
-Package acronym Warning: Acronym `CMB' is not defined on input line 16.
-
-[3] (./stm.tex
+[1] [2]) (./fundamentalsci.tex [3] (./stm.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1.
@@ -944,14 +923,14 @@ Overfull \hbox (23.73006pt too wide) in paragraph at lines 4--197
 
 LaTeX Warning: Float too large for page by 4.85562pt on input line 197.
 
-) [4] <images/cmb_powspec_PICOv2.pdf, id=41, 375.804pt x 303.534pt>
+) [4] <images/cmb_powspec_PICOv2.pdf, id=161, 375.804pt x 303.534pt>
 File: images/cmb_powspec_PICOv2.pdf Graphic file (type pdf)
 
 <use images/cmb_powspec_PICOv2.pdf>
 Package pdftex.def Info: images/cmb_powspec_PICOv2.pdf used on input line 48.
 (pdftex.def)             Requested size: 216.81pt x 175.11426pt.
 
-<images/nsrlabeledrp001_PICOv1.pdf, id=42, 375.804pt x 195.129pt>
+<images/nsrlabeledrp001_PICOv1.pdf, id=162, 375.804pt x 195.129pt>
 File: images/nsrlabeledrp001_PICOv1.pdf Graphic file (type pdf)
 
 <use images/nsrlabeledrp001_PICOv1.pdf>
@@ -964,60 +943,26 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
 
 
-LaTeX Warning: Reference `fig:clbb' on page 5 undefined on input line 62.
-
-
 LaTeX Warning: Reference `??' on page 5 undefined on input line 64.
-
-
-LaTeX Warning: Reference `fig:clbb' on page 5 undefined on input line 75.
 
 [5
 
 
 
  <./images/cmb_powspec_PICOv2.pdf> <./images/nsrlabeledrp001_PICOv1.pdf>]
-
-Package natbib Warning: Citation `1979ARNPS..29..313S' on page 6 undefined on i
-nput line 113.
-
-
-Package natbib Warning: Citation `Bolz:2000fu' on page 6 undefined on input lin
-e 113.
-
-
-Package natbib Warning: Citation `Brust:2013xpv' on page 6 undefined on input l
-ine 126.
-
-
-Package natbib Warning: Citation `Baumann:2016wac' on page 6 undefined on input
- line 126.
-
-
-LaTeX Warning: Reference `fig:Neff_future' on page 6 undefined on input line 13
-2.
-
-<images/Neff_final.pdf, id=125, 554.59674pt x 457.1867pt>
+<images/Neff_final.pdf, id=253, 554.59674pt x 457.1867pt>
 File: images/Neff_final.pdf Graphic file (type pdf)
 
 <use images/Neff_final.pdf>
 Package pdftex.def Info: images/Neff_final.pdf used on input line 140.
 (pdftex.def)             Requested size: 211.38832pt x 174.25595pt.
 
-<images/Mnu_tauprior_final.pdf, id=126, 579.25044pt x 457.1867pt>
+<images/Mnu_tauprior_final.pdf, id=254, 579.25044pt x 457.1867pt>
 File: images/Mnu_tauprior_final.pdf Graphic file (type pdf)
 
 <use images/Mnu_tauprior_final.pdf>
 Package pdftex.def Info: images/Mnu_tauprior_final.pdf used on input line 141.
 (pdftex.def)             Requested size: 220.78543pt x 174.26294pt.
-
-
-Package natbib Warning: Citation `Green:2016cjr' on page 6 undefined on input l
-ine 151.
-
-
-Package natbib Warning: Citation `Green:2016cjr' on page 6 undefined on input l
-ine 151.
 
 
 Package natbib Warning: Citation `Peebles2000' on page 6 undefined on input lin
@@ -1040,22 +985,6 @@ Package natbib Warning: Citation `' on page 6 undefined on input line 165.
 
 [6]
 
-Package natbib Warning: Citation `Dvorkin:2013cea' on page 7 undefined on input
- line 169.
-
-
-Package natbib Warning: Citation `Cyr-Racine:2013fsa' on page 7 undefined on in
-put line 175.
-
-
-Package natbib Warning: Citation `Buen-Abad:2015ova' on page 7 undefined on inp
-ut line 175.
-
-
-Package natbib Warning: Citation `Lesgourgues:2015wza' on page 7 undefined on i
-nput line 175.
-
-
 Package natbib Warning: Citation `Jedamzik2000' on page 7 undefined on input li
 ne 180.
 
@@ -1077,122 +1006,14 @@ ne 180.
 
 Package acronym Info: Label `acro:BAO' newly defined as it shall be overridden
 although it is yet undefined on input line 189.
-
-Package acronym Warning: Acronym `BAO' is not defined on input line 189.
-
-
-Package acronym Warning: Acronym `BAO' is not defined on input line 189.
-
 [7 <./images/Neff_final.pdf> <./images/Mnu_tauprior_final.pdf
 
-<<<<<<< Updated upstream
-pdfTeX warning: pdflatex (file ./images/Mnu_tauprior_final.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
->]
-
-Package natbib Warning: Citation `planck2016_xlvi' on page 8 undefined on input
- line 203.
-
-
-Package natbib Warning: Citation `Kaplinghat:2003bh' on page 8 undefined on inp
-ut line 204.
-
-
-LaTeX Warning: Reference `fig:Neff_future' on page 8 undefined on input line 20
-5.
-
-
-Package natbib Warning: Citation `Levi:2013gra' on page 8 undefined on input li
-ne 209.
-
-
-Package natbib Warning: Citation `Widrow:2002ud' on page 8 undefined on input l
-ine 221.
-
-
-Package natbib Warning: Citation `Widrow:2011hs' on page 8 undefined on input l
-ine 221.
-
-
-Package natbib Warning: Citation `Vachaspati:1991nm' on page 8 undefined on inp
-ut line 221.
-
-
-Package natbib Warning: Citation `Turner:1987bw' on page 8 undefined on input l
-ine 221.
-
-
-Package natbib Warning: Citation `Ratra:1991bn' on page 8 undefined on input li
-ne 221.
-
-
-Package natbib Warning: Citation `DiazGil:2007dy' on page 8 undefined on input 
-line 221.
-
-
-Package natbib Warning: Citation `Barnaby:2012tk' on page 8 undefined on input 
-line 221.
-
-
-Package natbib Warning: Citation `Long:2013tha' on page 8 undefined on input li
-ne 221.
-
-
-Package natbib Warning: Citation `Durrer:2013pga' on page 8 undefined on input 
-line 221.
-
-
-Package natbib Warning: Citation `??' on page 8 undefined on input line 223.
-
-
-Package natbib Warning: Citation `Zucca:2016iur' on page 8 undefined on input l
-ine 224.
-
-
-Package natbib Warning: Citation `Oppermann:2011td' on page 8 undefined on inpu
-t line 224.
-
-
-Package natbib Warning: Citation `De:2013dra' on page 8 undefined on input line
- 224.
-
-
-Package natbib Warning: Citation `Pogosian:2013dya' on page 8 undefined on inpu
-t line 224.
-
-
-Package natbib Warning: Citation `Carroll:1998zi' on page 8 undefined on input 
-line 228.
-
-
-Package natbib Warning: Citation `Carroll:1998zi' on page 8 undefined on input 
-line 228.
-
-
-Package natbib Warning: Citation `Kamionkowski:2008fp' on page 8 undefined on i
-nput line 228.
-
-
-Package natbib Warning: Citation `Gluscevic:2009mm' on page 8 undefined on inpu
-t line 228.
-
-
-Package natbib Warning: Citation `Ade:2015cao' on page 8 undefined on input lin
-e 228.
-
-[8]) (./extragalacticsci.tex
-=======
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/Mnu_tauprior_final.
 pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >] [8]) (./extragalacticsci.tex
->>>>>>> Stashed changes
 
 Package natbib Warning: Citation `planckreion' on page 9 undefined on input lin
 e 9.
-
-
-LaTeX Warning: Reference `fig:ReionizationPICO' on page 9 undefined on input li
-ne 13.
 
 
 Package natbib Warning: Citation `Miranda2017' on page 9 undefined on input lin
@@ -1215,20 +1036,7 @@ Package natbib Warning: Citation `calabrese/etal/2014' on page 9 undefined on i
 nput line 40.
 
 [9]
-<<<<<<< Updated upstream
-
-LaTeX Warning: Reference `fig:ReionizationPICO' on page 10 undefined on input l
-ine 44.
-
-
-LaTeX Warning: Reference `fig:ReionizationPICO' on page 10 undefined on input l
-ine 49.
-
-
-<images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=203, 661.71594pt x 533
-=======
 <images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=402, 661.71594pt x 533
->>>>>>> Stashed changes
 .22528pt>
 File: images/Reionization_Contours_zbar_delz_PICO_NEW.pdf Graphic file (type pd
 f)
@@ -1286,15 +1094,11 @@ ut line 65.
 
 LaTeX Warning: Reference `??' on page 11 undefined on input line 89.
 
-<<<<<<< Updated upstream
 
-LaTeX Warning: Reference `fig:lensingNoisePICO' on page 11 undefined on input l
-ine 97.
+Package natbib Warning: Citation `2018arXiv180706210P' on page 11 undefined on 
+input line 94.
 
-<images/lensingNoisePICO.pdf, id=271, 587.19376pt x 587.19376pt>
-=======
 <images/lensingNoisePICO.pdf, id=470, 587.19376pt x 587.19376pt>
->>>>>>> Stashed changes
 File: images/lensingNoisePICO.pdf Graphic file (type pdf)
 
 <use images/lensingNoisePICO.pdf>
@@ -1309,59 +1113,19 @@ Overfull \hbox (14.06749pt too wide) in paragraph at lines 103--110
 Package natbib Warning: Citation `??' on page 11 undefined on input line 122.
 
 [11 <./images/lensingNoisePICO.pdf>]
-
-Package natbib Warning: Citation `2004PhRvD..69d3005S' on page 12 undefined on 
-input line 131.
-
-
-Package natbib Warning: Citation `2012JCAP...06..014S' on page 12 undefined on 
-input line 131.
-
-
-Package natbib Warning: Citation `2015ApJ...806..247B' on page 12 undefined on 
-input line 137.
-
-
-Package natbib Warning: Citation `2015PhRvL.114o1302M' on page 12 undefined on 
-input line 137.
-
-
-Package natbib Warning: Citation `2016A&A...594A..24P' on page 12 undefined on 
-input line 137.
-
-
-LaTeX Warning: Reference `fig:HaloLensing' on page 12 undefined on input line 1
-39.
-
-
-Package natbib Warning: Citation `2015A&A...578A..21M' on page 12 undefined on 
-input line 139.
-
-<<<<<<< Updated upstream
-=======
-[11]
->>>>>>> Stashed changes
 Package epstopdf Info: Source file: <images/m500lim_vs_z_pico_polar_v1.eps>
-(epstopdf)                    date: 2018-10-23 17:47:52
+(epstopdf)                    date: 2018-10-22 16:37:01
 (epstopdf)                    size: 16905 bytes
 (epstopdf)             Output file: <images/m500lim_vs_z_pico_polar_v1-eps-conv
 erted-to.pdf>
+(epstopdf)                    date: 2018-10-22 16:37:06
+(epstopdf)                    size: 11158 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/m500lim_vs_z_pico_p
 olar_v1-eps-converted-to.pdf images/m500lim_vs_z_pico_polar_v1.eps>
 (epstopdf)             \includegraphics on input line 145.
-runsystem(repstopdf --outfile=images/m500lim_vs_z_pico_polar_v1-eps-converted-t
-o.pdf images/m500lim_vs_z_pico_polar_v1.eps)...executed safely (allowed).
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <images/m500lim_vs_z_pico_polar_v1-eps-conv
-erted-to.pdf>
-(epstopdf)                    date: 2018-10-23 18:32:45
-(epstopdf)                    size: 11158 bytes.
-
-<<<<<<< Updated upstream
-<images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf, id=333, 505.89pt x 361
-=======
-<images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf, id=484, 505.89pt x 361
->>>>>>> Stashed changes
+<images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf, id=539, 505.89pt x 361
 .35pt>
 File: images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1369,55 +1133,25 @@ File: images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf
  used on input line 145.
 (pdftex.def)             Requested size: 375.80544pt x 268.4369pt.
- [12 <./images/lensingNoisePICO.pdf>] [13 <./images/m500lim_vs_z_pico_polar_v1-
-eps-converted-to.pdf>]
-
-<<<<<<< Updated upstream
-
-Package natbib Warning: Citation `2015A&A...578A..21M' on page 12 undefined on 
-input line 147.
-
-
-Package natbib Warning: Citation `2015A&A...578A..21M' on page 12 undefined on 
-input line 147.
 
 
 Package natbib Warning: Citation `2009PhRvL.102b1302S' on page 12 undefined on 
 input line 159.
 
-=======
-Package natbib Warning: Citation `SZ1969' on page 14 undefined on input line 16
-3.
->>>>>>> Stashed changes
 
 Package natbib Warning: Citation `2018PhRvD..97l3540S' on page 12 undefined on 
 input line 159.
 
-<<<<<<< Updated upstream
 
 Package natbib Warning: Citation `2008PhRvD..77l3514D' on page 12 undefined on 
 input line 159.
-=======
-Package natbib Warning: Citation `SZ1972' on page 14 undefined on input line 16
-3.
-
->>>>>>> Stashed changes
-
-
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `fig:fnlconstraint' on page 12 undefined on input line
- 159.
 
 
 Package natbib Warning: Citation `2014arXiv1412.4671A' on page 12 undefined on 
 input line 159.
 
 [12] [13 <./images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:sigma8constraint' on page 14 undefined on input l
-ine 163.
-
-<images/fnl_PICOv4.1b_deproj0_SENS0.pdf, id=346, 578.16pt x 433.62pt>
+<images/fnl_PICOv4.1b_deproj0_SENS0.pdf, id=562, 578.16pt x 433.62pt>
 File: images/fnl_PICOv4.1b_deproj0_SENS0.pdf Graphic file (type pdf)
 
 <use images/fnl_PICOv4.1b_deproj0_SENS0.pdf>
@@ -1429,7 +1163,7 @@ Overfull \hbox (14.06749pt too wide) in paragraph at lines 170--177
 []  $[]$   $[]$
  []
 
-<images/sigma8_PICOv4.1b_deproj0_SENS0.pdf, id=347, 578.16pt x 433.62pt>
+<images/sigma8_PICOv4.1b_deproj0_SENS0.pdf, id=563, 578.16pt x 433.62pt>
 File: images/sigma8_PICOv4.1b_deproj0_SENS0.pdf Graphic file (type pdf)
 
 <use images/sigma8_PICOv4.1b_deproj0_SENS0.pdf>
@@ -1452,21 +1186,15 @@ Package natbib Warning: Citation `SZ1972' on page 14 undefined on input line 19
 [14 <./images/fnl_PICOv4.1b_deproj0_SENS0.pdf> <./images/sigma8_PICOv4.1b_depro
 j0_SENS0.pdf
 
-pdfTeX warning: pdflatex (file ./images/sigma8_PICOv4.1b_deproj0_SENS0.pdf): PD
-F inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/sigma8_PICOv4.1b_de
+proj0_SENS0.pdf): PDF inclusion: multiple pdfs with page group included in a si
+ngle page
 >]
 
 Package natbib Warning: Citation `Delabrouille2009' on page 15 undefined on inp
 ut line 224.
 
-
-LaTeX Warning: Reference `fig:PICO_tSZ_PS' on page 15 undefined on input line 2
-24.
-
-<images/PICO_tSZ_PS_plot.pdf, id=485, 462.52798pt x 346.89601pt>
-=======
-[14] <images/PICO_tSZ_PS_plot.pdf, id=566, 462.52798pt x 346.89601pt>
->>>>>>> Stashed changes
+<images/PICO_tSZ_PS_plot.pdf, id=702, 462.52798pt x 346.89601pt>
 File: images/PICO_tSZ_PS_plot.pdf Graphic file (type pdf)
 
 <use images/PICO_tSZ_PS_plot.pdf>
@@ -1477,11 +1205,7 @@ Package pdftex.def Info: images/PICO_tSZ_PS_plot.pdf used on input line 230.
 Package natbib Warning: Citation `McKee2007' on page 15 undefined on input line
  6.
 
-<<<<<<< Updated upstream
 [15] [16 <./images/PICO_tSZ_PS_plot.pdf>]
-=======
-[15 <./images/PICO_tSZ_PS_plot.pdf>]
->>>>>>> Stashed changes
 
 Package natbib Warning: Citation `Lazarian2007b' on page 17 undefined on input 
 line 9.
@@ -1499,7 +1223,7 @@ Package natbib Warning: Citation `Planck:XXXV' on page 17 undefined on input li
 ne 9.
 
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 13.
-(/opt/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
@@ -1549,7 +1273,6 @@ Package natbib Warning: Citation `Houde2009' on page 17 undefined on input line
 Package natbib Warning: Citation `Houde2011' on page 17 undefined on input line
  21.
 
-<<<<<<< Updated upstream
 [17]
 
 Package natbib Warning: Citation `Fissel2016' on page 18 undefined on input lin
@@ -1557,17 +1280,8 @@ e 22.
 
 
 Package natbib Warning: Citation `King2018' on page 18 undefined on input line 
-=======
-
-Package natbib Warning: Citation `Fissel2016' on page 16 undefined on input lin
-e 22.
-
-
-Package natbib Warning: Citation `King2018' on page 16 undefined on input line 
->>>>>>> Stashed changes
 22.
 
-[16]
 
 Package natbib Warning: Citation `GonzalezCasanova2017' on page 18 undefined on
  input line 23.
@@ -1605,11 +1319,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-<<<<<<< Updated upstream
-<images/Allsky_dust_fig.pdf, id=532, 557.08125pt x 440.64626pt>
-=======
-<images/Allsky_dust_fig.pdf, id=608, 557.08125pt x 440.64626pt>
->>>>>>> Stashed changes
+<images/Allsky_dust_fig.pdf, id=748, 557.08125pt x 440.64626pt>
 File: images/Allsky_dust_fig.pdf Graphic file (type pdf)
 
 <use images/Allsky_dust_fig.pdf>
@@ -1725,9 +1435,6 @@ Package natbib Warning: Citation `Heiles:2005' on page 21 undefined on input li
 ne 84.
 
 
-LaTeX Warning: Reference `fig:allsky' on page 21 undefined on input line 84.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
@@ -1781,215 +1488,42 @@ Package natbib Warning: Citation `Peek:2018' on page 22 undefined on input line
 Package natbib Warning: Citation `McClure-Griffiths2015' on page 22 undefined o
 n input line 93.
 
-<<<<<<< Updated upstream
-) (./legacysci.tex <images/fig_SED3_PICO.jpg, id=586, 325.9377pt x 218.0145pt>
-=======
-) (./legacysci.tex <images/fig_SED3_PICO.jpg, id=663, 325.9377pt x 218.0145pt>
->>>>>>> Stashed changes
+) (./legacysci.tex <images/fig_SED3_PICO.jpg, id=803, 325.9377pt x 218.0145pt>
 File: images/fig_SED3_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_SED3_PICO.jpg>
 Package pdftex.def Info: images/fig_SED3_PICO.jpg used on input line 8.
 (pdftex.def)             Requested size: 225.4804pt x 150.82602pt.
 
-<<<<<<< Updated upstream
-<images/NgtF_500micron.png, id=588, 1047.915pt x 994.71625pt>
-=======
-<images/NgtF_500micron.png, id=665, 1047.915pt x 994.71625pt>
->>>>>>> Stashed changes
+<images/NgtF_500micron.png, id=805, 1047.915pt x 994.71625pt>
 File: images/NgtF_500micron.png Graphic file (type png)
 
 <use images/NgtF_500micron.png>
 Package pdftex.def Info: images/NgtF_500micron.png used on input line 9.
 (pdftex.def)             Requested size: 225.47322pt x 156.4865pt.
-<<<<<<< Updated upstream
-
-
-Package natbib Warning: Citation `PCCS2' on page 22 undefined on input line 14.
-
-
-
-Package natbib Warning: Citation `PCCS2' on page 22 undefined on input line 14.
-
-
-
-LaTeX Warning: Reference `fig:SED3' on page 22 undefined on input line 21.
-
-
-LaTeX Warning: Reference `fig:SED3' on page 22 undefined on input line 32.
-
-
-Package natbib Warning: Citation `Negrello2017lensed' on page 22 undefined on i
-nput line 37.
-
-[22]
-
-LaTeX Warning: Reference `fig:SED3' on page 23 undefined on input line 40.
-
-
-Package natbib Warning: Citation `Combes2012' on page 23 undefined on input lin
-e 41.
-
-
-Package natbib Warning: Citation `Treu2010' on page 23 undefined on input line 
-46.
-
-
-Package natbib Warning: Citation `Treu2010' on page 23 undefined on input line 
-48.
-
-
-Package natbib Warning: Citation `Canameras2015' on page 23 undefined on input 
-line 51.
-
-
-Package natbib Warning: Citation `Canameras2017ALMA' on page 23 undefined on in
-put line 58.
-
-
-Package natbib Warning: Citation `Canameras2017lens' on page 23 undefined on in
-put line 72.
-
-[23 <./images/fig_SED3_PICO.jpg> <./images/NgtF_500micron.png>]
-
-LaTeX Warning: Reference `fig:SED3' on page 24 undefined on input line 78.
-
-
-Package natbib Warning: Citation `RowanRobinson1991' on page 24 undefined on in
-put line 81.
-
-
-Package natbib Warning: Citation `Planck2011nearby_gal' on page 24 undefined on
- input line 84.
-
-<images/fig_protocl_PICO.jpg, id=605, 348.8232pt x 246.6816pt>
-=======
- [21] [22 <./images/fig_SED3_PICO.jpg> <./images/NgtF_500micron.png>]
-<images/fig_protocl_PICO.jpg, id=702, 348.8232pt x 246.6816pt>
->>>>>>> Stashed changes
+ [22] [23 <./images/fig_SED3_PICO.jpg> <./images/NgtF_500micron.png>]
+<images/fig_protocl_PICO.jpg, id=842, 348.8232pt x 246.6816pt>
 File: images/fig_protocl_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_protocl_PICO.jpg>
 Package pdftex.def Info: images/fig_protocl_PICO.jpg used on input line 92.
 (pdftex.def)             Requested size: 150.32504pt x 106.30815pt.
 
-<<<<<<< Updated upstream
-<images/Oteo_2018_protocl.jpg, id=607, 250.7769pt x 270.2898pt>
-=======
-<images/Oteo_2018_protocl.jpg, id=704, 250.7769pt x 270.2898pt>
->>>>>>> Stashed changes
+<images/Oteo_2018_protocl.jpg, id=844, 250.7769pt x 270.2898pt>
 File: images/Oteo_2018_protocl.jpg Graphic file (type jpg)
 
 <use images/Oteo_2018_protocl.jpg>
 Package pdftex.def Info: images/Oteo_2018_protocl.jpg used on input line 93.
 (pdftex.def)             Requested size: 150.32953pt x 105.27237pt.
 
-<<<<<<< Updated upstream
-<images/NgtFclumps_800GHz.png, id=609, 1371.9255pt x 1163.547pt>
-=======
-<images/NgtFclumps_800GHz.png, id=706, 1371.9255pt x 1163.547pt>
->>>>>>> Stashed changes
+<images/NgtFclumps_800GHz.png, id=846, 1371.9255pt x 1163.547pt>
 File: images/NgtFclumps_800GHz.png Graphic file (type png)
 
 <use images/NgtFclumps_800GHz.png>
 Package pdftex.def Info: images/NgtFclumps_800GHz.png used on input line 94.
 (pdftex.def)             Requested size: 150.30519pt x 105.26509pt.
-
-
-Package natbib Warning: Citation `Ivison2013' on page 24 undefined on input lin
-e 109.
-
-
-Package natbib Warning: Citation `Wang2016' on page 24 undefined on input line 
-109.
-
-
-Package natbib Warning: Citation `Oteo2018' on page 24 undefined on input line 
-109.
-
-
-Package natbib Warning: Citation `Oteo2018' on page 24 undefined on input line 
-109.
-
-
-Package natbib Warning: Citation `Oteo2018' on page 24 undefined on input line 
-109.
-
-
-Package natbib Warning: Citation `Negrello2017protocl' on page 24 undefined on 
-input line 109.
-
-
-Package natbib Warning: Citation `Ivison2013' on page 24 undefined on input lin
-e 109.
-
-
-Package natbib Warning: Citation `Wang2016' on page 24 undefined on input line 
-109.
-
-
-Package natbib Warning: Citation `Oteo2018' on page 24 undefined on input line 
-109.
-
-
-Package natbib Warning: Citation `Oteo2018' on page 24 undefined on input line 
-109.
-
-
-Package natbib Warning: Citation `Oteo2018' on page 24 undefined on input line 
-109.
-
-
-Package natbib Warning: Citation `Negrello2017protocl' on page 24 undefined on 
-input line 109.
-
-
-Package natbib Warning: Citation `Overzier2016' on page 24 undefined on input l
-ine 122.
-
-
-LaTeX Warning: Reference `fig:protocluster' on page 24 undefined on input line 
-128.
-
-
-Package natbib Warning: Citation `Planck2016high_z' on page 24 undefined on inp
-ut line 130.
-
-
-Package natbib Warning: Citation `Negrello2017protocl' on page 24 undefined on 
-input line 131.
-
-
-LaTeX Warning: Reference `fig:protocluster' on page 24 undefined on input line 
-132.
-
-
-Package natbib Warning: Citation `Alberts2014' on page 24 undefined on input li
-ne 134.
-
-
-LaTeX Warning: Reference `fig:protocluster' on page 24 undefined on input line 
-137.
-
-[24 <./images/fig_protocl_PICO.jpg> <./images/Oteo_2018_protocl.jpg> <./images/
-NgtFclumps_800GHz.png>]
-
-Package natbib Warning: Citation `Ghisellini2009' on page 25 undefined on input
- line 151.
-
-
-Package natbib Warning: Citation `Romani2004' on page 25 undefined on input lin
-e 167.
-
-
-Package natbib Warning: Citation `Ghisellini2015' on page 25 undefined on input
- line 168.
-
-
-Package natbib Warning: Citation `Metzger2015' on page 25 undefined on input li
-ne 171.
-
-)
+ [24 <./images/fig_protocl_PICO.jpg> <./images/Oteo_2018_protocl.jpg> <./images
+/NgtFclumps_800GHz.png>])
 Overfull \hbox (22.81671pt too wide) in paragraph at lines 215--215
 |[]\T1/ptm/b/n/12 Complementarity with Other Sur-veys and with Sub-Orbital Mea-
 sure-ments (1 pg, Lawrence,
@@ -1998,40 +1532,10 @@ sure-ments (1 pg, Lawrence,
 (./complementarity_sh_qi.tex [25] [26]) (./foregrounds.tex [27]
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 37.
 
-(/opt/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-<<<<<<< Updated upstream
-)
-
-Package natbib Warning: Citation `Thorne:2016ifb' on page 28 undefined on input
- line 37.
-
-
-Package natbib Warning: Citation `Thorne:2016ifb' on page 28 undefined on input
- line 39.
-
-
-Package natbib Warning: Citation `Hensley:2015' on page 28 undefined on input l
-ine 41.
-
-
-Package natbib Warning: Citation `Kritsuk:2017' on page 28 undefined on input l
-ine 44.
-
-
-Package natbib Warning: Citation `Martinez:2017' on page 28 undefined on input 
-line 46.
-
-
-Package natbib Warning: Citation `Vansyngel:2016' on page 28 undefined on input
- line 54.
-
-[28] [29]
-<images/bsky_pico_comb_90.00_mean_weight3.pdf, id=658, 614.295pt x 794.97pt>
-=======
-) [27] [28]
-<images/bsky_pico_comb_90.00_mean_weight3.pdf, id=794, 614.295pt x 794.97pt>
->>>>>>> Stashed changes
+) [28] [29]
+<images/bsky_pico_comb_90.00_mean_weight3.pdf, id=933, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.00_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.00_mean_weight3.pdf>
@@ -2039,11 +1543,7 @@ Package pdftex.def Info: images/bsky_pico_comb_90.00_mean_weight3.pdf used on i
 nput line 118.
 (pdftex.def)             Requested size: 281.85587pt x 364.7566pt.
 
-<<<<<<< Updated upstream
-<images/bsky_pico_comb_90.91_mean_weight3.pdf, id=659, 614.295pt x 794.97pt>
-=======
-<images/bsky_pico_comb_90.91_mean_weight3.pdf, id=795, 614.295pt x 794.97pt>
->>>>>>> Stashed changes
+<images/bsky_pico_comb_90.91_mean_weight3.pdf, id=934, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.91_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.91_mean_weight3.pdf>
@@ -2055,11 +1555,7 @@ Overfull \hbox (69.23677pt too wide) in paragraph at lines 118--121
 [][]  [] 
  []
 
-<<<<<<< Updated upstream
-<images/bsky_pico_comb_90.92_mean_weight3.pdf, id=660, 614.295pt x 794.97pt>
-=======
-<images/bsky_pico_comb_90.92_mean_weight3.pdf, id=796, 614.295pt x 794.97pt>
->>>>>>> Stashed changes
+<images/bsky_pico_comb_90.92_mean_weight3.pdf, id=935, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.92_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.92_mean_weight3.pdf>
@@ -2067,11 +1563,7 @@ Package pdftex.def Info: images/bsky_pico_comb_90.92_mean_weight3.pdf used on i
 nput line 122.
 (pdftex.def)             Requested size: 281.85587pt x 364.7566pt.
 
-<<<<<<< Updated upstream
-<images/bsky_pico_comb_90.93_mean_weight3.pdf, id=661, 614.295pt x 794.97pt>
-=======
-<images/bsky_pico_comb_90.93_mean_weight3.pdf, id=797, 614.295pt x 794.97pt>
->>>>>>> Stashed changes
+<images/bsky_pico_comb_90.93_mean_weight3.pdf, id=936, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.93_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.93_mean_weight3.pdf>
@@ -2083,11 +1575,7 @@ Overfull \hbox (69.23677pt too wide) in paragraph at lines 122--125
 [][]  [] 
  []
 
-<<<<<<< Updated upstream
-<images/bsky_pico_comb_90.96_mean_weight3.pdf, id=662, 614.295pt x 794.97pt>
-=======
-<images/bsky_pico_comb_90.96_mean_weight3.pdf, id=798, 614.295pt x 794.97pt>
->>>>>>> Stashed changes
+<images/bsky_pico_comb_90.96_mean_weight3.pdf, id=937, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.96_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.96_mean_weight3.pdf>
@@ -2095,11 +1583,7 @@ Package pdftex.def Info: images/bsky_pico_comb_90.96_mean_weight3.pdf used on i
 nput line 126.
 (pdftex.def)             Requested size: 281.85587pt x 364.7566pt.
 
-<<<<<<< Updated upstream
-<images/bsky_pico_comb_90.99_mean_weight3.pdf, id=663, 614.295pt x 794.97pt>
-=======
-<images/bsky_pico_comb_90.99_mean_weight3.pdf, id=799, 614.295pt x 794.97pt>
->>>>>>> Stashed changes
+<images/bsky_pico_comb_90.99_mean_weight3.pdf, id=938, 614.295pt x 794.97pt>
 File: images/bsky_pico_comb_90.99_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.99_mean_weight3.pdf>
@@ -2350,113 +1834,19 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 132.
 
-
-Package natbib Warning: Citation `delabrouille/etal:2013' on page 30 undefined 
-on input line 135.
-
-
-Package natbib Warning: Citation `Lewis/etal:2000' on page 30 undefined on inpu
-t line 135.
-
-
-Package natbib Warning: Citation `Miville-Deschenes/etal:2008' on page 30 undef
-ined on input line 136.
-
 [30] [31 <./images/bsky_pico_comb_90.00_mean_weight3.pdf> <./images/bsky_pico_c
 omb_90.91_mean_weight3.pdf> <./images/bsky_pico_comb_90.92_mean_weight3.pdf> <.
 /images/bsky_pico_comb_90.93_mean_weight3.pdf> <./images/bsky_pico_comb_90.96_m
 ean_weight3.pdf> <./images/bsky_pico_comb_90.99_mean_weight3.pdf>]
-
-Package natbib Warning: Citation `Miville-Deschenes/etal:2008' on page 32 undef
-ined on input line 138.
-
-
-Package natbib Warning: Citation `Kogut/etal:2007' on page 32 undefined on inpu
-t line 138.
-
-
-Package natbib Warning: Citation `dickinson/etal:2018' on page 32 undefined on 
-input line 138.
-
-
-Package natbib Warning: Citation `gorski/etal:2005' on page 32 undefined on inp
-ut line 139.
-
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
 (Font)              Font shape `T1/ptm/b/sc' tried instead on input line 142.
-
-Package natbib Warning: Citation `eriksen/etal:2008' on page 32 undefined on in
-put line 145.
-
-
-Package natbib Warning: Citation `Planck_2015_X' on page 32 undefined on input 
-line 146.
-
-
-Package natbib Warning: Citation `Planck_2018_IV' on page 32 undefined on input
- line 146.
-
-
-Package natbib Warning: Citation `Remazeilles/etal:2016' on page 32 undefined o
-n input line 146.
-
-
-Package natbib Warning: Citation `Remazeilles/etal:2018' on page 32 undefined o
-n input line 146.
-
-[32]) (./systematics.tex
-
-Package natbib Warning: Citation `hu03' on page 33 undefined on input line 19.
-
-
-Package natbib Warning: Citation `shimon2008' on page 33 undefined on input lin
-e 19.
-
-
-Package natbib Warning: Citation `yadav2010' on page 33 undefined on input line
- 19.
-
+ [32])
+(./systematics.tex
 
 Package natbib Warning: Citation `Takahaski2010' on page 33 undefined on input 
 line 21.
 
-
-Package natbib Warning: Citation `BICEP2_III' on page 33 undefined on input lin
-e 21.
-
-
-Package natbib Warning: Citation `Bennett13' on page 33 undefined on input line
- 24.
-
-
-Package natbib Warning: Citation `planck2016_xlvi' on page 33 undefined on inpu
-t line 24.
-
-
-Package natbib Warning: Citation `Planck2018_I' on page 33 undefined on input l
-ine 24.
-
-
-Package natbib Warning: Citation `hazumi2012' on page 33 undefined on input lin
-e 28.
-
-
-Package natbib Warning: Citation `wallis2017' on page 33 undefined on input lin
-e 28.
-
-
-Package natbib Warning: Citation `Natoli2018' on page 33 undefined on input lin
-e 28.
-
 [33]
-
-LaTeX Warning: Reference `tbl:SystematicsList' on page 34 undefined on input li
-ne 40.
-
-
-Package natbib Warning: Citation `plank2015_xii_focalplane' on page 34 undefine
-d on input line 44.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
@@ -2472,16 +1862,137 @@ Underfull \hbox (badness 1178) in paragraph at lines 57--57
  []
 
 
-<<<<<<< Updated upstream
-LaTeX Warning: Reference `sec:angle' on page 34 undefined on input line 60.
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+[]\T1/ptm/m/n/8 Time Re-sponse Ac-cu-racy
+ []
 
 
-LaTeX Warning: Reference `sec:angle' on page 34 undefined on input line 69.
+Underfull \hbox (badness 2744) in paragraph at lines 116--116
+[]\T1/ptm/m/n/8 Residual cor-re-lated cos-mic
+ []
 
-=======
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+[]\T1/ptm/m/n/8 increased
+ []
+
+
+Overfull \hbox (1.3334pt too wide) in paragraph at lines 130--130
+[]\T1/ptm/b/n/8 Risk| 
+ []
+
+
+Underfull \hbox (badness 8189) in paragraph at lines 130--131
+[]\T1/ptm/b/n/8 Additional Mit-i-ga-tion
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 133--133
+[]\T1/ptm/m/n/8 Polarization An-gle Cal-i-bra-
+ []
+
+
+Package natbib Warning: Citation `Planck_Lowell' on page 34 undefined on input 
+line 137.
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 137--138
+\T1/ptm/m/n/8 to 0.3$[]$[[]]; ground mea-sure-ment to
+ []
+
+
+Package natbib Warning: Citation `Pajot_2010' on page 34 undefined on input lin
+e 143.
+
+
+Package natbib Warning: Citation `Planck_Lowell' on page 34 undefined on input 
+line 144.
+
+
+Package natbib Warning: Citation `CORE_systematics' on page 34 undefined on inp
+ut line 144.
+
+
+Underfull \hbox (badness 1533) in paragraph at lines 143--144
+[]\T1/ptm/m/n/8 Precise band-pass mea-sure-ment[\T1/ptm/b/n/8 ? \T1/ptm/m/n/8 ]
+;
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 143--144
+\T1/ptm/m/n/8 SRoll al-go-rithm[\T1/ptm/b/n/8 ? \T1/ptm/m/n/8 ]; fil-ter-ing te
+ch-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
+[]\T1/ptm/m/n/8 Time Re-sponse Ac-cu-racy
+ []
+
+
+Package natbib Warning: Citation `Planck_Lowell' on page 34 undefined on input 
+line 154.
+
+
+Package natbib Warning: Citation `Planck_Lowell' on page 34 undefined on input 
+line 161.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+[]\T1/ptm/m/it/8 Planck \T1/ptm/m/n/8 high-impedence bolome-ters:
+ []
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 161--162
+\T1/ptm/m/n/8 10$[]$ crosstalk did not im-pact CMB
+ []
+
+
+Package natbib Warning: Citation `Planck_Lowell' on page 34 undefined on input 
+line 178.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
+[]\T1/ptm/m/n/8 mission-average rel-a-tive cal-i-bra-tion
+ []
+
+
+Package natbib Warning: Citation `Planck_Lowell' on page 34 undefined on input 
+line 198.
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 198--199
+[]\T1/ptm/m/n/8 Reconstruction of time vari-abil-ity of
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 217--218
+[]\T1/ptm/m/it/8 Planck \T1/ptm/m/n/8 val-i-dated stray-light model in
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 222--222
+[]\T1/ptm/m/n/8 Residual cor-re-lated cos-mic
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+[]\T1/ptm/m/n/8 increased
+ []
+
+
+Package natbib Warning: Citation `Planck_Lowell' on page 34 undefined on input 
+line 226.
+
+
+Underfull \hbox (badness 2961) in paragraph at lines 228--230
+\T1/ptm/m/n/8 section; SOA anal-y-sis
+ []
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/PICO_rotate_eb4_v2.pdf, id=897, 597.23125pt x 397.485pt>
+<images/PICO_rotate_eb4_v2.pdf, id=1034, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb4_v2.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb4_v2.pdf>
@@ -2490,42 +2001,42 @@ Package pdftex.def Info: images/PICO_rotate_eb4_v2.pdf used on input line 265.
 
 
 Package natbib Warning: Author undefined for citation`Planck2016_XLIX' 
-(natbib)                on page 33 on input line 299.
+(natbib)                on page 34 on input line 299.
 
 
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
-(natbib)                on page 33 on input line 299.
+(natbib)                on page 34 on input line 299.
 
-[33] <images/calibration_spectra.pdf, id=915, 686.26389pt x 334.24562pt>
+[34] <images/calibration_spectra.pdf, id=1053, 686.26389pt x 334.24562pt>
 File: images/calibration_spectra.pdf Graphic file (type pdf)
 
 <use images/calibration_spectra.pdf>
 Package pdftex.def Info: images/calibration_spectra.pdf used on input line 316.
 
 (pdftex.def)             Requested size: 328.82707pt x 160.15556pt.
- [34] [35 <./images/PICO_rotate_eb4_v2.pdf> <./images/calibration_spectra.pdf>]
-) (./requirements.tex [36]
+ [35] [36 <./images/PICO_rotate_eb4_v2.pdf> <./images/calibration_spectra.pdf>]
+ [37]) (./requirements.tex
 
-LaTeX Warning: Reference `sec:lensing' on page 37 undefined on input line 53.
+LaTeX Warning: Reference `sec:lensing' on page 38 undefined on input line 53.
 
-) (./instrument.tex
+[38]) (./instrument.tex
 Overfull \hbox (3.97798pt too wide) in paragraph at lines 5--6
 \T1/ptm/m/n/12 Telescope (Hanany / Young), fo-cal plane (Hanany / Young), cool-
 ing (Trangsrud), read-out (O'Brient) 
  []
 
-) (./mission.tex) [37] (./technology.tex) (./cost.tex) [38] (./PICOReport.bbl
+) (./mission.tex) (./technology.tex) (./cost.tex) [39] (./PICOReport.bbl
 Underfull \hbox (badness 2150) in paragraph at lines 36--41
 []\T1/ptm/m/n/12 Francis-Yan Cyr-Racine, Roland de Put-ter, Alvise Rac-canelli,
  and Kris Sig-urd-son.
  []
 
-[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49]) (./acronym.tex)
+[40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50]) (./acronym.tex)
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
-[50]
+[51]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
  (./PICOReport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
@@ -2536,13 +2047,16 @@ Package rerunfilecheck Info: File `PICOReport.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
- 11495 strings out of 493014
- 170126 string characters out of 6133351
- 288293 words of memory out of 5000000
- 14531 multiletter control sequences out of 15000+600000
+ 11516 strings out of 493014
+ 170746 string characters out of 6133351
+ 290641 words of memory out of 5000000
+ 14549 multiletter control sequences out of 15000+600000
  113037 words of font info for 180 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,15n,92p,1677b,846s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2567,12 +2081,10 @@ symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr
 .pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
 /local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (51 pages, 4289917 bytes).
+Output written on PICOReport.pdf (52 pages, 4338111 bytes).
 PDF statistics:
- 1142 PDF objects out of 1200 (max. 8388607)
- 837 compressed objects within 9 object streams
- 205 named destinations out of 1000 (max. 500000)
- 389 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> Stashed changes
+ 1282 PDF objects out of 1440 (max. 8388607)
+ 875 compressed objects within 9 object streams
+ 208 named destinations out of 1000 (max. 500000)
+ 399 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Underfull \hbox (badness 10000) in paragraph at lines
