@@ -163,30 +163,51 @@ by the time of recombination, their existence through this period is best measur
 $\bullet$ {\bf Dark Matter} \hspace{0.1in} Cosmological measurements have already confirmed the existence of one relic that 
 lies beyond the Standard Model: dark matter. For a conventional WIMP candidate, the CMB places very stringent 
 constraints on its properties through the signature of its annihilation on the $T$ and $E$ 
-spectra \citep{Peebles2000, Chen2004, Padmanabhan2005}.  Unfortunately, the limits on dark matter annihilation will be saturated by near term measurements~\citep{Madhavacheril:2013cna,}. 
+spectra \cite{Peebles2000, Chen2004, Padmanabhan2005}.  Unfortunately, the limits on dark matter annihilation will be saturated by near term measurements~\cite{Madhavacheril:2013cna,}. 
 
-A particle-independent approach is to constrain dark matter interactions that would 
-affect the evolution of the effective dark matter fluid and its interactions with baryons or photons.  The simplest example is 
-to constrain the baryon-dark matter cross section through its effective coupling of the two fluids~\cite{Dvorkin:2013cea}.  
-These couplings affect the evolution of fluctuations and ultimately the $T$ and $E$ spectra. 
-The current limits of $\sigma \lesssim 10^{-31}-10^{-34}\,{\rm cm}^2 \times (m_{\rm dm} / {\rm MeV})$ can be 
-competitive with direct detection for sub-GeV masses.  
-More exotic dark sectors that include long-range forces can produce an even richer phenomenology in the CMB and in the large-scale structure 
-without necessarily producing an associated signature in direct detection experiments or 
-indirect searches (e.g.~\cite{Cyr-Racine:2013fsa,Buen-Abad:2015ova,Lesgourgues:2015wza}). 
-\comor{not clear what this sentence says for PICO? why is DM not in the STM? I think we need a figure} 
+Traditional nuclear-recoil based direct detection experiments search for dark matter (DM) in the form of weakly interacting massive particles, which are expected to experience rare interactions with heavily shielded target material placed deep underground \cite{2013arXiv1310.8327C,2018PhRvD..97l3013K}.
+The shielding of Earth's atomsphere and crust, however, places a ``ceiling'' on the sensitivity of direct detection searches to large scattering cross sections.
+Moreover, these experiments are only sensitive to DM masses above $\sim$GeV; new strategies are being considered to expand the reach to lower masses by using lighter target nuclei.
+An entirely complementary way to probe DM is to search for evidence of its interactions in cosmological data.
+Since a lower DM particle mass translates to a higher number density of scattering centers, CMB is particularly sensitive to the low-mass regime.
+In addition, the CMB does not experience a detection ``ceiling'' and is sensitive to large, nuclear-scale cross sections.
+Finally, the CMB directly probes physics of \textit{cosmological} DM throughout cosmic history and does not rely on assumptions about the local DM density or phase-space distribution within the Milky Way. 
 
-A host of other physical phenomena including the existence and properties of axions, primordial magnetic fields, and 
-superconducting strings, leave signatures on the spectrum of the CMB and can therefore be constrained by 
-the sensitive measurements  of a future Probe (e.g.~\cite{Jedamzik2000, Tashiro2012, Dolgov2013, Tashiro2013, Caldwell2013}).
-\comor{not clear how this relates to PICO. do we have forecasts?}\\
- %%%%%
+Interactions between DM and protons in the early universe creates a drag force between the two cosmological fluids, damping acoustic oscillations and suppressing power in density perturbations on small scales. 
+As a result, the CMB temperature, polarization, and lensing power spectra are suppressed at high multipoles, with respect to those in $\Lambda$CDM universe (see left panel of Figure \ref{fig:DM_baryons} for illustration).
+This effect has been used to search for evidence of DM-proton scattering for heavy DM, using CMB and Lyman-$\alpha$ forest measurements \cite{2002astro.ph..2496C,2004PhRvD..70h3501S,Dvorkin:2013cea}. 
+
+Recently, \cite{2018PhRvL.121h1301G} presented the first cosmological search for DM particles with any mass down to a keV (orders of magnitude below the mass limits of direct detection experiments), and was followed by a number of similar studies \cite{2018arXiv180108609B,2018PhRvD..97j3530X}.
+In particular, \cite{2018arXiv180108609B} used {\planck} data to derive the first CMB limit on the non-relativistic effective theory of DM-proton scattering---a theoretical framework widely used in low-energy experiments to characterize all available phenomenologies for scattering through a heavy mediator. 
+Similarly, \cite{2018arXiv180800001B,2018PhRvD..98b3013S,2018PhRvD..97j3530X} parametrized the interaction cross section through its power-law dependence on the relative particle velocity, and reported improved limits on a wide range of models.
+Furthermore, \cite{2018arXiv180800001B} developed an improved treatment of non-linear effects that arise in calculation of post-recombination scattering signals.
+This and related studies have enabled robust investigation of a scenario in which only a fraction of DM interacts---and tightly couples---with baryons (while the remaining fraction behaves as the standard cold DM fluid), leading to the first robust cosmological limits on ab interacting DM sub-component \cite{2018arXiv180800001B, 2018arXiv180511616D}.
+Analyses of CMB data have also provided essential consistency tests of recent claims that the anomalous 21-cm signal reported by the EDGES collaboration \cite{2018Natur.555...67B} could be explained with late-time DM-baryon scattering \cite{2018Natur.555...71B}; see, for example, \cite{2018arXiv180711482K,2018PhRvD..98b3013S}.
+
+In Figure \ref{fig:DM_baryons}, we present current and projected upper limits on the DM-proton interaction cross section as a function of DM mass, for a spin-independent velocity-independent scattering (chosen as our fiducial model).
+Regions above the curves are excluded at the 95$\%$ confidence level.
+We compare current limits obtained from {\planck} (from \ref{2018PhRvL.121h1301G}) with projections for PICO sensitivity. 
+We note that PICO can deliver a substantial improvement over the current limits, across the entire DM mass range considered.
+
+Most of the constraining power in case of PICO (and ground-based next-generation measurements with similar white-noise levels) comes from the CMB lensing anisotropy measurement, while the temperature and polarization anisotropies contribute roughly equally to the projected constraint \ref{2018arXiv180610165L}.
+Furthermore, \ref{2018arXiv180610165L} has also shown that DM-baryon scattering is easily distinguishable from most other new-physics effects saught by the CMB experiments (the neutrino mass, new light degrees of freedom, and DM annihilations) once the lensing anisotropy is measured at the level of PICO. 
+PICO thus holds promise as a DM discovery tool. 
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{images/signal_dmeff.pdf}
+\includegraphics[width=0.4\textwidth]{images/pico_dm_baryon.pdf}
+\caption{\textit{Left:} Illustration of the effect of a velocity-independent spin-independent contact interaction between dark matter and baryons (with a cross section 100 times higher than the current upper limit from \planck) on the CMB temperature power spectrum (blue), compared to the CDM case (black). \textit{Right:} Upper limits on DM-proton interaction cross section as a function of DM mass, for a spin-independent velocity-independent scattering. Areas above the curves are excluded at 95$\%$ confidence-level.
+Shown are the current limits from \planck (\ref{2018PhRvL.121h1301G}) and a forecast for PICO.}\label{fig:DM_baryons}
+\end{center}
+\end{figure}
+
+
  $\bullet$ {\bf Neutrino Mass} \hspace{0.1in} The origin and structure of the neutrino masses is one of the great outstanding 
  questions about the nature of the Standard Model particles.  Measurements of neutrinos in the lab have revealed much 
  about the mass differences and mixing angles.  Cosmology offers a 
  measurement of the sum of the neutrino masses $\sum m_\nu$ through the gravitational influence of the non-relativistic 
- cosmic neutrinos (confirmed by the measurement of $\Neff$) \comor{not clear, what is confirmed?}.  
- The best current constraint arises from a combination of 
+ cosmic neutrinos.  The measurement of $\Neff = 2.99 \pm 0.17$ already confirms the existence of these neutrinos at $>10\sigma$ but their mass implies that contribute to the matter density at low redshifts.  The best current constraint arises from a combination of 
  Planck and BOSS \ac{BAO} giving $\sum m_\nu < 0.12$ eV (95\%) \comor{citation}.
 
 Cosmological measurements are primarily sensitive to the suppression of power on small scales after the neutrinos become 
@@ -201,7 +222,7 @@ Although many surveys hope to detect $\sum m_\nu$, any detection
 of the minimum value expected from particle physics $\sum m_\nu = 58$~meV at more than $2 \sigma$ will 
 require a better measurement of $\tau$.  The best constraints on $\tau$ come from $E$ modes with $\ell < 20$ which require 
 measurements over the largest angular scales. To date, the only proven method for such a measurement is from space. 
-The current limit of $\sigma({\tau}) = 0.009$ is from \planck~\cite{planck2016_xlvi} \comor{now 0.007}.  Forecasts for a
+The current limit of $\sigma({\tau}) = 0.007$ is from \planck~\cite{planck2016_xlvi}.  Forecasts for a
 CMB measurement of $\sum m_\nu$ using the lensing $B$ mode~\cite{Kaplinghat:2003bh} are shown in 
 Figure~\ref{fig:Neff_future}.  With the current uncertainty in $\tau$ one is limited to  
 $\sigma(\sum m_\nu) \gtrsim 25$ meV; no other survey or cosmological probe would improve this constraint.  
@@ -209,9 +230,7 @@ But PICO will reach the cosmic variance limit of $\tau \sim 0.002$ and will ther
 reach $\sigma(\sum m_\nu) < 15$ meV when combined with DESI's measurements of 
 baryon acoustic oscillations~\cite{Levi:2013gra}.  Robustly detecting neutrino mass at  $> 3\sigma$ in any cosmological setting is 
 only possible with an improved measurement of $\tau$ like the one achievable with PICO. The measurement
-would give  $\sum m_\nu>0$ at greater than $4\sigma$. \comor{how does this compare to forthcoming measurements 
-in the lab?, we should probably remove the next sentence about hierarchy.} or would exclude the inverted hierarchy ($\sum m_\nu > 100$ meV) at 95\% confidence, depending on the central value of the measurement. 
-
+would give  $\sum m_\nu>0$ at greater than $4\sigma$ or would exclude the inverted hierarchy ($\sum m_\nu > 100$ meV) at 95\% confidence, depending on the central value of the measurement.  Lab-based measurement could determine the hierarchy before PICO but only cosmology can measure $\sum m_\nu$.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace{0.1in}
