@@ -115,6 +115,11 @@ Lawrence~M. Widrow, Dongsu Ryu, Dominik R.~G. Schleicher, Kandaswamy
 \newblock {The First Magnetic Fields}.
 \newblock {\em Space Sci. Rev.}, 166:37--70, 2012.
 
+\bibitem{Grasso:2000wj}
+Dario Grasso and Hector~R. Rubinstein.
+\newblock {Magnetic fields in the early universe}.
+\newblock {\em Phys. Rept.}, 348:163--266, 2001.
+
 \bibitem{Vachaspati:1991nm}
 T.~Vachaspati.
 \newblock {Magnetic fields from cosmological phase transitions}.
@@ -154,6 +159,17 @@ Ruth Durrer and Andrii Neronov.
   Observation}.
 \newblock {\em Astron.Astrophys.Rev.}, 21:62, 2013.
 
+\bibitem{Kosowsky:1996yc}
+Arthur Kosowsky and Abraham Loeb.
+\newblock {Faraday rotation of microwave background polarization by a
+  primordial magnetic field}.
+\newblock {\em Astrophys.J.}, 469:1--6, 1996.
+
+\bibitem{Lewis:2004ef}
+Antony Lewis.
+\newblock {CMB anisotropies from primordial inhomogeneous magnetic fields}.
+\newblock {\em Phys. Rev.}, D70:043011, 2004.
+
 \bibitem{Zucca:2016iur}
 Alex Zucca, Yun Li, and Levon Pogosian.
 \newblock {Constraints on Primordial Magnetic Fields from Planck combined with
@@ -192,6 +208,15 @@ Vera Gluscevic, Marc Kamionkowski, and Asantha Cooray.
 \newblock {De-Rotation of the Cosmic Microwave Background Polarization:
   Full-Sky Formalism}.
 \newblock {\em Phys. Rev.}, D80:023510, 2009.
+
+\bibitem{Caldwell:2011}
+
+
+\bibitem{yadav2009}
+A.~P.~S. {Yadav}, R.~{Biswas}, M.~{Su}, and M.~{Zaldarriaga}.
+\newblock {Constraining a spatially dependent rotation of the cosmic microwave
+  background polarization}.
+\newblock {\em \prd}, 79(12):123009--+, June 2009.
 
 \bibitem{Ade:2015cao}
 Peter A.~R. Ade et~al.

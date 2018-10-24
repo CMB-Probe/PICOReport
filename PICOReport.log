@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.8.17)  23 OCT 2018 18:32
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  23 OCT 2018 20:10
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,6 +1085,7 @@ Package acronym Warning: Acronym `BAO' is not defined on input line 189.
 
 [7 <./images/Neff_final.pdf> <./images/Mnu_tauprior_final.pdf
 
+<<<<<<< Updated upstream
 pdfTeX warning: pdflatex (file ./images/Mnu_tauprior_final.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
 >]
@@ -1176,6 +1181,11 @@ Package natbib Warning: Citation `Ade:2015cao' on page 8 undefined on input lin
 e 228.
 
 [8]) (./extragalacticsci.tex
+=======
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/Mnu_tauprior_final.
+pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>] [8]) (./extragalacticsci.tex
+>>>>>>> Stashed changes
 
 Package natbib Warning: Citation `planckreion' on page 9 undefined on input lin
 e 9.
@@ -1205,6 +1215,7 @@ Package natbib Warning: Citation `calabrese/etal/2014' on page 9 undefined on i
 nput line 40.
 
 [9]
+<<<<<<< Updated upstream
 
 LaTeX Warning: Reference `fig:ReionizationPICO' on page 10 undefined on input l
 ine 44.
@@ -1215,6 +1226,9 @@ ine 49.
 
 
 <images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=203, 661.71594pt x 533
+=======
+<images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=402, 661.71594pt x 533
+>>>>>>> Stashed changes
 .22528pt>
 File: images/Reionization_Contours_zbar_delz_PICO_NEW.pdf Graphic file (type pd
 f)
@@ -1272,11 +1286,15 @@ ut line 65.
 
 LaTeX Warning: Reference `??' on page 11 undefined on input line 89.
 
+<<<<<<< Updated upstream
 
 LaTeX Warning: Reference `fig:lensingNoisePICO' on page 11 undefined on input l
 ine 97.
 
 <images/lensingNoisePICO.pdf, id=271, 587.19376pt x 587.19376pt>
+=======
+<images/lensingNoisePICO.pdf, id=470, 587.19376pt x 587.19376pt>
+>>>>>>> Stashed changes
 File: images/lensingNoisePICO.pdf Graphic file (type pdf)
 
 <use images/lensingNoisePICO.pdf>
@@ -1319,6 +1337,10 @@ LaTeX Warning: Reference `fig:HaloLensing' on page 12 undefined on input line 1
 Package natbib Warning: Citation `2015A&A...578A..21M' on page 12 undefined on 
 input line 139.
 
+<<<<<<< Updated upstream
+=======
+[11]
+>>>>>>> Stashed changes
 Package epstopdf Info: Source file: <images/m500lim_vs_z_pico_polar_v1.eps>
 (epstopdf)                    date: 2018-10-23 17:47:52
 (epstopdf)                    size: 16905 bytes
@@ -1335,7 +1357,11 @@ erted-to.pdf>
 (epstopdf)                    date: 2018-10-23 18:32:45
 (epstopdf)                    size: 11158 bytes.
 
+<<<<<<< Updated upstream
 <images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf, id=333, 505.89pt x 361
+=======
+<images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf, id=484, 505.89pt x 361
+>>>>>>> Stashed changes
 .35pt>
 File: images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1343,7 +1369,10 @@ File: images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf
  used on input line 145.
 (pdftex.def)             Requested size: 375.80544pt x 268.4369pt.
+ [12 <./images/lensingNoisePICO.pdf>] [13 <./images/m500lim_vs_z_pico_polar_v1-
+eps-converted-to.pdf>]
 
+<<<<<<< Updated upstream
 
 Package natbib Warning: Citation `2015A&A...578A..21M' on page 12 undefined on 
 input line 147.
@@ -1356,15 +1385,26 @@ input line 147.
 Package natbib Warning: Citation `2009PhRvL.102b1302S' on page 12 undefined on 
 input line 159.
 
+=======
+Package natbib Warning: Citation `SZ1969' on page 14 undefined on input line 16
+3.
+>>>>>>> Stashed changes
 
 Package natbib Warning: Citation `2018PhRvD..97l3540S' on page 12 undefined on 
 input line 159.
 
+<<<<<<< Updated upstream
 
 Package natbib Warning: Citation `2008PhRvD..77l3514D' on page 12 undefined on 
 input line 159.
+=======
+Package natbib Warning: Citation `SZ1972' on page 14 undefined on input line 16
+3.
+
+>>>>>>> Stashed changes
 
 
+<<<<<<< Updated upstream
 LaTeX Warning: Reference `fig:fnlconstraint' on page 12 undefined on input line
  159.
 
@@ -1424,6 +1464,9 @@ LaTeX Warning: Reference `fig:PICO_tSZ_PS' on page 15 undefined on input line 2
 24.
 
 <images/PICO_tSZ_PS_plot.pdf, id=485, 462.52798pt x 346.89601pt>
+=======
+[14] <images/PICO_tSZ_PS_plot.pdf, id=566, 462.52798pt x 346.89601pt>
+>>>>>>> Stashed changes
 File: images/PICO_tSZ_PS_plot.pdf Graphic file (type pdf)
 
 <use images/PICO_tSZ_PS_plot.pdf>
@@ -1434,7 +1477,11 @@ Package pdftex.def Info: images/PICO_tSZ_PS_plot.pdf used on input line 230.
 Package natbib Warning: Citation `McKee2007' on page 15 undefined on input line
  6.
 
+<<<<<<< Updated upstream
 [15] [16 <./images/PICO_tSZ_PS_plot.pdf>]
+=======
+[15 <./images/PICO_tSZ_PS_plot.pdf>]
+>>>>>>> Stashed changes
 
 Package natbib Warning: Citation `Lazarian2007b' on page 17 undefined on input 
 line 9.
@@ -1502,6 +1549,7 @@ Package natbib Warning: Citation `Houde2009' on page 17 undefined on input line
 Package natbib Warning: Citation `Houde2011' on page 17 undefined on input line
  21.
 
+<<<<<<< Updated upstream
 [17]
 
 Package natbib Warning: Citation `Fissel2016' on page 18 undefined on input lin
@@ -1509,8 +1557,17 @@ e 22.
 
 
 Package natbib Warning: Citation `King2018' on page 18 undefined on input line 
+=======
+
+Package natbib Warning: Citation `Fissel2016' on page 16 undefined on input lin
+e 22.
+
+
+Package natbib Warning: Citation `King2018' on page 16 undefined on input line 
+>>>>>>> Stashed changes
 22.
 
+[16]
 
 Package natbib Warning: Citation `GonzalezCasanova2017' on page 18 undefined on
  input line 23.
@@ -1548,7 +1605,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
+<<<<<<< Updated upstream
 <images/Allsky_dust_fig.pdf, id=532, 557.08125pt x 440.64626pt>
+=======
+<images/Allsky_dust_fig.pdf, id=608, 557.08125pt x 440.64626pt>
+>>>>>>> Stashed changes
 File: images/Allsky_dust_fig.pdf Graphic file (type pdf)
 
 <use images/Allsky_dust_fig.pdf>
@@ -1720,19 +1781,28 @@ Package natbib Warning: Citation `Peek:2018' on page 22 undefined on input line
 Package natbib Warning: Citation `McClure-Griffiths2015' on page 22 undefined o
 n input line 93.
 
+<<<<<<< Updated upstream
 ) (./legacysci.tex <images/fig_SED3_PICO.jpg, id=586, 325.9377pt x 218.0145pt>
+=======
+) (./legacysci.tex <images/fig_SED3_PICO.jpg, id=663, 325.9377pt x 218.0145pt>
+>>>>>>> Stashed changes
 File: images/fig_SED3_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_SED3_PICO.jpg>
 Package pdftex.def Info: images/fig_SED3_PICO.jpg used on input line 8.
 (pdftex.def)             Requested size: 225.4804pt x 150.82602pt.
 
+<<<<<<< Updated upstream
 <images/NgtF_500micron.png, id=588, 1047.915pt x 994.71625pt>
+=======
+<images/NgtF_500micron.png, id=665, 1047.915pt x 994.71625pt>
+>>>>>>> Stashed changes
 File: images/NgtF_500micron.png Graphic file (type png)
 
 <use images/NgtF_500micron.png>
 Package pdftex.def Info: images/NgtF_500micron.png used on input line 9.
 (pdftex.def)             Requested size: 225.47322pt x 156.4865pt.
+<<<<<<< Updated upstream
 
 
 Package natbib Warning: Citation `PCCS2' on page 22 undefined on input line 14.
@@ -1793,20 +1863,32 @@ Package natbib Warning: Citation `Planck2011nearby_gal' on page 24 undefined on
  input line 84.
 
 <images/fig_protocl_PICO.jpg, id=605, 348.8232pt x 246.6816pt>
+=======
+ [21] [22 <./images/fig_SED3_PICO.jpg> <./images/NgtF_500micron.png>]
+<images/fig_protocl_PICO.jpg, id=702, 348.8232pt x 246.6816pt>
+>>>>>>> Stashed changes
 File: images/fig_protocl_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_protocl_PICO.jpg>
 Package pdftex.def Info: images/fig_protocl_PICO.jpg used on input line 92.
 (pdftex.def)             Requested size: 150.32504pt x 106.30815pt.
 
+<<<<<<< Updated upstream
 <images/Oteo_2018_protocl.jpg, id=607, 250.7769pt x 270.2898pt>
+=======
+<images/Oteo_2018_protocl.jpg, id=704, 250.7769pt x 270.2898pt>
+>>>>>>> Stashed changes
 File: images/Oteo_2018_protocl.jpg Graphic file (type jpg)
 
 <use images/Oteo_2018_protocl.jpg>
 Package pdftex.def Info: images/Oteo_2018_protocl.jpg used on input line 93.
 (pdftex.def)             Requested size: 150.32953pt x 105.27237pt.
 
+<<<<<<< Updated upstream
 <images/NgtFclumps_800GHz.png, id=609, 1371.9255pt x 1163.547pt>
+=======
+<images/NgtFclumps_800GHz.png, id=706, 1371.9255pt x 1163.547pt>
+>>>>>>> Stashed changes
 File: images/NgtFclumps_800GHz.png Graphic file (type png)
 
 <use images/NgtFclumps_800GHz.png>
@@ -1918,6 +2000,7 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 37.
 
 (/opt/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+<<<<<<< Updated upstream
 )
 
 Package natbib Warning: Citation `Thorne:2016ifb' on page 28 undefined on input
@@ -1945,6 +2028,10 @@ Package natbib Warning: Citation `Vansyngel:2016' on page 28 undefined on input
 
 [28] [29]
 <images/bsky_pico_comb_90.00_mean_weight3.pdf, id=658, 614.295pt x 794.97pt>
+=======
+) [27] [28]
+<images/bsky_pico_comb_90.00_mean_weight3.pdf, id=794, 614.295pt x 794.97pt>
+>>>>>>> Stashed changes
 File: images/bsky_pico_comb_90.00_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.00_mean_weight3.pdf>
@@ -1952,7 +2039,11 @@ Package pdftex.def Info: images/bsky_pico_comb_90.00_mean_weight3.pdf used on i
 nput line 118.
 (pdftex.def)             Requested size: 281.85587pt x 364.7566pt.
 
+<<<<<<< Updated upstream
 <images/bsky_pico_comb_90.91_mean_weight3.pdf, id=659, 614.295pt x 794.97pt>
+=======
+<images/bsky_pico_comb_90.91_mean_weight3.pdf, id=795, 614.295pt x 794.97pt>
+>>>>>>> Stashed changes
 File: images/bsky_pico_comb_90.91_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.91_mean_weight3.pdf>
@@ -1964,7 +2055,11 @@ Overfull \hbox (69.23677pt too wide) in paragraph at lines 118--121
 [][]  [] 
  []
 
+<<<<<<< Updated upstream
 <images/bsky_pico_comb_90.92_mean_weight3.pdf, id=660, 614.295pt x 794.97pt>
+=======
+<images/bsky_pico_comb_90.92_mean_weight3.pdf, id=796, 614.295pt x 794.97pt>
+>>>>>>> Stashed changes
 File: images/bsky_pico_comb_90.92_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.92_mean_weight3.pdf>
@@ -1972,7 +2067,11 @@ Package pdftex.def Info: images/bsky_pico_comb_90.92_mean_weight3.pdf used on i
 nput line 122.
 (pdftex.def)             Requested size: 281.85587pt x 364.7566pt.
 
+<<<<<<< Updated upstream
 <images/bsky_pico_comb_90.93_mean_weight3.pdf, id=661, 614.295pt x 794.97pt>
+=======
+<images/bsky_pico_comb_90.93_mean_weight3.pdf, id=797, 614.295pt x 794.97pt>
+>>>>>>> Stashed changes
 File: images/bsky_pico_comb_90.93_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.93_mean_weight3.pdf>
@@ -1984,7 +2083,11 @@ Overfull \hbox (69.23677pt too wide) in paragraph at lines 122--125
 [][]  [] 
  []
 
+<<<<<<< Updated upstream
 <images/bsky_pico_comb_90.96_mean_weight3.pdf, id=662, 614.295pt x 794.97pt>
+=======
+<images/bsky_pico_comb_90.96_mean_weight3.pdf, id=798, 614.295pt x 794.97pt>
+>>>>>>> Stashed changes
 File: images/bsky_pico_comb_90.96_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.96_mean_weight3.pdf>
@@ -1992,7 +2095,11 @@ Package pdftex.def Info: images/bsky_pico_comb_90.96_mean_weight3.pdf used on i
 nput line 126.
 (pdftex.def)             Requested size: 281.85587pt x 364.7566pt.
 
+<<<<<<< Updated upstream
 <images/bsky_pico_comb_90.99_mean_weight3.pdf, id=663, 614.295pt x 794.97pt>
+=======
+<images/bsky_pico_comb_90.99_mean_weight3.pdf, id=799, 614.295pt x 794.97pt>
+>>>>>>> Stashed changes
 File: images/bsky_pico_comb_90.99_mean_weight3.pdf Graphic file (type pdf)
 
 <use images/bsky_pico_comb_90.99_mean_weight3.pdf>
@@ -2365,10 +2472,107 @@ Underfull \hbox (badness 1178) in paragraph at lines 57--57
  []
 
 
+<<<<<<< Updated upstream
 LaTeX Warning: Reference `sec:angle' on page 34 undefined on input line 60.
 
 
 LaTeX Warning: Reference `sec:angle' on page 34 undefined on input line 69.
 
+=======
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<images/PICO_rotate_eb4_v2.pdf, id=897, 597.23125pt x 397.485pt>
+File: images/PICO_rotate_eb4_v2.pdf Graphic file (type pdf)
+
+<use images/PICO_rotate_eb4_v2.pdf>
+Package pdftex.def Info: images/PICO_rotate_eb4_v2.pdf used on input line 265.
+(pdftex.def)             Requested size: 375.80544pt x 250.11967pt.
+
+
+Package natbib Warning: Author undefined for citation`Planck2016_XLIX' 
+(natbib)                on page 33 on input line 299.
+
+
+Package natbib Warning: Author undefined for citation`Aumont+2018' 
+(natbib)                on page 33 on input line 299.
+
+[33] <images/calibration_spectra.pdf, id=915, 686.26389pt x 334.24562pt>
+File: images/calibration_spectra.pdf Graphic file (type pdf)
+
+<use images/calibration_spectra.pdf>
+Package pdftex.def Info: images/calibration_spectra.pdf used on input line 316.
+
+(pdftex.def)             Requested size: 328.82707pt x 160.15556pt.
+ [34] [35 <./images/PICO_rotate_eb4_v2.pdf> <./images/calibration_spectra.pdf>]
+) (./requirements.tex [36]
+
+LaTeX Warning: Reference `sec:lensing' on page 37 undefined on input line 53.
+
+) (./instrument.tex
+Overfull \hbox (3.97798pt too wide) in paragraph at lines 5--6
+\T1/ptm/m/n/12 Telescope (Hanany / Young), fo-cal plane (Hanany / Young), cool-
+ing (Trangsrud), read-out (O'Brient) 
+ []
+
+) (./mission.tex) [37] (./technology.tex) (./cost.tex) [38] (./PICOReport.bbl
+Underfull \hbox (badness 2150) in paragraph at lines 36--41
+[]\T1/ptm/m/n/12 Francis-Yan Cyr-Racine, Roland de Put-ter, Alvise Rac-canelli,
+ and Kris Sig-urd-son.
+ []
+
+[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49]) (./acronym.tex)
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
+[50]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
+ (./PICOReport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
+Package rerunfilecheck Info: File `PICOReport.out' has not changed.
+(rerunfilecheck)             Checksum: EECAEFA32A634690D57FBBA85D01AFDB;2898.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
+ ) 
+Here is how much of TeX's memory you used:
+ 11495 strings out of 493014
+ 170126 string characters out of 6133351
+ 288293 words of memory out of 5000000
+ 14531 multiletter control sequences out of 15000+600000
+ 113037 words of font info for 180 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 53i,15n,92p,1677b,846s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type
+1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/
+symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr
+/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on PICOReport.pdf (51 pages, 4289917 bytes).
+PDF statistics:
+ 1142 PDF objects out of 1200 (max. 8388607)
+ 837 compressed objects within 9 object streams
+ 205 named destinations out of 1000 (max. 500000)
+ 389 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> Stashed changes
 
 Underfull \hbox (badness 10000) in paragraph at lines
