@@ -3,153 +3,61 @@
 
 \begin{document}
 
-\comor{Enumerate the various signals in polarization. Use the frequency band + signals figure. The challenge is to dig out the faintest of all 
-signals, the one due to $r$. This sets the tone for the entire 'signal decomposition' or 'component separation'.  Removing 
-the galactic signal to unmask $r \lesssim 0.001$ is a challenge for all future experiments searching for $r$ at that level, and is a strong advantage 
-of a space platform. The physics of galactic signals suggests complexities in their combined emission properties; the level of this 
-complexity is not known. } 
+%Enumerate the various signals in polarization. Use the frequency band + signals figure. The challenge is to dig out the faintest of all signals, the one due to $r$. This sets the tone for the entire 'signal decomposition' or 'component separation'.  Removing the galactic signal to unmask $r \lesssim 0.001$ is a challenge for all future experiments searching for $r$ at that level, and is a strong advantage of a space platform. The physics of galactic signals suggests complexities in their combined emission properties; the level of this complexity is not known. } 
 
-Contamination of CMB observations by astrophysical foreground emission of various origins is one of the major challenges that future observations of CMB polarization must face. Polarized emission in the PICO frequency range is known to be dominated by synchrotron emission from the galactic interstellar medium in our own galaxy and by thermal emission from interstellar dust. Although much has been learnt about these polarized foregrounds with WMAP and Planck observations, their exact properties are not known at the level that would be needed to guarantee that they can be separated out from the CMB using known component separation techniques. In particular neither the exact form one should assume for the frequency scaling of their emission (if any), nor the variation of these emission laws across the sky or along the line of sight, nor the small-scale distribution of emission, are known at the required level of detail. Whether other processes emit at a level that can contaminate PICO observations significantly is also not known at present. 
+%\comblue{Let's make clear that there are numerous signals that need to be separated; rather than a 'signal' and 'foregrounds'.} 
+Confusion between CMB emission and astrophysical foreground emission of various origins is one of the major challenges that future observations of CMB polarization must face. PICO observes the sky around the peak of the CMB blackbody at about 150\,GHz. Besides the CMB, several astrophysical sources contribute significantly to the total sky brightness and polarization fluctuations around this frequency. 
+Polarized radiation, in particular, arises primarily from the synchrotron emission of energetic electrons spiralling in the magnetic field of our own Galaxy, and from thermal emission from elongated interstellar dust grains. The combination of those two components dominates over primordial CMB polarization B-modes by several orders of magnitude, at all frequencies, in all sky directions -- this is the case even at high Galactic latitude, in regions of the sky where Galactic emission is at its minimum.
+%
+Disentangling all these emissions to detect CMB primordial B-modes is hence expected to be the hardest component separation task that must be performed to reach PICO's main science goals. Demonstrating its feasibility has thus been addressed in priority.
 
-The many frequency channels of PICO can be used to learn from the PICO observations themselves the properties of these foregrounds, and to identify the CMB contribution in the multifrequency data using its unique spectral signature. To be robust against our uncertainty about the foregrounds, we assess the feasibility of foreground cleaning for different models of foreground emission of varying complexity, from optimistic to pessimistic, and for various component separation methods. 
+To separate the various sky emissions, one exploits the fact that they arise from different physical processes, which give them different colors. While the CMB emits as a function of frequency as the temperature derivative of a blackbody at 2.725\,K, the frequency scaling of synchrotron is close to a power law with spectral index $\alpha \simeq -1$ (in brightness units), 
+\begin{equation}
+I_{\rm sync} \propto \nu^{\alpha},
+\end{equation}
+and that of thermal dust close to a modified blackbody with power law emissivity
+\begin{equation}
+I_{\rm dust} \propto \nu^{\beta} B_\nu(T_{\rm dust}),
+\end{equation}
+where $\beta \simeq 1.6$, $T_{\rm dust} \simeq 19$\,K, and $B_\nu(T)$ is the Planck function.
 
-To assess the performance of PICO we have carried out map based
-simulations within a ``data challenge'' framework.
-In this process one group prepares sets of simulated maps which are
-placed in a shared area.
-These are then re-analyzed by multiple individuals and groups employing various
-different component separation algorithms.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{PICO Map Based Simulations}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-For the CMB we take realizations of lensed-$\lambda$CDM shared from the
-Planck FFP10 simulation set.
-For the noise we take white noise realizations with the appropriate
-levels at each of the 21 bands.
-For the foregrounds we use a suite of 3rd party models:
-
-\begin{itemize}
-
-\item {\bf 00}: Simple Gaussian realizations of synchrotron and dust with power-law angular power spectra at amplitudes set to match the observations in the BICEP/Keck field, and simple uniform SEDs (power law for synchrotron, greybody for dust).
-
-\item {\bf 01}: The PySM\footnote{https://github.com/bthorne93/PySM\_public} model {\tt a1d1f1s1}, where the letters refer to anomalous microwave emission, dust, free-free and synchrotron respectively, and the numbers are the base models described in~\cite{Thorne:2016ifb}.
-
-\item {\bf 02}: The PySM model {\tt a2d4f1s3}, where the models have been updated to variants that are also described in~\cite{Thorne:2016ifb}.  Note that these include 2\% polarized AME, a curvature of the synchrotron SED, and a two-temperature model for dust.
-
-\item {\bf 03}: The PySM model {\tt a2d7f1s3}, where the dust model has been updated to a sophisticated physical model of dust grains as described in~\cite{Hensley:2015}.
-This model is interesting in that it does not necessarily conform to the greybody SED.
-
-\item {\bf 06}: A model based on MHD simulations~\citep{Kritsuk:2017} of the Galactic magnetic field, which naturally produces non-Gaussian correlated dust and synchrotron emission.
-
-\item {\bf 08}: A multilayer model of dust~\citep{Martinez:2017}
-which seeks to include the variation of
-the SED along the line of sight---i.e.\ in this model the behavior does not
-conform to a single greybody even within a high resolution pixel (as it will
-not in reality).
-
-\item {\bf 09}: A model of dust and synchrotron which implements non-Gaussian
-smaller scale structure and includes some decorrelation of the dust
-pattern as a function of frequency~\citep{Vansyngel:2016}.
-
-\end{itemize}
+If these emission laws were universal and their parameters well known a priori, and in the absence of any other emission processes, it would suffice to observe the sky at three different frequencies to separate these emissions. However, WMAP and Planck observations have shown that neither emission law is universal: spectral parameters vary with the region of emission. Also, while both emission laws are well-motivated phenomenological descriptions, they are not expected to be exact. At the level of accuracy required by PICO, one must learn from the data themselves, refine these models, and use sophisticated component separation techniques leaving residuals at the relative level of 0.01\%. As an additional complication, whether other subdominant processes can contaminate PICO CMB observations significantly is still not known. The so-called anomalous dust emission, an excess dust emission at frequencies between 10 and 100\,GHz, could be polarized at the sub-percent level. For these reasons, broad frequency coverage is required to reach PICO's goals. Observations at high frequency, in particular, are crucial to understand thermal dust emission, which is the dominant foreground at frequencies  between 100 and 200 GHz, where CMB sensitivity is the best. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Needlet re-analyis}
+\subsubsection{The PICO component separation challenge}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The NILC is based on Internal Linear Combinantion (or ILC in short) component separation method. It has been applied to the PICO simulations to determine the angular power spectrum of the B-mode polarized CMB signal. This method only attempts to reconstruct the CMB signal, without using any prior information about foregrounds. It is based on two specific assumptions. Firstly, that the CMB is frequency independent in thermodynamic unit, and secondly, that the CMB is uncorrelated with foreground signals. The ILC method then estimates the CMB, Sb, as a weighted linear combination of the set of input multi-frequency sky maps such that the variance of the estimate is minimum, with unit response to the flat CMB frequency spectrum,
-\begin{eqnarray} 
-\widehat S = w^{T} X = \frac{\displaystyle{a^{T} \widehat R^{-1}}}{\displaystyle{a^{T} \widehat R^{-1} a}} X =\frac{\displaystyle{a^{T} \widehat R^{-1}}}{\displaystyle{a^{T} \widehat R^{-1} a}} \left(a^{ } S + F + N\right),
-\label{equ:ilc} 
-\end{eqnarray}
-where X is the vector of frequency maps, a the constant frequency spectrum of the CMB signal S, F the total foreground signal, N the instrumental noise for the different frequency channels, and Rb the frequency-frequency covariance matrix. The first condition guarantees minimum contamination by foregrounds and instrumental noise whereas the second condition
-guarantees that the CMB signal is conserved without bias. The presence of the foregrounds induces correlated errors across frequencies, so that the ILC weights adjust themselves to minimise the foreground residuals present in the the weighted linear combination. However, in reality the weights result from a trade-off between minimising the foregrounds and minimising
-the instrumental noise contribution in the reconstructed CMB map.
-
-The ILC method can be straightforwardly implemented in either real
-(pixel) space or in harmonic space. Thus, sets of ILC weights can
-either be computed for different regions of the sky or for different
-angular scales, respectively, which allows for variations of the data
-covariance matrix in either space.  However, the ILC in harmonic space
-does not take into account the fact that noise can be a significant
-source of CMB measurement error in at high Galactic latitude, while
-foreground signals are more important at low Galactic
-latitude. Conversely, the ILC in pixel space does not take into
-account the fact that the noise dominates on small angular scales,
-while diffuse Galactic foreground emission dominates on large angular
-scales.
-
-In order to overcome this problem, we implement the ILC on a frame of
-spherical wavelets called needlets, a component-separation approach that we now refer to as the Needlet Internal Linear Combination ({\tt NILC}) method. This technique has already been applied broadly in CMB data analysis. The needlets enable localised filtering in both pixel space and harmonic space because they have compact support in the harmonic domain, while still being very well localised in the pixel domain. The needlet decomposition allows the ILC weights to vary both smoothly on large angular scales and rapidly on small angular scales, which is not possible by sub-dividing the sky into different areas prior to any processing.
-
-To analyse the simulations of sky for PICO, we have used $11$ frequency channels (i.e. every alternate channels starting from the lowest frequency channel) and $11$ needlet filters for the analysis. The needlet filters, $h^{j}_{l}$, in harmonic space that we use in our
-analysis are defined as follows,
-\begin{eqnarray}
-h^{j}_{l} = \left\{
-\begin{array}{rl} 
-\cos\left[\left(\frac{l^{j}_{peak}-l}{l^{j}_{peak}-l^{j}_{min}}\right)
-\frac{\pi}{2}\right]& \text{for } l^{j}_{min} \le l < l^{j}_{peak},\\ 
-\\
-1\hspace{0.5in} & \text{for } l = l_{peak},\\
-\\
-\cos\left[\left(\frac{l-l^{j}_{peak}}{l^{j}_{max}-l^{j}_{peak}}\right)
-\frac{\pi}{2}\right]& \text{for } l^{j}_{peak} < l \le l^{j}_{max} 
-\end{array} \right. 
-\end{eqnarray}
-
-\begin{table}
-\caption{List of needlet bands used in the present
-  analysis.}  \centering \begin{tabular}{c c c c c} \hline\hline
-  Band index & $l_{min}$ & $l_{peak}$ & $l_{max}$ & nside \\ [5ex]
-  \hline 1 & 0 & 0 & 50 & 32\\ 2 & 0 & 50 & 100 & 64 \\ 3 & 50 & 100 &
-  200 & 128 \\ 4 & 100 & 200 & 300 & 256 \\ 5 & 200 & 300 & 400 & 256
-  \\ 6 & 300 & 400 & 500 & 256 \\ 7 & 400 & 500 & 600 & 512 \\ 8 & 500
-  & 600 & 700 & 512 \\ 9 & 600 & 700 & 800 & 512 \\ 10 & 700 & 800 & 900 & 512 \\ 11 & 800 & 900 & 1000 & 512\\ [1ex] \hline
-\end{tabular} 
-\label{tab:needlet-bands} 
-\end{table}
-The simulated sky maps are first convolved or de-convolved in harmonic space to put them all at the same angular resolution (FWHM $15$ arcmin) prior to the application of the NILC algorithm. Since the method as currently implemented is applicable to scalar fields on the sphere, sky maps of the B modes are constructed from the input Stokes parameters, Q and U, on the full sky. The NILC weights used to combine the multi-frequency input data in order to estimate the CMB signal are then computed from the full-mission sky maps for B-mode. The derived weights are also applied to the half-mission maps, which are later used for minimising the impact of residuals of noise on the measurement of angular power spectrum. 
-
-The needlet weights are mostly determined by the galactic contamination, which dominates on large angular scales, and by the noise level, which dominates on small angular scales. Although the weights of for a subset of the frequency channels under consideration are relatively low compared to other channels, they are important for removing the Galactic foreground contamination. However, the reconstructed B-mode maps cannot be completely free from contamination by residual foregrounds and noise. Therefore, for further analysis, a set of conservative masks are derived from the residuals of foreground map. For the computation of the angular power spectrum of the high resolution NILC CMB maps, we use a pseudo-Cl estimator. Currently I am experimenting with different sets of confidence mask. Soon I will share with you the results obtained using those new mask.
+The baseline design of PICO has 21 channels observing the sky in the 20\,GHz to 800\,GHz frequency range (Fig.~\ref{fig:pico-channels-and-fg}). By analysing how the total emission varies across frequency bands, one can infer the detailed emission properties of the various emission components, form linear combinations of the observations that maximise the contribution of a component of interest while minimising contamination by the others and by instrumental noise, and understand the properties of the foregrounds to evaluate potential residuals in the CMB B-mode map. Various such techniques have been successfully used in previous CMB observations such as those of the Planck mission. Building on this existing expertise, we have carried out map based simulations within a ``data challenge'' framework to assess the capacity of PICO to measure the main signal of interest (CMB primordial B-modes). In this process one group prepares sets of simulated maps for different models of foreground emission of varying complexity from optimistic to pessimistic, which are placed in a shared area. These are then re-analyzed by multiple individuals and groups employing various different component separation algorithms.
 
 \begin{figure}
-\includegraphics[width=0.6\textwidth,angle=0]{images/bsky_pico_comb_90.00_mean_weight3.pdf}
-\hskip-5ex
-\includegraphics[width=0.6\textwidth,angle=0]{images/bsky_pico_comb_90.91_mean_weight3.pdf}
-\vskip-25ex
-\includegraphics[width=0.6\textwidth,angle=0]{images/bsky_pico_comb_90.92_mean_weight3.pdf}
-\hskip-5ex
-\includegraphics[width=0.6\textwidth,angle=0]{images/bsky_pico_comb_90.93_mean_weight3.pdf}
-\vskip-25ex
-\includegraphics[width=0.6\textwidth,angle=0]{images/bsky_pico_comb_90.96_mean_weight3.pdf}
-\hskip-5ex
-\includegraphics[width=0.6\textwidth,angle=0]{images/bsky_pico_comb_90.99_mean_weight3.pdf}
+\includegraphics[width=0.49\textwidth,angle=0]{images/sensitivity_vs_frequency_Jun29th_2018_large.pdf}
+\includegraphics[width=0.49\textwidth,angle=0]{images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf}
+\caption{Polarization B modes of Galactic synchrotron and dust, compared to CMB polarization E-modes and B-modes of different origin, for two values of the tensor-to-scalar ration $r$. The location and sensitivity of the PICO frequency channels is shown as vertical bands. Left: integrated r.m.s. emission on the largest angular scales ($2\leq \ell \leq 10$), corresponding to the reionization peak; Right, integrated r.m.s. emission on $\simeq 2^\circ$ angular scales ($50 \leq \ell \leq 150$), corresponding to the expected recombination peak in CMB primordial B modes.}
+\label{fig:pico-channels-and-fg}
 \end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{PSM sky simulations at $\boldsymbol{N_{\rm side}=16}$}
+%\subsubsection{The PICO simulated observations}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-The PSM (Planck Sky Model) \cite{delabrouille/etal:2013} is a simulation software developed by the \emph{Planck} Collaboration  to model sky emissions at submillimetre to centimetre wavelengths based on the state-of-the-art observations of the \emph{Planck} satellite mission and earlier surveys. We use the {\sc PSM} to simulate all-sky polarization maps at the 21 frequency bands of \emph{PICO} ($21$ to $800$\,GHz). The simulated components of emission include CMB E- and B-mode polarization, polarized Galactic synchrotron and thermal dust foreground emissions. The CMB template map is generated from CAMB \cite{Lewis/etal:2000} through CMB E- and B-mode power spectra by assuming an optical depth to reionization of $\tau=0.06$ and a tensor-to-scalar ratio of $r = 10^{-3}$, as well as gravitational lensing effects. Galactic dust Q and U polarization maps are generated from the \emph{Planck} {\sc GNILC} 
-dust intensity all-sky map at $353$\,GHz , in which cosmic infrared background (CIB), CMB, and noise have been filtered out, and assuming average polarization fractions of $5$-$10$\%. Galactic synchrotron Q and U maps are based on the \emph{WMAP} polarization observations at $23$\,GHz~\cite{Miville-Deschenes/etal:2008}. 
-
-The thermal dust Q and U template maps are extrapolated across \emph{PICO} frequencies through a modified blackbody energy spectrum having variable spectral index and temperature over the sky, using the Planck {\sc GNILC} dust spectral index and temperature maps for which ${\beta_d = 1.6\pm 0.1}$ and ${T_d=19.4 \pm 1.3}$\,K, respectively. The synchrotron Q and U template maps are extrapolated across \emph{PICO} frequencies through a curved power-law spectrum, with a variable spectral index over the sky of ${\beta_s = -3\pm 0.06}$ based on the synchrotron index map from \cite{Miville-Deschenes/etal:2008}, and a constant curvature of $C_s = 0.3$ \cite{Kogut/etal:2007} to account for different populations of cosmic ray electrons  and possible AME polarization \cite{dickinson/etal:2018}. The CMB, dust, and synchrotron component maps in each \emph{PICO} frequency are then co-added, and instrumental white noise is added to each sky map using the sensitivities per frequency quoted by \emph{PICO}.
-The PSM simulations are generated at a pixel resolution of HEALPix \cite{gorski/etal:2005} $N_{\rm side}=16$ ($2 \leq \ell \leq 47$), therefore assuming spectral variations of the foregrounds across $N_{\rm side}=16$ pixels.
+Several different models of foreground emission have been used for the PICO data challenge, from simple Gaussian realizations of synchrotron and dust at the level observed in the BICEP2 field, scaling rigidly in frequency with a single modified blackbody, to models in which the spectral parameters of foregrounds can vary across the sky and along the line of sight, AME can be 2\% polarized, dust polarization can rotate slightly as a function of frequency by reason of projection effects, or the dust SED can depart from a simple modified blackbody. All foreground maps are generated at native HEALPix resolution {\tt nside=512}. They are generated using PySM and/or PSM codes.
+%
+The CMB is generated as realizations of lensed-$\lambda$CDM from the Planck simulations data set, with primordial B-modes at the $r=0.003$ level. PICO noise is simulated as Gaussian uniform on the sky and uncorrelated from pixel to pixel, at the appropriate levels for each of the 21 PICO bands. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{ PICO forecasts with \textsc{Commander}}
+%\subsubsection{Component separation methods}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-We have applied the \textsc{Commander} algorithm \cite{eriksen/etal:2008} to the set of PSM $N_{\rm side}=16$ sky simulations for \emph{PICO}.
-\textsc{Commander} is a Bayesian parametric fitting method which has been thoroughly used by the \emph{Planck} Collaboration for the separation of CMB and foreground components \cite{Planck_2015_X,Planck_2018_IV}. Using MCMC Gibbs sampling in each pixel, the \textsc{Commander} algorithm allows to fit simultaneously the amplitudes of CMB and foreground components, their spectral parameters, and the CMB E- and B-mode power spectra in a self-consistent Bayesian framework. A Blackwell-Rao estimator applied to the Gibbs samples allows in particular to reconstruct the statistical (chi-square) distribution of the CMB B-mode power spectrum at each multipole, and the posterior distribution of the tensor-to-scalar ratio \cite{Remazeilles/etal:2016,Remazeilles/etal:2018}. Such a Bayesian method performs end-to-end propagation of all foreground uncertainties towards the tensor-to-scalar ratio, while providing a chi-square goodness-of-fit in each pixel which allows to revise the parametric model or readjust the galactic mask a posteriori. The \emph{PICO} sky maps are processed by \textsc{Commander} using a Galactic mask leaving a $50$\% fraction of the sky, and forecasts on $r$ are computed using the range of low multipoles $2 \leq \ell \leq 47$.
+Observations from the challenge are analyzed with a variety of well-established component separation methods that rely on various approaches to model the data and to separate the various emissions. These methods can be classified in two broad categories: correlation methods, which exploit the fact that foreground emission is strongly correlated from frequency to frequency, but uncorrelated with the CMB, and parametric methods, which model the sky emission using specific (parametric) emission laws, and use spectral fits in independent pixels or sky regions to infer the amplitude and spectral parameters of each of the components in the sky. Correlation methods include the SEVEM algorithm, and variants of the Internal Linear Combination (ILC) algorithm, such as the needlet space ILC (NILC) and a version generalised to multidmensional components (GNILC). Parametric methods include the Commander algorithm and the X-forecast method.
 
-First considering \emph{PICO} sky simulations \emph{without foregrounds}, but just CMB and noise in the \emph{PICO} frequency bands,  we recover the tensor-to-scalar ratio with ${\sigma(r = 10^{-3}) = 0.40 \times 10^{-3}}$ significance: this provides the minimum uncertainty on ${r = 10^{-3}}$ that can be achieved by \emph{PICO} from low multipoles $2 \leq \ell \leq 47$ in the absence of foregrounds on $50$\% of the sky. In the presence of foregrounds (full simulation), with variable spectral indices over the sky, the \textsc{Commander} results on $r$ are of similar quality due to the broad frequency range of \emph{PICO} ($21$ -$800$\,GHz), with ${\sigma(r = 10^{-3}) = 0.41 \times 10^{-3}}$ for \emph{PICOv2-1.4} and ${\sigma(r = 10^{-3}) = 0.36 \times 10^{-3}}$ for \emph{PICOv3} (increased sensitivities per channel) after foreground cleaning. Assuming now that $60$\% delensing in power has been achieved (modified PSM simulation with only $40$\% of the lensing B-mode power left in the CMB map realisation), the uncertainty on ${r=10^{-3}}$ is improved by more than $30$\%, with ${\sigma(r = 10^{-3}) = 0.24 \times 10^{-3}}$ for \emph{PICOv3}  after foreground cleaning and $60$\% delensing. Finally, we note that discarding low- and high-frequency bands, resulting in a descoped version of \emph{PICO} with a narrower frequency range of $43$-$462$\,GHz, the \textsc{Commander} results are degraded by $75$\%, with an uncertainty  increasing from 
-${\sigma(r = 10^{-3}) = 0.4 \times 10^{-3}}$  to ${\sigma(r = 10^{-3}) = 0.7 \times 10^{-3}}$ after foreground cleaning. The main reason for the degradation is a lack of constraining power on the dust temperature variations over the sky when discarding frequencies above $462$ GHz, which translates into a degradation of the fitted CMB B-mode power spectrum by extrapolation towards central frequencies. 
-\newline\textcolor{red}{[MR: I can add a figure on \textsc{Commander} $C_\ell^{BB}$ results with \emph{PICO}, if needed]}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Results}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-We are working in parallel on \textsc{Commander2}, a new version of the algorithm operating in harmonic space, thus allowing to perform the parametric fit at full resolution and to further reduce the uncertainty on $r$ by the increase of information / modes.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Discussion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \end{document}
 
