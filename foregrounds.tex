@@ -6,22 +6,18 @@
 %Enumerate the various signals in polarization. Use the frequency band + signals figure. The challenge is to dig out the faintest of all signals, the one due to $r$. This sets the tone for the entire 'signal decomposition' or 'component separation'.  Removing the galactic signal to unmask $r \lesssim 0.001$ is a challenge for all future experiments searching for $r$ at that level, and is a strong advantage of a space platform. The physics of galactic signals suggests complexities in their combined emission properties; the level of this complexity is not known. } 
 
 %\comblue{Let's make clear that there are numerous signals that need to be separated; rather than a 'signal' and 'foregrounds'.} 
-Confusion between CMB emission and astrophysical foreground emission of various origins is one of the major challenges that future observations of CMB polarization must face. PICO observes the sky around the peak of the CMB blackbody at about 150\,GHz. Besides the CMB, several astrophysical sources contribute significantly to the total sky brightness and polarization fluctuations around this frequency. 
-Polarized radiation, in particular, arises primarily from the synchrotron emission of energetic electrons spiralling in the magnetic field of our own Galaxy, and from thermal emission from elongated interstellar dust grains. The combination of those two components dominates over primordial CMB polarization B-modes by several orders of magnitude, at all frequencies, in all sky directions -- this is the case even at high Galactic latitude, in regions of the sky where Galactic emission is at its minimum.
+Diffuse Milky way emissions dominate the sky's polarized intensity on the largest angular scales; see Figure~\ref{fig:pico-channels-and-fg}. \comor{also reference to Figure 1?} Even in the cleanest, smaller patches of the sky, far from the galactic plane and thus relatively low in galactic emissions, their levels are expected to dominate the CMB inflationary $BB$ signal for $r \lesssim 0.01$, and overwhelm it for $r \lesssim0.001$; see Figure~\ref{fig:pico-channels-and-fg}. Foreground separation together with control of systematic uncertainties is the challenge facing any next decade experiment attempting to reach these levels of constraints on $r$.
+
+The challenge would be easily surmountable if Galactic emissions were already precisely characterized, or were  known to have simple, fittable emission laws. But neither is true. Until recently, the spectrum of Galactic synchrotron emission, arising from free electrons spiraling around Galactic magnetic fields, was modeled as a power law $I_{\rm sync} \propto \nu^{\alpha},$ with $\alpha \simeq -1$ (in brightness units). The spectrum of Galactic dust emission, arising from emission by Galactic dust grains, was modeled as $I_{\rm dust} \propto \nu^{\beta} B_\nu(T_{\rm dust}),$ where $\beta \simeq 1.6$, $T_{\rm dust} \simeq 19$\,K, and $B_\nu(T)$ is the Planck function. \comor{the values are averages across the sky?} However, WMAP and Planck observations have shown that neither emission law is universal; that spectral parameters vary with the region of emission \comor{is that true? is there evidence from Planck; add references}. Also, while both emission laws are well-motivated phenomenological descriptions, the fundamental physics of emissions from grains of different material, sizes and temperatures, and of electrons spiraling around magnetic fields implies that they are not expected to be exact, nor universal. 
+
+We know that we don't know enough about synchrotron and dust emission. We know even less about the polarization level of 'anomalous dust emission', an excess of dust emission at frequencies between 10 and 100~GHz, and of infra-red sources. Depending on reasonable levels of polarization assumed their contributions to the total polarized signal may be appreciable or negligible (for $r\lesssim 0.001$)~\citep{??}.  
+
+%At the level of accuracy required by the anticipated stringent constraints on $r$, one must learn from the data themselves. 
+%, and refine the models and the component separation techniques to reach a level of residual foreground contamination of 0.01\ % 
+
+ 
+
 %
-Disentangling all these emissions to detect CMB primordial B-modes is hence expected to be the hardest component separation task that must be performed to reach PICO's main science goals. Demonstrating its feasibility has thus been addressed in priority.
-
-To separate the various sky emissions, one exploits the fact that they arise from different physical processes, which give them different colors. While the CMB emits as a function of frequency as the temperature derivative of a blackbody at 2.725\,K, the frequency scaling of synchrotron is close to a power law with spectral index $\alpha \simeq -1$ (in brightness units), 
-\begin{equation}
-I_{\rm sync} \propto \nu^{\alpha},
-\end{equation}
-and that of thermal dust close to a modified blackbody with power law emissivity
-\begin{equation}
-I_{\rm dust} \propto \nu^{\beta} B_\nu(T_{\rm dust}),
-\end{equation}
-where $\beta \simeq 1.6$, $T_{\rm dust} \simeq 19$\,K, and $B_\nu(T)$ is the Planck function.
-
-If these emission laws were universal and their parameters well known a priori, and in the absence of any other emission processes, it would suffice to observe the sky at three different frequencies to separate these emissions. However, WMAP and Planck observations have shown that neither emission law is universal: spectral parameters vary with the region of emission. Also, while both emission laws are well-motivated phenomenological descriptions, they are not expected to be exact. At the level of accuracy required by PICO, one must learn from the data themselves, refine these models, and use sophisticated component separation techniques leaving residuals at the relative level of 0.01\%. As an additional complication, whether other subdominant processes can contaminate PICO CMB observations significantly is still not known. The so-called anomalous dust emission, an excess dust emission at frequencies between 10 and 100\,GHz, could be polarized at the sub-percent level. For these reasons, broad frequency coverage is required to reach PICO's goals. Observations at high frequency, in particular, are crucial to understand thermal dust emission, which is the dominant foreground at frequencies  between 100 and 200 GHz, where CMB sensitivity is the best. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{The PICO component separation challenge}
