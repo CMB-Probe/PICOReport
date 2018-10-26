@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 OCT 2018 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 OCT 2018 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1144,25 +1144,24 @@ Package natbib Warning: Citation `SZ1969' on page 14 undefined on input line 12
 Package natbib Warning: Citation `SZ1972' on page 14 undefined on input line 12
 9.
 
-[14]
 
-Package natbib Warning: Citation `Delabrouille2009' on page 15 undefined on inp
+Package natbib Warning: Citation `Delabrouille2009' on page 14 undefined on inp
 ut line 156.
 
-<images/PICO_tSZ_PS_plot.pdf, id=774, 462.52798pt x 346.89601pt>
+[14] <images/PICO_tSZ_PS_plot.pdf, id=774, 462.52798pt x 346.89601pt>
 File: images/PICO_tSZ_PS_plot.pdf Graphic file (type pdf)
 
 <use images/PICO_tSZ_PS_plot.pdf>
 Package pdftex.def Info: images/PICO_tSZ_PS_plot.pdf used on input line 163.
 (pdftex.def)             Requested size: 216.81pt x 162.6071pt.
-) (./galacticsci.tex [15 <./images/PICO_tSZ_PS_plot.pdf>] [16] <galsci_fig.pdf,
- id=818, 2621.68448pt x 909.30713pt>
+) (./galacticsci.tex [15 <./images/PICO_tSZ_PS_plot.pdf>] <galsci_fig.pdf, id=8
+11, 2621.68448pt x 909.30713pt>
 File: galsci_fig.pdf Graphic file (type pdf)
 
 <use galsci_fig.pdf>
 Package pdftex.def Info: galsci_fig.pdf used on input line 54.
 (pdftex.def)             Requested size: 433.62pt x 150.38994pt.
- [17 <./galsci_fig.pdf>]
+ [16] [17 <./galsci_fig.pdf>]
 
 Package natbib Warning: Author undefined for citation`EllsworthBowers2015' 
 (natbib)                on page 18 on input line 88.
@@ -1182,62 +1181,96 @@ File: images/NgtF_500micron.png Graphic file (type png)
 Package pdftex.def Info: images/NgtF_500micron.png used on input line 9.
 (pdftex.def)             Requested size: 225.47322pt x 156.4865pt.
  [20 <./images/fig_SED3_PICO.jpg> <./images/NgtF_500micron.png>]
-<images/fig_protocl_PICO.jpg, id=999, 348.8232pt x 246.6816pt>
+<images/fig_protocl_PICO.jpg, id=1000, 348.8232pt x 246.6816pt>
 File: images/fig_protocl_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_protocl_PICO.jpg>
 Package pdftex.def Info: images/fig_protocl_PICO.jpg used on input line 92.
 (pdftex.def)             Requested size: 150.32504pt x 106.30815pt.
 
-<images/Oteo_2018_protocl.jpg, id=1001, 250.7769pt x 270.2898pt>
+<images/Oteo_2018_protocl.jpg, id=1002, 250.7769pt x 270.2898pt>
 File: images/Oteo_2018_protocl.jpg Graphic file (type jpg)
 
 <use images/Oteo_2018_protocl.jpg>
 Package pdftex.def Info: images/Oteo_2018_protocl.jpg used on input line 93.
 (pdftex.def)             Requested size: 150.32953pt x 105.27237pt.
 
-<images/NgtFclumps_800GHz.png, id=1003, 1371.9255pt x 1163.547pt>
+<images/NgtFclumps_800GHz.png, id=1004, 1371.9255pt x 1163.547pt>
 File: images/NgtFclumps_800GHz.png Graphic file (type png)
 
 <use images/NgtFclumps_800GHz.png>
 Package pdftex.def Info: images/NgtFclumps_800GHz.png used on input line 94.
 (pdftex.def)             Requested size: 150.30519pt x 105.26509pt.
- [21] [22 <./images/fig_protocl_PICO.jpg> <./images/Oteo_2018_protocl.jpg> <./i
-mages/NgtFclumps_800GHz.png>])
+ [21 <./images/fig_protocl_PICO.jpg> <./images/Oteo_2018_protocl.jpg> <./images
+/NgtFclumps_800GHz.png>] [22])
 Overfull \hbox (22.81671pt too wide) in paragraph at lines 215--215
 |[]\T1/ptm/b/n/12 Complementarity with Other Sur-veys and with Sub-Orbital Mea-
 sure-ments (1 pg, Lawrence,
  []
 
-(./complementarity_sh_qi.tex [23]) (./foregrounds.tex [24]
-
-Package natbib Warning: Citation `??' on page 25 undefined on input line 13.
-
-
-<images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1075, 1027.84pt x 7
+(./complementarity_sh_qi.tex [23]) (./foregrounds.tex
+<images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1069, 1027.84pt x 7
 70.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf Graphic file (type
  pdf)
  <use images/sensitivity_vs_frequency_Jun29th_2018_large.pdf>
 Package pdftex.def Info: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf
- used on input line 29.
+ used on input line 12.
 (pdftex.def)             Requested size: 230.18253pt x 172.62889pt.
 
-<images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1076, 1027.84pt x 77
+<images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1070, 1027.84pt x 77
 0.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf Graphic file (type 
 pdf)
  <use images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf>
 Package pdftex.def Info: images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf 
-used on input line 30.
+used on input line 13.
 (pdftex.def)             Requested size: 230.18253pt x 172.62889pt.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 39.
+ [24]
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [25])
-(./systematics.tex [26 <./images/sensitivity_vs_frequency_Jun29th_2018_large.pd
-f> <./images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf>]
+Package natbib Warning: Citation `??' on page 25 undefined on input line 21.
+
+[25 <./images/sensitivity_vs_frequency_Jun29th_2018_large.pdf> <./images/sensit
+ivity_vs_frequency_Jun29th_2018_2deg.pdf>]
+
+Package natbib Warning: Citation `healpix' on page 26 undefined on input line 3
+3.
+
+
+Package natbib Warning: Citation `??' on page 26 undefined on input line 33.
+
+
+LaTeX Warning: Reference `fig:skymodels' on page 26 undefined on input line 33.
+
+
+
+Package natbib Warning: Citation `foregroundappendix' on page 26 undefined on i
+nput line 33.
+
+Package acronym Info: Label `acro:IGW' newly defined as it shall be overridden
+although it is yet undefined on input line 35.
+
+Package acronym Warning: Acronym `IGW' is not defined on input line 35.
+
+
+Package acronym Warning: Acronym `IGW' is not defined on input line 35.
+
+
+Package natbib Warning: Citation `sevem' on page 26 undefined on input line 37.
+
+
+Package acronym Info: Label `acro:ILC' newly defined as it shall be overridden
+although it is yet undefined on input line 37.
+
+Package acronym Warning: Acronym `ILC' is not defined on input line 37.
+
+
+Package acronym Warning: Acronym `ILC' is not defined on input line 37.
+
+
+Package acronym Warning: Acronym `ILC' is not defined on input line 37.
+
+) (./systematics.tex [26]
 
 Package natbib Warning: Citation `Takahaski2010' on page 27 undefined on input 
 line 21.
@@ -1385,7 +1418,7 @@ Underfull \hbox (badness 2961) in paragraph at lines 228--230
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27] [28] <images/PICO_rotate_eb4_v2.pdf, id=1165, 597.23125pt x 397.485pt>
+[27] [28] <images/PICO_rotate_eb4_v2.pdf, id=1164, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb4_v2.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb4_v2.pdf>
@@ -1400,7 +1433,7 @@ Package natbib Warning: Author undefined for citation`Planck2016_XLIX'
 Package natbib Warning: Author undefined for citation`Aumont+2018' 
 (natbib)                on page 29 on input line 299.
 
-<images/calibration_spectra.pdf, id=1171, 686.26389pt x 334.24562pt>
+<images/calibration_spectra.pdf, id=1170, 686.26389pt x 334.24562pt>
 File: images/calibration_spectra.pdf Graphic file (type pdf)
 
 <use images/calibration_spectra.pdf>
@@ -1428,7 +1461,7 @@ Overfull \hbox (3.97798pt too wide) in paragraph at lines 5--6
 ing (Trangsrud), read-out (O'Brient) 
  []
 
-) (./mission.tex) (./technology.tex) (./cost.tex) [32] [33] (./PICOReport.bbl
+) (./mission.tex) (./technology.tex) [32] (./cost.tex) [33] (./PICOReport.bbl
 [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48])
 (./acronym.tex)
 
@@ -1441,7 +1474,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 278.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
 Package rerunfilecheck Info: File `PICOReport.out' has not changed.
-(rerunfilecheck)             Checksum: 72C2CA77DA8DA2C84B1A1C51018E75B7;2702.
+(rerunfilecheck)             Checksum: 75D904B48EC0B40607C7384D42775223;2700.
 
 
 LaTeX Warning: There were undefined references.
@@ -1449,11 +1482,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
- 11582 strings out of 493014
- 172124 string characters out of 6133351
- 293959 words of memory out of 5000000
- 14592 multiletter control sequences out of 15000+600000
- 103463 words of font info for 171 fonts, out of 8000000 for 9000
+ 11565 strings out of 493014
+ 171821 string characters out of 6133351
+ 294109 words of memory out of 5000000
+ 14580 multiletter control sequences out of 15000+600000
+ 102842 words of font info for 169 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,12n,92p,1856b,1000s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1472,17 +1505,16 @@ f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texmf-d
 ist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/tex
 mf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
-pe1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw
-/helvetic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbo
-l/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-</usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (50 pages, 6434611 bytes).
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/u
+rw/symbol/usyr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/u
+syr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on PICOReport.pdf (50 pages, 6427990 bytes).
 PDF statistics:
- 1421 PDF objects out of 1440 (max. 8388607)
- 995 compressed objects within 10 object streams
+ 1417 PDF objects out of 1440 (max. 8388607)
+ 992 compressed objects within 10 object streams
  239 named destinations out of 1000 (max. 500000)
  381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
