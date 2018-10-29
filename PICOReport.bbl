@@ -94,17 +94,47 @@ J.~D. {Bowman}, A.~E.~E. {Rogers}, R.~A. {Monsalve}, T.~J. {Mozdzen}, and
   spectrum}.
 \newblock {\em \nat}, 555:67--70, March 2018.
 
-\bibitem{2018Natur.555...71B}
-R.~{Barkana}.
-\newblock {Possible interaction between baryons and dark-matter particles
-  revealed by the first stars}.
-\newblock {\em \nat}, 555:71--74, March 2018.
-
-\bibitem{2018arXiv180711482K}
-E.~D. {Kovetz}, V.~{Poulin}, V.~{Gluscevic}, K.~K. {Boddy}, R.~{Barkana}, and
-  M.~{Kamionkowski}.
-\newblock {Tighter Limits on Dark Matter Explanations of the Anomalous EDGES
-  21cm Signal}.
+\bibitem{Planck2018_VI}
+{Planck Collaboration}, N.~{Aghanim}, Y.~{Akrami}, M.~{Ashdown}, J.~{Aumont},
+  C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday}, R.~B. {Barreiro},
+  N.~{Bartolo}, S.~{Basak}, R.~{Battye}, K.~{Benabed}, J.-P. {Bernard},
+  M.~{Bersanelli}, P.~{Bielewicz}, J.~J. {Bock}, J.~R. {Bond}, J.~{Borrill},
+  F.~R. {Bouchet}, F.~{Boulanger}, M.~{Bucher}, C.~{Burigana}, R.~C. {Butler},
+  E.~{Calabrese}, J.-F. {Cardoso}, J.~{Carron}, A.~{Challinor}, H.~C. {Chiang},
+  J.~{Chluba}, L.~P.~L. {Colombo}, C.~{Combet}, D.~{Contreras}, B.~P. {Crill},
+  F.~{Cuttaia}, P.~{de Bernardis}, G.~{de Zotti}, J.~{Delabrouille}, J.-M.
+  {Delouis}, E.~{Di Valentino}, J.~M. {Diego}, O.~{Dor{\'e}}, M.~{Douspis},
+  A.~{Ducout}, X.~{Dupac}, S.~{Dusini}, G.~{Efstathiou}, F.~{Elsner}, T.~A.
+  {En{\ss}lin}, H.~K. {Eriksen}, Y.~{Fantaye}, M.~{Farhang}, J.~{Fergusson},
+  R.~{Fernandez-Cobos}, F.~{Finelli}, F.~{Forastieri}, M.~{Frailis},
+  E.~{Franceschi}, A.~{Frolov}, S.~{Galeotta}, S.~{Galli}, K.~{Ganga}, R.~T.
+  {G{\'e}nova-Santos}, M.~{Gerbino}, T.~{Ghosh}, J.~{Gonz{\'a}lez-Nuevo}, K.~M.
+  {G{\'o}rski}, S.~{Gratton}, A.~{Gruppuso}, J.~E. {Gudmundsson}, J.~{Hamann},
+  W.~{Handley}, D.~{Herranz}, E.~{Hivon}, Z.~{Huang}, A.~H. {Jaffe}, W.~C.
+  {Jones}, A.~{Karakci}, E.~{Keih{\"a}nen}, R.~{Keskitalo}, K.~{Kiiveri},
+  J.~{Kim}, T.~S. {Kisner}, L.~{Knox}, N.~{Krachmalnicoff}, M.~{Kunz},
+  H.~{Kurki-Suonio}, G.~{Lagache}, J.-M. {Lamarre}, A.~{Lasenby},
+  M.~{Lattanzi}, C.~R. {Lawrence}, M.~{Le Jeune}, P.~{Lemos}, J.~{Lesgourgues},
+  F.~{Levrier}, A.~{Lewis}, M.~{Liguori}, P.~B. {Lilje}, M.~{Lilley},
+  V.~{Lindholm}, M.~{L{\'o}pez-Caniego}, P.~M. {Lubin}, Y.-Z. {Ma}, J.~F.
+  {Mac{\'{\i}}as-P{\'e}rez}, G.~{Maggio}, D.~{Maino}, N.~{Mandolesi},
+  A.~{Mangilli}, A.~{Marcos-Caballero}, M.~{Maris}, P.~G. {Martin},
+  M.~{Martinelli}, E.~{Mart{\'{\i}}nez-Gonz{\'a}lez}, S.~{Matarrese},
+  N.~{Mauri}, J.~D. {McEwen}, P.~R. {Meinhold}, A.~{Melchiorri}, A.~{Mennella},
+  M.~{Migliaccio}, M.~{Millea}, S.~{Mitra}, M.-A. {Miville-Desch{\^e}nes},
+  D.~{Molinari}, L.~{Montier}, G.~{Morgante}, A.~{Moss}, P.~{Natoli}, H.~U.
+  {N{\o}rgaard-Nielsen}, L.~{Pagano}, D.~{Paoletti}, B.~{Partridge},
+  G.~{Patanchon}, H.~V. {Peiris}, F.~{Perrotta}, V.~{Pettorino},
+  F.~{Piacentini}, L.~{Polastri}, G.~{Polenta}, J.-L. {Puget}, J.~P. {Rachen},
+  M.~{Reinecke}, M.~{Remazeilles}, A.~{Renzi}, G.~{Rocha}, C.~{Rosset},
+  G.~{Roudier}, J.~A. {Rubi{\~n}o-Mart{\'{\i}}n}, B.~{Ruiz-Granados},
+  L.~{Salvati}, M.~{Sandri}, M.~{Savelainen}, D.~{Scott}, E.~P.~S. {Shellard},
+  C.~{Sirignano}, G.~{Sirri}, L.~D. {Spencer}, R.~{Sunyaev}, A.-S. {Suur-Uski},
+  J.~A. {Tauber}, D.~{Tavagnacco}, M.~{Tenti}, L.~{Toffolatti}, M.~{Tomasi},
+  T.~{Trombetti}, L.~{Valenziano}, J.~{Valiviita}, B.~{Van Tent}, L.~{Vibert},
+  P.~{Vielva}, F.~{Villa}, N.~{Vittorio}, B.~D. {Wandelt}, I.~K. {Wehus},
+  M.~{White}, S.~D.~M. {White}, A.~{Zacchei}, and A.~{Zonca}.
+\newblock {Planck 2018 results. VI. Cosmological parameters}.
 \newblock {\em ArXiv e-prints}, July 2018.
 
 \bibitem{planck2016_xlvi}
@@ -1148,11 +1178,6 @@ J~A Tauber, H~U N{\o}rgaard-Nielsen, P~A~R Ade, J~Amiri~Parian, T~Banos,
 Levon Pogosian and Alex Zucca.
 \newblock {Searching for primordial magnetic fields with CMB B-modes}.
 \newblock {\em Classical and Quantum Gravity}, 35(12):124004, May 2018.
-
-\bibitem{Planck2018_VI}
-{Planck 2018-VI}.
-\newblock {Planck 2018 results. VI. Cosmological parameters}.
-\newblock July 2018.
 
 \bibitem{Planck2016_XLIX}
 {Planck collaboration}.
