@@ -5,7 +5,7 @@
 
 \begin{document}
 
-Some of the PICO science goals attempt to reach extremely faint signals. The most ambitious one is to reach the nanoK-level 
+Some of the PICO science goals attempt to detect extremely faint signals. The most ambitious one is to reach the nanoK-level 
 signals characterizing an inflationary gravity wave with $r\lesssim0.001$. \comor{be more explicit about the level of 
 the $\ell=80$ peak}
 It has long been recognized that exquisite control of systematic uncertainties will be required for any experiment attempting 
@@ -119,7 +119,7 @@ increased variance
 \\
 \hline
  \end{tabular}
-\caption{\label{tbl:SystematicsList2col} Systematic errors expected in \pico's measurement of CMB polarization.}
+\caption{\label{tbl:SystematicsList2col} Systematic errors expected in \pico's measurement of CMB polarization. Each source of systematic errors was given a rating of the risk that a given systematic error will dominate the B-mode measurement.  A risk level of 5 indicates that a systematic effect is highly significant because it is design-driving, has limited past experiments, and/or isn’t well understood.  Risk level of 4 indicates a systematic that is either known to be large but is understood reasonably well or a smaller effect that requires precise modeling.  Risk level of 3 indicates that we expect the effect to be small, but it isn't necessarily well understood enough that modeling it should be done in detail in a mission Phase A. This study investigated the systematics with risk levels of 5 via simulations.}
  \end{table}
 
 %\begin{table}[h!]
@@ -330,11 +330,8 @@ The scanning strategy employed by PICO allows for a much better calibration than
 \subsubsection{Far Sidelobe Pickup}
 \label{sec:fsl}
 %The main beam (within a few degrees of the axis of beam response) in a CMB mission can be measured to high precision using the planets .  
-Measurement of each detector's response to signals off axis, which tends to be weak (--80dB less than the peak response) but spread over a very large solid angle, is difficult to do pre-launch, and may not even be done accurately after launch.  Nonetheless, this far sidelobe can couple bright Galactic signal from many tens of degrees off-axis and confuse it with polarized signal from the CMB off the Galactic plane.  
+Measurement of each detector's response to signals off axis, which tends to be weak (--80dB less than the peak response) but spread over a very large solid angle, is difficult to do pre-launch, and may not even be done accurately after launch.  Nonetheless, this far sidelobe can couple bright Galactic signal from many tens of degrees off-axis and confuse it with polarized signal from the CMB off the Galactic plane.    To evaluate this systematic error, GRASP software\footnote{https://www.ticra.com} was used to compute the \pico\ telescope's response over the full sky.  The computed full-sky beams showed features peaking at about -70 dB of the on-axis beam.   This full-sky beam was convolved with a polarized Galactic signal and a one-year \pico\ mission scan using the simulation pipeline and preliminarily shows that the far sidelobe pickup must be calculated accurately down to the 90 dB level in order to be removed from the measured B-mode signal to a level that does not appreciably increase the variance on the B-mode power measurement.
 
-To evaluate this systematic error, GRASP software\footnote{https://www.ticra.com} was used to compute the \pico\ telescope's response over the full sky.  This full-sky beam was convolved with a polarized Galactic signal and a full \pico\ mission scan using the simulation pipeline.  The far sidelobe pickup was estimated to contribute less than XXX to the $B$-mode angular power spectrum and thus an error in $r$ of YYY.
-
-Due to the difficulties of measuring this beam, physical optics simulation capabilities must be maintained and validated as well as possible with on-orbit data.
 
 \subsubsection{Key Findings}
 Properly modeling, engineering for, and controlling the effects of systematic errors in a
@@ -344,7 +341,7 @@ next-generation CMB probe is critical.  As of today, we conclude that there is a
 that data subsets can independently achieve the science goals.
 This allows testing of the results in the data analysis and additional
 data cuts, if needed.
-
+\item In a PICO mission, a physical optics model of the telescope should be developed, enabling full-sky beam calculations, which should be validated as much as possible on the ground.  This will be needed to characterize and remove far sidelobe pickup seen during the mission. 
 \item NASA's support of ground-based and suborbital CMB missions will mitigate risk to a future space mission as PICO by continuing to develop analysis techniques and technology for mitigation of systematic errors.
 
 \item In a PICO mission's phase A, a complete end-to-end system-level
