@@ -1,0 +1,280 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb,amsmath,times}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{multirow}
+%\usepackage{cite}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage{color}
+\usepackage{natbib}
+\usepackage[nolist]{acronym}
+% Soumen's packages
+\usepackage{hyperref}
+\usepackage[latin1]{inputenc}
+\usepackage{grffile}
+\usepackage{multirow}
+\usepackage{adjustbox}
+%subfiles
+\usepackage{subfiles}
+\usepackage[small,compact]{titlesec}
+\usepackage[font=small]{caption}
+\usepackage{multirow}
+\usepackage{afterpage}
+
+% Letter-size paper
+
+\newlength{\pagewidthA}
+\newlength{\pageheightA}
+\setlength{\pagewidthA}{8.5in}
+\setlength{\pageheightA}{11in}
+
+% Double-page paper
+
+\newlength{\pagewidthB}
+\newlength{\pageheightB}
+\setlength{\pagewidthB}{17in}
+\setlength{\pageheightB}{11in}
+
+\newlength{\stockwidth}
+\newlength{\stockheight}
+
+\usepackage{geometry}
+\newcommand{\generatePageLayouts}{%
+  \newgeometry{layoutwidth=\pagewidthA,layoutheight=\pageheightA, left=1in,right=1in,top=1in,bottom=1in} 
+  \savegeometry{LayoutPageA}
+
+  \newgeometry{layoutwidth=\pagewidthB,layoutheight=\pageheightB, left=1in,right=1in,top=1in,bottom=1in}
+  \savegeometry{LayoutPageB}
+}
+
+
+\newcommand{\switchToLayoutPageA}{%
+  % switch page size first:
+  \pdfpagewidth=\pagewidthA \pdfpageheight=\pageheightA % for PDF output
+  \paperwidth=\pagewidthA \paperheight=\pageheightA     % for TikZ
+  \stockwidth=\pagewidthA \stockheight=\pageheightA % hyperref (memoir)?!
+  \loadgeometry{LayoutPageA} % note; \loadgeometry may reset paperwidth/h!
+}
+
+\newcommand{\switchToLayoutPageB}{%
+  % switch page size first:
+  \pdfpagewidth=\pagewidthB \pdfpageheight=\pageheightB % for PDF output
+  \paperwidth=\pagewidthB \paperheight=\pageheightB     % for TikZ
+  \stockwidth=\pagewidthB \stockheight=\pageheightB % hyperref (memoir)?!
+  \loadgeometry{LayoutPageB} % note; \loadgeometry may reset paperwidth/h!
+}
+
+% define formatting
+%\pagestyle{empty}
+\parindent=0pt
+\topmargin=0.in \headheight=0in \headsep=-0.1in \textheight=9.2in
+\textwidth=6.5in \oddsidemargin=0in
+
+\def\Neff{{N_{\rm eff}}}
+\newcommand{\hi}{H{\sc i}~}
+\newcommand{\HI}{H{\sc i}}
+
+\input{PICOReport_defs.tex}
+
+\setlength{\floatsep}{0.5\floatsep}
+\setlength{\textfloatsep}{0.5\textfloatsep}
+\setlength{\intextsep}{0.5\intextsep}
+\setlength{\floatsep}{0.5\floatsep}
+\setlength{\dblfloatsep}{0.5\dblfloatsep}
+\setlength{\dbltextfloatsep}{0.5\dbltextfloatsep}
+
+
+
+\begin{document}
+
+% generate page layouts first based on layoutwidth as page size;
+  % don't switch actual page sizes yet:
+  \generatePageLayouts{}
+
+\bibliographystyle{unsrtnat}
+
+\setlength{\baselineskip}{0.96\baselineskip} %% measured, 5.0 lines/inch.  Can go to 0.96\baselineskip
+\setlength{\parskip}{1.\parskip}
+ \switchToLayoutPageA{}
+
+%\tableofcontents
+
+\setcounter{page}{0}
+\setcounter{figure}{0}
+
+\LARGE{ \centerline{\bf{The Probe of Inflation and Cosmic Origins}}}
+\vspace{0.5in}
+\Large{ \centerline{A Space Mission Study Report}}
+\Large{ \centerline{December, 2018 }}
+\vspace{0.5in}
+\parindent = 0pt
+\large{Principal Investigator:} \\
+\large{Steering Committee:} \\
+\large{Executive Committee:} \\
+\large{Contributors:} \\
+\large{Endorsers:} \\
+
+\normalsize
+
+\parindent = 15pt
+
+\newpage
+%\twocolumn
+
+%test figure in main file
+%
+
+
+\section{Executive Summary (2 pg, Hanany)} 
+\subfile{executive.tex}
+
+%\vspace{-0.05in}
+
+48 remaining pages are distributed 29/19: 29 pages for science (including foregrounds and systematics), 
+19 for instrument, technology, mission, management and cost.
+
+%\vspace{-0.18in}
+
+\section{Science}
+
+%\vspace{-0.05in}
+
+\subsection{Introduction (1.5 pgs)}
+
+%\vspace{-0.05in}
+
+%{\it NASA suggested table of contents says Science Intro or Landscape section should include: State of the Art in the Field ; Compelling Outstanding Questions; Needed Capabilities for Progress. }
+
+\subfile{landscape.tex}
+
+%\vspace{-0.18in}
+
+\subsection{Science Objectives (17.5 pgs) } 
+
+%\vspace{-0.05in}
+
+The Science Traceability Matrix can be found in Table~\ref{tab:STM}.
+
+%  The PICO Science Traceability Matrix (2pg, Hanany\&Trangsrud) will be inserted around here.  It is an 11x17 foldout, so it counts as 2 pages, which leaves 15.5 to all the rest in 2.2. Currently allocating 15 pages.  
+
+% [TJP] ------------------------
+% [TJP] The Science Traceability Matrix goes here. The table is in stm.tex, but the following LaTeX invocation makes it appear on a double-wide page
+\afterpage{%
+  % switch to LayoutPageB (includes switching page size)
+  \switchToLayoutPageB{}
+    \input stm.tex
+   \clearpage
+% start with LayoutPageA (includes switching page size)
+\switchToLayoutPageA{}
+}
+% [TJP] end --------------------
+
+%    \vspace{12pt}
+%     FOR EACH OF THE BELOW SUBSECTIONS:
+%    \begin{itemize}
+%    \item Introduce and elaborate on the applicable PICO ``Science Objectives" from the STM table (what do they mean and why are they important)
+%    \item Observations/Measurements that enable PICO to accomplish each Science Objective (tell the data analysis story that connects the Observations column of the STM to the Science Objective column)
+%    \item Contextualize relative to sub-orbital and other space missions. {\it Emphasize where capabilities are unique to space.}
+%    \item Science yield estimate (be quantitative. how well will PICO do at Baseline/Required performance? at Current Best Estimate performance?)
+%    \item Include a summary plot or table which demonstrates PICO's performance against the Science Objective as written (e.g. how it discriminates between different theories) 
+%    \item Perceived science impact. (The impact isn't reducing sigma on a parameter.  It is about what we will learn about nature.)
+%    \end{itemize}
+
+\subsubsection{Fundamental Physics (6 pgs)}
+\label{sec:fundamentalsci}
+%\vspace{-0.05in}
+
+\subfile{fundamentalsci.tex}
+
+%\vspace{-0.05in}
+
+% ------------
+
+\subsubsection{Cosmic Structure Formation and Evolution (4 pgs)}
+
+\subfile{extragalacticsci.tex}
+
+% ------------
+
+\subsubsection{Galactic Structure and Star Formation (3 pgs)}
+
+\subfile{galacticsci.tex}
+
+% ------------
+
+\subsection{Legacy Surveys (2 pgs)} 
+
+{\it Describe science that we get for free. }
+
+\subfile{legacysci.tex}
+
+% ------------
+
+\subsection{Complementarity with Other Surveys and with Sub-Orbital Measurements (1 pg)} 
+
+\subfile{complementarity_sh_qi.tex}
+
+% ------------
+
+\subsection{Signal Separation (4 pages)}
+
+\subfile{foregrounds.tex}
+
+% ------------
+
+\subsection{Systematic Errors (3 pgs)}
+
+\subfile{systematics.tex}
+
+% ------------
+
+\subsection{Measurement Requirements (2 pgs)}
+
+\subfile{requirements.tex}
+
+\newpage
+
+% ------------
+
+\section{Instrument (6 pgs, Hanany \& Transgrud)}
+
+\subfile{instrument.tex}
+
+% ------------
+
+\section{Mission (5 pgs, Trangsrud)}
+
+\subfile{mission.tex}
+
+% ------------
+
+\section{Technology Maturation (4 pgs, O'Brient \& Trangsrud)}
+
+\subfile{technology.tex}
+
+% ------------
+
+\section{Management, Risk, Heritage, and Cost (4 pgs, Trangsrud)}
+
+\subfile{cost.tex}
+
+% ------------
+
+\newpage
+
+\bibliography{mybib}
+
+\input{acronym}
+
+\end{document}
+
+%\begin{figure}[!htb]
+%\centering
+%\includegraphics[width=4cm]{images/example0}
+%\caption{example0}
+%\label{fig:im_1}
+%\end{figure}
+
