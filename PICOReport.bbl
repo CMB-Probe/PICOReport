@@ -1,4 +1,4 @@
-\begin{thebibliography}{150}
+\begin{thebibliography}{151}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1592,6 +1592,22 @@ A.~P.~S. {Yadav}, M.~{Su}, and M.~{Zaldarriaga}.
   polarization}.
 \newblock \emph{\prd}, 81\penalty0 (6):\penalty0 063512--+, March 2010.
 \newblock \doi{10.1103/PhysRevD.81.063512}.
+
+\bibitem[{Takahashi} et~al.(2010){Takahashi}, {Ade}, {Barkats}, {Battle},
+  {Bierman}, {Bock}, {Chiang}, {Dowell}, {Duband}, {Hivon}, {Holzapfel},
+  {Hristov}, {Jones}, {Keating}, {Kovac}, {Kuo}, {Lange}, {Leitch}, {Mason},
+  {Matsumura}, {Nguyen}, {Ponthieu}, {Pryke}, {Richter}, {Rocha}, and
+  {Yoon}]{Takahashi2010}
+Y.~D. {Takahashi}, P.~A.~R. {Ade}, D.~{Barkats}, J.~O. {Battle}, E.~M.
+  {Bierman}, J.~J. {Bock}, H.~C. {Chiang}, C.~D. {Dowell}, L.~{Duband}, E.~F.
+  {Hivon}, W.~L. {Holzapfel}, V.~V. {Hristov}, W.~C. {Jones}, B.~G. {Keating},
+  J.~M. {Kovac}, C.~L. {Kuo}, A.~E. {Lange}, E.~M. {Leitch}, P.~V. {Mason},
+  T.~{Matsumura}, H.~T. {Nguyen}, N.~{Ponthieu}, C.~{Pryke}, S.~{Richter},
+  G.~{Rocha}, and K.~W. {Yoon}.
+\newblock {Characterization of the BICEP Telescope for High-precision Cosmic
+  Microwave Background Polarimetry}.
+\newblock \emph{\apj}, 711:\penalty0 1141--1156, March 2010.
+\newblock \doi{10.1088/0004-637X/711/2/1141}.
 
 \bibitem[{Bicep2 Collaboration} et~al.(2015){Bicep2 Collaboration}, {Ade},
   {Aikin}, {Barkats}, {Benton}, {Bischoff}, {Bock}, {Brevik}, {Buder},

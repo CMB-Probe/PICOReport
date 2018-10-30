@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 OCT 2018 12:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 OCT 2018 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1192,12 +1192,7 @@ Package natbib Warning: Citation `sevem' on page 26 undefined on input line 36.
 
 Package acronym Info: Label `acro:ILC' newly defined as it shall be overridden
 although it is yet undefined on input line 36.
-[26]) (./systematics.tex
-
-Package natbib Warning: Citation `Takahaski2010' on page 27 undefined on input 
-line 21.
-
-[27]
+[26]) (./systematics.tex [27]
 
 LaTeX Warning: Reference `tbl:SystematicsList' on page 28 undefined on input li
 ne 40.
@@ -1231,14 +1226,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--120
 []\T1/ptm/m/n/8 increased
  []
 
-<images/PICO_rotate_eb4_v2.pdf, id=1110, 597.23125pt x 397.485pt>
+<images/PICO_rotate_eb4_v2.pdf, id=1112, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb4_v2.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb4_v2.pdf>
 Package pdftex.def Info: images/PICO_rotate_eb4_v2.pdf used on input line 265.
 (pdftex.def)             Requested size: 281.85587pt x 187.58824pt.
 
-<images/calibration_spectrum_BB.pdf, id=1111, 462.22687pt x 388.80946pt>
+<images/calibration_spectrum_BB.pdf, id=1113, 462.22687pt x 388.80946pt>
 File: images/calibration_spectrum_BB.pdf Graphic file (type pdf)
 
 <use images/calibration_spectrum_BB.pdf>
@@ -1281,7 +1276,7 @@ f viri-al-ized ob-jects.
  []
 
 [39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 1672.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 1688.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
@@ -1306,13 +1301,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
  ) 
 Here is how much of TeX's memory you used:
- 11623 strings out of 492995
- 173057 string characters out of 6132704
- 326478 words of memory out of 5000000
- 14649 multiletter control sequences out of 15000+600000
+ 11626 strings out of 492995
+ 173123 string characters out of 6132704
+ 326778 words of memory out of 5000000
+ 14651 multiletter control sequences out of 15000+600000
  104101 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,12n,92p,4486b,760s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,4486b,758s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
@@ -1336,10 +1331,10 @@ fb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (51 pages, 5407707 bytes).
+Output written on PICOReport.pdf (51 pages, 5408358 bytes).
 PDF statistics:
- 1418 PDF objects out of 1440 (max. 8388607)
- 1000 compressed objects within 10 object streams
- 248 named destinations out of 1000 (max. 500000)
+ 1421 PDF objects out of 1440 (max. 8388607)
+ 1002 compressed objects within 11 object streams
+ 249 named destinations out of 1000 (max. 500000)
  313 words of extra memory for PDF output out of 10000 (max. 10000000)
 
