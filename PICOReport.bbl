@@ -1,4 +1,4 @@
-\begin{thebibliography}{151}
+\begin{thebibliography}{163}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -45,6 +45,17 @@ K.~{Array}, {BICEP2 Collaborations}, {:}, P.~A.~R. {Ade}, Z.~{Ahmed}, R.~W.
   using Planck, WMAP, and New BICEP2/Keck Observations through the 2015
   Season}.
 \newblock \emph{ArXiv e-prints}, October 2018.
+
+\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{a}}){Planck
+  Collaboration}, {Adam}, {Ade}, {Aghanim}, {Arnaud}, {Aumont}, {Baccigalupi},
+  {Banday}, {Barreiro}, {Bartlett}, and et~al.]{2016A&A...586A.133P}
+{Planck Collaboration}, R.~{Adam}, P.~A.~R. {Ade}, N.~{Aghanim}, M.~{Arnaud},
+  J.~{Aumont}, C.~{Baccigalupi}, A.~J. {Banday}, R.~B. {Barreiro}, J.~G.
+  {Bartlett}, and et~al.
+\newblock {Planck intermediate results. XXX. The angular power spectrum of
+  polarized dust emission at intermediate and high Galactic latitudes}.
+\newblock \emph{\aap}, 586:\penalty0 A133, February 2016{\natexlab{a}}.
+\newblock \doi{10.1051/0004-6361/201425034}.
 
 \bibitem[{Brandenburg} and {Subramanian}(2005)]{Brandenburg2005}
 A.~{Brandenburg} and K.~{Subramanian}.
@@ -363,7 +374,7 @@ J.~D. {Bowman}, A.~E.~E. {Rogers}, R.~A. {Monsalve}, T.~J. {Mozdzen}, and
 \newblock {Planck 2018 results. VI. Cosmological parameters}.
 \newblock \emph{ArXiv e-prints}, July 2018{\natexlab{a}}.
 
-\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{a}}){Planck
+\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{b}}){Planck
   Collaboration}, {Aghanim}, {Ashdown}, {Aumont}, {Baccigalupi}, {Ballardini},
   {Banday}, {Barreiro}, {Bartolo}, {Basak}, {Battye}, {Benabed}, {Bernard},
   {Bersanelli}, {Bielewicz}, {Bock}, {Bonaldi}, {Bonavera}, {Bond}, {Borrill},
@@ -434,7 +445,7 @@ J.~D. {Bowman}, A.~E.~E. {Rogers}, R.~A. {Monsalve}, T.~J. {Mozdzen}, and
 \newblock {Planck intermediate results. XLVI. Reduction of large-scale
   systematic effects in HFI polarization maps and estimation of the
   reionization optical depth}.
-\newblock \emph{ArXiv e-prints}, May 2016{\natexlab{a}}.
+\newblock \emph{ArXiv e-prints}, May 2016{\natexlab{b}}.
 
 \bibitem[Kaplinghat et~al.(2003)Kaplinghat, Knox, and Song]{Kaplinghat:2003bh}
 Manoj Kaplinghat, Lloyd Knox, and Yong-Seon Song.
@@ -600,6 +611,124 @@ V.~{Miranda}, A.~{Lidz}, C.~H. {Heinrich}, and W.~{Hu}.
 \newblock \emph{\mnras}, 467:\penalty0 4050--4056, June 2017.
 \newblock \doi{10.1093/mnras/stx306}.
 
+\bibitem[{Calabrese} et~al.(2014){Calabrese}, {Hlo{\v z}ek}, {Battaglia},
+  {Bond}, {de Bernardis}, {Devlin}, {Hajian}, {Henderson}, {Hil}, {Kosowsky},
+  {Louis}, {McMahon}, {Moodley}, {Newburgh}, {Niemack}, {Page}, {Partridge},
+  {Sehgal}, {Sievers}, {Spergel}, {Staggs}, {Switzer}, {Trac}, and
+  {Wollack}]{Calabrese2014}
+E.~{Calabrese}, R.~{Hlo{\v z}ek}, N.~{Battaglia}, J.~R. {Bond}, F.~{de
+  Bernardis}, M.~J. {Devlin}, A.~{Hajian}, S.~{Henderson}, J.~C. {Hil},
+  A.~{Kosowsky}, T.~{Louis}, J.~{McMahon}, K.~{Moodley}, L.~{Newburgh}, M.~D.
+  {Niemack}, L.~A. {Page}, B.~{Partridge}, N.~{Sehgal}, J.~L. {Sievers}, D.~N.
+  {Spergel}, S.~T. {Staggs}, E.~R. {Switzer}, H.~{Trac}, and E.~J. {Wollack}.
+\newblock {Precision epoch of reionization studies with next-generation CMB
+  experiments}.
+\newblock \emph{\jcap}, 8:\penalty0 010, August 2014.
+\newblock \doi{10.1088/1475-7516/2014/08/010}.
+
+\bibitem[{Monsalve} et~al.(2017){Monsalve}, {Rogers}, {Bowman}, and
+  {Mozdzen}]{EDGES2017}
+R.~A. {Monsalve}, A.~E.~E. {Rogers}, J.~D. {Bowman}, and T.~J. {Mozdzen}.
+\newblock {Results from EDGES High-band. I. Constraints on Phenomenological
+  Models for the Global 21 cm Signal}.
+\newblock \emph{\apj}, 847:\penalty0 64, September 2017.
+\newblock \doi{10.3847/1538-4357/aa88d1}.
+
+\bibitem[{Fan} et~al.(2006){Fan}, {Strauss}, {Becker}, {White}, {Gunn},
+  {Knapp}, {Richards}, {Schneider}, {Brinkmann}, and {Fukugita}]{Fan2006}
+X.~{Fan}, M.~A. {Strauss}, R.~H. {Becker}, R.~L. {White}, J.~E. {Gunn}, G.~R.
+  {Knapp}, G.~T. {Richards}, D.~P. {Schneider}, J.~{Brinkmann}, and
+  M.~{Fukugita}.
+\newblock {Constraining the Evolution of the Ionizing Background and the Epoch
+  of Reionization with z\~{}6 Quasars. II. A Sample of 19 Quasars}.
+\newblock \emph{\aj}, 132:\penalty0 117--136, July 2006.
+\newblock \doi{10.1086/504836}.
+
+\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{c}}){Planck
+  Collaboration}, {Adam}, {Aghanim}, {Ashdown}, {Aumont}, {Baccigalupi},
+  {Ballardini}, {Banday}, {Barreiro}, {Bartolo}, {Basak}, {Battye}, {Benabed},
+  {Bernard}, {Bersanelli}, {Bielewicz}, {Bock}, {Bonaldi}, {Bonavera}, {Bond},
+  {Borrill}, {Bouchet}, {Boulanger}, {Bucher}, {Burigana}, {Calabrese},
+  {Cardoso}, {Carron}, {Chiang}, {Colombo}, {Combet}, {Comis}, {Couchot},
+  {Coulais}, {Crill}, {Curto}, {Cuttaia}, {Davis}, {de Bernardis}, {de Rosa},
+  {de Zotti}, {Delabrouille}, {Di Valentino}, {Dickinson}, {Diego}, {Dor{\'e}},
+  {Douspis}, {Ducout}, {Dupac}, {Elsner}, {En{\ss}lin}, {Eriksen}, {Falgarone},
+  {Fantaye}, {Finelli}, {Forastieri}, {Frailis}, {Fraisse}, {Franceschi},
+  {Frolov}, {Galeotta}, {Galli}, {Ganga}, {G{\'e}nova-Santos}, {Gerbino},
+  {Ghosh}, {Gonz{\'a}lez-Nuevo}, {G{\'o}rski}, {Gruppuso}, {Gudmundsson},
+  {Hansen}, {Helou}, {Henrot-Versill{\'e}}, {Herranz}, {Hivon}, {Huang},
+  {Ili{\'c}}, {Jaffe}, {Jones}, {Keih{\"a}nen}, {Keskitalo}, {Kisner}, {Knox},
+  {Krachmalnicoff}, {Kunz}, {Kurki-Suonio}, {Lagache}, {L{\"a}hteenm{\"a}ki},
+  {Lamarre}, {Langer}, {Lasenby}, {Lattanzi}, {Lawrence}, {Le Jeune},
+  {Levrier}, {Lewis}, {Liguori}, {Lilje}, {L{\'o}pez-Caniego}, {Ma},
+  {Mac{\'{\i}}as-P{\'e}rez}, {Maggio}, {Mangilli}, {Maris}, {Martin},
+  {Mart{\'{\i}}nez-Gonz{\'a}lez}, {Matarrese}, {Mauri}, {McEwen}, {Meinhold},
+  {Melchiorri}, {Mennella}, {Migliaccio}, {Miville-Desch{\^e}nes}, {Molinari},
+  {Moneti}, {Montier}, {Morgante}, {Moss}, {Naselsky}, {Natoli}, {Oxborrow},
+  {Pagano}, {Paoletti}, {Partridge}, {Patanchon}, {Patrizii}, {Perdereau},
+  {Perotto}, {Pettorino}, {Piacentini}, {Plaszczynski}, {Polastri}, {Polenta},
+  {Puget}, {Rachen}, {Racine}, {Reinecke}, {Remazeilles}, {Renzi}, {Rocha},
+  {Rossetti}, {Roudier}, {Rubi{\~n}o-Mart{\'{\i}}n}, {Ruiz-Granados},
+  {Salvati}, {Sandri}, {Savelainen}, {Scott}, {Sirri}, {Sunyaev}, {Suur-Uski},
+  {Tauber}, {Tenti}, {Toffolatti}, {Tomasi}, {Tristram}, {Trombetti},
+  {Valiviita}, {Van Tent}, {Vielva}, {Villa}, {Vittorio}, {Wandelt}, {Wehus},
+  {White}, {Zacchei}, and {Zonca}]{Planck2016_reion}
+{Planck Collaboration}, R.~{Adam}, N.~{Aghanim}, M.~{Ashdown}, J.~{Aumont},
+  C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday}, R.~B. {Barreiro},
+  N.~{Bartolo}, S.~{Basak}, R.~{Battye}, K.~{Benabed}, J.-P. {Bernard},
+  M.~{Bersanelli}, P.~{Bielewicz}, J.~J. {Bock}, A.~{Bonaldi}, L.~{Bonavera},
+  J.~R. {Bond}, J.~{Borrill}, F.~R. {Bouchet}, F.~{Boulanger}, M.~{Bucher},
+  C.~{Burigana}, E.~{Calabrese}, J.-F. {Cardoso}, J.~{Carron}, H.~C. {Chiang},
+  L.~P.~L. {Colombo}, C.~{Combet}, B.~{Comis}, F.~{Couchot}, A.~{Coulais},
+  B.~P. {Crill}, A.~{Curto}, F.~{Cuttaia}, R.~J. {Davis}, P.~{de Bernardis},
+  A.~{de Rosa}, G.~{de Zotti}, J.~{Delabrouille}, E.~{Di Valentino},
+  C.~{Dickinson}, J.~M. {Diego}, O.~{Dor{\'e}}, M.~{Douspis}, A.~{Ducout},
+  X.~{Dupac}, F.~{Elsner}, T.~A. {En{\ss}lin}, H.~K. {Eriksen}, E.~{Falgarone},
+  Y.~{Fantaye}, F.~{Finelli}, F.~{Forastieri}, M.~{Frailis}, A.~A. {Fraisse},
+  E.~{Franceschi}, A.~{Frolov}, S.~{Galeotta}, S.~{Galli}, K.~{Ganga}, R.~T.
+  {G{\'e}nova-Santos}, M.~{Gerbino}, T.~{Ghosh}, J.~{Gonz{\'a}lez-Nuevo}, K.~M.
+  {G{\'o}rski}, A.~{Gruppuso}, J.~E. {Gudmundsson}, F.~K. {Hansen}, G.~{Helou},
+  S.~{Henrot-Versill{\'e}}, D.~{Herranz}, E.~{Hivon}, Z.~{Huang},
+  S.~{Ili{\'c}}, A.~H. {Jaffe}, W.~C. {Jones}, E.~{Keih{\"a}nen},
+  R.~{Keskitalo}, T.~S. {Kisner}, L.~{Knox}, N.~{Krachmalnicoff}, M.~{Kunz},
+  H.~{Kurki-Suonio}, G.~{Lagache}, A.~{L{\"a}hteenm{\"a}ki}, J.-M. {Lamarre},
+  M.~{Langer}, A.~{Lasenby}, M.~{Lattanzi}, C.~R. {Lawrence}, M.~{Le Jeune},
+  F.~{Levrier}, A.~{Lewis}, M.~{Liguori}, P.~B. {Lilje},
+  M.~{L{\'o}pez-Caniego}, Y.-Z. {Ma}, J.~F. {Mac{\'{\i}}as-P{\'e}rez},
+  G.~{Maggio}, A.~{Mangilli}, M.~{Maris}, P.~G. {Martin},
+  E.~{Mart{\'{\i}}nez-Gonz{\'a}lez}, S.~{Matarrese}, N.~{Mauri}, J.~D.
+  {McEwen}, P.~R. {Meinhold}, A.~{Melchiorri}, A.~{Mennella}, M.~{Migliaccio},
+  M.-A. {Miville-Desch{\^e}nes}, D.~{Molinari}, A.~{Moneti}, L.~{Montier},
+  G.~{Morgante}, A.~{Moss}, P.~{Naselsky}, P.~{Natoli}, C.~A. {Oxborrow},
+  L.~{Pagano}, D.~{Paoletti}, B.~{Partridge}, G.~{Patanchon}, L.~{Patrizii},
+  O.~{Perdereau}, L.~{Perotto}, V.~{Pettorino}, F.~{Piacentini},
+  S.~{Plaszczynski}, L.~{Polastri}, G.~{Polenta}, J.-L. {Puget}, J.~P.
+  {Rachen}, B.~{Racine}, M.~{Reinecke}, M.~{Remazeilles}, A.~{Renzi},
+  G.~{Rocha}, M.~{Rossetti}, G.~{Roudier}, J.~A. {Rubi{\~n}o-Mart{\'{\i}}n},
+  B.~{Ruiz-Granados}, L.~{Salvati}, M.~{Sandri}, M.~{Savelainen}, D.~{Scott},
+  G.~{Sirri}, R.~{Sunyaev}, A.-S. {Suur-Uski}, J.~A. {Tauber}, M.~{Tenti},
+  L.~{Toffolatti}, M.~{Tomasi}, M.~{Tristram}, T.~{Trombetti}, J.~{Valiviita},
+  F.~{Van Tent}, P.~{Vielva}, F.~{Villa}, N.~{Vittorio}, B.~D. {Wandelt}, I.~K.
+  {Wehus}, M.~{White}, A.~{Zacchei}, and A.~{Zonca}.
+\newblock {Planck intermediate results. XLVII. Planck constraints on
+  reionization history}.
+\newblock \emph{\aap}, 596:\penalty0 A108, December 2016{\natexlab{c}}.
+\newblock \doi{10.1051/0004-6361/201628897}.
+
+\bibitem[{Smith} and {Ferraro}(2017)]{SmithFerraro2017}
+K.~M. {Smith} and S.~{Ferraro}.
+\newblock {Detecting Patchy Reionization in the Cosmic Microwave Background}.
+\newblock \emph{Physical Review Letters}, 119\penalty0 (2):\penalty0 021301,
+  July 2017.
+\newblock \doi{10.1103/PhysRevLett.119.021301}.
+
+\bibitem[{Dvorkin} and {Smith}(2009)]{DvorkinSmith2009}
+C.~{Dvorkin} and K.~M. {Smith}.
+\newblock {Reconstructing patchy reionization from the cosmic microwave
+  background}.
+\newblock \emph{\prd}, 79\penalty0 (4):\penalty0 043003, February 2009.
+\newblock \doi{10.1103/PhysRevD.79.043003}.
+
 \bibitem[{Planck Collaboration} et~al.(2018{\natexlab{b}}){Planck
   Collaboration}, {Aghanim}, {Akrami}, {Ashdown}, {Aumont}, {Baccigalupi},
   {Ballardini}, {Banday}, {Barreiro}, {Bartolo}, {Basak}, {Benabed}, {Bernard},
@@ -728,7 +857,7 @@ M.~{Madhavacheril}, N.~{Sehgal}, R.~{Allison}, N.~{Battaglia}, and hysical
 \newblock 114\penalty0 (15):\penalty0 151302, April 2015.
 \newblock \doi{10.1103/PhysRevLett.114.151302}.
 
-\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{b}}){Planck
+\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{d}}){Planck
   Collaboration}, {Ade}, {Aghanim}, {Arnaud}, {Ashdown}, {Aumont},
   {Baccigalupi}, {Banday}, {Barreiro}, {Bartlett}, and
   et~al.]{2016A&A...594A..24P}
@@ -737,7 +866,7 @@ M.~{Madhavacheril}, N.~{Sehgal}, R.~{Allison}, N.~{Battaglia}, and hysical
   {Barreiro}, J.~G. {Bartlett}, and et~al.
 \newblock {Planck 2015 results. XXIV. Cosmology from Sunyaev-Zeldovich cluster
   counts}.
-\newblock \emph{\aap}, 594:\penalty0 A24, September 2016{\natexlab{b}}.
+\newblock \emph{\aap}, 594:\penalty0 A24, September 2016{\natexlab{d}}.
 \newblock \doi{10.1051/0004-6361/201525833}.
 
 \bibitem[{Melin} and {Bartlett}(2015)]{2015A&A...578A..21M}
@@ -746,7 +875,90 @@ J.-B. {Melin} and J.~G. {Bartlett}.
 \newblock \emph{\aap}, 578:\penalty0 A21, June 2015.
 \newblock \doi{10.1051/0004-6361/201424720}.
 
-\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{c}}){Planck
+\bibitem[{Zeldovich} and {Syunaev}(1969)]{zeldovich69}
+Y.~B. {Zeldovich} and R.~A. {Syunaev}.
+\newblock The interaction of matter and radiation in a hot-model universe.
+\newblock \emph{\apss}, 4:\penalty0 301, 1969.
+\newblock URL
+  \url{http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=1969Ap%26SS...4..301Z&db_key=AST}.
+
+\bibitem[{Sunyaev} and {Zeldovich}(1972)]{SZ1972}
+R.~A. {Sunyaev} and Y.~B. {Zeldovich}.
+\newblock {The Observations of Relic Radiation as a Test of the Nature of X-Ray
+  Radiation from the Clusters of Galaxies}.
+\newblock \emph{Comments on Astrophysics and Space Physics}, 4:\penalty0 173,
+  November 1972.
+
+\bibitem[{Delabrouille} et~al.(2009){Delabrouille}, {Cardoso}, {Le Jeune},
+  {Betoule}, {Fay}, and {Guilloux}]{Delabrouille2009}
+J.~{Delabrouille}, J.-F. {Cardoso}, M.~{Le Jeune}, M.~{Betoule}, G.~{Fay}, and
+  F.~{Guilloux}.
+\newblock {A full sky, low foreground, high resolution CMB map from WMAP}.
+\newblock \emph{\aap}, 493:\penalty0 835--857, January 2009.
+\newblock \doi{10.1051/0004-6361:200810514}.
+
+\bibitem[{Sievers} et~al.(2013){Sievers}, {Hlozek}, {Nolta}, {Acquaviva},
+  {Addison}, {Ade}, {Aguirre}, {Amiri}, {Appel}, {Barrientos}, {Battistelli},
+  {Battaglia}, {Bond}, {Brown}, {Burger}, {Calabrese}, {Chervenak}, {Crichton},
+  {Das}, {Devlin}, {Dicker}, {Bertrand Doriese}, {Dunkley}, {D{\"u}nner},
+  {Essinger-Hileman}, {Faber}, {Fisher}, {Fowler}, {Gallardo}, {Gordon},
+  {Gralla}, {Hajian}, {Halpern}, {Hasselfield}, {Hern{\'a}ndez-Monteagudo},
+  {Hill}, {Hilton}, {Hilton}, {Hincks}, {Holtz}, {Huffenberger}, {Hughes},
+  {Hughes}, {Infante}, {Irwin}, {Jacobson}, {Johnstone}, {Baptiste Juin},
+  {Kaul}, {Klein}, {Kosowsky}, {Lau}, {Limon}, {Lin}, {Louis}, {Lupton},
+  {Marriage}, {Marsden}, {Martocci}, {Mauskopf}, {McLaren}, {Menanteau},
+  {Moodley}, {Moseley}, {Netterfield}, {Niemack}, {Page}, {Page}, {Parker},
+  {Partridge}, {Plimpton}, {Quintana}, {Reese}, {Reid}, {Rojas}, {Sehgal},
+  {Sherwin}, {Schmitt}, {Spergel}, {Staggs}, {Stryzak}, {Swetz}, {Switzer},
+  {Thornton}, {Trac}, {Tucker}, {Uehara}, {Visnjic}, {Warne}, {Wilson},
+  {Wollack}, {Zhao}, and {Zunckel}]{Sievers2013}
+J.~L. {Sievers}, R.~A. {Hlozek}, M.~R. {Nolta}, V.~{Acquaviva}, G.~E.
+  {Addison}, P.~A.~R. {Ade}, P.~{Aguirre}, M.~{Amiri}, J.~W. {Appel}, L.~F.
+  {Barrientos}, E.~S. {Battistelli}, N.~{Battaglia}, J.~R. {Bond}, B.~{Brown},
+  B.~{Burger}, E.~{Calabrese}, J.~{Chervenak}, D.~{Crichton}, S.~{Das}, M.~J.
+  {Devlin}, S.~R. {Dicker}, W.~{Bertrand Doriese}, J.~{Dunkley},
+  R.~{D{\"u}nner}, T.~{Essinger-Hileman}, D.~{Faber}, R.~P. {Fisher}, J.~W.
+  {Fowler}, P.~{Gallardo}, M.~S. {Gordon}, M.~B. {Gralla}, A.~{Hajian},
+  M.~{Halpern}, M.~{Hasselfield}, C.~{Hern{\'a}ndez-Monteagudo}, J.~C. {Hill},
+  G.~C. {Hilton}, M.~{Hilton}, A.~D. {Hincks}, D.~{Holtz}, K.~M.
+  {Huffenberger}, D.~H. {Hughes}, J.~P. {Hughes}, L.~{Infante}, K.~D. {Irwin},
+  D.~R. {Jacobson}, B.~{Johnstone}, J.~{Baptiste Juin}, M.~{Kaul}, J.~{Klein},
+  A.~{Kosowsky}, J.~M. {Lau}, M.~{Limon}, Y.-T. {Lin}, T.~{Louis}, R.~H.
+  {Lupton}, T.~A. {Marriage}, D.~{Marsden}, K.~{Martocci}, P.~{Mauskopf},
+  M.~{McLaren}, F.~{Menanteau}, K.~{Moodley}, H.~{Moseley}, C.~B.
+  {Netterfield}, M.~D. {Niemack}, L.~A. {Page}, W.~A. {Page}, L.~{Parker},
+  B.~{Partridge}, R.~{Plimpton}, H.~{Quintana}, E.~D. {Reese}, B.~{Reid},
+  F.~{Rojas}, N.~{Sehgal}, B.~D. {Sherwin}, B.~L. {Schmitt}, D.~N. {Spergel},
+  S.~T. {Staggs}, O.~{Stryzak}, D.~S. {Swetz}, E.~R. {Switzer}, R.~{Thornton},
+  H.~{Trac}, C.~{Tucker}, M.~{Uehara}, K.~{Visnjic}, R.~{Warne}, G.~{Wilson},
+  E.~{Wollack}, Y.~{Zhao}, and C.~{Zunckel}.
+\newblock {The Atacama Cosmology Telescope: cosmological parameters from three
+  seasons of data}.
+\newblock \emph{\jcap}, 10:\penalty0 060, October 2013.
+\newblock \doi{10.1088/1475-7516/2013/10/060}.
+
+\bibitem[George et~al.(2015)George, Reichardt, Aird, Benson, Bleem, Carlstrom,
+  Chang, Cho, Crawford, Crites, de~Haan, Dobbs, Dudley, Halverson, Harrington,
+  Holder, Holzapfel, Hou, Hrubes, Keisler, Knox, Lee, Leitch, Lueker,
+  Luong-Van, McMahon, Mehl, Meyer, Millea, Mocanu, Mohr, Montroy, Padin,
+  Plagge, Pryke, Ruhl, Schaffer, Shaw, Shirokoff, Spieler, Staniszewski, Stark,
+  Story, van Engelen, Vanderlinde, Vieira, Williamson, and Zahn]{George2015}
+E.~M. George, C.~L. Reichardt, K.~A. Aird, B.~A. Benson, L.~E. Bleem, J.~E.
+  Carlstrom, C.~L. Chang, H-M. Cho, T.~M. Crawford, A.~T. Crites, T.~de~Haan,
+  M.~A. Dobbs, J.~Dudley, N.~W. Halverson, N.~L. Harrington, G.~P. Holder,
+  W.~L. Holzapfel, Z.~Hou, J.~D. Hrubes, R.~Keisler, L.~Knox, A.~T. Lee, E.~M.
+  Leitch, M.~Lueker, D.~Luong-Van, J.~J. McMahon, J.~Mehl, S.~S. Meyer,
+  M.~Millea, L.~M. Mocanu, J.~J. Mohr, T.~E. Montroy, S.~Padin, T.~Plagge,
+  C.~Pryke, J.~E. Ruhl, K.~K. Schaffer, L.~Shaw, E.~Shirokoff, H.~G. Spieler,
+  Z.~Staniszewski, A.~A. Stark, K.~T. Story, A.~van Engelen, K.~Vanderlinde,
+  J.~D. Vieira, R.~Williamson, and O.~Zahn.
+\newblock A measurement of secondary cosmic microwave background anisotropies
+  from the 2500 square-degree spt-sz survey.
+\newblock \emph{The Astrophysical Journal}, 799\penalty0 (2):\penalty0 177,
+  2015.
+\newblock URL \url{http://stacks.iop.org/0004-637X/799/i=2/a=177}.
+
+\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{e}}){Planck
   Collaboration}, {Adam}, {Ade}, {Aghanim}, {Akrami}, {Alves}, {Arg{\"u}eso},
   {Arnaud}, {Arroja}, {Ashdown}, {Aumont}, {Baccigalupi}, {Ballardini},
   {Banday}, {Barreiro}, {Bartlett}, {Bartolo}, {Basak}, {Battaglia},
@@ -890,7 +1102,7 @@ J.-B. {Melin} and J.~G. {Bartlett}.
   A.~{Zacchei}, J.~P. {Zibin}, and A.~{Zonca}.
 \newblock {Planck 2015 results. I. Overview of products and scientific
   results}.
-\newblock \emph{\aap}, 594:\penalty0 A1, September 2016{\natexlab{c}}.
+\newblock \emph{\aap}, 594:\penalty0 A1, September 2016{\natexlab{e}}.
 \newblock \doi{10.1051/0004-6361/201527101}.
 
 \bibitem[{Planck Collaboration} et~al.(2018{\natexlab{c}}){Planck
@@ -1743,7 +1955,7 @@ P.~{Natoli}, M.~{Ashdown}, R.~{Banerji}, J.~{Borrill}, A.~{Buzzelli}, G.~{de
   2018:\penalty0 022, April 2018.
 \newblock \doi{10.1088/1475-7516/2018/04/022}.
 
-\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{d}}){Planck
+\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{f}}){Planck
   Collaboration}, {Ade}, {Aghanim}, {Arnaud}, {Ashdown}, {Aumont},
   {Baccigalupi}, {Banday}, {Barreiro}, {Bartlett}, and
   et~al.]{plank2015_xii_focalplane}
@@ -1751,7 +1963,7 @@ P.~{Natoli}, M.~{Ashdown}, R.~{Banerji}, J.~{Borrill}, A.~{Buzzelli}, G.~{de
   M.~{Ashdown}, J.~{Aumont}, C.~{Baccigalupi}, A.~J. {Banday}, R.~B.
   {Barreiro}, J.~G. {Bartlett}, and et~al.
 \newblock {Planck 2015 results. XII. Full focal plane simulations}.
-\newblock \emph{\aap}, 594:\penalty0 A12, September 2016{\natexlab{d}}.
+\newblock \emph{\aap}, 594:\penalty0 A12, September 2016{\natexlab{f}}.
 \newblock \doi{10.1051/0004-6361/201527103}.
 
 \bibitem[Pogosian and Zucca(2018)]{Pogosian+2018}
