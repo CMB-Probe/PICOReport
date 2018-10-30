@@ -5,7 +5,7 @@
 
 \begin{document}
 
-Some of the PICO science goals attempt to reach extremely faint signals. The most ambitious one is to reach the nanoK-level 
+Some of the PICO science goals attempt to detect extremely faint signals. The most ambitious one is to reach the nanoK-level 
 signals characterizing an inflationary gravity wave with $r\lesssim0.001$. \comor{be more explicit about the level of 
 the $\ell=80$ peak}
 It has long been recognized that exquisite control of systematic uncertainties will be required for any experiment attempting 
@@ -56,21 +56,21 @@ The three highest risk systematic errors were studied further and are discussed 
 \textbf{Leakage}& &\\
 Polarization Angle Calibration\dotfill& 
 5&
-E$\to$B &
+$E{\to}B$ &
 See Sect.~\ref{sec:angle}.
 \\
  Bandpass Mismatch\dotfill&
  4& 
-T$\to$P, E$\to$B  
+$T{\to}$P, $E{\to}B$  
    \\
 Beam mismatch\dotfill& 
 4&
-T$\to$P, E$\to$B
+$T{\to}$P, $E{\to}B$
 & See Sect.~\ref{sec:angle}
 \\
 Time Response Accuracy and Stability\dotfill&
 4&
-T$\to$P, E$\to$B
+$T{\to}$P, $E{\to}B$
 \\
 Readout Cross-talk\dotfill& 
 4&
@@ -83,25 +83,25 @@ spurious P
 
 Gain mismatch\dotfill&
 3&
-T$\to$P   
+$T{\to}$P   
 \\
 
 
 Cross-polarization\dotfill&
 3&
-E$\to$B
+$E{\to}B$
 \\
 \hline 
 \textbf{Stability} & & \\
 Gain Stability\dotfill& 
 5&
-T$\to$P, E$\to$B
+$T{\to}$P, $E{\to} B$
 & 
 See Sect.~\ref{sec:gain}
 \\
 Pointing jitter\dotfill&
 3&
-T$\to$P, E$\to$B
+$T{\to}$P, $E{\to}B$
 \\
 
 \hline
@@ -119,118 +119,118 @@ increased variance
 \\
 \hline
  \end{tabular}
-\caption{\label{tbl:SystematicsList2col} Systematic errors expected in \pico's measurement of CMB polarization.}
+\caption{\label{tbl:SystematicsList2col} Systematic errors expected in \pico's measurement of CMB polarization. Each source of systematic errors was given a rating of the risk that a given systematic error will dominate the B-mode measurement.  A risk level of 5 indicates that a systematic effect is highly significant because it is design-driving, has limited past experiments, and/or isn’t well understood.  Risk level of 4 indicates a systematic that is either known to be large but is understood reasonably well or a smaller effect that requires precise modeling.  Risk level of 3 indicates that we expect the effect to be small, but it isn't necessarily well understood enough that modeling it should be done in detail in a mission Phase A. This study investigated the systematics with risk levels of 5 via simulations.}
  \end{table}
 
-\begin{table}[h!]
-\centering
-\scriptsize
- \begin{tabular}{p{3.3cm} p{0.5cm} p{1.5cm} p{4.5cm} p{2.8cm}}
- \hline
-\textbf{Name} & \textbf{Risk}&\textbf{Effect} & \textbf{State-of-the-art} & \textbf{Additional Mitigation Needed} \\
- \hline
-\textbf{Leakage}& &\\
-Polarization Angle Calibration\dotfill& 
-5&
-E$\to$B
-& 
-Knowledge of astrophysical calibrators to 0.3$^\circ$\citep{Aumont+2018}; ground measurement to 0.9$^\circ$ reconstruction to 0.2$^\circ$ using $TB$ and $EB$ demonstrated by \planck\citet{Planck_Lowell}
-& 
-See Sect.~\ref{sec:angle}.
-\\
- Bandpass Mismatch\dotfill&
- 4& 
-T$\to$P, E$\to$B  & Precise bandpass measurement\cite{Pajot_2010};
-SRoll algorithm\cite{Planck_Lowell}; filtering technique\cite{CORE_systematics}. &
-SOA meets req't
-   \\
-Beam mismatch\dotfill& 
-4&
-T$\to$P, E$\to$B
-& See Sect.~\ref{sec:angle} & none\\
-Time Response Accuracy and Stability\dotfill&
-4&
-T$\to$P, E$\to$B&
-On-orbit reconstruction to 0.1\% across a wide signal band\cite{planck2013_vii}, residuals corrected as part of beam and map-making algorithm\cite{Planck_Lowell}.
-& SOA meets req't
-\\
-Readout Cross-talk\dotfill& 
-4&
-spurious P
-&
-\planck\ high-impedence bolometers: 10$^{-3}$ crosstalk did not impact CMB polarization\cite{Planck_Lowell}.  Cross-talk of low-impedence bolometers is 0.3\%\cite{BICEP2_II}.
-&
-SOA meets req't
-\\
-Chromatic beam shape\dotfill&
-4&
-spurious P
-&
-\planck\ simulations and parameterization as part of the likelihood.
-&
-%Should be further investigated in Phase A of a mission using physical optics simulations.
-Mission-specific simulations needed.  
-\\
-
-Gain mismatch\dotfill&
-3&
-T$\to$P &
-mission-average relative calibration demonstrated to 10$^{-4}$ to 10$^{-5}$ level \cite{Planck_Lowell}
-&
-SOA meets req't  
-\\
-
-
-Cross-polarization\dotfill&
-3&
-E$\to$B
-&
-Degenerate with polarization gain calibration.
-&
-SOA meets req't
-\\
-\hline 
-\textbf{Stability} & & \\
-Gain Stability\dotfill& 
-5&
-T$\to$P, E$\to$B
-& 
-Reconstruction of time variability of gain to 0.2\% in \planck\cite{Planck_Lowell}.
-&
-See Sect.~\ref{sec:gain}
-\\
-Pointing jitter\dotfill&
-3&
-T$\to$P, E$\to$B
-&
-Pointing reconstruction in \planck\ to 0.8 and 1.9 arcsec in-scan and cross-scan \cite{planck2016_l}
-&
-SOA meets req't
-\\
-
-\hline
-\textbf{Straylight}& & \\
-Far Sidelobes\dotfill& 
-5&
-spurious P
-& 
-\planck\ validated straylight model in anechoic chamber to -80~dBi\cite{Tauber2010}.
-&
-See Sect.~\ref{sec:fsl}.\\
- \hline
-\textbf{Other} \\
-Residual correlated cosmic ray hits\dotfill&
-3 &
-increased variance
-&
-\planck/HFI's 5\% percent noise correlation did not impact results\cite{Planck_Lowell}. 
-&
-SOA detector design to reduce cosmic ray cross-section; SOA analysis techniques meet req't
-\\
-\hline
- \end{tabular}
-\caption{\label{tbl:SystematicsList} Systematic errors expected in \pico's measurement of CMB polarization.}
- \end{table}
+%\begin{table}[h!]
+%\centering
+%\scriptsize
+% \begin{tabular}{p{3.3cm} p{0.5cm} p{1.5cm} p{4.5cm} p{2.8cm}}
+% \hline
+%\textbf{Name} & \textbf{Risk}&\textbf{Effect} & \textbf{State-of-the-art} & \textbf{Additional Mitigation Needed} \\
+% \hline
+%\textbf{Leakage}& &\\
+%Polarization Angle Calibration\dotfill& 
+%5&
+%E$\to$B
+%& 
+%Knowledge of astrophysical calibrators to 0.3$^\circ$\citep{Aumont+2018}; ground measurement to 0.9$^\circ$ reconstruction to 0.2$^\circ$ using $TB$ and $EB$ demonstrated by \planck\citet{Planck_Lowell}
+%& 
+%See Sect.~\ref{sec:angle}.
+%\\
+% Bandpass Mismatch\dotfill&
+% 4& 
+%T$\to$P, E$\to$B  & Precise bandpass measurement\cite{Pajot_2010};
+%SRoll algorithm\cite{Planck_Lowell}; filtering technique\cite{CORE_systematics}. &
+%SOA meets req't
+%   \\
+%Beam mismatch\dotfill& 
+%4&
+%T$\to$P, E$\to$B
+%& See Sect.~\ref{sec:angle} & none\\
+%Time Response Accuracy and Stability\dotfill&
+%4&
+%T$\to$P, E$\to$B&
+%On-orbit reconstruction to 0.1\% across a wide signal band\cite{planck2013_vii}, residuals corrected as part of beam and map-making algorithm\cite{Planck_Lowell}.
+%& SOA meets req't
+%\\
+%Readout Cross-talk\dotfill& 
+%4&
+%spurious P
+%&
+%\planck\ high-impedence bolometers: 10$^{-3}$ crosstalk did not impact CMB polarization\cite{Planck_Lowell}.  Cross-talk of low-impedence bolometers is 0.3\%\cite{BICEP2_II}.
+%&
+%SOA meets req't
+%\\
+%Chromatic beam shape\dotfill&
+%4&
+%spurious P
+%&
+%\planck\ simulations and parameterization as part of the likelihood.
+%&
+%%Should be further investigated in Phase A of a mission using physical optics simulations.
+%Mission-specific simulations needed.  
+%\\
+%
+%Gain mismatch\dotfill&
+%3&
+%T$\to$P &
+%mission-average relative calibration demonstrated to 10$^{-4}$ to 10$^{-5}$ level \cite{Planck_Lowell}
+%&
+%SOA meets req't  
+%\\
+%
+%
+%Cross-polarization\dotfill&
+%3&
+%E$\to$B
+%&
+%Degenerate with polarization gain calibration.
+%&
+%SOA meets req't
+%\\
+%\hline 
+%\textbf{Stability} & & \\
+%Gain Stability\dotfill& 
+%5&
+%T$\to$P, E$\to$B
+%& 
+%Reconstruction of time variability of gain to 0.2\% in \planck\cite{Planck_Lowell}.
+%&
+%See Sect.~\ref{sec:gain}
+%\\
+%Pointing jitter\dotfill&
+%3&
+%T$\to$P, E$\to$B
+%&
+%Pointing reconstruction in \planck\ to 0.8 and 1.9 arcsec in-scan and cross-scan \cite{planck2016_l}
+%&
+%SOA meets req't
+%\\
+%
+%\hline
+%\textbf{Straylight}& & \\
+%Far Sidelobes\dotfill& 
+%5&
+%spurious P
+%& 
+%\planck\ validated straylight model in anechoic chamber to -80~dBi\cite{Tauber2010}.
+%&
+%See Sect.~\ref{sec:fsl}.\\
+% \hline
+%\textbf{Other} \\
+%Residual correlated cosmic ray hits\dotfill&
+%3 &
+%increased variance
+%&
+%\planck/HFI's 5\% percent noise correlation did not impact results\cite{Planck_Lowell}. 
+%&
+%SOA detector design to reduce cosmic ray cross-section; SOA analysis techniques meet req't
+%\\
+%\hline
+% \end{tabular}
+%\caption{\label{tbl:SystematicsList} Systematic errors expected in \pico's measurement of CMB polarization.}
+% \end{table}
 
 \subsubsection{Absolute polarization angle calibration}
 \label{sec:angle}
@@ -262,7 +262,7 @@ and thus mixes the the power spectra and their correlations as illustrated in Fi
 
 %------------------------------------------------------------------------------------------
 \begin{figure}[htb]
-\includegraphics[width=0.8\textwidth]{images/PICO_rotate_eb4_v2.\suffix}
+\includegraphics[width=0.6\textwidth]{images/PICO_rotate_eb4_v2.\suffix} \includegraphics[width=0.4\textwidth]{images/calibration_spectrum_BB.pdf}
 \caption{\label{fig:rot_bb_tb_eb} Effect of a rotation of the angle of polarization, assuming the Planck 2018 $\Lambda$-CDM best fit model \citep{Planck2018_VI} with $\tau=0.054$ and expected \pico\ noise performance, assuming perfect delensing.}
 \end{figure}
 %------------------------------------------------------------------------------------------
@@ -312,13 +312,13 @@ In principle, the technique of using the $TB$ and $EB$ spectra can detect and me
 
 %------------------------------------------------------------------------------------------
 
-\begin{figure}[htb]
-\includegraphics[width=0.7\textwidth]{images/calibration_spectra.pdf}
-\caption{\label{fig:calibration_spectra} Residual power due to calibration.}
-\end{figure}
+%\begin{figure}[htb]
+%\includegraphics[width=0.7\textwidth]{images/calibration_spectra.pdf}
+%\caption{\label{fig:calibration_spectra} Residual power due to calibration.}
+%\end{figure}
 %------------------------------------------------------------------------------------------
 
-Photometric calibration is the process of converting the raw output of the receivers into astrophysical units via the characterization of the \emph{gain factor} $G(t)$ which we allow to vary with time.  In space, the characterization of $G(t)$ uses the dipole.   For the PICO concept study, we evaluated the impact of noise in the estimation of $G(t)$ using the tools developed for the Planck/LFI instrument and the CORE mission proposal. The quality of the estimate depends on the noise level of the receivers, but also on the details of the scanning strategy. 
+Photometric calibration is the process of converting the raw output of the receivers into astrophysical units via the characterization of the \emph{gain factor} $G(t)$ which we allow to vary with time.  In space, $G(t)$ can be measured with the dipole.   For the PICO concept study, we evaluated the impact of noise in the estimation of $G(t)$ using the tools developed for the Planck/LFI instrument and the CORE mission proposal. The quality of the estimate depends on the noise level of the receivers, but also on the details of the scanning strategy. 
 To analyze the impact of calibration uncertainties on PICO, we performed  the following analysis:1. We simulated the observation of the sky, assuming four receivers, the nominal scanning strategy, and $1/f$ noise. The simulated sky contained CMB anisotropies, plus the CMB dipole. 2. We ran the calibration code to fit the dipole against the raw data simulated during step~1. 3. We again simulated the observation of the sky, this time using the values of $G$ computed during step~2, which contain errors due to the presence of noise and the CMB signal.
 
 The presence of large-scale Galactic emission features can bias the estimation of calibration factors. Ideally, a full data analysis pipeline would pair the calibration step with the component separation step, following a schema similar to Planck/LFI's legacy data processing\cite{Planck2018_II}: the calibration code is followed by a component separation analysis, and these two steps are iterated until the solution converges.
@@ -330,11 +330,8 @@ The scanning strategy employed by PICO allows for a much better calibration than
 \subsubsection{Far Sidelobe Pickup}
 \label{sec:fsl}
 %The main beam (within a few degrees of the axis of beam response) in a CMB mission can be measured to high precision using the planets .  
-Measurement of each detector's response to signals off axis, which tends to be weak (--80dB less than the peak response) but spread over a very large solid angle, is difficult to do pre-launch, and may not even be done accurately after launch.  Nonetheless, this far sidelobe can couple bright Galactic signal from many tens of degrees off-axis and confuse it with polarized signal from the CMB off the Galactic plane.  
+Measurement of each detector's response to signals off axis, which tends to be weak (--80dB less than the peak response) but spread over a very large solid angle, is difficult to do pre-launch, and may not even be done accurately after launch.  Nonetheless, this far sidelobe can couple bright Galactic signal from many tens of degrees off-axis and confuse it with polarized signal from the CMB off the Galactic plane.    To evaluate this systematic error, GRASP software\footnote{https://www.ticra.com} was used to compute the \pico\ telescope's response over the full sky.  The computed full-sky beams showed features peaking at about -70 dB of the on-axis beam.   This full-sky beam was convolved with a polarized Galactic signal and a one-year \pico\ mission scan using the simulation pipeline and preliminarily shows that the far sidelobe pickup must be calculated accurately down to the 90 dB level in order to be removed from the measured B-mode signal to a level that does not appreciably increase the variance on the B-mode power measurement.
 
-To evaluate this systematic error, GRASP software\footnote{https://www.ticra.com} was used to compute the \pico\ telescope's response over the full sky.  This full-sky beam was convolved with a polarized Galactic signal and a full \pico\ mission scan using the simulation pipeline.  The far sidelobe pickup was estimated to contribute less than XXX to the B-mode angular power spectrum and thus an error in $r$ of YYY.
-
-Due to the difficulties of measuring this beam, physical optics simulation capabilities must be maintained and validated as well as possible with on-orbit data.
 
 \subsubsection{Key Findings}
 Properly modeling, engineering for, and controlling the effects of systematic errors in a
@@ -344,7 +341,7 @@ next-generation CMB probe is critical.  As of today, we conclude that there is a
 that data subsets can independently achieve the science goals.
 This allows testing of the results in the data analysis and additional
 data cuts, if needed.
-
+\item In a PICO mission, a physical optics model of the telescope should be developed, enabling full-sky beam calculations, which should be validated as much as possible on the ground.  This will be needed to characterize and remove far sidelobe pickup seen during the mission. 
 \item NASA's support of ground-based and suborbital CMB missions will mitigate risk to a future space mission as PICO by continuing to develop analysis techniques and technology for mitigation of systematic errors.
 
 \item In a PICO mission's phase A, a complete end-to-end system-level

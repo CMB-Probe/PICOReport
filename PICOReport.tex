@@ -6,12 +6,14 @@
 \usepackage{graphicx}
 \usepackage{fancyhdr}
 \usepackage{multirow}
-\usepackage{cite}
+%\usepackage{cite}
+\usepackage[numbers,sort&compress]{natbib}
 \usepackage{color}
 \usepackage{natbib}
 \usepackage[nolist]{acronym}
 % Soumen's packages
-\usepackage{hyperref}
+\usepackage[plainpages=false,pdfpagelabels,colorlinks=true]{hyperref}
+%\usepackage{hyperref}
 \usepackage[latin1]{inputenc}
 \usepackage{grffile}
 \usepackage{multirow}
@@ -93,7 +95,7 @@
   % don't switch actual page sizes yet:
   \generatePageLayouts{}
 
-\bibliographystyle{unsrt}
+\bibliographystyle{unsrtnat}
 
 \setlength{\baselineskip}{0.96\baselineskip} %% measured, 5.0 lines/inch.  Can go to 0.96\baselineskip
 \setlength{\parskip}{1.\parskip}
@@ -127,7 +129,7 @@
 %
 
 
-\section{Executive Summary (2 pg, Hanany)} 
+\section{Executive Summary} % (2 pg, Hanany)} 
 \subfile{executive.tex}
 
 %\vspace{-0.05in}
@@ -141,7 +143,7 @@
 
 %\vspace{-0.05in}
 
-\subsection{Introduction (1.5 pgs)}
+\subsection{Introduction} % (1.5 pgs)}
 
 %\vspace{-0.05in}
 
@@ -155,7 +157,7 @@
 
 %\vspace{-0.05in}
 
-The Science Traceability Matrix can be found in Table~\ref{tab:STM}.
+The Science Traceability Matrix can be found in Tables~\ref{tab:STM} and \ref{tab:STM2}.
 
 %  The PICO Science Traceability Matrix (2pg, Hanany\&Trangsrud) will be inserted around here.  It is an 11x17 foldout, so it counts as 2 pages, which leaves 15.5 to all the rest in 2.2. Currently allocating 15 pages.  
 
@@ -168,8 +170,11 @@ The Science Traceability Matrix can be found in Table~\ref{tab:STM}.
    \clearpage
 % start with LayoutPageA (includes switching page size)
 \switchToLayoutPageA{}
+\input stm2.tex
+\clearpage
 }
 % [TJP] end --------------------
+
 
 %    \vspace{12pt}
 %     FOR EACH OF THE BELOW SUBSECTIONS:
@@ -182,55 +187,55 @@ The Science Traceability Matrix can be found in Table~\ref{tab:STM}.
 %    \item Perceived science impact. (The impact isn't reducing sigma on a parameter.  It is about what we will learn about nature.)
 %    \end{itemize}
 
-\subsubsection{Fundamental Physics (6 pgs)}
 
-\vspace{-0.05in}
+\subsubsection{Fundamental Physics} %(6 pgs)
+\label{sec:fundamentalsci}
+%\vspace{-0.05in}
 
 \subfile{fundamentalsci.tex}
 
-\vspace{-0.05in}
+%\vspace{-0.05in}
 
 % ------------
 
-\subsubsection{Cosmic Structure Formation and Evolution (4 pgs)}
-
+\subsubsection{Cosmic Structure Formation and Evolution} % (4 pgs)
+\label{sec:extragalacticsci}
 \subfile{extragalacticsci.tex}
 
 % ------------
 
-\subsubsection{Galactic Structure and Star Formation (3 pgs)}
-
+\subsubsection{Galactic Structure and Star Formation} % (3 pgs)
+\label{sec:galacticsci}
 \subfile{galacticsci.tex}
 
 % ------------
 
-\subsection{Legacy Surveys (2 pgs)} 
-
-{\it Describe science that we get for free. }
+\subsection{Legacy Surveys} % (2 pgs) 
 
 \subfile{legacysci.tex}
 
 % ------------
 
-\subsection{Complementarity with Other Surveys and with Sub-Orbital Measurements (1 pg)} 
+\subsection{Complementarity with Other Surveys and with Sub-Orbital Measurements} %(1 pg)} 
 
-\subfile{complementarity_sh_qi.tex}
+\subfile{complementarity.tex}
 
 % ------------
 
-\subsection{Signal Separation (4 pages)}
+\subsection{Signal Separation}%  (4 pages)}
+\label{sec:signal_separation}
 
 \subfile{foregrounds.tex}
 
 % ------------
 
-\subsection{Systematic Errors (3 pgs)}
+\subsection{Systematic Uncertainties}%  (3 pgs)}
 
 \subfile{systematics.tex}
 
 % ------------
 
-\subsection{Measurement Requirements (2 pgs)}
+\subsection{Measurement Requirements} % (2 pgs)}
 
 \subfile{requirements.tex}
 
@@ -238,27 +243,27 @@ The Science Traceability Matrix can be found in Table~\ref{tab:STM}.
 
 % ------------
 
-\section{Instrument (6 pgs, Hanany \& Transgrud)}
+%\section{Instrument (6 pgs, Hanany \& Transgrud)}
 
-\subfile{instrument.tex}
-
-% ------------
-
-\section{Mission (5 pgs, Trangsrud)}
-
-\subfile{mission.tex}
+%\subfile{instrument.tex}
 
 % ------------
 
-\section{Technology Maturation (4 pgs, O'Brient \& Trangsrud)}
+%\section{Mission (5 pgs, Trangsrud)}
 
-\subfile{technology.tex}
+%\subfile{mission.tex}
 
 % ------------
 
-\section{Management, Risk, Heritage, and Cost (4 pgs, Trangsrud)}
+%\section{Technology Maturation (4 pgs, O'Brient \& Trangsrud)}
 
-\subfile{cost.tex}
+%\subfile{technology.tex}
+
+% ------------
+
+%\section{Management, Risk, Heritage, and Cost (4 pgs, Trangsrud)}
+
+%\subfile{cost.tex}
 
 % ------------
 

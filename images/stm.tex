@@ -1,0 +1,198 @@
+\begin{table}[]
+\caption{\textbf{Science Traceability Matrix}}\label{tab:STM}
+\footnotesize
+\begin{tabular}{cccccccc}
+\noalign{\vskip 2mm}
+\hline
+\noalign{\vskip 2mm}    
+% Header line 1
+%\rowcolor[HTML]{EFEFEF} 
+\multicolumn{1}{c}{\multirow{2}{1in}{\bf Science Goals from NASA Science Plan}}&
+\multicolumn{1}{c}{\multirow{2}{2in}{\bf Science Objectives}}& 
+\multicolumn{3}{c}{\bf Scientific Measurement Requirements}&
+\multicolumn{2}{l}{\bf Instrument (single instrument, single mode)}&
+\multicolumn{1}{c}{\multirow{2}{1.5in}{\bf Mission Functional Requirements}} 
+\\
+%Header line 2
+\noalign{\vskip 2mm}    
+\cline{3-7}
+\noalign{\vskip 2mm}    
+%\rowcolor[HTML]{EFEFEF} 
+\multicolumn{1}{c}{} &
+\multicolumn{1}{c}{} &
+\multicolumn{1}{c}{Model Parameters} &
+\multicolumn{1}{c}{Physical Parameters} & 
+\multicolumn{1}{c}{Observables} &
+\multicolumn{1}{c}{Functional Requirements} &
+\multicolumn{1}{c}{Projected Performance} & 
+\\
+% Line SO1
+\noalign{\vskip 2mm}    
+\hline
+\multicolumn{1}{l}{\multirow{2}{1in}{\vskip5pt Explore how the universe began (Inflation)}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{SO1. Probe the physics of the big bang by detecting the energy scale at which inflation occurred if it is above $4\times10^{15}$\,GeV, or place an upper limit if it is below (\S\,\ref{sec:fundamentalsci})}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Tensor-to-scalar ratio $r$: $\sigma(r) < 5\times10^{-5}$ at $r = 0$; $r < 10^{-4}$ at 95\% confidence level}} &
+\multicolumn{1}{l}{\parbox[t]{2in}{CMB polarization $B$-mode power spectrum for modes $2<l<300$ to cosmic variance limit, and CMB lensing power spectrum for modes $2<l<1000$ to cosmic variance limit}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Linear polarization across $60 < \nu < 300$\,GHz over entire sky}}& 
+\multicolumn{1}{l}{\multirow{4}{2in}{%
+Frequency coverage [for foreground separation]: $\nu_c$ from 30 to 500\,GHz.
+\vskip5pt
+Frequency resolution: $\Delta\nu/\nu_c = 25\%$.
+\vskip5pt
+Sensitivity: See Table~\ref{tab:tbd}.
+Combined instrument weight of $< 0.7\,\mu{\rm K}_{\rm CMB}\sqrt{\rm s}$.
+\vskip5pt
+Angular resolution [for delensing and foreground separation]: ${\rm FWHM} =  6.2' \times ( 155\,{\rm GHz} / \nu_c )$.
+\vskip5pt
+Sampling rate: $( 3 / {\rm Beam FWHM} ) \times ( 336' / {\rm s})$.
+\vskip5pt
+ Polarization systematics?
+}}& 
+\multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{l}{\parbox[t]{1in}{}}\\
+% Line SO2
+\noalign{\vskip 1mm}
+\cline{2-5}
+\noalign{\vskip 1mm}
+\multicolumn{1}{l}{}&
+\multicolumn{1}{l}{\parbox[t]{2in}{SO2. Probe the physics of the big bang by excluding classes of potentials as the driving force of inflation (\S\, \ref{sec:fundamentalsci}, Figure TBD)}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Spectral index ($n_s$) and its derivative ($n_{\rm run}$): $\sigma(n_s) < 0.0015$; $\sigma(n_{\rm run}) < 0.002$}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{CMB polarization $B$-mode power spectrum for modes $2<l<1000$ to cosmic variance limit}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{l}{\multirow{8}{1.5in}{%
+Frequency coverage: See Table~\ref{tab:freq}.
+\vskip 2pt 
+21 bands with $\nu_c$ from 21 to 799\,GHz.
+\vskip5pt
+Frequency resolution: $\Delta\nu/\nu_c = 25\%$.
+\vskip5pt
+Sensitivity: See Table~\ref{tab:sensitivity}.
+\vskip2pt
+Combined instrument weight of $0.46\,\mu{\rm K}_{\rm CMB}\sqrt{\rm s}$.
+\vskip5pt
+Angular resolution: See Table~\ref{tab:resolution}.
+\vskip2pt
+${\rm FWHM} = 6.2' \times (155\,{\rm GHz} / \nu_c )$;
+$1.1'$ for $\nu_c = 799\,$GHz.
+\vskip5pt
+Sampling rate: See Table~\ref{Sampling}.
+$( 3 / {\rm Beam FWHM}) \times ( 336' / {\rm s})$ 
+}}& 
+\multicolumn{1}{l}{\multirow{8}{1.5in}{%
+Sun-Earth L2 orbit with Sun-Probe-Earth $< 15^\circ$.
+\vskip5pt
+5 yr survey with $\ge 95\%$ survey efficiency.
+\vskip5pt
+Full sky survey: Spin instrument \@ 1 rpm; Boresight $69^\circ$ off spin axis;
+Spin axis $26^\circ$ off anti-Sun line, precessing $360^\circ$ / 10hr.
+\vskip5pt
+Pointing control: Spin axis $60'$ ($3\sigma$, radial). Spin \@ $1 \pm 0.1$ rpm ($3\sigma$)
+\vskip5pt
+Pointing stability: Drift of spin axis $< 1'$/1min ($3\sigma$, radial);
+Jitter $< 20"$/20 ms ($3\sigma$, radial).
+\vskip5pt
+Pointing knowledge
+(telescope boresight):
+$10"$ ($3\sigma$, each axis) from spacecraft attitude
+$1"$ ($3\sigma$, each axis) final reconstructed
+\vskip5pt
+Return and process instrument data:
+1.5 Tbits/day (after 4x compression)
+\vskip5pt
+Thermally isolate instrument from solar radiation and from spacecraft bus
+}}\\
+% Line SO3
+\noalign{\vskip 1mm}
+\cline{1-5}
+\noalign{\vskip 1mm}
+\multicolumn{1}{l}{\multirow{2}{1in}{\vskip5pt Discover how the universe works (Neutrino Mass and Neff)}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{SO3. Determine the sum of neutrino masses, and distinguish between inverted and normal neutrino mass hierarchies (\S\,\ref{sec:fundamentalsci}, Figure TBD)}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Sum of neutrino masses ($\Sigma m_\nu$): $\Sigma m_\nu < 15$\,meV with DESI or Euclid; $\Sigma m_\nu < X$\,meV alone}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{CMB polarization $B$-mode power spectrum for modes $2<l<4000$ to cosmic variance limit; CMB intensity maps (to give Compton $Y$ map from which we extract clusters)}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Intensity and linear polarization across 60--400\,GHz over entire sky}}& 
+\multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{l}{\parbox[t]{1in}{}}
+\\
+% Line SO4
+\noalign{\vskip 1mm}
+\cline{2-5}
+\noalign{\vskip 1mm}
+&
+\multicolumn{1}{l}{\parbox[t]{2in}{SO4. Tightly constrain the thermalized fundamental particle content of the early Universe (\S\, \ref{sec:fundamentalsci}, Figure TBD)}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Number of neutrino effective relativistic degrees of freedom ($N_{\rm eff}$): $\sigma(N_{\rm eff}) < 0.03$}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{CMB temperature and $E$-mode polarization power spectra $2<l<4000$ to cosmic variance limit}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Intensity and linear polarization across 60--300\,GHz over entire sky }}& 
+\multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{l}{\parbox[t]{1in}{}}
+\\
+% Line SO5
+\noalign{\vskip 1mm}
+\cline{1-6}
+\noalign{\vskip 1mm}
+\multicolumn{1}{l}{\parbox[t]{1in}{\vskip5pt Explore how the universe evolved (reionization)}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{SO5. Distinguish between models that describe the formation of the earliest stars in the universe (\S\,2.2.2, Figure TBD)}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Optical depth to reionization ($\tau$): $\sigma(\tau) < 0.002$}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{CMB polarization $E$-mode power spectrum for modes $2<l<20$ to cosmic variance limit; $T$ power spectrum and Compton $Y$ maps.}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Intensity and linear polarization across 60--300\,GHz over entire sky (role of intensity maps at high $\ell$ to be clarified)}}& 
+\multicolumn{1}{l}{\parbox[t]{2in}{Enveloped by SO1--4, and less driving: Angular resolution $< 1^\circ$ at XX\,GHz (role of intensity maps at high $\ell$ to be clarified). Combined instrument weight of  $< 0.86$\, $\mu$K\,arcmin}}& 
+\multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{l}{\parbox[t]{1in}{}}
+\\
+% Line SO6
+\noalign{\vskip 1mm}
+\cline{1-6}
+\noalign{\vskip 1mm}
+\multicolumn{1}{l}{\multirow{3}{1in}{\parbox[t]{1in}{\vskip5pt Explore how the universe evolved (Galactic structure and dynamics)}}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{SO6. Determine if magnetic fields are the dominant cause of low star formation efficiency in our Galaxy. (\S\,2.2.3, Figure TBD)}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{The turbulence power spectrum on scales 0.05--100 pc (from cores to diffuse cloud envelopes). Magnetic field strength ($B$) as a function of spatial scale and density. Hydrogen column density. Gas velocity dispersion.
+}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Intensity and linear polarization with $< 1$\,pc resolution for thousands of molecular clouds and $< 0.05$\, pc for the 10 nearest molecular clouds.}}& 
+\multicolumn{1}{l}{\multirow{3}{2in}{%
+Enveloped by SO1--4, except:
+\vskip4pt
+Angular resolution: $\le 1.1'$ (at highest frequency)
+\vskip4pt
+Sensitivity at 800\,GHz: 27.4\, kJy/sr
+\vskip4pt
+Saturation/Dynamic range?
+}}& 
+\multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{l}{\parbox[t]{1in}{}}
+\\
+% Line SO7
+\noalign{\vskip 1mm}
+\cline{2-5}
+\noalign{\vskip 1mm}
+\multicolumn{1}{l}{}&
+\multicolumn{1}{l}{\parbox[t]{2in}{SO7. Constrain the temperatures and emissivities characterizing Milky Way's interstellar diffuse dust.}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Intrinsic polarization fractions of the warm and cold components of the diffuse interstellar medium to accuracy better than 2\% when averaged over 10 arcmin pixels. Temperatures and spectral indices of the two dust components to an accuracy better than??\% }}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Fractional polarization and intensity as a function of frequency}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Intensity and linear polarization maps in 12 frequency bands between 108 and 800\,GHz.}}& 
+\multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{l}{\parbox[t]{1in}{}}
+\\
+% Line SO8
+\noalign{\vskip 1mm}
+\cline{2-5}
+\noalign{\vskip 1mm}
+\multicolumn{1}{l}{}&
+\multicolumn{1}{l}{\parbox[t]{2in}{SO8. Determine the role of energy feedback in the evolution of Milky Way's interstellar medium.}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Ratio of turbulent energy to magnetic energy (Alfv\'en Mach number Ma) on scales $0.03$--$100$\,pc   sigma(Ma)<??}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{The turbulence power spectrum on scales 0.03--100 pc in the neutral ISM. 
+Magnetic field strength ($B$) as a function of spatial scale and density.
+Neutral hydrogen velocity dispersion.
+}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{Maps of polarization with $1'$ resolution over the entire sky.}}& 
+& 
+& 
+\\
+\noalign{\vskip 1mm}
+\hline
+\end{tabular}
+\end{table}
+ 
