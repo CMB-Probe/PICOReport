@@ -3,99 +3,59 @@
 \begin{document}
 
 
-{\it Should describe complementarity with other astrophysics surveys (both space and ground) and with 
-sub-orbital CMB measurements.  For the astrophysical surveys, this is summary text of text that is presumably 
-sprinkled elsewhere in the proposal; please cross-reference.}
+%{\it Should describe complementarity with other astrophysics surveys (both space and ground) and with sub-orbital CMB measurements.  For the astrophysical surveys, this is summary text of text that is presumably sprinkled elsewhere in the proposal; please cross-reference.}
 
 \subsubsection{Complementarity with Astrophysical Surveys in the 2020s}
 
-For cosmological constraints on the sum of neutrino masses, there is no known way to achieve $\sigma(\sum m_\nu)<25\,\mathrm{meV}$ without improving measurements of the optical depth $\tau$ over {\it Planck}'s low-$\ell$ polarization constraint (see the neutrino mass section above).
-In particular, this applies to all methods that rely on comparing low-redshift structure with the amplitude of the CMB at high redshift, such as galaxy clustering, weak lensing, or cluster counts.
-(Should add a sentence on ongoing work that attempts to get around $\tau$: still not possible to do better than 25meV even with LSST and CMB-S4.)
-Improving $\tau$ and therefore $\sigma(\sum m_\nu)$ is only possible by improved observations of low-$\ell$ $E$ modes, which are only possible from space.
-With its improved $\tau$ measurement PICO would therefore directly improve neutrino mass constraints when combined with late-time probes, reaching $\sigma(\sum m_\nu)<15$ meV.  
-PICO therefore complements all efforts that probe the late time structure of the Universe to constrain the sum of neutrino masses, and combining PICO with these low-redshift observations enables more than any cosmological experiment could achieve on its own.
- 
-Reconstructing the CMB lensing convergence on very large angular scales, $L_\mathrm{\kappa}<20$, requires exquisit systematics control over a large sky fraction as well as high angular resolution to perform the lensing reconstruction. 
-A space mission like PICO would provide that, complementing ground-based CMB lensing reconstructions that typically observe smaller sky fraction (or at least have different observation noise in different areas of the sky due to scanning strategy), which makes it difficult to reconstruct lensing on the largest scales. 
-Indeed,  PICO could robustly measure the lensing signal with a power spectrum signal-to-noise ratio of more than 100 per mode on very large scales (based on Alex Van Engelen noise plot from PICO meeting; is this still up to date?).
-Such high-significance CMB lensing measurements on the very largest scales can be useful when combined with measurements of  galaxy clustering to search for local primordial non-Gaussianity via its scale-dependent effect on galaxy bias.
-In an idealized forecast, we find $\sigma(f_\mathrm{NL})\simeq 0.5$ for $L_\mathrm{min}^{\kappa\kappa,\kappa g,gg}=4$, and $\sigma(f_\mathrm{NL})\simeq 0.9$ for $L_\mathrm{min}^{\kappa\kappa,\kappa g,gg}=20$, assuming optimistic LSST galaxy clustering with $60\,\mathrm{arcmin}^{-2}$ galaxies and with high-redshift dropout galaxies.
-This would be a notable improvement over the best current constraint $\sigma(f_\mathrm{NL})=5$ from {\it Planck}.
-Such a measurement would ultimately likely be limited by limitations of LSST on the very largest scales, but space based observations of galaxy clustering with Euclid or SPHEREx could help in this regard.
+PICO has strong complementarity with forthcoming surveys. Here we summarize areas of synergy that have been mentioned in a number of earlier sections. 
 
+There is no known way to achieve any cosmological constraint on the sum of the neutrino mass $\sigma(\sum m_\nu)<25\,\mathrm{meV}$ without improving \planck 's measurement of the optical depth $\tau$. In particular, this applies to all methods that rely on comparing low-redshift structures with the amplitude of the CMB at high redshift, such as galaxy clustering, weak lensing, or cluster counts. PICO therefore complements all efforts that probe the late time structure of the Universe; combining PICO with these low-redshift observations extends the scientific reach of all these experiments well beyond what they could achieve on their own.
+
+%[Should add a sentence on ongoing work that attempts to get around $\tau$: still not possible to do better than 25meV even with LSST and CMB-S4.] 
+%Improving $\tau$, and therefore $\sigma(\sum m_\nu)$, is only possible by improved observations of low-$\ell$ $E$ modes, which are only possible from space. With its improved $\tau$ measurement PICO will therefore directly improve neutrino mass constraints when combined with late-time probes, reaching $\sigma(\sum m_\nu)<15$ meV.  PICO therefore complements all efforts that probe the late time structure of the Universe to constrain the sum of neutrino masses, and combining PICO with these low-redshift observations extends the scientific reach of all these experiments well beyond what they could achieve on their own.
+ 
+Reconstructing the CMB \comor{lensing convergence} on very large angular scales, $L_\mathrm{\kappa}<20$, requires exquisite control of systematic uncertainties over a large sky fraction, with sufficient angular resolution to perform the lensing reconstruction, and with breadth in frequency band to robustly separate Galactic emissions (see Section~\ref{sec:signal_separation}). PICO will provide these, complementing ground-based CMB lensing reconstructions that typically observe a smaller sky fraction, with a smaller number of frequency bands, and without access to the largest angular scales. As discussed in page~\pageref{lensing}, PICO will robustly measure the lensing signal with a power spectrum \ac{SNR} larger than 10 {\it per mode} on very large scales. Such high-significance CMB lensing measurements on the very largest scales will be useful when combined with measurements of galaxy clustering, from example from LSST, to search for local primordial non-Gaussianity via its scale-dependent effect on galaxy bias; see Section~\ref{sec:fundamental}.
+% . In an idealized forecast, we find $\sigma(f_\mathrm{NL})\simeq 0.5$ for $L_\mathrm{min}^{\kappa\kappa,\kappa g,gg}=4$, and $\sigma(f_\mathrm{NL})\simeq 0.9$ for $L_\mathrm{min}^{\kappa\kappa,\kappa g,gg}=20$, assuming optimistic LSST galaxy clustering with $60\,\mathrm{arcmin}^{-2}$ galaxies and with high-redshift dropout galaxies. 
+%This would be a notable improvement over the best current constraint $\sigma(f_\mathrm{NL})=5$ from {\it Planck}.  
+While such a measurement would ultimately be limited by limitations of the LSST data on the very largest scales, space based observations of galaxy clustering with Euclid or SPHEREx may enable further improvements.
+
+\comor{what about wfirst? jwst? DESI? CIB?} 
 
 \subsubsection{Complementarity with Sub-Orbital Measurements}
 
 %% start of text %%
 
-Since the first measurements that recognized the existence of the CMB were made in 1964, important observations have been made from the ground, from balloons, and from space.  The question for the future is what should the roles be of these three types of experimental approaches?  To answer this question, start by considering the advantages and disadvantages of each location (Table~?).
+\begin{table}%[h,t]
+\begin{adjustbox}{width=1\textwidth,center}
+\begin{tabular}{|c|c|c|c|}
+\hline
+\bf{Characteristic} & {\bf Ground} & {\bf Balloon} & {\bf Space}  \\ \hline
+Sky coverage & Partial from single site & Partial from single flight & Full \\ \hline
+\multirow{2}{*}{Frequency coverage} & Limited atmospheric windows.  & Better than ground.  &  Unrestricted \\  
+                                     & $\nu=70$~GHz inaccessible. $\nu \ge 300$~GHz unusable. & $\nu=70$~GHz & \\ \hline
+      Angular resolution  & 1' resolution possible & $\gtrsim 4'$ possible & $\gtrsim 6'$ possible \\ \hline
+\multirow{2}{*}{Detector Noise} & $\ge xx$ microK rt(s);  & $\ge xx$ microK rt(s)  &  $ xx$ microK rt(s) \\  
+                                     & atmospheric 1/f noise requires subtraction &  & \\ \hline
+Integration time  & Unlimited & Weeks to a Month & Continuous, for years.\\ \hline
+Accessibility, repairability & Good & None.  Multiple flights possible.& None.\\
+\hline
+\end{tabular}
+\end{adjustbox}
+\vspace{-0.13in}
+\caption{ \small \setlength{\baselineskip}{0.95\baselineskip}
+Relative characteristics of ground, balloon, and space platforms for experiments in the CMB bands.\label{tab:comparison} }
+\vspace{-0.05in}
+\end{table}
 
-%\midinsert
-\begingroup
-\overfullrule=0pt
-\scriptsize
-%\footnotesize
-%\ninepoint
-\newdimen\tblskip \tblskip=5pt
-\nointerlineskip
-%\vskip -3mm
-\setbox\tablebox=\vbox{
- \newdimen\digitwidth
- \setbox0=\hbox{\rm 0}
- \digitwidth=\wd0
- \catcode`*=\active
- \def*{\kern\digitwidth}
-%
- \newdimen\signwidth
- \setbox0=\hbox{+}
- \signwidth=\wd0
- \catcode`!=\active
- \def!{\kern\signwidth}
-\halign{\vtop{\hsize=1.5in\hangafter=1\hangindent=0.5em\strut#\strut}\tabskip 0.5em&
-\vtop{\hsize=1.7in\hangafter=1\hangindent=0.5em\strut#\strut\tolerance=1000\par}&
-\vtop{\hsize=1.7in\hangafter=1\hangindent=0.5em\strut#\strut\tolerance=1000\par}&
-\vtop{\hsize=1.7in\hangafter=1\hangindent=0.5em\strut#\strut\tolerance=10000\par}\tabskip=0pt\cr
-\noalign{\doubleline}
-\noalign{\vskip 3pt}
-\omit\hfil Characteristic\hfil&\omit\hfil Ground\hfil&\omit\hfil Balloon\hfil&\omit\hfil Space\hfil\cr
-\noalign{\vskip 3pt\hrule\vskip 5pt}
-{\bf Performance}\hfil\cr
-\noalign{\vskip 3pt}
-Sky coverage&Partial from single site&Partial from single flight&Full.    Most of sky observable nearly simultaneously with same detectors.\cr
-%
-Frequency coverage&Limited atmospheric windows. Minimum-foreground frequencies inaccessible. Frequencies $\ge300$\,GHz  unusable.& Better than ground. Minimum-foreground frequencies inacces-sible.&Unrestricted.\cr
-%
-Angular resolution&Telescope~cost function of size; arcmin resolution possible.&Small telescopes only.  Arcmin resolution impossible.&Telescope cost steep function of size.  Arcmin resolution expensive.\cr
-%
-Backgrounds and noise&Detector loading from ground and atmosphere, plus direct noise.  Individual detector sensitivity reduced substantially.&  Atmospheric loading less than from ground, greater than from space.&Only CMB, CIB, and Galactic backgrounds.  Direct-detector sensitivites roughly an order of magnitude better.\cr
-%
-Integration time&Limited by Sun, weather.&Severely imited by flight time.  To date, tens of days per flight.&Continuous observations for years.\cr
-%
-\noalign{\vskip 2pt}
-{\bf Practicalities}\cr
-\noalign{\vskip 3pt}
-Accessibility, repairability&Good&None.  Multiple flights sometimes possible.&None.\cr
-%
-Mass&Not a big issue&Big issue&Big issue\cr
-\noalign{\vskip 3pt\hrule\vskip 3pt}}}
-\endPICOtable
-\endgroup
-
-
-\vskip 5pt
-%\endinsert
-
-
-In every respect affecting performance, space has the advantage, and there can be no argument that space will be required to reach the ultimate limits set by astronomical foregrounds.  But the advantages of space come at a high cost, in both time and money, and an essential question is how much can be done from the ground and balloons first?  The answer depends on the specific requirements of the science questions being addressed, which we discuss below. However, some general guidelines can be given.  When the entire sky is needed, as for fluctuations on the largest angular scales, space is necessary.  The difficulties of controlling systematic errors and foregrounds over the whole sky at a level significantly below what has been achieved by Planck are simply too great to overcome on the ground.  Progress on the reionization bump ($2\leq \ell \leq 12$), whether for $\tau$ or for $r$, requires space.  Significant progress can surely be made from the ground on the recombination bump ($30 \leq \ell \leq 300$), and the $r \approx 10^{-3}$ goal of the ``ultimate'' ground-based experiment CMB-S4 looks to be both bold and achievable.  For $r$, the confusing signal from large-scale-structure lensing of CMB $E$-modes into $B$-modes must be measured and removed, and this requires observations on sub-degree scales over a wide frequency range (because of foregrounds) that especially at the lower frequencies is a challenge from space.
+Since the first \ac{CMB} measurements, more than 50 years ago, important observations have been made from the ground, from balloons, and from space.
+%The question for the future is what should the roles be of these three types of experimental approaches.
+As Table~\ref{tab:comparison} demonstrates, in every respect save integration time, space has the advantage, and especially on the largest scales, there is every reason to suspect that space will be required to reach the ultimate limits set by astronomical foregrounds.  Every CMB satellite flown to date (COBE, WMAP and Planck) has relied crucially on technologies and techniques that were first proved on balloon flights, making these crucial to the success of PICO.  The advantages of space come at a high cost, in both time and resources, and an essential question is how much can be done from the ground and balloons first?  The answer depends on the specific requirements of the science questions being addressed, which we discuss below. However, some general guidelines can be given.  When the entire sky is needed, as for fluctuations on the largest angular scales, space is necessary.  The difficulties of controlling systematic errors and foregrounds over the whole sky at a level significantly below what has been achieved by Planck are simply too great to overcome on the ground.  Sample variance limited measurements of the reionization bump ($2\leq \ell \leq 12$), whether for $\tau$ or for $r$, require a space mission.  Significant progress can surely be made from sub-orbital experiments on the recombination bump ($30 \leq \ell \leq 300$), and the $r \approx 10^{-3}$ goal of the ``ultimate'' ground-based experiment CMB-S4 looks to be both bold and achievable.  For $r$, the signal resulting from large-scale-structure lensing of CMB $E$-modes into $B$-modes must be measured and removed.  This requires observations on sub-degree scales over a wide frequency range that, especially at the lower frequencies, is a challenge from space.(WCJ:  I agree with this.  I think it should be indicated in Table 1, as a practical limit at low frequencies for a satellite)
 
 The PICO $r$ goal of $10^{-4}$ is beyond the reach of ground observations.  The limited frequency range observable from the ground is not enough to separate foregrounds to the necessary level, and at $10^{-4}$ there is no room to give up any advantage on systematics.  For science requiring higher angular resolution, however, such as observations of galaxy clusters at 1 arcmin resolution, the ground has a clear advantage.
 
 (need more in here)
 
-Balloon observations have been valuable in the past, but the severe limitations on observing time must be recognized.  Even the ultra-long-duration balloons that have been on the horizon for more than two decades but have not yet flown for any astrophysics experiment offer only $10^2$ days per flight, 5--10\% of the duration of the Planck mission (depending on instrument), and 3\% of the duration of WMAP.  Both WMAP and Planck showed the essential power of repeated observations in identical conditions in revealing and controlling systematics.  This will never be possible with balloon experiments.  Reaching $10^{-4}$ will require vigorous exploitation of {\it every\/} possible advantage.  There is nevertheless still an important role for balloon experiments, in demonstrating new technologies, and in training of students.
-
-
+Balloon observations have been valuable in the past, both leading the discovery space for the temperature anisotropies and in proving the technologies enabling the success of COBE, WMAP and Planck. But limited observing time, coupled to the restricitive mass/power budgets, represent a significant limitation for future missions. Even the ultra-long-duration balloons offer only $10^2$ days per flight, 5--10\% of the duration of the Planck mission (depending on instrument), and 3\% of the duration of WMAP. Also, only one astrophysics payload has flown on this platform.  Both WMAP and Planck showed the essential role of repeated observations in nearly identical conditions in revealing and controlling systematic effects.  This will never be far more difficult with balloon experiments; reaching $10^{-4}$ will require vigorous exploitation of {\it every\/} possible advantage.
 
 
 \end{document}
