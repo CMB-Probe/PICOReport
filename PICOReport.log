@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 OCT 2018 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 OCT 2018 12:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -756,19 +756,7 @@ Overfull \vbox (29.0pt too high) detected at line 32
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 35--35
-[]\T1/ptm/m/n/10 CMB po-lar-iza-tion $\OML/ztmcm/m/it/10 B$\T1/ptm/m/n/10 -mode
- power
- []
-
-
 Overfull \vbox (133.0pt too high) detected at line 50
- []
-
-
-Underfull \hbox (badness 1320) in paragraph at lines 60--60
-[]\T1/ptm/m/n/10 CMB po-lar-iza-tion $\OML/ztmcm/m/it/10 B$\T1/ptm/m/n/10 -mode
- power
  []
 
 
@@ -790,20 +778,8 @@ Underfull \hbox (badness 3000) in paragraph at lines 111--111
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 112--112
-[]\T1/ptm/m/n/10 CMB po-lar-iza-tion $\OML/ztmcm/m/it/10 B$\T1/ptm/m/n/10 -mode
- power
- []
-
-
 Underfull \hbox (badness 5446) in paragraph at lines 113--113
 []\T1/ptm/m/n/10 Intensity and lin-ear po-lar-iza-tion
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 125--125
-\T1/ptm/m/n/10 lar-iza-tion power spec-tra $\OT1/ztmcm/m/n/10 2 \OML/ztmcm/m/it
-/10 < l <
  []
 
 
@@ -813,18 +789,6 @@ Underfull \hbox (badness 5446) in paragraph at lines 126--126
 
 
 Overfull \vbox (41.0pt too high) detected at line 135
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 138--138
-[]\T1/ptm/m/n/10 CMB po-lar-iza-tion $\OML/ztmcm/m/it/10 E$\T1/ptm/m/n/10 -mode
- power
- []
-
-
-Underfull \hbox (badness 1635) in paragraph at lines 138--138
-\T1/ptm/m/n/10 spec-trum for modes $\OT1/ztmcm/m/n/10 2 \OML/ztmcm/m/it/10 < l 
-< \OT1/ztmcm/m/n/10 20$
  []
 
 
@@ -1176,48 +1140,7 @@ File: NgtF_pico_new.jpg Graphic file (type jpg)
 Package pdftex.def Info: NgtF_pico_new.jpg used on input line 9.
 (pdftex.def)             Requested size: 234.87103pt x 156.48428pt.
 
-
-Package natbib Warning: Citation `Swinbank2010' on page 21 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `Swinbank2010' on page 21 undefined on input l
-ine 11.
-
-
-Package natbib Warning: Citation `SilkMamon2012' on page 21 undefined on input 
-line 19.
-
-
-Package natbib Warning: Citation `SomervilleDave2015' on page 21 undefined on i
-nput line 19.
-
-
-Package natbib Warning: Citation `Fujimoto2018' on page 21 undefined on input l
-ine 19.
-
-
-Package natbib Warning: Citation `Dye2018' on page 21 undefined on input line 2
-1.
-
-
-Package natbib Warning: Citation `Lamarche2018' on page 21 undefined on input l
-ine 21.
-
-
-Package natbib Warning: Citation `Sharda2018' on page 21 undefined on input lin
-e 21.
-
-[21 <./fig_SED_PICO.jpg> <./NgtF_pico_new.jpg>]
-
-Package natbib Warning: Citation `Spilker2018' on page 22 undefined on input li
-ne 23.
-
-
-Package natbib Warning: Citation `Negrello2010' on page 22 undefined on input l
-ine 25.
-
-[22]) (./complementarity.tex
+[21 <./fig_SED_PICO.jpg> <./NgtF_pico_new.jpg>] [22]) (./complementarity.tex
 
 LaTeX Warning: Reference `lensing' on page 23 undefined on input line 17.
 
@@ -1226,7 +1149,7 @@ LaTeX Warning: Reference `sec:fundamental' on page 23 undefined on input line 1
 7.
 
 [23] [24]) (./foregrounds.tex
-<images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1032, 1027.84pt x 7
+<images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1049, 1027.84pt x 7
 70.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf Graphic file (type
  pdf)
@@ -1235,7 +1158,7 @@ Package pdftex.def Info: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf
  used on input line 12.
 (pdftex.def)             Requested size: 230.18253pt x 172.62889pt.
 
-<images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1033, 1027.84pt x 77
+<images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1050, 1027.84pt x 77
 0.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf Graphic file (type 
 pdf)
@@ -1308,14 +1231,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--120
 []\T1/ptm/m/n/8 increased
  []
 
-<images/PICO_rotate_eb4_v2.pdf, id=1093, 597.23125pt x 397.485pt>
+<images/PICO_rotate_eb4_v2.pdf, id=1110, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb4_v2.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb4_v2.pdf>
 Package pdftex.def Info: images/PICO_rotate_eb4_v2.pdf used on input line 265.
 (pdftex.def)             Requested size: 281.85587pt x 187.58824pt.
 
-<images/calibration_spectrum_BB.pdf, id=1094, 462.22687pt x 388.80946pt>
+<images/calibration_spectrum_BB.pdf, id=1111, 462.22687pt x 388.80946pt>
 File: images/calibration_spectrum_BB.pdf Graphic file (type pdf)
 
 <use images/calibration_spectrum_BB.pdf>
@@ -1357,19 +1280,19 @@ Underfull \hbox (badness 1242) in paragraph at lines 685--690
 f viri-al-ized ob-jects.
  []
 
-[39] [40] [41] [42] [43] [44] [45] [46]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 1546.
+[39] [40] [41] [42] [43] [44] [45] [46] [47] [48]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 1672.
 
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [47] [48])
+) [49])
 (./acronym.tex)
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 276.
-[49]
+[50]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 276.
  (./PICOReport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 276.
@@ -1383,13 +1306,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
  ) 
 Here is how much of TeX's memory you used:
- 11595 strings out of 492995
- 172486 string characters out of 6132704
- 324086 words of memory out of 5000000
- 14631 multiletter control sequences out of 15000+600000
+ 11623 strings out of 492995
+ 173057 string characters out of 6132704
+ 326478 words of memory out of 5000000
+ 14649 multiletter control sequences out of 15000+600000
  104101 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,12n,92p,4486b,748s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,4486b,760s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
@@ -1413,10 +1336,10 @@ fb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (50 pages, 5403072 bytes).
+Output written on PICOReport.pdf (51 pages, 5407707 bytes).
 PDF statistics:
- 1394 PDF objects out of 1440 (max. 8388607)
- 978 compressed objects within 10 object streams
- 238 named destinations out of 1000 (max. 500000)
+ 1418 PDF objects out of 1440 (max. 8388607)
+ 1000 compressed objects within 10 object streams
+ 248 named destinations out of 1000 (max. 500000)
  313 words of extra memory for PDF output out of 10000 (max. 10000000)
 
