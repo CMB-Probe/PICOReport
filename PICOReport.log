@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 OCT 2018 10:38
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 OCT 2018 10:47
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -907,7 +911,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--42
 [][]
  []
 
+<<<<<<< Updated upstream
 ) [5] <images/cmb_powspec_PICOv4p1_v2.pdf, id=178, 375.804pt x 303.534pt>
+=======
+) [5]
+
+Package natbib Warning: Citation `Seljak:1996gy' on page 6 undefined on input l
+ine 10.
+
+
+Package natbib Warning: Citation `Kamionkowski:1996zd' on page 6 undefined on i
+nput line 10.
+
+
+Package natbib Warning: Citation `Guth:1980zm' on page 6 undefined on input lin
+e 17.
+
+
+Package natbib Warning: Citation `Linde:1981mu' on page 6 undefined on input li
+ne 17.
+
+
+Package natbib Warning: Citation `Albrecht:1982wi' on page 6 undefined on input
+ line 17.
+
+
+Package natbib Warning: Citation `Starobinsky:1980te' on page 6 undefined on in
+put line 17.
+
+
+Package natbib Warning: Citation `Mukhanov:1981xt' on page 6 undefined on input
+ line 17.
+
+
+Package natbib Warning: Citation `Guth:1982ec' on page 6 undefined on input lin
+e 17.
+
+
+Package natbib Warning: Citation `Hawking:1982cz' on page 6 undefined on input 
+line 17.
+
+
+Package natbib Warning: Citation `Starobinsky:1982ee' on page 6 undefined on in
+put line 17.
+
+
+Package natbib Warning: Citation `Bardeen:1983qw' on page 6 undefined on input 
+line 17.
+
+
+Package natbib Warning: Citation `Starobinsky:1979ty' on page 6 undefined on in
+put line 17.
+
+
+Package natbib Warning: Citation `Krauss:2013pha' on page 6 undefined on input 
+line 17.
+
+<images/cmb_powspec_PICOv4p1_v2.pdf, id=166, 375.804pt x 303.534pt>
+>>>>>>> Stashed changes
 File: images/cmb_powspec_PICOv4p1_v2.pdf Graphic file (type pdf)
 
 <use images/cmb_powspec_PICOv4p1_v2.pdf>
@@ -915,7 +976,11 @@ Package pdftex.def Info: images/cmb_powspec_PICOv4p1_v2.pdf used on input line
 23.
 (pdftex.def)             Requested size: 216.81pt x 175.11426pt.
 
+<<<<<<< Updated upstream
 <images/cmbbb_powspec_PICOv4p1.pdf, id=179, 379.4175pt x 303.534pt>
+=======
+<images/cmbbb_powspec_PICOv4p1.pdf, id=167, 379.4175pt x 303.534pt>
+>>>>>>> Stashed changes
 File: images/cmbbb_powspec_PICOv4p1.pdf Graphic file (type pdf)
 
 <use images/cmbbb_powspec_PICOv4p1.pdf>
@@ -943,7 +1008,15 @@ Package natbib Warning: Citation `polar+' on page 6 undefined on input line 28.
 Package natbib Warning: Citation `planck?' on page 6 undefined on input line 28
 .
 
+<<<<<<< Updated upstream
 <images/nsrlabeledrp0005_PICOv4p1.pdf, id=185, 375.804pt x 195.129pt>
+=======
+
+Package natbib Warning: Citation `Goncharov:1983mw' on page 6 undefined on inpu
+t line 39.
+
+<images/nsrlabeledrp0005_PICOv4p1.pdf, id=172, 375.804pt x 195.129pt>
+>>>>>>> Stashed changes
 File: images/nsrlabeledrp0005_PICOv4p1.pdf Graphic file (type pdf)
 
 <use images/nsrlabeledrp0005_PICOv4p1.pdf>
@@ -977,14 +1050,22 @@ f> <./images/nsrlabeledrp0005_PICOv4p1.pdf>]
 Package acronym Info: Label `acro:SNR' newly defined as it shall be overridden
 although it is yet undefined on input line 57.
  [8]
+<<<<<<< Updated upstream
 <images/Neff_final.pdf, id=304, 554.59674pt x 457.1867pt>
+=======
+<images/Neff_final.pdf, id=282, 554.59674pt x 457.1867pt>
+>>>>>>> Stashed changes
 File: images/Neff_final.pdf Graphic file (type pdf)
 
 <use images/Neff_final.pdf>
 Package pdftex.def Info: images/Neff_final.pdf used on input line 89.
 (pdftex.def)             Requested size: 211.38832pt x 174.25595pt.
 
+<<<<<<< Updated upstream
 <images/Tf_pico.pdf, id=305, 549.50264pt x 411.52167pt>
+=======
+<images/Tf_pico.pdf, id=283, 549.50264pt x 411.52167pt>
+>>>>>>> Stashed changes
 File: images/Tf_pico.pdf Graphic file (type pdf)
 
 <use images/Tf_pico.pdf>
@@ -994,14 +1075,22 @@ Package pdftex.def Info: images/Tf_pico.pdf used on input line 90.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/Tf_pico.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
+<<<<<<< Updated upstream
 >] <images/Mnu_tauprior_final.pdf, id=380, 579.25044pt x 457.1867pt>
+=======
+>] <images/Mnu_tauprior_final.pdf, id=358, 579.25044pt x 457.1867pt>
+>>>>>>> Stashed changes
 File: images/Mnu_tauprior_final.pdf Graphic file (type pdf)
 
 <use images/Mnu_tauprior_final.pdf>
 Package pdftex.def Info: images/Mnu_tauprior_final.pdf used on input line 113.
 (pdftex.def)             Requested size: 225.4804pt x 177.96724pt.
 
+<<<<<<< Updated upstream
 <images/pico_dm_baryon.pdf, id=381, 434.26587pt x 288.49889pt>
+=======
+<images/pico_dm_baryon.pdf, id=359, 434.26587pt x 288.49889pt>
+>>>>>>> Stashed changes
 File: images/pico_dm_baryon.pdf Graphic file (type pdf)
 
 <use images/pico_dm_baryon.pdf>
@@ -1023,7 +1112,11 @@ Package natbib Warning: Citation `calabrese/etal/2014' on page 12 undefined on
 input line 13.
 
 
+<<<<<<< Updated upstream
 <images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=481, 661.71594pt x 533
+=======
+<images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=459, 661.71594pt x 533
+>>>>>>> Stashed changes
 .22528pt>
 File: images/Reionization_Contours_zbar_delz_PICO_NEW.pdf Graphic file (type pd
 f)
@@ -1073,7 +1166,11 @@ ut line 32.
 Package natbib Warning: Citation `DvorkinSmith2008' on page 13 undefined on inp
 ut line 32.
 
+<<<<<<< Updated upstream
 <images/lensingNoisePICO_log.pdf, id=493, 587.19376pt x 587.19376pt>
+=======
+<images/lensingNoisePICO_log.pdf, id=470, 587.19376pt x 587.19376pt>
+>>>>>>> Stashed changes
 File: images/lensingNoisePICO_log.pdf Graphic file (type pdf)
 
 <use images/lensingNoisePICO_log.pdf>
@@ -1086,7 +1183,11 @@ Package natbib Warning: Citation `2008PhRvD..77l3514D' on page 13 undefined on
 input line 57.
 
 [13 <./images/Reionization_Contours_zbar_delz_PICO_NEW.pdf>]
+<<<<<<< Updated upstream
 <images/fnl_PICOv4.1b_deproj0_SENS0.pdf, id=567, 578.16pt x 433.62pt>
+=======
+<images/fnl_PICOv4.1b_deproj0_SENS0.pdf, id=545, 578.16pt x 433.62pt>
+>>>>>>> Stashed changes
 File: images/fnl_PICOv4.1b_deproj0_SENS0.pdf Graphic file (type pdf)
 
 <use images/fnl_PICOv4.1b_deproj0_SENS0.pdf>
@@ -1098,7 +1199,11 @@ Overfull \hbox (14.06749pt too wide) in paragraph at lines 63--70
 []  $[]$   $[]$
  []
 
+<<<<<<< Updated upstream
 <images/sigma8_PICOv4.1b_deproj0_SENS0.pdf, id=568, 578.16pt x 433.62pt>
+=======
+<images/sigma8_PICOv4.1b_deproj0_SENS0.pdf, id=546, 578.16pt x 433.62pt>
+>>>>>>> Stashed changes
 File: images/sigma8_PICOv4.1b_deproj0_SENS0.pdf Graphic file (type pdf)
 
 <use images/sigma8_PICOv4.1b_deproj0_SENS0.pdf>
@@ -1129,7 +1234,11 @@ olar_v1-eps-converted-to.pdf images/m500lim_vs_z_pico_polar_v1.eps>
 (epstopdf)             \includegraphics on input line 90.
 Package epstopdf Info: Output file is already uptodate.
 
+<<<<<<< Updated upstream
 <images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf, id=700, 505.89pt x 361
+=======
+<images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf, id=678, 505.89pt x 361
+>>>>>>> Stashed changes
 .35pt>
 File: images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1137,8 +1246,13 @@ File: images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: images/m500lim_vs_z_pico_polar_v1-eps-converted-to.pdf
  used on input line 90.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
+<<<<<<< Updated upstream
 
 
+=======
+
+
+>>>>>>> Stashed changes
 Package natbib Warning: Citation `SZ1969' on page 15 undefined on input line 10
 5.
 
@@ -1152,7 +1266,11 @@ olar_v1-eps-converted-to.pdf>]
 Package natbib Warning: Citation `Delabrouille2009' on page 16 undefined on inp
 ut line 130.
 
+<<<<<<< Updated upstream
 <images/PICO_tSZ_PS_plot.pdf, id=780, 462.52798pt x 346.89601pt>
+=======
+<images/PICO_tSZ_PS_plot.pdf, id=758, 462.52798pt x 346.89601pt>
+>>>>>>> Stashed changes
 File: images/PICO_tSZ_PS_plot.pdf Graphic file (type pdf)
 
 <use images/PICO_tSZ_PS_plot.pdf>
@@ -1165,6 +1283,7 @@ Package natbib Warning: Citation `??' on page 16 undefined on input line 139.
 
 Package natbib Warning: Citation `??' on page 16 undefined on input line 139.
 
+<<<<<<< Updated upstream
 [16]) (./galacticsci.tex <galsci_fig.pdf, id=788, 2621.68448pt x 909.30713pt>
 File: galsci_fig.pdf Graphic file (type pdf)
 
@@ -1174,34 +1293,65 @@ Package pdftex.def Info: galsci_fig.pdf used on input line 33.
  [17 <./images/PICO_tSZ_PS_plot.pdf>] [18 <./galsci_fig.pdf>] [19] [20]) (./leg
 acysci.tex
 <images/fig_SED3_PICO.jpg, id=960, 325.9377pt x 218.0145pt>
+=======
+[16]) (./galacticsci.tex
+
+Package natbib Warning: Citation `Planck2018:XII' on page 17 undefined on input
+ line 10.
+
+<galsci_fig.pdf, id=765, 2621.68448pt x 909.30713pt>
+File: galsci_fig.pdf Graphic file (type pdf)
+ <use galsci_fig.pdf>
+Package pdftex.def Info: galsci_fig.pdf used on input line 33.
+(pdftex.def)             Requested size: 433.62pt x 150.38994pt.
+
+[17 <./images/PICO_tSZ_PS_plot.pdf>] [18 <./galsci_fig.pdf>] [19] [20])
+(./legacysci.tex <images/fig_SED3_PICO.jpg, id=936, 325.9377pt x 218.0145pt>
+>>>>>>> Stashed changes
 File: images/fig_SED3_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_SED3_PICO.jpg>
 Package pdftex.def Info: images/fig_SED3_PICO.jpg used on input line 8.
 (pdftex.def)             Requested size: 225.4804pt x 150.82602pt.
 
+<<<<<<< Updated upstream
 <images/NgtF_500micron.png, id=962, 1047.915pt x 994.71625pt>
+=======
+<images/NgtF_500micron.png, id=938, 1047.915pt x 994.71625pt>
+>>>>>>> Stashed changes
 File: images/NgtF_500micron.png Graphic file (type png)
 
 <use images/NgtF_500micron.png>
 Package pdftex.def Info: images/NgtF_500micron.png used on input line 9.
 (pdftex.def)             Requested size: 225.47322pt x 156.4865pt.
  [21 <./images/fig_SED3_PICO.jpg> <./images/NgtF_500micron.png>]
+<<<<<<< Updated upstream
 <images/fig_protocl_PICO.jpg, id=993, 348.8232pt x 246.6816pt>
+=======
+<images/fig_protocl_PICO.jpg, id=968, 348.8232pt x 246.6816pt>
+>>>>>>> Stashed changes
 File: images/fig_protocl_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_protocl_PICO.jpg>
 Package pdftex.def Info: images/fig_protocl_PICO.jpg used on input line 92.
 (pdftex.def)             Requested size: 150.32504pt x 106.30815pt.
 
+<<<<<<< Updated upstream
 <images/Oteo_2018_protocl.jpg, id=995, 250.7769pt x 270.2898pt>
+=======
+<images/Oteo_2018_protocl.jpg, id=970, 250.7769pt x 270.2898pt>
+>>>>>>> Stashed changes
 File: images/Oteo_2018_protocl.jpg Graphic file (type jpg)
 
 <use images/Oteo_2018_protocl.jpg>
 Package pdftex.def Info: images/Oteo_2018_protocl.jpg used on input line 93.
 (pdftex.def)             Requested size: 150.32953pt x 105.27237pt.
 
+<<<<<<< Updated upstream
 <images/NgtFclumps_800GHz.png, id=997, 1371.9255pt x 1163.547pt>
+=======
+<images/NgtFclumps_800GHz.png, id=972, 1371.9255pt x 1163.547pt>
+>>>>>>> Stashed changes
 File: images/NgtFclumps_800GHz.png Graphic file (type png)
 
 <use images/NgtFclumps_800GHz.png>
@@ -1218,7 +1368,11 @@ LaTeX Warning: Reference `sec:fundamental' on page 24 undefined on input line 1
 7.
 
 [24]) (./foregrounds.tex [25]
+<<<<<<< Updated upstream
 <images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1070, 1027.84pt x 7
+=======
+<images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1046, 1027.84pt x 7
+>>>>>>> Stashed changes
 70.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf Graphic file (type
  pdf)
@@ -1227,7 +1381,11 @@ Package pdftex.def Info: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf
  used on input line 12.
 (pdftex.def)             Requested size: 230.18253pt x 172.62889pt.
 
+<<<<<<< Updated upstream
 <images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1071, 1027.84pt x 77
+=======
+<images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1047, 1027.84pt x 77
+>>>>>>> Stashed changes
 0.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf Graphic file (type 
 pdf)
@@ -1301,14 +1459,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--120
 []\T1/ptm/m/n/8 increased
  []
 
+<<<<<<< Updated upstream
 <images/PICO_rotate_eb4_v2.pdf, id=1132, 597.23125pt x 397.485pt>
+=======
+<images/PICO_rotate_eb4_v2.pdf, id=1107, 597.23125pt x 397.485pt>
+>>>>>>> Stashed changes
 File: images/PICO_rotate_eb4_v2.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb4_v2.pdf>
 Package pdftex.def Info: images/PICO_rotate_eb4_v2.pdf used on input line 265.
 (pdftex.def)             Requested size: 281.85587pt x 187.58824pt.
 
+<<<<<<< Updated upstream
 <images/calibration_spectrum_BB.pdf, id=1133, 462.22687pt x 388.80946pt>
+=======
+<images/calibration_spectrum_BB.pdf, id=1108, 462.22687pt x 388.80946pt>
+>>>>>>> Stashed changes
 File: images/calibration_spectrum_BB.pdf Graphic file (type pdf)
 
 <use images/calibration_spectrum_BB.pdf>
@@ -1371,10 +1537,17 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  11630 strings out of 492995
  173472 string characters out of 6132704
  325331 words of memory out of 5000000
  14657 multiletter control sequences out of 15000+600000
+=======
+ 11525 strings out of 493014
+ 171481 string characters out of 6133351
+ 327323 words of memory out of 5000000
+ 14556 multiletter control sequences out of 15000+600000
+>>>>>>> Stashed changes
  104101 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,12n,92p,4486b,746s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1401,10 +1574,18 @@ fb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+<<<<<<< Updated upstream
 Output written on PICOReport.pdf (51 pages, 5881675 bytes).
 PDF statistics:
  1435 PDF objects out of 1440 (max. 8388607)
  1006 compressed objects within 11 object streams
  247 named destinations out of 1000 (max. 500000)
+=======
+Output written on PICOReport.pdf (50 pages, 5889289 bytes).
+PDF statistics:
+ 1402 PDF objects out of 1440 (max. 8388607)
+ 975 compressed objects within 10 object streams
+ 233 named destinations out of 1000 (max. 500000)
+>>>>>>> Stashed changes
  354 words of extra memory for PDF output out of 10000 (max. 10000000)
 
