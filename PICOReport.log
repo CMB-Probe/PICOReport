@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 OCT 2018 13:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 OCT 2018 13:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1291,9 +1291,6 @@ Package rerunfilecheck Info: File `PICOReport.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 276.
  ) 
 Here is how much of TeX's memory you used:
@@ -1327,7 +1324,7 @@ fb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texl
 ive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (51 pages, 5399037 bytes).
+Output written on PICOReport.pdf (51 pages, 5398837 bytes).
 PDF statistics:
  1401 PDF objects out of 1440 (max. 8388607)
  998 compressed objects within 10 object streams
