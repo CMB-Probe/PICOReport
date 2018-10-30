@@ -1,4 +1,4 @@
-\begin{thebibliography}{147}
+\begin{thebibliography}{150}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -592,6 +592,14 @@ Peter A.~R. Ade et~al.
 \newblock \emph{Phys. Rev.}, D92:\penalty0 123509, 2015.
 \newblock \doi{10.1103/PhysRevD.92.123509}.
 
+\bibitem[{Miranda} et~al.(2017){Miranda}, {Lidz}, {Heinrich}, and
+  {Hu}]{Miranda2017}
+V.~{Miranda}, A.~{Lidz}, C.~H. {Heinrich}, and W.~{Hu}.
+\newblock {CMB signatures of metal-free star formation and Planck 2015
+  polarization data}.
+\newblock \emph{\mnras}, 467:\penalty0 4050--4056, June 2017.
+\newblock \doi{10.1093/mnras/stx306}.
+
 \bibitem[{Planck Collaboration} et~al.(2018{\natexlab{b}}){Planck
   Collaboration}, {Aghanim}, {Akrami}, {Ashdown}, {Aumont}, {Baccigalupi},
   {Ballardini}, {Banday}, {Barreiro}, {Bartolo}, {Basak}, {Benabed}, {Bernard},
@@ -671,6 +679,14 @@ M.~{Schmittfull} and U.~{Seljak}.
   galaxy clustering}.
 \newblock \emph{\prd}, 97\penalty0 (12):\penalty0 123540, June 2018.
 \newblock \doi{10.1103/PhysRevD.97.123540}.
+
+\bibitem[{Dalal} et~al.(2008){Dalal}, {Dor{\'e}}, {Huterer}, and
+  {Shirokov}]{2008PhRvD..77l3514D}
+N.~{Dalal}, O.~{Dor{\'e}}, D.~{Huterer}, and A.~{Shirokov}.
+\newblock {Imprints of primordial non-Gaussianities on large-scale structure:
+  Scale-dependent bias and abundance of virialized objects}.
+\newblock \emph{\prd}, 77\penalty0 (12):\penalty0 123514, June 2008.
+\newblock \doi{10.1103/PhysRevD.77.123514}.
 
 \bibitem[{Baxter} et~al.(2015){Baxter}, {Keisler}, {Dodelson}, {Aird}, {Allen},
   {Ashby}, {Bautz}, {Bayliss}, {Benson}, {Bleem}, {Bocquet}, {Brodwin},
@@ -1292,6 +1308,35 @@ A.~{Lazarian} and E.~T. {Vishniac}.
 \newblock \emph{\aap}, 594:\penalty0 A26, September 2016.
 \newblock \doi{10.1051/0004-6361/201526914}.
 
+\bibitem[{Swinbank} et~al.(2010){Swinbank}, {Smail}, {Longmore}, {Harris},
+  {Baker}, {De Breuck}, {Richard}, {Edge}, {Ivison}, {Blundell}, {Coppin},
+  {Cox}, {Gurwell}, {Hainline}, {Krips}, {Lundgren}, {Neri}, {Siana},
+  {Siringo}, {Stark}, {Wilner}, and {Younger}]{Swinbank2010}
+A.~M. {Swinbank}, I.~{Smail}, S.~{Longmore}, A.~I. {Harris}, A.~J. {Baker},
+  C.~{De Breuck}, J.~{Richard}, A.~C. {Edge}, R.~J. {Ivison}, R.~{Blundell},
+  K.~E.~K. {Coppin}, P.~{Cox}, M.~{Gurwell}, L.~J. {Hainline}, M.~{Krips},
+  A.~{Lundgren}, R.~{Neri}, B.~{Siana}, G.~{Siringo}, D.~P. {Stark},
+  D.~{Wilner}, and J.~D. {Younger}.
+\newblock {Intense star formation within resolved compact regions in a galaxy
+  at z = 2.3}.
+\newblock \emph{Nature}, 464:\penalty0 733--736, April 2010.
+\newblock \doi{10.1038/nature08880}.
+
+\bibitem[{Combes} et~al.(2012){Combes}, {Rex}, {Rawle}, {Egami}, {Boone},
+  {Smail}, {Richard}, {Ivison}, {Gurwell}, {Casey}, {Omont}, {Berciano Alba},
+  {Dessauges-Zavadsky}, {Edge}, {Fazio}, {Kneib}, {Okabe}, {Pell{\'o}},
+  {P{\'e}rez-Gonz{\'a}lez}, {Schaerer}, {Smith}, {Swinbank}, and {van der
+  Werf}]{Combes2012}
+F.~{Combes}, M.~{Rex}, T.~D. {Rawle}, E.~{Egami}, F.~{Boone}, I.~{Smail},
+  J.~{Richard}, R.~J. {Ivison}, M.~{Gurwell}, C.~M. {Casey}, A.~{Omont},
+  A.~{Berciano Alba}, M.~{Dessauges-Zavadsky}, A.~C. {Edge}, G.~G. {Fazio},
+  J.-P. {Kneib}, N.~{Okabe}, R.~{Pell{\'o}}, P.~G. {P{\'e}rez-Gonz{\'a}lez},
+  D.~{Schaerer}, G.~P. {Smith}, A.~M. {Swinbank}, and P.~{van der Werf}.
+\newblock {A bright z = 5.2 lensed submillimeter galaxy in the field of Abell
+  773. HLSJ091828.6+514223}.
+\newblock \emph{\aap}, 538:\penalty0 L4, February 2012.
+\newblock \doi{10.1051/0004-6361/201118750}.
+
 \bibitem[{Negrello} et~al.(2017{\natexlab{a}}){Negrello}, {Amber},
   {Amvrosiadis}, {Cai}, {Lapi}, {Gonzalez-Nuevo}, {De Zotti}, {Furlanetto},
   {Maddox}, {Allen}, {Bakx}, {Bussmann}, {Cooray}, {Covone}, {Danese},
@@ -1316,20 +1361,99 @@ M.~{Negrello}, S.~{Amber}, A.~{Amvrosiadis}, Z.-Y. {Cai}, A.~{Lapi},
 \newblock \emph{\mnras}, 465:\penalty0 3558--3580, March 2017{\natexlab{a}}.
 \newblock \doi{10.1093/mnras/stw2911}.
 
-\bibitem[{Combes} et~al.(2012){Combes}, {Rex}, {Rawle}, {Egami}, {Boone},
-  {Smail}, {Richard}, {Ivison}, {Gurwell}, {Casey}, {Omont}, {Berciano Alba},
-  {Dessauges-Zavadsky}, {Edge}, {Fazio}, {Kneib}, {Okabe}, {Pell{\'o}},
-  {P{\'e}rez-Gonz{\'a}lez}, {Schaerer}, {Smith}, {Swinbank}, and {van der
-  Werf}]{Combes2012}
-F.~{Combes}, M.~{Rex}, T.~D. {Rawle}, E.~{Egami}, F.~{Boone}, I.~{Smail},
-  J.~{Richard}, R.~J. {Ivison}, M.~{Gurwell}, C.~M. {Casey}, A.~{Omont},
-  A.~{Berciano Alba}, M.~{Dessauges-Zavadsky}, A.~C. {Edge}, G.~G. {Fazio},
-  J.-P. {Kneib}, N.~{Okabe}, R.~{Pell{\'o}}, P.~G. {P{\'e}rez-Gonz{\'a}lez},
-  D.~{Schaerer}, G.~P. {Smith}, A.~M. {Swinbank}, and P.~{van der Werf}.
-\newblock {A bright z = 5.2 lensed submillimeter galaxy in the field of Abell
-  773. HLSJ091828.6+514223}.
-\newblock \emph{\aap}, 538:\penalty0 L4, February 2012.
-\newblock \doi{10.1051/0004-6361/201118750}.
+\bibitem[{Negrello} et~al.(2017{\natexlab{b}}){Negrello}, {Gonzalez-Nuevo}, {De
+  Zotti}, {Bonato}, {Cai}, {Clements}, {Danese}, {Dole}, {Greenslade}, {Lapi},
+  and {Montier}]{Negrello2017protocl}
+M.~{Negrello}, J.~{Gonzalez-Nuevo}, G.~{De Zotti}, M.~{Bonato}, Z.-Y. {Cai},
+  D.~{Clements}, L.~{Danese}, H.~{Dole}, J.~{Greenslade}, A.~{Lapi}, and
+  L.~{Montier}.
+\newblock {On the statistics of proto-cluster candidates detected in the Planck
+  all-sky survey}.
+\newblock \emph{ArXiv e-prints}, May 2017{\natexlab{b}}.
+
+\bibitem[{Silk} and {Mamon}(2012)]{SilkMamon2012}
+J.~{Silk} and G.~A. {Mamon}.
+\newblock {The current status of galaxy formation}.
+\newblock \emph{Research in Astronomy and Astrophysics}, 12:\penalty0 917--946,
+  August 2012.
+\newblock \doi{10.1088/1674-4527/12/8/004}.
+
+\bibitem[{Somerville} and {Dav{\'e}}(2015)]{SomervilleDave2015}
+R.~S. {Somerville} and R.~{Dav{\'e}}.
+\newblock {Physical Models of Galaxy Formation in a Cosmological Framework}.
+\newblock \emph{\ARAA}, 53:\penalty0 51--113, August 2015.
+\newblock \doi{10.1146/annurev-astro-082812-140951}.
+
+\bibitem[{Fujimoto} et~al.(2018){Fujimoto}, {Ouchi}, {Kohno}, {Yamaguchi},
+  {Hatsukade}, {Ueda}, {Shibuya}, {Inoue}, {Oogi}, {Toft},
+  {G{\'o}mez-Guijarro}, {Wang}, {Espada}, {Nagao}, {Tanaka}, {Ao}, {Umehata},
+  {Taniguchi}, {Nakanishi}, {Rujopakarn}, {Ivison}, {Wang}, {Lee}, {Tadaki},
+  {Tamura}, and {Dunlop}]{Fujimoto2018}
+S.~{Fujimoto}, M.~{Ouchi}, K.~{Kohno}, Y.~{Yamaguchi}, B.~{Hatsukade},
+  Y.~{Ueda}, T.~{Shibuya}, S.~{Inoue}, T.~{Oogi}, S.~{Toft},
+  C.~{G{\'o}mez-Guijarro}, T.~{Wang}, D.~{Espada}, T.~{Nagao}, I.~{Tanaka},
+  Y.~{Ao}, H.~{Umehata}, Y.~{Taniguchi}, K.~{Nakanishi}, W.~{Rujopakarn}, R.~J.
+  {Ivison}, W.-h. {Wang}, M.~M. {Lee}, K.-i. {Tadaki}, Y.~{Tamura}, and J.~S.
+  {Dunlop}.
+\newblock {ALMA 26 Arcmin$^{2}$ Survey of GOODS-S at One Millimeter (ASAGAO):
+  Average Morphology of High-z Dusty Star-forming Galaxies in an Exponential
+  Disk ($n \simeq 1$)}.
+\newblock \emph{\apj}, 861:\penalty0 7, July 2018.
+\newblock \doi{10.3847/1538-4357/aac6c4}.
+
+\bibitem[{Ca{\~n}ameras} et~al.(2017){Ca{\~n}ameras}, {Nesvadba}, {Kneissl},
+  {Frye}, {Gavazzi}, {Koenig}, {Le Floc'h}, {Limousin}, {Oteo}, and
+  {Scott}]{Canameras2017ALMA}
+R.~{Ca{\~n}ameras}, N.~{Nesvadba}, R.~{Kneissl}, B.~{Frye}, R.~{Gavazzi},
+  S.~{Koenig}, E.~{Le Floc'h}, M.~{Limousin}, I.~{Oteo}, and D.~{Scott}.
+\newblock {Planck's dusty GEMS. IV. Star formation and feedback in a maximum
+  starburst at z = 3 seen at 60-pc resolution}.
+\newblock \emph{\aap}, 604:\penalty0 A117, August 2017.
+\newblock \doi{10.1051/0004-6361/201630186}.
+
+\bibitem[{Dye} et~al.(2018){Dye}, {Furlanetto}, {Dunne}, {Eales}, {Negrello},
+  {Nayyeri}, {van der Werf}, {Serjeant}, {Farrah}, {Micha{\l}owski}, {Baes},
+  {Marchetti}, {Cooray}, {Riechers}, and {Amvrosiadis}]{Dye2018}
+S.~{Dye}, C.~{Furlanetto}, L.~{Dunne}, S.~A. {Eales}, M.~{Negrello},
+  H.~{Nayyeri}, P.~P. {van der Werf}, S.~{Serjeant}, D.~{Farrah}, M.~J.
+  {Micha{\l}owski}, M.~{Baes}, L.~{Marchetti}, A.~{Cooray}, D.~A. {Riechers},
+  and A.~{Amvrosiadis}.
+\newblock {Modelling high-resolution ALMA observations of strongly lensed
+  highly star-forming galaxies detected by Herschel}.
+\newblock \emph{\mnras}, 476:\penalty0 4383--4394, June 2018.
+\newblock \doi{10.1093/mnras/sty513}.
+
+\bibitem[{Lamarche} et~al.(2018){Lamarche}, {Verma}, {Vishwas}, {Stacey},
+  {Brisbin}, {Ferkinhoff}, {Nikola}, {Higdon}, {Higdon}, and
+  {Tecza}]{Lamarche2018}
+C.~{Lamarche}, A.~{Verma}, A.~{Vishwas}, G.~J. {Stacey}, D.~{Brisbin},
+  C.~{Ferkinhoff}, T.~{Nikola}, S.~J.~U. {Higdon}, J.~{Higdon}, and M.~{Tecza}.
+\newblock {Resolving Star Formation on Sub-Kiloparsec Scales in the
+  High-Redshift Galaxy SDP.11 Using Gravitational Lensing}.
+\newblock \emph{ArXiv e-prints}, September 2018.
+
+\bibitem[{Sharda} et~al.(2018){Sharda}, {Federrath}, {da Cunha}, {Swinbank},
+  and {Dye}]{Sharda2018}
+P.~{Sharda}, C.~{Federrath}, E.~{da Cunha}, A.~M. {Swinbank}, and S.~{Dye}.
+\newblock {Testing star formation laws in a starburst galaxy at redshift 3
+  resolved with ALMA}.
+\newblock \emph{\mnras}, 477:\penalty0 4380--4390, July 2018.
+\newblock \doi{10.1093/mnras/sty886}.
+
+\bibitem[{Spilker} et~al.(2018){Spilker}, {Aravena}, {B{\'e}thermin},
+  {Chapman}, {Chen}, {Cunningham}, {De Breuck}, {Dong}, {Gonzalez}, {Hayward},
+  {Hezaveh}, {Litke}, {Ma}, {Malkan}, {Marrone}, {Miller}, {Morningstar},
+  {Narayanan}, {Phadke}, {Sreevani}, {Stark}, {Vieira}, and
+  {Wei{\ss}}]{Spilker2018}
+J.~S. {Spilker}, M.~{Aravena}, M.~{B{\'e}thermin}, S.~C. {Chapman}, C.-C.
+  {Chen}, D.~J.~M. {Cunningham}, C.~{De Breuck}, C.~{Dong}, A.~H. {Gonzalez},
+  C.~C. {Hayward}, Y.~D. {Hezaveh}, K.~C. {Litke}, J.~{Ma}, M.~{Malkan}, D.~P.
+  {Marrone}, T.~B. {Miller}, W.~R. {Morningstar}, D.~{Narayanan}, K.~A.
+  {Phadke}, J.~{Sreevani}, A.~A. {Stark}, J.~D. {Vieira}, and A.~{Wei{\ss}}.
+\newblock {Fast molecular outflow from a dusty star-forming galaxy in the early
+  Universe}.
+\newblock \emph{Science}, 361:\penalty0 1016--1019, September 2018.
+\newblock \doi{10.1126/science.aap8900}.
 
 \bibitem[{Treu}(2010)]{Treu2010}
 T.~{Treu}.
@@ -1337,58 +1461,56 @@ T.~{Treu}.
 \newblock \emph{Ann.~Rev.~Astr.~Ap.}, 48:\penalty0 87--125, September 2010.
 \newblock \doi{10.1146/annurev-astro-081309-130924}.
 
-\bibitem[{Ca{\~n}ameras} et~al.(2015){Ca{\~n}ameras}, {Nesvadba}, {Guery},
-  {McKenzie}, {K{\"o}nig}, {Petitpas}, {Dole}, {Frye}, {Flores-Cacho},
-  {Montier}, {Negrello}, {Beelen}, {Boone}, {Dicken}, {Lagache}, {Le Floc'h},
-  {Altieri}, {B{\'e}thermin}, {Chary}, {de Zotti}, {Giard}, {Kneissl}, {Krips},
-  {Malhotra}, {Martinache}, {Omont}, {Pointecouteau}, {Puget}, {Scott},
-  {Soucail}, {Valtchanov}, {Welikala}, and {Yan}]{Canameras2015}
-R.~{Ca{\~n}ameras}, N.~P.~H. {Nesvadba}, D.~{Guery}, T.~{McKenzie},
-  S.~{K{\"o}nig}, G.~{Petitpas}, H.~{Dole}, B.~{Frye}, I.~{Flores-Cacho},
-  L.~{Montier}, M.~{Negrello}, A.~{Beelen}, F.~{Boone}, D.~{Dicken},
-  G.~{Lagache}, E.~{Le Floc'h}, B.~{Altieri}, M.~{B{\'e}thermin}, R.~{Chary},
-  G.~{de Zotti}, M.~{Giard}, R.~{Kneissl}, M.~{Krips}, S.~{Malhotra},
-  C.~{Martinache}, A.~{Omont}, E.~{Pointecouteau}, J.-L. {Puget}, D.~{Scott},
-  G.~{Soucail}, I.~{Valtchanov}, N.~{Welikala}, and L.~{Yan}.
-\newblock {Planck's dusty GEMS: The brightest gravitationally lensed galaxies
-  discovered with the Planck all-sky survey}.
-\newblock \emph{\aap}, 581:\penalty0 A105, September 2015.
-\newblock \doi{10.1051/0004-6361/201425128}.
+\bibitem[{Negrello} et~al.(2010){Negrello}, {Hopwood}, {De Zotti}, {Cooray},
+  {Verma}, {Bock}, {Frayer}, {Gurwell}, {Omont}, {Neri}, {Dannerbauer},
+  {Leeuw}, {Barton}, {Cooke}, {Kim}, {da Cunha}, {Rodighiero}, {Cox},
+  {Bonfield}, {Jarvis}, {Serjeant}, {Ivison}, {Dye}, {Aretxaga}, {Hughes},
+  {Ibar}, {Bertoldi}, {Valtchanov}, {Eales}, {Dunne}, {Driver}, {Auld},
+  {Buttiglione}, {Cava}, {Grady}, {Clements}, {Dariush}, {Fritz}, {Hill},
+  {Hornbeck}, {Kelvin}, {Lagache}, {Lopez-Caniego}, {Gonzalez-Nuevo}, {Maddox},
+  {Pascale}, {Pohlen}, {Rigby}, {Robotham}, {Simpson}, {Smith}, {Temi},
+  {Thompson}, {Woodgate}, {York}, {Aguirre}, {Beelen}, {Blain}, {Baker},
+  {Birkinshaw}, {Blundell}, {Bradford}, {Burgarella}, {Danese}, {Dunlop},
+  {Fleuren}, {Glenn}, {Harris}, {Kamenetzky}, {Lupu}, {Maddalena}, {Madore},
+  {Maloney}, {Matsuhara}, {Micha{\l}owski}, {Murphy}, {Naylor}, {Nguyen},
+  {Popescu}, {Rawlings}, {Rigopoulou}, {Scott}, {Scott}, {Seibert}, {Smail},
+  {Tuffs}, {Vieira}, {van der Werf}, and {Zmuidzinas}]{Negrello2010}
+M.~{Negrello}, R.~{Hopwood}, G.~{De Zotti}, A.~{Cooray}, A.~{Verma}, J.~{Bock},
+  D.~T. {Frayer}, M.~A. {Gurwell}, A.~{Omont}, R.~{Neri}, H.~{Dannerbauer},
+  L.~L. {Leeuw}, E.~{Barton}, J.~{Cooke}, S.~{Kim}, E.~{da Cunha},
+  G.~{Rodighiero}, P.~{Cox}, D.~G. {Bonfield}, M.~J. {Jarvis}, S.~{Serjeant},
+  R.~J. {Ivison}, S.~{Dye}, I.~{Aretxaga}, D.~H. {Hughes}, E.~{Ibar},
+  F.~{Bertoldi}, I.~{Valtchanov}, S.~{Eales}, L.~{Dunne}, S.~P. {Driver},
+  R.~{Auld}, S.~{Buttiglione}, A.~{Cava}, C.~A. {Grady}, D.~L. {Clements},
+  A.~{Dariush}, J.~{Fritz}, D.~{Hill}, J.~B. {Hornbeck}, L.~{Kelvin},
+  G.~{Lagache}, M.~{Lopez-Caniego}, J.~{Gonzalez-Nuevo}, S.~{Maddox},
+  E.~{Pascale}, M.~{Pohlen}, E.~E. {Rigby}, A.~{Robotham}, C.~{Simpson},
+  D.~J.~B. {Smith}, P.~{Temi}, M.~A. {Thompson}, B.~E. {Woodgate}, D.~G.
+  {York}, J.~E. {Aguirre}, A.~{Beelen}, A.~{Blain}, A.~J. {Baker},
+  M.~{Birkinshaw}, R.~{Blundell}, C.~M. {Bradford}, D.~{Burgarella},
+  L.~{Danese}, J.~S. {Dunlop}, S.~{Fleuren}, J.~{Glenn}, A.~I. {Harris},
+  J.~{Kamenetzky}, R.~E. {Lupu}, R.~J. {Maddalena}, B.~F. {Madore}, P.~R.
+  {Maloney}, H.~{Matsuhara}, M.~J. {Micha{\l}owski}, E.~J. {Murphy}, B.~J.
+  {Naylor}, H.~{Nguyen}, C.~{Popescu}, S.~{Rawlings}, D.~{Rigopoulou},
+  D.~{Scott}, K.~S. {Scott}, M.~{Seibert}, I.~{Smail}, R.~J. {Tuffs}, J.~D.
+  {Vieira}, P.~P. {van der Werf}, and J.~{Zmuidzinas}.
+\newblock {The Detection of a Population of Submillimeter-Bright, Strongly
+  Lensed Galaxies}.
+\newblock \emph{Science}, 330:\penalty0 800, November 2010.
+\newblock \doi{10.1126/science.1193420}.
 
-\bibitem[{Ca{\~n}ameras} et~al.(2017{\natexlab{a}}){Ca{\~n}ameras}, {Nesvadba},
-  {Kneissl}, {Frye}, {Gavazzi}, {Koenig}, {Le Floc'h}, {Limousin}, {Oteo}, and
-  {Scott}]{Canameras2017ALMA}
-R.~{Ca{\~n}ameras}, N.~{Nesvadba}, R.~{Kneissl}, B.~{Frye}, R.~{Gavazzi},
-  S.~{Koenig}, E.~{Le Floc'h}, M.~{Limousin}, I.~{Oteo}, and D.~{Scott}.
-\newblock {Planck's dusty GEMS. IV. Star formation and feedback in a maximum
-  starburst at z = 3 seen at 60-pc resolution}.
-\newblock \emph{\aap}, 604:\penalty0 A117, August 2017{\natexlab{a}}.
-\newblock \doi{10.1051/0004-6361/201630186}.
+\bibitem[{Overzier}(2016)]{Overzier2016}
+R.~A. {Overzier}.
+\newblock {The realm of the galaxy protoclusters. A review}.
+\newblock \emph{Astron. Astrophys. Rev.}, 24:\penalty0 14, November 2016.
+\newblock \doi{10.1007/s00159-016-0100-3}.
 
-\bibitem[{Ca{\~n}ameras} et~al.(2017{\natexlab{b}}){Ca{\~n}ameras}, {Nesvadba},
-  {Kneissl}, {Limousin}, {Gavazzi}, {Scott}, {Dole}, {Frye}, {Koenig}, {Le
-  Floc'h}, and {Oteo}]{Canameras2017lens}
-R.~{Ca{\~n}ameras}, N.~P.~H. {Nesvadba}, R.~{Kneissl}, M.~{Limousin},
-  R.~{Gavazzi}, D.~{Scott}, H.~{Dole}, B.~{Frye}, S.~{Koenig}, E.~{Le Floc'h},
-  and I.~{Oteo}.
-\newblock {Planck's dusty GEMS. III. A massive lensing galaxy with a
-  bottom-heavy stellar initial mass function at z = 1.5}.
-\newblock \emph{\aap}, 600:\penalty0 L3, April 2017{\natexlab{b}}.
-\newblock \doi{10.1051/0004-6361/201630359}.
-
-\bibitem[{Rowan-Robinson} et~al.(1991){Rowan-Robinson}, {Saunders}, {Lawrence},
-  and {Leech}]{RowanRobinson1991}
-M.~{Rowan-Robinson}, W.~{Saunders}, A.~{Lawrence}, and K.~{Leech}.
-\newblock {The QMW IRAS galaxy catalogue - A highly complete and reliable IRAS
-  60-micron galaxy catalogue}.
-\newblock \emph{\mnras}, 253:\penalty0 485--495, December 1991.
-\newblock \doi{10.1093/mnras/253.3.485}.
-
-\bibitem[{Planck Collaboration XVI}(2011)]{Planck2011nearby_gal}
-{Planck Collaboration XVI}.
-\newblock {Planck early results. XVI. The Planck view of nearby galaxies}.
-\newblock \emph{\aap}, 536:\penalty0 A16, December 2011.
-\newblock \doi{10.1051/0004-6361/201116454}.
+\bibitem[{Planck Collaboration XXXIX}(2016)]{Planck2016high_z}
+{Planck Collaboration XXXIX}.
+\newblock {Planck intermediate results. XXXIX. The Planck list of high-redshift
+  source candidates}.
+\newblock \emph{\aap}, 596:\penalty0 A100, December 2016.
+\newblock \doi{10.1051/0004-6361/201527206}.
 
 \bibitem[{Ivison} et~al.(2013){Ivison}, {Swinbank}, {Smail}, {Harris},
   {Bussmann}, {Cooray}, {Cox}, {Fu}, {Kov{\'a}cs}, {Krips}, {Narayanan},
@@ -1441,65 +1563,6 @@ I.~{Oteo}, R.~J. {Ivison}, L.~{Dunne}, A.~{Manilla-Robles}, S.~{Maddox},
   Universe}.
 \newblock \emph{\apj}, 856:\penalty0 72, March 2018.
 \newblock \doi{10.3847/1538-4357/aaa1f1}.
-
-\bibitem[{Negrello} et~al.(2017{\natexlab{b}}){Negrello}, {Gonzalez-Nuevo}, {De
-  Zotti}, {Bonato}, {Cai}, {Clements}, {Danese}, {Dole}, {Greenslade}, {Lapi},
-  and {Montier}]{Negrello2017protocl}
-M.~{Negrello}, J.~{Gonzalez-Nuevo}, G.~{De Zotti}, M.~{Bonato}, Z.-Y. {Cai},
-  D.~{Clements}, L.~{Danese}, H.~{Dole}, J.~{Greenslade}, A.~{Lapi}, and
-  L.~{Montier}.
-\newblock {On the statistics of proto-cluster candidates detected in the Planck
-  all-sky survey}.
-\newblock \emph{ArXiv e-prints}, May 2017{\natexlab{b}}.
-
-\bibitem[{Overzier}(2016)]{Overzier2016}
-R.~A. {Overzier}.
-\newblock {The realm of the galaxy protoclusters. A review}.
-\newblock \emph{Astron. Astrophys. Rev.}, 24:\penalty0 14, November 2016.
-\newblock \doi{10.1007/s00159-016-0100-3}.
-
-\bibitem[{Planck Collaboration XXXIX}(2016)]{Planck2016high_z}
-{Planck Collaboration XXXIX}.
-\newblock {Planck intermediate results. XXXIX. The Planck list of high-redshift
-  source candidates}.
-\newblock \emph{\aap}, 596:\penalty0 A100, December 2016.
-\newblock \doi{10.1051/0004-6361/201527206}.
-
-\bibitem[{Alberts} et~al.(2014){Alberts}, {Pope}, {Brodwin}, {Atlee}, {Lin},
-  {Dey}, {Eisenhardt}, {Gettings}, {Gonzalez}, {Jannuzi}, {Mancone},
-  {Moustakas}, {Snyder}, {Stanford}, {Stern}, {Weiner}, and
-  {Zeimann}]{Alberts2014}
-S.~{Alberts}, A.~{Pope}, M.~{Brodwin}, D.~W. {Atlee}, Y.-T. {Lin}, A.~{Dey},
-  P.~R.~M. {Eisenhardt}, D.~P. {Gettings}, A.~H. {Gonzalez}, B.~T. {Jannuzi},
-  C.~L. {Mancone}, J.~{Moustakas}, G.~F. {Snyder}, S.~A. {Stanford},
-  D.~{Stern}, B.~J. {Weiner}, and G.~R. {Zeimann}.
-\newblock {The evolution of dust-obscured star formation activity in galaxy
-  clusters relative to the field over the last 9 billion years}.
-\newblock \emph{\mnras}, 437:\penalty0 437--457, January 2014.
-\newblock \doi{10.1093/mnras/stt1897}.
-
-\bibitem[{Ghisellini} et~al.(2009){Ghisellini}, {Foschini}, {Volonteri},
-  {Ghirlanda}, {Haardt}, {Burlon}, and {Tavecchio}]{Ghisellini2009}
-G.~{Ghisellini}, L.~{Foschini}, M.~{Volonteri}, G.~{Ghirlanda}, F.~{Haardt},
-  D.~{Burlon}, and F.~{Tavecchio}.
-\newblock {The blazar S5 0014+813: a real or apparent monster?}
-\newblock \emph{\mnras}, 399:\penalty0 L24--L28, October 2009.
-\newblock \doi{10.1111/j.1745-3933.2009.00716.x}.
-
-\bibitem[{Romani} et~al.(2004){Romani}, {Sowards-Emmerd}, {Greenhill}, and
-  {Michelson}]{Romani2004}
-R.~W. {Romani}, D.~{Sowards-Emmerd}, L.~{Greenhill}, and P.~{Michelson}.
-\newblock {Q0906+6930: The Highest Redshift Blazar}.
-\newblock \emph{\apjl}, 610:\penalty0 L9--L11, July 2004.
-\newblock \doi{10.1086/423201}.
-
-\bibitem[{Ghisellini} et~al.(2015){Ghisellini}, {Tagliaferri}, {Sbarrato}, and
-  {Gehrels}]{Ghisellini2015}
-G.~{Ghisellini}, G.~{Tagliaferri}, T.~{Sbarrato}, and N.~{Gehrels}.
-\newblock {SDSS J013127.34-032100.1: a candidate blazar with an 11 billion
-  solar mass black hole at z = 5.18}.
-\newblock \emph{\mnras}, 450:\penalty0 L34--L38, June 2015.
-\newblock \doi{10.1093/mnrasl/slv042}.
 
 \bibitem[{Metzger} et~al.(2015){Metzger}, {Williams}, and
   {Berger}]{Metzger2015}
