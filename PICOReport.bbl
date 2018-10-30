@@ -1,9 +1,182 @@
-\begin{thebibliography}{134}
+\begin{thebibliography}{147}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[for a Decadal Survey~of Astronomy and
+  Astrophysics(2010)]{blandford2010}
+Committee for a Decadal Survey~of Astronomy and Astrophysics.
+\newblock \emph{New Worlds, New Horizons in Astronomy and Astrophysics}.
+\newblock National Academy Press, 2010.
+
+\bibitem[{Array} et~al.(2018){Array}, {BICEP2 Collaborations}, {:}, {Ade},
+  {Ahmed}, {Aikin}, {Alexander}, {Barkats}, {Benton}, {Bischoff}, {Bock},
+  {Bowens-Rubin}, {Brevik}, {Buder}, {Bullock}, {Buza}, {Connors},
+  {Cornelison}, {Crill}, {Crumrine}, {Dierickx}, {Duband}, {Dvorkin},
+  {Filippini}, {Fliescher}, {Grayson}, {Hall}, {Halpern}, {Harrison},
+  {Hildebrandt}, {Hilton}, {Hui}, {Irwin}, {Kang}, {Karkare}, {Karpel},
+  {Kaufman}, {Keating}, {Kefeli}, {Kernasovskiy}, {Kovac}, {Kuo}, {Larsen},
+  {Lau}, {Leitch}, {Lueker}, {Megerian}, {Moncelsi}, {Namikawa}, {Netterfield},
+  {Nguyen}, {O'Brient}, {Ogburn}, {Palladino}, {Pryke}, {Racine}, {Richter},
+  {Schillaci}, {Schwarz}, {Sheehy}, {Soliman}, {St.~Germaine}, {Staniszewski},
+  {Steinbach}, {Sudiwala}, {Teply}, {Thompson}, {Tolan}, {Tucker}, {Turner},
+  {Umilta}, {Vieregg}, {Wandui}, {Weber}, {Wiebe}, {Willmert}, {Wong}, {Wu},
+  {Yang}, {Yoon}, and {Zhang}]{2018arXiv181005216A}
+K.~{Array}, {BICEP2 Collaborations}, {:}, P.~A.~R. {Ade}, Z.~{Ahmed}, R.~W.
+  {Aikin}, K.~D. {Alexander}, D.~{Barkats}, S.~J. {Benton}, C.~A. {Bischoff},
+  J.~J. {Bock}, R.~{Bowens-Rubin}, J.~A. {Brevik}, I.~{Buder}, E.~{Bullock},
+  V.~{Buza}, J.~{Connors}, J.~{Cornelison}, B.~P. {Crill}, M.~{Crumrine},
+  M.~{Dierickx}, L.~{Duband}, C.~{Dvorkin}, J.~P. {Filippini}, S.~{Fliescher},
+  J.~{Grayson}, G.~{Hall}, M.~{Halpern}, S.~{Harrison}, S.~R. {Hildebrandt},
+  G.~C. {Hilton}, H.~{Hui}, K.~D. {Irwin}, J.~{Kang}, K.~S. {Karkare},
+  E.~{Karpel}, J.~P. {Kaufman}, B.~G. {Keating}, S.~{Kefeli}, S.~A.
+  {Kernasovskiy}, J.~M. {Kovac}, C.~L. {Kuo}, N.~A. {Larsen}, K.~{Lau}, E.~M.
+  {Leitch}, M.~{Lueker}, K.~G. {Megerian}, L.~{Moncelsi}, T.~{Namikawa}, C.~B.
+  {Netterfield}, H.~T. {Nguyen}, R.~{O'Brient}, R.~W. {Ogburn}, IV,
+  S.~{Palladino}, C.~{Pryke}, B.~{Racine}, S.~{Richter}, A.~{Schillaci},
+  R.~{Schwarz}, C.~D. {Sheehy}, A.~{Soliman}, T.~{St.~Germaine}, Z.~K.
+  {Staniszewski}, B.~{Steinbach}, R.~V. {Sudiwala}, G.~P. {Teply}, K.~L.
+  {Thompson}, J.~E. {Tolan}, C.~{Tucker}, A.~D. {Turner}, C.~{Umilta}, A.~G.
+  {Vieregg}, A.~{Wandui}, A.~C. {Weber}, D.~V. {Wiebe}, J.~{Willmert}, C.~L.
+  {Wong}, W.~L.~K. {Wu}, H.~{Yang}, K.~W. {Yoon}, and C.~{Zhang}.
+\newblock {BICEP2 / Keck Array x: Constraints on Primordial Gravitational Waves
+  using Planck, WMAP, and New BICEP2/Keck Observations through the 2015
+  Season}.
+\newblock \emph{ArXiv e-prints}, October 2018.
+
+\bibitem[{Brandenburg} and {Subramanian}(2005)]{Brandenburg2005}
+A.~{Brandenburg} and K.~{Subramanian}.
+\newblock {Astrophysical magnetic fields and nonlinear dynamo theory}.
+\newblock \emph{Phys. Rep.}, 417:\penalty0 1--209, October 2005.
+\newblock \doi{10.1016/j.physrep.2005.06.005}.
+
+\bibitem[Seljak and Zaldarriaga(1997)]{Seljak:1996gy}
+Uros Seljak and Matias Zaldarriaga.
+\newblock {Signature of gravity waves in polarization of the microwave
+  background}.
+\newblock \emph{Phys. Rev. Lett.}, 78:\penalty0 2054--2057, 1997.
+\newblock \doi{10.1103/PhysRevLett.78.2054}.
+
+\bibitem[Kamionkowski et~al.(1997)Kamionkowski, Kosowsky, and
+  Stebbins]{Kamionkowski:1996zd}
+Marc Kamionkowski, Arthur Kosowsky, and Albert Stebbins.
+\newblock {A Probe of primordial gravity waves and vorticity}.
+\newblock \emph{Phys. Rev. Lett.}, 78:\penalty0 2058--2061, 1997.
+\newblock \doi{10.1103/PhysRevLett.78.2058}.
+
+\bibitem[Guth(1981)]{Guth:1980zm}
+Alan~H. Guth.
+\newblock {The Inflationary Universe: A Possible Solution to the Horizon and
+  Flatness Problems}.
+\newblock \emph{Phys. Rev.}, D23:\penalty0 347--356, 1981.
+\newblock \doi{10.1103/PhysRevD.23.347}.
+\newblock [Adv. Ser. Astrophys. Cosmol.3,139(1987)].
+
+\bibitem[Linde(1982)]{Linde:1981mu}
+Andrei~D. Linde.
+\newblock {A New Inflationary Universe Scenario: A Possible Solution of the
+  Horizon, Flatness, Homogeneity, Isotropy and Primordial Monopole Problems}.
+\newblock \emph{Phys. Lett.}, 108B:\penalty0 389--393, 1982.
+\newblock \doi{10.1016/0370-2693(82)91219-9}.
+\newblock [Adv. Ser. Astrophys. Cosmol.3,149(1987)].
+
+\bibitem[Albrecht and Steinhardt(1982)]{Albrecht:1982wi}
+Andreas Albrecht and Paul~J. Steinhardt.
+\newblock {Cosmology for Grand Unified Theories with Radiatively Induced
+  Symmetry Breaking}.
+\newblock \emph{Phys. Rev. Lett.}, 48:\penalty0 1220--1223, 1982.
+\newblock \doi{10.1103/PhysRevLett.48.1220}.
+\newblock [Adv. Ser. Astrophys. Cosmol.3,158(1987)].
+
+\bibitem[Starobinsky(1980)]{Starobinsky:1980te}
+Alexei~A. Starobinsky.
+\newblock {A New Type of Isotropic Cosmological Models Without Singularity}.
+\newblock \emph{Phys. Lett.}, B91:\penalty0 99--102, 1980.
+\newblock \doi{10.1016/0370-2693(80)90670-X}.
+\newblock [,771(1980)].
+
+\bibitem[Mukhanov and Chibisov(1981)]{Mukhanov:1981xt}
+Viatcheslav~F. Mukhanov and G.~V. Chibisov.
+\newblock {Quantum Fluctuations and a Nonsingular Universe}.
+\newblock \emph{JETP Lett.}, 33:\penalty0 532--535, 1981.
+\newblock [Pisma Zh. Eksp. Teor. Fiz.33,549(1981)].
+
+\bibitem[Guth and Pi(1982)]{Guth:1982ec}
+Alan~H. Guth and S.~Y. Pi.
+\newblock {Fluctuations in the New Inflationary Universe}.
+\newblock \emph{Phys. Rev. Lett.}, 49:\penalty0 1110--1113, 1982.
+\newblock \doi{10.1103/PhysRevLett.49.1110}.
+
+\bibitem[Hawking(1982)]{Hawking:1982cz}
+S.~W. Hawking.
+\newblock {The Development of Irregularities in a Single Bubble Inflationary
+  Universe}.
+\newblock \emph{Phys. Lett.}, 115B:\penalty0 295, 1982.
+\newblock \doi{10.1016/0370-2693(82)90373-2}.
+
+\bibitem[Starobinsky(1982)]{Starobinsky:1982ee}
+Alexei~A. Starobinsky.
+\newblock {Dynamics of Phase Transition in the New Inflationary Universe
+  Scenario and Generation of Perturbations}.
+\newblock \emph{Phys. Lett.}, 117B:\penalty0 175--178, 1982.
+\newblock \doi{10.1016/0370-2693(82)90541-X}.
+
+\bibitem[Bardeen et~al.(1983)Bardeen, Steinhardt, and Turner]{Bardeen:1983qw}
+James~M. Bardeen, Paul~J. Steinhardt, and Michael~S. Turner.
+\newblock {Spontaneous Creation of Almost Scale - Free Density Perturbations in
+  an Inflationary Universe}.
+\newblock \emph{Phys. Rev.}, D28:\penalty0 679, 1983.
+\newblock \doi{10.1103/PhysRevD.28.679}.
+
+\bibitem[Starobinsky(1979)]{Starobinsky:1979ty}
+Alexei~A. Starobinsky.
+\newblock {Spectrum of relict gravitational radiation and the early state of
+  the universe}.
+\newblock \emph{JETP Lett.}, 30:\penalty0 682--685, 1979.
+\newblock [,767(1979)].
+
+\bibitem[Krauss and Wilczek(2014)]{Krauss:2013pha}
+Lawrence~M. Krauss and Frank Wilczek.
+\newblock {Using Cosmology to Establish the Quantization of Gravity}.
+\newblock \emph{Phys. Rev.}, D89\penalty0 (4):\penalty0 047501, 2014.
+\newblock \doi{10.1103/PhysRevD.89.047501}.
+
+\bibitem[Goncharov and Linde(1984)]{Goncharov:1983mw}
+A.~B. Goncharov and Andrei~D. Linde.
+\newblock {Chaotic Inflation in Supergravity}.
+\newblock \emph{Phys. Lett.}, 139B:\penalty0 27--30, 1984.
+\newblock \doi{10.1016/0370-2693(84)90027-3}.
+
+\bibitem[{Seljak} and {Hirata}(2004)]{2004PhRvD..69d3005S}
+U.~{Seljak} and C.~M. {Hirata}.
+\newblock {Gravitational lensing as a contaminant of the gravity wave signal in
+  the CMB}.
+\newblock \emph{\prd}, 69\penalty0 (4):\penalty0 043005, February 2004.
+\newblock \doi{10.1103/PhysRevD.69.043005}.
+
+\bibitem[{Smith} et~al.(2012){Smith}, {Hanson}, {LoVerde}, {Hirata}, and
+  {Zahn}]{2012JCAP...06..014S}
+K.~M. {Smith}, D.~{Hanson}, M.~{LoVerde}, C.~M. {Hirata}, and O.~{Zahn}.
+\newblock {Delensing CMB polarization with external datasets}.
+\newblock \emph{\jcap}, 6:\penalty0 014, June 2012.
+\newblock \doi{10.1088/1475-7516/2012/06/014}.
+
+\bibitem[{Alvarez} et~al.(2014){Alvarez}, {Baldauf}, {Bond}, {Dalal}, {de
+  Putter}, {Dor{\'e}}, {Green}, {Hirata}, {Huang}, {Huterer}, {Jeong},
+  {Johnson}, {Krause}, {Loverde}, {Meyers}, {Meerburg}, {Senatore}, {Shandera},
+  {Silverstein}, {Slosar}, {Smith}, {Zaldarriaga}, {Assassi}, {Braden},
+  {Hajian}, {Kobayashi}, {Stein}, and {van Engelen}]{2014arXiv1412.4671A}
+M.~{Alvarez}, T.~{Baldauf}, J.~R. {Bond}, N.~{Dalal}, R.~{de Putter},
+  O.~{Dor{\'e}}, D.~{Green}, C.~{Hirata}, Z.~{Huang}, D.~{Huterer}, D.~{Jeong},
+  M.~C. {Johnson}, E.~{Krause}, M.~{Loverde}, J.~{Meyers}, P.~D. {Meerburg},
+  L.~{Senatore}, S.~{Shandera}, E.~{Silverstein}, A.~{Slosar}, K.~{Smith},
+  M.~{Zaldarriaga}, V.~{Assassi}, J.~{Braden}, A.~{Hajian}, T.~{Kobayashi},
+  G.~{Stein}, and A.~{van Engelen}.
+\newblock {Testing Inflation with Large Scale Structure: Connecting Hopes with
+  Reality}.
+\newblock \emph{ArXiv e-prints}, December 2014.
 
 \bibitem[{Steigman}(1979)]{1979ARNPS..29..313S}
 G.~{Steigman}.
@@ -499,21 +672,6 @@ M.~{Schmittfull} and U.~{Seljak}.
 \newblock \emph{\prd}, 97\penalty0 (12):\penalty0 123540, June 2018.
 \newblock \doi{10.1103/PhysRevD.97.123540}.
 
-\bibitem[{Alvarez} et~al.(2014){Alvarez}, {Baldauf}, {Bond}, {Dalal}, {de
-  Putter}, {Dor{\'e}}, {Green}, {Hirata}, {Huang}, {Huterer}, {Jeong},
-  {Johnson}, {Krause}, {Loverde}, {Meyers}, {Meerburg}, {Senatore}, {Shandera},
-  {Silverstein}, {Slosar}, {Smith}, {Zaldarriaga}, {Assassi}, {Braden},
-  {Hajian}, {Kobayashi}, {Stein}, and {van Engelen}]{2014arXiv1412.4671A}
-M.~{Alvarez}, T.~{Baldauf}, J.~R. {Bond}, N.~{Dalal}, R.~{de Putter},
-  O.~{Dor{\'e}}, D.~{Green}, C.~{Hirata}, Z.~{Huang}, D.~{Huterer}, D.~{Jeong},
-  M.~C. {Johnson}, E.~{Krause}, M.~{Loverde}, J.~{Meyers}, P.~D. {Meerburg},
-  L.~{Senatore}, S.~{Shandera}, E.~{Silverstein}, A.~{Slosar}, K.~{Smith},
-  M.~{Zaldarriaga}, V.~{Assassi}, J.~{Braden}, A.~{Hajian}, T.~{Kobayashi},
-  G.~{Stein}, and A.~{van Engelen}.
-\newblock {Testing Inflation with Large Scale Structure: Connecting Hopes with
-  Reality}.
-\newblock \emph{ArXiv e-prints}, December 2014.
-
 \bibitem[{Baxter} et~al.(2015){Baxter}, {Keisler}, {Dodelson}, {Aird}, {Allen},
   {Ashby}, {Bautz}, {Bayliss}, {Benson}, {Bleem}, {Bocquet}, {Brodwin},
   {Carlstrom}, {Chang}, {Chiu}, {Cho}, {Clocchiatti}, {Crawford}, {Crites},
@@ -571,26 +729,6 @@ J.-B. {Melin} and J.~G. {Bartlett}.
 \newblock {Measuring cluster masses with CMB lensing: a statistical approach}.
 \newblock \emph{\aap}, 578:\penalty0 A21, June 2015.
 \newblock \doi{10.1051/0004-6361/201424720}.
-
-\bibitem[{Seljak} and {Hirata}(2004)]{2004PhRvD..69d3005S}
-U.~{Seljak} and C.~M. {Hirata}.
-\newblock {Gravitational lensing as a contaminant of the gravity wave signal in
-  the CMB}.
-\newblock \emph{\prd}, 69\penalty0 (4):\penalty0 043005, February 2004.
-\newblock \doi{10.1103/PhysRevD.69.043005}.
-
-\bibitem[{Smith} et~al.(2012){Smith}, {Hanson}, {LoVerde}, {Hirata}, and
-  {Zahn}]{2012JCAP...06..014S}
-K.~M. {Smith}, D.~{Hanson}, M.~{LoVerde}, C.~M. {Hirata}, and O.~{Zahn}.
-\newblock {Delensing CMB polarization with external datasets}.
-\newblock \emph{\jcap}, 6:\penalty0 014, June 2012.
-\newblock \doi{10.1088/1475-7516/2012/06/014}.
-
-\bibitem[{Brandenburg} and {Subramanian}(2005)]{Brandenburg2005}
-A.~{Brandenburg} and K.~{Subramanian}.
-\newblock {Astrophysical magnetic fields and nonlinear dynamo theory}.
-\newblock \emph{Phys. Rep.}, 417:\penalty0 1--209, October 2005.
-\newblock \doi{10.1016/j.physrep.2005.06.005}.
 
 \bibitem[{Planck Collaboration} et~al.(2016{\natexlab{c}}){Planck
   Collaboration}, {Adam}, {Ade}, {Aghanim}, {Akrami}, {Alves}, {Arg{\"u}eso},
@@ -738,6 +876,76 @@ A.~{Brandenburg} and K.~{Subramanian}.
   results}.
 \newblock \emph{\aap}, 594:\penalty0 A1, September 2016{\natexlab{c}}.
 \newblock \doi{10.1051/0004-6361/201527101}.
+
+\bibitem[{Planck Collaboration} et~al.(2018{\natexlab{c}}){Planck
+  Collaboration}, {Aghanim}, {Akrami}, {Alves}, {Ashdown}, {Aumont},
+  {Baccigalupi}, {Ballardini}, {Banday}, {Barreiro}, {Bartolo}, {Basak},
+  {Benabed}, {Bernard}, {Bersanelli}, {Bielewicz}, {Bock}, {Bond}, {Borrill},
+  {Bouchet}, {Boulanger}, {Bracco}, {Bucher}, {Burigana}, {Calabrese},
+  {Cardoso}, {Carron}, {Chary}, {Chiang}, {Colombo}, {Combet}, {Crill},
+  {Cuttaia}, {de Bernardis}, {de Zotti}, {Delabrouille}, {Delouis}, {Di
+  Valentino}, {Dickinson}, {Diego}, {Dor{\'e}}, {Douspis}, {Ducout}, {Dupac},
+  {Efstathiou}, {Elsner}, {En{\ss}lin}, {Eriksen}, {Fantaye},
+  {Fernandez-Cobos}, {Ferri{\`e}re}, {Forastieri}, {Frailis}, {Fraisse},
+  {Franceschi}, {Frolov}, {Galeotta}, {Galli}, {Ganga}, {G{\'e}nova-Santos},
+  {Gerbino}, {Ghosh}, {Gonz{\'a}lez-Nuevo}, {G{\'o}rski}, {Gratton}, {Green},
+  {Gruppuso}, {Gudmundsson}, {Guillet}, {Handley}, {Hansen}, {Helou},
+  {Herranz}, {Hivon}, {Huang}, {Jaffe}, {Jones}, {Keih{\"a}nen}, {Keskitalo},
+  {Kiiveri}, {Kim}, {Krachmalnicoff}, {Kunz}, {Kurki-Suonio}, {Lagache},
+  {Lamarre}, {Lasenby}, {Lattanzi}, {Lawrence}, {Le Jeune}, {Levrier},
+  {Liguori}, {Lilje}, {Lindholm}, {L{\'o}pez-Caniego}, {Lubin}, {Ma},
+  {Mac{\'\i}as-P{\'e}rez}, {Maggio}, {Maino}, {Mandolesi}, {Mangilli},
+  {Marcos-Caballero}, {Maris}, {Martin}, {Mart{\'\i}nez-Gonz{\'a}lez},
+  {Matarrese}, {Mauri}, {McEwen}, {Melchiorri}, {Mennella}, {Migliaccio},
+  {Miville-Desch{\^e}nes}, {Molinari}, {Moneti}, {Montier}, {Morgante}, {Moss},
+  {Natoli}, {Pagano}, {Paoletti}, {Patanchon}, {Perrotta}, {Pettorino},
+  {Piacentini}, {Polastri}, {Polenta}, {Puget}, {Rachen}, {Reinecke},
+  {Remazeilles}, {Renzi}, {Ristorcelli}, {Rocha}, {Rosset}, {Roudier},
+  {Rubi{\~n}o-Mart{\'\i}n}, {Ruiz-Granados}, {Salvati}, {Sandri}, {Savelainen},
+  {Scott}, {Sirignano}, {Sunyaev}, {Suur-Uski}, {Tauber}, {Tavagnacco},
+  {Tenti}, {Toffolatti}, {Tomasi}, {Trombetti}, {Valiviita}, {Van Tent},
+  {Vielva}, {Villa}, {Vittorio}, {Wandelt}, {Wehus}, {Zacchei}, and
+  {Zonca}]{Planck2018:XII}
+{Planck Collaboration}, N.~{Aghanim}, Y.~{Akrami}, M.~I.~R. {Alves},
+  M.~{Ashdown}, J.~{Aumont}, C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday},
+  R.~B. {Barreiro}, N.~{Bartolo}, S.~{Basak}, K.~{Benabed}, J.~P. {Bernard},
+  M.~{Bersanelli}, P.~{Bielewicz}, J.~J. {Bock}, J.~R. {Bond}, J.~{Borrill},
+  F.~R. {Bouchet}, F.~{Boulanger}, A.~{Bracco}, M.~{Bucher}, C.~{Burigana},
+  E.~{Calabrese}, J.~F. {Cardoso}, J.~{Carron}, R.~R. {Chary}, H.~C. {Chiang},
+  L.~P.~L. {Colombo}, C.~{Combet}, B.~P. {Crill}, F.~{Cuttaia}, P.~{de
+  Bernardis}, G.~{de Zotti}, J.~{Delabrouille}, J.~M. {Delouis}, E.~{Di
+  Valentino}, C.~{Dickinson}, J.~M. {Diego}, O.~{Dor{\'e}}, M.~{Douspis},
+  A.~{Ducout}, X.~{Dupac}, G.~{Efstathiou}, F.~{Elsner}, T.~A. {En{\ss}lin},
+  H.~K. {Eriksen}, Y.~{Fantaye}, R.~{Fernandez-Cobos}, K.~{Ferri{\`e}re},
+  F.~{Forastieri}, M.~{Frailis}, A.~A. {Fraisse}, E.~{Franceschi}, A.~{Frolov},
+  S.~{Galeotta}, S.~{Galli}, K.~{Ganga}, R.~T. {G{\'e}nova-Santos},
+  M.~{Gerbino}, T.~{Ghosh}, J.~{Gonz{\'a}lez-Nuevo}, K.~M. {G{\'o}rski},
+  S.~{Gratton}, G.~{Green}, A.~{Gruppuso}, J.~E. {Gudmundsson}, V.~{Guillet},
+  W.~{Handley}, F.~K. {Hansen}, G.~{Helou}, D.~{Herranz}, E.~{Hivon},
+  Z.~{Huang}, A.~H. {Jaffe}, W.~C. {Jones}, E.~{Keih{\"a}nen}, R.~{Keskitalo},
+  K.~{Kiiveri}, J.~{Kim}, N.~{Krachmalnicoff}, M.~{Kunz}, H.~{Kurki-Suonio},
+  G.~{Lagache}, J.~M. {Lamarre}, A.~{Lasenby}, M.~{Lattanzi}, C.~R. {Lawrence},
+  M.~{Le Jeune}, F.~{Levrier}, M.~{Liguori}, P.~B. {Lilje}, V.~{Lindholm},
+  M.~{L{\'o}pez-Caniego}, P.~M. {Lubin}, Y.~Z. {Ma}, J.~F.
+  {Mac{\'\i}as-P{\'e}rez}, G.~{Maggio}, D.~{Maino}, N.~{Mandolesi},
+  A.~{Mangilli}, A.~{Marcos-Caballero}, M.~{Maris}, P.~G. {Martin},
+  E.~{Mart{\'\i}nez-Gonz{\'a}lez}, S.~{Matarrese}, N.~{Mauri}, J.~D. {McEwen},
+  A.~{Melchiorri}, A.~{Mennella}, M.~{Migliaccio}, M.~A.
+  {Miville-Desch{\^e}nes}, D.~{Molinari}, A.~{Moneti}, L.~{Montier},
+  G.~{Morgante}, A.~{Moss}, P.~{Natoli}, L.~{Pagano}, D.~{Paoletti},
+  G.~{Patanchon}, F.~{Perrotta}, V.~{Pettorino}, F.~{Piacentini},
+  L.~{Polastri}, G.~{Polenta}, J.~L. {Puget}, J.~P. {Rachen}, M.~{Reinecke},
+  M.~{Remazeilles}, A.~{Renzi}, I.~{Ristorcelli}, G.~{Rocha}, C.~{Rosset},
+  G.~{Roudier}, J.~A. {Rubi{\~n}o-Mart{\'\i}n}, B.~{Ruiz-Granados},
+  L.~{Salvati}, M.~{Sandri}, M.~{Savelainen}, D.~{Scott}, C.~{Sirignano},
+  R.~{Sunyaev}, A.~S. {Suur-Uski}, J.~A. {Tauber}, D.~{Tavagnacco}, M.~{Tenti},
+  L.~{Toffolatti}, M.~{Tomasi}, T.~{Trombetti}, J.~{Valiviita}, B.~{Van Tent},
+  P.~{Vielva}, F.~{Villa}, N.~{Vittorio}, B.~D. {Wandelt}, I.~K. {Wehus},
+  A.~{Zacchei}, and A.~{Zonca}.
+\newblock {Planck 2018 results. XII. Galactic astrophysics using polarized dust
+  emission}.
+\newblock \emph{ArXiv e-prints}, art. arXiv:1807.06212, July
+  2018{\natexlab{c}}.
 
 \bibitem[{Fissel} et~al.(2016){Fissel}, {Ade}, {Angil{\`e}}, {Ashton},
   {Benton}, {Devlin}, {Dober}, {Fukui}, {Galitzki}, {Gandilo}, {Klein},
@@ -1467,204 +1675,6 @@ P.~{Natoli}, M.~{Ashdown}, R.~{Banerji}, J.~{Borrill}, A.~{Buzzelli}, G.~{de
 \newblock \emph{\aap}, 594:\penalty0 A12, September 2016{\natexlab{d}}.
 \newblock \doi{10.1051/0004-6361/201527103}.
 
-\bibitem[Aumont et~al.(2018)Aumont, Macias-Perez, Ritacco, Ponthieu, and
-  Mangilli]{Aumont+2018}
-Jonathan Aumont, Juan-Francisco Macias-Perez, Alessia Ritacco, Nicolas
-  Ponthieu, and Anna Mangilli.
-\newblock {Absolute calibration of the polarisation angle for future CMB
-  $B$-mode experiments from current and future measurements of the Crab
-  nebula}.
-\newblock May 2018.
-
-\bibitem[Planck Collaboration:~Ade et~al.(2013)Planck Collaboration:~Ade,
-  Aghanim, Armitage-Caplan, Arnaud, Ashdown, Atrio-Barandela, Aumont,
-  Baccigalupi, Banday, Barreiro, Battaner, Benabed, Beno{\^\i}t,
-  Benoit-L{\'e}vy, Bernard, Bersanelli, Bielewicz, Bobin, Bock, Bond, Borrill,
-  Bouchet, Bowyer, Bridges, Bucher, Burigana, Cardoso, Catalano, Challinor,
-  Chamballu, Chary, Chiang, Chiang, Christensen, Church, Clements, Colombi,
-  Colombo, Couchot, Coulais, Crill, Curto, Cuttaia, Danese, Davies,
-  de~Bernardis, de~Rosa, de~Zotti, Delabrouille, Delouis, D{\'e}sert, Diego,
-  Dole, Donzelli, Dore, Douspis, Dunkley, Dupac, Efstathiou, En{\ss}lin,
-  Eriksen, Finelli, Forni, Frailis, Fraisse, Franceschi, Galeotta, Ganga,
-  Giard, Giraud-H{\'e}raud, Gonz{\'a}lez-Nuevo, Gorski, Gratton, Gregorio,
-  Gruppuso, Gudmundsson, Haissinski, Hansen, Hanson, Harrison,
-  Henrot-Versill{\'e}, Hernandez-Monteagudo, Herranz, Hildebrandt, Hivon,
-  Hobson, Holmes, Hornstrup, Hou, Hovest, Huffenberger, Jaffe, Jaffe, Jones,
-  Juvela, Keih{\"a}nen, Keskitalo, Kisner, Kneissl, Knoche, Knox, Kunz,
-  Kurki-Suonio, Lagache, Lamarre, Lasenby, Laureijs, Lawrence, Leonardi, Leroy,
-  Lesgourgues, Liguori, Lilje, Linden-V{\o}rnle, L{\'o}pez-Caniego, Lubin,
-  Mac{\'\i}as-P{\'e}rez, MacTavish, Maffei, Mandolesi, Maris, Marshall, Martin,
-  Mart{\'\i}nez-Gonz{\'a}lez, Masi, Matarrese, Matsumura, Matthai, Mazzotta,
-  McGehee, Melchiorri, Mendes, Mennella, Migliaccio, Mitra,
-  Miville-Desch{\^e}nes, Moneti, Montier, Morgante, Mortlock, Munshi, Murphy,
-  Naselsky, Nati, Natoli, Netterfield, N{\o}rgaard-Nielsen, Noviello, Novikov,
-  Novikov, Osborne, Oxborrow, Paci, Pagano, Pajot, Paoletti, Pasian, Patanchon,
-  Perdereau, Perotto, Perrotta, Piacentini, Piat, Pierpaoli, Pietrobon,
-  Plaszczynski, Pointecouteau, Polegre, Polenta, Ponthieu, Popa, Poutanen,
-  Pratt, Pr{\'e}zeau, Prunet, Puget, Rachen, Reinecke, Remazeilles, Renault,
-  Ricciardi, Riller, Ristorcelli, Rocha, Rosset, Roudier, Rowan-Robinson,
-  Rusholme, Sandri, Santos, Sauv{\'e}, Savini, Shellard, Spencer, Starck,
-  Stolyarov, Stompor, Sudiwala, Sureau, Sutton, Suur-Uski, Sygnet, Tauber,
-  Tavagnacco, Terenzi, Tomasi, Tristram, Tucci, Umana, Valenziano, Valiviita,
-  Van~Tent, Vielva, Villa, Vittorio, Wade, Wandelt, Yvon, Zacchei, and
-  Zonca]{planck2013_vii}
-P~A~R Planck Collaboration:~Ade, N~Aghanim, C~Armitage-Caplan, M~Arnaud,
-  M~Ashdown, F~Atrio-Barandela, J~Aumont, C~Baccigalupi, A~J Banday, R~B
-  Barreiro, E~Battaner, K~Benabed, A~Beno{\^\i}t, A~Benoit-L{\'e}vy, J~P
-  Bernard, M~Bersanelli, P~Bielewicz, J~Bobin, J~J Bock, J~R Bond, J~Borrill,
-  F~R Bouchet, J~W Bowyer, M~Bridges, M~Bucher, C~Burigana, J~F Cardoso,
-  A~Catalano, A~Challinor, A~Chamballu, R~R Chary, L~Y Chiang, H~C Chiang, P~R
-  Christensen, S~Church, D~L Clements, S~Colombi, L~P~L Colombo, F~Couchot,
-  A~Coulais, B~P Crill, A~Curto, F~Cuttaia, L~Danese, R~D Davies,
-  P~de~Bernardis, A~de~Rosa, G~de~Zotti, J~Delabrouille, J~M Delouis, F~X
-  D{\'e}sert, J~M Diego, H~Dole, S~Donzelli, O~Dore, M~Douspis, J~Dunkley,
-  X~Dupac, G~Efstathiou, T~A En{\ss}lin, H~K Eriksen, F~Finelli, O~Forni,
-  M~Frailis, A~A Fraisse, E~Franceschi, S~Galeotta, K~Ganga, M~Giard,
-  Y~Giraud-H{\'e}raud, J~Gonz{\'a}lez-Nuevo, K~M Gorski, S~Gratton, A~Gregorio,
-  A~Gruppuso, J~E Gudmundsson, J~Haissinski, F~K Hansen, D~Hanson, D~Harrison,
-  S~Henrot-Versill{\'e}, C~Hernandez-Monteagudo, D~Herranz, S~R Hildebrandt,
-  E~Hivon, M~Hobson, W~A Holmes, A~Hornstrup, Z~Hou, W~Hovest, K~M
-  Huffenberger, T~R Jaffe, A~H Jaffe, W~C Jones, M~Juvela, E~Keih{\"a}nen,
-  R~Keskitalo, T~S Kisner, R~Kneissl, J~Knoche, L~Knox, M~Kunz, H~Kurki-Suonio,
-  G~Lagache, J~M Lamarre, A~Lasenby, R~J Laureijs, C~R Lawrence, R~Leonardi,
-  C~Leroy, J~Lesgourgues, M~Liguori, P~B Lilje, M~Linden-V{\o}rnle,
-  M~L{\'o}pez-Caniego, P~M Lubin, J~F Mac{\'\i}as-P{\'e}rez, C~J MacTavish,
-  B~Maffei, N~Mandolesi, M~Maris, D~J Marshall, P~G Martin,
-  E~Mart{\'\i}nez-Gonz{\'a}lez, S~Masi, S~Matarrese, T~Matsumura, F~Matthai,
-  P~Mazzotta, P~McGehee, A~Melchiorri, L~Mendes, A~Mennella, M~Migliaccio,
-  S~Mitra, M~A Miville-Desch{\^e}nes, A~Moneti, L~Montier, G~Morgante,
-  D~Mortlock, D~Munshi, J~A Murphy, P~Naselsky, F~Nati, P~Natoli, C~B
-  Netterfield, H~U N{\o}rgaard-Nielsen, F~Noviello, D~Novikov, I~Novikov,
-  S~Osborne, C~A Oxborrow, F~Paci, L~Pagano, F~Pajot, D~Paoletti, F~Pasian,
-  G~Patanchon, O~Perdereau, L~Perotto, F~Perrotta, F~Piacentini, M~Piat,
-  E~Pierpaoli, D~Pietrobon, S~Plaszczynski, E~Pointecouteau, A~M Polegre,
-  G~Polenta, N~Ponthieu, L~Popa, T~Poutanen, G~W Pratt, G~Pr{\'e}zeau,
-  S~Prunet, J~L Puget, J~P Rachen, M~Reinecke, M~Remazeilles, C~Renault,
-  S~Ricciardi, T~Riller, I~Ristorcelli, G~Rocha, C~Rosset, G~Roudier,
-  M~Rowan-Robinson, B~Rusholme, M~Sandri, D~Santos, A~Sauv{\'e}, G~Savini,
-  E~P~S Shellard, L~D Spencer, J~L Starck, V~Stolyarov, R~Stompor, R~Sudiwala,
-  F~Sureau, D~Sutton, A~S Suur-Uski, J~F Sygnet, J~A Tauber, D~Tavagnacco,
-  L~Terenzi, M~Tomasi, M~Tristram, M~Tucci, G~Umana, L~Valenziano, J~Valiviita,
-  B~Van~Tent, P~Vielva, F~Villa, N~Vittorio, L~A Wade, B~D Wandelt, D~Yvon,
-  A~Zacchei, and A~Zonca.
-\newblock {Planck 2013 results. VII. HFI time response and beams}.
-\newblock \emph{arXiv.org}, pages 1--31, March 2013.
-
-\bibitem[{BICEP2 Collaboration} et~al.(2014){BICEP2 Collaboration}, {Ade},
-  {Aikin}, {Amiri}, {Barkats}, {Benton}, {Bischoff}, {Bock}, {Brevik}, {Buder},
-  {Bullock}, {Davis}, {Day}, {Dowell}, {Duband}, {Filippini}, {Fliescher},
-  {Golwala}, {Halpern}, {Hasselfield}, {Hildebrandt}, {Hilton}, {Irwin},
-  {Karkare}, {Kaufman}, {Keating}, {Kernasovskiy}, {Kovac}, {Kuo}, {Leitch},
-  {Llombart}, {Lueker}, {Netterfield}, {Nguyen}, {O'Brient}, {Ogburn},
-  {Orlando}, {Pryke}, {Reintsema}, {Richter}, {Schwarz}, {Sheehy},
-  {Staniszewski}, {Story}, {Sudiwala}, {Teply}, {Tolan}, {Turner}, {Vieregg},
-  {Wilson}, {Wong}, and {Yoon}]{BICEP2_II}
-{BICEP2 Collaboration}, P.~A.~R. {Ade}, R.~W. {Aikin}, M.~{Amiri},
-  D.~{Barkats}, S.~J. {Benton}, C.~A. {Bischoff}, J.~J. {Bock}, J.~A. {Brevik},
-  I.~{Buder}, E.~{Bullock}, G.~{Davis}, P.~K. {Day}, C.~D. {Dowell},
-  L.~{Duband}, J.~P. {Filippini}, S.~{Fliescher}, S.~R. {Golwala},
-  M.~{Halpern}, M.~{Hasselfield}, S.~R. {Hildebrandt}, G.~C. {Hilton}, K.~D.
-  {Irwin}, K.~S. {Karkare}, J.~P. {Kaufman}, B.~G. {Keating}, S.~A.
-  {Kernasovskiy}, J.~M. {Kovac}, C.~L. {Kuo}, E.~M. {Leitch}, N.~{Llombart},
-  M.~{Lueker}, C.~B. {Netterfield}, H.~T. {Nguyen}, R.~{O'Brient}, IV~{Ogburn},
-  R.~W., A.~{Orlando}, C.~{Pryke}, C.~D. {Reintsema}, S.~{Richter},
-  R.~{Schwarz}, C.~D. {Sheehy}, Z.~K. {Staniszewski}, K.~T. {Story}, R.~V.
-  {Sudiwala}, G.~P. {Teply}, J.~E. {Tolan}, A.~D. {Turner}, A.~G. {Vieregg},
-  P.~{Wilson}, C.~L. {Wong}, and K.~W. {Yoon}.
-\newblock {BICEP2. II. Experiment and three-year Data Set}.
-\newblock \emph{\apj}, 792:\penalty0 62, September 2014.
-\newblock \doi{10.1088/0004-637X/792/1/62}.
-
-\bibitem[{Planck Collaboration} et~al.(2016{\natexlab{e}}){Planck
-  Collaboration}, {Aghanim}, {Ashdown}, {Aumont}, {Baccigalupi}, {Ballardini},
-  {Banday}, {Barreiro}, {Bartolo}, {Basak}, {Benabed}, {Bernard}, {Bersanelli},
-  {Bielewicz}, {Bonaldi}, {Bonavera}, {Bond}, {Borrill}, {Bouchet},
-  {Boulanger}, {Bracco}, {Burigana}, {Calabrese}, {Cardoso}, {Chiang},
-  {Colombo}, {Combet}, {Comis}, {Crill}, {Curto}, {Cuttaia}, {Davis}, {de
-  Bernardis}, {de Rosa}, {de Zotti}, {Delabrouille}, {Delouis}, {Di Valentino},
-  {Dickinson}, {Diego}, {Dor{\'e}}, {Douspis}, {Ducout}, {Dupac}, {Dusini},
-  {Efstathiou}, {Elsner}, {En{\ss}lin}, {Eriksen}, {Falgarone}, {Fantaye},
-  {Finelli}, {Frailis}, {Fraisse}, {Franceschi}, {Frolov}, {Galeotta}, {Galli},
-  {Ganga}, {G{\'e}nova-Santos}, {Gerbino}, {Ghosh}, {Giard},
-  {Gonz{\'a}lez-Nuevo}, {G{\'o}rski}, {Gregorio}, {Gruppuso}, {Gudmundsson},
-  {Hansen}, {Helou}, {Herranz}, {Hivon}, {Huang}, {Jaffe}, {Jones},
-  {Keih{\"a}nen}, {Keskitalo}, {Kisner}, {Krachmalnicoff}, {Kunz},
-  {Kurki-Suonio}, {Lagache}, {L{\"a}hteenm{\"a}ki}, {Lamarre}, {Lasenby},
-  {Lattanzi}, {Lawrence}, {Le Jeune}, {Levrier}, {Liguori}, {Lilje},
-  {L{\'o}pez-Caniego}, {Lubin}, {Mac{\'{\i}}as-P{\'e}rez}, {Maggio}, {Maino},
-  {Mandolesi}, {Mangilli}, {Maris}, {Martin}, {Mart{\'{\i}}nez-Gonz{\'a}lez},
-  {Matarrese}, {Mauri}, {McEwen}, {Melchiorri}, {Mennella}, {Migliaccio},
-  {Mitra}, {Miville-Desch{\^e}nes}, {Molinari}, {Moneti}, {Montier},
-  {Morgante}, {Moss}, {Naselsky}, {N{\o}rgaard-Nielsen}, {Oxborrow}, {Pagano},
-  {Paoletti}, {Partridge}, {Patrizii}, {Perdereau}, {Perotto}, {Pettorino},
-  {Piacentini}, {Plaszczynski}, {Polenta}, {Puget}, {Rachen}, {Reinecke},
-  {Remazeilles}, {Renzi}, {Rocha}, {Rossetti}, {Roudier},
-  {Rubi{\~n}o-Mart{\'{\i}}n}, {Ruiz-Granados}, {Salvati}, {Sandri},
-  {Savelainen}, {Scott}, {Sirignano}, {Sirri}, {Stanco}, {Suur-Uski}, {Tauber},
-  {Tenti}, {Toffolatti}, {Tomasi}, {Tristram}, {Trombetti}, {Valiviita},
-  {Vansyngel}, {Van Tent}, {Vielva}, {Wandelt}, {Wehus}, {Zacchei}, and
-  {Zonca}]{planck2016_l}
-{Planck Collaboration}, N.~{Aghanim}, M.~{Ashdown}, J.~{Aumont},
-  C.~{Baccigalupi}, M.~{Ballardini}, A.~J. {Banday}, R.~B. {Barreiro},
-  N.~{Bartolo}, S.~{Basak}, K.~{Benabed}, J.-P. {Bernard}, M.~{Bersanelli},
-  P.~{Bielewicz}, A.~{Bonaldi}, L.~{Bonavera}, J.~R. {Bond}, J.~{Borrill},
-  F.~R. {Bouchet}, F.~{Boulanger}, A.~{Bracco}, C.~{Burigana}, E.~{Calabrese},
-  J.-F. {Cardoso}, H.~C. {Chiang}, L.~P.~L. {Colombo}, C.~{Combet}, B.~{Comis},
-  B.~P. {Crill}, A.~{Curto}, F.~{Cuttaia}, R.~J. {Davis}, P.~{de Bernardis},
-  A.~{de Rosa}, G.~{de Zotti}, J.~{Delabrouille}, J.-M. {Delouis}, E.~{Di
-  Valentino}, C.~{Dickinson}, J.~M. {Diego}, O.~{Dor{\'e}}, M.~{Douspis},
-  A.~{Ducout}, X.~{Dupac}, S.~{Dusini}, G.~{Efstathiou}, F.~{Elsner}, T.~A.
-  {En{\ss}lin}, H.~K. {Eriksen}, E.~{Falgarone}, Y.~{Fantaye}, F.~{Finelli},
-  M.~{Frailis}, A.~A. {Fraisse}, E.~{Franceschi}, A.~{Frolov}, S.~{Galeotta},
-  S.~{Galli}, K.~{Ganga}, R.~T. {G{\'e}nova-Santos}, M.~{Gerbino}, T.~{Ghosh},
-  M.~{Giard}, J.~{Gonz{\'a}lez-Nuevo}, K.~M. {G{\'o}rski}, A.~{Gregorio},
-  A.~{Gruppuso}, J.~E. {Gudmundsson}, F.~K. {Hansen}, G.~{Helou}, D.~{Herranz},
-  E.~{Hivon}, Z.~{Huang}, A.~H. {Jaffe}, W.~C. {Jones}, E.~{Keih{\"a}nen},
-  R.~{Keskitalo}, T.~S. {Kisner}, N.~{Krachmalnicoff}, M.~{Kunz},
-  H.~{Kurki-Suonio}, G.~{Lagache}, A.~{L{\"a}hteenm{\"a}ki}, J.-M. {Lamarre},
-  A.~{Lasenby}, M.~{Lattanzi}, C.~R. {Lawrence}, M.~{Le Jeune}, F.~{Levrier},
-  M.~{Liguori}, P.~B. {Lilje}, M.~{L{\'o}pez-Caniego}, P.~M. {Lubin}, J.~F.
-  {Mac{\'{\i}}as-P{\'e}rez}, G.~{Maggio}, D.~{Maino}, N.~{Mandolesi},
-  A.~{Mangilli}, M.~{Maris}, P.~G. {Martin}, E.~{Mart{\'{\i}}nez-Gonz{\'a}lez},
-  S.~{Matarrese}, N.~{Mauri}, J.~D. {McEwen}, A.~{Melchiorri}, A.~{Mennella},
-  M.~{Migliaccio}, S.~{Mitra}, M.-A. {Miville-Desch{\^e}nes}, D.~{Molinari},
-  A.~{Moneti}, L.~{Montier}, G.~{Morgante}, A.~{Moss}, P.~{Naselsky}, H.~U.
-  {N{\o}rgaard-Nielsen}, C.~A. {Oxborrow}, L.~{Pagano}, D.~{Paoletti},
-  B.~{Partridge}, L.~{Patrizii}, O.~{Perdereau}, L.~{Perotto}, V.~{Pettorino},
-  F.~{Piacentini}, S.~{Plaszczynski}, G.~{Polenta}, J.-L. {Puget}, J.~P.
-  {Rachen}, M.~{Reinecke}, M.~{Remazeilles}, A.~{Renzi}, G.~{Rocha},
-  M.~{Rossetti}, G.~{Roudier}, J.~A. {Rubi{\~n}o-Mart{\'{\i}}n},
-  B.~{Ruiz-Granados}, L.~{Salvati}, M.~{Sandri}, M.~{Savelainen}, D.~{Scott},
-  C.~{Sirignano}, G.~{Sirri}, L.~{Stanco}, A.-S. {Suur-Uski}, J.~A. {Tauber},
-  M.~{Tenti}, L.~{Toffolatti}, M.~{Tomasi}, M.~{Tristram}, T.~{Trombetti},
-  J.~{Valiviita}, J.~{Vansyngel}, F.~{Van Tent}, P.~{Vielva}, B.~D. {Wandelt},
-  I.~K. {Wehus}, A.~{Zacchei}, and A.~{Zonca}.
-\newblock {Planck intermediate results. L. Evidence for spatial variation of
-  the polarized thermal dust spectral energy distribution and implications for
-  CMB $B$-mode analysis}.
-\newblock \emph{ArXiv e-prints}, June 2016{\natexlab{e}}.
-
-\bibitem[Tauber et~al.(2010)Tauber, N{\o}rgaard-Nielsen, Ade, Amiri~Parian,
-  Banos, Bersanelli, Burigana, Chamballu, de~Chambure, Christensen, Corre,
-  Cozzani, Crill, Crone, D'Arcangelo, Daddato, Doyle, Dubruel, Forma, Hills,
-  Huffenberger, Jaffe, Jessen, Kletzkine, Lamarre, Leahy, Longval, de~Maagt,
-  Maffei, Mandolesi, Mart{\'\i}-Canales, Mart{\'\i}n-Polegre, Martin, Mendes,
-  Murphy, Nielsen, Noviello, Paquay, Peacocke, Ponthieu, Pontoppidan,
-  Ristorcelli, Riti, Rolo, Rosset, Sandri, Savini, Sudiwala, Tristram,
-  Valenziano, van~der Vorst, van~'t Klooster, Villa, and Yurchenko]{Tauber2010}
-J~A Tauber, H~U N{\o}rgaard-Nielsen, P~A~R Ade, J~Amiri~Parian, T~Banos,
-  M~Bersanelli, C~Burigana, A~Chamballu, D~de~Chambure, P~R Christensen,
-  O~Corre, A~Cozzani, B~Crill, G~Crone, O~D'Arcangelo, R~Daddato, D~Doyle,
-  D~Dubruel, G~Forma, R~Hills, K~Huffenberger, A~H Jaffe, N~Jessen,
-  P~Kletzkine, J~M Lamarre, J~P Leahy, Y~Longval, P~de~Maagt, B~Maffei,
-  N~Mandolesi, J~Mart{\'\i}-Canales, A~Mart{\'\i}n-Polegre, P~Martin, L~Mendes,
-  J~A Murphy, P~Nielsen, F~Noviello, M~Paquay, T~Peacocke, N~Ponthieu,
-  K~Pontoppidan, I~Ristorcelli, J~B Riti, L~Rolo, C~Rosset, M~Sandri, G~Savini,
-  R~Sudiwala, M~Tristram, L~Valenziano, M~van~der Vorst, K~van~'t Klooster,
-  F~Villa, and V~Yurchenko.
-\newblock {Planckpre-launch status: The optical system}.
-\newblock \emph{Astronomy and Astrophysics}, 520:\penalty0 A2, September 2010.
-
 \bibitem[Pogosian and Zucca(2018)]{Pogosian+2018}
 Levon Pogosian and Alex Zucca.
 \newblock {Searching for primordial magnetic fields with CMB B-modes}.
@@ -1698,6 +1708,15 @@ C.~{Rosset}, M.~{Tristram}, N.~{Ponthieu}, P.~{Ade}, J.~{Aumont},
   calibration}.
 \newblock \emph{A\&A}, 520:\penalty0 A13+, September 2010.
 \newblock \doi{10.1051/0004-6361/200913054}.
+
+\bibitem[Aumont et~al.(2018)Aumont, Macias-Perez, Ritacco, Ponthieu, and
+  Mangilli]{Aumont+2018}
+Jonathan Aumont, Juan-Francisco Macias-Perez, Alessia Ritacco, Nicolas
+  Ponthieu, and Anna Mangilli.
+\newblock {Absolute calibration of the polarisation angle for future CMB
+  $B$-mode experiments from current and future measurements of the Crab
+  nebula}.
+\newblock May 2018.
 
 \bibitem[{Planck 2018-II}(2018)]{Planck2018_II}
 {Planck 2018-II}.
