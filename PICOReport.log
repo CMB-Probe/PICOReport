@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  31 OCT 2018 14:25
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 OCT 2018 11:38
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -724,6 +728,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+<<<<<<< Updated upstream
 
 <images/PICO_science goals and probes.png, id=116, 1042.89626pt x 673.51625pt>
 File: images/PICO_science goals and probes.png Graphic file (type png)
@@ -738,6 +743,15 @@ although it is yet undefined on input line 46.
 Package acronym Info: Label `acro:SZ' newly defined as it shall be overridden
 although it is yet undefined on input line 64.
  [2 <./images/PICO_science goals and probes.png>]) (./fundamentalsci.tex
+=======
+Package acronym Info: Label `acro:SNR' newly defined as it shall be overridden
+although it is yet undefined on input line 37.
+ [1]
+Package acronym Info: Label `acro:SZ' newly defined as it shall be overridden
+although it is yet undefined on input line 55.
+ [2])
+(./fundamentalsci.tex
+>>>>>>> Stashed changes
 Package acronym Info: Label `acro:CMB' newly defined as it shall be overridden
 although it is yet undefined on input line 6.
  [3] (./stm.tex
@@ -766,6 +780,7 @@ Underfull \hbox (badness 2884) in paragraph at lines 36--36
 
 
 Overfull \vbox (131.0pt too high) detected at line 49
+<<<<<<< Updated upstream
  []
 
 
@@ -795,6 +810,37 @@ Overfull \vbox (24.0pt too high) detected at line 137
  []
 
 
+=======
+ []
+
+
+Overfull \vbox (350.0pt too high) detected at line 74
+ []
+
+
+Overfull \vbox (39.0pt too high) detected at line 85
+ []
+
+
+Overfull \vbox (158.0pt too high) detected at line 105
+ []
+
+
+Overfull \vbox (41.36pt too high) detected at line 111
+ []
+
+
+Underfull \hbox (badness 1394) in paragraph at lines 113--113
+[]\T1/ptm/m/n/10 Sum of neu-trino masses$[]$ ($\OT1/ztmcm/m/n/10 ^^F\OML/ztmcm/
+m/it/10 m[]$\T1/ptm/m/n/10 ):
+ []
+
+
+Overfull \vbox (24.0pt too high) detected at line 137
+ []
+
+
+>>>>>>> Stashed changes
 Underfull \hbox (badness 2884) in paragraph at lines 141--141
 \OT1/ztmcm/m/n/10 300$\T1/ptm/m/n/10 GHz over en-tire sky; Fore-
  []
@@ -809,6 +855,7 @@ Overfull \vbox (53.0pt too high) detected at line 150
  []
 
 
+<<<<<<< Updated upstream
 Underfull \hbox (badness 3492) in paragraph at lines 151--151
 \T1/ptm/m/n/10 are the dom-i-nant cause of low
  []
@@ -826,6 +873,25 @@ Underfull \hbox (badness 5446) in paragraph at lines 156--156
 
 Underfull \hbox (badness 1292) in paragraph at lines 156--156
 \T1/ptm/m/n/10 of molec-u-lar clouds and with $\OML/ztmcm/m/it/10 <
+=======
+Underfull \hbox (badness 2080) in paragraph at lines 151--151
+\T1/ptm/m/n/10 down to the cores of molec-u-lar
+ []
+
+
+Underfull \hbox (badness 2644) in paragraph at lines 151--151
+\T1/ptm/m/n/10 clouds to de-ter-mine if mag-netic
+ []
+
+
+Underfull \hbox (badness 1418) in paragraph at lines 151--151
+\T1/ptm/m/n/10 fields are the dom-i-nate cause of
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 156--156
+[]\T1/ptm/m/n/10 Intensity and lin-ear po-lar-iza-tion
+>>>>>>> Stashed changes
  []
 
 
@@ -843,7 +909,11 @@ Underfull \hbox (badness 1205) in paragraph at lines 176--176
  []
 
 
+<<<<<<< Updated upstream
 Overfull \hbox (23.73006pt too wide) in paragraph at lines 4--189
+=======
+Overfull \hbox (23.73006pt too wide) in paragraph at lines 4--204
+>>>>>>> Stashed changes
 [][]
  []
 
@@ -912,47 +982,69 @@ Underfull \hbox (badness 2119) in paragraph at lines 46--46
 \T1/ptm/m/n/10.95 are pre-dic-tions for the se-
  []
 
+<<<<<<< Updated upstream
 [6 <./images/nsrlabeledrp0005_PICOv4p1.pdf>] [7]
 <images/Neff_final.pdf, id=300, 554.59674pt x 457.1867pt>
+=======
+[6 <./images/nsrlabeledrp0005_PICOv4p1.pdf>]
+<images/Neff_final.pdf, id=289, 554.59674pt x 457.1867pt>
+>>>>>>> Stashed changes
 File: images/Neff_final.pdf Graphic file (type pdf)
 
 <use images/Neff_final.pdf>
 Package pdftex.def Info: images/Neff_final.pdf used on input line 89.
 (pdftex.def)             Requested size: 211.38832pt x 174.25595pt.
 
+<<<<<<< Updated upstream
 <images/Tf_pico.pdf, id=301, 549.50264pt x 411.52167pt>
+=======
+<images/Tf_pico.pdf, id=290, 549.50264pt x 411.52167pt>
+>>>>>>> Stashed changes
 File: images/Tf_pico.pdf Graphic file (type pdf)
 
 <use images/Tf_pico.pdf>
 Package pdftex.def Info: images/Tf_pico.pdf used on input line 90.
 (pdftex.def)             Requested size: 220.78543pt x 165.34042pt.
+<<<<<<< Updated upstream
 
 <images/Mnu_tauprior_final.pdf, id=310, 579.25044pt x 457.1867pt>
+=======
+ [7]
+<images/Mnu_tauprior_final.pdf, id=306, 579.25044pt x 457.1867pt>
+>>>>>>> Stashed changes
 File: images/Mnu_tauprior_final.pdf Graphic file (type pdf)
 
 <use images/Mnu_tauprior_final.pdf>
 Package pdftex.def Info: images/Mnu_tauprior_final.pdf used on input line 113.
 (pdftex.def)             Requested size: 225.4804pt x 177.96724pt.
 
+<<<<<<< Updated upstream
 <images/pico_dm_baryon.pdf, id=311, 434.26587pt x 288.49889pt>
+=======
+<images/pico_dm_baryon.pdf, id=307, 434.26587pt x 288.49889pt>
+>>>>>>> Stashed changes
 File: images/pico_dm_baryon.pdf Graphic file (type pdf)
 
 <use images/pico_dm_baryon.pdf>
 Package pdftex.def Info: images/pico_dm_baryon.pdf used on input line 114.
 (pdftex.def)             Requested size: 234.8775pt x 156.04239pt.
+Package acronym Info: Label `acro:BAO' newly defined as it shall be overridden
+although it is yet undefined on input line 125.
  [8 <./images/Neff_final.pdf> <./images/Tf_pico.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/Tf_pico.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
->]
-Package acronym Info: Label `acro:BAO' newly defined as it shall be overridden
-although it is yet undefined on input line 125.
- [9 <./images/Mnu_tauprior_final.pdf> <./images/pico_dm_baryon.pdf
+>] [9 <./images/Mnu_tauprior_final.pdf> <./images/pico_dm_baryon.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/pico_dm_baryon.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
+<<<<<<< Updated upstream
 >]) [10] (./extragalacticsci.tex
 <images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=481, 661.71594pt x 533
+=======
+>]) (./extragalacticsci.tex [10]
+<images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=477, 661.71594pt x 533
+>>>>>>> Stashed changes
 .22528pt>
 File: images/Reionization_Contours_zbar_delz_PICO_NEW.pdf Graphic file (type pd
 f)
@@ -960,15 +1052,25 @@ f)
 Package pdftex.def Info: images/Reionization_Contours_zbar_delz_PICO_NEW.pdf us
 ed on input line 23.
 (pdftex.def)             Requested size: 216.81pt x 174.71188pt.
+<<<<<<< Updated upstream
  [11]
 <images/lensingNoisePICO.pdf, id=501, 442.65375pt x 442.65375pt>
+=======
+ [11 <./images/Reionization_Contours_zbar_delz_PICO_NEW.pdf>]
+<images/lensingNoisePICO.pdf, id=560, 442.65375pt x 442.65375pt>
+>>>>>>> Stashed changes
 File: images/lensingNoisePICO.pdf Graphic file (type pdf)
 
 <use images/lensingNoisePICO.pdf>
 Package pdftex.def Info: images/lensingNoisePICO.pdf used on input line 51.
 (pdftex.def)             Requested size: 180.67499pt x 180.67868pt.
+<<<<<<< Updated upstream
  [12 <./images/Reionization_Contours_zbar_delz_PICO_NEW.pdf>]
 <images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf, id=582, 578.16pt x 433.62pt>
+=======
+ [12 <./images/lensingNoisePICO.pdf>]
+<images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf, id=594, 578.16pt x 433.62pt>
+>>>>>>> Stashed changes
 File: images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf Graphic file (type pdf)
 <use images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf>
 Package pdftex.def Info: images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf used 
@@ -980,7 +1082,11 @@ Overfull \hbox (14.06749pt too wide) in paragraph at lines 65--72
  []
 
 
+<<<<<<< Updated upstream
 <images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf, id=583, 578.16pt x 433.62pt>
+=======
+<images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf, id=595, 578.16pt x 433.62pt>
+>>>>>>> Stashed changes
 File: images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf Graphic file (type pdf)
 
 <use images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf>
@@ -992,6 +1098,7 @@ Overfull \hbox (14.06749pt too wide) in paragraph at lines 75--82
 []  $[]$   $[]$
  []
 
+<<<<<<< Updated upstream
 [13 <./images/lensingNoisePICO.pdf> <./images/PICO_fnl_lmin_PICOv4.1b_deproj0_S
 ENS0.pdf
 
@@ -1005,13 +1112,32 @@ Package epstopdf Info: Source file: <images/m500lim_vs_z_pico_polar_v3.eps>
 (epstopdf)             Output file: <images/m500lim_vs_z_pico_polar_v3-eps-conv
 erted-to.pdf>
 (epstopdf)                    date: 2018-10-31 14:19:20
+=======
+[13 <./images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf> <./images/PICO_s8_lmax
+_PICOv4.1b_deproj0_SENS0.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/PICO_s8_lmax_PICOv4
+.1b_deproj0_SENS0.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>]
+Package epstopdf Info: Source file: <images/m500lim_vs_z_pico_polar_v3.eps>
+(epstopdf)                    date: 2018-10-31 10:38:43
+(epstopdf)                    size: 14195 bytes
+(epstopdf)             Output file: <images/m500lim_vs_z_pico_polar_v3-eps-conv
+erted-to.pdf>
+(epstopdf)                    date: 2018-10-31 10:38:47
+>>>>>>> Stashed changes
 (epstopdf)                    size: 9113 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/m500lim_vs_z_pico_p
 olar_v3-eps-converted-to.pdf images/m500lim_vs_z_pico_polar_v3.eps>
 (epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
 
+<<<<<<< Updated upstream
 <images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf, id=687, 505.89pt x 361
+=======
+<images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf, id=720, 505.89pt x 361
+>>>>>>> Stashed changes
 .35pt>
 File: images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1019,16 +1145,26 @@ File: images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf
  used on input line 92.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
+<<<<<<< Updated upstream
  [14 <./images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf> <./images/m500lim_vs_z
 _pico_polar_v3-eps-converted-to.pdf>]
 <images/PICO_tSZ_PS_plot.pdf, id=741, 462.52798pt x 346.89601pt>
+=======
+ [14 <./images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf>]
+<images/PICO_tSZ_PS_plot.pdf, id=739, 462.52798pt x 346.89601pt>
+>>>>>>> Stashed changes
 File: images/PICO_tSZ_PS_plot.pdf Graphic file (type pdf)
 
 <use images/PICO_tSZ_PS_plot.pdf>
 Package pdftex.def Info: images/PICO_tSZ_PS_plot.pdf used on input line 138.
 (pdftex.def)             Requested size: 216.81pt x 162.6071pt.
+<<<<<<< Updated upstream
  [15]) (./galacticsci.tex
 <galsci_fig.pdf, id=758, 2621.68448pt x 909.30713pt>
+=======
+ [15 <./images/PICO_tSZ_PS_plot.pdf>])
+(./galacticsci.tex <galsci_fig.pdf, id=785, 2621.68448pt x 909.30713pt>
+>>>>>>> Stashed changes
 File: galsci_fig.pdf Graphic file (type pdf)
  <use galsci_fig.pdf>
 Package pdftex.def Info: galsci_fig.pdf used on input line 31.
@@ -1050,6 +1186,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--64
 [][]
  []
 
+<<<<<<< Updated upstream
 ) (./LegacyOct30.tex
 <images/fig_SED_PICO.jpg, id=930, 322.3242pt x 229.5777pt>
 File: images/fig_SED_PICO.jpg Graphic file (type jpg)
@@ -1058,6 +1195,16 @@ File: images/fig_SED_PICO.jpg Graphic file (type jpg)
 Package pdftex.def Info: images/fig_SED_PICO.jpg used on input line 8.
 (pdftex.def)             Requested size: 192.60127pt x 137.18369pt.
 
+=======
+) (./LegacyOct30.tex <fig_SED_PICO.jpg, id=915, 326.6604pt x 241.8636pt>
+File: fig_SED_PICO.jpg Graphic file (type jpg)
+
+<use fig_SED_PICO.jpg>
+Package pdftex.def Info: fig_SED_PICO.jpg used on input line 8.
+(pdftex.def)             Requested size: 201.99121pt x 149.5553pt.
+ <NgtF_pico_new.jpg, id=917, 536.55pt x 543.85pt>
+File: NgtF_pico_new.jpg Graphic file (type jpg)
+>>>>>>> Stashed changes
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/NgtF_pico_NEW.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
@@ -1076,56 +1223,82 @@ LaTeX Warning: Reference `lensing' on page 23 undefined on input line 17.
 LaTeX Warning: Reference `sec:fundamental' on page 23 undefined on input line 1
 7.
 
+<<<<<<< Updated upstream
 [23]) (./foregrounds.tex
 <images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1042, 1027.84pt x 7
+=======
+[23]) (./foregrounds.tex [24]
+<images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1022, 1027.84pt x 7
+>>>>>>> Stashed changes
 70.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf Graphic file (type
  pdf)
  <use images/sensitivity_vs_frequency_Jun29th_2018_large.pdf>
 Package pdftex.def Info: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf
- used on input line 12.
+ used on input line 13.
 (pdftex.def)             Requested size: 230.18253pt x 172.62889pt.
 
+<<<<<<< Updated upstream
 <images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1043, 1027.84pt x 77
+=======
+<images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1023, 1027.84pt x 77
+>>>>>>> Stashed changes
 0.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf Graphic file (type 
 pdf)
  <use images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf>
 Package pdftex.def Info: images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf 
-used on input line 13.
+used on input line 14.
 (pdftex.def)             Requested size: 230.18253pt x 172.62889pt.
+<<<<<<< Updated upstream
  [24]
 
 Package natbib Warning: Citation `??' on page 25 undefined on input line 21.
+=======
+
+
+Package natbib Warning: Citation `??' on page 25 undefined on input line 22.
+
+[25 <./images/sensitivity_vs_frequency_Jun29th_2018_large.pdf> <./images/sensit
+ivity_vs_frequency_Jun29th_2018_2deg.pdf>]
+
+Package natbib Warning: Citation `which??' on page 26 undefined on input line 2
+6.
+>>>>>>> Stashed changes
 
 [25 <./images/sensitivity_vs_frequency_Jun29th_2018_large.pdf> <./images/sensit
 ivity_vs_frequency_Jun29th_2018_2deg.pdf>]
 
 Package natbib Warning: Citation `healpix' on page 26 undefined on input line 3
-3.
+4.
 
 
-Package natbib Warning: Citation `??' on page 26 undefined on input line 33.
+Package natbib Warning: Citation `??' on page 26 undefined on input line 34.
 
 
-LaTeX Warning: Reference `fig:skymodels' on page 26 undefined on input line 33.
+LaTeX Warning: Reference `fig:skymodels' on page 26 undefined on input line 34.
 
 
 
 Package natbib Warning: Citation `foregroundappendix' on page 26 undefined on i
-nput line 33.
+nput line 34.
 
 
-Package natbib Warning: Citation `sevem' on page 26 undefined on input line 38.
+Package natbib Warning: Citation `sevem' on page 26 undefined on input line 39.
 
 
 Package acronym Info: Label `acro:ILC' newly defined as it shall be overridden
+<<<<<<< Updated upstream
 although it is yet undefined on input line 38.
+=======
+although it is yet undefined on input line 39.
+>>>>>>> Stashed changes
 ) (./systematics.tex [26]
 
 LaTeX Warning: Reference `tbl:SystematicsList' on page 27 undefined on input li
 ne 40.
 
+[27]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 52.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
@@ -1155,17 +1328,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--120
 []\T1/ptm/m/n/8 increased
  []
 
+<<<<<<< Updated upstream
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <images/PICO_rotate_eb4_v2.pdf, id=1100, 597.23125pt x 397.485pt>
+=======
+<images/PICO_rotate_eb4_v2.pdf, id=1086, 597.23125pt x 397.485pt>
+>>>>>>> Stashed changes
 File: images/PICO_rotate_eb4_v2.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb4_v2.pdf>
 Package pdftex.def Info: images/PICO_rotate_eb4_v2.pdf used on input line 265.
 (pdftex.def)             Requested size: 281.85587pt x 187.58824pt.
 
+<<<<<<< Updated upstream
 <images/calibration_spectrum_BB.pdf, id=1101, 462.22687pt x 388.80946pt>
+=======
+<images/calibration_spectrum_BB.pdf, id=1087, 462.22687pt x 388.80946pt>
+>>>>>>> Stashed changes
 File: images/calibration_spectrum_BB.pdf Graphic file (type pdf)
 
 <use images/calibration_spectrum_BB.pdf>
@@ -1177,7 +1358,11 @@ Overfull \hbox (2.28001pt too wide) in paragraph at lines 265--266
 [][] [] 
  []
 
+<<<<<<< Updated upstream
 [27] [28]
+=======
+[28]
+>>>>>>> Stashed changes
 
 LaTeX Warning: Reference `fig:calibration_spectra' on page 29 undefined on inpu
 t line 326.
@@ -1186,7 +1371,11 @@ t line 326.
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 340.
 
 
+<<<<<<< Updated upstream
 (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
+=======
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsptm.fd
+>>>>>>> Stashed changes
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
@@ -1229,9 +1418,13 @@ Package rerunfilecheck Info: File `PICOReport.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
  11680 strings out of 492995
  174337 string characters out of 6132704
  332394 words of memory out of 5000000
@@ -1270,4 +1463,43 @@ PDF statistics:
  1058 compressed objects within 11 object streams
  265 named destinations out of 1000 (max. 500000)
  318 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 11607 strings out of 493014
+ 173027 string characters out of 6133351
+ 330935 words of memory out of 5000000
+ 14610 multiletter control sequences out of 15000+600000
+ 104101 words of font info for 168 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 53i,12n,92p,4486b,780s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2016/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/
+urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/nc
+ntrsbk/uncr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/us
+yr.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-di
+st/fonts/type1/urw/times/utmri8a.pfb>
+Output written on PICOReport.pdf (52 pages, 5444450 bytes).
+PDF statistics:
+ 1406 PDF objects out of 1440 (max. 8388607)
+ 1036 compressed objects within 11 object streams
+ 264 named destinations out of 1000 (max. 500000)
+ 313 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> Stashed changes
 
