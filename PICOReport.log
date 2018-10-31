@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 OCT 2018 17:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 OCT 2018 17:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1116,30 +1116,30 @@ although it is yet undefined on input line 39.
 
 LaTeX Warning: Reference `fig:psm_mr' on page 26 undefined on input line 50.
 
-
-LaTeX Warning: Reference `fig:gnilc' on page 26 undefined on input line 53.
-
-[26] <images/commander_foregrounds_BB.png, id=1092, 906.7476pt x 351.2322pt>
+<images/commander_foregrounds_BB.png, id=1087, 906.7476pt x 351.2322pt>
 File: images/commander_foregrounds_BB.png Graphic file (type png)
 
 <use images/commander_foregrounds_BB.png>
 Package pdftex.def Info: images/commander_foregrounds_BB.png used on input line
- 70.
+ 56.
 (pdftex.def)             Requested size: 325.215pt x 125.97186pt.
 
-<images/soumen_NILC_foregrounds_93.png, id=1093, 422.378pt x 313.17pt>
+
+LaTeX Warning: Reference `fig:gnilc' on page 26 undefined on input line 70.
+
+[26] <images/soumen_NILC_foregrounds_93.png, id=1093, 422.378pt x 313.17pt>
 File: images/soumen_NILC_foregrounds_93.png Graphic file (type png)
 
 <use images/soumen_NILC_foregrounds_93.png>
 Package pdftex.def Info: images/soumen_NILC_foregrounds_93.png used on input li
-ne 82.
+ne 88.
 (pdftex.def)             Requested size: 216.81pt x 160.75153pt.
 
 
-LaTeX Warning: Reference `fig:gnilc' on page 27 undefined on input line 103.
+LaTeX Warning: Reference `fig:gnilc' on page 27 undefined on input line 109.
 
 
-LaTeX Warning: Reference `fig:psm_mr' on page 27 undefined on input line 105.
+LaTeX Warning: Reference `fig:psm_mr' on page 27 undefined on input line 111.
 
 [27 <./images/commander_foregrounds_BB.png> <./images/soumen_NILC_foregrounds_9
 3.png>]) (./systematics.tex [28]
@@ -1176,14 +1176,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--120
 []\T1/ptm/m/n/8 increased
  []
 
-<images/PICO_rotate_eb4_v2.pdf, id=1131, 597.23125pt x 397.485pt>
+[29] <images/PICO_rotate_eb4_v2.pdf, id=1138, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb4_v2.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb4_v2.pdf>
 Package pdftex.def Info: images/PICO_rotate_eb4_v2.pdf used on input line 265.
 (pdftex.def)             Requested size: 281.85587pt x 187.58824pt.
 
-<images/calibration_spectrum_BB.pdf, id=1132, 462.22687pt x 388.80946pt>
+<images/calibration_spectrum_BB.pdf, id=1139, 462.22687pt x 388.80946pt>
 File: images/calibration_spectrum_BB.pdf Graphic file (type pdf)
 
 <use images/calibration_spectrum_BB.pdf>
@@ -1195,8 +1195,7 @@ Overfull \hbox (2.28001pt too wide) in paragraph at lines 265--266
 [][] [] 
  []
 
-[29] [30 <./images/PICO_rotate_eb4_v2.pdf> <./images/calibration_spectrum_BB.pd
-f>]
+[30 <./images/PICO_rotate_eb4_v2.pdf> <./images/calibration_spectrum_BB.pdf>]
 
 LaTeX Warning: Reference `fig:calibration_spectra' on page 31 undefined on inpu
 t line 326.
@@ -1281,7 +1280,7 @@ r.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr
 live/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (54 pages, 6734745 bytes).
+Output written on PICOReport.pdf (54 pages, 6734771 bytes).
 PDF statistics:
  1457 PDF objects out of 1728 (max. 8388607)
  1068 compressed objects within 11 object streams
