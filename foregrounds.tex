@@ -56,16 +56,15 @@ Our results validate the need for a broad frequency coverage with a strong lever
 \includegraphics[width=4.5in]{images/commander_foregrounds_BB.png} }}
 %\hspace{0.in}
 %\parbox{2.0in}{
-\caption{Foreground removal with all of PICO's 21 frequency bands (left panel) recovers the input CMB (green) without any bias (red) using the Commander algorithm on the \planck\ sky model (with 4~deg pixels, \comor{and 60\%} sky fraction). Running the same algorithm on the same sky without several of the lowest and highest bands (right panel) produces an output spectrum (red) that is biased relative to the input (green) at low $\ell$ multipoles. The bias would be interpreted as higher value of $r$ relative to the model input (solid) with $r=0.001$ (dots) and lensing (dash). 
+\caption{Foreground removal with all of PICO's 21 frequency bands (left panel) recovers the input CMB (green) without any bias (red) using the Commander algorithm on the \planck\ sky model (with 4~deg pixels, \comor{and 60\%} sky fraction). Running the same algorithm on the same sky without several of the lowest and highest bands (right panel) produces an output spectrum (red) that is biased relative to the input (green) at low $\ell$ multipoles. The bias would be interpreted as higher value of $r$ relative to the model input (solid black) with $r=0.001$ (dots) and lensing (dash). 
 \label{fig:commander}}
-\vspace{-0.05in}
+\vspace{-0.0in}
 \end{figure}
 
 
-There is also some evidence that at levels of $r \simeq 0.001$ 
+There is also evidence that at levels of $r \simeq 0.001$ the combination of sensitivity and broad frequency coverage are efficacious in foreground removal. Figure~\ref{fig:nilc} shows a result from the gold standard process described above for one of the sky models and with an input \ac{IGW} of $r=0.003$. Residual foregrounds are below the cosmological signal over the important low $\ell$ range, where foregrounds are strongest. The residual spectra would likely be lower when analysis is carried out on only 50 or 40\% of the sky, rather than the 60\% used here. 
 
-This result should not be interpreted as conclusively demonstrating that a frequency span up to 800 GHz has been proven to be essential. At this point of time, different input sky models, coupled to different foreground separation techniques may yield different results. Rather, the conclusion is that further improvement in our modeling and analysis is required. 
-
+There is other evidence that PICO can reach its stated target of $\sigma(r) = 0.0001$. Map-based simulations that were carried out for the forthcoming CMB-S4 experiment have shown that it can reach levels of $\sigma(r) = 0.0005$ in small, 3\%-size, clean patches of the sky. The analysis only used frequencies up to 300~GHz. In principle, even smaller patches of 1-2\% size are sufficient, and preferable, for attaining as low $\sigma(r)$ as possible. The PICO noise level per sky pixel is similar to that of CMB-S4, but PICO will have {\it full} sky coverage and thus access to {\it all} the clean patches available. Data from \planck\ indicate that there are $\sim10$ \comor{check!} patches as clean, or cleaner than those used for the CMB-S4 analysis, indicating that PICO's $\sigma{r}$ should be $\sim3$ times more stringent. This scaling is very conservative because it only assumes CMB-S4's much narrower breadth of frequency coverage and its 7 bands \comor{check}; it neglects PICOs much stronger rejection of foregrounds with 21 bands and up to 800~GHz.  
 
 \begin{figure}
 \hspace{-0.1in}
@@ -73,13 +72,15 @@ This result should not be interpreted as conclusively demonstrating that a frequ
 \includegraphics[width=3.0in]{images/soumen_NILC_foregrounds_93.png}}}
 \hspace{0.25in}
 \parbox{3.0in}{
-\caption{Caption . . . \dotfill
+\caption{The power spectrum of residual $BB$ foregrounds (green) has lower level than both the input CMB (blue) and the recovered CMB (red) which match well each other and the underlying cosmological model (black) after foreground separation with the NILC algorithm. This exercise assumed use of 60\% of the sky.   
 \label{fig:nilc}}}
 \vspace{-0.1in}
 \end{figure}
 
+\comor{few words about xforecast, and results from Raphael}
 
-The most important lesson arising from our exercise is that more work is required to ascertain that levels of $r \lesssim 0.001$ can be determined robustly on the largest angular scales, that is from the reionization peak.  Figure~\ref{fig:nilc} shows results from the NILC analysis. For several of the sky models the power spectra of the residual level of foregrounds -- that is the level of foregrounds remaining in the map after foreground separation -- is below the cosmological \ac{IGW} level with $r =0.003$. For a minority of the models, the residual is higher at $\ell \lesssim 20$. Results from GNILC, shown in Figure~\ref{fig:gnilc}, are similar. In all cases, the analyses are carried out using 60\% of the sky, the results shown are from one realization, and that no further optimization of the basic foreground separation technique has yet been applied. 
+While our results are encouraging, as they suggest that PICO's frequency coverage and sensitivity will be adequate for this level of $r$, more work should be invested to gain complete confidence. This work includes running numerous realizations of different sky models, and analyzing them with various techniques; optimizing sky masks; and using combination of techniques to handle large, intermediate, and small angular scale foregrounds differently. 
+
 
 %\begin{figure}
 %\hspace{-0.1in}
@@ -93,40 +94,6 @@ The most important lesson arising from our exercise is that more work is require
 %\end{figure}
 
 
-
-
-%\begin{figure}
-%\hspace{-0.1in}
-%\parbox{4.0in}{\centerline {
-%\includegraphics[width=0.6\textwidth]{images/mathieu_GNILC_foregrounds.png}}}
-%\hspace{0.in}
-%\parbox{2.0in}{
-%\caption{Caption . . . 
-%\label{fig:gnilc} } }
-%\vspace{-0.1in}
-%\end{figure}
-
-
-
-The most important lesson arising from our exercise is that more work is required to ascertain that levels of $r \lesssim 0.001$ can be determined robustly on the largest angular scales, that is from the reionization peak.  Figure~\ref{fig:nilc} shows results from the NILC analysis. For several of the sky models the power spectra of the residual level of foregrounds -- that is the level of foregrounds remaining in the map after foreground separation -- is below the cosmological \ac{IGW} level with $r =0.003$. For a minority of the models, the residual is higher at $\ell \lesssim 20$. Results from GNILC, shown in Figure~\ref{fig:gnilc}, are similar. In all cases, the analyses are carried out using 60\% of the sky, the results shown are from one realization, and that no further optimization of the basic foreground separation technique has yet been applied. 
-
-More work is also required to understand the necessary span of frequencies required. Figure~\ref{fig:psm_mr} shows that removing several of PICO's frequency bands, in this case the three highest, significantly biases the extracted $BB$ power spectrum, particularly at the lowest $\ell$ values. This result should not be interpreted as conclusively demonstrating that a frequency span up to 800 GHz has been proven to be essential. At this point of time, different input sky models, coupled to different foreground separation techniques may yield different results. Rather, the conclusion is that further improvement in our modeling and analysis is required. 
-
-While these initial results are encouraging, as they suggest that PICO's frequency coverage and sensitivity may be adequate for this level of $r$, more work should be invested to gain complete confidence that this and lower levels of $r$ can be extracted. This work includes, but not limited to: running more realizations; is ahead to 
-
-Reducing the sky area used to 50 or
-
-
-
-
-\noindent{\bf Required Frequency Span} \hspace{0.1in}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Discussion}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
 \end{document}
 
 %\begin{figure}[!htb]
@@ -135,6 +102,11 @@ Reducing the sky area used to 50 or
 %\caption{example}
 %\label{fig:im_3}
 %\end{figure}
+
+%The most important lesson arising from our exercise is that more work is required to ascertain that levels of $r \lesssim 0.001$ can be determined robustly on the largest angular scales, that is from the reionization peak.  Figure~\ref{fig:nilc} shows results from the NILC analysis. For several of the sky models the power spectra of the residual level of foregrounds -- that is the level of foregrounds remaining in the map after foreground separation -- is below the cosmological \ac{IGW} level with $r =0.003$. For a minority of the models, the residual is higher at $\ell \lesssim 20$. Results from GNILC, shown in Figure~\ref{fig:gnilc}, are similar. In all cases, the analyses are carried out using 60\% of the sky, the results shown are from one realization, and that no further optimization of the basic foreground separation technique has yet been applied. 
+
+%More work is also required to understand the necessary span of frequencies required. Figure~\ref{fig:psm_mr} shows that removing several of PICO's frequency bands, in this case the three highest, significantly biases the extracted $BB$ power spectrum, particularly at the lowest $\ell$ values. This result should not be interpreted as conclusively demonstrating that a frequency span up to 800 GHz has been proven to be essential. At this point of time, different input sky models, coupled to different foreground separation techniques may yield different results. Rather, the conclusion is that further improvement in our modeling and analysis is required. 
+
 
 
 %The baseline design of PICO has 21 channels observing the sky in the 20\,GHz to 800\,GHz frequency range (Fig.~\ref{fig:pico-channels-and-fg}). By analysing how the total emission varies across frequency bands, one can infer the detailed emission properties of the various emission components, form linear combinations of the observations that maximise the contribution of a component of interest while minimising contamination by the others and by instrumental noise, and understand the properties of the foregrounds to evaluate potential residuals in the CMB B-mode map. Various such techniques have been successfully used in previous CMB observations such as those of the Planck mission. Building on this existing expertise, we have carried out map based simulations within a ``data challenge'' framework to assess the capacity of PICO to measure the main signal of interest (CMB primordial B-modes). In this process one group prepares sets of simulated maps for different models of foreground emission of varying complexity from optimistic to pessimistic, which are placed in a shared area. These are then re-analyzed by multiple individuals and groups employing various different component separation algorithms.
