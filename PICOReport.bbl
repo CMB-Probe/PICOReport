@@ -1,4 +1,4 @@
-\begin{thebibliography}{166}
+\begin{thebibliography}{168}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1953,6 +1953,42 @@ Hao-Yi Wu and Olivier Doré.
 \newblock \emph{Mon. Not. Roy. Astron. Soc.}, 467\penalty0 (4):\penalty0
   4150--4160, 2017.
 \newblock \doi{10.1093/mnras/stx380}.
+
+\bibitem[Kang et~al.(2018)Kang, Ade, Ahmed, Aikin, Alexander, Barkats, Benton,
+  Bischoff, Bock, Boenish, et~al.]{kang20182017}
+Jae~Hwan Kang, PAR Ade, Z~Ahmed, RW~Aikin, KD~Alexander, D~Barkats, SJ~Benton,
+  CA~Bischoff, JJ~Bock, H~Boenish, et~al.
+\newblock 2017 upgrade and performance of bicep3: a 95ghz refracting telescope
+  for degree-scale cmb polarization.
+\newblock In \emph{Millimeter, Submillimeter, and Far-Infrared Detectors and
+  Instrumentation for Astronomy IX}, volume 10708, page 107082N. International
+  Society for Optics and Photonics, 2018.
+
+\bibitem[{Rahlin} et~al.(2014){Rahlin}, {Ade}, {Amiri}, {Benton}, {Bock},
+  {Bond}, {Bryan}, {Chiang}, {Contaldi}, {Crill}, {Dor{\'e}}, {Farhang},
+  {Filippini}, {Fissel}, {Fraisse}, {Gambrel}, {Gandilo}, {Golwala},
+  {Gudmundsson}, {Halpern}, {Hasselfield}, {Hilton}, {Holmes}, {Hristov},
+  {Irwin}, {Jones}, {Kermish}, {Kuo}, {MacTavish}, {Mason}, {Megerian},
+  {Moncelsi}, {Morford}, {Nagy}, {Netterfield}, {O'Brient}, {Reintsema},
+  {Ruhl}, {Runyan}, {Shariff}, {Soler}, {Trangsrud}, {Tucker}, {Tucker},
+  {Turner}, {Weber}, {Wiebe}, and {Young}]{2014SPIE.9153E..13R}
+A.~S. {Rahlin}, P.~A.~R. {Ade}, M.~{Amiri}, S.~J. {Benton}, J.~J. {Bock}, J.~R.
+  {Bond}, S.~A. {Bryan}, H.~C. {Chiang}, C.~R. {Contaldi}, B.~P. {Crill},
+  O.~{Dor{\'e}}, M.~{Farhang}, J.~P. {Filippini}, L.~M. {Fissel}, A.~A.
+  {Fraisse}, A.~E. {Gambrel}, N.~N. {Gandilo}, S.~{Golwala}, J.~E.
+  {Gudmundsson}, M.~{Halpern}, M.~F. {Hasselfield}, G.~{Hilton}, W.~A.
+  {Holmes}, V.~V. {Hristov}, K.~D. {Irwin}, W.~C. {Jones}, Z.~D. {Kermish},
+  C.~L. {Kuo}, C.~J. {MacTavish}, P.~V. {Mason}, K.~{Megerian}, L.~{Moncelsi},
+  T.~A. {Morford}, J.~M. {Nagy}, C.~B. {Netterfield}, R.~{O'Brient},
+  C.~{Reintsema}, J.~E. {Ruhl}, M.~C. {Runyan}, J.~A. {Shariff}, J.~D. {Soler},
+  A.~{Trangsrud}, C.~{Tucker}, R.~S. {Tucker}, A.~D. {Turner}, A.~C. {Weber},
+  D.~V. {Wiebe}, and E.~Y. {Young}.
+\newblock {Pre-flight integration and characterization of the SPIDER
+  balloon-borne telescope}.
+\newblock In \emph{Millimeter, Submillimeter, and Far-Infrared Detectors and
+  Instrumentation for Astronomy VII}, volume 9153 of \emph{SPIE Proceedings},
+  page 915313, July 2014.
+\newblock \doi{10.1117/12.2055683}.
 
 \bibitem[{Hu} et~al.(2003){Hu}, {Hedman}, and {Zaldarriaga}]{hu03}
 W.~{Hu}, M.~M. {Hedman}, and M.~{Zaldarriaga}.
