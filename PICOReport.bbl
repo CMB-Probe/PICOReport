@@ -1,4 +1,4 @@
-\begin{thebibliography}{168}
+\begin{thebibliography}{169}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -1989,6 +1989,14 @@ A.~S. {Rahlin}, P.~A.~R. {Ade}, M.~{Amiri}, S.~J. {Benton}, J.~J. {Bock}, J.~R.
   Instrumentation for Astronomy VII}, volume 9153 of \emph{SPIE Proceedings},
   page 915313, July 2014.
 \newblock \doi{10.1117/12.2055683}.
+
+\bibitem[{Remazeilles} et~al.(2016){Remazeilles}, {Dickinson}, {Eriksen}, and
+  {Wehus}]{remazeilles/etal:2016}
+M.~{Remazeilles}, C.~{Dickinson}, H.~K.~K. {Eriksen}, and I.~K. {Wehus}.
+\newblock {Sensitivity and foreground modelling for large-scale cosmic
+  microwave background B-mode polarization satellite missions}.
+\newblock \emph{\mnras}, 458:\penalty0 2032--2050, May 2016.
+\newblock \doi{10.1093/mnras/stw441}.
 
 \bibitem[{Hu} et~al.(2003){Hu}, {Hedman}, and {Zaldarriaga}]{hu03}
 W.~{Hu}, M.~M. {Hedman}, and M.~{Zaldarriaga}.
