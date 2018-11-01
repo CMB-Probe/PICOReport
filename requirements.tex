@@ -32,39 +32,33 @@ for minimizing the error on the neutrino mass measurement. \\
 (2) If $r \ne 0 $, the $BB$ power spectrum due to IGW (STM SO1) has local maxima on large angular scales
 (20 to 90 degrees, $ 2 \leq \ell \leq 10$), and around 1~degree ($ \ell \simeq 80$). 
 A detection would strongly benefit from confirmation at {\it both} angular 
-scales -- a goal that is beyond the capabilities of ground-based instruments -- {\it and}, for the $\ell = 80$ peak, 
-in several independent patches of the sky, a goal PICO will achieve, but that is currently not planned for any next decade instrument.  \\
+scales -- a goal that is beyond the capabilities of ground-based instruments -- and, for the $\ell = 80$ peak, 
+{\it in several independent patches of the sky}, a goal PICO will achieve, but that is currently not planned for 
+any next decade instrument.  \\
 (3) The PICO constraint on $N_{eff}$ (STM SO4) requires a determination of the $EE$ power spectrum to limits
 imposed by the statics of available $\ell$ modes. Full sky coverage is required to achieve this limit.  \\
 (4) Achieving the neutrino mass limits (STM SO3), giving two independent $4\sigma$ constraints on the minimal sum of 58~meV, requires
-a lensing map, and cluster counts from as large a sky fraction as possible. 
+a lensing map, and cluster counts from as large a sky fraction as possible. \\
 (4) PICO's survey of the Galactic plane and regions outside of it is essential to achieving its Galactic structure 
 and star formation science goals (SO6, 7). \\
 %
 $\bullet$ {\bf Frequency Bands} \hspace{0.1in} The multitude of astrophysical signals that PICO will characterize 
-determine the frequency range and number of sub-bands that PICO uses. The IGW signal peaks 
+determine the frequency range and number of bands that the mission uses. The \ac{IGW} signal peaks 
 in the frequency range between 30 and 300 GHz. However, Galactic signals, which are themselves signals PICO strives to 
 characterize, are a source of confusion for the IGW. The Galactic signals and the IGW are separable using their 
 spectral signature. Simulations indicate that 21 bands, each with $\sim$25\% bandwidth, that are spread across 
 the range of 20 - 800~GHz can achieve the separation at the level of fidelity required by PICO. 
 
 Characterizing the Galactic signals, specifically the make up of Galactic dust (SO7), requires spectral characterization 
-of galactic dust in frequencies between 100 and 800~GHz. \comblue{Aren't there synchrotron questions that 
-are answerable with spectral information?} \\
+of galactic dust in frequencies between 100 and 800~GHz. \\ 
+%\comblue{Aren't there synchrotron questions that are answerable with spectral information?} \\
 %
 $\bullet$ {\bf Resolution} \hspace{0.1in} 
-Several science objectives require an aperture of 1.5~m and the resolution listed in Table~\ref{tab:STM}. To reach 
-$\sigma(r) = ??$ we will need to 'delens' the $E$- and $B$-mode maps that PICO will generate; see Section~\ref{sec:lensing}. 
-Delensing is enabled with a map that has a native resolution of 2-3 arcminutes at frequencies between ~100 and ~300~GHz. 
-Similar resolution is required to achieve the constraints on the number of light relics (SO??), which will be extracted from the 
-$EE$ power spectrum at multipoles $100 \lessapprox \ell \lessapprox 2500$.  
-The process of delensing may be affected by other signals, primarily the signal due to Galactic dust. It is thus required to 
-map Galactic dust to at least the same resolution as at ~300~GHz. Higher resolution is mandated by science objectives 
-6,7, and 8, which require resolution of 1 arcminute at 800~GHz.  We have thus chosen to implement diffracted limited 
-resolution between 20 and 800~GHz. \\
+Several science objectives require an aperture of 1.5~m and the resolution per frequency listed in Table~\ref{tab:STM}. To reach $\sigma(r) = 1\cdot10^{-4}$ we will need to `delens' the $E$- and $B$-mode maps, as describe in Sections~\ref{sec:fundamentalsci} and~\ref{sec:extragalacticsci}. Delensing is enabled with a map that has a native resolution of 2-3 arcminutes at frequencies between ~100 and ~300~GHz. Similar resolution is required to achieve the constraints on the number of light relics (SO4), which will be extracted from the $EE$ power spectrum at multipoles $100 \lesssim \ell \lesssim 2500$.  The process of delensing may be affected by other signals, primarily the signal due to Galactic dust. It is thus required to map Galactic dust to at least the same resolution as at ~300~GHz. Higher resolution is mandated by SO6 and 7, which require resolution of 1 arcminute at 800~GHz.  We have thus chosen to implement diffracted limited resolution between 20 and 800~GHz. \\
 %
 $\bullet$ {\bf Sky Scan Pattern} \hspace{0.1in} 
-\comblue{polarization systematics, 1/f noise}
+Control of polarization systematics uncertainties at anticipated levels is enabled by (1) making $I$, $Q$, and $U$ stokes parameters maps of the entire sky from each independent detector; and (2) by enabling sub-percent absolute gain calibration of the detectors through observations of the CMB dipole.  With these requirements we chose a sky scan pattern that enables each detector to scan a given pixel of the sky in multitude of directions, satisfying requirement (1). The scan we chose also gives strong CMB dipole signals in every rotation of the spacecraft throughout the lifetime of the mission, satisfying requirement (2). 
+% need to be more quantitative. 
 
  
 \end{document}
