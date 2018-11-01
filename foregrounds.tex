@@ -33,6 +33,8 @@ Foreground uncertainties, and the level of fidelity required in their characteri
 
 To investigate the capacity of PICO to address this foreground separation problem, we use the approach that has become the `gold standard' in the community. In this approach we simulate sky maps that are constrained by available data, but otherwise have a mixtures of foreground properties. We  `observe' these maps just like a realistic experiment will do, and then apply foreground separation techniques to separate the Galactic and CMB emissions. We also provide forecasts using other techniques that use analytic calculations to estimate the efficacy of foreground separation, or others in which the simulated sky map is assumed to have specific Galactic emission models, which are then being fitted. 
 
+
+
 %Foreground uncertainties, and the level of fidelity required in their characterization, also compel a transition in the way we assess and forecast the performance of a future experiment. We can no longer impose specific models upon the data. Rather, the data collected should provide information to constrain Galactic emissions with sufficient accuracy. For PICO we use the approach that has become the `gold standard' in the community. In this approach we simulate sky maps that are constrained by available data, but otherwise have a mixtures of foreground properties, observe these maps just like a realistic experiment will do, and then apply foreground separation techniques to separate the Galactic and CMB emissions. We also provide forecasts using other techniques that use analytic calculations to estimate the efficacy of foreground separation, or others in which the simulated sky map is assumed to have specific Galactic emission models, which are then being fitted. 
 
 %\comor{now need to connect to the next paragraphs} As we show below, the PICO broad frequency coverage, coupled with high sensitivity enables studying the sky using the PICO data themselves rather than assuming what the sky is, and fitting our models to these assumptions. 
@@ -40,6 +42,13 @@ To investigate the capacity of PICO to address this foreground separation proble
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \subsubsection{PICO Foreground Separation Methodology}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{figure}[ht]
+\includegraphics[width=1\textwidth]{images/pysm_foregrounds_155GHz.png}
+\vspace{-0.1in}
+\caption{PySM foregrounds models at 155GHz }
+\label{fig:pysm_foregrounds}
+\end{figure}
 
 %\noindent{\bf Sky Maps} \hspace{0.1in} 
 For assessing the efficacy of foreground separation with PICO we used 8 different full sky models. All models were broadly consistent with available data and uncertainties from WMAP and \planck . The range of models included one test case that had a very simple realization of foregrounds, and others with varying degree of complexity including spatially varying spectral parameters and along the line of sight, anomalous microwave emission \comor{up to 2\%} polarized, dust polarization that rotates slightly as a function of frequency because of projection effects, or dust spectral energy distribution that departs from a simple modified blackbody. All foreground maps are generated at native resolution of 6.8 arcmin pixels~\citep{gorski/etal:2005}. They are generated using PySM and/or PSM codes~\citep{thorne2018_pysm}.   Distinctly different realizations of the sky are allowed by current data, as demonstrated by Figure~\ref{fig:skymodels}. 
