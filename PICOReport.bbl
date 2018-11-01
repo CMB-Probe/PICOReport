@@ -1,4 +1,4 @@
-\begin{thebibliography}{163}
+\begin{thebibliography}{166}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -56,12 +56,6 @@ K.~{Array}, {BICEP2 Collaborations}, {:}, P.~A.~R. {Ade}, Z.~{Ahmed}, R.~W.
   polarized dust emission at intermediate and high Galactic latitudes}.
 \newblock \emph{\aap}, 586:\penalty0 A133, February 2016{\natexlab{a}}.
 \newblock \doi{10.1051/0004-6361/201425034}.
-
-\bibitem[{Brandenburg} and {Subramanian}(2005)]{Brandenburg2005}
-A.~{Brandenburg} and K.~{Subramanian}.
-\newblock {Astrophysical magnetic fields and nonlinear dynamo theory}.
-\newblock \emph{Phys. Rep.}, 417:\penalty0 1--209, October 2005.
-\newblock \doi{10.1016/j.physrep.2005.06.005}.
 
 \bibitem[Seljak and Zaldarriaga(1997)]{Seljak:1996gy}
 Uros Seljak and Matias Zaldarriaga.
@@ -1783,6 +1777,182 @@ B.~D. {Metzger}, P.~K.~G. {Williams}, and E.~{Berger}.
   Surveys. I. Detection Rates and Light Curve Characteristics}.
 \newblock \emph{\apj}, 806:\penalty0 224, June 2015.
 \newblock \doi{10.1088/0004-637X/806/2/224}.
+
+\bibitem[{Planck Collaboration} et~al.(2014{\natexlab{a}}){Planck
+  Collaboration}, Ade, Aghanim, Armitage-Caplan, Arnaud, Ashdown,
+  Atrio-Barandela, Aumont, Baccigalupi, Banday, Barreiro, Bartlett, Battaner,
+  Benabed, Beno{\^\i}t, Benoit-L{\'e}vy, Bernard, Bersanelli, Bethermin,
+  Bielewicz, Blagrave, Bobin, Bock, Bonaldi, Bond, Borrill, Bouchet, Boulanger,
+  Bridges, Bucher, Burigana, Butler, Cardoso, Catalano, Challinor, Chamballu,
+  Chen, Chiang, Chiang, Christensen, Church, Clements, Colombi, {Colombo, L. P.
+  L.}, Couchot, Coulais, Crill, Curto, Cuttaia, Danese, Davies, Davis,
+  de~Bernardis, de~Rosa, de~Zotti, Delabrouille, Delouis, D{\'e}sert,
+  Dickinson, Diego, Dole, Donzelli, Dor{\'e}, Douspis, Dupac, Efstathiou,
+  En{\ss}lin, Eriksen, Finelli, Forni, Frailis, Franceschi, Galeotta, Ganga,
+  Ghosh, Giard, Giraud-H{\'e}raud, Gonz{\'a}lez-Nuevo, G{\'o}rski, Gratton,
+  Gregorio, Gruppuso, Hansen, Hanson, Harrison, Helou, Henrot-Versill{\'e},
+  Hern{\'a}ndez-Monteagudo, Herranz, Hildebrandt, Hivon, Hobson, Holmes,
+  Hornstrup, Hovest, Huffenberger, Jaffe, Jaffe, Jones, Juvela, Kalberla,
+  Keih{\"a}nen, Kerp, Keskitalo, Kisner, Kneissl, Knoche, Knox, Kunz,
+  Kurki-Suonio, Lacasa, Lagache, L{\"a}hteenm{\"a}ki, Lamarre, Langer, Lasenby,
+  Laureijs, Lawrence, Leonardi, Le{\'o}n-Tavares, Lesgourgues, Liguori, Lilje,
+  Linden-V{\o}rnle, L{\'o}pez-Caniego, Lubin, Mac{\'\i}as-P{\'e}rez, Maffei,
+  Maino, Mandolesi, Maris, Marshall, Martin, Mart{\'\i}nez-Gonz{\'a}lez, Masi,
+  Massardi, Matarrese, Matthai, Mazzotta, Melchiorri, Mendes, Mennella,
+  Migliaccio, Mitra, Miville-Desch{\^e}nes, Moneti, Montier, Morgante,
+  Mortlock, Munshi, Murphy, Naselsky, Nati, Natoli, Netterfield,
+  N{\o}rgaard-Nielsen, Noviello, Novikov, Novikov, Osborne, Oxborrow, Paci,
+  Pagano, Pajot, Paladini, Paoletti, Partridge, Pasian, Patanchon, Perdereau,
+  Perotto, Perrotta, Piacentini, Piat, Pierpaoli, Pietrobon, Plaszczynski,
+  Pointecouteau, Polenta, Ponthieu, Popa, Poutanen, Pratt, Pr{\'e}zeau, Prunet,
+  Puget, Rachen, Reach, Rebolo, Reinecke, Remazeilles, Renault, Ricciardi,
+  Riller, Ristorcelli, Rocha, Rosset, Roudier, Rowan-Robinson,
+  Rubi{\~n}o-Mart{\'\i}n, Rusholme, Sandri, Santos, Savini, Scott, Seiffert,
+  Serra, Shellard, Spencer, Starck, Stolyarov, Stompor, Sudiwala, Sunyaev,
+  Sureau, Sutton, Suur-Uski, Sygnet, Tauber, Tavagnacco, Terenzi, Toffolatti,
+  Tomasi, Tristram, Tucci, Tuovinen, T{\"u}rler, Valenziano, Valiviita,
+  Van~Tent, Vielva, Villa, Vittorio, Wade, Wandelt, Welikala, White, White,
+  Winkel, Yvon, Zacchei, and Zonca]{2014A&A...571A..30P}
+{Planck Collaboration}, Peter A~R Ade, N~Aghanim, C~Armitage-Caplan, M~Arnaud,
+  M~Ashdown, F~Atrio-Barandela, J~Aumont, C~Baccigalupi, A~J Banday, R~B
+  Barreiro, J~G Bartlett, E~Battaner, K~Benabed, A~Beno{\^\i}t,
+  A~Benoit-L{\'e}vy, J~P Bernard, M~Bersanelli, M~Bethermin, P~Bielewicz,
+  K~Blagrave, J~Bobin, J~J Bock, A~Bonaldi, J~Richard Bond, Julian~D Borrill,
+  F~R Bouchet, F~Boulanger, M~Bridges, M~Bucher, C~Burigana, R~C Butler, J~F
+  Cardoso, A~Catalano, A~Challinor, A~Chamballu, X~Chen, H~C Chiang, L~Y
+  Chiang, P~R Christensen, S~Church, D~L Clements, S~Colombi, {Colombo, L. P.
+  L.}, F~Couchot, A~Coulais, B~P Crill, A~Curto, F~Cuttaia, L~Danese, R~D
+  Davies, R~J Davis, P~de~Bernardis, A~de~Rosa, G~de~Zotti, J~Delabrouille, J~M
+  Delouis, F~X D{\'e}sert, C~Dickinson, J~M Diego, H~Dole, S~Donzelli,
+  O~Dor{\'e}, M~Douspis, X~Dupac, G~Efstathiou, T~A En{\ss}lin, H~K Eriksen,
+  F~Finelli, O~Forni, M~Frailis, E~Franceschi, S~Galeotta, K~Ganga, T~Ghosh,
+  M~Giard, Y~Giraud-H{\'e}raud, J~Gonz{\'a}lez-Nuevo, K~M G{\'o}rski,
+  S~Gratton, A~Gregorio, A~Gruppuso, F~K Hansen, D~Hanson, D~Harrison, G~Helou,
+  S~Henrot-Versill{\'e}, C~Hern{\'a}ndez-Monteagudo, D~Herranz, S~R
+  Hildebrandt, Eric Hivon, M~Hobson, W~A Holmes, A~Hornstrup, W~Hovest, K~M
+  Huffenberger, Andrew~H Jaffe, T~R Jaffe, W~C Jones, M~Juvela, P~Kalberla,
+  E~Keih{\"a}nen, J~Kerp, R~Keskitalo, T~S Kisner, R~Kneissl, J~Knoche, L~Knox,
+  M~Kunz, H~Kurki-Suonio, F~Lacasa, G~Lagache, A~L{\"a}hteenm{\"a}ki, J~M
+  Lamarre, M~Langer, A~Lasenby, R~J Laureijs, C~R Lawrence, R~Leonardi,
+  J.~Le{\'o}n-Tavares, J~Lesgourgues, M~Liguori, P~B Lilje, M~Linden-V{\o}rnle,
+  M~L{\'o}pez-Caniego, P~M Lubin, J~F Mac{\'\i}as-P{\'e}rez, B~Maffei, D~Maino,
+  N~Mandolesi, M~Maris, D~J Marshall, P~G Martin, E~Mart{\'\i}nez-Gonz{\'a}lez,
+  S~Masi, M~Massardi, S~Matarrese, F~Matthai, P~Mazzotta, A~Melchiorri,
+  L~Mendes, A~Mennella, M~Migliaccio, S~Mitra, M~A Miville-Desch{\^e}nes,
+  A~Moneti, L~Montier, G~Morgante, D~Mortlock, D~Munshi, J~A Murphy,
+  P~Naselsky, F~Nati, P~Natoli, C~B Netterfield, H~U N{\o}rgaard-Nielsen,
+  F~Noviello, D~Novikov, I~Novikov, S~Osborne, C~A Oxborrow, F~Paci, L~Pagano,
+  F~Pajot, R~Paladini, D~Paoletti, B~Partridge, F~Pasian, G~Patanchon,
+  O~Perdereau, L~Perotto, F~Perrotta, Francesco Piacentini, M~Piat,
+  E~Pierpaoli, Davide Pietrobon, S~Plaszczynski, E~Pointecouteau, G~Polenta,
+  N~Ponthieu, L~Popa, T~Poutanen, G~W Pratt, G~Pr{\'e}zeau, S~Prunet, J-L
+  Puget, J~P Rachen, W~T Reach, R~Rebolo, M~Reinecke, M~Remazeilles, C~Renault,
+  S~Ricciardi, T~Riller, I~Ristorcelli, G~Rocha, C~Rosset, G~Roudier,
+  M~Rowan-Robinson, J~A Rubi{\~n}o-Mart{\'\i}n, B~Rusholme, M~Sandri, D~Santos,
+  G~Savini, D~Scott, M~D Seiffert, P~Serra, E~P~S Shellard, L~D Spencer, J~L
+  Starck, V~Stolyarov, R~Stompor, R~Sudiwala, R~Sunyaev, F~Sureau, D~Sutton,
+  A~S Suur-Uski, J~F Sygnet, J~A Tauber, D~Tavagnacco, L~Terenzi, L~Toffolatti,
+  M~Tomasi, M~Tristram, M~Tucci, J~Tuovinen, M~T{\"u}rler, L~Valenziano,
+  J~Valiviita, B~Van~Tent, P~Vielva, F~Villa, N~Vittorio, L~A Wade, B~D
+  Wandelt, N~Welikala, M~White, S~D~M White, B~Winkel, D~Yvon, A~Zacchei, and
+  A~Zonca.
+\newblock {Planck 2013 results. XXX. Cosmic infrared background measurements
+  and implications for star formation}.
+\newblock \emph{Astronomy and Astrophysics}, 571:\penalty0 A30, November
+  2014{\natexlab{a}}.
+
+\bibitem[{Planck Collaboration} et~al.(2014{\natexlab{b}}){Planck
+  Collaboration}, Ade, Aghanim, Armitage-Caplan, Arnaud, Ashdown,
+  Atrio-Barandela, Aumont, Baccigalupi, Banday, Barreiro, Bartlett, Basak,
+  Battaner, Benabed, Beno{\^\i}t, Benoit-L{\'e}vy, Bernard, Bersanelli,
+  Bethermin, Bielewicz, Bobin, Bock, Bonaldi, Bond, Borrill, Bouchet,
+  Boulanger, Bridges, Bucher, Burigana, Butler, Cardoso, Catalano, Challinor,
+  Chamballu, Chiang, Chiang, Christensen, Church, Clements, Colombi, {Colombo,
+  L. P. L.}, Couchot, Coulais, Crill, Curto, Cuttaia, Danese, Davies,
+  de~Bernardis, de~Rosa, de~Zotti, Delabrouille, Delouis, D{\'e}sert, Diego,
+  Dole, Donzelli, Dor{\'e}, Douspis, Dupac, Efstathiou, En{\ss}lin, Eriksen,
+  Finelli, Forni, Frailis, Franceschi, Galeotta, Ganga, Giard, Giardino,
+  Giraud-H{\'e}raud, Gonz{\'a}lez-Nuevo, G{\'o}rski, Gratton, Gregorio,
+  Gruppuso, Gudmundsson, Hansen, Hanson, Harrison, Henrot-Versill{\'e},
+  Hern{\'a}ndez-Monteagudo, Herranz, Hildebrandt, Hivon, Hobson, Holmes,
+  Hornstrup, Hovest, Huffenberger, Jaffe, Jaffe, Jones, Juvela, Keih{\"a}nen,
+  Keskitalo, Kisner, Kneissl, Knoche, Knox, Kunz, Kurki-Suonio, Lacasa,
+  Lagache, L{\"a}hteenm{\"a}ki, Lamarre, Lasenby, Laureijs, Lawrence, Leonardi,
+  Le{\'o}n-Tavares, Lesgourgues, Liguori, Lilje, Linden-V{\o}rnle,
+  L{\'o}pez-Caniego, Lubin, Mac{\'\i}as-P{\'e}rez, Maffei, Maino, Mandolesi,
+  Maris, Marshall, Martin, Mart{\'\i}nez-Gonz{\'a}lez, Masi, Massardi,
+  Matarrese, Matthai, Mazzotta, Melchiorri, Mendes, Mennella, Migliaccio,
+  Mitra, Miville-Desch{\^e}nes, Moneti, Montier, Morgante, Mortlock, Munshi,
+  Naselsky, Nati, Natoli, Netterfield, N{\o}rgaard-Nielsen, Noviello, Novikov,
+  Novikov, Osborne, Oxborrow, Paci, Pagano, Pajot, Paoletti, Pasian, Patanchon,
+  Perdereau, Perotto, Perrotta, Piacentini, Piat, Pierpaoli, Pietrobon,
+  Plaszczynski, Pointecouteau, Polenta, Ponthieu, Popa, Poutanen, Pratt,
+  Pr{\'e}zeau, Prunet, Puget, Rachen, Rebolo, Reinecke, Remazeilles, Renault,
+  Ricciardi, Riller, Ristorcelli, Rocha, Rosset, Roudier, Rowan-Robinson,
+  Rusholme, Sandri, Santos, Savini, Scott, Seiffert, Serra, Shellard, Spencer,
+  Starck, Stolyarov, Stompor, Sudiwala, Sunyaev, Sureau, Sutton, Suur-Uski,
+  Sygnet, Tauber, Tavagnacco, Terenzi, Toffolatti, Tomasi, Tristram, Tucci,
+  Tuovinen, Valenziano, Valiviita, Van~Tent, Vielva, Villa, Vittorio, Wade,
+  Wandelt, White, Yvon, Zacchei, and Zonca]{2014A&A...571A..18P}
+{Planck Collaboration}, Peter A~R Ade, N~Aghanim, C~Armitage-Caplan, M~Arnaud,
+  M~Ashdown, F~Atrio-Barandela, J~Aumont, C~Baccigalupi, A~J Banday, R~B
+  Barreiro, J~G Bartlett, S~Basak, E~Battaner, K~Benabed, A~Beno{\^\i}t,
+  A~Benoit-L{\'e}vy, J~P Bernard, M~Bersanelli, M~Bethermin, P~Bielewicz,
+  J~Bobin, J~J Bock, A~Bonaldi, J~Richard Bond, Julian~D Borrill, F~R Bouchet,
+  F~Boulanger, M~Bridges, M~Bucher, C~Burigana, R~C Butler, J~F Cardoso,
+  A~Catalano, A~Challinor, A~Chamballu, H~C Chiang, L~Y Chiang, P~R
+  Christensen, S~Church, D~L Clements, S~Colombi, {Colombo, L. P. L.},
+  F~Couchot, A~Coulais, B~P Crill, A~Curto, F~Cuttaia, L~Danese, R~D Davies,
+  P~de~Bernardis, A~de~Rosa, G~de~Zotti, J~Delabrouille, J~M Delouis, F~X
+  D{\'e}sert, J~M Diego, H~Dole, S~Donzelli, O~Dor{\'e}, M~Douspis, X~Dupac,
+  G~Efstathiou, T~A En{\ss}lin, H~K Eriksen, F~Finelli, O~Forni, M~Frailis,
+  E~Franceschi, S~Galeotta, K~Ganga, M~Giard, G~Giardino, Y~Giraud-H{\'e}raud,
+  J~Gonz{\'a}lez-Nuevo, K~M G{\'o}rski, S~Gratton, A~Gregorio, A~Gruppuso, J~E
+  Gudmundsson, F~K Hansen, D~Hanson, D~Harrison, S~Henrot-Versill{\'e},
+  C~Hern{\'a}ndez-Monteagudo, D~Herranz, S~R Hildebrandt, Eric Hivon, M~Hobson,
+  W~A Holmes, A~Hornstrup, W~Hovest, K~M Huffenberger, Andrew~H Jaffe, T~R
+  Jaffe, W~C Jones, M~Juvela, E~Keih{\"a}nen, R~Keskitalo, T~S Kisner,
+  R~Kneissl, J~Knoche, L~Knox, M~Kunz, H~Kurki-Suonio, F~Lacasa, G~Lagache,
+  A~L{\"a}hteenm{\"a}ki, J~M Lamarre, A~Lasenby, R~J Laureijs, C~R Lawrence,
+  R~Leonardi, J.~Le{\'o}n-Tavares, J~Lesgourgues, M~Liguori, P~B Lilje,
+  M~Linden-V{\o}rnle, M~L{\'o}pez-Caniego, P~M Lubin, J~F
+  Mac{\'\i}as-P{\'e}rez, B~Maffei, D~Maino, N~Mandolesi, M~Maris, D~J Marshall,
+  P~G Martin, E~Mart{\'\i}nez-Gonz{\'a}lez, S~Masi, M~Massardi, S~Matarrese,
+  F~Matthai, P~Mazzotta, A~Melchiorri, L~Mendes, A~Mennella, M~Migliaccio,
+  S~Mitra, M~A Miville-Desch{\^e}nes, A~Moneti, L~Montier, G~Morgante,
+  D~Mortlock, D~Munshi, P~Naselsky, F~Nati, P~Natoli, C~B Netterfield, H~U
+  N{\o}rgaard-Nielsen, F~Noviello, D~Novikov, I~Novikov, S~Osborne, C~A
+  Oxborrow, F~Paci, L~Pagano, F~Pajot, D~Paoletti, F~Pasian, G~Patanchon,
+  O~Perdereau, L~Perotto, F~Perrotta, Francesco Piacentini, M~Piat,
+  E~Pierpaoli, Davide Pietrobon, S~Plaszczynski, E~Pointecouteau, G~Polenta,
+  N~Ponthieu, L~Popa, T~Poutanen, G~W Pratt, G~Pr{\'e}zeau, S~Prunet, J-L
+  Puget, J~P Rachen, R~Rebolo, M~Reinecke, M~Remazeilles, C~Renault,
+  S~Ricciardi, T~Riller, I~Ristorcelli, G~Rocha, C~Rosset, G~Roudier,
+  M~Rowan-Robinson, B~Rusholme, M~Sandri, D~Santos, G~Savini, D~Scott, M~D
+  Seiffert, P~Serra, E~P~S Shellard, L~D Spencer, J~L Starck, V~Stolyarov,
+  R~Stompor, R~Sudiwala, R~Sunyaev, F~Sureau, D~Sutton, A~S Suur-Uski, J~F
+  Sygnet, J~A Tauber, D~Tavagnacco, L~Terenzi, L~Toffolatti, M~Tomasi,
+  M~Tristram, M~Tucci, J~Tuovinen, L~Valenziano, J~Valiviita, B~Van~Tent,
+  P~Vielva, F~Villa, N~Vittorio, L~A Wade, B~D Wandelt, S~D~M White, D~Yvon,
+  A~Zacchei, and A~Zonca.
+\newblock {Planck 2013 results. XVIII. The gravitational lensing-infrared
+  background correlation}.
+\newblock \emph{Astronomy and Astrophysics}, 571:\penalty0 A18, November
+  2014{\natexlab{b}}.
+
+\bibitem[{Madau} and {Dickinson}(2014)]{madau2014}
+P.~{Madau} and M.~{Dickinson}.
+\newblock {Cosmic Star-Formation History}.
+\newblock \emph{ARA\&A}, 52:\penalty0 415--486, August 2014.
+\newblock \doi{10.1146/annurev-astro-081811-125615}.
+
+\bibitem[Wu and Doré(2017)]{Wu:2016hej}
+Hao-Yi Wu and Olivier Doré.
+\newblock {Optimizing future experiments of cosmic far-infrared background: a
+  principal component approach}.
+\newblock \emph{Mon. Not. Roy. Astron. Soc.}, 467\penalty0 (4):\penalty0
+  4150--4160, 2017.
+\newblock \doi{10.1093/mnras/stx380}.
 
 \bibitem[{Hu} et~al.(2003){Hu}, {Hedman}, and {Zaldarriaga}]{hu03}
 W.~{Hu}, M.~M. {Hedman}, and M.~{Zaldarriaga}.
