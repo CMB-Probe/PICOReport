@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 OCT 2018 20:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  31 OCT 2018 22:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1033,12 +1033,7 @@ LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1.
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 21--21
-\T1/ptm/m/n/10 clusters dis-tributed over the sky and
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--64
+Underfull \hbox (badness 10000) in paragraph at lines 4--52
 [][]
  []
 
@@ -1069,7 +1064,7 @@ LaTeX Warning: Reference `sec:fundamental' on page 23 undefined on input line 1
 7.
 
 [23]) (./foregrounds.tex
-<images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1045, 1027.84pt x 7
+<images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1046, 1027.84pt x 7
 70.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf Graphic file (type
  pdf)
@@ -1078,7 +1073,7 @@ Package pdftex.def Info: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf
  used on input line 13.
 (pdftex.def)             Requested size: 230.18253pt x 172.62889pt.
 
-<images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1046, 1027.84pt x 77
+<images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1047, 1027.84pt x 77
 0.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf Graphic file (type 
 pdf)
@@ -1094,25 +1089,26 @@ Package natbib Warning: Citation `??' on page 25 undefined on input line 22.
 Package natbib Warning: Citation `which??' on page 25 undefined on input line 2
 6.
 
-[25 <./images/sensitivity_vs_frequency_Jun29th_2018_large.pdf> <./images/sensit
-ivity_vs_frequency_Jun29th_2018_2deg.pdf>]
 
-Package natbib Warning: Citation `healpix' on page 26 undefined on input line 3
+Package natbib Warning: Citation `healpix' on page 25 undefined on input line 3
 4.
 
 
-Package natbib Warning: Citation `??' on page 26 undefined on input line 34.
+Package natbib Warning: Citation `??' on page 25 undefined on input line 34.
 
 
-LaTeX Warning: Reference `fig:skymodels' on page 26 undefined on input line 34.
+LaTeX Warning: Reference `fig:skymodels' on page 25 undefined on input line 34.
 
 
 
-Package natbib Warning: Citation `foregroundappendix' on page 26 undefined on i
+Package natbib Warning: Citation `foregroundappendix' on page 25 undefined on i
 nput line 34.
 
+[25 <./images/sensitivity_vs_frequency_Jun29th_2018_large.pdf> <./images/sensit
+ivity_vs_frequency_Jun29th_2018_2deg.pdf>]
 Package acronym Info: Label `acro:ILC' newly defined as it shall be overridden
 although it is yet undefined on input line 39.
+
 
 LaTeX Warning: Reference `fig:psm_mr' on page 26 undefined on input line 50.
 
@@ -1169,14 +1165,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--120
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28] <images/PICO_rotate_eb4_v2.pdf, id=1127, 597.23125pt x 397.485pt>
+[28] <images/PICO_rotate_eb4_v2.pdf, id=1128, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb4_v2.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb4_v2.pdf>
 Package pdftex.def Info: images/PICO_rotate_eb4_v2.pdf used on input line 265.
 (pdftex.def)             Requested size: 281.85587pt x 187.58824pt.
 
-<images/calibration_spectrum_BB.pdf, id=1128, 462.22687pt x 388.80946pt>
+<images/calibration_spectrum_BB.pdf, id=1129, 462.22687pt x 388.80946pt>
 File: images/calibration_spectrum_BB.pdf Graphic file (type pdf)
 
 <use images/calibration_spectrum_BB.pdf>
@@ -1245,7 +1241,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
 Here is how much of TeX's memory you used:
  11627 strings out of 493014
  173713 string characters out of 6133351
- 331367 words of memory out of 5000000
+ 331151 words of memory out of 5000000
  14627 multiletter control sequences out of 15000+600000
  104101 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1275,7 +1271,7 @@ r.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr
 live/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (53 pages, 6734134 bytes).
+Output written on PICOReport.pdf (53 pages, 6733849 bytes).
 PDF statistics:
  1448 PDF objects out of 1728 (max. 8388607)
  1060 compressed objects within 11 object streams
