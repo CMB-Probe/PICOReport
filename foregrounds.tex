@@ -43,16 +43,19 @@ To investigate the capacity of PICO to address this foreground separation proble
 \subsubsection{PICO Foreground Separation Methodology}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\begin{figure}[ht]
-\includegraphics[width=1\textwidth]{images/pysm_foregrounds_155GHz.png}
-\vspace{-0.1in}
-\caption{PySM foregrounds models at 155GHz }
-\label{fig:pysm_foregrounds}
-\end{figure}
-
 %\noindent{\bf Sky Maps} \hspace{0.1in} 
-For assessing the efficacy of foreground separation with PICO we used 8 different full sky models. All models were broadly consistent with available data and uncertainties from WMAP and \planck . The range of models included one test case that had a very simple realization of foregrounds, and others with varying degree of complexity including spatially varying spectral parameters and along the line of sight, anomalous microwave emission \comor{up to 2\%} polarized, dust polarization that rotates slightly as a function of frequency because of projection effects, or dust spectral energy distribution that departs from a simple modified blackbody. All foreground maps are generated at native resolution of 6.8 arcmin pixels~\citep{gorski/etal:2005}. They are generated using PySM and/or PSM codes~\citep{thorne2018_pysm}.   Distinctly different realizations of the sky are allowed by current data, as demonstrated by Figure~\ref{fig:skymodels}. 
+For assessing the efficacy of foreground separation with PICO we used 8 different full sky models. All models were broadly consistent with available data and uncertainties from WMAP and \planck . The range of models included one test case that had a very simple realization of foregrounds, and others with varying degree of complexity including spatially varying spectral parameters and along the line of sight, anomalous microwave emission \comor{up to 2\%} polarized, dust polarization that rotates slightly as a function of frequency because of projection effects, or dust spectral energy distribution that departs from a simple modified blackbody. All foreground maps are generated at native resolution of 6.8 arcmin pixels~\citep{gorski/etal:2005}. They are generated using PySM and/or PSM codes~\citep{thorne2018_pysm}.   Distinctly different realizations of the sky are allowed by current data, as demonstrated by Figure~\ref{fig:pysm_foregrounds}. 
 %\comor{ Karl, More details of the models are available at~\citet{foregroundappendix}.}
+
+\begin{figure}[ht]
+\begin{center}
+\includegraphics[width=.8\textwidth]{images/pysm_foregrounds_155GHz.png}
+\vspace{-0.1in}
+\caption{Foregrounds models at 155GHz from PySM (left) \cite{thorne2018_pysm} and based on Galatic MHD simulations (right). }
+\label{fig:pysm_foregrounds}
+\end{center}
+\vspace{-0.1in}
+\end{figure}
 
 For each of the 8 models we added CMB signals in both intensity and polarization matching a $\Lambda$CDM universe. The $BB$-lensing signal matched the level of 85\% delensing forecasted for PICO. Each of these sky models had 100 different realization of the PICO CBE noise levels; 50 realizations had no \ac{IGW} signal and 50 others had a level of $r=0.003$. 
 %\vspace{0.1in}
