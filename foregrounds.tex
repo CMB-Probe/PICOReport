@@ -21,8 +21,8 @@ In fact, even in the cleanest, smaller patches of the sky, far from the galactic
 The foreground separation challenge would be easily surmountable if the Galactic emissions were %already 
 precisely characterized, or were known to have simple, fittable spectral emission laws. But neither is true. To first order, the spectrum of Galactic synchrotron emission, arising from free electrons spiraling around Galactic magnetic fields, can be modeled as a power law $I_{\rm sync} \propto \nu^{\alpha},$ with $\alpha \simeq -1$ (in brightness units). The spectrum of Galactic dust emission, arising from emission by Galactic dust grains, can be modeled as $I_{\rm dust} \propto \nu^{\beta} B_\nu(T_{\rm dust}),$ where $\beta \simeq 1.6$, $T_{\rm dust} \simeq 19$\,K, and $B_\nu(T)$ is the Planck function; this is referred to as `modified black body emission'. If those models were exact, then in principle, an experiment that had 6 frequency bands could determine the three emission parameters as well as the three amplitudes corresponding to that of dust, synchrotron, and the CMB. However, recent observations have shown that neither emission law is universal, that spectral parameters vary with the region of sky \cite{?}, and thus that the analytic forms and parameter values given above are valid only as averages across the sky. Also, while both emission laws are well-motivated phenomenological descriptions, the fundamental physics of emissions from grains of different materials, sizes and temperatures, and of electrons spiraling around magnetic fields implies that these laws are not expected to be exact, nor universal. 
 
-Additional polarized foregrounds may exist.  "Anomalous microwave emission" (AME) is observed at mm wavelengths, spatially correlated with thermal dust emission but with intensity peaked at frequencies near 30 GHz.  While not
-known to be polarized, even a small (0.1\%) fractional polarization would be appreciable for $\sigma(r) \lesssim 0.001$.  Astrophysical emission from CO lines at mm wavelengths and infrared sources at shorter wavelengths could also complicate polarized signal separation.
+Additional polarized foregrounds may exist.  `Anomalous microwave emission' (AME) is observed at mm wavelengths, spatially correlated with thermal dust emission but with intensity peaked at frequencies near 30 GHz.  While not
+known to be polarized, even a small (0.1\%) fractional polarization would be appreciable for $\sigma(r) \lesssim 0.001$.  Astrophysical emission from CO lines at mm wavelengths, and even small polarization of radio and infrared sources at shorter wavelengths could also complicate polarized signal separation~\citep{sourcepol}.
 
 PICO will dramatically improve sensitivity to inflationary B-modes. The improved sensitivity requires concurrent improvements in foreground separation.  Simple foreground models, suitable for the current generation of CMB measurements, will fail at the higher PICO sensitivity.  For example, the Planck modified blackbody model assumes that interstellar dust emits at a single temperature, which is clearly an approximation to the more complicated emission along lines of sight spanning hundreds of pc. Several publications have demonstrated that fitting complicated temperature profiles using a simple one- or two-temperature model will bias the fitted CMB signal at levels $\delta r \lesssim 10^{-3}$, large compared to the PICO goal~\citep{fantaye/etal:2011,armitage-caplan/etal:2012,kogut/fixsen:2016,remazeilles/etal:2016,stompor/etal:2016}.
 
@@ -33,7 +33,6 @@ Foreground uncertainties, and the level of fidelity required in their characteri
 
 To investigate the capacity of PICO to address this foreground separation problem, we use the approach that has become the `gold standard' in the community. In this approach we simulate sky maps that are constrained by available data, but otherwise have a mixtures of foreground properties. We  `observe' these maps just like a realistic experiment will do, and then apply foreground separation techniques to separate the Galactic and CMB emissions. We also provide forecasts using other techniques that use analytic calculations to estimate the efficacy of foreground separation, or others in which the simulated sky map is assumed to have specific Galactic emission models, which are then being fitted. 
 
-
 %Foreground uncertainties, and the level of fidelity required in their characterization, also compel a transition in the way we assess and forecast the performance of a future experiment. We can no longer impose specific models upon the data. Rather, the data collected should provide information to constrain Galactic emissions with sufficient accuracy. For PICO we use the approach that has become the `gold standard' in the community. In this approach we simulate sky maps that are constrained by available data, but otherwise have a mixtures of foreground properties, observe these maps just like a realistic experiment will do, and then apply foreground separation techniques to separate the Galactic and CMB emissions. We also provide forecasts using other techniques that use analytic calculations to estimate the efficacy of foreground separation, or others in which the simulated sky map is assumed to have specific Galactic emission models, which are then being fitted. 
 
 %\comor{now need to connect to the next paragraphs} As we show below, the PICO broad frequency coverage, coupled with high sensitivity enables studying the sky using the PICO data themselves rather than assuming what the sky is, and fitting our models to these assumptions. 
@@ -42,15 +41,24 @@ To investigate the capacity of PICO to address this foreground separation proble
 \subsubsection{PICO Foreground Separation Methodology}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\noindent{\bf Sky Maps} \hspace{0.1in} For assessing the efficacy of foreground separation with PICO we used 8 different full sky models. All models were broadly consistent with available data and uncertainties from WMAP and \planck . The range of models included one test case that had a very simple realization of foregrounds, and others with varying degree of complexity including spatially varying spectral parameters and along the line of sight, anomalous microwave emission \comor{up to 2\%} polarized, dust polarization that rotates slightly as a function of frequency because of projection effects, or dust spectral energy distribution that departs from a simple modified blackbody. All foreground maps are generated at native resolution of 6.8 arcmin pixels~\citep{healpix}. They are generated using PySM and/or PSM codes~\citep{??}.   Distinctly different realizations of the sky are allowed by current data, as demonstrated by Figure~\ref{fig:skymodels}. 
+%\noindent{\bf Sky Maps} \hspace{0.1in} 
+For assessing the efficacy of foreground separation with PICO we used 8 different full sky models. All models were broadly consistent with available data and uncertainties from WMAP and \planck . The range of models included one test case that had a very simple realization of foregrounds, and others with varying degree of complexity including spatially varying spectral parameters and along the line of sight, anomalous microwave emission \comor{up to 2\%} polarized, dust polarization that rotates slightly as a function of frequency because of projection effects, or dust spectral energy distribution that departs from a simple modified blackbody. All foreground maps are generated at native resolution of 6.8 arcmin pixels~\citep{healpix}. They are generated using PySM and/or PSM codes~\citep{??}.   Distinctly different realizations of the sky are allowed by current data, as demonstrated by Figure~\ref{fig:skymodels}. 
 %\comor{ Karl, More details of the models are available at~\citet{foregroundappendix}.}
 
 For each of the 8 models we added CMB signals in both intensity and polarization matching a $\Lambda$CDM universe. The $BB$-lensing signal matched the level of 85\% delensing forecasted for PICO. Each of these sky models had 100 different realization of the PICO CBE noise levels; 50 realizations had no \ac{IGW} signal and 50 others had a level of $r=0.003$. 
+%\vspace{0.1in}
+%\noindent{\bf Foreground Separation} \hspace{0.1in} 
+The sky models were analyzed with a variety of techniques which were based on the two broad categories described above. 
 
-\vspace{0.1in}
-\noindent{\bf Foreground Separation} \hspace{0.1in} The sky models were analyzed with a variety of techniques which were based on the broad categories described above: correlation methods, which exploit the fact that foreground emission is strongly correlated from frequency to frequency, but uncorrelated with the CMB, and parametric methods, which model the sky emission using specific (parametric) emission laws, and use spectral fits in independent pixels or sky regions to infer the amplitude and spectral parameters of each of the components in the sky. Correlation methods include SEVEM, and variants of the \ac{ILC} algorithm, such as the needlet-space \ac{ILC} (NILC) and a version generalised to multidmensional components (GNILC). Parametric methods include the Commander algorithm.
+%: correlation methods, which exploit the fact that foreground emission is strongly correlated from frequency to frequency, but uncorrelated with the CMB, and parametric methods, which model the sky emission using specific (parametric) emission laws, and use spectral fits in independent pixels or sky regions to infer the amplitude and spectral parameters of each of the components in the sky. Correlation methods include SEVEM, and variants of the \ac{ILC} algorithm, such as the needlet-space \ac{ILC} (NILC) and a version generalised to multidmensional components (GNILC). Parametric methods include the Commander algorithm.
+Analytic forecasts were based on a Fisher information matrix approach~\citep{errard_feeney} and included foreground separation
+%run using the CMB4cast Fisher matrix code (http://portal.nersc.gov/project/mp107/index.html, Errard & Feeney et 
+%access to $TT$, $E, B and d information, with the deflection estimated using the iterative EB estimator. The code 
+%Planck-2015-level synchrotron and dust foregrounds, forecasting the experiment's ability to clean these foregrounds 
+using a parametric maximum-likelihood approach, assuming the foreground spectral indices are constant on patches of size ~15 degrees across. 
+%This is all probably a little out-of-date, being based on the Planck 2015 results and cosmology, but it doesn't seem to give a significantly different answer to Raphael's code (and I can rerun with a different tau if you'd like).
 
-\comor{say something about the fisher methods, Raphael and Stephen}
+%\comor{say something about the fisher methods, Raphael and Stephen}
 
 %\vspace{0.1in}
 %\noindent{\bf Acknowledged Limitations} \hspace{0.1in} The level of effort supported 
@@ -74,6 +82,14 @@ There is evidence that at levels of $r \simeq 0.001$ the combination of PICO's s
 
 Our results validate the need for a broad frequency coverage with a strong lever arm on Galactic emissions outside of the primary CMB bands. Figure~\ref{fig:psm_mr} shows that removing several of PICO's frequency bands, particularly those that monitor dust and synchrotron at high and low frequencies, respectively, significantly biases the extracted $BB$ power spectrum, particularly at the lowest $\ell$ values. 
 
+
+There is other evidence that PICO could reach its stated target of $\sigma(r) = 0.0001$. Map-based simulations that were carried out for the forthcoming CMB-S4 experiment have shown that it can reach levels of $\sigma(r) = 0.0005$ in small, 3\%-size, clean patches of the sky. The analysis only used frequencies up to 300~GHz. In principle, even smaller patches of 1-2\% size are sufficient, and preferable, for attaining as low $\sigma(r)$ as possible. The PICO noise level per sky pixel is similar to that of CMB-S4, but PICO will have {\it full} sky coverage and thus access to {\it all} the clean patches available. Data from \planck\ indicate that there are $\sim10$ %\comor{check!} 
+patches as clean, or cleaner than those used for the CMB-S4 analysis, indicating that PICO's $\sigma{r}$ could be $\sim3$ times more stringent. This scaling is very conservative because it only assumes CMB-S4's much narrower breadth of frequency coverage and its 7 bands; % \comor{check}; 
+it neglects PICOs much stronger rejection of foregrounds with 21 bands and up to 800~GHz.  We note that if there {\it is} a detection of the \ac{IGW} signal with $r=0.001$, PICO will make it with high significance in multiple independent patches of the sky. 
+
+Results from the Fisher-based analytic calculations give $\sigma(r) = 9 \cdot 10^{-5}$, and indicate a very small foreground residual with an $r_{eff} = 9 \cdot 10^{-7}.$
+
+While our results are encouraging, as they suggest that PICO's frequency coverage and sensitivity will be adequate for this level of $r$, more work should be invested to gain complete confidence. This work includes running numerous realizations of different sky models, and analyzing them with various techniques; optimizing sky masks; and using combination of techniques to handle large, intermediate, and small angular scale foregrounds differently. 
 \begin{figure}
 %\hspace{-0.1in}
 %\parbox{4.5in}
@@ -85,14 +101,6 @@ Our results validate the need for a broad frequency coverage with a strong lever
 \label{fig:commander}}
 \vspace{-0.0in}
 \end{figure}
-
-There is other evidence that PICO could reach its stated target of $\sigma(r) = 0.0001$. Map-based simulations that were carried out for the forthcoming CMB-S4 experiment have shown that it can reach levels of $\sigma(r) = 0.0005$ in small, 3\%-size, clean patches of the sky. The analysis only used frequencies up to 300~GHz. In principle, even smaller patches of 1-2\% size are sufficient, and preferable, for attaining as low $\sigma(r)$ as possible. The PICO noise level per sky pixel is similar to that of CMB-S4, but PICO will have {\it full} sky coverage and thus access to {\it all} the clean patches available. Data from \planck\ indicate that there are $\sim10$ %\comor{check!} 
-patches as clean, or cleaner than those used for the CMB-S4 analysis, indicating that PICO's $\sigma{r}$ could be $\sim3$ times more stringent. This scaling is very conservative because it only assumes CMB-S4's much narrower breadth of frequency coverage and its 7 bands; % \comor{check}; 
-it neglects PICOs much stronger rejection of foregrounds with 21 bands and up to 800~GHz.  We note that if there {\it is} a detection of the \ac{IGW} signal with $r=0.001$, PICO will make it with high significance in multiple independent patches of the sky. 
-
-\comor{few words about xforecast, and results from Raphael}
-
-While our results are encouraging, as they suggest that PICO's frequency coverage and sensitivity will be adequate for this level of $r$, more work should be invested to gain complete confidence. This work includes running numerous realizations of different sky models, and analyzing them with various techniques; optimizing sky masks; and using combination of techniques to handle large, intermediate, and small angular scale foregrounds differently. 
 
 
 %\begin{figure}
