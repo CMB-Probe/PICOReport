@@ -1,4 +1,4 @@
-\begin{thebibliography}{185}
+\begin{thebibliography}{186}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -2376,6 +2376,15 @@ B.~{Thorne}, J.~{Dunkley}, D.~{Alonso}, and S.~{N{\ae}ss}.
   sky}.
 \newblock \emph{\mnras}, 469:\penalty0 2821--2833, August 2017.
 \newblock \doi{10.1093/mnras/stx949}.
+
+\bibitem[{G{\'o}rski} et~al.(2005){G{\'o}rski}, {Hivon}, {Banday}, {Wandelt},
+  {Hansen}, {Reinecke}, and {Bartelmann}]{gorski/etal:2005}
+K.~M. {G{\'o}rski}, E.~{Hivon}, A.~J. {Banday}, B.~D. {Wandelt}, F.~K.
+  {Hansen}, M.~{Reinecke}, and M.~{Bartelmann}.
+\newblock {HEALPix: A Framework for High-Resolution Discretization and Fast
+  Analysis of Data Distributed on the Sphere}.
+\newblock \emph{\apj}, 622:\penalty0 759--771, April 2005.
+\newblock \doi{10.1086/427976}.
 
 \bibitem[{Delabrouille} et~al.(2013){Delabrouille}, {Betoule}, {Melin},
   {Miville- Desch{\^e}nes}, {Gonzalez-Nuevo}, {Le Jeune}, {Castex}, {de Zotti},
