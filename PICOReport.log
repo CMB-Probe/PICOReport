@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 NOV 2018 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 NOV 2018 22:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -867,23 +867,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
 
-
-Package natbib Warning: Citation `polar+' on page 5 undefined on input line 29.
-
-
-
-Package natbib Warning: Citation `planck?' on page 5 undefined on input line 29
-.
-
-
-Package natbib Warning: Citation `polar+' on page 5 undefined on input line 29.
-
-
-
-Package natbib Warning: Citation `planck?' on page 5 undefined on input line 29
-.
-
-<images/nsrlabeledrp0005_PICOv4p1.pdf, id=177, 375.804pt x 195.129pt>
+<images/nsrlabeledrp0005_PICOv4p1.pdf, id=181, 375.804pt x 195.129pt>
 File: images/nsrlabeledrp0005_PICOv4p1.pdf Graphic file (type pdf)
 
 <use images/nsrlabeledrp0005_PICOv4p1.pdf>
@@ -913,14 +897,14 @@ Underfull \hbox (badness 2119) in paragraph at lines 46--46
 
 ] [6 <./images/cmb_powspec_PICOv4p1_v2.pdf> <./images/cmbbb_powspec_PICOv4p1.pd
 f> <./images/nsrlabeledrp0005_PICOv4p1.pdf>] [7]
-<images/Neff_final.pdf, id=296, 554.59674pt x 457.1867pt>
+<images/Neff_final.pdf, id=302, 554.59674pt x 457.1867pt>
 File: images/Neff_final.pdf Graphic file (type pdf)
 
 <use images/Neff_final.pdf>
 Package pdftex.def Info: images/Neff_final.pdf used on input line 89.
 (pdftex.def)             Requested size: 211.38832pt x 174.25595pt.
 
-<images/Tf_pico.pdf, id=297, 549.50264pt x 411.52167pt>
+<images/Tf_pico.pdf, id=303, 549.50264pt x 411.52167pt>
 File: images/Tf_pico.pdf Graphic file (type pdf)
 
 <use images/Tf_pico.pdf>
@@ -930,14 +914,14 @@ Package pdftex.def Info: images/Tf_pico.pdf used on input line 90.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/Tf_pico.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
->] <images/Mnu_tauprior_final.pdf, id=372, 579.25044pt x 457.1867pt>
+>] <images/Mnu_tauprior_final.pdf, id=378, 579.25044pt x 457.1867pt>
 File: images/Mnu_tauprior_final.pdf Graphic file (type pdf)
 
 <use images/Mnu_tauprior_final.pdf>
 Package pdftex.def Info: images/Mnu_tauprior_final.pdf used on input line 113.
 (pdftex.def)             Requested size: 225.4804pt x 177.96724pt.
 
-<images/pico_dm_baryon.pdf, id=373, 434.26587pt x 288.49889pt>
+<images/pico_dm_baryon.pdf, id=379, 434.26587pt x 288.49889pt>
 File: images/pico_dm_baryon.pdf Graphic file (type pdf)
 
 <use images/pico_dm_baryon.pdf>
@@ -950,7 +934,7 @@ although it is yet undefined on input line 125.
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/pico_dm_baryon.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
 >] [10]) (./extragalacticsci.tex
-<images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=475, 661.71594pt x 533
+<images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=481, 661.71594pt x 533
 .22528pt>
 File: images/Reionization_Contours_zbar_delz_PICO_NEW.pdf Graphic file (type pd
 f)
@@ -959,14 +943,14 @@ Package pdftex.def Info: images/Reionization_Contours_zbar_delz_PICO_NEW.pdf us
 ed on input line 23.
 (pdftex.def)             Requested size: 216.81pt x 174.71188pt.
  [11]
-<images/lensingNoisePICO.pdf, id=497, 442.65375pt x 442.65375pt>
+<images/lensingNoisePICO.pdf, id=503, 442.65375pt x 442.65375pt>
 File: images/lensingNoisePICO.pdf Graphic file (type pdf)
 
 <use images/lensingNoisePICO.pdf>
 Package pdftex.def Info: images/lensingNoisePICO.pdf used on input line 51.
 (pdftex.def)             Requested size: 180.67499pt x 180.67868pt.
  [12 <./images/Reionization_Contours_zbar_delz_PICO_NEW.pdf>]
-<images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf, id=578, 424.65239pt x 303.55
+<images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf, id=584, 424.65239pt x 303.55
 975pt>
 File: images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf Graphic file (type pdf)
  <use images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf>
@@ -979,7 +963,7 @@ Overfull \hbox (14.06749pt too wide) in paragraph at lines 65--72
  []
 
 
-<images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf, id=579, 428.9926pt x 307.814p
+<images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf, id=585, 428.9926pt x 307.814p
 t>
 File: images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf Graphic file (type pdf)
  <use images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf>
@@ -1010,7 +994,7 @@ olar_v3-eps-converted-to.pdf images/m500lim_vs_z_pico_polar_v3.eps>
 (epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf, id=685, 505.89pt x 361
+<images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf, id=691, 505.89pt x 361
 .35pt>
 File: images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1020,14 +1004,14 @@ Package pdftex.def Info: images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
  [14 <./images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf> <./images/m500lim_vs_z
 _pico_polar_v3-eps-converted-to.pdf>]
-<images/PICO_tSZ_PS_plot.pdf, id=744, 462.52798pt x 346.89601pt>
+<images/PICO_tSZ_PS_plot.pdf, id=750, 462.52798pt x 346.89601pt>
 File: images/PICO_tSZ_PS_plot.pdf Graphic file (type pdf)
 
 <use images/PICO_tSZ_PS_plot.pdf>
 Package pdftex.def Info: images/PICO_tSZ_PS_plot.pdf used on input line 138.
 (pdftex.def)             Requested size: 216.81pt x 162.6071pt.
  [15]) (./galacticsci.tex
-<galsci_fig.pdf, id=761, 2621.68448pt x 909.30713pt>
+<galsci_fig.pdf, id=767, 2621.68448pt x 909.30713pt>
 File: galsci_fig.pdf Graphic file (type pdf)
  <use galsci_fig.pdf>
 Package pdftex.def Info: galsci_fig.pdf used on input line 31.
@@ -1045,7 +1029,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--52
  []
 
 ) (./LegacyOct30.tex
-<images/fig_SED_PICO.jpg, id=933, 322.3242pt x 229.5777pt>
+<images/fig_SED_PICO.jpg, id=939, 322.3242pt x 229.5777pt>
 File: images/fig_SED_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_SED_PICO.jpg>
@@ -1055,7 +1039,7 @@ Package pdftex.def Info: images/fig_SED_PICO.jpg used on input line 8.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/NgtF_pico_NEW.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/NgtF_pico_NEW.pdf, id=935, 709.39253pt x 529.63882pt>
+<images/NgtF_pico_NEW.pdf, id=941, 709.39253pt x 529.63882pt>
 File: images/NgtF_pico_NEW.pdf Graphic file (type pdf)
 
 <use images/NgtF_pico_NEW.pdf>
@@ -1064,16 +1048,9 @@ Package pdftex.def Info: images/NgtF_pico_NEW.pdf used on input line 10.
  [20] [21 <./images/fig_SED_PICO.jpg> <./images/NgtF_pico_NEW.pdf>]
 Package acronym Info: Label `acro:CIB' newly defined as it shall be overridden
 although it is yet undefined on input line 50.
- [22]) (./complementarity.tex
-
-LaTeX Warning: Reference `lensing' on page 23 undefined on input line 17.
-
-
-LaTeX Warning: Reference `sec:fundamental' on page 23 undefined on input line 1
-7.
-
-[23]) (./foregrounds.tex [24]
-<images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1061, 1027.84pt x 7
+ [22]) (./complementarity.tex [23]) (./foregrounds.tex
+[24]
+<images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1069, 1027.84pt x 7
 70.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf Graphic file (type
  pdf)
@@ -1082,7 +1059,7 @@ Package pdftex.def Info: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf
  used on input line 14.
 (pdftex.def)             Requested size: 230.18253pt x 172.62889pt.
 
-<images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1062, 1027.84pt x 77
+<images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1070, 1027.84pt x 77
 0.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf Graphic file (type 
 pdf)
@@ -1090,85 +1067,33 @@ pdf)
 Package pdftex.def Info: images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf 
 used on input line 15.
 (pdftex.def)             Requested size: 230.18253pt x 172.62889pt.
-
-
-Package natbib Warning: Citation `?' on page 25 undefined on input line 22.
-
-
-Package natbib Warning: Citation `trombetti2018_fracpol' on page 25 undefined o
-n input line 25.
-
-
-Package natbib Warning: Citation `puglisi2018_polsource' on page 25 undefined o
-n input line 25.
-
-
-Package natbib Warning: Citation `fantaye/etal:2011' on page 25 undefined on in
-put line 27.
-
-
-Package natbib Warning: Citation `armitage-caplan/etal:2012' on page 25 undefin
-ed on input line 27.
-
-
-Package natbib Warning: Citation `kogut/fixsen:2016' on page 25 undefined on in
-put line 27.
-
-
-Package natbib Warning: Citation `stompor/etal:2016' on page 25 undefined on in
-put line 27.
-
-[25 <./images/sensitivity_vs_frequency_Jun29th_2018_large.pdf> <./images/sensit
-ivity_vs_frequency_Jun29th_2018_2deg.pdf>]
-<images/pysm_foregrounds_155GHz.png, id=1093, 1092.08pt x 275.0275pt>
+ [25 <./images/sensitivity_vs_frequency_Jun29th_2018_large.pdf> <./images/sensi
+tivity_vs_frequency_Jun29th_2018_2deg.pdf>]
+<images/pysm_foregrounds_155GHz.png, id=1114, 1092.08pt x 275.0275pt>
 File: images/pysm_foregrounds_155GHz.png Graphic file (type png)
 
 <use images/pysm_foregrounds_155GHz.png>
 Package pdftex.def Info: images/pysm_foregrounds_155GHz.png used on input line 
-47.
-(pdftex.def)             Requested size: 469.75502pt x 118.30148pt.
-
-
-Package natbib Warning: Citation `gorski/etal:2005' on page 26 undefined on inp
-ut line 54.
-
-
-Package natbib Warning: Citation `thorne2018_pysm' on page 26 undefined on inpu
-t line 54.
-
-
-LaTeX Warning: Reference `fig:skymodels' on page 26 undefined on input line 54.
-
-
-[26 <./images/pysm_foregrounds_155GHz.png>]
-
-Package natbib Warning: Citation `errard_feeney' on page 27 undefined on input 
-line 63.
-
-<images/soumen_NILC_foregrounds_93.png, id=1102, 422.378pt x 313.17pt>
+52.
+(pdftex.def)             Requested size: 375.80544pt x 94.64117pt.
+ [26]
+<images/soumen_NILC_foregrounds_93.png, id=1130, 422.378pt x 313.17pt>
 File: images/soumen_NILC_foregrounds_93.png Graphic file (type png)
 
 <use images/soumen_NILC_foregrounds_93.png>
 Package pdftex.def Info: images/soumen_NILC_foregrounds_93.png used on input li
-ne 84.
+ne 87.
 (pdftex.def)             Requested size: 216.81pt x 160.75153pt.
-
-
-LaTeX Warning: Reference `fig:psm_mr' on page 27 undefined on input line 92.
-
-[27 <./images/soumen_NILC_foregrounds_93.png>]
-<images/commander_foregrounds_BB.png, id=1109, 906.7476pt x 351.2322pt>
+ [27 <./images/pysm_foregrounds_155GHz.png> <./images/soumen_NILC_foregrounds_9
+3.png>]
+<images/commander_foregrounds_BB.png, id=1140, 906.7476pt x 351.2322pt>
 File: images/commander_foregrounds_BB.png Graphic file (type png)
 
 <use images/commander_foregrounds_BB.png>
 Package pdftex.def Info: images/commander_foregrounds_BB.png used on input line
- 106.
+ 109.
 (pdftex.def)             Requested size: 325.215pt x 125.97186pt.
 ) (./systematics.tex [28 <./images/commander_foregrounds_BB.png>]
-
-LaTeX Warning: Reference `tbl:SystematicsList' on page 29 undefined on input li
-ne 39.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
@@ -1201,14 +1126,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/PICO_rotate_eb4_v2.pdf, id=1133, 597.23125pt x 397.485pt>
+<images/PICO_rotate_eb4_v2.pdf, id=1166, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb4_v2.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb4_v2.pdf>
 Package pdftex.def Info: images/PICO_rotate_eb4_v2.pdf used on input line 264.
 (pdftex.def)             Requested size: 281.85587pt x 187.58824pt.
 
-<images/calibration_spectrum_BB.pdf, id=1134, 462.22687pt x 388.80946pt>
+<images/calibration_spectrum_BB.pdf, id=1167, 462.22687pt x 388.80946pt>
 File: images/calibration_spectrum_BB.pdf Graphic file (type pdf)
 
 <use images/calibration_spectrum_BB.pdf>
@@ -1221,66 +1146,53 @@ Overfull \hbox (2.28001pt too wide) in paragraph at lines 264--265
  []
 
 [29] [30]
-
-LaTeX Warning: Reference `fig:calibration_spectra' on page 31 undefined on inpu
-t line 325.
-
-[31 <./images/PICO_rotate_eb4_v2.pdf> <./images/calibration_spectrum_BB.pdf>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 339.
 
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 339.
-)
+
+[31 <./images/PICO_rotate_eb4_v2.pdf> <./images/calibration_spectrum_BB.pdf>])
 (./requirements.tex [32]) [33] (./PICOReport.bbl [34] [35] [36] [37] [38]
-Underfull \hbox (badness 1292) in paragraph at lines 515--520
+[39]
+Underfull \hbox (badness 1292) in paragraph at lines 623--628
 []\T1/ptm/m/n/12 Ruth Dur-rer and An-drii Neronov.  Cos-mo-log-i-cal Mag-netic 
 Fields: Their Gen-er-a-
  []
 
-[39] [40]
-Underfull \hbox (badness 1242) in paragraph at lines 808--813
+[40] [41]
+Underfull \hbox (badness 1242) in paragraph at lines 916--921
 \T1/ptm/m/n/12 on large-scale struc-ture: Scale-dependent bias and abun-dance o
 f viri-al-ized ob-jects.
  []
 
-[41]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 877.
+[42]
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 985.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [42]
-[43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]) (./acronym.tex)
-
-Package natbib Warning: There were undefined citations.
-
+) [43]
+[44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57])
+(./acronym.tex)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 277.
-[55]
+ [58]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 277.
  (./PICOReport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 277.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
 Package rerunfilecheck Info: File `PICOReport.out' has not changed.
 (rerunfilecheck)             Checksum: EFA293834486FCC51E48B9677128F765;1986.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
  ) 
 Here is how much of TeX's memory you used:
- 11735 strings out of 492995
- 175685 string characters out of 6132704
- 337856 words of memory out of 5000000
- 14735 multiletter control sequences out of 15000+600000
+ 11788 strings out of 492995
+ 177056 string characters out of 6132704
+ 345267 words of memory out of 5000000
+ 14768 multiletter control sequences out of 15000+600000
  104101 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,12n,92p,4486b,792s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,12n,92p,4486b,826s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
@@ -1306,10 +1218,10 @@ r.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr
 live/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (56 pages, 6986832 bytes).
+Output written on PICOReport.pdf (59 pages, 6998573 bytes).
 PDF statistics:
- 1480 PDF objects out of 1728 (max. 8388607)
- 1087 compressed objects within 11 object streams
- 277 named destinations out of 1000 (max. 500000)
+ 1535 PDF objects out of 1728 (max. 8388607)
+ 1135 compressed objects within 12 object streams
+ 297 named destinations out of 1000 (max. 500000)
  325 words of extra memory for PDF output out of 10000 (max. 10000000)
 
