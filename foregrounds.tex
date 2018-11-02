@@ -32,6 +32,15 @@ PICO will dramatically improve sensitivity to inflationary B-modes. The improved
 Foreground uncertainties, and the level of fidelity required in their characterization, also compel a transition in the way we assess and forecast the performance of a future experiment. We can no longer impose specific models upon the data; rather, the data collected should provide information to constrain Galactic emissions with sufficient accuracy.  Two broad techniques are available.  Parametric models use the frequency dependence of the data in each line of sight to determine the effective frequency dependence of foreground emission.  Since the CMB spectrum is well determined, measurements with sufficiently broad frequency coverage can distinguish foreground emission from the CMB component by their different spectral dependences.  Non-parametric techniques, in contrast, rely on the fact that CMB emission is uncorrelated with the foregrounds and use both spatial and frequency correlations within a spatial/frequency data cube to separate CMB from foreground components.  Simulated data assess the efficacy of both techniques as a function of increasing complexity for the assumed foreground emission.
 
 To investigate the capacity of PICO to address this foreground separation problem, we use the approach that has become the `gold standard' in the community. In this approach we simulate sky maps that are constrained by available data, but otherwise have a mixtures of foreground properties. We  `observe' these maps just like a realistic experiment will do, and then apply foreground separation techniques to separate the Galactic and CMB emissions. We also provide forecasts using other techniques that use analytic calculations to estimate the efficacy of foreground separation, or others in which the simulated sky map is assumed to have specific Galactic emission models, which are then being fitted. 
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=.8\textwidth]{images/pysm_foregrounds_155GHz.png}
+\vspace{-0.1in}
+\caption{Foregrounds models at 155~GHz from PySM (left)~\citep{thorne2018_pysm} and Galactic MHD simulations (right). }
+\label{fig:pysm_foregrounds}
+\end{center}
+\vspace{-0.2in}
+\end{figure}
 
 
 
@@ -44,18 +53,9 @@ To investigate the capacity of PICO to address this foreground separation proble
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %\noindent{\bf Sky Maps} \hspace{0.1in} 
-For assessing the efficacy of foreground separation with PICO we used 8 different full sky models. All models were broadly consistent with available data and uncertainties from WMAP and \planck . The range of models included one test case that had a very simple realization of foregrounds, and others with varying degree of complexity including spectral parameters varying spatially and along the line of sight, anomalous microwave emission \comor{up to 2\%} polarized, dust polarization that rotates slightly as a function of frequency because of projection effects, or dust spectral energy distribution that departs from a simple modified blackbody. All foreground maps are generated at native resolution of 6.8 arcmin pixels~\citep{healpix}. They are generated using PySM and/or PSM codes~\citep{thorne2018_pysm,delabrouille/etal:2013}.   Distinctly different realizations of the sky are allowed by current data, as demonstrated by Figure~\ref{fig:pysm_foregrounds}. 
+For assessing the efficacy of foreground separation with PICO we used 8 different full sky models. All models were broadly consistent with available data and uncertainties from WMAP and \planck . The range of models included one test case that had a very simple realization of foregrounds, and others with varying degree of complexity including spectral parameters varying spatially and along the line of sight, anomalous microwave emission up to 2\% polarized, dust polarization that rotates slightly as a function of frequency because of projection effects, or dust spectral energy distribution that departs from a simple modified blackbody. All foreground maps were generated at native resolution of 6.8 arcmin pixels~\citep{healpix}. They were generated using PySM and/or PSM codes~\citep{thorne2018_pysm,delabrouille/etal:2013}.   Distinctly different realizations of the sky are allowed by current data, as demonstrated by Figure~\ref{fig:pysm_foregrounds}. 
 %\comor{ Karl, More details of the models are available at~\citet{foregroundappendix}.}
 
-\begin{figure}[ht]
-\begin{center}
-\includegraphics[width=.8\textwidth]{images/pysm_foregrounds_155GHz.png}
-\vspace{-0.1in}
-\caption{Foregrounds models at 155GHz from PySM (left) \cite{thorne2018_pysm} and based on Galatic MHD simulations (right). }
-\label{fig:pysm_foregrounds}
-\end{center}
-\vspace{-0.1in}
-\end{figure}
 
 For each of the 8 models we added CMB signals in both intensity and polarization matching a $\Lambda$CDM universe. The $BB$-lensing signal matched the level of 85\% delensing forecasted for PICO. Each of these sky models had 100 different realization of the PICO CBE noise levels; 50 realizations had no \ac{IGW} signal and 50 others had a level of $r=0.003$. 
 %\vspace{0.1in}
