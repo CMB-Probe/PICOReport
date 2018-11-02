@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 NOV 2018 12:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 NOV 2018 12:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -722,19 +722,19 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
  [3]
-<images/PICO_science goals and probes.png, id=134, 1426.32875pt x 714.67pt>
+<images/PICO_science goals and probes.png, id=134, 1355.0625pt x 706.64pt>
 File: images/PICO_science goals and probes.png Graphic file (type png)
 
 <use images/PICO_science goals and probes.png>
 Package pdftex.def Info: images/PICO_science goals and probes.png used on input
  line 40.
-(pdftex.def)             Requested size: 397.48499pt x 199.1575pt.
+(pdftex.def)             Requested size: 397.48499pt x 207.28171pt.
 Package acronym Info: Label `acro:SNR' newly defined as it shall be overridden
 although it is yet undefined on input line 46.
  [4 <./images/PICO_science goals and probes.png>]
 Package acronym Info: Label `acro:SZ' newly defined as it shall be overridden
 although it is yet undefined on input line 64.
-) [5] (./fundamentalsci.tex
+ [5]) (./fundamentalsci.tex
 <images/cmb_powspec_PICOv4p1_v2.pdf, id=157, 375.804pt x 303.534pt>
 File: images/cmb_powspec_PICOv4p1_v2.pdf Graphic file (type pdf)
 
@@ -780,11 +780,11 @@ Underfull \hbox (badness 2884) in paragraph at lines 36--36
  []
 
 
-Overfull \vbox (131.0pt too high) detected at line 49
+Overfull \vbox (143.0pt too high) detected at line 49
  []
 
 
-Overfull \vbox (323.0pt too high) detected at line 74
+Overfull \vbox (285.0pt too high) detected at line 74
  []
 
 
@@ -844,7 +844,7 @@ Underfull \hbox (badness 1292) in paragraph at lines 156--156
  []
 
 
-Overfull \vbox (59.0pt too high) detected at line 164
+Overfull \vbox (71.0pt too high) detected at line 164
  []
 
 
@@ -858,7 +858,7 @@ Underfull \hbox (badness 1205) in paragraph at lines 176--176
  []
 
 
-Overfull \hbox (23.73006pt too wide) in paragraph at lines 4--189
+Overfull \hbox (23.73004pt too wide) in paragraph at lines 4--189
 [][]
  []
 
@@ -1062,7 +1062,7 @@ File: images/foregrounds_maps_planck_models.png Graphic file (type png)
 <use images/foregrounds_maps_planck_models.png>
 Package pdftex.def Info: images/foregrounds_maps_planck_models.png used on inpu
 t line 37.
-(pdftex.def)             Requested size: 375.80544pt x 54.48558pt.
+(pdftex.def)             Requested size: 446.26582pt x 64.70245pt.
  [29 <./images/foregrounds_maps_planck_models.png>]
 <images/soumen_NILC_foregrounds_93.png, id=1143, 422.378pt x 313.17pt>
 File: images/soumen_NILC_foregrounds_93.png Graphic file (type png)
@@ -1168,12 +1168,16 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 277.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 277.
 Package rerunfilecheck Info: File `PICOReport.out' has not changed.
 (rerunfilecheck)             Checksum: EFA293834486FCC51E48B9677128F765;1986.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 277.
  ) 
 Here is how much of TeX's memory you used:
  11729 strings out of 493014
  176089 string characters out of 6133351
- 348766 words of memory out of 5000000
+ 348765 words of memory out of 5000000
  14691 multiletter control sequences out of 15000+600000
  104101 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1203,7 +1207,7 @@ r.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr
 live/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (64 pages, 6943641 bytes).
+Output written on PICOReport.pdf (64 pages, 6841293 bytes).
 PDF statistics:
  1556 PDF objects out of 1728 (max. 8388607)
  1151 compressed objects within 12 object streams
