@@ -24,6 +24,7 @@
 \usepackage[font=small]{caption}
 \usepackage{multirow}
 \usepackage{afterpage}
+\usepackage{draftwatermark}
 
 % add a watermark.
 \usepackage{draftwatermark} % use watermark
@@ -97,6 +98,9 @@
 
 
 \begin{document}
+
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{1}
 
 % generate page layouts first based on layoutwidth as page size;
   % don't switch actual page sizes yet:
