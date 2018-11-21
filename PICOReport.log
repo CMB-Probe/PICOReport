@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 NOV 2018 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 NOV 2018 18:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -733,21 +733,21 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
  [1])
 (./Introduction.tex
 Package acronym Info: Label `acro:CBE' newly defined as it shall be overridden
-although it is yet undefined on input line 23.
+although it is yet undefined on input line 9.
 Package acronym Info: Label `acro:IGW' newly defined as it shall be overridden
-although it is yet undefined on input line 29.
+although it is yet undefined on input line 15.
  [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 35.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
 Package acronym Info: Label `acro:SNR' newly defined as it shall be overridden
-although it is yet undefined on input line 37.
+although it is yet undefined on input line 23.
  [3]
 Package acronym Info: Label `acro:SZ' newly defined as it shall be overridden
-although it is yet undefined on input line 55.
+although it is yet undefined on input line 42.
 ) (./fundamentalsci.tex [4] (./stm.tex
 
 LaTeX Warning: No positions in optional float specifier.
@@ -1670,7 +1670,7 @@ r.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr
 live/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (82 pages, 11667089 bytes).
+Output written on PICOReport.pdf (82 pages, 11666727 bytes).
 PDF statistics:
  2176 PDF objects out of 2487 (max. 8388607)
  1651 compressed objects within 17 object streams
