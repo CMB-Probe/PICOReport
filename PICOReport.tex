@@ -96,6 +96,17 @@
 \setlength{\dblfloatsep}{0.5\dblfloatsep}
 \setlength{\dbltextfloatsep}{0.5\dbltextfloatsep}
 
+%% Number figures and tables by section
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+
+%% Compact itemize lists
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+%% Format for citation numbers
+\renewcommand{\citenumfont}[1]{\textit{#1}}
 
 
 \begin{document}
