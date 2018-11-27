@@ -210,7 +210,7 @@ optical load. The sources of optical load are the CMB, \comor{reflectors}, apert
 The CMB gives more than half the load in the middle and upper bands of
 the multichroic pixels, but the stop dominates the load in the lowest
 band of each pixel.  \comor{A detailed} description of the PICO noise model is available in
-\citep{Young2018}\comor{; small differences \comor{with} Table~\ref{tab:bands} are due} to refinements of the
+\citep{Young2018}\comor{; small differences with Table~\ref{tab:bands} are due} to refinements of the
 component temperatures.  The sensitivity model assumes white noise at
 all frequencies. \comor{removed the additional sentences; calibration uncertainties and systematics are *never* part of a sensitivity model. If we want to make this comment, which is a valid comment, it should be made elsewhere.} 
 %, and does not include calibration uncertainties or estimates of other possible systematic effects, which are discussed in \S\,\ref{sec:2.7}. 
@@ -252,8 +252,8 @@ typically achieved 4.7$\times$ compression in flight
 \subsection{Thermal}
 \label{sec:thermal} %3.4
 
-\comor{The PICO focal plane is maintained at 0.1~K (\S\,\ref{sec:cadr}), a temperature that simplifies TES bolometer design given the low optical loads expected. The \planck -HFI focal plane was also maintained at 0.1~K. To minimize
-detector shot noise due to instrument thermal radiation, the aperture
+\comor{The PICO focal plane is maintained at 0.1~K (\S\,\ref{sec:cadr})}, a temperature that simplifies TES bolometer design given the low optical loads expected. The \planck -HFI focal plane was also maintained at 0.1~K. To minimize
+detector \sored{shot} noise due to instrument thermal radiation, the aperture
 stop and reflectors are cooled using both active and radiative cooling
 (\S\,\ref{sec:4kcooler}, \S\,\ref{sec:radiative_cooling}).  All
 thermal requirements are met with robust margins
@@ -401,7 +401,6 @@ TVAC chamber.  The completely integrated observatory will be tested in
 TVAC to measure parasitic optical loading from the instrument, noise,
 microphonics and radio-frequency interference (RFI).
 
-\newpage
 \section{Design reference mission}
 \label{sec:design_reference} %4
 
@@ -733,13 +732,11 @@ More than ten experiments have used TDM readout. SCUBA2 on JCMT has 10,000 pixel
 \label{sec:detector_development} %5.2.1
 
 The baseline PICO instrument requires three-color dual-polarized antenna-coupled bolometers covering bands from 21 to 462\,GHz and single-color dual-polarized direct-absorbing bolometers from 555 to 799~GHz (\S\,\ref{sec:low_freq_det}, \comor{and} Table~\ref{tab:focal_plane}). The developments required to enable the PICO
-baseline design are:
-\begin{itemize}
-\item extension of antenna-coupled bolometers down to 21\,GHz and up to 462\,GHz;
-\item demonstration of three-color pixels across that spectrum, with characterization of beam properties and associated systematics;
-\item construction of high frequency direct absorbing arrays and laboratory testing; and
-\item beam line and 100\,mK testing to simulate the cosmic ray environment at L2.
-\end{itemize}
+baseline design are: \\
+$\bullet\,\,\,$ extension of antenna-coupled bolometers down to 21\,GHz and up to 462\,GHz; \\
+$\bullet\,\,\,$ demonstration of three-color pixels across that spectrum, with characterization of beam properties and associated systematics; \\
+$\bullet\,\,\,$ construction of high frequency direct absorbing arrays and laboratory testing; and \\
+$\bullet\,\,\,$ beam line and 100\,mK testing to simulate the cosmic ray environment at L2. \\
 The extension to lower frequencies requires larger antennas and
 therefore control of film properties and lithography over larger
 areas. Scaling to higher frequencies forces tighter critical
@@ -791,12 +788,10 @@ A plan to accomplish all required development is described in Table~\ref{tab:tec
 \subsubsection{Readout electronics development}
 \label{sec:readout_development} %5.2.2
 
-PICO's sensitivity requirements dictate the use of $\sim 13,000$ transition edge sensor bolometers, requiring a highly multiplexed system.  The PICO baseline design calls for time division multiplexing with 128 switched rows per readout column (TDM-128$\times$), which exceeds that of Advanced ACTPol's recently demonstrated TDM-66$\times$ \citep{Henderson2016}. The leap to TDM-128$\times$ requires: 
-\begin{itemize}
-\item development of fast-switched room temperature electronics;
-\item system engineering of room temperature to cryogenic row select cabling to ensure sufficiently fast row switch settling times; and
-\item demonstration of TDM-128$\times$ SQUID aliased noise below PICO detector sensitivity requirements.
-\end{itemize}
+PICO's sensitivity requirements dictate the use of $\sim 13,000$ transition edge sensor bolometers, requiring a highly multiplexed system.  The PICO baseline design calls for time division multiplexing with 128 switched rows per readout column (TDM-128$\times$), which exceeds that of Advanced ACTPol's recently demonstrated TDM-66$\times$ \citep{Henderson2016}. The leap to TDM-128$\times$ requires: \\
+$\bullet\,\,\,$ development of fast-switched room temperature electronics; \\
+$\bullet\,\,\,$ system engineering of room temperature to cryogenic row select cabling to ensure sufficiently fast row switch settling times; and \\
+$\bullet\,\,\,$ demonstration of TDM-128$\times$ SQUID aliased noise below PICO detector sensitivity requirements. \\
 A plan to accomplish the required development is described in Table~\ref{tab:technologies}.
 
 \subsection{Technology descopes}
