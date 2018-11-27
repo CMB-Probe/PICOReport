@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 NOV 2018 10:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  27 NOV 2018 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1263,127 +1263,126 @@ File: tables/tab_focal_plane.pdf Graphic file (type pdf)
 <use tables/tab_focal_plane.pdf>
 Package pdftex.def Info: tables/tab_focal_plane.pdf used on input line 149.
 (pdftex.def)             Requested size: 233.54283pt x 191.40881pt.
- [38 <./figures/OpticsDiagram.png> <./figures/FocalPlaneMechanical.png>]
-<tables/tab_bands.pdf, id=1507, 314.29187pt x 450.54735pt>
+ [38 <./figures/OpticsDiagram.png> <./figures/FocalPlaneMechanical.png>] [39 <.
+/tables/tab_focal_plane.pdf>]
+<tables/tab_bands.pdf, id=1578, 314.29187pt x 450.54735pt>
 File: tables/tab_bands.pdf Graphic file (type pdf)
 
 <use tables/tab_bands.pdf>
-Package pdftex.def Info: tables/tab_bands.pdf used on input line 199.
+Package pdftex.def Info: tables/tab_bands.pdf used on input line 190.
 (pdftex.def)             Requested size: 314.29109pt x 450.54623pt.
- [39 <./tables/tab_focal_plane.pdf>] [40 <./tables/tab_bands.pdf>]
-
-LaTeX Warning: Reference `sec:2.7' on page 41 undefined on input line 231.
-
-<tables/tab_cooler.pdf, id=1655, 292.82347pt x 167.47751pt>
+ [40] [41 <./tables/tab_bands.pdf>]
+<tables/tab_cooler.pdf, id=1663, 292.82347pt x 167.47751pt>
 File: tables/tab_cooler.pdf Graphic file (type pdf)
 
 <use tables/tab_cooler.pdf>
-Package pdftex.def Info: tables/tab_cooler.pdf used on input line 281.
+Package pdftex.def Info: tables/tab_cooler.pdf used on input line 266.
 (pdftex.def)             Requested size: 292.82275pt x 167.4771pt.
 
-<figures/ArchitectureBlockDiagram.png, id=1656, 961.89452pt x 613.33566pt>
+<figures/ArchitectureBlockDiagram.png, id=1664, 961.89452pt x 613.33566pt>
 File: figures/ArchitectureBlockDiagram.png Graphic file (type png)
 
 <use figures/ArchitectureBlockDiagram.png>
 Package pdftex.def Info: figures/ArchitectureBlockDiagram.png used on input lin
-e 287.
+e 272.
 (pdftex.def)             Requested size: 469.75502pt x 299.5357pt.
- [41] [42 <./tables/tab_cooler.pdf> <./figures/ArchitectureBlockDiagram.png>]
-<figures/CoolerFigure.png, id=1722, 227.4096pt x 190.311pt>
+ [42 <./tables/tab_cooler.pdf>]
+[43 <./figures/ArchitectureBlockDiagram.png>]
+<figures/CoolerFigure.png, id=1731, 227.4096pt x 190.311pt>
 File: figures/CoolerFigure.png Graphic file (type png)
 
 <use figures/CoolerFigure.png>
-Package pdftex.def Info: figures/CoolerFigure.png used on input line 353.
+Package pdftex.def Info: figures/CoolerFigure.png used on input line 338.
 (pdftex.def)             Requested size: 216.81pt x 181.44197pt.
- [43] [44 <./figures/CoolerFigure.png>]
-<figures/MissionDesignFigure.png, id=1749, 559.8516pt x 354.6048pt>
+ [44 <./figures/CoolerFigure.png>] [45]
+<figures/MissionDesignFigure.png, id=1752, 559.8516pt x 354.6048pt>
 File: figures/MissionDesignFigure.png Graphic file (type png)
 
 <use figures/MissionDesignFigure.png>
-Package pdftex.def Info: figures/MissionDesignFigure.png used on input line 450
+Package pdftex.def Info: figures/MissionDesignFigure.png used on input line 435
 .
 (pdftex.def)             Requested size: 289.07999pt x 183.10236pt.
 
-<figures/InFairing.png, id=1750, 161.403pt x 422.5386pt>
+<figures/InFairing.png, id=1753, 161.403pt x 422.5386pt>
 File: figures/InFairing.png Graphic file (type png)
 
 <use figures/InFairing.png>
-Package pdftex.def Info: figures/InFairing.png used on input line 459.
+Package pdftex.def Info: figures/InFairing.png used on input line 444.
 (pdftex.def)             Requested size: 50.58878pt x 132.43628pt.
 
-Overfull \hbox (0.13689pt too wide) in paragraph at lines 500--506
+Overfull \hbox (0.13689pt too wide) in paragraph at lines 485--491
 []\T1/ptm/m/n/12 NASA re-quires that Probes be com-pat-i-ble with an Evolved Ex
 -pend-able Launch Ve-hi-cle (EELV).
  []
 
-[45 <./figures/MissionDesignFigure.png> <./figures/InFairing.png>]
+[46 <./figures/MissionDesignFigure.png> <./figures/InFairing.png>]
 
-Package natbib Warning: Citation `Wallis2017' on page 46 undefined on input lin
-e 545.
+Package natbib Warning: Citation `Wallis2017' on page 47 undefined on input lin
+e 530.
 
-<figures/Spacecraft.png, id=1771, 462.528pt x 194.6472pt>
+<figures/Spacecraft.png, id=1774, 462.528pt x 194.6472pt>
 File: figures/Spacecraft.png Graphic file (type png)
 
 <use figures/Spacecraft.png>
-Package pdftex.def Info: figures/Spacecraft.png used on input line 579.
+Package pdftex.def Info: figures/Spacecraft.png used on input line 564.
 (pdftex.def)             Requested size: 469.75502pt x 197.69994pt.
- [46] [47 <./figures/Spacecraft.png>] [48]
-<figures/OpticalCoupling.png, id=1805, 224.037pt x 319.1925pt>
+ [47] [48 <./figures/Spacecraft.png>] [49]
+<figures/OpticalCoupling.png, id=1808, 224.037pt x 319.1925pt>
 File: figures/OpticalCoupling.png Graphic file (type png)
 
 <use figures/OpticalCoupling.png>
-Package pdftex.def Info: figures/OpticalCoupling.png used on input line 706.
+Package pdftex.def Info: figures/OpticalCoupling.png used on input line 691.
 (pdftex.def)             Requested size: 180.67499pt x 257.41455pt.
 
-<figures/DirectAbsorbing.png, id=1808, 226.91875pt x 339.32198pt>
+<figures/DirectAbsorbing.png, id=1811, 226.91875pt x 339.32198pt>
 File: figures/DirectAbsorbing.png Graphic file (type png)
 
 <use figures/DirectAbsorbing.png>
-Package pdftex.def Info: figures/DirectAbsorbing.png used on input line 714.
+Package pdftex.def Info: figures/DirectAbsorbing.png used on input line 699.
 (pdftex.def)             Requested size: 180.67499pt x 270.18425pt.
- [49 <./figures/OpticalCoupling.png> <./figures/DirectAbsorbing.png>]
-<tables/tab_suborbital.pdf, id=1823, 463.98965pt x 191.65042pt>
+ [50 <./figures/OpticalCoupling.png> <./figures/DirectAbsorbing.png>]
+<tables/tab_suborbital.pdf, id=1826, 463.98965pt x 191.65042pt>
 File: tables/tab_suborbital.pdf Graphic file (type pdf)
 
 <use tables/tab_suborbital.pdf>
-Package pdftex.def Info: tables/tab_suborbital.pdf used on input line 768.
+Package pdftex.def Info: tables/tab_suborbital.pdf used on input line 753.
 (pdftex.def)             Requested size: 463.98851pt x 191.64993pt.
- [50 <./tables/tab_suborbital.pdf>]
-<tables/tab_technologies.pdf, id=1885, 472.75403pt x 205.17227pt>
+ [51 <./tables/tab_suborbital.pdf>]
+<tables/tab_technologies.pdf, id=1888, 472.75403pt x 205.17227pt>
 File: tables/tab_technologies.pdf Graphic file (type pdf)
 
 <use tables/tab_technologies.pdf>
-Package pdftex.def Info: tables/tab_technologies.pdf used on input line 803.
+Package pdftex.def Info: tables/tab_technologies.pdf used on input line 788.
 (pdftex.def)             Requested size: 472.75287pt x 205.17175pt.
 
-Overfull \hbox (2.99785pt too wide) in paragraph at lines 803--804
+Overfull \hbox (2.99785pt too wide) in paragraph at lines 788--789
  [] 
  []
 
-[51 <./tables/tab_technologies.pdf>]
-<figures/Schedule.png, id=1955, 548.7702pt x 101.178pt>
+[52 <./tables/tab_technologies.pdf>]
+<figures/Schedule.png, id=1958, 548.7702pt x 101.178pt>
 File: figures/Schedule.png Graphic file (type png)
 
 <use figures/Schedule.png>
-Package pdftex.def Info: figures/Schedule.png used on input line 896.
+Package pdftex.def Info: figures/Schedule.png used on input line 881.
 (pdftex.def)             Requested size: 469.75502pt x 86.61151pt.
- [52] [53 <./figures/Schedule.png>] [54]
+ [53] [54 <./figures/Schedule.png>] [55]
 
-LaTeX Warning: Reference `sec:2.5' on page 55 undefined on input line 1063.
-
-
-LaTeX Warning: Reference `sec:2.6' on page 55 undefined on input line 1063.
+LaTeX Warning: Reference `sec:2.5' on page 56 undefined on input line 1048.
 
 
-LaTeX Warning: Reference `sec:2' on page 55 undefined on input line 1064.
+LaTeX Warning: Reference `sec:2.6' on page 56 undefined on input line 1048.
 
-) [55] (./PICOReport.bbl [56] [57] [58] [59] [60] [61]
+
+LaTeX Warning: Reference `sec:2' on page 56 undefined on input line 1049.
+
+) [56] (./PICOReport.bbl [57] [58] [59] [60] [61] [62]
 Underfull \hbox (badness 1292) in paragraph at lines 698--703
 []\T1/ptm/m/n/12 Ruth Dur-rer and An-drii Neronov.  Cos-mo-log-i-cal Mag-netic 
 Fields: Their Gen-er-a-
  []
 
-[62] [63] [64]
+[63] [64] [65]
 Underfull \hbox (badness 1242) in paragraph at lines 990--995
 \T1/ptm/m/n/12 on large-scale struc-ture: Scale-dependent bias and abun-dance o
 f viri-al-ized ob-jects.
@@ -1393,14 +1392,14 @@ LaTeX Font Info:    Try loading font information for T1+pcr on input line 1049.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [65] [66]
-[67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81]
-[82] [83] [84] [85] [86] [87] [88] [89] [90] [91]) (./acronym.tex)
+) [66] [67]
+[68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82]
+[83] [84] [85] [86] [87] [88] [89] [90] [91] [92]) (./acronym.tex)
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
-[92]
+[93]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
  (./PICOReport.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
@@ -1411,13 +1410,16 @@ Package rerunfilecheck Info: File `PICOReport.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
  ) 
 Here is how much of TeX's memory you used:
  12701 strings out of 493014
- 193608 string characters out of 6133351
+ 193606 string characters out of 6133351
  390048 words of memory out of 5000000
- 15504 multiletter control sequences out of 15000+600000
+ 15503 multiletter control sequences out of 15000+600000
  106823 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  53i,14n,92p,4486b,943s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1446,10 +1448,10 @@ r.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr
 live/2016/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (93 pages, 9979576 bytes).
+Output written on PICOReport.pdf (94 pages, 9977834 bytes).
 PDF statistics:
- 2367 PDF objects out of 2487 (max. 8388607)
- 1835 compressed objects within 19 object streams
- 435 named destinations out of 1000 (max. 500000)
+ 2370 PDF objects out of 2487 (max. 8388607)
+ 1837 compressed objects within 19 object streams
+ 436 named destinations out of 1000 (max. 500000)
  701 words of extra memory for PDF output out of 10000 (max. 10000000)
 
