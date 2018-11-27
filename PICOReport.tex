@@ -116,8 +116,7 @@
 
 %\tableofcontents
 
-\setcounter{page}{0}
-\setcounter{figure}{0}
+\pagenumbering{gobble}
 
 \LARGE{ \centerline{\bf{The Probe of Inflation and Cosmic Origins}}}
 \vspace{0.5in}
@@ -153,13 +152,16 @@
 
 % Author list on single seperate page
 \subfile{authorlist.tex}
-
+\pagenumbering{Roman} 
+\setcounter{page}{0}
 \newpage
 
 \tableofcontents
 
 \newpage
-
+\pagenumbering{arabic} 
+\setcounter{page}{1}
+\setcounter{figure}{0}
 \section{Executive Summary} % (2 pg, Hanany)}
 \subfile{executive.tex}
 
