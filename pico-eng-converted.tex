@@ -94,20 +94,20 @@ both co-pol and cross-pol beams. }
 \end{center}
 \end{figure}
 
-\comor{replaced this paragraph with the orange sentences above.}
+\comor{replaced the entire red text below with the orange text above.}
+\comred{
 Stray light analysis of the PICO open-Dragone design using GRASP
 confirms that the focal plane is protected from direct view of the sky 
 (an advantage relative to the cross-Dragone system), that spillover
 past the primary is suppressed by 80\,dB relative to the main lobe for
-both co-pol and cross-pol beams. \comor{the rest of this paragraph can be pruned} 
-Relative to the cross-Dragone, an
+both co-pol and cross-pol beams. Relative to the cross-Dragone, an
 open-Dragone also has a smaller f-number, so the volume constrained by
 the shadow cone can accommodate a larger effective aperture. The
 smaller f-number also reduces the physical focal plane size (for the
 same number of pixels), reducing focal plane mass and consequently the
-heat lift requirements on the active coolers (\S\,\ref{sec:thermal}). 
+heat lift requirements on the active coolers (\S\,\ref{sec:thermal}).} 
 
-\comor{replaced this paragraph}
+\comred{
 PICO's initial open-Dragone design follows Granet's method
 \citep{Granet2001}, with f/1.42. An actively cooled circular aperture
 stop is added between the primary and secondary reflectors to reduce
@@ -116,9 +116,9 @@ radiation. Distortions are then added to the primary and secondary
 reflectors according to Dragone's published prescription
 \citep{Dragone1983b} to eliminate coma and increase the DLFOV. The
 detailed geometric parameterization of the PICO optical design is
-described in \cite{Young2018}.
+described in \cite{Young2018}. }
 
-\comor{replaced all the material below, with what's above}
+\comred{replaced all the material below, with what's above
 The PICO open-Dragone design follows Granet's method
 \citep{Granet2001}, with f/1.42. An actively cooled circular aperture
 stop is added between the primary and secondary reflectors to reduce
@@ -127,12 +127,14 @@ radiation. Distortions are then added to the primary and secondary
 reflectors according to Dragone's published prescription
 \citep{Dragone1983b} to eliminate coma and increase the DLFOV. The
 detailed geometric parameterization of the PICO optical design is
-described in \cite{Young2018}.
+described in \cite{Young2018}.}
 
 
-The two reflectors (270 cm $\times$ 205 cm primary and 160 cm $\times$ 158 cm secondary) are all-aluminum to minimize complexity. The highest frequency (900\,GHz) sets the surface accuracy requirement of the reflectors to $\sim \lambda/14 =24$\,$\mu$m. 
+\comred{
+The two reflectors (270 cm $\times$ 205 cm primary and 160 cm $\times$ 158 cm secondary) are all-aluminum to minimize complexity. The highest frequency (900\,GHz) sets the surface accuracy requirement of the reflectors to $\sim \lambda/14 =24$\,$\mu$m. }
 
-The slightly concave focal surface, which has a radius of curvature of 4.55\,m, is telecentric to within $0.12\degree$ across the entire FOV. This results in a defocus of 0.1\,mm at the edge of a flat 10\,cm detector wafer, adding an RMS wavefront error of less than 3\,$\mu$m, which is negligible relative to PICO's shortest wavelength.
+\comred{
+The slightly concave focal surface, which has a radius of curvature of 4.55\,m, is telecentric to within $0.12\degree$ across the entire FOV. This results in a defocus of 0.1\,mm at the edge of a flat 10\,cm detector wafer, adding an RMS wavefront error of less than 3\,$\mu$m, which is negligible relative to PICO's shortest wavelength.}
 
 \begin{figure}
 \begin{center}
@@ -153,43 +155,34 @@ The slightly concave focal surface, which has a radius of curvature of 4.55\,m, 
 
 PICO's focal plane is populated by an imaging array of transition edge sensor (TES) bolometers observing in 21 overlapping 25\%-wide frequency bands with band centers ranging from 21 to 799\,GHz. Polarization is measured by differencing the signals from pairs of polarization-sensitive bolometers. A conceptual layout of the PICO focal plane is shown in Figure~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}.
  
-Modern mm/sub-mm detectors are photon-noise limited, so the primary approach to increase sensitivity is to increase the number of detectors. The PICO focal plane has 12,996 detectors, 175 times the number flown on the \textit{Planck} mission, providing a breakthrough increase in sensitivity with a comparably sized telescope. This breakthrough is enabled by development and demonstration by suborbital projects, which now commonly field arrays of $\sim10^4$ detectors.
+Modern mm/sub-mm detectors are photon-noise limited, so the primary approach to increase sensitivity is to increase the number of detectors. The PICO focal plane has 12,996 detectors, 175 times the number flown on the \planck\ mission, providing a breakthrough increase in sensitivity with a comparably sized telescope. This breakthrough is enabled by development and demonstration \comor{in} suborbital projects, which now commonly \comor{use} field arrays of $\sim10^4$ detectors. \comor{For example, SPT-3G is currently observing with ... and by the time PICO will enter phaseA the Simmons Observatory will have ... include citations.} 
+
+%\comor{sinuous antenna-coupled multi-chroic pixels (SAMP). For each pixel, a lenslet made of alumina couples the radiation onto a broad-band polarization-sensitive sinuous antenna. On-wafer filters separate the broad-band radiation into three colors. Six transition edge sensor (TES) bolometers detect the three colors and 2 polarizations.}
 
 \subsubsection{Low-frequency detectors}
 \label{sec:low_freq_det} % 3.2.1
 
-PICO populates the majority of its FOV with multichroic pixels (MCPs)
-\citep{Suzuki2014,Datta2014}, which make optimal use of the focal
-plane area by feeding three photometric bands from a common broad-band
-antenna, with two single-polarization bolometers per band and
-therefore six bolometers per pixel.
+\comor{The majority of the PICO focal plane is populated with} multichroic pixels (MCPs)~\citep{Suzuki2014,Datta2014}, which make optimal use of the focal plane area by feeding \comor{several} photometric bands from a common broad-band antenna \comor{that is polarization sensitive. PICO has three bands, and thus there are} six bolometers per pixel.
 
-Several competing optical coupling technologies have matured over the
-past ten years using horn-coupling \citep{Duff2016}, antenna-array
-coupling \citep{BICEP2015}, and sinuous antenna/lenslet-coupling
-\citep{Edwards2012}, delivering high optical efficiency over more than
-an octave of bandwidth. Pixel size, number, and spacing is relatively
-agnostic to the coupling scheme, so multiple options are open to PICO
-(technology maturation plan described in
-\S\,\ref{sec:detector_development}). For all of these schemes,
-microstrip mediates the signals between the antenna and detectors, and
-partitions the feed's wide continuous bandwidth into narrow channels
-using integrated micro-machined filter circuits \citep{OBrient2013}.
+Several competing optical coupling technologies have matured over the past ten years using horn-coupling~\citep{Duff2016}, antenna-array coupling \citep{BICEP2015}, and sinuous antenna/lenslet-coupling~\citep{Edwards2012}, delivering high optical efficiency over more than an octave of bandwidth \comor{I don't think this is correct. The antenna-array is not giving octave of bandwidth. It is not a multi-color option. not sure that the horn-coupling is giving an octave. Need to check}. Pixel size, number, and spacing is relatively agnostic to the coupling scheme, so multiple options are open to PICO (technology maturation plan described in
+\S\,\ref{sec:detector_development}). \comor{I am not sure this is what we want to say.} For all of these schemes,
+\comor{niobium microstrips mediate} the signals between the antenna and detectors, and
+\comor{partition the wide} continuous bandwidth into narrow channels
+using integrated micro-machined filter circuits~\citep{OBrient2013}.
 
 \subsubsection{High-frequency detectors}
 \label{sec:high_freq_det} % 3.2.2
 
-PICO's highest three frequency channels are beyond the Niobium
-superconducting band-gap, rendering microstrip filters a poor solution
-for defining the optical passband. In this regime, PICO instead
+PICO's highest three frequency channels are beyond the Niobium superconducting band-gap, rendering microstrip filters a poor solution for defining the optical passband. In this regime, PICO instead
 measures a single band with each pixel using feedhorn-coupled
 polarization-sensitive bolometers. Radiation is coupled through horns
-directly to the absorber coupled bolometers in the throat of a
-waveguide. The waveguide cut-off defines the lower edge of the band,
+directly to \comor{an absorber. TES bolometers detect the incident power.} 
+The waveguide cut-off defines the lower edge of the band,
 and quasi-optical metal-mesh filters define the upper edge. Numerous
 experiments have successfully used similar approaches
 \citep{Shirokoff2011,Bleem2012,Turner2001}. The technology maturation
 required for PICO is described in \S\,\ref{sec:detector_development}.
+\comor{is there any tech maturation? we need to point to Planck and Herschel here.}
 
 \begin{table}[!pt]
 \begin{center}
@@ -207,26 +200,20 @@ metric by which to evaluate mission design trades. The model considers
 four noise sources per bolometer: photon, phonon, TES Johnson, and
 readout (from both cold and warm readout electronics). To validate our
 calculations, we compared two independent software packages that have
-been used for several CMB instruments. The calculations agreed within
+been \comor{validated through use on several current} CMB instruments. The calculations agreed within
 1\% for both individual noise terms and for overall mission noise.
 
 Laboratory experiments have demonstrated that TES detectors can be
 made background limited in the low loading environment they would
-experience at L2. For PICO, the primary contributor to noise is the
-optical load. The sources of optical load are the CMB, primary and
-secondary reflectors, aperture stop, and low pass filters. The CMB and
-stop account for the majority of the optical load at all frequencies.
+experience at L2 \comor{is that true? reference? need to be careful. not sure that's been done for our loading levels. may need to cite Planck and spider} For PICO, the primary contributor to noise is the
+optical load. The sources of optical load are the CMB, \comor{reflectors}, aperture stop, and low pass filters. The CMB and stop account for the majority of the optical load at all frequencies.
 The CMB gives more than half the load in the middle and upper bands of
 the multichroic pixels, but the stop dominates the load in the lowest
-band of each pixel.  
-
-A more detailed description of the PICO noise model is available in
-\cite{Young2018}. Small differences between Table~\ref{tab:bands} and
-the sensitivities from \cite{Young2018} are due to refinements of the
+band of each pixel.  \comor{A detailed} description of the PICO noise model is available in
+\citep{Young2018}\comor{; small differences \comor{with} Table~\ref{tab:bands} are due} to refinements of the
 component temperatures.  The sensitivity model assumes white noise at
-all frequencies, and does not include calibration uncertainties or
-estimates of other possible systematic effects, which are discussed in
-\S\,\ref{sec:2.7}.
+all frequencies. \comor{removed the additional sentences; calibration uncertainties and systematics are *never* part of a sensitivity model. If we want to make this comment, which is a valid comment, it should be made elsewhere.} 
+%, and does not include calibration uncertainties or estimates of other possible systematic effects, which are discussed in \S\,\ref{sec:2.7}. 
 
 Sub-orbital submillimeter experiments have demonstrated TES detectors
 that are stable to at least as low as 20\,mHz \citep{Rahlin2014},
