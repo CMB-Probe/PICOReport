@@ -12,24 +12,22 @@ primary and secondary. The focal plane is populated by 12,996
 transition edge sensor (TES) bolometers (\S\,\ref{sec:focal_plane})
 read out using a time-domain multiplexing scheme
 (\S\,\ref{sec:detector_readout}). The instrument employs a single
-science observing mode: fixed rotation-rate imaging while scanning the
-sky.
-
+science observing mode: fixed rotation-rate imaging while scanning the sky.
 
 A V-groove radiator assembly provides passive cooling
 (\S\,\ref{sec:radiative_cooling}). The instrument is configured inside
 the shadow of the V-grooves, thermally and optically shielded from the
 Sun. The sun shadow cone depicted in Figure~\ref{fig:InstrumentCAD} is
 $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$
-(\S\,\ref{sec:survey_design}), is supplemented with a margin of
+(\S\,\ref{sec:survey_design} \comor{and Figure~\ref{fig:MissionDesignFigure}}), is supplemented with a margin of
 $3\degree$ to account for the radius of the sun ($0.25\degree$), pointing
 control error, design margin, and alignment tolerances.
 
 The V-groove assembly is attached to the bipod struts that support the
 instrument structural ring. The ring supports the primary reflector
-and telescope box. The telescope box contains the actively cooled
+and telescope box \comor{'Telescope box' is not a good terminology; telescope refers to all reflectors. suggest to change to 'cold box'; will need to change the label in the Figure.}. The telescope box contains the actively cooled
 components (\S\,\ref{sec:cadr}, \S\,\ref{sec:4kcooler}), including
-the secondary reflector, the focal plane and sub-kelvin adiabatic
+the secondary reflector, the focal plane, and sub-kelvin adiabatic
 refrigerator structures. Just inside the box, a thermal liner serves
 as a cold optical baffle and aperture stop.
 
@@ -50,11 +48,14 @@ spacecraft. Instrument integration and test (I\&T) is described in
 PICO telescope design is driven by a combination of science
 requirements and physical volume limits. The science requirements are:
 a large diffraction-limited field of view (DLFOV) sufficient to
-support $\sim10^4$ detectors, arcminute resolution at 800\,GHz and accurate
-polarization measurement with low sidelobe response. All requirements
+support $\sim10^4$ detectors, arcminute resolution at 800~GHz, \comor{low 
+spurious}
+polarization, \comor{ and} low sidelobe response. All requirements
 are met with PICO's 1.4\,m aperture modified open-Dragone design
 (Figure~\ref{fig:OpticsDiagram}). There are no moving parts in the PICO optical system.
+\comor{we should take figure 19 out. It is not useful for the decadal panel. Can give reference to the Young etal. paper.}
 
+\comor{this entire paragraph is not necessary}
 More than 30 years ago Dragone analyzed the performance of several
 off-axis systems and found solutions with low cross-polarization at
 the center of the field of view and with stigmatism, or astigmatism
@@ -64,12 +65,20 @@ systems based on designs by Dragone \citep{Fargant2000,Swetz2011,Padin2008}.
 
 The PICO optical design was selected following a trade study examining
 cross-Dragone, Gregorian Dragone, and open-Dragone designs
-\citep{Young2018}. The Gregorian Dragone has less diffraction-limited
-focal plane area than the open-Dragone \citep{deBernardis2018}, and is
-unable to support enough detectors to provide the required
-sensitivity. The cross-Dragone design has significant sidelobes that
-can be mitigated by baffles, but at the expense of added mass and
-volume.
+\citep{Young2018}. \comor{We chose the open-Dragone because both the cross- and open-Dragone systems can accommodate the focal plane size required, while the Gregorian can not~\citep{deBernardis2018}, and because the open-Dragone is more compact and does not require more massive baffles that the cross-Dragone would require to overcome its sidelobes.}
+\comor{The initial open-Dragone design has been modified by adding an aperture stop and adding corrections to the primary and secondary reflectors to enlarge the diffraction limited field of view.  The
+detailed geometric parameterization of the PICO optical design is
+described in \cite{Young2018}. }
+
+\comor{ The two reflectors (270 cm $\times$ 205 cm primary and 160 cm $\times$ 158 cm secondary) are all-aluminum to minimize complexity. The highest frequency (900\,GHz) sets the surface accuracy requirement of the reflectors to $\sim \lambda/14 =24$\,$\mu$m. The focal ratio is 1.42. The primary is maintained at ambient temperature. A cold stop, between the primary and secondary reflectors, and the secondary reflector are actively cooled.  The slightly concave focal surface, which has a radius of curvature of 4.55\,m, is telecentric to within $0.12\degree$ across the entire FOV. }
+%This results in a defocus of 0.1\,mm at the edge of a flat 10\,cm detector wafer, adding an RMS wavefront error of less than 3\,$\mu$m, which is negligible relative to PICO's shortest wavelength.
+
+\comor{Stray light analysis of the PICO open-Dragone design using GRASP
+confirms that the focal plane is protected from direct view of the sky, and that spillover
+past the primary is suppressed by 80\,dB relative to the main lobe for
+both co-pol and cross-pol beams. }
+
+%The Gregorian Dragone has less diffraction-limited focal plane area than the open-Dragone \citep{deBernardis2018}, and is unable to support enough detectors to provide the required sensitivity. The cross-Dragone design has significant sidelobes that can be mitigated by baffles, but at the expense of added mass and volume.
 
 \begin{figure}
 \begin{center}
@@ -81,21 +90,24 @@ volume.
 \begin{figure}
 \begin{center}
 \includegraphics[width=3in]{figures/OpticsDiagram.png}
-\caption{The optical system is compact.\label{fig:OpticsDiagram}}
+\caption{The optical system is compact.\label{fig:OpticsDiagram} \comor{this figure is not necessary}}
 \end{center}
 \end{figure}
 
+\comor{replaced this paragraph with the orange sentences above.}
 Stray light analysis of the PICO open-Dragone design using GRASP
-confirms that the focal plane is protected from direct view of the sky
+confirms that the focal plane is protected from direct view of the sky 
 (an advantage relative to the cross-Dragone system), that spillover
 past the primary is suppressed by 80\,dB relative to the main lobe for
-both co-pol and cross-pol beams. Relative to the cross-Dragone, an
+both co-pol and cross-pol beams. \comor{the rest of this paragraph can be pruned} 
+Relative to the cross-Dragone, an
 open-Dragone also has a smaller f-number, so the volume constrained by
 the shadow cone can accommodate a larger effective aperture. The
 smaller f-number also reduces the physical focal plane size (for the
 same number of pixels), reducing focal plane mass and consequently the
-heat lift requirements on the active coolers (\S\,\ref{sec:thermal}).
+heat lift requirements on the active coolers (\S\,\ref{sec:thermal}). 
 
+\comor{replaced this paragraph}
 PICO's initial open-Dragone design follows Granet's method
 \citep{Granet2001}, with f/1.42. An actively cooled circular aperture
 stop is added between the primary and secondary reflectors to reduce
@@ -105,6 +117,18 @@ reflectors according to Dragone's published prescription
 \citep{Dragone1983b} to eliminate coma and increase the DLFOV. The
 detailed geometric parameterization of the PICO optical design is
 described in \cite{Young2018}.
+
+\comor{replaced all the material below, with what's above}
+The PICO open-Dragone design follows Granet's method
+\citep{Granet2001}, with f/1.42. An actively cooled circular aperture
+stop is added between the primary and secondary reflectors to reduce
+detector noise and shield the focal plane from stray
+radiation. Distortions are then added to the primary and secondary
+reflectors according to Dragone's published prescription
+\citep{Dragone1983b} to eliminate coma and increase the DLFOV. The
+detailed geometric parameterization of the PICO optical design is
+described in \cite{Young2018}.
+
 
 The two reflectors (270 cm $\times$ 205 cm primary and 160 cm $\times$ 158 cm secondary) are all-aluminum to minimize complexity. The highest frequency (900\,GHz) sets the surface accuracy requirement of the reflectors to $\sim \lambda/14 =24$\,$\mu$m. 
 
@@ -419,13 +443,14 @@ permitting consideration of mission extension beyond the prime
 mission.
 
 \begin{figure}[!b]
-  \begin{minipage}[b]{0.7\textwidth}
+  \begin{minipage}[b]{0.65\textwidth}
     \begin{center}
     \includegraphics[width=4in]{figures/MissionDesignFigure.png}
 \caption{PICO surveys by continuously spinning the instrument about a
   precessing axis.\label{fig:MissionDesignFigure}}
    \end{center}
   \end{minipage}
+  \hspace{0.15in}
   %
   \begin{minipage}[b]{0.29\textwidth}
     \begin{center}
@@ -609,7 +634,6 @@ $\Delta v$ and attitude control for TCMs and orbit maintenance. Eight
 4\,N thrusters provide momentum management and backup attitude control
 authority.
 
-
 \subsubsection{Attitude determination and control}
 \label{sec:attitude_determination} %4.3.1
 
@@ -645,16 +669,10 @@ control and reconstruction requirements are met, including spin axis
 control $< 60$\,arcmin with $< 1$\,arcmin/min stability, and
 reconstructed pointing knowledge $< 10$\,arcsec (each axis, $3\sigma$).
 
-\newpage
 \section{Technology maturation}
 \label{sec:technology_maturation} %5
 
-PICO's detector and readout technologies have already been
-substantially matured through complimentary suborbital experiments,
-and can be developed by the APRA and SAT programs to NASA's Technology
-Readiness Level (TRL) 5 before Phase~A (October 2023). The 4\,K
-cryocooler baselined by PICO requires only standard thermal
-engineering (\S\,\ref{sec:4kcooler}).
+PICO's detector and readout technologies have already been substantially matured through complimentary suborbital experiments, and can be developed by the APRA and SAT programs to NASA's Technology Readiness Level (TRL) 5 before Phase~A (October 2023). The 4\,K cryocooler baselined by PICO requires only standard thermal engineering (\S\,\ref{sec:4kcooler}). 
 
 \subsection{Current state of technologies}
 \label{sec:current_state} %5.1
@@ -667,43 +685,29 @@ numerous suborbital experiments have used monolithically fabricated
 TES bolometers and multiplexing schemes to field instruments with
 thousands of detectors per camera.
 
-\subsubsection{Detectors status}
+\comor{Sentence 2 and onward do not support sentence 1. Need to discuss.}
+
+\comor{Suggest to change the heading below}
+
+\subsubsection{Optical Coupling and Detectors}
 \label{sec:detectors_status} %5.1.1
 
-Suborbital teams have successfully demonstrated a variety of optical
-coupling schemes, including horns with ortho-mode transducers (OMTs),
-lithographed antenna arrays, and sinuous antennas under lenslettes
-(Figure~\ref{fig:OpticalCoupling}). They have achieved background-limited performance in
-both ground and balloon instruments. Experiments have covered many of
-PICO's observing bands between 30\,GHz and 270\,GHz (Table~\ref{tab:suborbital}). SPT-3G
-has used the PICO-baselined three-color pixel design to deploy 16,260
-detectors covering 90--150--220\,GHz. Other experiments have successfully
-deployed two-color pixels. All of these detector arrays have been
-packaged into modules and focal plane units in working cameras
-representative of the PICO integration.
+\comor{suggest the rephrase the text below to make it more readable for the uninitiated. Moved sentences around to make argument more logical. And clarified the issue with detectors.}
+Suborbital teams have successfully demonstrated a variety of \comor{schemes to couple the incident free-space electromagnetic radiation onto detectors}, including horns with ortho-mode transducers (OMTs), lithographed antenna arrays, and sinuous antennas under lenslets (Figure~\ref{fig:OpticalCoupling}). In all of these schemes the radiation is coupled through on-wafer transmission lines to bolometric transition-edge sensor detectors. Experiments on the ground and balloons are implementing \comor{these technologies with} many of PICO's observing bands between 30\,GHz and 270\,GHz (Table~\ref{tab:suborbital}). SPT-3G is using the PICO-baselined three-color pixel design to deploy 16,260 detectors covering 90--150--220~GHz \comor{add reference}. \comor{Advanced ActPol} has successfully deployed two-color pixels \comor{add reference}. All of these detector arrays have been packaged into modules and focal plane units in working cameras representative of the PICO integration. The experiments have achieved background-limited performance in both ground and balloon instruments.
 
-To date, suborbital experiments have achieved statistical map depths
-of 3\,$\mu$K$_{\rm CMB}$\,arcmin on degree-scaled modes over small
-parts of the sky, approaching what PICO will achieve over the entire
-sky. Suborbital experiments have also demonstrated systematic control
-to this level through full-pipeline simulations and null-test analysis
-(jackknife tests). Moreover, laboratory tests and in-flight data from
-balloons suggest that these TES bolometers are more naturally robust
-against cosmic rays than the individual NTD-Ge bolometers used in
-Planck. Cosmic ray glitches have fast recovery times and low
-coincidence rates \citep{SPIDER2018}.
-
-
+To date, suborbital experiments have achieved statistical map depths of 3\,$\mu$K$_{\rm CMB}$\,arcmin on degree-scaled modes over small parts of the sky, approaching what PICO will achieve over the entire sky. Suborbital experiments have also demonstrated systematic control to this level through full-pipeline simulations and null-test analysis (jackknife tests). Moreover, laboratory tests and in-flight data from balloons suggest that these TES bolometers are more naturally robust against cosmic rays than the individual NTD-Ge bolometers used in Planck. Cosmic ray glitches have fast recovery times and low coincidence rates~\citep{SPIDER2018}.
+\comor{what did this paragraph want to say? not clear. what does that have to do with the title of the section?} 
 
 \begin{figure}
-  \begin{minipage}[b]{0.5\textwidth}
+  \begin{minipage}[b]{0.47\textwidth}
     \begin{center}
     \includegraphics[width=2.5in]{figures/OpticalCoupling.png}
     \caption{Multiple demonstrated optical coupling schemes are available   to PICO. Images from CMB-S4 Technology Book   \citep{Abitbol2017}.\label{fig:OpticalCoupling}}
    \end{center}
   \end{minipage}
+  \hspace{0.15in}
   %
-  \begin{minipage}[b]{0.5\textwidth}
+  \begin{minipage}[b]{0.47\textwidth}
     \begin{center}
     \includegraphics[width=2.5in]{figures/DirectAbsorbing.png}
     \caption{Direct-absorbing dual-polarized detectors and coupling horns used in \textit{Planck} for 143--343\,GHz bands.\label{fig:DirectAbsorbing}}
@@ -727,30 +731,14 @@ coincidence rates \citep{SPIDER2018}.
 % \end{center}
 % \end{figure}
 
-
-PICO's 555--799\,GHz channels (above the Niobium band gap) will use
-direct absorber bolometers. Ground and balloon experiments have
-deployed focal planes with hundreds of horn-coupled spiderweb
-bolometers. SPT-Pol deployed dual-polarized versions of direct
-absorber horn-coupled bolometers. \textit{Planck} used this style of bolometer,
-but with NTD-Ge thermistors instead of TESes (Figure~\ref{fig:DirectAbsorbing}). Filled
-arrays of detectors such as Backshort Under Ground (BUG) bolometers
-are also an option for these channels. The status of these efforts is
-summarized in Table~\ref{tab:suborbital}.
+PICO's 555--799\,GHz channels (above the Niobium band gap) will use direct absorber bolometers. Ground and balloon experiments have deployed focal planes with hundreds of horn-coupled spiderweb bolometers. SPT-Pol deployed dual-polarized versions of direct absorber horn-coupled bolometers. \textit{Planck} used this style of bolometer, but with NTD-Ge thermistors instead of TESes (Figure~\ref{fig:DirectAbsorbing}). Filled arrays of detectors such as Backshort Under Ground (BUG) bolometers are also an option for these channels. The status of these efforts is summarized in Table~\ref{tab:suborbital}.
+\comor{why are we showing the Planck detectors when we should show Herschel for the higher frequency bands?}
 
 \subsubsection{Readout electronics status}
 \label{sec:readout_status} %5.1.2
 
-More than ten experiments have used TDM readout. SCUBA2 on JCMT has
-10,000 pixels, nearly as many detectors as planned for PICO
-\citep{Holland2013}.
-
-\begin{table}
-\begin{center}
-\caption{Multiple active suborbital efforts are advancing technologies relevant to PICO.\label{tab:suborbital}}
-\includegraphics{tables/tab_suborbital.pdf}
-\end{center}
-\end{table}
+More than ten experiments have used TDM readout. SCUBA2 on JCMT has 10,000 pixels, nearly as many detectors as planned for PICO \citep{Holland2013}.
+\comor{we must also say something about FDM and $\mu$mux. We can't ignore these technologies.} 
 
 \subsection{Development plan}
 \label{sec:development_plan}  %5.2
@@ -758,11 +746,7 @@ More than ten experiments have used TDM readout. SCUBA2 on JCMT has
 \subsubsection{Detector development}
 \label{sec:detector_development} %5.2.1
 
-The baseline PICO instrument requires three-color dual-polarized
-antenna-coupled bolometers covering bands from 21 to 462\,GHz and
-single-color dual-polarized direct-absorbing bolometers from 555 to
-799\,GHz (\S\,\ref{sec:low_freq_det},
-Table~\ref{tab:focal_plane}). The developments required to enable the PICO
+The baseline PICO instrument requires three-color dual-polarized antenna-coupled bolometers covering bands from 21 to 462\,GHz and single-color dual-polarized direct-absorbing bolometers from 555 to 799~GHz (\S\,\ref{sec:low_freq_det}, \comor{and} Table~\ref{tab:focal_plane}). The developments required to enable the PICO
 baseline design are:
 \begin{itemize}
 \item extension of antenna-coupled bolometers down to 21\,GHz and up to 462\,GHz;
@@ -776,6 +760,12 @@ areas. Scaling to higher frequencies forces tighter critical
 dimensions and materials tend to exhibit higher losses. These
 challenges require tight control of cleanliness and full understanding
 of process parameters.
+\begin{table}[ht]
+\begin{center}
+\caption{Multiple active suborbital efforts are advancing technologies relevant to PICO.\label{tab:suborbital}}
+\includegraphics{tables/tab_suborbital.pdf}
+\end{center}
+\end{table}
 
 The sinuous antenna has the bandwidth to service three-colors per
 pixel, whereas horns and antenna arrays have only been used for two,
@@ -863,7 +853,6 @@ themselves \citep{McCarrick2016,Steinbach2018}. The cost to develop
 these technologies is \$3--4M/year, with a high chance of reaching
 TRL-5 before Phase~A.
 
-\newpage
 \section{Project management, heritage, risk, and cost}
 \label{sec:project_management} %6
 
