@@ -17,15 +17,15 @@ science observing mode: fixed rotation-rate imaging while scanning the sky.
 A V-groove radiator assembly provides passive cooling
 (\S\,\ref{sec:radiative_cooling}). The instrument is configured inside
 the shadow of the V-grooves, thermally and optically shielded from the
-Sun. The sun shadow cone depicted in Figure~\ref{fig:InstrumentCAD} is
+Sun. The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is
 $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$
-(\S\,\ref{sec:survey_design} \comor{and Figure~\ref{fig:MissionDesignFigure}}), is supplemented with a margin of
+(\S\,\ref{sec:survey_design} \comor{and Fig.~\ref{fig:MissionDesignFigure}}), is supplemented with a margin of
 $3\degree$ to account for the radius of the sun ($0.25\degree$), pointing
 control error, design margin, and alignment tolerances.
 
 The V-groove assembly is attached to the bipod struts that support the
 instrument structural ring. The ring supports the primary reflector
-and telescope box \comor{'Telescope box' is not a good terminology; telescope refers to all reflectors. suggest to change to 'cold box'; will need to change the label in the Figure.}. The telescope box contains the actively cooled
+and telescope box \comor{'Telescope box' is not a good terminology; telescope refers to all reflectors. suggest to change to 'cold box'; will need to change the label in the Figure}. The telescope box contains the actively cooled
 components (\S\,\ref{sec:cadr}, \S\,\ref{sec:4kcooler}), including
 the secondary reflector, the focal plane, and sub-kelvin adiabatic
 refrigerator structures. Just inside the box, a thermal liner serves
@@ -52,7 +52,7 @@ support $\sim10^4$ detectors, arcminute resolution at 800~GHz, \comor{low
 spurious}
 polarization, \comor{ and} low sidelobe response. All requirements
 are met with PICO's 1.4\,m aperture modified open-Dragone design
-(Figure~\ref{fig:OpticsDiagram}). There are no moving parts in the PICO optical system.
+(Fig.~\ref{fig:OpticsDiagram}). There are no moving parts in the PICO optical system.
 \comor{we should take figure 19 out. It is not useful for the decadal panel. Can give reference to the Young etal. paper.}
 
 \comor{this entire paragraph is not necessary}
@@ -155,7 +155,7 @@ The slightly concave focal surface, which has a radius of curvature of 4.55\,m, 
 \subsection{Focal plane}
 \label{sec:focal_plane} %3.2
 
-PICO's focal plane is populated by an imaging array of transition edge sensor (TES) bolometers observing in 21 overlapping 25\%-wide frequency bands with band centers ranging from 21 to 799\,GHz. Polarization is measured by differencing the signals from pairs of polarization-sensitive bolometers. A conceptual layout of the PICO focal plane is shown in Figure~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}.
+PICO's focal plane is populated by an imaging array of transition edge sensor (TES) bolometers observing in 21 overlapping 25\%-wide frequency bands with band centers ranging from 21 to 799\,GHz. Polarization is measured by differencing the signals from pairs of polarization-sensitive bolometers. A conceptual layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}.
  
 Modern mm/sub-mm detectors are photon-noise limited, so the primary approach to increase sensitivity is to increase the number of detectors. The PICO focal plane has 12,996 detectors, 175 times the number flown on the \planck\ mission, providing a breakthrough increase in sensitivity with a comparably sized telescope. This breakthrough is enabled by development and demonstration \comor{in} suborbital projects, which now commonly \comor{use} field arrays of $\sim10^4$ detectors. \comor{For example, SPT-3G is currently observing with ... and by the time PICO will enter phaseA the Simmons Observatory will have ... include citations.} 
 
@@ -355,7 +355,7 @@ margin above the PICO requirement. These improvements entail the
 implementation of well-known techniques (standard thermal
 engineering). The NGAS multi-stage J-T compressor has completed
 PDR-level development, and is expected to reach CDR level well before
-needed for PICO. Projected performance is shown in Figure~\ref{fig:CoolerFigure}. The
+needed for PICO. Projected performance is shown in Fig.~\ref{fig:CoolerFigure}. The
 Ball approach started with a larger compressor, required less
 modification to achieve comparable performance, and eliminated the
 cold bypass-precooling valve that was problematic for MIRI. The Ball
@@ -372,7 +372,7 @@ from the Sun. The V-grooves radiate to space, each reaching
 successively cooler temperatures. The V-groove assembly is
 mechanically supported from the spacecraft bus by attachment to the
 low-conductance bipod struts that also carry the mechanical loads of
-the structural ring (Figure~\ref{fig:InstrumentCAD}). The V-groove
+the structural ring (Fig.~\ref{fig:InstrumentCAD}). The V-groove
 assembly provides a cold radiative environment to the primary
 reflector, structural ring, and telescope box, so radiative loads on
 those elements are smaller than the conductive loads through the
@@ -476,7 +476,7 @@ by mitigating viewing restrictions imposed by terrestrial and lunar
 stray light. The PICO orbit around L2 is small enough to ensure than
 the Sun--Probe--Earth (SPE) angle is less than $15\degree$. This
 maintains the telescope boresight $>70\degree$ away from the Earth
-(Figure~\ref{fig:MissionDesignFigure},
+(Fig.~\ref{fig:MissionDesignFigure},
 $70\degree = 180\degree -\alpha - \beta - \rm{SPE}$).  High data rate
 downlink to the Deep Space Network (DSN) is available from L2 using
 near-Earth Ka bands. L2 provides a stable thermal environment,
@@ -486,7 +486,7 @@ eclipses.
 NASA requires that Probes be compatible with an Evolved Expendable
 Launch Vehicle (EELV). For the purpose of this study, the Falcon~9
 \citep{SpaceX2015} is used as the reference
-vehicle. Figure~\ref{fig:InFairing} shows PICO configured for launch in a
+vehicle. Fig.~\ref{fig:InFairing} shows PICO configured for launch in a
 Falcon~9 fairing. PICO's launch mass is well within the Falcon~9
 capability.
 
@@ -505,7 +505,7 @@ decommissioned to heliocentric orbit.
 PICO utilizes a highly repetitive scan strategy to map the full
 sky. During the survey, PICO spins with a period
 $T_{\rm spin} = 1$\,min about a spin axis oriented $\alpha=26\degree$
-from the anti-solar direction (Figure~\ref{fig:MissionDesignFigure}). This spin axis
+from the anti-solar direction (Fig.~\ref{fig:MissionDesignFigure}). This spin axis
 is forced to precess about the anti-solar direction with a period
 $T_{\rm prec}= 10$\,hr. The telescope boresight is oriented at an
 angle $\beta=69\degree$ away from the spin axis. This $\beta$ angle is
@@ -579,9 +579,9 @@ engineering models and prototypes appropriate to Class~B are budgeted.
 
 The aft end of the spacecraft (the ``de-spun module'') is comprised of
 six equipment bays that house standard components
-(Figure~\ref{fig:Spacecraft}).  The instrument and V-grooves are mounted on
+(Fig.~\ref{fig:Spacecraft}).  The instrument and V-grooves are mounted on
 bipods from the spacecraft ``spun module,'' which contains hosted
-instrument elements (Figure~\ref{fig:InstrumentCAD}). A spin motor drives the
+instrument elements (Fig.~\ref{fig:InstrumentCAD}). A spin motor drives the
 spun module at 1\,rpm to support the science survey requirements
 (\S\,\ref{sec:survey_design}). Reaction wheels on the despun module
 cancel the angular momentum of the spun module and provide three-axis
@@ -613,7 +613,7 @@ Solar cells on the aft side of the bus provide positive power (with
 contingency) for all mission power modes after launch. The driving
 mode is telecom concurrent with science survey. Unused area in the
 solar array plane affords significant margin for growth
-(Figure~\ref{fig:Spacecraft}). A Li-ion battery provides power during the
+(Fig.~\ref{fig:Spacecraft}). A Li-ion battery provides power during the
 launch phase. The heritage power electronics are dual-string.
 
 The propulsion design is a simple monoprop blow-down hydrazine system
@@ -681,7 +681,7 @@ thousands of detectors per camera.
 \label{sec:detectors_status} %5.1.1
 
 \comor{suggest the rephrase the text below to make it more readable for the uninitiated. Moved sentences around to make argument more logical. And clarified the issue with detectors.}
-Suborbital teams have successfully demonstrated a variety of \comor{schemes to couple the incident free-space electromagnetic radiation onto detectors}, including horns with ortho-mode transducers (OMTs), lithographed antenna arrays, and sinuous antennas under lenslets (Figure~\ref{fig:OpticalCoupling}). In all of these schemes the radiation is coupled through on-wafer transmission lines to bolometric transition-edge sensor detectors. Experiments on the ground and balloons are implementing \comor{these technologies with} many of PICO's observing bands between 30\,GHz and 270\,GHz (Table~\ref{tab:suborbital}). SPT-3G is using the PICO-baselined three-color pixel design to deploy 16,260 detectors covering 90--150--220~GHz \comor{add reference}. \comor{Advanced ActPol} has successfully deployed two-color pixels \comor{add reference}. All of these detector arrays have been packaged into modules and focal plane units in working cameras representative of the PICO integration. The experiments have achieved background-limited performance in both ground and balloon instruments.
+Suborbital teams have successfully demonstrated a variety of \comor{schemes to couple the incident free-space electromagnetic radiation onto detectors}, including horns with ortho-mode transducers (OMTs), lithographed antenna arrays, and sinuous antennas under lenslets (Fig.~\ref{fig:OpticalCoupling}). In all of these schemes the radiation is coupled through on-wafer transmission lines to bolometric transition-edge sensor detectors. Experiments on the ground and balloons are implementing \comor{these technologies with} many of PICO's observing bands between 30\,GHz and 270\,GHz (Table~\ref{tab:suborbital}). SPT-3G is using the PICO-baselined three-color pixel design to deploy 16,260 detectors covering 90--150--220~GHz \comor{add reference}. \comor{Advanced ActPol} has successfully deployed two-color pixels \comor{add reference}. All of these detector arrays have been packaged into modules and focal plane units in working cameras representative of the PICO integration. The experiments have achieved background-limited performance in both ground and balloon instruments.
 
 To date, suborbital experiments have achieved statistical map depths of 3\,$\mu$K$_{\rm CMB}$\,arcmin on degree-scaled modes over small parts of the sky, approaching what PICO will achieve over the entire sky. Suborbital experiments have also demonstrated systematic control to this level through full-pipeline simulations and null-test analysis (jackknife tests). Moreover, laboratory tests and in-flight data from balloons suggest that these TES bolometers are more naturally robust against cosmic rays than the individual NTD-Ge bolometers used in Planck. Cosmic ray glitches have fast recovery times and low coincidence rates~\citep{SPIDER2018}.
 \comor{what did this paragraph want to say? not clear. what does that have to do with the title of the section?} 
@@ -719,7 +719,7 @@ To date, suborbital experiments have achieved statistical map depths of 3\,$\mu$
 % \end{center}
 % \end{figure}
 
-PICO's 555--799\,GHz channels (above the Niobium band gap) will use direct absorber bolometers. Ground and balloon experiments have deployed focal planes with hundreds of horn-coupled spiderweb bolometers. SPT-Pol deployed dual-polarized versions of direct absorber horn-coupled bolometers. \textit{Planck} used this style of bolometer, but with NTD-Ge thermistors instead of TESes (Figure~\ref{fig:DirectAbsorbing}). Filled arrays of detectors such as Backshort Under Ground (BUG) bolometers are also an option for these channels. The status of these efforts is summarized in Table~\ref{tab:suborbital}.
+PICO's 555--799\,GHz channels (above the Niobium band gap) will use direct absorber bolometers. Ground and balloon experiments have deployed focal planes with hundreds of horn-coupled spiderweb bolometers. SPT-Pol deployed dual-polarized versions of direct absorber horn-coupled bolometers. \textit{Planck} used this style of bolometer, but with NTD-Ge thermistors instead of TESes (Fig.~\ref{fig:DirectAbsorbing}). Filled arrays of detectors such as Backshort Under Ground (BUG) bolometers are also an option for these channels. The status of these efforts is summarized in Table~\ref{tab:suborbital}.
 \comor{why are we showing the Planck detectors when we should show Herschel for the higher frequency bands?}
 
 \subsubsection{Readout electronics status}
@@ -871,7 +871,7 @@ project oversight for schedule, budget, and deliverables. A Project
 Systems Engineer leads systems engineering activities and serves as
 the Engineering Technical Authority. A Mission Assurance Manager
 serves as the Independent Technical Authority. The PICO mission
-development schedule is shown in Figure~\ref{fig:Schedule}.
+development schedule is shown in Fig.~\ref{fig:Schedule}.
 
 \begin{figure}[hb]
 \begin{center}

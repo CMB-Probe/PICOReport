@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 NOV 2018 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 NOV 2018 14:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -909,6 +909,11 @@ Overfull \vbox (24.0pt too high) detected at line 170
  []
 
 
+Underfull \hbox (badness 1142) in paragraph at lines 171--171
+\T1/ptm/m/n/10 the ear-li-est stars in the Uni-verse
+ []
+
+
 Underfull \hbox (badness 2285) in paragraph at lines 173--173
 \T1/ptm/m/n/10 trum for modes $\OT1/ztmcm/m/n/10 2 \OML/ztmcm/m/it/10 < ` < \OT
 1/ztmcm/m/n/10 20$ \T1/ptm/m/n/10 to
@@ -1547,7 +1552,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 311.
 Here is how much of TeX's memory you used:
  12563 strings out of 492995
  190484 string characters out of 6132704
- 391288 words of memory out of 5000000
+ 391289 words of memory out of 5000000
  15376 multiletter control sequences out of 15000+600000
  106929 words of font info for 171 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1577,7 +1582,7 @@ r.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr
 live/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (94 pages, 9925352 bytes).
+Output written on PICOReport.pdf (94 pages, 9925329 bytes).
 PDF statistics:
  2439 PDF objects out of 2487 (max. 8388607)
  1904 compressed objects within 20 object streams
