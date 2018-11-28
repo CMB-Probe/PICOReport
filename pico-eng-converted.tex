@@ -137,17 +137,19 @@ The two reflectors (270 cm $\times$ 205 cm primary and 160 cm $\times$ 158 cm se
 The slightly concave focal surface, which has a radius of curvature of 4.55\,m, is telecentric to within $0.12\degree$ across the entire FOV. This results in a defocus of 0.1\,mm at the edge of a flat 10\,cm detector wafer, adding an RMS wavefront error of less than 3\,$\mu$m, which is negligible relative to PICO's shortest wavelength.}
 
 \begin{figure}
-\begin{center}
+\parbox{3in}{\centering
 \includegraphics[width=3in]{figures/FocalPlaneMechanical.png}
+}
+\parbox{3.5in}{\centering
 \caption{PICO focal plane. Detectors are fabricated on six types of tiles (shown numbered and colored to match first column in Table~\ref{tab:focal_plane}). The wafers are located on the focal plane such that higher frequency bands, which require better optical performance, are placed nearer to the center.\label{fig:FocalPlaneMechanical}}
-\end{center}
+}
 \end{figure}
 
 \begin{table}
-\begin{center}
-\caption{PICO makes efficient use of the focal area with multichroic pixels (three bands per pixel, \S\,\ref{sec:low_freq_det}). The sampling rate is based on the smallest beam (Table~\ref{tab:bands}), with 3 samples per FWHM at a scan speed $(360\degree/{\rm min})\sin(\beta=69\degree) = 336\degree/{\rm min}$. \label{tab:focal_plane}}
-\includegraphics{tables/tab_focal_plane.pdf}
-\end{center}
+\parbox{3.5in}{\centering
+\includegraphics{tables/tab_focal_plane.pdf}}
+\parbox{3in}{\centering
+\caption{PICO makes efficient use of the focal area with multichroic pixels (three bands per pixel, \S\,\ref{sec:low_freq_det}). The sampling rate is based on the smallest beam (Table~\ref{tab:bands}), with 3 samples per FWHM at a scan speed $(360\degree/{\rm min})\sin(\beta=69\degree) = 336\degree/{\rm min}$. \label{tab:focal_plane}} }
 \end{table}
 
 \subsection{Focal plane}
@@ -185,10 +187,10 @@ required for PICO is described in \S\,\ref{sec:detector_development}.
 \comor{is there any tech maturation? we need to point to Planck and Herschel here.}
 
 \begin{table}[!pt]
-\begin{center}
-\caption{PICO measures in 21 broad overlapping frequency bands with band centers ($\nu_{\rm c}$) from 21\,GHz to 799\,GHz and bandwidth $\Delta\nu/\nu_{\rm c} = 25\,\%$. The beams are single mode, with FWHM sizes of $6.2' \times (155\,{\rm GHz}/\nu_{\rm c})$. The Current Best Estimate (CBE) per-bolometer sensitivity is background limited (\S\,\ref{sec:sensitivity}). The total number of bolometers for each band is equal to (number of tiles) $\times$ (pixels per tile) $\times$ (2 polarizations per pixel), from Table~\ref{tab:focal_plane}. Array sensitivity assumes $90\,\%$ detector operability, and meets the requirements of the baseline mission with $>40\,\%$ margin. The map depth assumes 5\,yr of full sky survey at $95\,\%$ survey efficiency, except the 25 and 30\,GHz frequency bands, which are conservatively excluded during 4\,hr/day Ka-band (26\,GHz) telecom periods (\S\,\ref{sec:ground_segment}).\label{tab:bands}}
-\includegraphics{tables/tab_bands.pdf}
-\end{center}
+\parbox{4.45in}{
+\includegraphics{tables/tab_bands.pdf} }
+\parbox{2in}{
+\caption{PICO measures in 21 broad overlapping frequency bands with band centers ($\nu_{\rm c}$) from 21\,GHz to 799\,GHz and bandwidth $\Delta\nu/\nu_{\rm c} = 25\,\%$. The beams are single mode, with FWHM sizes of $6.2' \times (155\,{\rm GHz}/\nu_{\rm c})$. The Current Best Estimate (CBE) per-bolometer sensitivity is background limited (\S\,\ref{sec:sensitivity}). The total number of bolometers for each band is equal to (number of tiles) $\times$ (pixels per tile) $\times$ (2 polarizations per pixel), from Table~\ref{tab:focal_plane}. Array sensitivity assumes $90\,\%$ detector operability, and meets the requirements of the baseline mission with $>40\,\%$ margin. The map depth assumes 5\,yr of full sky survey at $95\,\%$ survey efficiency, except the 25 and 30\,GHz frequency bands, which are conservatively excluded during 4\,hr/day Ka-band (26\,GHz) telecom periods (\S\,\ref{sec:ground_segment}).\label{tab:bands} } }
 \end{table}
 
 \subsubsection{Sensitivity}
@@ -260,22 +262,24 @@ thermal requirements are met with robust margins
 (Table~\ref{tab:cooler}).
 
 \begin{table}
-\begin{center}
-\caption{Projected cooler heat lift capabilities offer $>100\,\%$ heat lift margin, complying with community best practices \citep{Donabedian2003}. The cADR lift capability at 1\,K and 0.1\,K is from a Goddard quote. Both NGAS and Ball project $>100$\,mW lift capability at $4.5\,$K using higher compression-ratio compressors currently in development (\S\,\ref{sec:4kcooler}). The required loads were calculated using Thermal Desktop. Reference \citep{Ross2004} was used to estimate the thermal conductive loads through mechanical supports. In addition to the listed components, the total 4.5\,K heat load includes the intercept on the focal plane mechanical supports.\label{tab:cooler}}
-\includegraphics{tables/tab_cooler.pdf}
-\end{center}
+\parbox{4.0in}{
+\includegraphics{tables/tab_cooler.pdf} }
+\hspace{0.01in}
+\parbox{2.5in}{
+\caption{Projected cooler heat lift capabilities offer $>100\,\%$ margin, complying with community best practices \citep{Donabedian2003}. The cADR lift capability at 1\,K and 0.1\,K is from a Goddard quote. Both NGAS and Ball project $>100$\,mW lift capability at $4.5\,$K using higher compression-ratio compressors currently in development (\S\,\ref{sec:4kcooler}). The required loads were calculated using Thermal Desktop. Reference \citep{Ross2004} was used to estimate the thermal conductive loads through mechanical supports. In addition to the listed components, the total 4.5\,K heat load includes the intercept on the focal plane mechanical supports.\label{tab:cooler}} }
 \end{table}
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=\textwidth]{figures/ArchitectureBlockDiagram.png}
+\begin{figure}[ht]
+\parbox{4.0in}{
+\includegraphics[width=4.in]{figures/ArchitectureBlockDiagram.pdf} }
+\hspace{0.05in}
+\parbox{2.45in}{
 \caption{PICO instrument block diagram. Active coolers provide cooling
   to the focal plane, its box, the secondary reflector, and the
   thermal liner that acts as a cold aperture stop. Data from the focal
   plane flows to (redundant, cross-strapped) warm readout electronics
   on the spun module of the spacecraft
-  bus.\label{fig:ArchitectureBlockDiagram}}
-\end{center}
+  bus.\label{fig:ArchitectureBlockDiagram}} }
 \end{figure}
 
 
@@ -333,16 +337,15 @@ of the $^4$He gas used for MIRI with $^3$He, plus resizing of the gas
 counterflow heat exchangers to take advantage of the $^3$He
 
 \begin{figure}
-\begin{center}
-\includegraphics[width=3in]{figures/CoolerFigure.png}
+\parbox{3.5in}{\centering
+\includegraphics[width=3in]{figures/CoolerFigure.png}}
+\parbox{3.0in}{
 \caption{Projected performance of the NGAS cooler using a multi-stage
   compressor and $^4$He \citep{Rabb2013} meets PICO's requirements
   with $>100\,\%$ margin. PICO conservatively carries additional input
   power contingency on the efficiency of the
-  cooler.\label{fig:CoolerFigure}}
-\end{center}
+  cooler.\label{fig:CoolerFigure}} }
 \end{figure}
-
 
 It is highly likely that a better solution will be available before
 Phase~A. NGAS and Ball are actively working on increasing the flow
