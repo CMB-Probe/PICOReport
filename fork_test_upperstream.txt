@@ -1,7 +1,1 @@
-Test git: conflict?
-da
-Test git fork.
-conflicts?
-asdfasgafg as
-testajlgajlsd
-adsasdfsadf
+Some changes were done, and you can see them.
