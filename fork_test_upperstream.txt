@@ -1,1 +1,7 @@
-Test git fork.
+Test git: conflict?
+da
+as
+df
+asd
+fad
+saf
