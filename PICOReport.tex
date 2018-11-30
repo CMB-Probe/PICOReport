@@ -108,7 +108,7 @@
   % don't switch actual page sizes yet:
   \generatePageLayouts{}
 
-\bibliographystyle{unsrtnat}
+%\bibliographystyle{unsrtnat}
 
 \setlength{\baselineskip}{0.96\baselineskip} %% measured, 5.0 lines/inch.  Can go to 0.96\baselineskip
 \setlength{\parskip}{1.\parskip}
@@ -303,7 +303,9 @@
  \subfile{pico-eng-converted.tex}
 
 \newpage
-
+\def\bibfont{\footnotesize}
+\setlength{\bibsep}{1pt}
+\bibliographystyle{IEEEtran}
 \bibliography{mybib,pico-report}
 
 \input{acronym}
