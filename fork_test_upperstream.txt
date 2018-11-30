@@ -2,4 +2,3 @@ Some changes were done, and you can see them.
 
 Try to create some conflicts
 conflicts are now gone.
-
