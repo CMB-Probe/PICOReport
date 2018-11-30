@@ -1,7 +1,5 @@
 Test git: conflict?
 da
-as
-df
-asd
-fad
-saf
+Test git fork.
+conflicts?
+asdfasgafg as
