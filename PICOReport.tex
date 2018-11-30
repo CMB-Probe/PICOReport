@@ -162,6 +162,8 @@
 \pagenumbering{arabic} 
 \setcounter{page}{1}
 \setcounter{figure}{0}
+
+
 \section{Executive Summary} % (2 pg, Hanany)}
 \subfile{executive.tex}
 
@@ -170,6 +172,20 @@
 %48 remaining pages are distributed 29/19: 29 pages for science (including foregrounds and systematics), 19 for instrument, technology, mission, management and cost.
 
 %\vspace{-0.18in}
+
+% [TJP] ------------------------
+% [TJP] The Science Traceability Matrix goes here. The table is in stm.tex, but the following LaTeX invocation makes it appear on a double-wide page
+\afterpage{%
+  % switch to LayoutPageB (includes switching page size)
+  \switchToLayoutPageB{}
+    \input stm.tex
+   \clearpage
+% start with LayoutPageA (includes switching page size)
+\switchToLayoutPageA{}
+% \input stm2.tex  stm2 moved to Legacy science section. (Karl)
+% \clearpage
+}
+% [TJP] end --------------------
 
 \section{Science}
 
@@ -189,35 +205,7 @@
 
 %\vspace{-0.05in}
 
-%The Science Traceability Matrix can be found in Tables~\ref{tab:STM} and \ref{tab:STM2}.
 
-%  The PICO Science Traceability Matrix (2pg, Hanany\&Trangsrud) will be inserted around here.  It is an 11x17 foldout, so it counts as 2 pages, which leaves 15.5 to all the rest in 2.2. Currently allocating 15 pages.
-
-% [TJP] ------------------------
-% [TJP] The Science Traceability Matrix goes here. The table is in stm.tex, but the following LaTeX invocation makes it appear on a double-wide page
-\afterpage{%
-  % switch to LayoutPageB (includes switching page size)
-  \switchToLayoutPageB{}
-    \input stm.tex
-   \clearpage
-% start with LayoutPageA (includes switching page size)
-\switchToLayoutPageA{}
-% \input stm2.tex  stm2 moved to Legacy science section. (Karl)
-% \clearpage
-}
-% [TJP] end --------------------
-
-
-%    \vspace{12pt}
-%     FOR EACH OF THE BELOW SUBSECTIONS:
-%    \begin{itemize}
-%    \item Introduce and elaborate on the applicable PICO ``Science Objectives" from the STM table (what do they mean and why are they important)
-%    \item Observations/Measurements that enable PICO to accomplish each Science Objective (tell the data analysis story that connects the Observations column of the STM to the Science Objective column)
-%    \item Contextualize relative to sub-orbital and other space missions. {\it Emphasize where capabilities are unique to space.}
-%    \item Science yield estimate (be quantitative. how well will PICO do at Baseline/Required performance? at Current Best Estimate performance?)
-%    \item Include a summary plot or table which demonstrates PICO's performance against the Science Objective as written (e.g. how it discriminates between different theories)
-%    \item Perceived science impact. (The impact isn't reducing sigma on a parameter.  It is about what we will learn about nature.)
-%    \end{itemize}
 
 
 \subsubsection{Fundamental Physics} %(6 pgs)
