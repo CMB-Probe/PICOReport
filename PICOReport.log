@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 NOV 2018 12:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 NOV 2018 18:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -167,7 +167,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -738,7 +741,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--132
 
  []
 
-<images/PICO_science goals and probes.png, id=249, 1355.0625pt x 706.64pt>
+<images/PICO_science goals and probes.png, id=253, 1355.0625pt x 706.64pt>
 File: images/PICO_science goals and probes.png Graphic file (type png)
 
 <use images/PICO_science goals and probes.png>
@@ -818,32 +821,27 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
  [2]
 (./executive.tex
 Package acronym Info: Label `acro:CMB' newly defined as it shall be overridden
-although it is yet undefined on input line 6.
- [1]) (./Introduction.tex
+although it is yet undefined on input line 7.
+ [1]
+
+LaTeX Warning: Reference `sec:??' on page 2 undefined on input line 26.
+
+) (./Introduction.tex
 Package acronym Info: Label `acro:CBE' newly defined as it shall be overridden
 although it is yet undefined on input line 9.
-Package acronym Info: Label `acro:IGW' newly defined as it shall be overridden
-although it is yet undefined on input line 15.
- [2]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 21.
-Package acronym Info: Label `acro:SNR' newly defined as it shall be overridden
-although it is yet undefined on input line 23.
- [3]
-Package acronym Info: Label `acro:SZ' newly defined as it shall be overridden
-although it is yet undefined on input line 42.
-) (./fundamentalsci.tex
-[4] (./stm.tex
+ [2] (./stm.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
 
@@ -962,7 +960,20 @@ Overfull \hbox (23.73004pt too wide) in paragraph at lines 56--241
 [][]
  []
 
-) [5] <images/cmb_powspec_PICOv4p1_v2.pdf, id=405, 375.804pt x 303.534pt>
+) [3]
+Package acronym Info: Label `acro:IGW' newly defined as it shall be overridden
+although it is yet undefined on input line 15.
+Package acronym Info: Label `acro:SNR' newly defined as it shall be overridden
+although it is yet undefined on input line 23.
+ [4
+
+
+
+]
+Package acronym Info: Label `acro:SZ' newly defined as it shall be overridden
+although it is yet undefined on input line 42.
+ [5]) (./fundamentalsci.tex [6]
+<images/cmb_powspec_PICOv4p1_v2.pdf, id=423, 375.804pt x 303.534pt>
 File: images/cmb_powspec_PICOv4p1_v2.pdf Graphic file (type pdf)
 
 <use images/cmb_powspec_PICOv4p1_v2.pdf>
@@ -970,7 +981,7 @@ Package pdftex.def Info: images/cmb_powspec_PICOv4p1_v2.pdf used on input line
 26.
 (pdftex.def)             Requested size: 216.81pt x 175.11426pt.
 
-<images/cmbbb_powspec_PICOv4p1.pdf, id=406, 379.4175pt x 303.534pt>
+<images/cmbbb_powspec_PICOv4p1.pdf, id=424, 379.4175pt x 303.534pt>
 File: images/cmbbb_powspec_PICOv4p1.pdf Graphic file (type pdf)
 
 <use images/cmbbb_powspec_PICOv4p1.pdf>
@@ -981,12 +992,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
- [6
-
-
-
-]
-<images/nsrlabeledrp0005_PICOv4p1.pdf, id=428, 375.804pt x 195.129pt>
+ [7 <./images/cmb_powspec_PICOv4p1_v2.pdf> <./images/cmbbb_powspec_PICOv4p1.pdf
+>]
+<images/nsrlabeledrp0005_PICOv4p1.pdf, id=479, 375.804pt x 195.129pt>
 File: images/nsrlabeledrp0005_PICOv4p1.pdf Graphic file (type pdf)
 
 <use images/nsrlabeledrp0005_PICOv4p1.pdf>
@@ -1010,33 +1018,29 @@ Underfull \hbox (badness 2119) in paragraph at lines 48--48
 \T1/ptm/m/n/10.95 are pre-dic-tions for the se-
  []
 
-[7 <./images/cmb_powspec_PICOv4p1_v2.pdf> <./images/cmbbb_powspec_PICOv4p1.pdf>
-] [8 <./images/nsrlabeledrp0005_PICOv4p1.pdf>]
-<images/Neff_final.pdf, id=536, 554.59674pt x 457.1867pt>
+[8 <./images/nsrlabeledrp0005_PICOv4p1.pdf>]
+<images/Neff_final.pdf, id=541, 554.59674pt x 457.1867pt>
 File: images/Neff_final.pdf Graphic file (type pdf)
 
 <use images/Neff_final.pdf>
 Package pdftex.def Info: images/Neff_final.pdf used on input line 88.
 (pdftex.def)             Requested size: 211.38832pt x 174.25595pt.
 
-<images/Tf_pico.pdf, id=537, 549.50264pt x 411.52167pt>
+<images/Tf_pico.pdf, id=542, 549.50264pt x 411.52167pt>
 File: images/Tf_pico.pdf Graphic file (type pdf)
 
 <use images/Tf_pico.pdf>
 Package pdftex.def Info: images/Tf_pico.pdf used on input line 89.
 (pdftex.def)             Requested size: 220.78543pt x 165.34042pt.
- [9 <./images/Neff_final.pdf> <./images/Tf_pico.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/Tf_pico.pdf): PDF i
-nclusion: multiple pdfs with page group included in a single page
->] <images/Mnu_tauprior_final.pdf, id=612, 579.25044pt x 457.1867pt>
+ [9]
+<images/Mnu_tauprior_final.pdf, id=561, 579.25044pt x 457.1867pt>
 File: images/Mnu_tauprior_final.pdf Graphic file (type pdf)
 
 <use images/Mnu_tauprior_final.pdf>
 Package pdftex.def Info: images/Mnu_tauprior_final.pdf used on input line 112.
 (pdftex.def)             Requested size: 225.4804pt x 177.96724pt.
 
-<images/pico_dm_baryon.pdf, id=613, 434.26587pt x 288.49889pt>
+<images/pico_dm_baryon.pdf, id=562, 434.26587pt x 288.49889pt>
 File: images/pico_dm_baryon.pdf Graphic file (type pdf)
 
 <use images/pico_dm_baryon.pdf>
@@ -1044,12 +1048,16 @@ Package pdftex.def Info: images/pico_dm_baryon.pdf used on input line 113.
 (pdftex.def)             Requested size: 234.8775pt x 156.04239pt.
 Package acronym Info: Label `acro:BAO' newly defined as it shall be overridden
 although it is yet undefined on input line 124.
- [10 <./images/Mnu_tauprior_final.pdf> <./images/pico_dm_baryon.pdf
+ [10 <./images/Neff_final.pdf> <./images/Tf_pico.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/Tf_pico.pdf): PDF i
+nclusion: multiple pdfs with page group included in a single page
+>] [11 <./images/Mnu_tauprior_final.pdf> <./images/pico_dm_baryon.pdf
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/pico_dm_baryon.pdf)
 : PDF inclusion: multiple pdfs with page group included in a single page
->] [11]) (./extragalacticsci.tex [12]
-<images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=722, 661.71594pt x 533
+>]) (./extragalacticsci.tex [12]
+<images/Reionization_Contours_zbar_delz_PICO_NEW.pdf, id=728, 661.71594pt x 533
 .22528pt>
 File: images/Reionization_Contours_zbar_delz_PICO_NEW.pdf Graphic file (type pd
 f)
@@ -1058,14 +1066,14 @@ Package pdftex.def Info: images/Reionization_Contours_zbar_delz_PICO_NEW.pdf us
 ed on input line 23.
 (pdftex.def)             Requested size: 216.81pt x 174.71188pt.
  [13 <./images/Reionization_Contours_zbar_delz_PICO_NEW.pdf>]
-<images/lensingNoisePICO.pdf, id=806, 442.65375pt x 442.65375pt>
+<images/lensingNoisePICO.pdf, id=810, 442.65375pt x 442.65375pt>
 File: images/lensingNoisePICO.pdf Graphic file (type pdf)
 
 <use images/lensingNoisePICO.pdf>
 Package pdftex.def Info: images/lensingNoisePICO.pdf used on input line 51.
 (pdftex.def)             Requested size: 180.67499pt x 180.67868pt.
-
-<images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf, id=814, 424.65239pt x 303.55
+ [14 <./images/lensingNoisePICO.pdf>]
+<images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf, id=844, 424.65239pt x 303.55
 975pt>
 File: images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf Graphic file (type pdf)
  <use images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf>
@@ -1073,27 +1081,33 @@ Package pdftex.def Info: images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf used
 on input line 67.
 (pdftex.def)             Requested size: 195.12877pt x 139.48631pt.
 
-<images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf, id=815, 428.9926pt x 307.814p
+<images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf, id=845, 428.9926pt x 307.814p
 t>
 File: images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf Graphic file (type pdf)
  <use images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf>
 Package pdftex.def Info: images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf used o
 n input line 92.
 (pdftex.def)             Requested size: 187.90244pt x 134.82327pt.
- [14 <./images/lensingNoisePICO.pdf>]
+ [15 <./images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf> <./images/PICO_s8_lma
+x_PICOv4.1b_deproj0_SENS0.pdf
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/PICO_s8_lmax_PICOv4
+.1b_deproj0_SENS0.pdf): PDF inclusion: multiple pdfs with page group included i
+n a single page
+>]
 Package epstopdf Info: Source file: <images/m500lim_vs_z_pico_polar_v3.eps>
-(epstopdf)                    date: 2018-11-30 09:06:35
+(epstopdf)                    date: 2018-11-30 08:58:02
 (epstopdf)                    size: 14195 bytes
 (epstopdf)             Output file: <images/m500lim_vs_z_pico_polar_v3-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2018-11-30 12:32:15
+(epstopdf)                    date: 2018-11-30 17:57:08
 (epstopdf)                    size: 9113 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/m500lim_vs_z_pico_p
 olar_v3-eps-converted-to.pdf images/m500lim_vs_z_pico_polar_v3.eps>
 (epstopdf)             \includegraphics on input line 105.
 Package epstopdf Info: Output file is already uptodate.
 
-<images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf, id=847, 505.89pt x 361
+<images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf, id=982, 505.89pt x 361
 .35pt>
 File: images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf Graphic file (type
  pdf)
@@ -1101,28 +1115,27 @@ File: images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf Graphic file (type
 Package pdftex.def Info: images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf
  used on input line 105.
 (pdftex.def)             Requested size: 216.81pt x 154.86469pt.
- [15 <./images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf> <./images/PICO_s8_lma
-x_PICOv4.1b_deproj0_SENS0.pdf
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/PICO_s8_lmax_PICOv4
-.1b_deproj0_SENS0.pdf): PDF inclusion: multiple pdfs with page group included i
-n a single page
->] <images/PICO_tSZ_PS_plot.pdf, id=983, 462.52798pt x 346.89601pt>
+ [16 <./images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf>]
+<images/PICO_tSZ_PS_plot.pdf, id=997, 462.52798pt x 346.89601pt>
 File: images/PICO_tSZ_PS_plot.pdf Graphic file (type pdf)
 
 <use images/PICO_tSZ_PS_plot.pdf>
 Package pdftex.def Info: images/PICO_tSZ_PS_plot.pdf used on input line 154.
 (pdftex.def)             Requested size: 216.81pt x 162.6071pt.
- [16 <./images/m500lim_vs_z_pico_polar_v3-eps-converted-to.pdf>]) (./galacticsc
-i.tex
-<images/galsci_fig_v2.pdf, id=999, 2797.02975pt x 1057.72166pt>
+ [17 <./images/PICO_tSZ_PS_plot.pdf>])
+(./galacticsci.tex
+<images/galsci_fig_v2.pdf, id=1042, 2797.02975pt x 1057.72166pt>
 File: images/galsci_fig_v2.pdf Graphic file (type pdf)
 
 <use images/galsci_fig_v2.pdf>
 Package pdftex.def Info: images/galsci_fig_v2.pdf used on input line 31.
 (pdftex.def)             Requested size: 469.75499pt x 177.63147pt.
- [17 <./images/PICO_tSZ_PS_plot.pdf>] [18 <./images/galsci_fig_v2.pdf>] [19] [2
-0]) (./stm2.tex
+ [18] [19 <./images/galsci_fig_v2.pdf>]
+
+Package natbib Warning: Author undefined for citation`EllsworthBowers2015' 
+(natbib)                on page 20 on input line 65.
+
+[20]) (./stm2.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 1.
@@ -1139,7 +1152,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--52
  []
 
 ) (./LegacyOct30.tex
-<images/fig_SED_PICO.jpg, id=1160, 322.3242pt x 229.5777pt>
+<images/fig_SED_PICO.jpg, id=1166, 322.3242pt x 229.5777pt>
 File: images/fig_SED_PICO.jpg Graphic file (type jpg)
 
 <use images/fig_SED_PICO.jpg>
@@ -1149,18 +1162,27 @@ Package pdftex.def Info: images/fig_SED_PICO.jpg used on input line 8.
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file ./images/NgtF_pico_NEW.pdf):
  PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/NgtF_pico_NEW.pdf, id=1162, 709.39253pt x 529.63882pt>
+<images/NgtF_pico_NEW.pdf, id=1168, 709.39253pt x 529.63882pt>
 File: images/NgtF_pico_NEW.pdf Graphic file (type pdf)
 
 <use images/NgtF_pico_NEW.pdf>
 Package pdftex.def Info: images/NgtF_pico_NEW.pdf used on input line 10.
 (pdftex.def)             Requested size: 187.89914pt x 140.28088pt.
- [21] [22 <./images/fig_SED_PICO.jpg> <./images/NgtF_pico_NEW.pdf>]
+
+
+Package natbib Warning: Author undefined for citation`Dye2018' 
+(natbib)                on page 21 on input line 24.
+
+[21] [22 <./images/fig_SED_PICO.jpg> <./images/NgtF_pico_NEW.pdf>]
+
+Package natbib Warning: Author undefined for citation`Spilker2018' 
+(natbib)                on page 23 on input line 26.
+
+[23]
 Package acronym Info: Label `acro:CIB' newly defined as it shall be overridden
 although it is yet undefined on input line 50.
- [23]) (./complementarity.tex [24]) (./foregrounds.tex
-[25]
-<images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1294, 1027.84pt x 7
+) (./complementarity.tex [24] [25]) (./foregrounds.tex
+<images/sensitivity_vs_frequency_Jun29th_2018_large.pdf, id=1302, 1027.84pt x 7
 70.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf Graphic file (type
  pdf)
@@ -1169,7 +1191,7 @@ Package pdftex.def Info: images/sensitivity_vs_frequency_Jun29th_2018_large.pdf
  used on input line 14.
 (pdftex.def)             Requested size: 230.18253pt x 172.62889pt.
 
-<images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1295, 1027.84pt x 77
+<images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf, id=1303, 1027.84pt x 77
 0.88pt>
 File: images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf Graphic file (type 
 pdf)
@@ -1177,31 +1199,33 @@ pdf)
 Package pdftex.def Info: images/sensitivity_vs_frequency_Jun29th_2018_2deg.pdf 
 used on input line 15.
 (pdftex.def)             Requested size: 230.18253pt x 172.62889pt.
- [26 <./images/sensitivity_vs_frequency_Jun29th_2018_large.pdf> <./images/sensi
-tivity_vs_frequency_Jun29th_2018_2deg.pdf>]
-<images/foregrounds_maps_planck_models.png, id=1332, 1010.77625pt x 146.5475pt>
+ [26]
+[27 <./images/sensitivity_vs_frequency_Jun29th_2018_large.pdf> <./images/sensit
+ivity_vs_frequency_Jun29th_2018_2deg.pdf>]
+<images/foregrounds_maps_planck_models.png, id=1349, 1010.77625pt x 146.5475pt>
 File: images/foregrounds_maps_planck_models.png Graphic file (type png)
 <use images/foregrounds_maps_planck_models.png>
 Package pdftex.def Info: images/foregrounds_maps_planck_models.png used on inpu
 t line 37.
 (pdftex.def)             Requested size: 446.26582pt x 64.70245pt.
- [27 <./images/foregrounds_maps_planck_models.png>]
-<images/soumen_NILC_foregrounds_93.png, id=1353, 422.378pt x 313.17pt>
+ [28 <./images/foregrounds_maps_planck_models.png>]
+<images/soumen_NILC_foregrounds_93.png, id=1369, 422.378pt x 313.17pt>
 File: images/soumen_NILC_foregrounds_93.png Graphic file (type png)
 
 <use images/soumen_NILC_foregrounds_93.png>
 Package pdftex.def Info: images/soumen_NILC_foregrounds_93.png used on input li
 ne 87.
 (pdftex.def)             Requested size: 216.81pt x 160.75153pt.
- [28 <./images/soumen_NILC_foregrounds_93.png>]
-<images/commander_foregrounds_BB.png, id=1365, 1404.24625pt x 460.72125pt>
+
+<images/commander_foregrounds_BB.png, id=1371, 1404.24625pt x 460.72125pt>
 File: images/commander_foregrounds_BB.png Graphic file (type png)
 
 <use images/commander_foregrounds_BB.png>
 Package pdftex.def Info: images/commander_foregrounds_BB.png used on input line
  110.
 (pdftex.def)             Requested size: 325.215pt x 106.70181pt.
-) (./systematics.tex [29 <./images/commander_foregrounds_BB.png>]
+) (./systematics.tex [29 <./images/soumen_NILC_foregrounds_93.png>] [30 <./imag
+es/commander_foregrounds_BB.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 123.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
@@ -1236,17 +1260,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--128
 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/PICO_rotate_eb4_v2.pdf, id=1389, 597.23125pt x 397.485pt>
+<images/PICO_rotate_eb4_v2.pdf, id=1409, 597.23125pt x 397.485pt>
 File: images/PICO_rotate_eb4_v2.pdf Graphic file (type pdf)
 
 <use images/PICO_rotate_eb4_v2.pdf>
 Package pdftex.def Info: images/PICO_rotate_eb4_v2.pdf used on input line 270.
 (pdftex.def)             Requested size: 281.85587pt x 187.58824pt.
 
-<images/calibration_spectrum_BB.pdf, id=1390, 462.22687pt x 388.80946pt>
+<images/calibration_spectrum_BB.pdf, id=1410, 462.22687pt x 388.80946pt>
 File: images/calibration_spectrum_BB.pdf Graphic file (type pdf)
 
 <use images/calibration_spectrum_BB.pdf>
@@ -1258,8 +1279,12 @@ Overfull \hbox (2.28001pt too wide) in paragraph at lines 270--271
 [][] [] 
  []
 
-[30] [31] [32 <./images/PICO_rotate_eb4_v2.pdf> <./images/calibration_spectrum_
-BB.pdf>]
+
+Package natbib Warning: Author undefined for citation`Aumont+2018' 
+(natbib)                on page 31 on input line 304.
+
+[31] [32 <./images/PICO_rotate_eb4_v2.pdf> <./images/calibration_spectrum_BB.pd
+f>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 345.
 
  (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/omsptm.fd
@@ -1267,299 +1292,220 @@ File: omsptm.fd
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 345.
-)
-(./requirements.tex [33] [34]) [35] (./pico-eng-converted.tex [36]
-<figures/InstrumentCAD.png, id=1534, 448.18605pt x 264.24303pt>
+ [33])
+(./requirements.tex [34]) [35] (./pico-eng-converted.tex
+
+LaTeX Warning: Reference `tab:stm' on page 36 undefined on input line 6.
+
+[36] <figures/InstrumentCAD.png, id=1532, 448.18605pt x 264.24303pt>
 File: figures/InstrumentCAD.png Graphic file (type png)
 
 <use figures/InstrumentCAD.png>
-Package pdftex.def Info: figures/InstrumentCAD.png used on input line 85.
+Package pdftex.def Info: figures/InstrumentCAD.png used on input line 90.
 (pdftex.def)             Requested size: 451.6875pt x 266.32289pt.
 
-<figures/OpticsDiagram.png, id=1535, 227.4096pt x 180.38593pt>
-File: figures/OpticsDiagram.png Graphic file (type png)
-
-<use figures/OpticsDiagram.png>
-Package pdftex.def Info: figures/OpticsDiagram.png used on input line 92.
-(pdftex.def)             Requested size: 216.81pt x 171.97943pt.
- [37 <./figures/InstrumentCAD.png>]
-<figures/FocalPlaneMechanical.png, id=1548, 227.4096pt x 126.2316pt>
+<figures/FocalPlaneMechanical.png, id=1533, 227.4096pt x 126.2316pt>
 File: figures/FocalPlaneMechanical.png Graphic file (type png)
 
 <use figures/FocalPlaneMechanical.png>
-Package pdftex.def Info: figures/FocalPlaneMechanical.png used on input line 14
-2.
+Package pdftex.def Info: figures/FocalPlaneMechanical.png used on input line 10
+4.
 (pdftex.def)             Requested size: 216.81pt x 120.34885pt.
 
-Overfull \hbox (2.28pt too wide) in paragraph at lines 142--146
-[]$[]$ $[]$ 
- []
-
-<tables/tab_focal_plane.pdf, id=1551, 233.54341pt x 191.4093pt>
+<tables/tab_focal_plane.pdf, id=1540, 233.54341pt x 191.4093pt>
 File: tables/tab_focal_plane.pdf Graphic file (type pdf)
 
 <use tables/tab_focal_plane.pdf>
-Package pdftex.def Info: tables/tab_focal_plane.pdf used on input line 150.
+Package pdftex.def Info: tables/tab_focal_plane.pdf used on input line 112.
 (pdftex.def)             Requested size: 233.54283pt x 191.40881pt.
 
-Overfull \hbox (2.28pt too wide) in paragraph at lines 150--153
-[]$[]$ $[]$ 
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 2.00043pt
+(hyperref)                removed on input line 136.
+
+[37 <./figures/InstrumentCAD.png>] [38 <./figures/FocalPlaneMechanical.png> <./
+tables/tab_focal_plane.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 2.00043pt
+(hyperref)                removed on input line 157.
+
+
+Overfull \hbox (2.57236pt too wide) in paragraph at lines 160--171
+\T1/ptm/m/n/12 stead mea-sures a sin-gle band with each pixel us-ing feedhorn-c
+oupled polarization-sensitive bolome-
  []
 
-[38 <./figures/OpticsDiagram.png> <./figures/FocalPlaneMechanical.png>]
-[39 <./tables/tab_focal_plane.pdf>]
-<tables/tab_bands.pdf, id=1646, 314.29187pt x 450.54735pt>
+<tables/tab_bands.pdf, id=1633, 314.29187pt x 450.54735pt>
 File: tables/tab_bands.pdf Graphic file (type pdf)
 
 <use tables/tab_bands.pdf>
-Package pdftex.def Info: tables/tab_bands.pdf used on input line 191.
+Package pdftex.def Info: tables/tab_bands.pdf used on input line 175.
 (pdftex.def)             Requested size: 314.29109pt x 450.54623pt.
 
-Underfull \hbox (badness 3219) in paragraph at lines 193--193
-[]\T1/ptm/m/n/10.95 Table 7: |PICO mea-sures in
- []
 
+LaTeX Warning: Reference `sec:requirement' on page 39 undefined on input line 2
+12.
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 21 broad over-lap-ping fre-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 quency bands with band
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 cen-ters ($\OML/ztmcm/m/it/10.95 ^^W[]$\T1/ptm/m/n/10.95 ) fr
-om 21GHz
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 to 799GHz and band-width
- []
-
-
-Underfull \hbox (badness 1509) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 of $\OT1/ztmcm/m/n/10.95 6\OML/ztmcm/m/it/10.95 :\OT1/ztmcm/m
-/n/10.95 2[] \OMS/ztmcm/m/n/10.95 ^^B \OT1/ztmcm/m/n/10.95 (155 []\OML/ztmcm/m/
-it/10.95 =^^W[]\OT1/ztmcm/m/n/10.95 )$\T1/ptm/m/n/10.95 . The
- []
-
-
-Underfull \hbox (badness 3746) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 Cur-rent Best Es-ti-mate (CBE)
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 per-bolometer sen-si-tiv-ity is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 back-ground lim-ited (Ÿ[][]3.2.3[][]).
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 po-lar-iza-tions per pixel), from
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 and meets the re-quire-ments
- []
-
-
-Underfull \hbox (badness 3579) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 of the base-line mis-sion with
- []
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 the 25 and 30GHz fre-quency
- []
-
-
-Underfull \hbox (badness 3872) in paragraph at lines 193--193
-\T1/ptm/m/n/10.95 ex-cluded dur-ing 4hr/day Ka-
- []
-
-[40 <./tables/tab_bands.pdf>]
-<tables/tab_cooler.pdf, id=1722, 292.82347pt x 167.47751pt>
+[39] [40 <./tables/tab_bands.pdf>]
+<tables/tab_cooler.pdf, id=1725, 292.82347pt x 167.47751pt>
 File: tables/tab_cooler.pdf Graphic file (type pdf)
 
 <use tables/tab_cooler.pdf>
-Package pdftex.def Info: tables/tab_cooler.pdf used on input line 266.
+Package pdftex.def Info: tables/tab_cooler.pdf used on input line 277.
 (pdftex.def)             Requested size: 292.82275pt x 167.4771pt.
 
-Overfull \hbox (3.74277pt too wide) in paragraph at lines 266--266
-[][] 
- []
+<images/ArchitectureBlockDiagram.pdf, id=1726, 747.9945pt x 543.4704pt>
+File: images/ArchitectureBlockDiagram.pdf Graphic file (type pdf)
 
-
-Underfull \hbox (badness 1062) in paragraph at lines 269--269
-\T1/ptm/m/n/10.95 ther-mal con-duc-tive loads through me-
- []
-
-
-Overfull \hbox (5.2823pt too wide) in paragraph at lines 266--270
-[]$[]$   $[]$ 
- []
-
-<figures/ArchitectureBlockDiagram.pdf, id=1729, 751.60799pt x 549.25201pt>
-File: figures/ArchitectureBlockDiagram.pdf Graphic file (type pdf)
-
-<use figures/ArchitectureBlockDiagram.pdf>
-Package pdftex.def Info: figures/ArchitectureBlockDiagram.pdf used on input lin
-e 274.
-(pdftex.def)             Requested size: 289.07999pt x 211.24896pt.
-
-Overfull \hbox (4.56001pt too wide) in paragraph at lines 274--283
-[]$[]$   $[]$ 
- []
-
-[41] [42 <./tables/tab_cooler.pdf> <./figures/ArchitectureBlockDiagram.pdf>]
-<figures/CoolerFigure.png, id=1807, 227.4096pt x 190.311pt>
+<use images/ArchitectureBlockDiagram.pdf>
+Package pdftex.def Info: images/ArchitectureBlockDiagram.pdf used on input line
+ 283.
+(pdftex.def)             Requested size: 469.75502pt x 341.31839pt.
+ [41] [42 <./images/ArchitectureBlockDiagram.pdf>] <figures/CoolerFigure.png, i
+d=1759, 227.4096pt x 190.311pt>
 File: figures/CoolerFigure.png Graphic file (type png)
 
 <use figures/CoolerFigure.png>
-Package pdftex.def Info: figures/CoolerFigure.png used on input line 341.
+Package pdftex.def Info: figures/CoolerFigure.png used on input line 349.
 (pdftex.def)             Requested size: 216.81pt x 181.44197pt.
-
-Overfull \hbox (2.28pt too wide) in paragraph at lines 341--348
-[]$[]$ $[]$ 
+ [43 <./tables/tab_cooler.pdf>] [44 <./figures/CoolerFigure.png>]
+LaTeX Font Info:    Try loading font information for T1+phv on input line 448.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+Underfull \hbox (badness 7613) in paragraph at lines 456--457
+[]\T1/phv/m/n/8 1526W (XX% of avail-able
  []
-
-[43 <./figures/CoolerFigure.png>]
-<figures/MissionDesignFigure.png, id=1823, 559.8516pt x 354.6048pt>
-File: figures/MissionDesignFigure.png Graphic file (type png)
-
-<use figures/MissionDesignFigure.png>
-Package pdftex.def Info: figures/MissionDesignFigure.png used on input line 436
-.
-(pdftex.def)             Requested size: 289.07999pt x 183.10236pt.
 
 <figures/InFairing.png, id=1824, 161.403pt x 422.5386pt>
 File: figures/InFairing.png Graphic file (type png)
 
 <use figures/InFairing.png>
-Package pdftex.def Info: figures/InFairing.png used on input line 445.
+Package pdftex.def Info: figures/InFairing.png used on input line 467.
 (pdftex.def)             Requested size: 50.58878pt x 132.43628pt.
 
-Overfull \hbox (0.13689pt too wide) in paragraph at lines 486--492
+<figures/MissionDesignFigure.png, id=1825, 559.8516pt x 354.6048pt>
+File: figures/MissionDesignFigure.png Graphic file (type png)
+
+<use figures/MissionDesignFigure.png>
+Package pdftex.def Info: figures/MissionDesignFigure.png used on input line 474
+.
+(pdftex.def)             Requested size: 289.07999pt x 183.10236pt.
+ [45 <./figures/InFairing.png> <./figures/MissionDesignFigure.png>]
+Overfull \hbox (0.13689pt too wide) in paragraph at lines 518--525
 []\T1/ptm/m/n/12 NASA re-quires that Probes be com-pat-i-ble with an Evolved Ex
 -pend-able Launch Ve-hi-cle (EELV).
  []
 
-[44]
-
-Package natbib Warning: Citation `Wallis2017' on page 45 undefined on input lin
-e 531.
-
-[45 <./figures/MissionDesignFigure.png> <./figures/InFairing.png>]
-<figures/Spacecraft.png, id=1854, 462.528pt x 194.6472pt>
+[46] <figures/Spacecraft.png, id=1855, 462.528pt x 194.6472pt>
 File: figures/Spacecraft.png Graphic file (type png)
 
 <use figures/Spacecraft.png>
-Package pdftex.def Info: figures/Spacecraft.png used on input line 565.
+Package pdftex.def Info: figures/Spacecraft.png used on input line 604.
 (pdftex.def)             Requested size: 469.75502pt x 197.69994pt.
- [46 <./figures/Spacecraft.png>] [47]
-<figures/OpticalCoupling.png, id=1879, 224.037pt x 319.1925pt>
+ [47 <./figures/Spacecraft.png>] [48]
+<figures/OpticalCoupling.png, id=1881, 224.037pt x 319.1925pt>
 File: figures/OpticalCoupling.png Graphic file (type png)
 
 <use figures/OpticalCoupling.png>
-Package pdftex.def Info: figures/OpticalCoupling.png used on input line 692.
+Package pdftex.def Info: figures/OpticalCoupling.png used on input line 754.
 (pdftex.def)             Requested size: 180.67499pt x 257.41455pt.
 
-<figures/DirectAbsorbing.png, id=1882, 226.91875pt x 339.32198pt>
+<figures/DirectAbsorbing.png, id=1884, 226.91875pt x 339.32198pt>
 File: figures/DirectAbsorbing.png Graphic file (type png)
 
 <use figures/DirectAbsorbing.png>
-Package pdftex.def Info: figures/DirectAbsorbing.png used on input line 700.
+Package pdftex.def Info: figures/DirectAbsorbing.png used on input line 761.
 (pdftex.def)             Requested size: 180.67499pt x 270.18425pt.
 
-<tables/tab_suborbital.pdf, id=1888, 463.98965pt x 191.65042pt>
-File: tables/tab_suborbital.pdf Graphic file (type pdf)
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 752--765
+[][] [] 
+ []
 
-<use tables/tab_suborbital.pdf>
-Package pdftex.def Info: tables/tab_suborbital.pdf used on input line 752.
-(pdftex.def)             Requested size: 463.98851pt x 191.64993pt.
- [48] [49 <./figures/OpticalCoupling.png> <./figures/DirectAbsorbing.png>]
-<tables/tab_technologies.pdf, id=1908, 472.75403pt x 205.17227pt>
-File: tables/tab_technologies.pdf Graphic file (type pdf)
 
-<use tables/tab_technologies.pdf>
-Package pdftex.def Info: tables/tab_technologies.pdf used on input line 787.
-(pdftex.def)             Requested size: 472.75287pt x 205.17175pt.
+Underfull \hbox (badness 10000) in paragraph at lines 817--817
+[]\T1/phv/m/n/8 Stable to
+ []
 
-Overfull \hbox (2.99785pt too wide) in paragraph at lines 787--788
+
+Underfull \hbox (badness 10000) in paragraph at lines 821--821
+[]\T1/phv/m/n/8 Monolithic
+ []
+
+
+Underfull \hbox (badness 7238) in paragraph at lines 822--822
+[]\T1/phv/m/n/8 Dual pol ab-
+ []
+
+
+Overfull \hbox (2.51561pt too wide) in paragraph at lines 807--825
  [] 
  []
 
-[50 <./tables/tab_suborbital.pdf>] [51 <./tables/tab_technologies.pdf>]
-<figures/Schedule.png, id=2040, 548.7702pt x 101.178pt>
+[49] [50 <./figures/OpticalCoupling.png> <./figures/DirectAbsorbing.png>]
+<tables/tab_technologies.pdf, id=1927, 472.75403pt x 205.17227pt>
+File: tables/tab_technologies.pdf Graphic file (type pdf)
+
+<use tables/tab_technologies.pdf>
+Package pdftex.def Info: tables/tab_technologies.pdf used on input line 887.
+(pdftex.def)             Requested size: 472.75287pt x 205.17175pt.
+
+Overfull \hbox (2.99785pt too wide) in paragraph at lines 887--888
+ [] 
+ []
+
+[51] [52 <./tables/tab_technologies.pdf>]
+<figures/Schedule.png, id=2010, 548.7702pt x 101.178pt>
 File: figures/Schedule.png Graphic file (type png)
 
 <use figures/Schedule.png>
-Package pdftex.def Info: figures/Schedule.png used on input line 878.
+Package pdftex.def Info: figures/Schedule.png used on input line 988.
 (pdftex.def)             Requested size: 469.75502pt x 86.61151pt.
- [52 <./figures/Schedule.png>] [53]
+ [53 <./figures/Schedule.png>] [54]
 
-LaTeX Warning: Reference `sec:2.5' on page 54 undefined on input line 1045.
-
-
-LaTeX Warning: Reference `sec:2.6' on page 54 undefined on input line 1045.
+LaTeX Warning: Reference `sec:2.5' on page 55 undefined on input line 1159.
 
 
-LaTeX Warning: Reference `sec:2' on page 54 undefined on input line 1046.
+LaTeX Warning: Reference `sec:2.6' on page 55 undefined on input line 1159.
 
-) [54] (./PICOReport.bbl [55] [56] [57] [58] [59] [60]
-Underfull \hbox (badness 1292) in paragraph at lines 698--703
-[]\T1/ptm/m/n/12 Ruth Dur-rer and An-drii Neronov.  Cos-mo-log-i-cal Mag-netic 
-Fields: Their Gen-er-a-
- []
 
-[61] [62] [63]
-Underfull \hbox (badness 1242) in paragraph at lines 990--995
-\T1/ptm/m/n/12 on large-scale struc-ture: Scale-dependent bias and abun-dance o
-f viri-al-ized ob-jects.
- []
+LaTeX Warning: Reference `sec:2' on page 55 undefined on input line 1160.
 
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 1049.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [64] [65]
-[66] [67] [68] [69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80]
-[81] [82] [83] [84] [85] [86] [87] [88] [89] [90]) (./acronym.tex)
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
-[91]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
+[55]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 1189.
+ [56]) [57] (./PICOReport.bbl [58] [59] [60] [61] [62] [63]
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 787.
+ [64] [65]
+[66] [67]) (./acronym.tex)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 301.
+ [68]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 301.
  (./PICOReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 311.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 311.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 301.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 301.
 Package rerunfilecheck Info: File `PICOReport.out' has not changed.
-(rerunfilecheck)             Checksum: E992E71BFC893A8EE8D0E67E64FC6A38;4657.
+(rerunfilecheck)             Checksum: 35A08EAD0414BB9188CB8305119729D2;4713.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 311.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 301.
  ) 
 Here is how much of TeX's memory you used:
- 12564 strings out of 492995
- 190491 string characters out of 6132704
- 391289 words of memory out of 5000000
- 15376 multiletter control sequences out of 15000+600000
- 106929 words of font info for 171 fonts, out of 8000000 for 9000
+ 12662 strings out of 492995
+ 192024 string characters out of 6132704
+ 318744 words of memory out of 5000000
+ 15476 multiletter control sequences out of 15000+600000
+ 118390 words of font info for 181 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,14n,92p,4486b,941s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,14n,92p,1991b,1468s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/te
@@ -1576,19 +1522,19 @@ xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2017/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017/texmf
 -dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/t
 exmf-dist/fonts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/
-type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/u
-rw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/ncn
-trsbk/uncr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usy
-r.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017
-/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dis
-t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on PICOReport.pdf (95 pages, 9925743 bytes).
+t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/urw/helvetic/uhvbo8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/nc
+ntrsbk/uncr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/us
+yr.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
+xlive/2017/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/201
+7/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/urw/times/utmri8a.pfb>
+Output written on PICOReport.pdf (72 pages, 9488966 bytes).
 PDF statistics:
- 2443 PDF objects out of 2487 (max. 8388607)
- 1907 compressed objects within 20 object streams
- 436 named destinations out of 1000 (max. 500000)
- 701 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2335 PDF objects out of 2487 (max. 8388607)
+ 1837 compressed objects within 19 object streams
+ 422 named destinations out of 1000 (max. 500000)
+ 699 words of extra memory for PDF output out of 10000 (max. 10000000)
 
