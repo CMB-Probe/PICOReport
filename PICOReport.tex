@@ -28,6 +28,22 @@
 \usepackage{draftwatermark}
 \usepackage[normalem]{ulem}
 
+%% [TJP] Display the labels (turn off for final version)
+\usepackage[right]{showlabels}
+\renewcommand{\showlabelfont}{\scriptsize\color{blue}}
+
+%% [TJP] Number figures and tables by section
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+\counterwithin{table}{section}
+
+%% [TJP] Compact itemize lists
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\setenumerate{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+%% [TJP] Format for citation numbers
+\renewcommand{\citenumfont}[1]{\textit{#1}}
 
 % add watermark
 %\usepackage[nostamp]{draftwatermark} % remove watermark
@@ -188,7 +204,7 @@
 % [TJP] end --------------------
 
 \section{Science}
-
+\label{sec:science}
 %\vspace{-0.05in}
 
 \subsection{Introduction} % (1.5 pgs)}
@@ -252,13 +268,13 @@
 % ------------
 
 \subsection{Systematic Uncertainties}%  (3 pgs)}
-
+\label{sec:systematics}
 \subfile{systematics.tex}
 
 % ------------
 
 \subsection{Measurement Requirements} % (2 pgs)}
-
+\label{requirements}
 \subfile{requirements.tex}
 
 \newpage
