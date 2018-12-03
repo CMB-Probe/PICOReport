@@ -957,6 +957,39 @@ J.~{Aumont}, J.~F. {Mac{\'{\i}}as-P{\'e}rez}, A.~{Ritacco}, N.~{Ponthieu}, and
   2018 results. II. Low Frequency Instrument data processing},'' \emph{ArXiv
   e-prints}, Jul. 2018.
 
+\bibitem{Dragone1978}
+C.~{Dragone}, ``{Offset multireflector antennas with perfect pattern symmetry
+  and polarization discrimination},'' \emph{AT\&T Technical Journal}, vol.~57,
+  pp. 2663--2684, Sep. 1978.
+
+\bibitem{Dragone1983a}
+C.~{Dragone}, ``{A first-order treatment of aberrations in Cassegrainian and
+  Gregorian antennas},'' \emph{IEEE Transactions on Antennas and Propagation},
+  vol.~30, pp. 331--339, May 1982.
+
+\bibitem{Dragone1983b}
+C.~{Dragone}, ``{Unique reflector arrangement within very wide field of view
+  for multibeam antennas},'' \emph{Electronics Letters}, vol.~19, p. 1061, Dec.
+  1983.
+
+\bibitem{Fargant2000}
+G.~{Fargant}, D.~{Dubruel}, M.~{Cornut}, J.-B. {Riti}, T.~{Passvogel}, P.~J.
+  {De Maagt}, M.~{Anderegg}, and J.~{Tauber}, ``{Very wide band telescope for
+  Planck using optical and radio frequency techniques},'' in \emph{UV, Optical,
+  and IR Space Telescopes and Instruments}, ser. Society of Photo-Optical
+  Instrumentation Engineers (SPIE) Conference Series, J.~B. {Breckinridge} and
+  P.~{Jakobsen}, Eds., vol. 4013, Jul. 2000, pp. 69--79.
+
+\bibitem{Swetz2011}
+D.~S. {Swetz}, P.~A.~R. {Ade}, M.~{Amiri} \emph{et~al.}, ``{Overview of the
+  Atacama Cosmology Telescope: Receiver, Instrumentation, and Telescope
+  Systems},'' \emph{The Astrophysical Journal Supplement Series}, vol. 194,
+  p.~41, Jun. 2011.
+
+\bibitem{Padin2008}
+S.~{Padin}, Z.~{Staniszewski}, R.~{Keisler} \emph{et~al.}, ``{South Pole
+  Telescope optics},'' \emph{\ao}, vol.~47, pp. 4418--4428, Aug. 2008.
+
 \bibitem{Young2018}
 K.~{Young}, M.~{Alvarez}, N.~{Battaglia} \emph{et~al.}, ``{Optical design of
   PICO: a concept for a space mission to probe inflation and cosmic origins},''
@@ -967,6 +1000,11 @@ K.~{Young}, M.~{Alvarez}, N.~{Battaglia} \emph{et~al.}, ``{Optical design of
 P.~{de Bernardis}, P.~A.~R. {Ade}, J.~J.~A. {Baselmans} \emph{et~al.},
   ``{Exploring cosmic origins with CORE: The instrument},'' \emph{Journal of
   Cosmology and Astro-Particle Physics}, vol. 2018, p. 015, Apr. 2018.
+
+\bibitem{Granet2001}
+C.~{Granet}, ``{Designing classical Dragonian offset dual-reflector antennas
+  from combinations of prescribed geometric parameters},'' \emph{IEEE Antennas
+  and Propagation Magazine}, vol.~43, pp. 100--107, Dec. 2001.
 
 \bibitem{Suzuki2014}
 A.~{Suzuki}, K.~{Arnold}, J.~{Edwards} \emph{et~al.}, ``{Multi-Chroic
@@ -1018,12 +1056,6 @@ A.~D. {Turner}, J.~J. {Bock}, J.~W. {Beeman} \emph{et~al.}, ``{Silicon nitride
   Micromesh Bolometer Array for Submillimeter Astrophysics},'' \emph{\ao},
   vol.~40, pp. 4921--4932, Oct. 2001.
 
-\bibitem{Beyer2012}
-A.~D. Beyer, M.~E. Kenyon, P.~M. Echternach \emph{et~al.}, ``Ultra-sensitive
-  transition-edge sensors for the background limited infrared/sub-mm
-  spectrograph ({BLISS}),'' \emph{Journal of Low Temperature Physics}, vol.
-  167, pp. 182--187, May 2012.
-
 \bibitem{Rahlin2014}
 A.~S. {Rahlin}, P.~A.~R. {Ade}, M.~{Amiri} \emph{et~al.}, ``{Pre-flight
   integration and characterization of the SPIDER balloon-borne telescope},'' in
@@ -1034,12 +1066,6 @@ A.~S. {Rahlin}, P.~A.~R. {Ade}, M.~{Amiri} \emph{et~al.}, ``{Pre-flight
 S.~W. {Henderson}, R.~{Allison}, J.~{Austermann} \emph{et~al.}, ``{Advanced
   ACTPol Cryogenic Detector Arrays and Readout},'' \emph{Journal of Low
   Temperature Physics}, vol. 184, pp. 772--779, Aug. 2016.
-
-\bibitem{Hui2018}
-H.~{Hui}, P.~A.~R. {Ade}, Z.~{Ahmed} \emph{et~al.}, ``{BICEP Array: a
-  multi-frequency degree-scale CMB polarimeter},'' in \emph{Society of
-  Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, vol.
-  10708, Jul. 2018, p. 1070807.
 
 \bibitem{EBEX2017}
 {The EBEX Collaboration}, A.~{Aboobaker}, P.~{Ade} \emph{et~al.}, ``{The EBEX
@@ -1128,12 +1154,23 @@ H.~{Kurki-Suonio}, E.~{Keih{\"a}nen}, R.~{Keskitalo}, T.~{Poutanen}, A.~S.
   {Sirvi{\"o}}, D.~{Maino}, and C.~{Burigana}, ``{Destriping CMB temperature
   and polarization maps},'' \emph{\aap}, vol. 506, pp. 1511--1539, Nov. 2009.
 
-\bibitem{DSN2015}
+\bibitem{Brown2016}
 \BIBentryALTinterwordspacing
-{Deep Space Network, Jet Propulsion Laboratory, California Institute of
-  Technology}, ``Deep space network services catalog 820-100, rev. f.''
-  February 2015. URL: \url{https://deepspace.jpl.nasa.gov/files/820-100-F1.pdf}
+T.~S. Brown, \emph{A GNC Perspective of the Launch and Commissioning of NASA's
+  New SMAP (Soil Moisture Active Passive) Spacecraft}.\hskip 1em plus 0.5em
+  minus 0.4em\relax American Institute of Aeronautics and Astronautics,
+  2018/11/19 2016. URL: \url{https://doi.org/10.2514/6.2016-0479}
 \BIBentrySTDinterwordspacing
+
+\bibitem{Planck2014}
+{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim} \emph{et~al.}, ``{Planck
+  2013 results. VI. High Frequency Instrument data processing},'' \emph{\aap},
+  vol. 571, p.~A6, Nov. 2014.
+
+\bibitem{Planck2018}
+{Planck Collaboration}, N.~{Aghanim}, Y.~{Akrami} \emph{et~al.}, ``{Planck 2018
+  results. III. High Frequency Instrument data processing and frequency
+  maps},'' \emph{ArXiv e-prints}, Jul. 2018.
 
 \bibitem{SPIDER2018}
 R.~{Gualtieri}, J.~P. {Filippini}, P.~A.~R. {Ade} \emph{et~al.}, ``{SPIDER: CMB
@@ -1148,46 +1185,6 @@ M.~H. {Abitbol}, Z.~{Ahmed}, D.~{Barron} \emph{et~al.}, ``{CMB-S4 Technology
 W.~S. {Holland}, D.~{Bintley}, E.~L. {Chapin} \emph{et~al.}, ``{SCUBA-2: the 10
   000 pixel bolometer camera on the James Clerk Maxwell Telescope},''
   \emph{\mnras}, vol. 430, pp. 2513--2533, Apr. 2013.
-
-\bibitem{Dutcher2018}
-D.~{Dutcher}, P.~A.~R. {Ade}, Z.~{Ahmed} \emph{et~al.}, ``{Characterization and
-  performance of the second-year SPT-3G focal plane},'' in \emph{Society of
-  Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, vol.
-  10708, Jul. 2018, p. 107081Z.
-
-\bibitem{Li2018}
-Y.~{Li}, J.~E. {Austermann}, J.~A. {Beall} \emph{et~al.}, ``{Performance of the
-  advanced ACTPol low frequency array},'' in \emph{Society of Photo-Optical
-  Instrumentation Engineers (SPIE) Conference Series}, vol. 10708, Jul. 2018,
-  p. 107080A.
-
-\bibitem{bicep_keck2018}
-\BIBentryALTinterwordspacing
-{Keck Array and BICEP2 Collaborations}, P.~A.~R. {Ade}, Z.~{Ahmed}
-  \emph{et~al.}, ``{BICEP2 / Keck Array X: Constraints on Primordial
-  Gravitational Waves using Planck, WMAP, and New BICEP2/Keck Observations
-  through the 2015 Season},'' \emph{ArXiv e-prints}, p. arXiv:1810.05216, Oct.
-  2018. URL: \url{https://arxiv.org/abs/1810.05216}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Westbrook2016}
-B.~{Westbrook}, A.~{Cukierman}, A.~{Lee}, A.~{Suzuki}, C.~{Raum}, and
-  W.~{Holzapfel}, ``{Development of the Next Generation of Multi-chroic
-  Antenna-Coupled Transition Edge Sensor Detectors for CMB Polarimetry},''
-  \emph{Journal of Low Temperature Physics}, vol. 184, pp. 74--81, Jul. 2016.
-
-\bibitem{Simon2018}
-S.~M. {Simon}, J.~E. {Golec}, A.~{Ali} \emph{et~al.}, ``{Feedhorn development
-  and scalability for Simons Observatory and beyond},'' in \emph{Society of
-  Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, vol.
-  10708, Jul. 2018, p. 107084B.
-
-\bibitem{Sayre2012}
-J.~T. {Sayre}, P.~{Ade}, K.~A. {Aird} \emph{et~al.}, ``{Design and
-  characterization of 90 GHz feedhorn-coupled TES polarimeter pixels in the
-  SPTPol camera},'' in \emph{Millimeter, Submillimeter, and Far-Infrared
-  Detectors and Instrumentation for Astronomy VI}, vol. 8452, Sep. 2012, p.
-  845239.
 
 \bibitem{Dober2017}
 B.~{Dober}, D.~T. {Becker}, D.~A. {Bennett} \emph{et~al.}, ``{Microwave SQUID
@@ -1237,14 +1234,6 @@ S.~{Bard}, ``{Development of a High-Performance Cryogenic Radiator with
   \url{http://sci.esa.int/planck/45498-cooling-system/?fbodylongid=2123}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Brown2016}
-\BIBentryALTinterwordspacing
-T.~S. Brown, \emph{A GNC Perspective of the Launch and Commissioning of NASA's
-  New SMAP (Soil Moisture Active Passive) Spacecraft}.\hskip 1em plus 0.5em
-  minus 0.4em\relax American Institute of Aeronautics and Astronautics,
-  2018/11/19 2016. URL: \url{https://doi.org/10.2514/6.2016-0479}
-\BIBentrySTDinterwordspacing
-
 \bibitem{ESA2016}
 \BIBentryALTinterwordspacing
 {European Space Agency}, ``Cmb polarisation mission study -- cdf summary
@@ -1255,19 +1244,5 @@ T.~S. Brown, \emph{A GNC Perspective of the Launch and Commissioning of NASA's
 \bibitem{Jasper2017}
 L.~E.~Z. Jasper and P.~Xaypraseuth, ``Data production on past and future nasa
   missions,'' in \emph{2017 IEEE Aerospace Conference}, March 2017, pp. 1--11.
-
-\bibitem{Mrozinski2017}
-\BIBentryALTinterwordspacing
-J.~Mrozinski and M.~DiNicola, ``{NICM: Cryocooler},'' {NASA 2017 Cost Symposium
-  Presentations}, August 2017. URL:
-  \url{https://www.nasa.gov/offices/ocfo/cost_symposium/2017_presentations}
-\BIBentrySTDinterwordspacing
-
-\bibitem{Stahl2016}
-H.~P. {Stahl} and T.~{Henrichs}, ``{Multivariable parametric cost model for
-  space and ground telescopes},'' in \emph{Modeling, Systems Engineering, and
-  Project Management for Astronomy VI}, ser. Society of Photo-Optical
-  Instrumentation Engineers (SPIE) Conference Series, vol. 9911, Sep. 2016, p.
-  99110L.
 
 \end{thebibliography}
