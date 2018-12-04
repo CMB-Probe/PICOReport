@@ -251,6 +251,11 @@ L.~M. Widrow, D.~Ryu, D.~R.~G. Schleicher, K.~Subramanian, C.~G. Tsagas, and
   R.~A. Treumann, ``{The First Magnetic Fields},'' \emph{Space Sci. Rev.}, vol.
   166, pp. 37--70, 2012.
 
+\bibitem{Athreya:1998}
+R.~M. {Athreya}, V.~K. {Kapahi}, P.~J. {McCarthy}, and W.~{van Breugel},
+  ``{Large rotation measures in radio galaxies at Z > 2},'' \emph{Astron.
+  Astrophys.}, vol. 329, pp. 809--820, Jan. 1998.
+
 \bibitem{Grasso:2000wj}
 D.~Grasso and H.~R. Rubinstein, ``{Magnetic fields in the early universe},''
   \emph{Phys. Rept.}, vol. 348, pp. 163--266, 2001.
@@ -309,10 +314,34 @@ L.~Pogosian, ``{Searching for primordial magnetism with multifrequency cosmic
   microwave background experiments},'' \emph{Mon. Not. Roy. Astron. Soc.}, vol.
   438, no.~3, pp. 2508--2512, 2014.
 
+\bibitem{Freese:1990rb}
+K.~Freese, J.~A. Frieman, and A.~V. Olinto, ``{Natural inflation with pseudo -
+  Nambu-Goldstone bosons},'' \emph{Phys. Rev. Lett.}, vol.~65, pp. 3233--3236,
+  1990.
+
+\bibitem{Frieman:1995pm}
+J.~A. Frieman, C.~T. Hill, A.~Stebbins, and I.~Waga, ``{Cosmology with
+  ultralight pseudo Nambu-Goldstone bosons},'' \emph{Phys. Rev. Lett.},
+  vol.~75, pp. 2077--2080, 1995.
+
 \bibitem{Carroll:1998zi}
 S.~M. {Carroll}, ``{Quintessence and the Rest of the World: Suppressing
   Long-Range Interactions},'' \emph{Physical Review Letters}, vol.~81, pp.
   3067--3070, Oct. 1998.
+
+\bibitem{Kaloper:2005aj}
+N.~Kaloper and L.~Sorbo, ``{Of pNGB QuiNtessence},'' \emph{JCAP}, vol. 0604, p.
+  007, 2006.
+
+\bibitem{Harari:1992ea}
+D.~Harari and P.~Sikivie, ``{Effects of a Nambu-Goldstone boson on the
+  polarization of radio galaxies and the cosmic microwave background},''
+  \emph{Phys. Lett.}, vol. B289, pp. 67--72, 1992.
+
+\bibitem{Carroll:1989vb}
+S.~M. Carroll, G.~B. Field, and R.~Jackiw, ``{Limits on a Lorentz and Parity
+  Violating Modification of Electrodynamics},'' \emph{Phys. Rev.}, vol. D41, p.
+  1231, 1990.
 
 \bibitem{Kamionkowski:2008fp}
 M.~Kamionkowski, ``{How to De-Rotate the Cosmic Microwave Background
@@ -323,20 +352,25 @@ V.~Gluscevic, M.~Kamionkowski, and A.~Cooray, ``{De-Rotation of the Cosmic
   Microwave Background Polarization: Full-Sky Formalism},'' \emph{Phys. Rev.},
   vol. D80, p. 023510, 2009.
 
-\bibitem{Caldwell:2011}
-R.~R. {Caldwell}, V.~{Gluscevic}, and M.~{Kamionkowski}, ``{Cross-correlation
-  of cosmological birefringence with CMB temperature},'' \emph{\prd}, vol.~84,
-  no.~4, p. 043504, Aug. 2011.
+\bibitem{Aghanim:2016fhp}
+N.~Aghanim \emph{et~al.}, ``{Planck intermediate results. XLIX.
+  Parity-violation constraints from polarization data},'' \emph{Astron.
+  Astrophys.}, vol. 596, p. A110, 2016.
 
-\bibitem{yadav2009}
-A.~P.~S. {Yadav}, R.~{Biswas}, M.~{Su}, and M.~{Zaldarriaga}, ``{Constraining a
-  spatially dependent rotation of the cosmic microwave background
-  polarization},'' \emph{\prd}, vol.~79, no.~12, pp. 123\,009--+, Jun. 2009.
+\bibitem{Pospelov:2008gg}
+M.~Pospelov, A.~Ritz, C.~Skordis, A.~Ritz, and C.~Skordis, ``{Pseudoscalar
+  perturbations and polarization of the cosmic microwave background},''
+  \emph{Phys. Rev. Lett.}, vol. 103, p. 051302, 2009.
 
-\bibitem{Ade:2015cao}
-P.~A.~R. Ade \emph{et~al.}, ``{POLARBEAR Constraints on Cosmic Birefringence
-  and Primordial Magnetic Fields},'' \emph{Phys. Rev.}, vol. D92, p. 123509,
-  2015.
+\bibitem{Array:2017rlf}
+P.~A.~R. Ade \emph{et~al.}, ``{BICEP2 / Keck Array IX: New bounds on
+  anisotropies of CMB polarization rotation and implications for axionlike
+  particles and primordial magnetic fields},'' \emph{Phys. Rev.}, vol. D96,
+  no.~10, p. 102003, 2017.
+
+\bibitem{Svrcek:2006yi}
+P.~Svrcek and E.~Witten, ``{Axions In String Theory},'' \emph{JHEP}, vol.~06,
+  p. 051, 2006.
 
 \bibitem{Miranda2017}
 V.~{Miranda}, A.~{Lidz}, C.~H. {Heinrich}, and W.~{Hu}, ``{CMB signatures of
@@ -1238,7 +1272,7 @@ S.~{Bard}, ``{Development of a High-Performance Cryogenic Radiator with
 \BIBentryALTinterwordspacing
 {European Space Agency}, ``Cmb polarisation mission study -- cdf summary
   presentation,'' May 2016. URL:
-  \url{http://sci.esa.int/trs/57803-cmb-polarisation-study---cdf-summary-presentation/}
+  \url{http://sci.esa.int/trs/57805-cmb-polarisation-study---cdf-summary-presentation/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Jasper2017}
