@@ -101,10 +101,12 @@ during mission formulation.
 % \end{figure}
 
 \begin{figure}
-\begin{center}
+\parbox{3in}{\centering
 \includegraphics[width=3in]{figures/FocalPlaneMechanical.png}
+}
+\parbox{3.5in}{\centering
 \caption{PICO focal plane. Detectors are fabricated on six types of tiles (shown numbered and colored as in Table~\ref{tab:focal_plane}). The wafers are located on the focal plane such that higher frequency bands, which require better optical performance, are placed nearer to the center.\label{fig:FocalPlaneMechanical}}
-\end{center}
+}
 \end{figure}
 
 \begin{table}
@@ -172,10 +174,11 @@ experiments have successfully used similar approaches
 required for PICO is described in \S\,\ref{sec:dev_arrays}.
 
 \begin{table}[!pt]
-\begin{center}
+\parbox{4.45in}{
+\includegraphics{tables/tab_bands.pdf} }
+\parbox{2in}{
 \caption{PICO measures in 21 broad overlapping frequency bands with band centers ($\nu_{\rm c}$) from 21\,GHz to 799\,GHz and bandwidth $\Delta\nu/\nu_{\rm c} = 25\,\%$. The beams are single mode, with FWHM sizes of $6.2' \times (155\,{\rm GHz}/\nu_{\rm c})$. The Current Best Estimate (CBE) per-bolometer sensitivity is background limited (\S\,\ref{sec:sensitivity}). The total number of bolometers for each band is equal to (number of tiles) $\times$ (pixels per tile) $\times$ (2 polarizations per pixel), from Table~\ref{tab:focal_plane}. Array sensitivity assumes $90\,\%$ detector operability. The map depth assumes 5\,yr of full sky survey at $95\,\%$ survey efficiency, except the 25 and 30\,GHz frequency bands, which are conservatively excluded during 4\,hr/day Ka-band (26\,GHz) telecom periods (\S\,\ref{sec:ground_segment}).\label{tab:bands}}
-\includegraphics{tables/tab_bands.pdf}
-\end{center}
+}
 \end{table}
 
 \subsubsection{Sensitivity}
@@ -270,22 +273,24 @@ thermal requirements are met with robust margins
 (Table~\ref{tab:cooler}).
 
 \begin{table}
-\begin{center}
-\caption{Projected cooler heat lift capabilities offer $>100\,\%$ heat lift margin, complying with community best practices \citep{Donabedian2003}. The cADR lift capability at 1\,K and 0.1\,K is from a Goddard quote. Both NGAS and Ball project $>100$\,mW lift capability at $4.5\,$K using higher compression-ratio compressors currently in development (\S\,\ref{sec:4kcooler}). The required loads were calculated using Thermal Desktop. Reference \citep{Ross2004} was used to estimate the thermal conductive loads through mechanical supports. In addition to the listed components, the total 4.5\,K heat load includes the intercept on the focal plane mechanical supports.\label{tab:cooler}}
-\includegraphics{tables/tab_cooler.pdf}
-\end{center}
+\parbox{4.0in}{
+\includegraphics{tables/tab_cooler.pdf} }
+\hspace{0.1in}
+\parbox{2.5in}{
+\caption{Projected cooler heat lift capabilities offer $>100\,\%$ heat lift margin, complying with community best practices \citep{Donabedian2003}. The cADR lift capability at 1\,K and 0.1\,K is from a Goddard quote. Both NGAS and Ball project $>100$\,mW lift capability at $4.5\,$K using higher compression-ratio compressors currently in development (\S\,\ref{sec:4kcooler}). The required loads were calculated using Thermal Desktop. Reference \citep{Ross2004} was used to estimate the thermal conductive loads through mechanical supports. In addition to the listed components, the total 4.5\,K heat load includes the intercept on the focal plane mechanical supports.\label{tab:cooler}} }
 \end{table}
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=\textwidth]{images/ArchitectureBlockDiagram.pdf}
+\begin{figure}[ht]
+\parbox{4.0in}{
+\includegraphics[width=4.0in]{images/ArchitectureBlockDiagram.pdf} }
+\hspace{0.05in}
+\parbox{2.45in}{
 \caption{PICO instrument block diagram. Active coolers provide cooling
   to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the
   4.5\,K thermal liner that acts as a cold aperture stop. Data from the focal
   plane flows to (redundant, cross-strapped) warm readout electronics
   on the spun module of the spacecraft
-  bus.\label{fig:ArchitectureBlockDiagram}}
-\end{center}
+  bus.\label{fig:ArchitectureBlockDiagram} }  }
 \end{figure}
 
 
@@ -343,16 +348,15 @@ of the $^4$He gas used for MIRI with $^3$He, plus resizing of the gas
 counterflow heat exchangers to take advantage of the $^3$He properties.
 
 \begin{figure}
-\begin{center}
-\includegraphics[width=3in]{figures/CoolerFigure.png}
+\parbox{3.5in}{\centering 
+\includegraphics[width=3in]{figures/CoolerFigure.png} }
+\parbox{3.0in}{
 \caption{Projected performance of the NGAS cooler using a multi-stage
   compressor and $^4$He \citep{Rabb2013} meets PICO's requirements
   with $>100\,\%$ margin. PICO conservatively carries additional input
   power contingency on the efficiency of the
-  cooler.\label{fig:CoolerFigure}}
-\end{center}
+  cooler.\label{fig:CoolerFigure}} }
 \end{figure}
-
 
 It is highly likely that a better solution will be available before
 Phase~A. NGAS and Ball are actively working on increasing the flow
@@ -709,10 +713,10 @@ field instruments with thousands of detectors per camera
 (Fig.~\ref{fig:spt_fp}).
 
 \begin{figure}
-\begin{center}
-\includegraphics[width=3in]{figures/SPT3G.jpg}
-\caption{SPT-3G operates a focal plane of three-color antenna-coupled pixels with $>16,000$ total bolometers.\label{fig:spt_fp}}
-\end{center}
+\parbox{3.5in}{\centering
+\includegraphics[width=3in]{figures/SPT3G.jpg} }
+\parbox{3.0in}{
+\caption{SPT-3G operates a focal plane of three-color antenna-coupled pixels with $>16,000$ total bolometers.\label{fig:spt_fp}} }
 \end{figure}
 
  The remaining technology developments required to enable the PICO baseline design are:
@@ -820,14 +824,15 @@ robust to any challenges in developing three-color pixels;
 two-color pixels.
 
 \begin{figure}
-  \begin{minipage}[b]{0.5\textwidth}
+  \begin{minipage}[b]{0.475\textwidth}
     \begin{center}
     \includegraphics[width=2.5in]{figures/OpticalCoupling.png}
     \caption{Multiple demonstrated optical coupling schemes are available   to PICO. Images from CMB-S4 Technology Book   \citep{Abitbol2017}.\label{fig:OpticalCoupling}}
    \end{center}
   \end{minipage}
   %
-  \begin{minipage}[b]{0.5\textwidth}
+  \hfill
+  \begin{minipage}[b]{0.475\textwidth}
     \begin{center}
     \includegraphics[width=2.5in]{figures/DirectAbsorbing.png}
     \caption{Direct-absorbing dual-polarized detectors and coupling horns used in \textit{Planck} for 143--343\,GHz bands.\label{fig:DirectAbsorbing}}
