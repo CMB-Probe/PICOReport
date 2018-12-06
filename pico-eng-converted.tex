@@ -89,7 +89,8 @@ during mission formulation.
 \begin{figure}
 \begin{center}
 \includegraphics[width=6.25in]{figures/InstrumentCAD.png}
-\caption{Detailed PICO instrument configuration. There are no moving or deployed parts. The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics. {\color{red} Figure to be updated.}\label{fig:InstrumentCAD}}
+\caption{\captiontext 
+Detailed PICO instrument configuration. There are no moving or deployed parts. The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics. {\color{red} Figure to be updated.}\label{fig:InstrumentCAD}}
 \end{center}
 \end{figure}
 
@@ -105,13 +106,15 @@ during mission formulation.
 \includegraphics[width=3in]{figures/FocalPlaneMechanical.png}
 }
 \parbox{3.5in}{\centering
-\caption{PICO focal plane. Detectors are fabricated on six types of tiles (shown numbered and colored as in Table~\ref{tab:focal_plane}). The wafers are located on the focal plane such that higher frequency bands, which require better optical performance, are placed nearer to the center.\label{fig:FocalPlaneMechanical}}
+\caption{\captiontext 
+PICO focal plane. Detectors are fabricated on six types of tiles (shown numbered and colored as in Table~\ref{tab:focal_plane}). The wafers are located on the focal plane such that higher frequency bands, which require better optical performance, are placed nearer to the center.\label{fig:FocalPlaneMechanical}}
 }
 \end{figure}
 
 \begin{table}
 \begin{center}
-\caption{PICO makes efficient use of the focal area with multichroic pixels (three bands per pixel, \S\,\ref{sec:low_freq_det}). The sampling rate is based on the smallest beam (Table~\ref{tab:bands}), with 3 samples per FWHM at a scan speed $(360\degree/{\rm min})\sin(\beta=69\degree) = 336\degree/{\rm min}$. {\color{red}Table to be uodated [Tim].} \label{tab:focal_plane}}
+\caption{\captiontext 
+PICO makes efficient use of the focal area with multichroic pixels (three bands per pixel, \S\,\ref{sec:low_freq_det}). The sampling rate is based on the smallest beam (Table~\ref{tab:bands}), with 3 samples per FWHM at a scan speed $(360\degree/{\rm min})\sin(\beta=69\degree) = 336\degree/{\rm min}$. {\color{red}Table to be uodated [Tim].} \label{tab:focal_plane}}
 \includegraphics{tables/tab_focal_plane.pdf}
 \end{center}
 \end{table}
@@ -177,7 +180,8 @@ required for PICO is described in \S\,\ref{sec:dev_arrays}.
 \parbox{4.45in}{
 \includegraphics{tables/tab_bands.pdf} }
 \parbox{2in}{
-\caption{PICO measures in 21 broad overlapping frequency bands with band centers ($\nu_{\rm c}$) from 21\,GHz to 799\,GHz and bandwidth $\Delta\nu/\nu_{\rm c} = 25\,\%$. The beams are single mode, with FWHM sizes of $6.2' \times (155\,{\rm GHz}/\nu_{\rm c})$. The Current Best Estimate (CBE) per-bolometer sensitivity is background limited (\S\,\ref{sec:sensitivity}). The total number of bolometers for each band is equal to (number of tiles) $\times$ (pixels per tile) $\times$ (2 polarizations per pixel), from Table~\ref{tab:focal_plane}. Array sensitivity assumes $90\,\%$ detector operability. The map depth assumes 5\,yr of full sky survey at $95\,\%$ survey efficiency, except the 25 and 30\,GHz frequency bands, which are conservatively excluded during 4\,hr/day Ka-band (26\,GHz) telecom periods (\S\,\ref{sec:ground_segment}).\label{tab:bands}}
+\caption{\captiontext 
+PICO measures in 21 broad overlapping frequency bands with band centers ($\nu_{\rm c}$) from 21\,GHz to 799\,GHz and bandwidth $\Delta\nu/\nu_{\rm c} = 25\,\%$. The beams are single mode, with FWHM sizes of $6.2' \times (155\,{\rm GHz}/\nu_{\rm c})$. The Current Best Estimate (CBE) per-bolometer sensitivity is background limited (\S\,\ref{sec:sensitivity}). The total number of bolometers for each band is equal to (number of tiles) $\times$ (pixels per tile) $\times$ (2 polarizations per pixel), from Table~\ref{tab:focal_plane}. Array sensitivity assumes $90\,\%$ detector operability. The map depth assumes 5\,yr of full sky survey at $95\,\%$ survey efficiency, except the 25 and 30\,GHz frequency bands, which are conservatively excluded during 4\,hr/day Ka-band (26\,GHz) telecom periods (\S\,\ref{sec:ground_segment}).\label{tab:bands}}
 }
 \end{table}
 
@@ -277,7 +281,8 @@ thermal requirements are met with robust margins
 \includegraphics{tables/tab_cooler.pdf} }
 \hspace{0.1in}
 \parbox{2.5in}{
-\caption{Projected cooler heat lift capabilities offer $>100\,\%$ heat lift margin, complying with community best practices \citep{Donabedian2003}. The cADR lift capability at 1\,K and 0.1\,K is from a Goddard quote. Both NGAS and Ball project $>100$\,mW lift capability at $4.5\,$K using higher compression-ratio compressors currently in development (\S\,\ref{sec:4kcooler}). The required loads were calculated using Thermal Desktop. Reference \citep{Ross2004} was used to estimate the thermal conductive loads through mechanical supports. In addition to the listed components, the total 4.5\,K heat load includes the intercept on the focal plane mechanical supports.\label{tab:cooler}} }
+\caption{\captiontext 
+Projected cooler heat lift capabilities offer $>100\,\%$ heat lift margin, complying with community best practices \citep{Donabedian2003}. The cADR lift capability at 1\,K and 0.1\,K is from a Goddard quote. Both NGAS and Ball project $>100$\,mW lift capability at $4.5\,$K using higher compression-ratio compressors currently in development (\S\,\ref{sec:4kcooler}). The required loads were calculated using Thermal Desktop. Reference \citep{Ross2004} was used to estimate the thermal conductive loads through mechanical supports. In addition to the listed components, the total 4.5\,K heat load includes the intercept on the focal plane mechanical supports.\label{tab:cooler}} }
 \end{table}
 
 \begin{figure}[ht]
@@ -285,7 +290,8 @@ thermal requirements are met with robust margins
 \includegraphics[width=4.0in]{images/ArchitectureBlockDiagram.pdf} }
 \hspace{0.05in}
 \parbox{2.45in}{
-\caption{PICO instrument block diagram. Active coolers provide cooling
+\caption{\captiontext 
+PICO instrument block diagram. Active coolers provide cooling
   to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the
   4.5\,K thermal liner that acts as a cold aperture stop. Data from the focal
   plane flows to (redundant, cross-strapped) warm readout electronics
@@ -351,7 +357,8 @@ counterflow heat exchangers to take advantage of the $^3$He properties.
 \parbox{3.5in}{\centering 
 \includegraphics[width=3in]{figures/CoolerFigure.png} }
 \parbox{3.0in}{
-\caption{Projected performance of the NGAS cooler using a multi-stage
+\caption{\captiontext 
+  Projected performance of the NGAS cooler using a multi-stage
   compressor and $^4$He \citep{Rabb2013} meets PICO's requirements
   with $>100\,\%$ margin. PICO conservatively carries additional input
   power contingency on the efficiency of the
@@ -447,7 +454,7 @@ mission.
 
 \begin{table}
 \centering
-\caption{PICO carries margin on key mission parameters. Maximum Expected Value (MEV) includes contingency.}\label{tab:mission_parameters}
+\caption{\captiontext PICO carries margin on key mission parameters. Maximum Expected Value (MEV) includes contingency.}\label{tab:mission_parameters}
 \scriptsize\rmfamily
 \begin{tabular}{lp{1.5in}}
 \hline\noalign{\vskip3pt}
@@ -468,14 +475,16 @@ Attitude control&Zero-momentum 3-axis stabilized\\
   \begin{minipage}[b]{0.29\textwidth}
     \begin{center}
     \includegraphics[width=1.1in]{figures/InFairing.JPG}
-\caption{PICO is compatible with the Falcon~9.\label{fig:InFairing}}
+\caption{\captiontext PICO is compatible with the Falcon~9.\label{fig:InFairing}}
     \end{center}
   \end{minipage}
 %
-\begin{minipage}[b]{0.7\textwidth}
+\hfill
+\begin{minipage}[b]{0.67\textwidth}
     \begin{center}
     \includegraphics[width=4in]{figures/MissionDesignFigure.png}
-\caption{PICO surveys by continuously spinning the instrument about a
+\caption{\captiontext 
+  PICO surveys by continuously spinning the instrument about a
   precessing axis.\label{fig:MissionDesignFigure}}
    \end{center}
   \end{minipage}
@@ -605,7 +614,8 @@ retransmission or missed-pass recovery.
 \begin{figure}
 \begin{center}
 \includegraphics[width=\textwidth]{figures/Spacecraft.png}
-\caption{Modular equipment bays provide easy access to all components
+\caption{\captiontext 
+  Modular equipment bays provide easy access to all components
   in the spacecraft de-spun module and enable parallel integration of
   spacecraft subsystems.\label{fig:Spacecraft}}
 \end{center}
@@ -716,7 +726,8 @@ field instruments with thousands of detectors per camera
 \parbox{3.5in}{\centering
 \includegraphics[width=3in]{figures/SPT3G.jpg} }
 \parbox{3.0in}{
-\caption{SPT-3G operates a focal plane of three-color antenna-coupled pixels with $>16,000$ total bolometers.\label{fig:spt_fp}} }
+\caption{\captiontext 
+  SPT-3G operates a focal plane of three-color antenna-coupled pixels with $>16,000$ total bolometers.\label{fig:spt_fp}} }
 \end{figure}
 
  The remaining technology developments required to enable the PICO baseline design are:
@@ -732,7 +743,8 @@ technologies through the milestones described in Table~\ref{tab:technologies}.
 
 \begin{table}
 \begin{center}
-\caption{PICO technologies can be developed to TRL~5 prior to a 2023 Phase~A start using the APRA and SAT programs.\label{tab:technologies}}
+\caption{\captiontext 
+  PICO technologies can be developed to TRL~5 prior to a 2023 Phase~A start using the APRA and SAT programs.\label{tab:technologies}}
 %\includegraphics{tables/tab_technologies.pdf}
 \begingroup
 \setlength{\tabcolsep}{0.5em} 
@@ -827,7 +839,8 @@ two-color pixels.
   \begin{minipage}[b]{0.475\textwidth}
     \begin{center}
     \includegraphics[width=2.5in]{figures/OpticalCoupling.png}
-    \caption{Multiple demonstrated optical coupling schemes are available   to PICO. Images from CMB-S4 Technology Book   \citep{Abitbol2017}.\label{fig:OpticalCoupling}}
+    \caption{\captiontext 
+      Multiple demonstrated optical coupling schemes are available   to PICO. Images from CMB-S4 Technology Book   \citep{Abitbol2017}.\label{fig:OpticalCoupling}}
    \end{center}
   \end{minipage}
   %
@@ -835,7 +848,8 @@ two-color pixels.
   \begin{minipage}[b]{0.475\textwidth}
     \begin{center}
     \includegraphics[width=2.5in]{figures/DirectAbsorbing.png}
-    \caption{Direct-absorbing dual-polarized detectors and coupling horns used in \textit{Planck} for 143--343\,GHz bands.\label{fig:DirectAbsorbing}}
+    \caption{\captiontext 
+      Direct-absorbing dual-polarized detectors and coupling horns used in \textit{Planck} for 143--343\,GHz bands.\label{fig:DirectAbsorbing}}
     \end{center}
   \end{minipage}
 \end{figure}
@@ -922,7 +936,8 @@ The system engineering study should culminate in a demonstration of TDM-128$\tim
 
 \begin{table}
 \begin{center}
-\caption{Multiple active suborbital efforts are advancing technologies relevant to PICO.\label{tab:suborbital}}
+\caption{\captiontext 
+Multiple active suborbital efforts are advancing technologies relevant to PICO.\label{tab:suborbital}}
 %\includegraphics{tables/tab_suborbital.pdf}
 \scriptsize\rmfamily
 \begin{tabular}{lccccccp{0.75in}c}
@@ -1054,7 +1069,8 @@ development schedule is shown in Fig.~\ref{fig:Schedule}.
 \begin{figure}[hb]
 \begin{center}
 \includegraphics[width=\textwidth]{figures/Schedule.png}
-\caption{The PICO baseline schedule is based on historical actuals
+\caption{\captiontext 
+  The PICO baseline schedule is based on historical actuals
   from similarly-sized missions such as Juno and
   SMAP. Per NASA direction, Probe studies assume a Phase~A start in October 2023.\label{fig:Schedule}}
 \end{center}
@@ -1252,7 +1268,8 @@ or Caltech.
 
 \begin{table}
 \centering
-\caption{Detailed breakdown of Team X and PICO Team cost estimates (in FY18\$). Costs are based on the schedule in Fig.~\ref{fig:Schedule}, which includes 5~years of operations.}\label{tab:cost}
+\caption{\captiontext 
+  Detailed breakdown of Team X and PICO Team cost estimates (in FY18\$). Costs are based on the schedule in Fig.~\ref{fig:Schedule}, which includes 5~years of operations.}\label{tab:cost}
 \footnotesize\rmfamily
 \begin{tabular}{p{2.5in}cc}
 \hline\noalign{\vskip3pt}
@@ -1327,7 +1344,7 @@ Table~\ref{tab:instrument_cost}.
 
 \begin{table}
 \centering
-\caption{Detailed breakdown of PICO instrument costs.}\label{tab:instrument_cost}
+\caption{\captiontext  Detailed breakdown of PICO instrument costs.}\label{tab:instrument_cost}
 \footnotesize\rmfamily
 \begin{tabular}{p{2.5in}c}
 \hline\noalign{\vskip3pt}
