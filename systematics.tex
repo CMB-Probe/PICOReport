@@ -21,7 +21,7 @@ As an example, the BICEP's systematics limited it to r=0.1\cite{Takahashi2010} w
 In the near term, the ground based and suborbital CMB community will continue to develop new techniques in handling systematics, particularly in developing the CMB-S4 project.
 
 All prior on-orbit measurements of CMB polarization were limited by systematic errors until an in-depth study of the systematics was performed and the post-processing data analysis suppressed them\cite{Bennett13,planck2016_xlvi,Planck2018_I}. 
-Particularly we note Fig. 3 of \cite{Planck2018_I} which quantifies Planck's systematic error limits on the polarization power spectral measurements.
+Particularly we note Fig. 3 of \cite{Planck2018_I} which quantifies \planck's systematic error limits on the polarization power spectral measurements.
 Recently studied space missions, such as EPIC-IM, LiteBird and  \core, have placed
 systematic error mitigation at the forefront of the case for their
 mission and have developed tools and strategies for estimating and mitigating these\cite{hazumi2012,wallis2017,Natoli2018}.
@@ -40,7 +40,7 @@ The systematic errors faced by PICO can be categorized into three broad categori
 These were prioritized for further study using a risk factor incorporating the working group's assessment of how mission-limiting the effect is, how well these effects are understood by the community and whether mitigation techniques exist.  
 
 The three highest risk systematic errors were studied further and are discussed in subsections below.  The PICO team used 
- simulation and analysis tools developed for Planck\cite{plank2015_xii_focalplane} and \core, adapting them for PICO.
+ simulation and analysis tools developed for \planck~\cite{plank2015_xii_focalplane} and \core, adapting them for PICO.
 
 %We note that many of the systematics could be mitigated further through the use of polarization modulation such as a half-wave plate or a variable phase delay modulator.  
 %For the purposes of the cost constraints of PICO, we investigated mitigation techniques that do not require a modulator.  
@@ -271,7 +271,7 @@ and thus mixes the the power spectra and their correlations as illustrated in Fi
 \begin{figure}[htb]
 \includegraphics[width=0.6\textwidth]{images/PICO_rotate_eb4_v2.\suffix} \includegraphics[width=0.4\textwidth]{images/calibration_spectrum_BB.pdf}
 \caption{\captiontext
-Left and center: Spurious power due to a rotation of the angle of polarization, assuming the Planck 2018 $\Lambda$-CDM model \citep{Planck2018_VI} with $\tau=0.054$ and expected \pico\ noise performance, assuming removal of 85\% of the lensing power.  Right: residual power after removal of temporal gain drifts using the dipole.
+Left and center: Spurious power due to a rotation of the angle of polarization, assuming the \planck~2018 $\Lambda$-CDM model \citep{Planck2018_VI} with $\tau=0.054$ and expected \pico\ noise performance, assuming removal of 85\% of the lensing power.  Right: residual power after removal of temporal gain drifts using the dipole.
 \label{fig:rot_bb_tb_eb} }
 \end{figure}
 %------------------------------------------------------------------------------------------
@@ -305,7 +305,7 @@ Left and center: Spurious power due to a rotation of the angle of polarization, 
 % \end{figure*}
 % %------------------------------------------------------------------------------------------
 
-The most recent constraints on cosmological birefringence \citep{Planck2016_XLIX} were limited by uncertainties on the detector orientations.  In Planck, the detectors were characterized pre-launch to $\pm 0.9\degree$ (rel.) $\pm 0.3\degree$ (abs.) \citep{Rosset+2010}. For \pico, the relative rotation of the detectors will be measured to a few $0.1\arcmin$ using the CMB, but the overall rotation is unlikely to be known pre-launch to better than Planck.  Known polarized sources, such as the Crab Nebula, are not characterized well enough independently to serve as calibrators; \citet{Aumont+2018} show that the current uncertainty of $0.33\degree = 20\arcmin$ on the Crab polarization orientation, limits a $B$ mode measurement to $r \sim 0.01$, far from \pico's target.
+The most recent constraints on cosmological birefringence \citep{Planck2016_XLIX} were limited by uncertainties on the detector orientations.  In \planck, the detectors were characterized pre-launch to $\pm 0.9\degree$ (rel.) $\pm 0.3\degree$ (abs.) \citep{Rosset+2010}. For \pico, the relative rotation of the detectors will be measured to a few $0.1\arcmin$ using the CMB, but the overall rotation is unlikely to be known pre-launch to better than \planck.  Known polarized sources, such as the Crab Nebula, are not characterized well enough independently to serve as calibrators; \citet{Aumont+2018} show that the current uncertainty of $0.33\degree = 20\arcmin$ on the Crab polarization orientation, limits a $B$ mode measurement to $r \sim 0.01$, far from \pico's target.
 
 %Figures \ref{fig:rot_sens_0} and \ref{fig:rot_sens_2} show how the measurement of $r$ by \pico\ is degraded because of an overall rotation of polarization, and how $TB$ and $EB$ can be used to monitor this rotation, assuming that the only source of polarization rotation is instrumental.
 %These results are obtained assuming the spectra to have a Gaussian likelihood, with a variance $\propto 1/\fsky$, and ignoring the foreground contributions.
@@ -327,14 +327,14 @@ In principle, the technique of using the $TB$ and $EB$ spectra can detect and me
 %\end{figure}
 %------------------------------------------------------------------------------------------
 
-Photometric calibration is the process of converting the raw output of the receivers into astrophysical units via the characterization of the \emph{gain factor} $G(t)$ which we allow to vary with time.  In space, $G(t)$ can be measured with the dipole.   For the PICO concept study, we evaluated the impact of noise in the estimation of $G(t)$ using the tools developed for the Planck/LFI instrument and the CORE mission proposal. The quality of the estimate depends on the noise level of the receivers, but also on the details of the scanning strategy. 
+Photometric calibration is the process of converting the raw output of the receivers into astrophysical units via the characterization of the \emph{gain factor} $G(t)$ which we allow to vary with time.  In space, $G(t)$ can be measured with the dipole.   For the PICO concept study, we evaluated the impact of noise in the estimation of $G(t)$ using the tools developed for the \planck/LFI instrument and the CORE mission proposal. The quality of the estimate depends on the noise level of the receivers, but also on the details of the scanning strategy. 
 To analyze the impact of calibration uncertainties on PICO, we performed  the following analysis:1. We simulated the observation of the sky, assuming four receivers, the nominal scanning strategy, and $1/f$ noise. The simulated sky contained CMB anisotropies, plus the CMB dipole. 2. We ran the calibration code to fit the dipole against the raw data simulated during step~1. 3. We again simulated the observation of the sky, this time using the values of $G$ computed during step~2, which contain errors due to the presence of noise and the CMB signal.
 
-The presence of large-scale Galactic emission features can bias the estimation of calibration factors. Ideally, a full data analysis pipeline would pair the calibration step with the component separation step, following a schema similar to Planck/LFI's legacy data processing\cite{Planck2018_II}: the calibration code is followed by a component separation analysis, and these two steps are iterated until the solution converges.
+The presence of large-scale Galactic emission features can bias the estimation of calibration factors. Ideally, a full data analysis pipeline would pair the calibration step with the component separation step, following a schema similar to \planck/LFI's legacy data processing\cite{Planck2018_II}: the calibration code is followed by a component separation analysis, and these two steps are iterated until the solution converges.
 
 Results of the simulation (neglecting foregrounds) are shown as power spectrum residuals in Fig.~\ref{fig:rot_bb_tb_eb}. 
 We estimate the gain fluctuations to better than 10$^{-4}$ solving for the gain every 40 hours (4 precession periods).
-The scanning strategy employed by PICO allows for a much better calibration than Planck, thanks to the much faster precession.
+The scanning strategy employed by PICO allows for a much better calibration than \planck, thanks to the much faster precession.
 
 \subsubsection{Far Sidelobe Pickup}
 \label{sec:fsl}
@@ -360,7 +360,7 @@ realistically accounting for post-processing mitigation.  Any future
 CMB mission is likely to have similar orbit  
 and scan characteristics to those of PICO, thus there is an opportunity for NASA and
 the CMB community to invest in further development of this capability now.
-\item Low frequency excess noise (also called 1/f noise) should be studied in detail as part of a simulation effort to set detailed detector and systems level requirements.  The systematics simulations performed here show that PICO's science goals can be achieved with no additional modulation and assuming current state-of-the-art levels of low frequency noise (a total knee frequency of 20 mHz) based on demonstrated TES performance, and system-level residuals achieved by Planck.
+\item Low frequency excess noise (also called 1/f noise) should be studied in detail as part of a simulation effort to set detailed detector and systems level requirements.  The systematics simulations performed here show that PICO's science goals can be achieved with no additional modulation and assuming current state-of-the-art levels of low frequency noise (a total knee frequency of 20 mHz) based on demonstrated TES performance, and system-level residuals achieved by \planck.
 \end{itemize}
 
 \end{document}
