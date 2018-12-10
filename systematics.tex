@@ -18,9 +18,9 @@ The redundancy of observations allows the checking of consistency of results and
 A rich literature investigates the types of systematic errors due to the environment, the instrumentation, observation strategies, and data analysis that confound the polarization measurement by creating a bias or an increased variance\cite{hu03,shimon2008,yadav2010}. 
 Every measurement to date has  reached a systematic error limit, and have advanced many sophisticated techniques to mitigate systematics, finding both new technological solutions and new analysis techniques.
 As an example, the BICEP's systematics limited it to r=0.1\cite{Takahashi2010} while through additional effort within the program, BICEP2 achieved a systematics limit of r=6$\times$10$^{-3}$\cite{BICEP2_III}).
-In the near term, the ground based and suborbital CMB community will continue to develop new techniques in handling systematics, particularly in developing the CMB-S4 project.
+In the near term, the ground-based and suborbital CMB community will continue to develop new techniques in handling systematics, particularly in developing the CMB-S4 project.
 
-All prior on-orbit measurements of CMB polarization were limited by systematic errors until an in-depth study of the systematics was performed and the post-processing data analysis suppressed them\cite{Bennett13,planck2016_xlvi,Planck2018_I}. 
+All prior on-orbit measurements of CMB polarization were limited by systematic errors until an in-depth study of the systematics was performed allowing a post-processing data analysis to suppress them\cite{Bennett13,planck2016_xlvi,Planck2018_I}. 
 Particularly we note Fig. 3 of \cite{Planck2018_I} which quantifies \planck's systematic error limits on the polarization power spectral measurements.
 Recently studied space missions, such as EPIC-IM, LiteBird and  \core, have placed
 systematic error mitigation at the forefront of the case for their
@@ -242,7 +242,7 @@ Systematic errors expected in \pico's measurement of CMB polarization. Each sour
 \subsubsection{Absolute polarization angle calibration}
 \label{sec:angle}
 
-CMB polarization can be rotated due to 1. a birefringent primordial Universe, or a Faraday rotation
+The measured CMB polarization can be rotated due to 1. a birefringent primordial Universe, or a Faraday rotation
 due a primordial magnetic field \citep{Pogosian+2018}, 2. birefringent
 foregrounds, or interaction with the Galactic magnetic field,
 3. systematic effects in the instrument, and in particular an error on
@@ -271,7 +271,7 @@ and thus mixes the the power spectra and their correlations as illustrated in Fi
 \begin{figure}[htb]
 \includegraphics[width=0.6\textwidth]{images/PICO_rotate_eb4_v2.\suffix} \includegraphics[width=0.4\textwidth]{images/calibration_spectrum_BB.pdf}
 \caption{\captiontext
-Left and center: Spurious power due to a rotation of the angle of polarization, assuming the \planck~2018 $\Lambda$-CDM model \citep{Planck2018_VI} with $\tau=0.054$ and expected \pico\ noise performance, assuming removal of 85\% of the lensing power.  Right: residual power after removal of temporal gain drifts using the dipole.
+Left and center: Spurious power due to a rotation of the angle of polarization, assuming the \planck~2018 $\Lambda$CDM model \citep{Planck2018_VI} with $\tau=0.054$ and expected \pico\ noise performance, assuming removal of 85\% of the lensing power.  Right: residual power after removal of temporal gain drifts using the dipole.
 \label{fig:rot_bb_tb_eb} }
 \end{figure}
 %------------------------------------------------------------------------------------------
@@ -327,7 +327,7 @@ In principle, the technique of using the $TB$ and $EB$ spectra can detect and me
 %\end{figure}
 %------------------------------------------------------------------------------------------
 
-Photometric calibration is the process of converting the raw output of the receivers into astrophysical units via the characterization of the \emph{gain factor} $G(t)$ which we allow to vary with time.  In space, $G(t)$ can be measured with the dipole.   For the PICO concept study, we evaluated the impact of noise in the estimation of $G(t)$ using the tools developed for the \planck/LFI instrument and the CORE mission proposal. The quality of the estimate depends on the noise level of the receivers, but also on the details of the scanning strategy. 
+Photometric calibration is the process of converting the raw output of the receivers into astrophysical units via the characterization of the \emph{gain factor} $G(t)$ which we allow to vary with time.  In space, $G(t)$ can be measured with the CMB dipole.   For the PICO concept study, we evaluated the impact of noise in the estimation of $G(t)$ using the tools developed for the \planck/LFI instrument and the CORE mission proposal. The quality of the estimate depends on the noise level of the receivers, but also on the details of the scanning strategy. 
 To analyze the impact of calibration uncertainties on PICO, we performed  the following analysis:1. We simulated the observation of the sky, assuming four receivers, the nominal scanning strategy, and $1/f$ noise. The simulated sky contained CMB anisotropies, plus the CMB dipole. 2. We ran the calibration code to fit the dipole against the raw data simulated during step~1. 3. We again simulated the observation of the sky, this time using the values of $G$ computed during step~2, which contain errors due to the presence of noise and the CMB signal.
 
 The presence of large-scale Galactic emission features can bias the estimation of calibration factors. Ideally, a full data analysis pipeline would pair the calibration step with the component separation step, following a schema similar to \planck/LFI's legacy data processing\cite{Planck2018_II}: the calibration code is followed by a component separation analysis, and these two steps are iterated until the solution converges.
