@@ -161,19 +161,6 @@ M.~Bolz, A.~Brandenburg, and W.~Buchmuller, ``{Thermal production of
   gravitinos},'' \emph{Nucl. Phys.}, vol. B606, pp. 518--544, 2001, [Erratum:
   Nucl. Phys.B790,336(2008)].
 
-\bibitem{Peebles:2000pn}
-P.~J.~E. Peebles, S.~Seager, and W.~Hu, ``{Delayed recombination},''
-  \emph{Astrophys. J.}, vol. 539, pp. L1--L4, 2000.
-
-\bibitem{Chen:2003gz}
-X.-L. Chen and M.~Kamionkowski, ``{Particle decays during the cosmic dark
-  ages},'' \emph{Phys. Rev.}, vol. D70, p. 043502, 2004.
-
-\bibitem{Padmanabhan:2005es}
-N.~Padmanabhan and D.~P. Finkbeiner, ``{Detecting dark matter annihilation with
-  CMB polarization: Signatures and experimental prospects},'' \emph{Phys.
-  Rev.}, vol. D72, p. 023508, 2005.
-
 \bibitem{Madhavacheril:2013cna}
 M.~S. Madhavacheril, N.~Sehgal, and T.~R. Slatyer, ``{Current Dark Matter
   Annihilation Constraints from CMB and Low-Redshift Data},'' \emph{Phys.
@@ -224,11 +211,6 @@ T.~R. {Slatyer} and C.-L. {Wu}, ``{Early-Universe constraints on dark
   matter-baryon scattering and their implications for a global 21 cm signal},''
   \emph{\prd}, vol.~98, no.~2, p. 023013, Jul. 2018.
 
-\bibitem{2018PhRvD..98h3510B}
-K.~K. {Boddy} and V.~{Gluscevic}, ``{First cosmological constraint on the
-  effective theory of dark matter- proton interactions},'' \emph{\prd},
-  vol.~98, p. 083510, Oct. 2018.
-
 \bibitem{2018Natur.555...71B}
 R.~{Barkana}, ``{Possible interaction between baryons and dark-matter particles
   revealed by the first stars},'' \emph{\nat}, vol. 555, pp. 71--74, Mar. 2018.
@@ -247,11 +229,6 @@ E.~D. {Kovetz}, V.~{Poulin}, V.~{Gluscevic}, K.~K. {Boddy}, R.~{Barkana}, and
 B.~J. {Kavanagh}, ``{Earth scattering of superheavy dark matter: Updated
   constraints from detectors old and new},'' \emph{\prd}, vol.~97, no.~12, p.
   123013, Jun. 2018.
-
-\bibitem{2018arXiv180610165L}
-Z.~{Li}, V.~{Gluscevic}, K.~K. {Boddy}, and M.~S. {Madhavacheril},
-  ``{Disentangling Dark Physics with Cosmic Microwave Background
-  Experiments},'' \emph{ArXiv e-prints}, Jun. 2018.
 
 \bibitem{Planck2018_VI}
 {Planck Collaboration}, N.~{Aghanim}, Y.~{Akrami} \emph{et~al.}, ``{Planck 2018
@@ -523,11 +500,6 @@ E.~M. George, C.~L. Reichardt, K.~A. Aird \emph{et~al.}, ``A measurement of
   no.~2, p. 177, 2015. URL: \url{http://stacks.iop.org/0004-637X/799/i=2/a=177}
 \BIBentrySTDinterwordspacing
 
-\bibitem{PlanckI2015}
-{Planck Collaboration}, R.~{Adam}, P.~A.~R. {Ade} \emph{et~al.}, ``{Planck 2015
-  results. I. Overview of products and scientific results},'' \emph{\aap}, vol.
-  594, p.~A1, Sep. 2016.
-
 \bibitem{Planck2018:XII}
 {Planck Collaboration}, N.~{Aghanim}, Y.~{Akrami} \emph{et~al.}, ``{Planck 2018
   results. XII. Galactic astrophysics using polarized dust emission},''
@@ -584,26 +556,16 @@ B.~T. {Draine} and B.~{Hensley}, ``{Magnetic Nanoparticles in the Interstellar
   Medium: Emission Spectrum and Polarization},'' \emph{\apj}, vol. 765, p. 159,
   Mar. 2013.
 
-\bibitem{Dickinson2018a}
-C.~{Dickinson}, A.~{Barr}, H.~C. {Chiang} \emph{et~al.}, ``{The C-Band All-Sky
-  Survey (C-BASS): Constraining diffuse Galactic radio emission in the North
-  Celestial Pole region},'' \emph{ArXiv e-prints}, p. arXiv:1810.11681, Oct.
-  2018.
-
 \bibitem{Dickinson2018b}
 C.~{Dickinson}, Y.~{Ali-Ha{\"\i}moud}, A.~{Barr} \emph{et~al.}, ``{The
   State-of-Play of Anomalous Microwave Emission (AME) research},'' \emph{New
   Astronomy Reviews}, vol.~80, pp. 1--28, Feb. 2018.
 
-\bibitem{McKee2007}
-C.~F. {McKee} and E.~C. {Ostriker}, ``{Theory of Star Formation},'' \emph{Ann.
-  Rev. Astron. Astrophys.}, vol.~45, pp. 565--687, Sep. 2007.
-
-\bibitem{Crutcher2010}
-R.~M. {Crutcher}, B.~{Wandelt}, C.~{Heiles}, E.~{Falgarone}, and T.~H.
-  {Troland}, ``{Magnetic Fields in Interstellar Clouds from Zeeman
-  Observations: Inference of Total Field Strengths by Bayesian Analysis},''
-  \emph{\apj}, vol. 725, pp. 466--479, Dec. 2010.
+\bibitem{Dickinson2018a}
+C.~{Dickinson}, A.~{Barr}, H.~C. {Chiang} \emph{et~al.}, ``{The C-Band All-Sky
+  Survey (C-BASS): Constraining diffuse Galactic radio emission in the North
+  Celestial Pole region},'' \emph{ArXiv e-prints}, p. arXiv:1810.11681, Oct.
+  2018.
 
 \bibitem{Clark:2014}
 S.~E. {Clark}, J.~E.~G. {Peek}, and M.~E. {Putman}, ``{Magnetically Aligned H I
@@ -625,92 +587,11 @@ P.~M.~W. {Kalberla}, J.~{Kerp}, U.~{Haud}, B.~{Winkel}, N.~{Ben Bekhti},
 P.~M.~W. {Kalberla} and J.~{Kerp}, ``{Anisotropies in the HI gas distribution
   toward 3C 196},'' \emph{\aap}, vol. 595, p. A37, Oct. 2016.
 
-\bibitem{EllsworthBowers2015}
-T.~P. {Ellsworth-Bowers}, E.~{Rosolowsky}, J.~{Glenn}, A.~{Ginsburg}, N.~J.
-  {Evans}, II, C.~{Battersby}, Y.~L. {Shirley}, and B.~{Svoboda}, ``{The
-  Bolocam Galactic Plane Survey. XII. Distance Catalog Expansion Using
-  Kinematic Isolation of Dense Molecular Cloud Structures with
-  $^{13}$CO(1-0)},'' \emph{\apj}, vol. 799, p.~29, Jan. 2015.
-
-\bibitem{Soler2013}
-J.~D. {Soler}, P.~{Hennebelle}, P.~G. {Martin}, M.-A. {Miville-Desch{\^e}nes},
-  C.~B. {Netterfield}, and L.~M. {Fissel}, ``{An Imprint of Molecular Cloud
-  Magnetization in the Morphology of the Dust Polarized Emission},''
-  \emph{\apj}, vol. 774, p. 128, Sep. 2013.
-
-\bibitem{Chen2016}
-C.-Y. {Chen}, P.~K. {King}, and Z.-Y. {Li}, ``{Change of Magnetic Field-gas
-  Alignment at the Gravity-driven Alfv{\'e}nic Transition in Molecular Clouds:
-  Implications for Dust Polarization Observations},'' \emph{\apj}, vol. 829,
-  p.~84, Oct. 2016.
-
-\bibitem{Soler2017}
-J.~D. {Soler}, P.~A.~R. {Ade}, F.~E. {Angil{\`e}} \emph{et~al.}, ``{The
-  relation between the column density structures and the magnetic field
-  orientation in the Vela C molecular complex},'' \emph{\aap}, vol. 603, p.
-  A64, Jul. 2017.
-
-\bibitem{Planck:XXXV}
-{Planck Collaboration Int.~XXXV}, ``{\textit{Planck} intermediate results.
-  XXXV. Probing the role of the magnetic field in the formation of structure in
-  molecular clouds},'' \emph{\aap}, vol. 586, p. A138, 2016.
-
-\bibitem{Fissel2016}
-L.~M. {Fissel}, P.~A.~R. {Ade}, F.~E. {Angil{\`e}} \emph{et~al.},
-  ``{Balloon-Borne Submillimeter Polarimetry of the Vela C Molecular Cloud:
-  Systematic Dependence of Polarization Fraction on Column Density and Local
-  Polarization-Angle Dispersion},'' \emph{\apj}, vol. 824, p. 134, Jun. 2016.
-
-\bibitem{King2018}
-P.~K. {King}, L.~M. {Fissel}, C.-Y. {Chen}, and Z.-Y. {Li}, ``{Modelling dust
-  polarization observations of molecular clouds through MHD simulations},''
-  \emph{\mnras}, vol. 474, pp. 5122--5142, Mar. 2018.
-
-\bibitem{GonzalezCasanova2017}
-D.~F. {Gonz{\'a}lez-Casanova} and A.~{Lazarian}, ``{Velocity Gradients as a
-  Tracer for Magnetic Fields},'' \emph{\apj}, vol. 835, p.~41, Jan. 2017.
-
-\bibitem{Yuen2017}
-K.~H. {Yuen} and A.~{Lazarian}, ``{Tracing Interstellar Magnetic Field Using
-  Velocity Gradient Technique: Application to Atomic Hydrogen Data},''
-  \emph{\apjl}, vol. 837, p. L24, Mar. 2017.
-
-\bibitem{Lazarian2018}
-A.~{Lazarian} and K.~H. {Yuen}, ``{Tracing Magnetic Fields with Spectroscopic
-  Channel Maps},'' \emph{\apj}, vol. 853, p.~96, Jan. 2018.
-
-\bibitem{Davis1951}
-L.~{Davis}, Jr. and J.~L. {Greenstein}, ``{The Polarization of Starlight by
-  Aligned Dust Grains.}'' \emph{\apj}, vol. 114, p. 206, Sep. 1951.
-
-\bibitem{Chandrasekhar1953}
-S.~{Chandrasekhar} and E.~{Fermi}, ``{Magnetic Fields in Spiral Arms.}''
-  \emph{\apj}, vol. 118, p. 113, Jul. 1953.
-
-\bibitem{Hildebrand2009}
-R.~H. {Hildebrand}, L.~{Kirby}, J.~L. {Dotson}, M.~{Houde}, and J.~E.
-  {Vaillancourt}, ``{Dispersion of Magnetic Fields in Molecular Clouds. I},''
-  \emph{\apj}, vol. 696, pp. 567--573, May 2009.
-
-\bibitem{Houde2009}
-M.~{Houde}, J.~E. {Vaillancourt}, R.~H. {Hildebrand}, S.~{Chitsazzadeh}, and
-  L.~{Kirby}, ``{Dispersion of Magnetic Fields in Molecular Clouds. II.}''
-  \emph{\apj}, vol. 706, pp. 1504--1516, Dec. 2009.
-
-\bibitem{Andersson2015}
-B.~G. {Andersson}, A.~{Lazarian}, and J.~E. {Vaillancourt}, ``{Interstellar
-  Dust Grain Alignment},'' \emph{Annual Review of Astronomy and Astrophysics},
-  vol.~53, pp. 501--539, Aug. 2015.
-
-\bibitem{Seifried2018}
-D.~{Seifried}, S.~{Walch}, S.~{Reissl}, and J.~C.
-  {Ib{\'a}{\~n}ez-Mej{\'{\i}}a}, ``{SILCC-Zoom: Polarisation and depolarisation
-  in molecular clouds},'' \emph{\mnras}, Oct. 2018.
-
-\bibitem{Miville-Deschenes2017}
-M.-A. {Miville-Desch{\^e}nes}, N.~{Murray}, and E.~J. {Lee}, ``{Physical
-  Properties of Molecular Clouds for the Entire Milky Way Disk},'' \emph{\apj},
-  vol. 834, p.~57, Jan. 2017.
+\bibitem{Crutcher2010}
+R.~M. {Crutcher}, B.~{Wandelt}, C.~{Heiles}, E.~{Falgarone}, and T.~H.
+  {Troland}, ``{Magnetic Fields in Interstellar Clouds from Zeeman
+  Observations: Inference of Total Field Strengths by Bayesian Analysis},''
+  \emph{\apj}, vol. 725, pp. 466--479, Dec. 2010.
 
 \bibitem{HI4PI:2016}
 {HI4PI Collaboration}, ``{HI4PI: A full-sky H I survey based on EBHIS and
@@ -724,6 +605,18 @@ J.~E.~G. {Peek}, B.~L. {Babler}, Y.~{Zheng} \emph{et~al.}, ``{The GALFA-H I
 N.~M. {McClure-Griffiths}, S.~{Stanimirovic}, C.~{Murray} \emph{et~al.},
   ``{Galactic and Magellanic Evolution with the SKA},'' in \emph{Advancing
   Astrophysics with the Square Kilometre Array (AASKA14)}, Apr. 2015, p. 130.
+
+\bibitem{EllsworthBowers2015}
+T.~P. {Ellsworth-Bowers}, E.~{Rosolowsky}, J.~{Glenn}, A.~{Ginsburg}, N.~J.
+  {Evans}, II, C.~{Battersby}, Y.~L. {Shirley}, and B.~{Svoboda}, ``{The
+  Bolocam Galactic Plane Survey. XII. Distance Catalog Expansion Using
+  Kinematic Isolation of Dense Molecular Cloud Structures with
+  $^{13}$CO(1-0)},'' \emph{\apj}, vol. 799, p.~29, Jan. 2015.
+
+\bibitem{Planck:XXXV}
+{Planck Collaboration Int.~XXXV}, ``{\textit{Planck} intermediate results.
+  XXXV. Probing the role of the magnetic field in the formation of structure in
+  molecular clouds},'' \emph{\aap}, vol. 586, p. A138, 2016.
 
 \bibitem{allen_2003}
 A.~{Allen}, Z.-Y. {Li}, and F.~H. {Shu}, ``{Collapse of Magnetized Singular
@@ -830,6 +723,12 @@ R.~A. {Overzier}, ``{The realm of the galaxy protoclusters. A review},''
 {Planck Collaboration XXXIX}, ``{Planck intermediate results. XXXIX. The Planck
   list of high-redshift source candidates},'' \emph{\aap}, vol. 596, p. A100,
   Dec. 2016.
+
+\bibitem{Chen2016}
+C.-Y. {Chen}, P.~K. {King}, and Z.-Y. {Li}, ``{Change of Magnetic Field-gas
+  Alignment at the Gravity-driven Alfv{\'e}nic Transition in Molecular Clouds:
+  Implications for Dust Polarization Observations},'' \emph{\apj}, vol. 829,
+  p.~84, Oct. 2016.
 
 \bibitem{Ivison2013}
 R.~J. {Ivison}, A.~M. {Swinbank}, I.~{Smail} \emph{et~al.}, ``{Herschel-ATLAS:
@@ -1041,39 +940,6 @@ J.~{Aumont}, J.~F. {Mac{\'{\i}}as-P{\'e}rez}, A.~{Ritacco}, N.~{Ponthieu}, and
   2018 results. II. Low Frequency Instrument data processing},'' \emph{ArXiv
   e-prints}, Jul. 2018.
 
-\bibitem{Dragone1978}
-C.~{Dragone}, ``{Offset multireflector antennas with perfect pattern symmetry
-  and polarization discrimination},'' \emph{AT\&T Technical Journal}, vol.~57,
-  pp. 2663--2684, Sep. 1978.
-
-\bibitem{Dragone1983a}
-C.~{Dragone}, ``{A first-order treatment of aberrations in Cassegrainian and
-  Gregorian antennas},'' \emph{IEEE Transactions on Antennas and Propagation},
-  vol.~30, pp. 331--339, May 1982.
-
-\bibitem{Dragone1983b}
-C.~{Dragone}, ``{Unique reflector arrangement within very wide field of view
-  for multibeam antennas},'' \emph{Electronics Letters}, vol.~19, p. 1061, Dec.
-  1983.
-
-\bibitem{Fargant2000}
-G.~{Fargant}, D.~{Dubruel}, M.~{Cornut}, J.-B. {Riti}, T.~{Passvogel}, P.~J.
-  {De Maagt}, M.~{Anderegg}, and J.~{Tauber}, ``{Very wide band telescope for
-  Planck using optical and radio frequency techniques},'' in \emph{UV, Optical,
-  and IR Space Telescopes and Instruments}, ser. Society of Photo-Optical
-  Instrumentation Engineers (SPIE) Conference Series, J.~B. {Breckinridge} and
-  P.~{Jakobsen}, Eds., vol. 4013, Jul. 2000, pp. 69--79.
-
-\bibitem{Swetz2011}
-D.~S. {Swetz}, P.~A.~R. {Ade}, M.~{Amiri} \emph{et~al.}, ``{Overview of the
-  Atacama Cosmology Telescope: Receiver, Instrumentation, and Telescope
-  Systems},'' \emph{The Astrophysical Journal Supplement Series}, vol. 194,
-  p.~41, Jun. 2011.
-
-\bibitem{Padin2008}
-S.~{Padin}, Z.~{Staniszewski}, R.~{Keisler} \emph{et~al.}, ``{South Pole
-  Telescope optics},'' \emph{\ao}, vol.~47, pp. 4418--4428, Aug. 2008.
-
 \bibitem{Young2018}
 K.~{Young}, M.~{Alvarez}, N.~{Battaglia} \emph{et~al.}, ``{Optical design of
   PICO: a concept for a space mission to probe inflation and cosmic origins},''
@@ -1084,11 +950,6 @@ K.~{Young}, M.~{Alvarez}, N.~{Battaglia} \emph{et~al.}, ``{Optical design of
 P.~{de Bernardis}, P.~A.~R. {Ade}, J.~J.~A. {Baselmans} \emph{et~al.},
   ``{Exploring cosmic origins with CORE: The instrument},'' \emph{Journal of
   Cosmology and Astro-Particle Physics}, vol. 2018, p. 015, Apr. 2018.
-
-\bibitem{Granet2001}
-C.~{Granet}, ``{Designing classical Dragonian offset dual-reflector antennas
-  from combinations of prescribed geometric parameters},'' \emph{IEEE Antennas
-  and Propagation Magazine}, vol.~43, pp. 100--107, Dec. 2001.
 
 \bibitem{Suzuki2014}
 A.~{Suzuki}, K.~{Arnold}, J.~{Edwards} \emph{et~al.}, ``{Multi-Chroic
@@ -1140,6 +1001,12 @@ A.~D. {Turner}, J.~J. {Bock}, J.~W. {Beeman} \emph{et~al.}, ``{Silicon nitride
   Micromesh Bolometer Array for Submillimeter Astrophysics},'' \emph{\ao},
   vol.~40, pp. 4921--4932, Oct. 2001.
 
+\bibitem{Beyer2012}
+A.~D. Beyer, M.~E. Kenyon, P.~M. Echternach \emph{et~al.}, ``Ultra-sensitive
+  transition-edge sensors for the background limited infrared/sub-mm
+  spectrograph ({BLISS}),'' \emph{Journal of Low Temperature Physics}, vol.
+  167, pp. 182--187, May 2012.
+
 \bibitem{Rahlin2014}
 A.~S. {Rahlin}, P.~A.~R. {Ade}, M.~{Amiri} \emph{et~al.}, ``{Pre-flight
   integration and characterization of the SPIDER balloon-borne telescope},'' in
@@ -1151,11 +1018,17 @@ S.~W. {Henderson}, R.~{Allison}, J.~{Austermann} \emph{et~al.}, ``{Advanced
   ACTPol Cryogenic Detector Arrays and Readout},'' \emph{Journal of Low
   Temperature Physics}, vol. 184, pp. 772--779, Aug. 2016.
 
-\bibitem{EBEX2017}
-{The EBEX Collaboration}, A.~{Aboobaker}, P.~{Ade} \emph{et~al.}, ``{The EBEX
-  Balloon-borne Experiment{\textemdash}Gondola, Attitude Control, and Control
-  Software},'' \emph{The Astrophysical Journal Supplement Series}, vol. 239,
-  p.~9, Nov. 2018.
+\bibitem{Hui2018}
+H.~{Hui}, P.~A.~R. {Ade}, Z.~{Ahmed} \emph{et~al.}, ``{BICEP Array: a
+  multi-frequency degree-scale CMB polarimeter},'' in \emph{Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, vol.
+  10708, Jul. 2018, p. 1070807.
+
+\bibitem{Runyan2010}
+M.~C. {Runyan}, P.~A.~R. {Ade}, M.~{Amiri} \emph{et~al.}, ``{Design and
+  performance of the SPIDER instrument},'' in \emph{Millimeter, Submillimeter,
+  and Far-Infrared Detectors and Instrumentation for Astronomy V}, vol. 7741,
+  Jul. 2010, p. 77411O.
 
 \bibitem{Pajot2018}
 F.~Pajot, ``Planck compression,'' Private communication.
@@ -1164,6 +1037,12 @@ F.~Pajot, ``Planck compression,'' Private communication.
 {Planck HFI Core Team}, P.~A.~R. {Ade}, N.~{Aghanim} \emph{et~al.}, ``{Planck
   early results. IV. First assessment of the High Frequency Instrument
   in-flight performance},'' \emph{\aap}, vol. 536, p.~A4, Dec. 2011.
+
+\bibitem{EBEX2017}
+{The EBEX Collaboration}, A.~{Aboobaker}, P.~{Ade} \emph{et~al.}, ``{The EBEX
+  Balloon-borne Experiment{\textemdash}Gondola, Attitude Control, and Control
+  Software},'' \emph{The Astrophysical Journal Supplement Series}, vol. 239,
+  p.~9, Nov. 2018.
 
 \bibitem{Donabedian2003}
 \BIBentryALTinterwordspacing
@@ -1238,37 +1117,66 @@ H.~{Kurki-Suonio}, E.~{Keih{\"a}nen}, R.~{Keskitalo}, T.~{Poutanen}, A.~S.
   {Sirvi{\"o}}, D.~{Maino}, and C.~{Burigana}, ``{Destriping CMB temperature
   and polarization maps},'' \emph{\aap}, vol. 506, pp. 1511--1539, Nov. 2009.
 
-\bibitem{Brown2016}
+\bibitem{DSN2015}
 \BIBentryALTinterwordspacing
-T.~S. Brown, \emph{A GNC Perspective of the Launch and Commissioning of NASA's
-  New SMAP (Soil Moisture Active Passive) Spacecraft}.\hskip 1em plus 0.5em
-  minus 0.4em\relax American Institute of Aeronautics and Astronautics,
-  2018/11/19 2016. URL: \url{https://doi.org/10.2514/6.2016-0479}
+{Deep Space Network, Jet Propulsion Laboratory, California Institute of
+  Technology}, ``Deep space network services catalog 820-100, rev. f.''
+  February 2015. URL: \url{https://deepspace.jpl.nasa.gov/files/820-100-F1.pdf}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Planck2014}
-{Planck Collaboration}, P.~A.~R. {Ade}, N.~{Aghanim} \emph{et~al.}, ``{Planck
-  2013 results. VI. High Frequency Instrument data processing},'' \emph{\aap},
-  vol. 571, p.~A6, Nov. 2014.
-
-\bibitem{Planck2018}
-{Planck Collaboration}, N.~{Aghanim}, Y.~{Akrami} \emph{et~al.}, ``{Planck 2018
-  results. III. High Frequency Instrument data processing and frequency
-  maps},'' \emph{ArXiv e-prints}, Jul. 2018.
+\bibitem{Abitbol2017}
+M.~H. {Abitbol}, Z.~{Ahmed}, D.~{Barron} \emph{et~al.}, ``{CMB-S4 Technology
+  Book, First Edition},'' \emph{ArXiv e-prints}, Jun. 2017.
 
 \bibitem{SPIDER2018}
 R.~{Gualtieri}, J.~P. {Filippini}, P.~A.~R. {Ade} \emph{et~al.}, ``{SPIDER: CMB
   Polarimetry from the Edge of Space},'' \emph{Journal of Low Temperature
   Physics}, Oct. 2018.
 
-\bibitem{Abitbol2017}
-M.~H. {Abitbol}, Z.~{Ahmed}, D.~{Barron} \emph{et~al.}, ``{CMB-S4 Technology
-  Book, First Edition},'' \emph{ArXiv e-prints}, Jun. 2017.
-
 \bibitem{Holland2013}
 W.~S. {Holland}, D.~{Bintley}, E.~L. {Chapin} \emph{et~al.}, ``{SCUBA-2: the 10
   000 pixel bolometer camera on the James Clerk Maxwell Telescope},''
   \emph{\mnras}, vol. 430, pp. 2513--2533, Apr. 2013.
+
+\bibitem{Dutcher2018}
+D.~{Dutcher}, P.~A.~R. {Ade}, Z.~{Ahmed} \emph{et~al.}, ``{Characterization and
+  performance of the second-year SPT-3G focal plane},'' in \emph{Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, vol.
+  10708, Jul. 2018, p. 107081Z.
+
+\bibitem{Li2018}
+Y.~{Li}, J.~E. {Austermann}, J.~A. {Beall} \emph{et~al.}, ``{Performance of the
+  advanced ACTPol low frequency array},'' in \emph{Society of Photo-Optical
+  Instrumentation Engineers (SPIE) Conference Series}, vol. 10708, Jul. 2018,
+  p. 107080A.
+
+\bibitem{bicep_keck2018}
+\BIBentryALTinterwordspacing
+{Keck Array and BICEP2 Collaborations}, P.~A.~R. {Ade}, Z.~{Ahmed}
+  \emph{et~al.}, ``{BICEP2 / Keck Array X: Constraints on Primordial
+  Gravitational Waves using Planck, WMAP, and New BICEP2/Keck Observations
+  through the 2015 Season},'' \emph{ArXiv e-prints}, p. arXiv:1810.05216, Oct.
+  2018. URL: \url{https://arxiv.org/abs/1810.05216}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Westbrook2016}
+B.~{Westbrook}, A.~{Cukierman}, A.~{Lee}, A.~{Suzuki}, C.~{Raum}, and
+  W.~{Holzapfel}, ``{Development of the Next Generation of Multi-chroic
+  Antenna-Coupled Transition Edge Sensor Detectors for CMB Polarimetry},''
+  \emph{Journal of Low Temperature Physics}, vol. 184, pp. 74--81, Jul. 2016.
+
+\bibitem{Simon2018}
+S.~M. {Simon}, J.~E. {Golec}, A.~{Ali} \emph{et~al.}, ``{Feedhorn development
+  and scalability for Simons Observatory and beyond},'' in \emph{Society of
+  Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, vol.
+  10708, Jul. 2018, p. 107084B.
+
+\bibitem{Sayre2012}
+J.~T. {Sayre}, P.~{Ade}, K.~A. {Aird} \emph{et~al.}, ``{Design and
+  characterization of 90 GHz feedhorn-coupled TES polarimeter pixels in the
+  SPTPol camera},'' in \emph{Millimeter, Submillimeter, and Far-Infrared
+  Detectors and Instrumentation for Astronomy VI}, vol. 8452, Sep. 2012, p.
+  845239.
 
 \bibitem{Dober2017}
 B.~{Dober}, D.~T. {Becker}, D.~A. {Bennett} \emph{et~al.}, ``{Microwave SQUID
@@ -1318,15 +1226,30 @@ S.~{Bard}, ``{Development of a High-Performance Cryogenic Radiator with
   \url{http://sci.esa.int/planck/45498-cooling-system/?fbodylongid=2123}
 \BIBentrySTDinterwordspacing
 
-\bibitem{ESA2016}
+\bibitem{Brown2016}
 \BIBentryALTinterwordspacing
-{European Space Agency}, ``Cmb polarisation mission study -- cdf summary
-  presentation,'' May 2016. URL:
-  \url{http://sci.esa.int/trs/57805-cmb-polarisation-study---cdf-summary-presentation/}
+T.~S. Brown, \emph{A GNC Perspective of the Launch and Commissioning of NASA's
+  New SMAP (Soil Moisture Active Passive) Spacecraft}.\hskip 1em plus 0.5em
+  minus 0.4em\relax American Institute of Aeronautics and Astronautics,
+  2018/11/19 2016. URL: \url{https://doi.org/10.2514/6.2016-0479}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Jasper2017}
 L.~E.~Z. Jasper and P.~Xaypraseuth, ``Data production on past and future nasa
   missions,'' in \emph{2017 IEEE Aerospace Conference}, March 2017, pp. 1--11.
+
+\bibitem{Mrozinski2017}
+\BIBentryALTinterwordspacing
+J.~Mrozinski and M.~DiNicola, ``{NICM: Cryocooler},'' {NASA 2017 Cost Symposium
+  Presentations}, August 2017. URL:
+  \url{https://www.nasa.gov/offices/ocfo/cost_symposium/2017_presentations}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Stahl2016}
+H.~P. {Stahl} and T.~{Henrichs}, ``{Multivariable parametric cost model for
+  space and ground telescopes},'' in \emph{Modeling, Systems Engineering, and
+  Project Management for Astronomy VI}, ser. Society of Photo-Optical
+  Instrumentation Engineers (SPIE) Conference Series, vol. 9911, Sep. 2016, p.
+  99110L.
 
 \end{thebibliography}
