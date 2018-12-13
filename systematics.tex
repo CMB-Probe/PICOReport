@@ -6,38 +6,37 @@
 \begin{document}
 
 Some of the PICO science goals require detecting extremely faint signals. The most ambitious goal is to detect the  
-signal characterizing an inflationary gravity wave with $r \geq 3\times{10^-4} \, (3\sigma) $, with a B-mode polarization peak signal $\lesssim10$nK in amplitude at $\ell=80$.
+signal characterizing an inflationary gravitational wave with $r \geq 3\times{10^-4} \, (3\sigma) $, through a B-mode polarization peak signal $\lesssim10$nK in amplitude at $\ell=80$.
 It has long been recognized that exquisite control of systematic uncertainties will be required for any experiment attempting 
 to reach these levels, and it is widely accepted that the stability provided aboard a space platform makes it best suited to
 control systematic uncertainties compared to other platforms. This is one of the most compelling reasons to observe the 
-CMB from space.  As WMAP and \planck~ demonstrated, an L2 orbit offers excellent stability as well 
-as the flexibility in the choice of scan strategy.  
-PICO takes advantage of an L2 orbit, using a rotating spacecraft (at 1 rpm) whose spin axes precesses with a 10 hour period, thus scanning the sky in a way that is crosslinked on many time scales and at many angles, without interference from the Sun, Earth, or Moon, thus reducing the effects of low frequency excess noise without additional modulation. 
+CMB from space.  As WMAP and \planck~ demonstrated, an L2 orbit offers excellent stability, as well 
+as flexibility in the choice of scan strategy.  
+PICO takes advantage of an L2 orbit, using a rotating spacecraft (at 1 rpm) whose spin axis precesses with a 10 hour period, thus scanning the sky in a way that is crosslinked on many time scales and at many angles, without interference from the Sun, Earth, or Moon; this reduces the effects of low frequency excess noise without additional modulation. 
 The redundancy of observations allows the checking of consistency of results and an improved ability to calibrate and to correct systematic errors in post-processing analysis.
 
-A rich literature investigates the types of systematic errors due to the environment, the instrumentation, observation strategies, and data analysis that confound the polarization measurement by creating a bias or an increased variance\cite{hu03,shimon2008,yadav2010}. 
-Every measurement to date has  reached a systematic error limit, and have advanced many sophisticated techniques to mitigate systematics, finding both new technological solutions and new analysis techniques.
-As an example, the BICEP's systematics limited it to r=0.1\cite{Takahashi2010} while through additional effort within the program, BICEP2 achieved a systematics limit of r=6$\times$10$^{-3}$\cite{BICEP2_III}).
+A rich literature investigates the types of systematic errors due to the environment, the instrumentation, observation strategies, and data analysis that confound polarization measurements by creating a bias or an increased variance \cite{hu03,shimon2008,yadav2010}. 
+Every measurement to date has  reached a systematic error limit, and many sophisticated techniques have been advanced to mitigate systematics, finding both new technological solutions and new analysis techniques.
+As an example, BICEP systematics limited it to r=0.1\cite{Takahashi2010} while through additional effort within the program, BICEP2 achieved a systematics limit of r=6$\times$10$^{-3}$\cite{BICEP2_III}).
 In the near term, the ground-based and suborbital CMB community will continue to develop new techniques in handling systematics, particularly in developing the CMB-S4 project.
 
-All prior on-orbit measurements of CMB polarization were limited by systematic errors until an in-depth study of the systematics was performed allowing a post-processing data analysis to suppress them\cite{Bennett13,planck2016_xlvi,Planck2018_I}. 
-Particularly we note Fig. 3 of \cite{Planck2018_I} which quantifies \planck's systematic error limits on the polarization power spectral measurements.
+All prior on-orbit measurements of CMB polarization were limited by systematic errors until an in-depth study of the systematics was performed allowing a post-processing data analysis to suppress them \cite{Bennett13,planck2016_xlvi,Planck2018_I}. 
+Particularly we note figure 3 of Ref.\cite{Planck2018_I} which quantifies \planck's systematic error limits on the polarization power spectral measurements.
 Recently studied space missions, such as EPIC-IM, LiteBird and  \core, have placed
 systematic error mitigation at the forefront of the case for their
 mission and have developed tools and strategies for estimating and mitigating these\cite{hazumi2012,wallis2017,Natoli2018}.
 
-Systematics are coupled with the
+Systematic effects are coupled with the
 spacecraft scan strategy, and the details of the 
 data analysis pipeline.
 Thus, end-to-end simulation of the experiment is an essential tool,
 including realistic instabilities and non-idealities of the spacecraft,
-telescope, instrument and folding in data post-processing techniques
-used to mitigate the effects.    
+telescope, and instrument, as well as folding in data post-processing techniques
+used to mitigate the systematic effects.    
 
 \subsubsection{List of Systematics}
 The systematic errors faced by PICO can be categorized into three broad categories: 
-1) Intensity-to-polarization leakage, 2) stability, and 3) straylight, and are listed in Table \ref{tbl:SystematicsList2col}. 
-These were prioritized for further study using a risk factor incorporating the working group's assessment of how mission-limiting the effect is, how well these effects are understood by the community and whether mitigation techniques exist.  
+1) intensity-to-polarization leakage; 2) stability; and 3) straylight. These are listed in Table \ref{tbl:SystematicsList2col} and were prioritized for further study using a risk factor incorporating the working group's assessment of how mission-limiting the effect is, how well these effects are understood by the community and whether mitigation techniques exist.  
 
 The three highest risk systematic errors were studied further and are discussed in subsections below.  The PICO team used 
  simulation and analysis tools developed for \planck~\cite{plank2015_xii_focalplane} and \core, adapting them for PICO.
@@ -55,25 +54,25 @@ The three highest risk systematic errors were studied further and are discussed 
 \textbf{Name} & \textbf{Risk}&\textbf{Effect} \\
  \hline
 \textbf{Leakage}& &\\
-Polarization Angle Calibration\dotfill& 
+Polarization angle calibration\dotfill& 
 5&
 $E{\to}B$ &
-See Sect.~\ref{sec:angle}.
+Sect.~\ref{sec:angle}.
 \\
- Bandpass Mismatch\dotfill&
+ Bandpass mismatch\dotfill&
  4& 
 $T{\to}$P, $E{\to}B$  
    \\
 Beam mismatch\dotfill& 
 4&
 $T{\to}$P, $E{\to}B$
-& See Sect.~\ref{sec:angle}
+& Sect.~\ref{sec:angle}
 \\
-Time Response Accuracy and Stability\dotfill&
+Time response accuracy and stability\dotfill&
 4&
 $T{\to}$P, $E{\to}B$
 \\
-Readout Cross-talk\dotfill& 
+Readout cross-talk\dotfill& 
 4&
 spurious P
 \\
@@ -94,11 +93,11 @@ $E{\to}B$
 \\
 \hline 
 \textbf{Stability} & & \\
-Gain Stability\dotfill& 
+Gain stability\dotfill& 
 5&
 $T{\to}$P, $E{\to} B$
 & 
-See Sect.~\ref{sec:gain}
+Sect.~\ref{sec:gain}
 \\
 Pointing jitter\dotfill&
 3&
@@ -107,11 +106,11 @@ $T{\to}$P, $E{\to}B$
 
 \hline
 \textbf{Straylight}& & \\
-Far Sidelobes\dotfill& 
+Far sidelobes\dotfill& 
 5&
 spurious P
 &
-See Sect.~\ref{sec:fsl}.\\
+Sect.~\ref{sec:fsl}.\\
  \hline
 \textbf{Other} \\
 Residual correlated noise (1/f, cosmic ray hits)\dotfill&
@@ -124,7 +123,7 @@ increased variance
 \hspace{-0.0in}
 \parbox{3.1in}{
 \caption{\captiontext
-Systematic errors expected in \pico's measurement of CMB polarization. Each source of systematic errors was given a rating of the risk that a given systematic error will dominate the B-mode measurement.  A risk level of 5 indicates that a systematic effect is highly significant because it is design-driving, has limited past experiments, and/or isn't well understood.  Risk level of 4 indicates a systematic that is either known to be large but is understood reasonably well or a smaller effect that requires precise modeling.  Risk level of 3 indicates that we expect the effect to be small, but it isn't necessarily well understood enough that modeling it should be done in detail in a mission Phase A. This study investigated the systematics with risk levels of 5 via simulations.
+Potential systematic errors anticipated in \pico's measurement of CMB polarization. Each source of systematic errors was given a rating of the risk that it will dominate the B-mode measurement.  A risk level of 5 indicates that a systematic effect is highly significant because it is design-driving, has limited past experiments, and/or isn$^\prime$t well understood.  A risk level of 4 indicates a systematic that is either known to be large but is understood reasonably well, or a smaller effect that requires precise modeling.  A risk level of 3 indicates that we expect the effect to be small, but it is not necessarily well understood enough that modeling it needs to be done in detail in a mission Phase A study. We have investigated the systematics with risk levels of 5 via simulations.
 \label{tbl:SystematicsList2col} }}
 \hspace{-0.0in}
 \end{table}
@@ -242,18 +241,18 @@ Systematic errors expected in \pico's measurement of CMB polarization. Each sour
 \subsubsection{Absolute polarization angle calibration}
 \label{sec:angle}
 
-The measured CMB polarization can be rotated due to 1. a birefringent primordial Universe, or a Faraday rotation
-due a primordial magnetic field \citep{Pogosian+2018}, 2. birefringent
-foregrounds, or interaction with the Galactic magnetic field,
-3. systematic effects in the instrument, and in particular an error on
+The measured CMB polarization can be rotated due to (1) a birefringent primordial Universe, or a Faraday rotation
+due a primordial magnetic field \citep{Pogosian+2018}; (2) birefringent
+foregrounds, or interaction with the Galactic magnetic field;
+(3) systematic effects in the instrument, and in particular an error in
 the direction of polarization measured by each detector.  
 While the first two sources create a rotation that may depend on scale,
 position and/or frequency, the latter depends mainly on
-the detector. 
+the detector itself. 
 
 A rotation {\prang} of the direction of polarization mixes the $Q$ and $U$ Stokes parameters via
 $Q\pm iU \longrightarrow e^{\mp i 2 \prang} (Q\pm iU)$
-and thus mixes the the power spectra and their correlations as illustrated in Fig.~\ref{fig:rot_bb_tb_eb}.
+and thus mixes the power spectra and their correlations, as illustrated in Fig.~\ref{fig:rot_bb_tb_eb}.
 % via (assuming the rotation to be independent on scale and location)
 %\begin{subequations}
 %\begin{align}
@@ -305,16 +304,16 @@ Left and center: Spurious power due to a rotation of the angle of polarization, 
 % \end{figure*}
 % %------------------------------------------------------------------------------------------
 
-The most recent constraints on cosmological birefringence \citep{Planck2016_XLIX} were limited by uncertainties on the detector orientations.  In \planck, the detectors were characterized pre-launch to $\pm 0.9\degree$ (rel.) $\pm 0.3\degree$ (abs.) \citep{Rosset+2010}. For \pico, the relative rotation of the detectors will be measured to a few $0.1\arcmin$ using the CMB, but the overall rotation is unlikely to be known pre-launch to better than \planck.  Known polarized sources, such as the Crab Nebula, are not characterized well enough independently to serve as calibrators; \citet{Aumont+2018} show that the current uncertainty of $0.33\degree = 20\arcmin$ on the Crab polarization orientation, limits a $B$ mode measurement to $r \sim 0.01$, far from \pico's target.
+The most recent constraints on cosmological birefringence \citep{Planck2016_XLIX} were limited by uncertainties on the detector orientations.  In \planck, the detectors were characterized pre-launch to $\pm 0.9^\circ$ (rel.) $\pm 0.3^\circ$ (abs.) \citep{Rosset+2010}. For \pico, the relative rotation of the detectors will be measured to a few $0.1\arcmin$ using the CMB, but the overall rotation is unlikely to be known pre-launch to better than \planck.  Known polarized sources, such as the Crab Nebula, are not characterized well enough independently to serve as calibrators; \citet{Aumont+2018} show that the current uncertainty of $0.33^\circ$ on the Crab polarization orientation, limits a $B$-mode measurement to $r \sim 0.01$, far from \pico's target.
 
 %Figures \ref{fig:rot_sens_0} and \ref{fig:rot_sens_2} show how the measurement of $r$ by \pico\ is degraded because of an overall rotation of polarization, and how $TB$ and $EB$ can be used to monitor this rotation, assuming that the only source of polarization rotation is instrumental.
 %These results are obtained assuming the spectra to have a Gaussian likelihood, with a variance $\propto 1/\fsky$, and ignoring the foreground contributions.
 
 In the absence of other systematics and foregrounds, a polarization rotation error $\alpha$ of $10\arcmin$ degrades 
-the error bar of $r$ by 30\%, while $EB$, $TB$ and $BB$ spectra can measure a rotation $\alpha$ at 3$\sigma$ when $\alpha \sim 0.07, 0.2$  and $0.9\arcmin$ respectively
- on perfectly delensed maps, and $0.25, 0.9$ and $4.5\arcmin$ on raw maps.
+the uncertainty of $r$ by 30\%, while $EB$, $TB$, and $BB$ spectra can measure a rotation $\alpha$ at 3$\sigma$ when $\alpha = 0.07, 0.2$  and $0.9\arcmin$, respectively,
+ on perfectly delensed maps, and $0.25, 0.9$, and $4.5\arcmin$ on raw maps.
 
-In principle, the technique of using the $TB$ and $EB$ spectra can detect and measure a global polarization rotation error at levels ($~0.1 \arcmin$) below those affecting $r$ measurements in $BB$ ($> 1 \arcmin$).  However, a future mission should simulate additional aspects, such as delensing, the interaction with foregrounds, and $1/f$ noise in simulating and assessing the impact of an angle calibration error.
+In principle, the technique of using the $TB$ and $EB$ spectra can measure a global polarization rotation error at levels (around $0.1 \arcmin$) below those affecting $r$ measurements in $BB$ ($> 1 \arcmin$).  However, a future mission should simulate additional aspects of this issue, such as delensing, the interaction with foregrounds, and $1/f$ noise in simulating and assessing the impact of an angle-calibration error.
 
 \subsubsection{Gain Stability}
 \label{sec:gain}
@@ -327,36 +326,36 @@ In principle, the technique of using the $TB$ and $EB$ spectra can detect and me
 %\end{figure}
 %------------------------------------------------------------------------------------------
 
-Photometric calibration is the process of converting the raw output of the receivers into astrophysical units via the characterization of the \emph{gain factor} $G(t)$ which we allow to vary with time.  In space, $G(t)$ can be measured with the CMB dipole.   For the PICO concept study, we evaluated the impact of noise in the estimation of $G(t)$ using the tools developed for the \planck/LFI instrument and the CORE mission proposal. The quality of the estimate depends on the noise level of the receivers, but also on the details of the scanning strategy. 
-To analyze the impact of calibration uncertainties on PICO, we performed  the following analysis:1. We simulated the observation of the sky, assuming four receivers, the nominal scanning strategy, and $1/f$ noise. The simulated sky contained CMB anisotropies, plus the CMB dipole. 2. We ran the calibration code to fit the dipole against the raw data simulated during step~1. 3. We again simulated the observation of the sky, this time using the values of $G$ computed during step~2, which contain errors due to the presence of noise and the CMB signal.
+Photometric calibration is the process of converting the raw output of the receivers into astrophysical units via the characterization of the "gain factor" $G(t)$, which we allow to vary with time.  In space, $G(t)$ can be measured using the CMB dipole.   For the PICO concept study, we evaluated the impact of noise in the estimation of $G(t)$ using the tools developed for the \planck/LFI instrument and the CORE mission proposal. The quality of the estimate depends on the noise level of the receivers, but also on the details of the scanning strategy. 
+To analyze the impact of calibration uncertainties on PICO, we performed  the following analysis. Firstly, we simulated the observation of the sky, assuming four receivers, the nominal scanning strategy, and $1/f$ noise. The simulated sky contained CMB anisotropies, plus the CMB dipole. Then we ran the calibration code to fit the dipole against the raw data simulated during the first step. We again simulated the observation of the sky, this time using the values of $G$ computed during the second step, which contain errors due to the presence of noise and the CMB signal.
 
-The presence of large-scale Galactic emission features can bias the estimation of calibration factors. Ideally, a full data analysis pipeline would pair the calibration step with the component separation step, following a schema similar to \planck/LFI's legacy data processing\cite{Planck2018_II}: the calibration code is followed by a component separation analysis, and these two steps are iterated until the solution converges.
+The presence of large-scale Galactic emission features can bias the estimation of calibration factors. Ideally, a full data-analysis pipeline would pair the calibration step with the component-separation step, following a schema similar to \planck/LFI's final data processing \cite{Planck2018_II}: the calibration code is followed by a component-separation analysis, and these two steps are iterated until the solution converges.
 
 Results of the simulation (neglecting foregrounds) are shown as power spectrum residuals in Fig.~\ref{fig:rot_bb_tb_eb}. 
-We estimate the gain fluctuations to better than 10$^{-4}$ solving for the gain every 40 hours (4 precession periods).
-The scanning strategy employed by PICO allows for a much better calibration than \planck, thanks to the much faster precession.
+We estimate the gain fluctuations to better than 10$^{-4}$ when solving for the gain every 40 hours (4 precession periods).
+The scanning strategy employed by PICO allows for a much better calibration than was possible for \planck, thanks to the much faster precession.
 
-\subsubsection{Far Sidelobe Pickup}
+\subsubsection{Far-Sidelobe Pickup}
 \label{sec:fsl}
 %The main beam (within a few degrees of the axis of beam response) in a CMB mission can be measured to high precision using the planets .  
-Measurement of each detector's response to signals off axis, which tends to be weak (--80dB less than the peak response) but spread over a very large solid angle, is difficult to do pre-launch, and may not even be done accurately after launch.  Nonetheless, this far sidelobe can couple bright Galactic signal from many tens of degrees off-axis and confuse it with polarized signal from the CMB off the Galactic plane.    To evaluate this systematic error, GRASP software\footnote{https://www.ticra.com} was used to compute the \pico\ telescope's response over the full sky.  The computed full-sky beams showed features peaking at about -80\,dB of the on-axis beam.   
-This full-sky beam was convolved with a polarized Galactic signal and a one-year \pico\ mission scan using the simulation pipeline and preliminarily shows that the far sidelobe pickup must be reduced by 90\%  to keep the sidelobe signal from appreciably increasing the variance on the B-mode power measurement.
+Measurement of each detector's response to signals off axis, which tends to be weak (--80dB less than the peak response) but spread over a very large solid angle, is difficult to do pre-launch, and may not even be done accurately after launch.  Nonetheless, this far sidelobe can couple bright Galactic signals from many tens of degrees off-axis and confuse it with polarized signal from the CMB off the Galactic plane.    To evaluate this systematic error, GRASP software\footnote{https://www.ticra.com} was used to compute the \pico\ telescope's response over the full sky.  The computed full-sky beams showed features peaking at about -80\,dB of the on-axis beam.   
+This full-sky beam was convolved with a polarized Galactic signal and a one-year \pico\ mission scan using the simulation pipeline; this preliminarily shows that the far sidelobe pickup must be reduced by 90\%  to keep the sidelobe signal from appreciably increasing the variance on the B-mode power measurement.
 This reduction can be achieved by adjusting the instrument design or by modeling, measuring, and removing the sidelobe pickup during data analysis.
 
 \subsubsection{Key Findings}
 Properly modeling, engineering for, and controlling the effects of systematic errors in a
-next-generation CMB probe is critical.  As of today, we conclude that there is a clear path to demonstrate that state-of-the-art technology and data processing can take advantage of the L2 environment and control systematic errors to a level that enables the science goals of PICO. In particular we note:
+next-generation CMB probe is critical.  As of today, we conclude that there is a clear path to demonstrate that state-of-the-art technology and data processing can take advantage of the L2 environment and control systematic errors to a level that enables the science goals of PICO. In particular we note the following points:
 \begin{itemize}
 \item The raw sensitivity of the instrument should include enough margin
 that data subsets can independently achieve the science goals.
 This allows testing of the results in the data analysis and additional
 data cuts, if needed.
-\item In a PICO mission, a physical optics model of the telescope should be developed, enabling full-sky beam calculations, which should be validated as much as possible on the ground.  This will be needed to characterize and remove far sidelobe pickup seen during the mission. 
-\item NASA's support of ground-based and suborbital CMB missions will mitigate risk to a future space mission as PICO by continuing to develop analysis techniques and technology for mitigation of systematic errors.
+\item For PICO mission, a physical optics model of the telescope should be developed, enabling full-sky beam calculations, which should be validated as much as possible on the ground.  This will be needed to characterize and remove far-sidelobe pickup seen during the mission. 
+\item NASA's support of ground-based and suborbital CMB missions will mitigate risk to a future space mission such as PICO by continuing to develop analysis techniques and technology for the reduction of systematic errors.
 
-\item In a PICO mission's phase A, a complete end-to-end system-level
-simulation software facility would be developed to assist the team in setting 
-requirements and conducting trades between subsystem requirements while
+\item In the PICO mission's phase A, a complete end-to-end system-level
+simulation software facility should be developed to assist the team in setting 
+requirements and conducting trade-offs between subsystem requirements while
 realistically accounting for post-processing mitigation.  Any future
 CMB mission is likely to have similar orbit  
 and scan characteristics to those of PICO, thus there is an opportunity for NASA and
