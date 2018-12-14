@@ -1,0 +1,26 @@
+
+%-----------------------------------------------------------------------
+% Tables
+%-----------------------------------------------------------------------
+\newbox\tablebox    \newdimen\tablewidth
+\def\leaderfil{\leaders\hbox to 5pt{\hss.\hss}\hfil}
+%
+% use the following definition of \endPlancktable for ApJ style notes to tables, set to the 
+%         width of the table
+% \def\endPlancktable{\tablewidth=\wd\tablebox 
+%
+% use the following definitions of \endPlancktable and \endPlancktablewide for A&A style notes 
+% set to one-column  or full-page width, respectively
+\def\endPlancktable{\tablewidth=\columnwidth 
+    $$\hss\copy\tablebox\hss$$
+    \vskip-\lastskip\vskip -2pt}
+\def\endPlancktablewide{\tablewidth=\textwidth 
+    $$\hss\copy\tablebox\hss$$
+    \vskip-\lastskip\vskip -2pt}
+\def\tablenote#1 #2\par{\begingroup \parindent=0.8em
+    \abovedisplayshortskip=0pt\belowdisplayshortskip=0pt
+    \noindent
+    $$\hss\vbox{\hsize\tablewidth \hangindent=\parindent \hangafter=1 \noindent
+    \hbox to \parindent{$^#1$\hss}\strut#2\strut\par}\hss$$
+    \endgroup}
+\def\doubleline{\vskip 3pt\hrule \vskip 1.5pt \hrule \vskip 5pt}
