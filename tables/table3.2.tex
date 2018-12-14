@@ -1,0 +1,70 @@
+% Table 3.2
+
+\begin{table}[tb]
+\caption{\captiontext 
+PICO measures in 21 broad overlapping frequency bands with band centers ($\nu_{\rm c}$) from 21\,GHz to 799\,GHz and bandwidth $\Delta\nu/\nu_{\rm c} = 25\,\%$. The beams are single mode, with FWHM sizes of $6\parcm2 \times (155\,{\rm GHz}/\nu_{\rm c})$. The Current Best Estimate (CBE) per-bolometer sensitivity is background limited (\S\,\ref{sec:sensitivity}). The total number of bolometers for each band is equal to (number of tiles) $\times$ (pixels per tile) $\times$ (2 polarizations per pixel), from Table~\ref{tab:focal_plane}. Array sensitivity assumes $90\,\%$ detector operability. The map depth assumes 5\,yr of full sky survey at $95\,\%$ survey efficiency, except the 25 and 30\,GHz frequency bands, which are conservatively excluded during 4\,hr/day Ka-band (26\,GHz) telecom periods (\S\,\ref{sec:ground_segment}).\label{tab:bands}}
+\begingroup
+\def\nunit{[$\mu{\rm K}_{\rm CMB}\,{\rm s}^{1/2}$]}
+%\openup 5pt
+\newdimen\tblskip \tblskip=5pt
+\nointerlineskip
+\vskip -3mm
+\footnotesize %\footnotesize
+\setbox\tablebox=\vbox{
+    \newdimen\digitwidth
+    \setbox0=\hbox{\rm 0}
+    \digitwidth=\wd0
+    \catcode`*=\active
+    \def*{\kern\digitwidth}
+%
+    \newdimen\signwidth
+    \setbox0=\hbox{+}
+    \signwidth=\wd0
+    \catcode`!=\active
+    \def!{\kern\signwidth}
+%
+\halign{
+\hbox to 0.5in{#\leaderfil}\tabskip=0.6em&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil\tabskip=0pt\cr
+\noalign{\doubleline}
+\omit \hfil Band\hfil&Beam&CBE&&CBE&Baseline&\multispan2\hfil Baseline polarization\hfil\cr
+\omit \hfil Center\hfil&FWHM&Bolo NET&$N_{\rm bolo}$&Array NET&Array NET&\multispan2\hfil map depth\hfil\cr
+\omit \hfil[GHz]\hfil&[arcmin]&\nunit&&\nunit&\nunit&[$\mu{\rm K}_{\rm CMB}\,{\rm arcmin}$]&[Jy\,sr$^{-1}$]\cr
+%\omit \hfil Tile\hfil&&Pixels/&Pixel&Bandcenters&Sampling\cr
+%\omit \hfil type\hfil&$N_{\rm tile}$&tile&type&[GHz]&rate [Hz]\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+*21&38.4&112.2&*120&12.0&17.0&23.9&8.3\cr
+*25&32.0&103.0&*200&8.4&11.9&18.4&10.9\cr
+*30&28.3&*59.4&*120&5.7&8.0&12.4&11.8\cr
+*36&23.6&*54.4&*200&4.0&5.7&7.9&12.9\cr
+*43&22.2&*41.7&*120&4.0&5.6&7.9&19.5\cr
+*52&18.4&*38.4&*200&2.8&4.0&5.7&23.8\cr
+*62&12.8&*69.2&*732&2.7&3.8&5.4&45.4\cr
+*75&10.7&*65.4&1020&2.1&3.0&4.2&58.3\cr
+*90&*9.5&*37.7&*732&1.4&2.0&2.8&59.3\cr
+108&*7.9&*36.2&1020&1.1&1.6&2.3&77.3\cr
+129&*7.4&*27.8&*732&1.1&1.5&2.1&96.0\cr
+155&*6.2&*27.5&1020&0.9&1.3&1.8&119.1\cr
+186&*4.3&*70.8&*960&2.0&2.8&4.0&433.1\cr
+223&*3.6&*84.2&*900&2.3&3.3&4.5&604.2\cr
+268&*3.2&*54.8&*960&1.5&2.2&3.1&433.4\cr
+321&*2.6&*77.6&*900&2.1&3.0&4.2&577.8\cr
+385&*2.5&*69.1&*960&2.3&3.2&4.5&429.1\cr
+462&*2.1&132.6&*900&4.5&6.4&9.1&551.1\cr
+555&*1.5&657.8&*440&23.0&32.5&45.8&1580\cr
+666&*1.3&2212&*400&89.0&125.8&177.2&2075\cr
+799&*1.1&10430&*360&525.9&743.8&1047&2884\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+\multispan3\quad\quad Total\leaderfil&12\,996&0.43&0.61&0.87&\cr
+\noalign{\vskip 5pt\hrule\vskip 3pt}
+} % close halign
+} % close vbox
+\endPlancktable
+\endgroup
+\end{table}

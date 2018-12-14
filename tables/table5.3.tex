@@ -1,0 +1,50 @@
+%% Table 5.3
+
+\begin{table}
+\caption{\captiontext PICO high-frequency detectors leverage development and demonstration by \textit{Planck}, \textit{Herschel}, and SPT.\label{tab:suborbital2}}
+\begingroup
+%\openup 5pt
+\newdimen\tblskip \tblskip=5pt
+\nointerlineskip
+\vskip -3mm
+\footnotesize %\footnotesize
+\setbox\tablebox=\vbox{
+    \newdimen\digitwidth
+    \setbox0=\hbox{\rm 0}
+    \digitwidth=\wd0
+    \catcode`*=\active
+    \def*{\kern\digitwidth}
+%
+    \newdimen\signwidth
+    \setbox0=\hbox{+}
+    \signwidth=\wd0
+    \catcode`!=\active
+    \def!{\kern\signwidth}
+%
+\halign{
+\hbox to 1.2in{#\leaderfil}\tabskip=0.6em&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil\tabskip=0pt\cr
+\noalign{\doubleline}
+\omit\hfil Project\hfil&Type&Polarized&Mono-&$\nu_c$&Colors&$N_{\rm bolo}$&Significance&Reference\cr
+ \omit  &       &              &lithic?  &[GHz]&per pixel&\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+PICO baseline&Probe&Yes&Yes&555 -- 799&One&1,200&&\S\,\ref{sec:high_freq_det}\cr
+\textit{Planck} HFI&Flight&143--343\,GHz&No&143 -- 857&One&48&TRL 9 polarized&\cite{Turner2001}\cr
+\textit{Herschel}&Flight&No&Yes&570 -- 1200&One&270&TRL 9 monolothic&\cite{Ferlet2008}\cr
+SPT-SZ&Ground&No&Yes&90 -- 220&One&840&Monolithic array TESs&\cite{Shirokoff2011}\cr
+SPT-pol-90&Ground&Yes&No&90&One&180&Dual pol absorbing TESs&\cite{Sayre2012}\cr
+\noalign{\vskip 5pt\hrule\vskip 3pt}
+} % close halign
+} % close vbox
+\endPlancktable
+%\tablenote {{\rm a}} 143--343\,GHz only.\par
+\endgroup
+\end{table}

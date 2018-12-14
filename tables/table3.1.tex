@@ -1,0 +1,62 @@
+% Table 3.1
+
+\begin{table}[tb]
+\caption{\captiontext PICO makes efficient use of the focal area with multichroic pixels (three bands per pixel, \S\,\ref{sec:low_freq_det}). The sampling rate is based on the smallest beam (Table~\ref{tab:bands}), with 3 samples per FWHM at a scan speed $(360\degree/{\rm min})\sin(\beta=69\degree) = 336\degree/{\rm min}$. Scaling from suborbital experience, we anticipate that TES bolometers can support these sampling rates with a factor of $\sim4\times$ margin.\label{tab:focal_plane}}
+\begingroup
+\definecolor{A}{RGB}{209, 209, 209}
+\definecolor{B}{RGB}{64, 128, 159}
+\definecolor{C}{RGB}{112, 208, 85}
+\definecolor{D}{RGB}{109, 196, 232}
+\definecolor{E}{RGB}{32, 49, 184}
+\definecolor{F}{RGB}{119, 120, 199}
+\definecolor{G}{RGB}{235, 92, 243}
+%\openup 5pt
+\newdimen\tblskip \tblskip=5pt
+\nointerlineskip
+\vskip -3mm
+\footnotesize %\footnotesize
+\setbox\tablebox=\vbox{
+    \newdimen\digitwidth
+    \setbox0=\hbox{\rm 0}
+    \digitwidth=\wd0
+    \catcode`*=\active
+    \def*{\kern\digitwidth}
+%
+    \newdimen\signwidth
+    \setbox0=\hbox{+}
+    \signwidth=\wd0
+    \catcode`!=\active
+    \def!{\kern\signwidth}
+%
+\halign{
+\hfil#\hfil\tabskip=0.6em&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil\tabskip=0pt\cr
+\noalign{\doubleline}
+\omit \hfil Tile\hfil&&Pixels/&Pixel&Bandcenters&Sampling\cr
+\omit \hfil type\hfil&$N_{\rm tile}$&tile&type&[GHz]&rate [Hz]\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+1&6&10&\colorbox{A}{A}&21, 30, 43&45\cr
+\noalign{\vskip 5pt\hrule height 0.2pt\vskip 3pt}
+2&10&10&\colorbox{B}{\textcolor{White}B}&25, 36, 52&55\cr
+\noalign{\vskip 5pt\hrule height 0.2pt\vskip 3pt}
+3&6&61&\colorbox{C}{C}&62, 90, 129&136\cr
+\noalign{\vskip 5pt\hrule height 0.2pt\vskip 3pt}
+4&6&85&\colorbox{D}{D}&75, 108, 155&163\cr
+\omit&\omit&80&\colorbox{E}{\textcolor{White}E}&186, 268, 385&403\cr
+\noalign{\vskip 5pt\hrule height 0.2pt\vskip 3pt}
+5&2&450&\colorbox{F}{\textcolor{White}F}&223, 321, 462&480\cr
+\noalign{\vskip 5pt\hrule height 0.2pt\vskip 3pt}
+6&1&220&\colorbox{G}{G}&555&917\cr
+\omit&\omit&200&\colorbox{G}{H}&666\cr
+\omit&\omit&180&\colorbox{G}{I}&799\cr
+\noalign{\vskip 5pt\hrule\vskip 3pt}
+} % close halign
+} % close vbox
+\endPlancktable
+\endgroup
+\end{table}
+

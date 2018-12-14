@@ -1,0 +1,46 @@
+\begin{table}[tb]
+\caption{\captiontext Projected cooler heat lift capabilities offer $>100\,\%$ heat lift margin, complying with community best practices \citep{Donabedian2003}. The cADR lift capability at 1\,K and 0.1\,K is from a Goddard quote. Both NGAS and Ball project $>100$\,mW lift capability at $4.5\,$K using higher compression-ratio compressors currently in development (\S\,\ref{sec:4kcooler}). The required loads were calculated using Thermal Desktop. Reference \citep{Ross2004} was used to estimate the thermal conductive loads through mechanical supports. In addition to the listed components, the total 4.5\,K heat load includes the intercept on the focal plane mechanical supports.\label{tab:cooler}}
+\begingroup
+%\openup 5pt
+\newdimen\tblskip \tblskip=5pt
+\nointerlineskip
+\vskip -3mm
+\footnotesize %\footnotesize
+\setbox\tablebox=\vbox{
+    \newdimen\digitwidth
+    \setbox0=\hbox{\rm 0}
+    \digitwidth=\wd0
+    \catcode`*=\active
+    \def*{\kern\digitwidth}
+%
+    \newdimen\signwidth
+    \setbox0=\hbox{+}
+    \signwidth=\wd0
+    \catcode`!=\active
+    \def!{\kern\signwidth}
+%
+\halign{
+\hbox to 1.3in{#\leaderfil}\tabskip=0.6em&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil&
+\hfil#\hfil\tabskip=0pt\cr
+\noalign{\doubleline}
+\omit&$T$ (req'd)&$T$ (CBE)&\multispan3 \hfil Active heat lift\hfil\cr
+\omit\hfil Component\hfil&\omit&\omit&Req'd&Capability&Projected\cr
+\omit&\omit&\omit&per model&today&capability\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+Primary reflector&$< 40$\,K&$17$\,K&\multispan3\hfil N/A (radiatively cooled) \hfil\cr
+Secondary reflector&$<8$\,K\cr\noalign{\vskip-1em}
+Aperture stop&$4.5$\,K&$\Biggr\}$4.5\,K&\vbox to 1em{\hbox{42\,MW total}\hbox{at 4.5\,K}}&--&\vbox to 1em{\hbox{$>100$\,mW}\hbox{ (\S\,\ref{sec:4kcooler}, Fig.~\ref{fig:CoolerFigure})}}\cr\noalign{\vskip-1em}
+cADR heat rejection&$4.5$\,K\cr
+Focal plane enclosure and filter&$1.0$\,K&$1.0$\,K&$0.36$\,mW&$1.0$\,mW&--\cr
+Focal plane&$0.1$\,K&$0.1$\,K&$5.7$\,$\mu$W&$32$\,$\mu$W&--\cr
+\noalign{\vskip 5pt\hrule\vskip 3pt}
+} % close halign
+} % close vbox
+\endPlancktable
+\endgroup
+\end{table}
+
