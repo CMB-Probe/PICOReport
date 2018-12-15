@@ -32,12 +32,6 @@ K.~{Array}, {BICEP2 Collaborations}, {:} \emph{et~al.}, ``{BICEP2 / Keck Array
   BICEP2/Keck Observations through the 2015 Season},'' \emph{ArXiv e-prints},
   Oct. 2018.
 
-\bibitem{2016A&A...586A.133P}
-{Planck Collaboration}, R.~{Adam}, P.~A.~R. {Ade} \emph{et~al.}, ``{Planck
-  intermediate results. XXX. The angular power spectrum of polarized dust
-  emission at intermediate and high Galactic latitudes},'' \emph{\aap}, vol.
-  586, p. A133, Feb. 2016.
-
 \bibitem{Seljak:1996gy}
 U.~Seljak and M.~Zaldarriaga, ``{Signature of gravity waves in polarization of
   the microwave background},'' \emph{Phys. Rev. Lett.}, vol.~78, pp.
@@ -240,10 +234,6 @@ B.~J. {Kavanagh}, ``{Earth scattering of superheavy dark matter: Updated
   HFI polarization maps and estimation of the reionization optical depth},''
   \emph{ArXiv e-prints}, May 2016.
 
-\bibitem{Kaplinghat:2003bh}
-M.~Kaplinghat, L.~Knox, and Y.-S. Song, ``{Determining neutrino mass from the
-  CMB alone},'' \emph{Phys. Rev. Lett.}, vol.~91, p. 241301, 2003.
-
 \bibitem{Levi:2013gra}
 M.~Levi \emph{et~al.}, ``{The DESI Experiment, a whitepaper for Snowmass
   2013},'' \emph{ArXiv e-prints}, 2013.
@@ -378,11 +368,6 @@ N.~Aghanim \emph{et~al.}, ``{Planck intermediate results. XLIX.
   Parity-violation constraints from polarization data},'' \emph{Astron.
   Astrophys.}, vol. 596, p. A110, 2016.
 
-\bibitem{Pospelov:2008gg}
-M.~Pospelov, A.~Ritz, C.~Skordis, A.~Ritz, and C.~Skordis, ``{Pseudoscalar
-  perturbations and polarization of the cosmic microwave background},''
-  \emph{Phys. Rev. Lett.}, vol. 103, p. 051302, 2009.
-
 \bibitem{Array:2017rlf}
 P.~A.~R. Ade \emph{et~al.}, ``{BICEP2 / Keck Array IX: New bounds on
   anisotropies of CMB polarization rotation and implications for axionlike
@@ -392,6 +377,11 @@ P.~A.~R. Ade \emph{et~al.}, ``{BICEP2 / Keck Array IX: New bounds on
 \bibitem{Svrcek:2006yi}
 P.~Svrcek and E.~Witten, ``{Axions In String Theory},'' \emph{JHEP}, vol.~06,
   p. 051, 2006.
+
+\bibitem{Pospelov:2008gg}
+M.~Pospelov, A.~Ritz, C.~Skordis, A.~Ritz, and C.~Skordis, ``{Pseudoscalar
+  perturbations and polarization of the cosmic microwave background},''
+  \emph{Phys. Rev. Lett.}, vol. 103, p. 051302, 2009.
 
 \bibitem{Miranda2017}
 V.~{Miranda}, A.~{Lidz}, C.~H. {Heinrich}, and W.~{Hu}, ``{CMB signatures of
@@ -510,11 +500,6 @@ D.~T. {Chuss}, B.-G. {Andersson}, J.~{Bally} \emph{et~al.}, ``{HAWC+/SOFIA
   Multiwavelength Polarimetric Observations of OMC-1},'' \emph{ArXiv e-prints},
   p. arXiv:1810.08233, Oct. 2018.
 
-\bibitem{Hensley2018}
-B.~S. {Hensley} and P.~{Bull}, ``{Mitigating Complex Dust Foregrounds in Future
-  Cosmic Microwave Background Polarization Experiments},'' \emph{\apj}, vol.
-  853, p. 127, Feb. 2018.
-
 \bibitem{Smith2000}
 C.~H. {Smith}, C.~M. {Wright}, D.~K. {Aitken}, P.~F. {Roche}, and J.~H.
   {Hough}, ``{Studies in mid-infrared spectropolarimetry - II. An atlas of
@@ -556,10 +541,10 @@ B.~T. {Draine} and B.~{Hensley}, ``{Magnetic Nanoparticles in the Interstellar
   Medium: Emission Spectrum and Polarization},'' \emph{\apj}, vol. 765, p. 159,
   Mar. 2013.
 
-\bibitem{Dickinson2018b}
-C.~{Dickinson}, Y.~{Ali-Ha{\"\i}moud}, A.~{Barr} \emph{et~al.}, ``{The
+\bibitem{dickinson/etal:2018}
+C.~{Dickinson}, Y.~{Ali-Ha{\"i}moud}, A.~{Barr} \emph{et~al.}, ``{The
   State-of-Play of Anomalous Microwave Emission (AME) research},'' \emph{New
-  Astronomy Reviews}, vol.~80, pp. 1--28, Feb. 2018.
+  Ast. Rev.}, vol.~80, pp. 1--28, Feb. 2018.
 
 \bibitem{Dickinson2018a}
 C.~{Dickinson}, A.~{Barr}, H.~C. {Chiang} \emph{et~al.}, ``{The C-Band All-Sky
@@ -951,18 +936,6 @@ P.~{de Bernardis}, P.~A.~R. {Ade}, J.~J.~A. {Baselmans} \emph{et~al.},
   ``{Exploring cosmic origins with CORE: The instrument},'' \emph{Journal of
   Cosmology and Astro-Particle Physics}, vol. 2018, p. 015, Apr. 2018.
 
-\bibitem{Suzuki2014}
-A.~{Suzuki}, K.~{Arnold}, J.~{Edwards} \emph{et~al.}, ``{Multi-Chroic
-  Dual-Polarization Bolometric Detectors for Studies of the Cosmic Microwave
-  Background},'' \emph{Journal of Low Temperature Physics}, vol. 176, pp.
-  650--656, Sep. 2014.
-
-\bibitem{Datta2014}
-R.~{Datta}, J.~{Hubmayr}, C.~{Munson} \emph{et~al.}, ``{Horn Coupled
-  Multichroic Polarimeters for the Atacama Cosmology Telescope Polarization
-  Experiment},'' \emph{Journal of Low Temperature Physics}, vol. 176, pp.
-  670--676, Sep. 2014.
-
 \bibitem{Duff2016}
 S.~M. {Duff}, J.~{Austermann}, J.~A. {Beall} \emph{et~al.}, ``{Advanced ACTPol
   Multichroic Polarimeter Array Fabrication Process for 150 mm Wafers},''
@@ -978,6 +951,12 @@ J.~M. {Edwards}, R.~{O'Brient}, A.~T. {Lee}, and G.~M. {Rebeiz},
   ``{Dual-Polarized Sinuous Antennas on Extended Hemispherical Silicon
   Lenses},'' \emph{IEEE Transactions on Antennas and Propagation}, vol.~60, pp.
   4082--4091, Sep. 2012.
+
+\bibitem{Suzuki2014}
+A.~{Suzuki}, K.~{Arnold}, J.~{Edwards} \emph{et~al.}, ``{Multi-Chroic
+  Dual-Polarization Bolometric Detectors for Studies of the Cosmic Microwave
+  Background},'' \emph{Journal of Low Temperature Physics}, vol. 176, pp.
+  650--656, Sep. 2014.
 
 \bibitem{OBrient2013}
 R.~{O'Brient}, P.~{Ade}, K.~{Arnold} \emph{et~al.}, ``{A dual-polarized
@@ -1029,6 +1008,20 @@ M.~C. {Runyan}, P.~A.~R. {Ade}, M.~{Amiri} \emph{et~al.}, ``{Design and
   performance of the SPIDER instrument},'' in \emph{Millimeter, Submillimeter,
   and Far-Infrared Detectors and Instrumentation for Astronomy V}, vol. 7741,
   Jul. 2010, p. 77411O.
+
+\bibitem{Kermish2012}
+Z.~D. {Kermish}, ``{The POLARBEAR Experiment: Design and Characterization},''
+  Ph.D. dissertation, University of California, Berkeley, 2012.
+
+\bibitem{EBEX2018}
+{EBEX Collaboration}, A.~M. {Aboobaker}, P.~{Ade} \emph{et~al.}, ``{The EBEX
+  Balloon-borne Experiment: Optics, Receiver, and Polarimetry},'' \emph{The
+  Astrophysical Journal Supplement Series}, vol. 239, p.~7, Nov. 2018.
+
+\bibitem{BICEP2014}
+{BICEP2 Collaboration}, P.~A.~R. {Ade}, R.~W. {Aikin} \emph{et~al.},
+  ``{Detection of B-Mode Polarization at Degree Angular Scales by BICEP2},''
+  \emph{\prl}, vol. 112, p. 241101, Jun. 2014.
 
 \bibitem{Pajot2018}
 F.~Pajot, ``Planck compression,'' Private communication.
@@ -1124,25 +1117,49 @@ H.~{Kurki-Suonio}, E.~{Keih{\"a}nen}, R.~{Keskitalo}, T.~{Poutanen}, A.~S.
   February 2015. URL: \url{https://deepspace.jpl.nasa.gov/files/820-100-F1.pdf}
 \BIBentrySTDinterwordspacing
 
-\bibitem{Abitbol2017}
-M.~H. {Abitbol}, Z.~{Ahmed}, D.~{Barron} \emph{et~al.}, ``{CMB-S4 Technology
-  Book, First Edition},'' \emph{ArXiv e-prints}, Jun. 2017.
+\bibitem{2016A&A...594A...1P}
+{Planck Collaboration}, R.~{Adam}, P.~A.~R. {Ade} \emph{et~al.}, ``{Planck 2015
+  results. I. Overview of products and scientific results},'' \emph{\aap}, vol.
+  594, p.~A1, Sep. 2016.
 
-\bibitem{SPIDER2018}
-R.~{Gualtieri}, J.~P. {Filippini}, P.~A.~R. {Ade} \emph{et~al.}, ``{SPIDER: CMB
-  Polarimetry from the Edge of Space},'' \emph{Journal of Low Temperature
-  Physics}, Oct. 2018.
-
-\bibitem{Holland2013}
-W.~S. {Holland}, D.~{Bintley}, E.~L. {Chapin} \emph{et~al.}, ``{SCUBA-2: the 10
-  000 pixel bolometer camera on the James Clerk Maxwell Telescope},''
-  \emph{\mnras}, vol. 430, pp. 2513--2533, Apr. 2013.
+\bibitem{Simons2018}
+{The Simons Observatory Collaboration}, P.~{Ade}, J.~{Aguirre} \emph{et~al.},
+  ``{The Simons Observatory: Science goals and forecasts},'' \emph{arXiv
+  e-prints}, p. arXiv:1808.07445, Aug. 2018.
 
 \bibitem{Dutcher2018}
 D.~{Dutcher}, P.~A.~R. {Ade}, Z.~{Ahmed} \emph{et~al.}, ``{Characterization and
   performance of the second-year SPT-3G focal plane},'' in \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, vol.
   10708, Jul. 2018, p. 107081Z.
+
+\bibitem{Abitbol2017}
+M.~H. {Abitbol}, Z.~{Ahmed}, D.~{Barron} \emph{et~al.}, ``{CMB-S4 Technology
+  Book, First Edition},'' \emph{ArXiv e-prints}, Jun. 2017.
+
+\bibitem{Staguhn2006}
+J.~G. {Staguhn}, D.~J. {Benford}, C.~A. {Allen} \emph{et~al.}, ``{GISMO: a
+  2-millimeter bolometer camera for the IRAM 30 m telescope},'' in
+  \emph{Society of Photo-Optical Instrumentation Engineers (SPIE) Conference
+  Series}, vol. 6275, Jun. 2006, p. 62751D.
+
+\bibitem{SPIDER2018}
+R.~{Gualtieri}, J.~P. {Filippini}, P.~A.~R. {Ade} \emph{et~al.}, ``{SPIDER: CMB
+  Polarimetry from the Edge of Space},'' \emph{Journal of Low Temperature
+  Physics}, Oct. 2018.
+
+\bibitem{Filippini_inprep}
+J.~P. {Filippini}, ``No title,'' \emph{in preparation}, 2018.
+
+\bibitem{Holland2013}
+W.~S. {Holland}, D.~{Bintley}, E.~L. {Chapin} \emph{et~al.}, ``{SCUBA-2: the 10
+  000 pixel bolometer camera on the James Clerk Maxwell Telescope},''
+  \emph{\mnras}, vol. 430, pp. 2513--2533, Apr. 2013.
+
+\bibitem{Doriese2016}
+W.~B. {Doriese}, K.~M. {Morgan}, D.~A. {Bennett} \emph{et~al.}, ``{Developments
+  in Time-Division Multiplexing of X-ray Transition-Edge Sensors},''
+  \emph{Journal of Low Temperature Physics}, vol. 184, pp. 389--395, Jul. 2016.
 
 \bibitem{Li2018}
 Y.~{Li}, J.~E. {Austermann}, J.~A. {Beall} \emph{et~al.}, ``{Performance of the
@@ -1170,6 +1187,13 @@ S.~M. {Simon}, J.~E. {Golec}, A.~{Ali} \emph{et~al.}, ``{Feedhorn development
   and scalability for Simons Observatory and beyond},'' in \emph{Society of
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, vol.
   10708, Jul. 2018, p. 107084B.
+
+\bibitem{Ferlet2008}
+M.~{Ferlet}, G.~{Laurent}, B.~{Swinyard}, J.~{Glenn}, J.~{Bock}, and
+  K.~{Dohlen}, ``{Characterisation of Herschel-SPIRE flight model optical
+  performances},'' in \emph{Space Telescopes and Instrumentation 2008: Optical,
+  Infrared, and Millimeter}, ser. Society of Photo-Optical Instrumentation
+  Engineers (SPIE) Conference Series, vol. 7010, Jul. 2008, p. 70102U.
 
 \bibitem{Sayre2012}
 J.~T. {Sayre}, P.~{Ade}, K.~A. {Aird} \emph{et~al.}, ``{Design and
