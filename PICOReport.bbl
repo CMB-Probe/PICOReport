@@ -21,16 +21,15 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{blandford2010}
-C.~for a Decadal Survey~of Astronomy and Astrophysics, \emph{New Worlds, New
-  Horizons in Astronomy and Astrophysics}.\hskip 1em plus 0.5em minus
-  0.4em\relax National Academy Press, 2010.
+\bibitem{planck1101.2038}
+A.~{Mennella}, M.~{Bersanelli}, R.~C. {Butler} \emph{et~al.}, ``{Planck early
+  results. III. First assessment of the Low Frequency Instrument in-flight
+  performance},'' \emph{\aap}, vol. 536, p.~A3, Dec. 2011.
 
-\bibitem{2018arXiv181005216A}
-K.~{Array}, {BICEP2 Collaborations}, {:} \emph{et~al.}, ``{BICEP2 / Keck Array
-  x: Constraints on Primordial Gravitational Waves using Planck, WMAP, and New
-  BICEP2/Keck Observations through the 2015 Season},'' \emph{ArXiv e-prints},
-  Oct. 2018.
+\bibitem{planck1101.2039}
+{Planck HFI Core Team}, P.~A.~R. {Ade}, N.~{Aghanim} \emph{et~al.}, ``{Planck
+  early results. IV. First assessment of the High Frequency Instrument
+  in-flight performance},'' \emph{\aap}, vol. 536, p.~A4, Dec. 2011.
 
 \bibitem{Seljak:1996gy}
 U.~Seljak and M.~Zaldarriaga, ``{Signature of gravity waves in polarization of
@@ -91,10 +90,6 @@ A.~A. Starobinsky, ``{Spectrum of relict gravitational radiation and the early
   state of the universe},'' \emph{JETP Lett.}, vol.~30, pp. 682--685, 1979,
   [,767(1979)].
 
-\bibitem{Krauss:2013pha}
-L.~M. Krauss and F.~Wilczek, ``{Using Cosmology to Establish the Quantization
-  of Gravity},'' \emph{Phys. Rev.}, vol. D89, no.~4, p. 047501, 2014.
-
 \bibitem{PB_BB}
 {The Polarbear Collaboration: P.~A.~R.~Ade}, Y.~{Akiba}, A.~E. {Anthony}
   \emph{et~al.}, ``{A Measurement of the Cosmic Microwave Background B-mode
@@ -127,6 +122,25 @@ R.~Namba, M.~Peloso, M.~Shiraishi, L.~Sorbo, and C.~Unal, ``{Scale-dependent
   gravitational waves from a rolling axion},'' \emph{JCAP}, vol. 1601, no.~01,
   p. 041, 2016.
 
+\bibitem{blandford2010}
+C.~for a Decadal Survey~of Astronomy and Astrophysics, \emph{New Worlds, New
+  Horizons in Astronomy and Astrophysics}.\hskip 1em plus 0.5em minus
+  0.4em\relax National Academy Press, 2010.
+
+\bibitem{2018arXiv181005216A}
+K.~{Array}, {BICEP2 Collaborations}, {:} \emph{et~al.}, ``{BICEP2 / Keck Array
+  x: Constraints on Primordial Gravitational Waves using Planck, WMAP, and New
+  BICEP2/Keck Observations through the 2015 Season},'' \emph{ArXiv e-prints},
+  Oct. 2018.
+
+\bibitem{Krauss:2013pha}
+L.~M. Krauss and F.~Wilczek, ``{Using Cosmology to Establish the Quantization
+  of Gravity},'' \emph{Phys. Rev.}, vol. D89, no.~4, p. 047501, 2014.
+
+\bibitem{Aghanim:2018eyx}
+N.~Aghanim \emph{et~al.}, ``{Planck 2018 results. VI. Cosmological
+  parameters},'' 2018.
+
 \bibitem{Goncharov:1983mw}
 A.~B. Goncharov and A.~D. Linde, ``{Chaotic Inflation in Supergravity},''
   \emph{Phys. Lett.}, vol. 139B, pp. 27--30, 1984.
@@ -145,6 +159,22 @@ K.~M. {Smith}, D.~{Hanson}, M.~{LoVerde}, C.~M. {Hirata}, and O.~{Zahn},
 M.~{Alvarez}, T.~{Baldauf}, J.~R. {Bond} \emph{et~al.}, ``{Testing Inflation
   with Large Scale Structure: Connecting Hopes with Reality},'' \emph{ArXiv
   e-prints}, Dec. 2014.
+
+\bibitem{2009PhRvL.102b1302S}
+U.~{Seljak}, ``{Extracting Primordial Non-Gaussianity without Cosmic
+  Variance},'' \emph{Physical Review Letters}, vol. 102, no.~2, p. 021302, Jan.
+  2009.
+
+\bibitem{2018PhRvD..97l3540S}
+M.~{Schmittfull} and U.~{Seljak}, ``{Parameter constraints from
+  cross-correlation of CMB lensing with galaxy clustering},'' \emph{\prd},
+  vol.~97, no.~12, p. 123540, Jun. 2018.
+
+\bibitem{2008PhRvD..77l3514D}
+N.~{Dalal}, O.~{Dor{\'e}}, D.~{Huterer}, and A.~{Shirokov}, ``{Imprints of
+  primordial non-Gaussianities on large-scale structure: Scale-dependent bias
+  and abundance of virialized objects},'' \emph{\prd}, vol.~77, no.~12, p.
+  123514, Jun. 2008.
 
 \bibitem{1979ARNPS..29..313S}
 G.~{Steigman}, ``{Cosmology confronts particle physics.}'' \emph{Annual Review
@@ -423,22 +453,6 @@ C.~{Dvorkin} and K.~M. {Smith}, ``{Reconstructing patchy reionization from the
 {Planck Collaboration}, N.~{Aghanim}, Y.~{Akrami} \emph{et~al.}, ``{Planck 2018
   results. VIII. Gravitational lensing},'' \emph{ArXiv e-prints}, Jul. 2018.
 
-\bibitem{2009PhRvL.102b1302S}
-U.~{Seljak}, ``{Extracting Primordial Non-Gaussianity without Cosmic
-  Variance},'' \emph{Physical Review Letters}, vol. 102, no.~2, p. 021302, Jan.
-  2009.
-
-\bibitem{2018PhRvD..97l3540S}
-M.~{Schmittfull} and U.~{Seljak}, ``{Parameter constraints from
-  cross-correlation of CMB lensing with galaxy clustering},'' \emph{\prd},
-  vol.~97, no.~12, p. 123540, Jun. 2018.
-
-\bibitem{2008PhRvD..77l3514D}
-N.~{Dalal}, O.~{Dor{\'e}}, D.~{Huterer}, and A.~{Shirokov}, ``{Imprints of
-  primordial non-Gaussianities on large-scale structure: Scale-dependent bias
-  and abundance of virialized objects},'' \emph{\prd}, vol.~77, no.~12, p.
-  123514, Jun. 2008.
-
 \bibitem{2015ApJ...806..247B}
 E.~J. {Baxter}, R.~{Keisler}, S.~{Dodelson} \emph{et~al.}, ``{A Measurement of
   Gravitational Lensing of the Cosmic Microwave Background by Galaxy Clusters
@@ -499,6 +513,12 @@ E.~M. George, C.~L. Reichardt, K.~A. Aird \emph{et~al.}, ``A measurement of
 D.~T. {Chuss}, B.-G. {Andersson}, J.~{Bally} \emph{et~al.}, ``{HAWC+/SOFIA
   Multiwavelength Polarimetric Observations of OMC-1},'' \emph{ArXiv e-prints},
   p. arXiv:1810.08233, Oct. 2018.
+
+\bibitem{Bacciotti2018ApJ}
+F.~{Bacciotti}, J.~M. {Girart}, M.~{Padovani} \emph{et~al.}, ``{ALMA
+  Observations of Polarized Emission toward the CW Tau and DG Tau
+  Protoplanetary Disks: Constraints on Dust Grain Growth and Settling},''
+  \emph{\apj}, vol. 865, p. L12, Oct. 2018.
 
 \bibitem{Smith2000}
 C.~H. {Smith}, C.~M. {Wright}, D.~K. {Aitken}, P.~F. {Roche}, and J.~H.
@@ -613,10 +633,10 @@ Z.-Y. {Li}, R.~{Krasnopolsky}, H.~{Shang}, and B.~{Zhao}, ``{On the Role of
   Pseudodisk Warping and Reconnection in Protostellar Disk Formation in
   Turbulent Magnetized Cores},'' \emph{\apj}, vol. 793, p. 130, Oct. 2014.
 
-\bibitem{Xu_2018}
-S.~{Xu} and A.~{Lazarian}, ``{Magnetohydrodynamic turbulence and turbulent
-  dynamo in a partially ionized plasma},'' \emph{New Journal of Physics}, Oct.
-  2018.
+\bibitem{Harper2018}
+D.~A. Harper, M.~C. Runyan, C.~D. Dowell \emph{et~al.}, ``1 the hawc+ far
+  infrared camera and polarimeter for sofia,'' \emph{JAI}, vol.~7, no.~2, p.
+  1840008, 2018.
 
 \bibitem{Lazarian:2006}
 A.~{Lazarian}, ``{Enhancement and Suppression of Heat Transfer by MHD
@@ -631,29 +651,10 @@ A.~{Lazarian}, ``{Damping of Alfv{\'e}n Waves by Turbulence and Its
 A.~{Lazarian} and E.~T. {Vishniac}, ``{Reconnection in a Weakly Stochastic
   Field},'' \emph{\apj}, vol. 517, pp. 700--718, Jun. 1999.
 
-\bibitem{PCCS2}
-{Planck Collaboration XXVI}, ``{Planck 2015 results. XXVI. The Second Planck
-  Catalogue of Compact Sources},'' \emph{\aap}, vol. 594, p. A26, Sep. 2016.
-
-\bibitem{Swinbank2010}
-A.~M. {Swinbank}, I.~{Smail}, S.~{Longmore} \emph{et~al.}, ``{Intense star
-  formation within resolved compact regions in a galaxy at z = 2.3},''
-  \emph{Nature}, vol. 464, pp. 733--736, Apr. 2010.
-
-\bibitem{Combes2012}
-F.~{Combes}, M.~{Rex}, T.~D. {Rawle} \emph{et~al.}, ``{A bright z = 5.2 lensed
-  submillimeter galaxy in the field of Abell 773. HLSJ091828.6+514223},''
-  \emph{\aap}, vol. 538, p.~L4, Feb. 2012.
-
-\bibitem{Negrello2017lensed}
-M.~{Negrello}, S.~{Amber}, A.~{Amvrosiadis} \emph{et~al.}, ``{The
-  Herschel-ATLAS: a sample of 500 {$\mu$}m-selected lensed galaxies over 600
-  deg$^{2}$},'' \emph{\mnras}, vol. 465, pp. 3558--3580, Mar. 2017.
-
-\bibitem{Negrello2017protocl}
-M.~{Negrello}, J.~{Gonzalez-Nuevo}, G.~{De Zotti} \emph{et~al.}, ``{On the
-  statistics of proto-cluster candidates detected in the Planck all-sky
-  survey},'' \emph{ArXiv e-prints}, May 2017.
+\bibitem{Xu_2018}
+S.~{Xu} and A.~{Lazarian}, ``{Magnetohydrodynamic turbulence and turbulent
+  dynamo in a partially ionized plasma},'' \emph{New Journal of Physics}, Oct.
+  2018.
 
 \bibitem{SilkMamon2012}
 J.~{Silk} and G.~A. {Mamon}, ``{The current status of galaxy formation},''
@@ -670,10 +671,38 @@ S.~{Fujimoto}, M.~{Ouchi}, K.~{Kohno} \emph{et~al.}, ``{ALMA 26 Arcmin$^{2}$
   Dusty Star-forming Galaxies in an Exponential Disk ($n \simeq 1$)},''
   \emph{\apj}, vol. 861, p.~7, Jul. 2018.
 
+\bibitem{Swinbank2010}
+A.~M. {Swinbank}, I.~{Smail}, S.~{Longmore} \emph{et~al.}, ``{Intense star
+  formation within resolved compact regions in a galaxy at z = 2.3},''
+  \emph{Nature}, vol. 464, pp. 733--736, Apr. 2010.
+
+\bibitem{Combes2012}
+F.~{Combes}, M.~{Rex}, T.~D. {Rawle} \emph{et~al.}, ``{A bright z = 5.2 lensed
+  submillimeter galaxy in the field of Abell 773. HLSJ091828.6+514223},''
+  \emph{\aap}, vol. 538, p.~L4, Feb. 2012.
+
+\bibitem{PCCS2}
+{Planck Collaboration XXVI}, ``{Planck 2015 results. XXVI. The Second Planck
+  Catalogue of Compact Sources},'' \emph{\aap}, vol. 594, p. A26, Sep. 2016.
+
+\bibitem{Negrello2017lensed}
+M.~{Negrello}, S.~{Amber}, A.~{Amvrosiadis} \emph{et~al.}, ``{The
+  Herschel-ATLAS: a sample of 500 {$\mu$}m-selected lensed galaxies over 600
+  deg$^{2}$},'' \emph{\mnras}, vol. 465, pp. 3558--3580, Mar. 2017.
+
+\bibitem{Negrello2017protocl}
+M.~{Negrello}, J.~{Gonzalez-Nuevo}, G.~{De Zotti} \emph{et~al.}, ``{On the
+  statistics of proto-cluster candidates detected in the Planck all-sky
+  survey},'' \emph{ArXiv e-prints}, May 2017.
+
 \bibitem{Canameras2017ALMA}
 R.~{Ca{\~n}ameras}, N.~{Nesvadba}, R.~{Kneissl} \emph{et~al.}, ``{Planck's
   dusty GEMS. IV. Star formation and feedback in a maximum starburst at z = 3
   seen at 60-pc resolution},'' \emph{\aap}, vol. 604, p. A117, Aug. 2017.
+
+\bibitem{KingPounds2015}
+A.~{King} and K.~{Pounds}, ``{Powerful Outflows and Feedback from Active
+  Galactic Nuclei},'' \emph{\araa}, vol.~53, pp. 115--154, Aug. 2015.
 
 \bibitem{Dye2018}
 S.~{Dye}, C.~{Furlanetto}, L.~{Dunne} \emph{et~al.}, ``{Modelling
