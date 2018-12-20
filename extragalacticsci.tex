@@ -3,8 +3,8 @@
 \begin{document}
 
 %To cover: Galaxy Formation, Clusters, Reionization, point sources (probably moves to a new section called 'Legacy Science')
-
-{\bf The Formation of the First Luminous Sources} \hspace{0.1in} \label{luminoussources}  
+\subsubsection{The Formation of the First Luminous Sources} 
+\label{luminoussources}  
 A few hundred million years after the Big Bang, the neutral hydrogen gas permeating the Universe was reionized by photons emitted by the first luminous sources to have formed.  The nature of these sources and the exact history of this epoch are key missing links in our understanding of structure formation (SO5).  
 %(e.g., star-forming galaxies or high-redshift quasars) and the exact history of this epoch are key missing links in our understanding of structure formation.  
 % -- were they star-forming galaxies, high-redshift quasars, or x-ray binaries, to name few candidates --
@@ -36,27 +36,25 @@ The process of reionization leaves specific non-Gaussian signatures in the CMB. 
 %
 %Thus, while PICO alone may not enable high \ac{SNR} reconstructions,
 
-With ten independent maps of the entire sky, multiple frequency bands and ample sensitivity to remove foregrounds, PICO is uniquely suited to make the low $\ell$ $EE$-spectrum measurements that are needed to elucidate the formation of the first luminous sources. No such measurements have yet been done from the ground. Of the currently operating Stage-III experiments, one is targeting the lowest $\ell$ $EE$ spectrum~\citep{class_overview}. 
+With ten independent maps of the entire sky, multiple frequency bands and ample sensitivity to remove foregrounds, PICO is uniquely suited to make the low $\ell$ $EE$-spectrum measurements that are needed to elucidate the formation of the first luminous sources. No such measurements have yet been done from the ground. Of the currently operating and planned S3 experiments, one is targeting the lowest $\ell$ $EE$ spectrum~\citep{class_overview}. 
 
 Lowering the uncertainty on $\tau$ is crucial for many cosmological observables of the growth of structure. As discussed in Section~\ref{neutrino_fundamental}, these observables require knowledge of the amplitude of the initial fluctuations power spectrum $A_s$; however, the signatures of $A_{s}$ and $\tau$ are degenerate in the %primary
 CMB power spectra, except in the low-$\ell$ $EE$ power spectrum.  PICO's cosmic-variance-limited polarization measurements will break this degeneracy and thus improve constraints on the sum of neutrino masses, on dark energy, and modified gravity coming from {\it any} low-z growth measurement such as CMB and galaxy lensing, velocity-field measurements, redshift-space distortions, and galaxy surveys. 
 
 %%%%%%%%%%
+\subsubsection{Probing the Evolution of Structures via Gravitational Lensing and Cluster Counts} 
+\label{sec:gravitationallensing}
 
-\vspace{0.1in}
-\noindent{\bf Probing Structure Formation via Gravitational Lensing} \hspace{0.1in} \label{gravitationallensing}
-PICO will constrain the growth of cosmic structure through multiple probes, including gravitational lensing (and cross-correlations thereof) and cluster counts.  We focus here on implications of PICO CMB lensing measurements for constraints on dark energy and modified gravity (using the model-independent $\sigma_8(z)$ formalism) as well as high-redshift astrophysics.
+The particle content of the Universe, gravitational collapse, the effects of dark energy, and energetic feedback processes that recycle energy determine the evolution of structures in the Universe. The amplitude of linear fluctuations as a function of redshift, parameterized through $\sigma_8(z)$, is thus a sensitive probe representing the effects of physical process affecting growth. \ac{CMB} photons are affected by, and thus probe $\sigma_{8}(z)$ as they traverse the entire Universe. PICO will tightly constrain $\sigma_8(z)$ through measurements of gravitational lensing and cluster counts. 
 
-Matter between us and the last-scattering surface deflects the path of photons through gravitational lensing, imprinting the 3-dimensional matter distribution across the volume of the Universe onto the CMB maps. The specific quantity being mapped by the data is the projected gravitational potential $\phi$ that is lensing the photons. From the lensing map, which receives contributions from all redshifts between us and the CMB, with the peak of the distribution at $z \simeq 2$, we infer the angular power spectrum $C_{L}^{\phi \phi}$ (Fig.~\ref{fig:lensingNoisePICO}). %, which depends on cosmological parameters \comor{why do we say that it depends on cosmological parameters? is that meant to connect to something later?}.
-Both the temperature and polarization maps of the CMB, and by extension the angular power spectra, are affected by lensing. 
+\noindent$\bullet$ {\bf Gravitational Lensing} \hspace{0.1in} \label{lensing} Matter between us and the last-scattering surface deflects the path of photons through gravitational lensing, imprinting the 3-dimensional matter distribution across the volume of the Universe onto the CMB maps. The specific quantity being mapped by the data is the projected gravitational potential $\phi$ that is lensing the photons. From the lensing map, which receives contributions from all redshifts between us and the CMB, with the peak of the distribution at $z \simeq 2$, we infer the angular power spectrum $C_{L}^{\phi \phi}$ (Fig.~\ref{fig:lensingNoisePICO}). Both the temperature and polarization maps of the CMB, and by extension the angular power spectra, are affected by lensing. 
 
-\planck 's $\phi$ map had \ac{SNR} of $\sim$1 per $L$ mode over a narrow range of scales, $30 < L < 50$.\footnote{$L$ refers to multipoles in the CMB lensing and galaxy clustering fields, in contrast to the use of $\ell$  for the CMB itself. } PICO's map would represent true mapping, with \ac{SNR} $\gg1$ for each mode in the range $2 \leq L \lesssim 1000$.  
-%On smaller scales, the map will still contain statistical information. 
-While \planck\ had an \ac{SNR} of 40 integrated across the entire $C_{L}^{\phi \phi}$ power spectrum~\citep{2018arXiv180706210P}, PICO will give \ac{SNR} of 560 and 644 for the baseline and CBE configurations, respectively; both values already account for foreground separation (Fig.~\ref{fig:lensingNoisePICO}). 
-% When accounting for possible foreground contamination, its broad frequency coverage leads to a reduction of SNR of less than 20\% .  
-% say something about "the best measurement"...?
+\planck 's $\phi$ map had \ac{SNR} of $\sim$1 per $L$ mode over a narrow range of scales, $30 < L < 50$.\footnote{$L$ refers to multipoles in the CMB lensing and galaxy clustering fields, in contrast to the use of $\ell$  for the CMB itself. } PICO's map would represent true mapping, with \ac{SNR} $\gg1$ for each mode in the range $2 \leq L \lesssim 1000$.  While \planck\ had an \ac{SNR} of 40 integrated across the entire $C_{L}^{\phi \phi}$ power spectrum~\citep{2018arXiv180706210P}, PICO will give \ac{SNR} of 560 and 644 for the baseline and CBE configurations, respectively; both values already account for foreground separation (Fig.~\ref{fig:lensingNoisePICO}). 
 
-% Fig.~\ref{fig:lensingNoisePICO} shows per-mode noise curves for the reconstruction of CMB lensing from PICO, demonstrating the wide range of angular scales over which the matter density field will be  mapped.  \textbf{Add brief discussion of foreground robustness demonstrated in Fig.~\ref{fig:lensingNoisePICO}}
+PICO's $\phi$ map is a key ingredient in the delensing process that improves constraints on $r$~(\S~\ref{sec:inflation}) and in extracting neutrino mass constraints~(\S~\ref{sec:relics_neutrinos}). It will also be used to constrain the properties of quasars and other high-redshift astrophysics.  For example, cross-correlations with quasar samples from DESI will yield a precise determination of the quasar bias (and hence host halo mass) as a function of the quasar properties, such as (non-)obscuration.  Such studies are not possible with any other lensing techniques, due to their sensitivity to lower redshifts.
+
+%\comor{Lensing will also be used to weigh dark matter halos hosting galaxies, quasars, and groups and clusters of galaxies.  In the context of quasar analyses described above, this halo mass information is in the ``one-halo'' term of the cross-correlation, while the bias information is in the ``two-halo'' term.  PICO will access both sets of information, allowing consistency tests and further tightening constraints.  Detailed forecasts for halo lensing are presented in the cluster subsection below.}
+
 
 \begin{figure}
 \hspace{-0.2in}
@@ -74,38 +72,15 @@ $2 \leq L \leq 1000$.
 \vspace{-0.1in}
 \end{figure}
 
-The value of the reconstructed lensing map is immense, as has already been demonstrated with the much lower \ac{SNR} map from \planck . The unprecedented constraints on neutrino mass, discussed on page~\pageref{neutrino_fundamental}, are a direct result of this deep map. Tomographic cross-correlations of the lensing map with wide-field samples of galaxies and quasars will yield constraints on structure formation, and thereby dark energy and modified gravity.  This is achieved by using correlations between large-scale structure tracers with different clustering bias factors and measuring the relative difference between their clustering power spectra to effectively cancel cosmic variance~\citep{2009PhRvL.102b1302S,2018PhRvD..97l3540S}. Using these cross-correlation techniques, it is possible to constrain the evolution of the amplitude of structure as a function of redshift.  Fig.~\ref{fig:sigma8constraint} shows constraints on the amplitude of linear structure, $\sigma_8(z)$, in several redshift bins.  This is a model-independent representation of the structure growth constraints; these measurements will yield constraints on dark energy or modified gravity, in the context of specific models.  The measurements can also be used for a neutrino mass constraint that is complementary to and competitive with that inferred from the CMB lensing auto-power spectrum described earlier. 
+\noindent$\bullet$ {\bf $\sigma_{8}$ from Gravitational Lensing} \hspace{0.1in} \label{sigma8_lensing} Tomographic cross-correlations of the lensing map with wide-field samples of galaxies and quasars will yield constraints on $\sigma_8(z)$ and thereby on models of dark energy and modified gravity.  This is achieved by using correlations between large-scale structure tracers with different clustering bias factors and measuring the relative difference between their clustering power spectra to effectively cancel cosmic variance~\citep{2009PhRvL.102b1302S,2018PhRvD..97l3540S}.  Fig.~\ref{fig:sigma8constraint} we show projected $1\sigma$ errors on $\sigma_8(z)$ in several redshift bins when using cross-correlations with LSST's gold sample of galaxies~\citep{LSSTScienceBook}.  Sub-percent accuracy is obtainable with PICO's resolution which will give information extending to $L =1000$.\footnote{PICO resolution gives information for $L>1000$, but at these scales growth of structure is non-linear and will not be used to constrain $\sigma_{8}(z)$.} This accuracy will be used to constrain  dark energy or modified gravity, in the context of specific models \comor{repeat?}, and to give a neutrino mass constraint that is complementary to and competitive with that inferred from the CMB lensing auto-power spectrum (\S~\ref{neutrino_fundamental}).
 
-In addition to cosmological constraints, PICO's lensing measurements will constrain the properties of quasars and other high-redshift astrophysics.  For example, cross-correlations with quasar samples from DESI will yield a precise determination of the quasar bias (and hence host halo mass) as a function of the quasar properties, such as (non-)obscuration.  Such studies are not possible with any other lensing techniques (that have been demonstrated to date), due to their sensitivity to lower redshifts.
+
+%The value of the reconstructed lensing map is immense, as has already been demonstrated with the much lower \ac{SNR} map from \planck . The unprecedented constraints on neutrino mass, discussed on page~\pageref{neutrino_fundamental}, are a direct result of this deep map.
+
 
 %The map will be cross-correlated with other large-scale tracers to probe fundamental physics.  
 
 %For instance, one can use correlations between large-scale structure tracers with different clustering bias factors and measure the relative difference between their clustering power spectra to effectively cancel cosmic variance~\citep{2009PhRvL.102b1302S,2018PhRvD..97l3540S}; this can constrain physics that affects the biasing of objects on large scales, such as primordial local non-Gaussianity~\citep{2008PhRvD..77l3514D}.  In Fig.~\ref{fig:fnlconstraint} we show the expected constraints for the CMB lensing field as reconstructed with PICO, in cross-correlation with  three years of the LSST survey. It can be seen that depending on the minimal multipole that can be used in the cross correlation, which is uncertain in both LSST and the PICO lensing map, the well-motivated theory target of $\sigma (f_\mathrm{NL}) \simeq 1$ \citep{2014arXiv1412.4671A} can be within reach. Values of $f_\mathrm{NL}$ at or above this level are a generic prediction of multi-field inflationary models. 
-
-
-%\begin{figure}
-%\hspace{-0.in}
-%\parbox{3.1in}{\centerline {
-%\includegraphics[width=2.7in]{images/PICO_fnl_lmin_PICOv4.1b_deproj0_SENS0.pdf} } }
-%\hspace{0.in}
-%\parbox{3.3in}{
-%\caption{\captiontext 
-%Forecasted sensitivity to  the parameter describing primordial non-Gaussianity of the local type for the PICO CMB lensing map together with three years of the LSST survey, as a function of the minimal multipole used in the analysis. A value of $\sigma (f_\mathrm{NL}) \simeq 1$ is a well-motivated theoretical target.  
-%\label{fig:fnlconstraint} 
-%} }
-%\vspace{-0.1in}
-%\end{figure}
-
-%%  Fig. on left, caption on right  %%%%%%%%%%%%%%%%
-%\begin{figure}
-%\hspace{0.1in}
-%\parbox{2.8in}{\centerline {
-%\includegraphics[width=2.5in]{images/PICO_s8_lmax_PICOv4.1b_deproj0_SENS0.pdf} } }
-%\hspace{0.1in}
-%\parbox{3.5in}{
-%\caption{\captiontext\label{fig:sigma8constraint} Forecasted sensitivity to  the parameter describing the amplitude of structure in various redshift bins, as a function of the maximal multipole used in the analysis.  Percent-level constraints on these parameters allow for stringent tests of physics beyond $\Lambda$CDM that modify the rate of growth of structure. } }
-%\vspace{-0.1in}
-%\end{figure}
 
 %% Fig. on right, caption on left  %%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure}
@@ -113,7 +88,7 @@ In addition to cosmological constraints, PICO's lensing measurements will constr
 \parbox{3.3in}{
 \vspace{0.15in}
 \caption{\captiontext  
-Forecasted sensitivity to  the parameter describing the amplitude of structure in various redshift bins, as a function of the maximal multipole used in the analysis.  Percent-level constraints on these parameters allow for stringent tests of physics beyond $\Lambda$CDM that modify the rate of growth of structure. 
+Correlations between PICO's deep gravitational lensing map (Fig.~\ref{fig:lensingNoisePICO}) and LSST's gold sample of galaxies give sub-percent constraints on $\sigma_{8}(z)$ -- a parameter describing the growth of the amplitude of structures in the Universe -- when using PICO's resolution extending to $L\sim1000$. For LSST we use 10 years of data, magnitude limit of 25.3 in the $i$ band, and $z<7$. For $z>3$ \comor{we add dropout galaxies}. 
 \label{fig:sigma8constraint} 
 } }
 \hspace{0.1in}
@@ -122,49 +97,26 @@ Forecasted sensitivity to  the parameter describing the amplitude of structure i
 \vspace{-0.1in}
 \end{figure}
 
+
 %{\bf CMB halo lensing forecast (Jim, Jean-Baptiste)}
 
-Lensing will also be used to weigh dark matter halos hosting galaxies, quasars, and groups and clusters of galaxies.  In the context of quasar analyses described above, this halo mass information is in the ``one-halo'' term of the cross-correlation, while the bias information is in the ``two-halo'' term.  PICO will access both sets of information, allowing consistency tests and further tightening constraints.  Detailed forecasts for halo lensing are presented in the cluster subsection below.
+\noindent$\bullet$ {\bf Galaxy Clusters} \hspace{0.1in} \label{clusters}  
+The distribution of galaxy clusters in redshift is one consequence of the evolution of structures and is thus a sensitive measure of $\sigma_{8}(z)$. Galaxy clusters found by PICO via the \ac{tSZ} effect (\S~\ref{sec:sz}) provide a well-defined sample with a selection function that is simple to model. Such samples of clusters are straightforward to use for cosmological inference and for studies of galaxy evolution in dense environments. The \ac{tSZ}-selected sample from PICO will provide all clusters with masses above $\sim3\times10^{14} M_\odot$\footnote{$M_\odot$ is the radius within which the average density reaches 200 times the critical density.} out to high redshifts, 
+\comor{which high redshift?}
+as long as the clusters have started to virialize. We forecast that PICO will find $\sim$150,000 galaxy clusters, assuming the cosmological parameters from \planck\ and applying a foreground mask, using only 70\% of the sky. Redshifts will be provided by optical surveys and infrared follow-up observations, and optical weak lensing for clusters with $z < 1.5$. The mass calibration is described below. 
 
-%
-%%%%%%%%%%%%%%%%%%%%
-%$\bullet$ {\bf Gravitational Lensing as Noise for Gravity Wave Science} \hspace{0.1in} \label{lensingnoise}
-%\comor{does this belong here or in gravity waves?} One of the most pronounced effects of lensing is the emergence of the `lensing B-mode power spectrum', which is a result of gravitational lensing of $E$-modes into $B$-modes;  see Fig.~\ref{??}.  \comor{reference figure in fundamental physics?} When the tensor to scalar ratio $r \simeq 0.01$, the B-mode lensing power spectrum and the one from gravity waves have approximately the same level at $\ell = 80$, which is the angular scale at which the inflationary $BB$ spectrum peaks. For lower levels of $r$, this peak is masked by $E$-mode photons that are lensed into $B$. But the $B$-mode maps can be `delensed'~\citep{2004PhRvD..69d3005S,2012JCAP...06..014S}. The effect of lensing on $E$ and $B$ maps can be determined and undone if these maps are measured with few arcmin resolution and with sufficient depth. Forecasts for PICO show that at a minimum 73\% of the lens-induced $B$-mode power will be removed for the baseline configuration, after accounting for foreground subtraction. 80\% will be removed if the foregrounds do not degrade the inherent \ac{SNR}, rising to 85\% for the CBE configuration. Without delensing PICO determination of $r$ would be limited to $r>??$. We emphasize that PICO will be relying on its own data to conduct the delensing and foreground cleaning, thus avoiding reduced efficacy arising from the need to cross-calibrate experiments, identify common observing areas on the sky, not having frequency band coverage at the appropriate resolution to remove foregrounds, or from other systematic uncertainties.  \\
-%
-%%%%%%%%%%%%%%%%%%%%
+\comor{Now need to connect to $\sigma_{8}$ quantitatively. Need to compare to SO. Need to explain why this is compelling. Need to explain why PICO (e.g. full sky coverage) probe?}
 
-\vspace{0.1in}
-\noindent{\bf Constraining Structure Growth and Galaxy Formation via the Sunyaev-Zel$^{\prime}$dovich (SZ) Effects} \hspace{0.1in} \label{sz}
-Not all CMB photons propagate through the Universe freely; about 6\% are Thomson-scattered by free electrons in the intergalactic medium (IGM) and intracluster medium (ICM). These scattering events leave a measurable imprint on CMB temperature fluctuations, which thereby contain a wealth of information about the growth of structures and the thermodynamic history of baryons. A fraction of these photons are responsible for the thermal and kinetic Sunyaev--Zel$^{\prime}$dovich effects (tSZ and kSZ)~\citep{zeldovich69,SZ1972}. 
-%The thermal SZ effect (tSZ) is the increase in energy of CMB photons due to scattering off hot electrons. This results in a spectral distortion
-%, proportinal to the electron pressure,
-% of the CMB blackbody that corresponds to a decrement in CMB temperature at frequencies below 217 GHz and an increment at frequencies above. The kSZ effect is the Doppler shift of CMB photons Thomson-scattering off free electrons that have a non-zero peculiar velocity with respect to the CMB rest frame. 
-%This produces small shifts in the CMB temperature proportional to the radial velocity of the object and its optical depth.
-The amplitudes of the tSZ and kSZ signals are proportional to the integrated electron pressure and momentum along the line of sight, respectively.  They thus contain information about the thermodynamic properties of the IGM and ICM, which are highly sensitive to astrophysical \lq{feedback}\rq. Feedback is the process of energy injection into the IGM and ICM from accreting supermassive black holes, supernovae, stellar winds, and other sources.
-%since their magnitudes are proportional to the integrated electron pressure (tSZ) and momentum (kSZ) along the line of sight.
-The tSZ effect will be used to measure ensemble statistics of galaxy clusters, which contain cosmological information, as well as to provide uniform cluster samples for galaxy-formation studies in dense environments. 
-
-%
-%\item Cosmological parameters from the abundance of tSZ-detected clusters and statistics of component-separated tSZ maps.
-%\item Thermodynamic properties of galaxies, groups, and clusters from combined tSZ and kSZ cross-correlation measurements.
-%\item Measurements of peculiar velocities, which are powerful cosmological probes on large scales, through the kSZ effect.
-%\item Patchy reionization which imprints the CMB through higher order moments of the kSZ effect.
-%%%%%%%%%%%%%%%%%%%%
-\noindent$\bullet$ {\bf Galaxy Clusters} \hspace{0.1in} \label{clusters}  Galaxy clusters found via the tSZ effect provide a well-defined sample with a selection function that is simple to model. Such samples of clusters are straightforward to use for cosmological inference and studies of galaxy evolution in dense environments. The tSZ-selected sample from PICO will provide all clusters with masses above $\sim3\times10^{14} M_\odot$ (defined with respect to the radius within which the average density reaches 200 times the critical density) out to high redshifts, 
-%\comor{which high redshift?}
-as long as the clusters have started to virialize. We forecast that PICO will find $\sim$150,000 galaxy clusters, assuming the cosmological parameters from \planck\ and applying a foreground mask, using only 70\% of the sky. With redshifts provided by optical surveys and infrared follow-up observations, the PICO tSZ-selected cluster sample will be an excellent cosmological probe, with mass calibration provided by CMB halo lensing described below and optical weak lensing for clusters with $z < 1.5$. 
-%\comor{why is it an excellent cosmological probe? didn't we want to add forecasts on parameters such as neutrino mass, and dark energy? wasn't there a point about a sample that is not restricted to a particular location in the sky?}
-
-%\comor{Points to still hit
-%High z sample,
-%Numbers -- Nick and Jim should cross-check,
-%most massive cluster all over the whole sky,
+%\comor{Points to still hit High z sample, Numbers -- Nick and Jim should cross-check, most massive cluster all over the whole sky,
 %Cosmology.}
-%
 
-Calibrating the masses of clusters is the most uncertain and crucial step in the cluster cosmology program, in which CMB lensing has already begun to play an important role.  In this approach, known as CMB halo lensing, we focus on the small-scale effects of gravitational lensing around these objects~\citep{2015ApJ...806..247B, 2015PhRvL.114o1302M, 2016A&A...594A..24P}. The technique holds great potential for measuring halo masses out to high redshifts where gravitational lensing of galaxies (i.e., gravitational shear) no longer works because of the lack of background sources.
+Calibrating the masses of clusters is the most uncertain and crucial step in inferring cosmological parameters, including $\sigma_{8}$ using cluster counts.  PICO will provide calibration using `CMB halo lensing', an approach that uses the small-scale effects of gravitational lensing due to dark matter halos around clusters and proto-clusters~\citep{2015ApJ...806..247B, 2015PhRvL.114o1302M, 2016A&A...594A..24P}. The technique is particularly effective for measuring halo masses out to high redshifts where gravitational lensing of background objects around galaxies no longer works (because there are no background sources). 
+The approach is illustrated in Fig.~\ref{fig:HaloLensing}, which gives the $1\sigma$ uncertainty in a halo mass measurement as a function of the object's redshift. PICO will measure the mass of individual low-mass clusters ($\sim 10^{14}$\,M$_\odot$) over a wide redshift range, and by stacking will determine the mean mass of much smaller halos, including those hosting individual galaxies \comor{give values, how much lower? what is the significance of these masses?}.  The flattening at high redshift reflects the fact that the technique is sensitive over a broad range of redshifts. From a complementarity perspective, the high-resolution, high-frequency PICO channels will play an essential role in cleaning foregrounds for high-resolution ground-based halo lensing measurements conducted at lower frequencies, particularly those derived from the temperature-based estimator, which is most contaminated by foregrounds. 
 
-This is illustrated in Fig.~\ref{fig:HaloLensing}, which shows the mass sensitivity of PICO using a spatial filter optimized for extracting the mass of halos \citep{2015A&A...578A..21M}.  The curves give the $1\sigma$ noise in a mass measurement through the filter as a function of redshift. Their flattening at high redshift reflects the fact that CMB lensing is sensitive over a broad range of redshifts, extending well beyond the limit of $z=2$ shown in the figure.  We see that PICO can measure the mass of individual low-mass clusters ($\sim 10^{14}$\,M$_\odot$) over a wide redshift range, and by stacking we can determine the mean mass of much smaller halos, including those hosting individual galaxies.  
+
+%the mass sensitivity of PICO using a spatial filter optimized for extracting the mass of halos \citep{2015A&A...578A..21M}.  The curves give the $1\sigma$ noise in a mass measurement through the filter as a function of redshift. 
+
+%Their flattening at high redshift reflects the fact that CMB lensing is sensitive over a broad range of redshifts, extending well beyond the limit of $z=2$ shown in the figure.  We see that PICO can measure the mass of individual low-mass clusters ($\sim 10^{14}$\,M$_\odot$) over a wide redshift range, and by stacking we can determine the mean mass of much smaller halos, including those hosting individual galaxies.  
 
 \begin{figure}[t]
 \hspace{-0.1in}
@@ -173,18 +125,46 @@ This is illustrated in Fig.~\ref{fig:HaloLensing}, which shows the mass sensitiv
 \hspace{0.in}
 \parbox{3.4in}{
 \caption{\captiontext 
-PICO sensitivity for CMB halo lensing.  Curves for different CMB signal correlations give the $1\sigma$ sensitivity of an optimal mass filter \citep{2015A&A...578A..21M}.  The curves are flat at high redshift, demonstrating the essential property that CMB halo lensing can be probed over a very wide redshift range, and well beyond the $z=2$ limit of the figure.  For PICO, the $EB$ and $TT$ estimators are roughly equivalent, offering important cross-validation of measurements because the systematics are very different for temperature and polarization. 
+PICO will provide mass calibration for individual clusters and proto-clusters with $M_{500}$ \comor{define m500} as low as $10^{14}$ at $z>2$ using `halo lensing'. Curves for different CMB signal correlations (red) give the $1\sigma$ sensitivity of an optimal mass filter~\citep{2015A&A...578A..21M} for a given mass as a function of $z$.  The curves are flat at high redshift, demonstrating that the technique probes a broad range of red-shifts. For PICO, the $EB$ and $TT$ estimators are equivalent, offering important cross-validation of measurements because the systematics are very different for temperature and polarization. 
 \label{fig:HaloLensing} 
 } }
 \vspace{-0.1in}
 \end{figure}
 
-Halo lensing will enable calibration of the galaxy cluster mass scale, which is critical for our cosmological analysis of PICO cluster counts, as mentioned above.  From a complementarity perspective, the high-resolution, high-frequency PICO channels will play an essential role in cleaning foregrounds for high-resolution ground-based halo lensing measurements at lower frequencies, particularly those derived from the temperature-based estimator, which is most contaminated by foregrounds. 
+\subsubsection{Constraining Feedback Processes through the Sunyaev--Zel$^{\prime}$dovich Effect}
+%Compton-$y$ map and tSZ auto-power spectrum} 
+\label{sec:sz}
+%\label{ymap}  
 
+
+%\subsubsection{Constraining Structure Growth and Galaxy Formation via the Sunyaev-Zel$^{\prime}$dovich (SZ) Effects} 
+% \label{sec:sz}
+
+Not all CMB photons propagate through the Universe freely; about 6\% are Thomson-scattered by free electrons in the \ac{IGM} and \ac{ICM}.  These scattering events leave a measurable imprint on \ac{CMB} temperature fluctuations, which thereby contain a wealth of information about the growth of structures and the thermodynamic history of baryons. A fraction of these photons are responsible for the thermal and kinetic Sunyaev--Zel$^{\prime}$dovich effects (tSZ and kSZ)~\citep{zeldovich69,SZ1972}. 
+%The thermal SZ effect (tSZ) is the increase in energy of CMB photons due to scattering off hot electrons. This results in a spectral distortion
+%, proportinal to the electron pressure,
+% of the CMB blackbody that corresponds to a decrement in CMB temperature at frequencies below 217 GHz and an increment at frequencies above. The kSZ effect is the Doppler shift of CMB photons Thomson-scattering off free electrons that have a non-zero peculiar velocity with respect to the CMB rest frame. 
+%This produces small shifts in the CMB temperature proportional to the radial velocity of the object and its optical depth.
+The amplitudes of the tSZ and kSZ signals are proportional to the integrated electron pressure and momentum along the line of sight, respectively.  They thus contain information about the thermodynamic properties of the \ac{IGM} and \ac{ICM}, which are highly sensitive to astrophysical feedback. Feedback is the process of energy injection into the \ac{IGM} and \ac{ICM} from accreting supermassive black holes, supernovae, stellar winds, and other sources. \comor{give a sentence or two on why studying feedback is important}
+%since their magnitudes are proportional to the integrated electron pressure (tSZ) and momentum (kSZ) along the line of sight.
+
+%The tSZ effect will be used to measure ensemble statistics of galaxy clusters, which contain cosmological information, as well as to provide uniform cluster samples for galaxy-formation studies in dense environments. 
+
+%
+%\item Cosmological parameters from the abundance of tSZ-detected clusters and statistics of component-separated tSZ maps.
+%\item Thermodynamic properties of galaxies, groups, and clusters from combined tSZ and kSZ cross-correlation measurements.
+%\item Measurements of peculiar velocities, which are powerful cosmological probes on large scales, through the kSZ effect.
+%\item Patchy reionization which imprints the CMB through higher order moments of the kSZ effect.
+%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%
-\noindent$\bullet$ {\bf Constraining Feedback Processes: Compton-$y$ map and tSZ auto-power spectrum} \hspace{0.1in} \label{ymap}  In addition to finding individual clusters, multifrequency CMB data also allow the reconstruction of full-sky maps of the tSZ signal. These are called  \lq Compton-$y$ maps\rq. %via foreground removal algorithms similar to those used to obtain cleaned maps of the CMB.  
-With its extremely low noise and broad frequency coverage, which is essential for separating out other signals, PICO will yield a definitive Compton-$y$ map over the full sky, with high \ac{SNR} down to angular scales of a few arcminutes, which will provide strong constraints on astrophysical feedback models via cross-correlations and its own auto-power spectrum.  We quantify this expectation by reconstructing the Compton-$y$ field using the needlet internal linear combination (NILC) algorithm~\citep{Delabrouille2009} applied to sky simulations generated with the \planck~ sky model, with maps at all PICO frequencies (with appropriate noise added).  The error bars on the reconstructed tSZ power spectrum are shown in Fig.~\ref{fig:PICO_tSZ_PS}, in comparison to current measurements.  The total \ac{SNR} is 1270 for the PICO CBE configuration, with the PICO baseline configuration only $\approx 10$\% lower.  This is nearly two orders of magnitude higher \ac{SNR} than \planck , which has already provided data with much higher \ac{SNR} than ground-based experiments. 
+%\subsubsection{Constraining Feedback Processes: Compton-$y$ map and tSZ auto-power spectrum} 
+%\label{ymap}  
+
+Multifrequency \ac{CMB} data also allow the reconstruction of full-sky maps of the tSZ signal. These are called  \lq Compton-$y$ maps\rq. 
+With its extremely low noise and broad frequency coverage, which is essential for separating out other signals, PICO will yield a definitive Compton-$y$ map over the full sky, with a total \ac{SNR} of 1270 for the CBE and $\approx 10$\% lower for the baseline configurations (Fig.~\ref{fig:PICO_tSZ_PS}). This is nearly two orders of magnitude higher \ac{SNR} than \planck , which already gave data with much higher \ac{SNR} than ground-based experiments. \comor{how does PICO compare to SO?.}
+
+%high \ac{SNR} down to angular scales of a few arcminutes, which will provide strong constraints on astrophysical feedback models using its own data and via cross-correlations with other data sets. We quantify this expectation by reconstructing the Compton-$y$ field using the needlet internal linear combination (NILC) algorithm~\citep{Delabrouille2009} applied to sky simulations generated with the \planck~ sky model, with maps at all PICO frequencies.  The error bars on the reconstructed tSZ power spectrum are shown in Fig.~\ref{fig:PICO_tSZ_PS}, in comparison to current measurements.  The total \ac{SNR} is 1270 for the PICO CBE configuration, with the PICO baseline configuration only $\approx 10$\% lower.  This is nearly two orders of magnitude higher \ac{SNR} than \planck , which has already provided data with much higher \ac{SNR} than ground-based experiments. \comor{how does PICO compare to SO?.}
 \begin{figure}
 \hspace{-0.1in}
 \parbox{3.1in}{\centerline{
@@ -192,14 +172,14 @@ With its extremely low noise and broad frequency coverage, which is essential fo
 \hspace{0.in}
 \parbox{3.4in}{
 \caption{\captiontext  
-Constraints on the tSZ power spectrum from PICO and current data.  A simulated tSZ power spectrum (black) is constrained at each multipole by PICO's data ($1\sigma$, green). Binning in $\ell$, would increase the \ac{SNR} beyond the calculated value of 1270, which is already nearly 100 times larger than from \planck\ (blue). We include current measurements by the SPT and ACT, two ground-based programs~\citep{Sievers2013,George2015}
+The PICO $y$-map will give a tSZ power spectrum with an \ac{SNR} of 1270 (green, $1\sigma$ per $\ell$ mode), which is nearly 100 times larger than from \planck\ (blue). Binning the data (not shown) as was done for \planck\ would further increase the \ac{SNR}.  We include current measurements by the ground-based SPT and ACT~\citep{Sievers2013,George2015}. In these forecasts we reconstruct the Compton-$y$ field from maps that include Galactic foregrounds, CMB fluctuations, and PICO CBE noise using the needlet internal linear combination algorithm~\citep{Delabrouille2009}. The input maps use the \planck~ sky model~\cite{psm?}.
 %The black curve shows the simulated tSZ power spectrum signal.  The light green shaded region shows the error bars for PICO at each multipole, i.e., with no binning, as determined from NILC analysis of full-sky simulations.  The blue points show the current constraints from Planck, which have been averaged into broad multipole bins.  The orange and dark green points show the constraints from ACT and SPT, respectively, at a single multipole of $\ell=3000$.  The overall PICO $S/N = 1270$, nearly two orders of magnitude larger than current measurements.
 \label{fig:PICO_tSZ_PS} 
 } }
 \vspace{-0.1in}
 \end{figure}
 
-Extremely strong constraints on models of astrophysical feedback will be obtained from the analysis of the PICO $y$-map, both from its auto-power spectrum and from cross-correlations with galaxy, group, cluster, and quasar samples.  Like the CMB-lensing map described above, the legacy value of the PICO $y$-map will be immense.  As an example, we forecast the detection of cross-correlations between the PICO $y$-map and galaxy weak lensing maps constructed from LSST and WFIRST data.  Considering the LSST \lq gold\rq~sample with a source density of 26 galaxies/arcmin${}^2$ covering 40\% of the sky, we forecast a detection of the tSZ-weak lensing cross-correlation with \ac{SNR} = 3000.  Cross-correlations with the galaxies themselves will be measured at even higher \ac{SNR}.  At this immense significance, the signal can be broken down into dozens of tomographic redshift bins, yielding a precise tracing of the evolution of thermal pressure over cosmic time.  For PICO and WFIRST (assuming 45 galaxies/arcmin${}^2$ covering 5.3\% of the sky), we forecast \ac{SNR} = 1100 for the tSZ-weak lensing cross-correlation.  The WFIRST galaxy sample extends to higher redshift, and thus this high-\ac{SNR} measurement will allow the evolution of the thermal gas pressure to be probed to $z \approx 2$ (the peak of the cosmic star formation history) and beyond.  These transformative measurements will revolutionize our understanding of galaxy formation and evolution by distinguishing between models of feedback energy injection at high significance.  Additional cross-correlations of the PICO $y$-map with quasar samples, filament catalogs, and other large-scale structure tracers will provide valuable information on baryonic physics that is complementary to inferences from the lensing cross-correlations described earlier.  Finally, beyond Compton-$y$, PICO's CMB halo lensing measurements will also be a unique tool for measuring the relation between galaxies and their dark matter halos during the key epochs of cosmic star formation at $z\geq 2$, not reachable by other means.  This will provide valuable insight into the role of environment on galaxy formation during the rise to and fall from the peak of cosmic star formation at $z\sim 2$. %\comor{is this already covered earlier in Marcel's lensing cross-correlations text?}
+Extremely strong constraints on models of astrophysical feedback will be obtained from the analysis of the PICO $y$-map, both from its auto-power spectrum and from cross-correlations with galaxy, group, cluster, and quasar samples.  Like the CMB-lensing map described above, the legacy value of the PICO $y$-map will be immense.  As an example, we forecast the detection of cross-correlations between the PICO $y$-map and galaxy weak lensing maps constructed from LSST and WFIRST data.  Considering the LSST \lq gold\rq~sample with a source density of 26 galaxies/arcmin${}^2$ covering 40\% of the sky, we forecast a detection of the tSZ-weak lensing cross-correlation with \ac{SNR} = 3000.  Cross-correlations with the galaxies themselves will be measured at even higher \ac{SNR}.  At this immense significance, the signal can be broken down into dozens of tomographic redshift bins, yielding a precise tracing of the evolution of thermal pressure over cosmic time.  For PICO and WFIRST (assuming 45 galaxies/arcmin${}^2$ covering 5.3\% of the sky), we forecast \ac{SNR} = 1100 for the tSZ-weak lensing cross-correlation.  The WFIRST galaxy sample extends to higher redshift, and thus this high-\ac{SNR} measurement will allow the evolution of the thermal gas pressure to be probed to $z \approx 2$ (the peak of the cosmic star formation history) and beyond.  These measurements will revolutionize our understanding of galaxy formation and evolution by distinguishing between models of feedback energy injection at high significance.  Additional cross-correlations of the PICO $y$-map with quasar samples, filament catalogs, and other large-scale structure tracers will provide valuable information on baryonic physics that is complementary to inferences from the lensing cross-correlations described earlier.  Finally, beyond Compton-$y$, PICO's CMB halo lensing measurements will also be a unique tool for measuring the relation between galaxies and their dark matter halos during the key epochs of cosmic star formation at $z\geq 2$, not reachable by other means.  This will provide valuable insight into the role of environment on galaxy formation during the rise to and fall from the peak of cosmic star formation at $z\sim 2$. %\comor{is this already covered earlier in Marcel's lensing cross-correlations text?}
 
 
 
