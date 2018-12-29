@@ -25,35 +25,91 @@ to search for local primordial non-Gaussianity via its scale-dependent effect on
 
 \subsubsection{Complementarity with Sub-Orbital Measurements}
 
-%% start of text %
-\newcommand{\sizeA}{0.09\textwidth} %define space between columns below
-\begin{table}%[h,t]
-\begin{adjustbox}{width=1.2\textwidth,center}
-\begin{tabular}{|c|@{\hspace{\sizeA}}c@{\hspace{\sizeA}}|@{\hspace{\sizeA}}c@{\hspace{\sizeA}}|c|}
-\hline
-\bf{Characteristic} & {\bf Ground} & {\bf Balloon} & {\bf Space}  \\ \hline
-Sky coverage & Partial from single site & Partial from single flight & Full \\ \hline
-\multirow{3}{*}{Frequency coverage} & 70~GHz inaccessible$^{a}$    & 70~GHz inaccessible$^{a}$       & \multirow{3}{*}{Unrestricted} \\  
-                                                           &  $\nu \ge 300$~GHz unusable   &    otherwise, almost unlimited   &                                            \\  
-                                                           &     limited atmospheric windows  &                                      &                                           \\ \hline
-  Angular resolution at 150~GHz$^{b}$  & 1.5' with 6~m telescope & 6' with 1.5~m telescope & 6' with 1.5~m telescope \\ \hline
-   Detector Noise                                    & 265 $\mu$K$_{CMB} \sqrt{s}$\,$^{c}$  & 124 $\mu$K$_{CMB} \sqrt{s}$\,$^{c}$ &  36 $\mu$K$_{CMB} \sqrt{s}$\,$^{c}$ \\  \hline
-%\multirow{2}{*}{Detector Noise}          & $\ge xx$ microK rt(s);  & $\ge xx$ microK rt(s)  &  $ xx$ microK rt(s) \\  \hline
-%                                                           & atmospheric 1/f noise requires subtraction &  & \\ \hline
-Integration time                                   & Unlimited & Weeks to a Month & Continuous, for years \\ \hline
-Accessibility, repairability                    & Good & None.  Multiple flights possible.& None \\
-\hline
-\multicolumn{4}{l}{$^{a}$ 70~GHz is the frequency at which large angular scale $B$-mode Galactic emissions have a minimum. } \\
-\multicolumn{4}{p{1.7\linewidth}}{$^{b}$ We give representative approximate telescope aperture values. Significantly larger apertures for balloons and in space result in higher mass, volume, and cost.  }\\
-\multicolumn{4}{p{1.8\linewidth}}{$^{c}$ Noise equivalent temperature: timestream-based median at 95 GHz from BICEP3~\citep{kang20182017}; pre-flight expectation at 94 GHz from SPIDER~\citep{2014SPIE.9153E..13R}; at 90 GHz from PICO CBE.} \\
-
-\end{tabular}
-\end{adjustbox}
-\vspace{-0.13in}
-\caption{ \small \setlength{\baselineskip}{0.95\baselineskip}
-Relative characteristics of ground, balloon, and space platforms for experiments in the CMB bands.\label{tab:comparison} }
-\vspace{-0.05in}
+% Table 2.4 
+\begin{table}[tb]
+\caption{Relative characteristics of ground, balloon, and space platforms for experiments in the CMB bands.\label{tab:comparison}}
+\begingroup
+%\openup 5pt
+\newdimen\tblskip \tblskip=5pt
+\nointerlineskip
+\vskip -5mm
+\footnotesize %\footnotesize
+\setbox\tablebox=\vbox{
+    \newdimen\digitwidth
+    \setbox0=\hbox{\rm 0}
+    \digitwidth=\wd0
+    \catcode`*=\active
+    \def*{\kern\digitwidth}
+%
+    \newdimen\signwidth
+    \setbox0=\hbox{+}
+    \signwidth=\wd0
+    \catcode`!=\active
+    \def!{\kern\signwidth}
+%
+\halign to \textwidth{
+\hbox to 1.8in{#\leaderfil}\tabskip=0.6em plus 0.6em&
+#\hfil&
+#\hfil&
+#\hfil\tabskip=0pt\cr
+\noalign{\doubleline}
+\omit\hfil{\bf Characteristic}\hfil&\omit\hfil{\bf Ground}\hfil&\omit\hfil{\bf Balloon}\hfil&\omit\hfil{\bf Space}\hfil\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+Sky coverage&Partial from single site&Partial from single flight&Full\cr
+\noalign{\vskip 3pt}
+Frequency coverage&70\,GHz inaccessible,$^{a}$&70\,GHz inaccessible,$^{a}$&Unrestricted\cr
+\omit                       &$\nu \ge 300$\,GHz unusable,&otherwise, almost unlimited&\cr
+\omit                       &limited atmospheric windows&&\cr
+\noalign{\vskip 3pt}
+Angular resolution at 150\,GHz\,$^{b}$& $1.\!'5$ with 6\,m telescope&$6'$ with 1.5\,m telescope&$6'$ with 1.5\,m telescope\cr
+\noalign{\vskip 3pt}
+Detector noise\,$^{c}$&$265\,\mu$K$_{\rm CMB}\sqrt{\rm s}$&$124\,\mu$K$_{\rm CMB}\sqrt{\rm s}$&$36\,\mu$K$_{\rm CMB}\sqrt{\rm s}$\cr
+\noalign{\vskip 3pt}
+Integration time&Unlimited&Weeks to a month&Continuous, for years\cr
+\noalign{\vskip 3pt}
+Accessibility, repairability&Good&None; multiple flights possible&None\cr
+\noalign{\vskip 5pt\hrule\vskip 3pt}
+} % close halign
+\hangafter=1\hangindent=1em\noindent\strut
+\hbox to 1em{$^{a}$}70\,GHz is the frequency at which large angular scale $B$-mode Galactic emissions have a minimum.\par
+\hangafter=1\hangindent=1em\noindent\strut
+\hbox to 1em{$^{b}$}We give representative approximate telescope aperture values. Significantly larger apertures for balloons and in space result in higher mass, volume, and cost.\par
+\hangafter=1\hangindent=1em\noindent\strut
+\hbox to 1em {$^{c}$}Noise-equivalent temperature: timestream-based median at 95\,GHz from BICEP3~\citep{kang20182017}; pre-flight expectation at 94\,GHz from SPIDER~\citep{2014SPIE.9153E..13R}; at 90\,GHz from PICO CBE.
+} % close vbox
+\endPlancktable
+\endgroup
 \end{table}
+
+%% start of text %
+% \newcommand{\sizeA}{0.09\textwidth} %define space between columns below
+% \begin{table}%[h,t]
+% \begin{adjustbox}{width=1.2\textwidth,center}
+% \begin{tabular}{|c|@{\hspace{\sizeA}}c@{\hspace{\sizeA}}|@{\hspace{\sizeA}}c@{\hspace{\sizeA}}|c|}
+% \hline
+% \bf{Characteristic} & {\bf Ground} & {\bf Balloon} & {\bf Space}  \\ \hline
+% Sky coverage & Partial from single site & Partial from single flight & Full \\ \hline
+% \multirow{3}{*}{Frequency coverage} & 70~GHz inaccessible$^{a}$    & 70~GHz inaccessible$^{a}$       & \multirow{3}{*}{Unrestricted} \\  
+%                                                            &  $\nu \ge 300$~GHz unusable   &    otherwise, almost unlimited   &                                            \\  
+%                                                            &     limited atmospheric windows  &                                      &                                           \\ \hline
+%   Angular resolution at 150~GHz$^{b}$  & 1.5' with 6~m telescope & 6' with 1.5~m telescope & 6' with 1.5~m telescope \\ \hline
+%    Detector Noise                                    & 265 $\mu$K$_{CMB} \sqrt{s}$\,$^{c}$  & 124 $\mu$K$_{CMB} \sqrt{s}$\,$^{c}$ &  36 $\mu$K$_{CMB} \sqrt{s}$\,$^{c}$ \\  \hline
+% %\multirow{2}{*}{Detector Noise}          & $\ge xx$ microK rt(s);  & $\ge xx$ microK rt(s)  &  $ xx$ microK rt(s) \\  \hline
+% %                                                           & atmospheric 1/f noise requires subtraction &  & \\ \hline
+% Integration time                                   & Unlimited & Weeks to a Month & Continuous, for years \\ \hline
+% Accessibility, repairability                    & Good & None.  Multiple flights possible.& None \\
+% \hline
+% \multicolumn{4}{l}{$^{a}$ 70~GHz is the frequency at which large angular scale $B$-mode Galactic emissions have a minimum. } \\
+% \multicolumn{4}{p{1.7\linewidth}}{$^{b}$ We give representative approximate telescope aperture values. Significantly larger apertures for balloons and in space result in higher mass, volume, and cost.  }\\
+% \multicolumn{4}{p{1.8\linewidth}}{$^{c}$ Noise equivalent temperature: timestream-based median at 95 GHz from BICEP3~\citep{kang20182017}; pre-flight expectation at 94 GHz from SPIDER~\citep{2014SPIE.9153E..13R}; at 90 GHz from PICO CBE.} \\
+
+% \end{tabular}
+% \end{adjustbox}
+% \vspace{-0.13in}
+% \caption{ \small \setlength{\baselineskip}{0.95\baselineskip}
+% Relative characteristics of ground, balloon, and space platforms for experiments in the CMB bands.\label{tab:comparison} }
+% \vspace{-0.05in}
+% \end{table}
 
 Since the first \ac{CMB} measurements, more than 50 years ago, important observations have been made from the ground, from balloons, and from space. Each of the CMB satellites flown to date (i.e. COBE, WMAP, and \planck) has relied crucially on technologies and techniques that were first proved on ground and balloon flights, making these also crucial to the success of PICO. The phenomenal success of, and the immense science outcomes produced by, past space missions is a direct consequence of their relative advantages over ground and balloon platfroms, as listed in 
 %The question for the future is what should the roles be of these three types of experimental approaches.
