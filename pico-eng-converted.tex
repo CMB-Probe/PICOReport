@@ -4,44 +4,23 @@
 \section{Instrument}
 \label{sec:instrument} %3
 
-PICO meets all of its science-derived instrument requirements (Table~\ref{tab:STM})
-with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency
-bands centered between 21 and 799\,GHz. The instrument is built around
-a two-reflector Dragone-style telescope
-(\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the
-primary and secondary. The focal plane is populated by 12,996
-		rr\ac{TES} bolometers (\S\,\ref{sec:focal_plane})
-read out using a time-domain multiplexing scheme
-(\S\,\ref{sec:detector_readout}). The instrument employs a single
-science observing mode: fixed rate imaging while scanning the
-sky. \comblue{add section?}
+PICO meets all of its science-derived instrument requirements (Table~\ref{tab:STM}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz. The instrument is built around a two-reflector Dragone-style telescope (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the primary and secondary. The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). The instrument employs a single science observing mode: fixed rate imaging while scanning the sky. \comblue{add section?}
 
+The instrument is configured inside the shadow of a V-grooves assembly that thermally and optically shields it from the Sun (Fig.~\ref{fig:InstrumentCAD}). The V-groove assembly consists of 4 nested radiation shields that provide passive cooling (\S\,\ref{sec:radiative_cooling}). The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
 
-A V-groove radiator assembly provides passive cooling
-(\S\,\ref{sec:radiative_cooling}). The instrument is configured inside
-the shadow of the V-grooves, thermally and optically shielded from the
-Sun. The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is
-$29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$
-(\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of
-$3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing
-control error, design margin, and alignment tolerances.
+%A V-groove radiator assembly provides passive cooling (\S\,\ref{sec:radiative_cooling}). The instrument is configured inside the shadow of the V-grooves, thermally and optically shielded from the Sun. The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
 
-The V-groove assembly is attached to the bipod struts that support the
-instrument structural ring. The ring supports the primary reflector
-and telescope box. The telescope box contains the actively cooled
-components (\S\,\ref{sec:cadr}, \S\,\ref{sec:4kcooler}), including
-the secondary reflector, the focal plane and sub-kelvin adiabatic
-refrigerator structures. Just inside the box, a thermal liner serves
-as a cold optical baffle and aperture stop. Instrument integration and test (I\&T) are described in
-\S\,\ref{sec:iandt}.
+The V-groove assembly is attached to the bipod struts that support the instrument structural ring. The ring supports the primary reflector and telescope box. The telescope box contains the actively cooled components (\S\,\ref{sec:cadr}, \S\,\ref{sec:4kcooler}), including the secondary reflector, the focal plane and sub-kelvin adiabatic refrigerator structures. Just inside the box, a thermal liner serves as a cold optical baffle and aperture stop. Instrument integration and test (I\&T) are described in \S\,\ref{sec:iandt}.
 
-During the survey, the instrument is spun at 1 rpm
-(\S\,\ref{sec:survey_design}). Spacecraft control is simplified by
-mounting the instrument on a spinning spacecraft module, while a
-larger non-spinning module houses most spacecraft subsystems
-(\S\,\ref{sec:spacecraft}). Instrument elements that act as heat
-sources are accommodated on the spinning module of the
-spacecraft.
+During the survey, the instrument is spun at 1~rpm (\S\,\ref{sec:survey_design}). Spacecraft control is simplified by mounting the instrument on a spinning spacecraft module, while a larger non-spinning module houses most spacecraft subsystems (\S\,\ref{sec:spacecraft}). Instrument elements that act as heat sources are accommodated on the spinning module of the spacecraft.
+\begin{figure}
+\begin{center}
+\includegraphics[width=6.25in]{figures/InstrumentCAD.png}
+\caption{\captiontext 
+Detailed PICO instrument configuration. \textit{Left}: Side view in cross section. \textit{Right}: Front view with V-Groove assembly shown semi-transparent.  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics.
+\label{fig:InstrumentCAD}}
+\end{center}
+\end{figure}
 
 
 
@@ -78,6 +57,7 @@ $\sim \lambda/14 =24\,\mu{\rm m}$. The focal ratio is 1.42. The
 slightly concave focal surface, which has a radius of curvature of
 4.55\,m, is telecentric to within $0\pdeg12$ across the entire FOV.
 
+\comblue{what about the reflector material?}
 An actively cooled circular aperture stop between the primary and
 secondary reflectors reduces detector noise and shields the focal
 plane from stray radiation. Stray-light analysis of the PICO
@@ -87,14 +67,6 @@ primary is suppressed by 80\,dB relative to the main lobe for both
 co-pol and cross-pol beams. Detailed baffle design will be performed
 during mission formulation.
 
-\begin{figure}
-\begin{center}
-\includegraphics[width=6.25in]{figures/InstrumentCAD.png}
-\caption{\captiontext 
-Detailed PICO instrument configuration. \textit{Left}: Side view in cross section. \textit{Right}: Front view with V-Groove assembly shown semi-transparent.  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics.
-\label{fig:InstrumentCAD}}
-\end{center}
-\end{figure}
 
 % \begin{figure}
 % \begin{center}
@@ -103,7 +75,14 @@ Detailed PICO instrument configuration. \textit{Left}: Side view in cross sectio
 % \end{center}
 % \end{figure}
 
-\begin{figure}
+\subsection{Focal plane}
+\label{sec:focal_plane} %3.2
+
+PICO's focal plane is populated by an %imaging 
+array of \ac{TES} bolometers operating in 21 %overlapping 
+frequency bands, each with 25\% fractional bandwidth, and band centers ranging from 21 to 799~GHz. 
+Polarimetry is achieved by differencing the signals from pairs of two co-pointed bolometers that are sensitive to two orthogonal polarization states. \comblue{polarimetry is incomplete; need to elaborate more} A conceptual layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}.
+ \begin{figure}
 \parbox{3in}{\centering
 \includegraphics[width=3in]{figures/FocalPlaneMechanical.png}
 }
@@ -113,27 +92,7 @@ PICO focal plane. Detectors are fabricated on six types of tiles (shown numbered
 }
 \end{figure}
 
-\input tables/table3.1.tex
-
-\subsection{Focal plane}
-\label{sec:focal_plane} %3.2
-
-PICO's focal plane is populated by an imaging array of TES
-bolometers observing in 21 overlapping frequency bands
-with 25\% fractional bandwidth and band centers ranging from 21 to
-799\,GHz. Polarization is measured by differencing the signals from
-pairs of polarization-sensitive bolometers. A conceptual layout of the
-PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and
-detailed in Table~\ref{tab:focal_plane}.
- 
-Modern mm/sub-mm detectors are photon-noise limited, so the primary
-approach to increase sensitivity is to increase the number of
-detectors. The PICO focal plane has 12\,996 detectors, 175 times the
-number flown on the \textit{Planck} mission, providing a breakthrough
-increase in sensitivity with a comparably sized telescope. This
-breakthrough is enabled by development and demonstration in suborbital
-projects, which now commonly operate arrays of $10^3$--$10^4$ detectors
-(\S\,\ref{sec:technology_maturation}).
+Bolometers operating in the mm/sub-mm wave band are photon-noise limited. Therefore, increase in sensitivity is achieved through an increase in detector count. The PICO focal plane has 12,996 detectors, 175 times the number flown aboard \planck\ thereby providing a breakthrough increase in sensitivity with a comparably sized telescope. This breakthrough is enabled by development and demonstration in suborbital projects, which now commonly operate arrays of $10^3$--$10^4$ detectors (\S\,\ref{sec:technology_maturation}).
 
 \subsubsection{21--462\,GHz bands}
 \label{sec:low_freq_det} % 3.2.1
@@ -154,6 +113,8 @@ densely packed focal planes.
 % included in 5.5: “Any of these technologies could be used to deliver
 % dramatic increases in instrument sensitivity relative to the Planck
 % mission (§5.5).”
+
+\input tables/table3.1.tex
 
 The PICO baseline focal-plane design
 employs three-color sinuous antenna/lenslet-coupling \citep{Suzuki2014}
@@ -184,77 +145,32 @@ maturation required for PICO is described in \$\,\ref{sec:bolometers}.
 \subsubsection{555--799\,GHz bands}
 \label{sec:high_freq_det} % 3.2.2
 
-PICO's highest three frequency channels are beyond the niobium
-superconducting band-gap, rendering microstrip filters a poor solution
-for defining the optical passband. In this regime, PICO instead
-measures a single band with each pixel using feedhorn-coupled
-polarization-sensitive bolometers. Radiation is coupled through horns
-directly to absorber in the throat of a
-waveguide. TES bolometers detect the incident power. 
-The waveguide cut-off defines the lower edge of the band,
-and quasi-optical metal-mesh filters define the upper edge. Numerous
-experiments have successfully used similar approaches
-\citep{Shirokoff2011,Bleem2012,Turner2001}. The technology maturation
-required for PICO is described in \S\,\ref{sec:dev_arrays}.
+PICO's highest three frequency channels are beyond the niobium superconducting band-gap, rendering microstrip filters a poor solution for defining the optical passband. In this regime, PICO instead measures a single band with each pixel using feedhorn-coupled polarization-sensitive bolometers. Radiation is coupled through horns directly to absorber in the throat of a waveguide. TES bolometers detect the incident power.  The waveguide cut-off defines the lower edge of the band, and quasi-optical metal-mesh filters define the upper edge. Numerous experiments have successfully used similar approaches~\citep{Shirokoff2011,Bleem2012,Turner2001}. The technology maturation required for PICO is described in \S\,\ref{sec:dev_arrays}.
 
 \input tables/table3.2.tex
 
 \subsubsection{Sensitivity}
 \label{sec:sensitivity} %3.2.3
 
-PICO's Current Best Estimate (CBE) sensitivity meets the requirements
-of the baseline mission with \hbox{$>40\,\%$} margin (Table~\ref{tab:bands}).
+PICO's Current Best Estimate (CBE) sensitivity meets the requirements of the baseline mission with \hbox{$>40\,\%$} margin (Table~\ref{tab:bands}). \comblue{this is an odd statement. need to rework}
 
-We developed an end-to-end noise model of the PICO instrument to
-predict full mission sensitivity and provide a
-metric by which to evaluate mission design trades. The model considers
-four noise sources per bolometer: photon, phonon, TES Johnson, and
-readout (from both cold and warm readout electronics). To validate our
-calculations, we compared two independent software packages that have
-been validated by test on several CMB instruments. The calculations agreed within
-1\% both for individual noise terms and for overall mission noise.
+We developed an end-to-end noise model of the PICO instrument to predict mission sensitivity and provide a metric by which to evaluate mission design trades. The model includes four noise sources per bolometer: photon, phonon, Johnson, and readout (from both cold and warm readout electronics). To validate our calculations, we compared two independent software packages that have been validated with several operating CMB instruments. The calculations agreed within 1\% both for individual noise terms and for overall mission noise. A detailed description of the PICO noise model and its inputs is available in \citet{Young2018}; small differences between that publication and Table~\ref{tab:bands} are due to refinements of the component temperatures. 
+%\comblue{need to explain better}
 
-Laboratory experiments have demonstrated that TES detectors can be
-made background-limited in the low loading environment they would
-experience at L2 \citep{Beyer2012}. For PICO, the primary contributor
-to noise is the optical load. The sources of optical load are the CMB,
-reflectors, aperture stop, and low-pass filters. The CMB and stop
-account for the majority of the optical load at all frequencies.  The
-CMB gives more than half the load in the middle and upper bands of the
-multichroic pixels, but the stop dominates the load in the lowest band
-of each pixel.
+% removed TES Johnson
 
-A detailed description of the PICO noise model and its inputs is
-available in \cite{Young2018}. Small differences from
-Table~\ref{tab:bands} are due to refinements of the component
-temperatures.
+Laboratory experiments have demonstrated that TES bolometers can be made background-limited in the low loading environment they would experience at L2~\citep{Beyer2012}. For PICO, the primary contributor to noise is the optical load. The sources of optical load are the CMB, reflectors, aperture stop, and low-pass filters. The CMB and stop account for the majority of the optical load at all frequencies.  \comblue{not correct} The CMB gives more than half the load in the middle and upper bands of the multichroic pixels, but the stop dominates the load in the lowest band of each pixel.
 
-The sensitivity model assumes white noise at
-all frequencies. Sub-orbital submillimeter experiments have demonstrated TES detectors
-that are stable to at least as low as 20\,mHz \citep{Rahlin2014},
-meeting the requirements for PICO's scan strategy
-(\S\,\ref{sec:survey_design}).
+The sensitivity model assumes white noise at all frequencies. Sub-orbital submillimeter experiments have demonstrated TES detectors that are stable to at least as low as 20\,mHz \citep{Rahlin2014}, meeting the requirements for PICO's scan strategy (\S\,\ref{sec:survey_design}). \comblue{are we saying anything about 1/f? are we saying anything about yield? Is the observing time consistent with Young et al?}
 
 \subsection{Detector readout}
 \label{sec:detector_readout} %3.3
 
-Suborbital experiment teams over the past ten years have chosen to use
-voltage-biased TESs because their current readout scheme lends itself
-to Superconducting Quantum Interface Device (SQUID) based multiplexing. Multiplexing reduces the number of wires
-to the cryogenic stages and thus the total thermal load that the
-cryocoolers must dissipate. This approach also simplifies the
-instrument design.  
+Suborbital experiment teams over the past ten years have chosen to use voltage-biased TESs because their current readout scheme lends itself to Superconducting Quantum Interface Device (SQUID) based multiplexing. Multiplexing reduces the number of wires to the cryogenic stages and thus the total thermal load that the cryocoolers must dissipate. This approach also simplifies the instrument design.  
 
-In the multiplexing circuitry, SQUIDs function as
-low-noise amplifiers and cryogenic switches. The current baseline for
-PICO is to use a time-domain multiplexer (TDM), which assigns each
-detector's address in a square matrix of simultaneously read columns,
-and sequentially cycles through each row of the array
-\citep{Henderson2016}. The PICO baseline architecture uses a matrix of
-128 rows and 102 columns, requiring some technology maturation
-(\S\,\ref{sec:multiplexing}). The thermal loading on
-the cold stages from the wire harnesses is subdominant to conductive
-loading through the mechanical support structures.  
+In the multiplexing circuitry, SQUIDs function as low-noise amplifiers and cryogenic switches. The current baseline for PICO is to use a time-domain multiplexer (TDM), which assigns each detector's address in a square matrix of simultaneously read columns, and sequentially cycles through each row of the array \citep{Henderson2016}. The PICO baseline architecture uses a matrix of 128 rows and 102 columns. 
+%, requiring some technology maturation (\S\,\ref{sec:multiplexing}). 
+The thermal loading on the cold stages from the wire harnesses is subdominant to conductive loading through the mechanical support structures.  
 
 Because SQUIDs are sensitive magnetometers, suborbital experiments
 have developed techniques to shield them from Earth's magnetic field
@@ -292,9 +208,9 @@ has demonstrated 6.2$\times$ lossless compression
 \subsection{Thermal}
 \label{sec:thermal} %3.4
 
-Like the \textit{Planck}-HFI instrument, PICO cools its focal plane to
-0.1\,K to enable detector operation (\S\,\ref{sec:cadr}). To minimize
-detector noise due to instrument thermal radiation, the aperture
+Like the \planck -HFI instrument, PICO's focal plane is maintained at 
+0.1\,K to enable detector operation (\S\,\ref{sec:cadr}). \comblue{sentence not quite correct} 
+To minimize detector noise due to instrument thermal radiation, the aperture
 stop and reflectors are cooled using both active and radiative cooling
 (\S\,\ref{sec:4kcooler}, \S\,\ref{sec:radiative_cooling}, Fig.~\ref{fig:ArchitectureBlockDiagram}).  All
 thermal requirements are met with robust margins
@@ -320,57 +236,14 @@ PICO instrument block diagram. Active coolers provide cooling
 \subsubsection{cADR sub-kelvin cooling}
 \label{sec:cadr} %3.4.1
 
-A multi-stage continuous Adiabatic Demagnetization Refrigerator (cADR)
-cools the PICO focal plane to 0.1\,K and the surrounding enclosure,
-filter, and readout components to 1\,K. The cADR employs three
-refrigerant assemblies operating sequentially to absorb heat from the
-focal plane at 0.1\,K and reject it to~1\,K. Additionally, the cADR
-employs two assemblies operating sequentially to absorb this rejected
-heat at~1\,K, cool other components to 1\,K, and reject heat at~4.5\,K. 
-This configuration provides continuous cooling with small
-temperature variations at both the 0.1\,K and 1\,K. Heat straps
-connect the two cADR cold sinks to multiple points on the focal plane
-assembly, which has high thermal conductance paths built in, to
-provide spatial temperature uniformity and stability during
-operation.The detector arrays are thermally sunk to the mounting
-frame.  Heat loads in the range of 30\,$\mu$W at 0.1\,K and 1\,mW at
-1\,K (time-average) are within the capabilities of current cADRs
-developed by GSFC \citep{Shirron2012,Shirron2016}. The PICO sub-kelvin
-loads are estimated at less than half of this capability (Table~\ref{tab:cooler}).
+A multi-stage continuous adiabatic demagnetization refrigerator (cADR) maintains the PICO focal plane at 0.1~K and the surrounding enclosure, filter, and readout components at 1~K. The cADR employs three refrigerant assemblies operating sequentially to absorb heat from the focal plane at 0.1~K and reject it to~1~K. Two additional assemblies, also operating sequentially, absorb this rejected heat at~1~K, cool other components to 1~K, and reject heat at~4.5~K. This configuration provides continuous cooling with small temperature variations at both the 0.1~K and 1~K. Heat straps connect the two cADR cold sinks to multiple points on the focal plane assembly \comor{was 'focal plane assembly' defined? isn't it at 0.1K?}, which has high thermal conductance paths built in, to provide spatial temperature uniformity and stability during operation. The detector arrays are thermally sunk to the mounting frame.  Heat loads in the range of 30~$\mu$W at 0.1~K and 1~mW at 1~K (time-average) are within the capabilities of current cADRs developed by GSFC~\citep{Shirron2012,Shirron2016}. The PICO sub-kelvin loads are estimated at less than half of this capability (Table~\ref{tab:cooler}). \comblue{this paragraph doesn't say anything about the maturity of the multiple stage cADR, and about flight heritage. It should, even if to point to later paragraphs} 
 
 \subsubsection{4 K Cooler}
 \label{sec:4kcooler} %3.4.2
 
-A cryocooler system similar to that used on JWST to cool the MIRI
-detectors \citep{Durand2008,Rabb2013} removes the heat rejected from
-the cADR and cools the aperture stop and secondary reflector to
-4.5\,K. Both NGAS (which provided the MIRI coolers) and Ball Aerospace
-have developed such coolers under the NASA-sponsored Advanced
-Cryocooler Technology Development Program \citep{Glaister2006}. NGAS
-and Ball use slightly different but functionally-equivalent hardware
-approaches. A 3-stage precooler (acoustic Stirling by NGAS or
-mechanical Stirling by Ball) provides $\sim16$\,K precooling to a
-separate circulated-gas loop driven by a similar compressor modified
-for DC flow. The circulated-gas loop utilizes Joule--Thomson (J-T)
-expansion, further cooling the gas to 4.5\,K. The entire precooler
-assembly and the J-T circulator compressor are located on the warm
-spacecraft spun module (Fig.~\ref{fig:ArchitectureBlockDiagram}), 
-with relatively short tubing lengths conducting the gas
-flow from the precooling point to the J-T expansion point. All waste
-heat rejected by the cooler compressors and drive electronics is
-transferred to the spacecraft heat rejection system. Unlike JWST, the
-PICO cooler does not require deployment of the remote cold head.
+A cryocooler system similar to that used on JWST to cool the MIRI detectors~\citep{Durand2008,Rabb2013} removes the heat rejected from the cADR and cools the aperture stop and secondary reflector to 4.5~K. Both NGAS (which provided the MIRI coolers) and Ball Aerospace have developed such coolers under the NASA-sponsored Advanced Cryocooler Technology Development Program~\citep{Glaister2006}. \comblue{is there a demonstration of the ball cooler? } NGAS and Ball use slightly different but functionally-equivalent hardware approaches. A 3-stage precooler (acoustic Stirling by NGAS or mechanical Stirling by Ball) provides $\sim16$\,K precooling to a separate circulated-gas loop driven by a similar compressor modified for DC flow \comblue{very technical; is the reader supposed to follow this? is the difference between the ngas and ball relevant?}. The circulated-gas loop utilizes Joule--Thomson (J-T) expansion, further cooling the gas to 4.5~K. The entire precooler assembly and the J-T circulator compressor are located on the warm spacecraft spun module (Fig.~\ref{fig:ArchitectureBlockDiagram}), with relatively short tubing lengths conducting the gas flow from the precooling point to the J-T expansion point. All waste heat rejected by the cooler compressors and drive electronics is transferred to the spacecraft heat rejection system. Unlike JWST, the PICO cooler does not require deployment of the remote cold head.
 
-The J-T expansion point is located close to the cADR heat rejection
-point, thereby providing the lowest temperature to the
-cADR. Subsequent to cooling the cADR, the gas flow intercepts
-conducted heat to the focal plane enclosure, then cools the aperture
-stop and the secondary reflector before returning in counterflow to
-the circulation compressor.  Model-based projections indicate that the
-coolers delivered for MIRI could meet the PICO 4.5\,K heat lift
-requirement with $>100\,\%$ margin with minimal changes: the replacement
-of the $^4$He gas used for MIRI with $^3$He, plus resizing of the gas
-counterflow heat exchangers to take advantage of the $^3$He properties.
+The J-T expansion point is located close to the cADR heat rejection point, thereby providing the lowest temperature to the cADR. Subsequent to cooling the cADR, the gas flow intercepts conducted heat to the focal plane enclosure, then cools the aperture stop and the secondary reflector before returning in counterflow to the circulation compressor.  Model-based projections indicate that the coolers delivered for MIRI could meet the PICO 4.5~K heat lift requirement with more than $100\,\%$ margin with minimal changes: the replacement of the $^4$He gas used for MIRI with $^3$He, plus resizing of the gas counterflow heat exchangers to take advantage of the $^3$He properties. \comblue{have we thought through about the change in gas? is it obvious that no other changes will be required as a consequence of the change in gas type?}
 
 \begin{figure}
 \parbox{3.5in}{\centering 
@@ -384,34 +257,14 @@ counterflow heat exchangers to take advantage of the $^3$He properties.
   cooler.\label{fig:CoolerFigure}} }
 \end{figure}
 
-It is highly likely that a better solution will be available before
-Phase~A. NGAS and Ball are actively working on increasing the flow
-rate and compression ratio of the J-T compressor, which should result
-in significantly higher system efficiency, and in greater heat-lift
-margin above the PICO requirement. These improvements entail the
-implementation of well-known techniques (standard thermal
-engineering). The NGAS multi-stage J-T compressor has completed
-PDR-level development, and is expected to reach CDR level well before
-needed for PICO. Projected performance is shown in Fig.~\ref{fig:CoolerFigure}. The
-Ball approach started with a larger compressor, required less
-modification to achieve comparable performance, and eliminated the
-cold bypass-precooling valve that was problematic for MIRI. The Ball
-approach uses $^3$He, while the NGAS approach uses $^4$He. Both employ
-re-optimized gas heat exchangers (trivial engineering changes).
+It is highly likely that a better solution will be available before Phase~A. \comblue{why do we need a better solution? do you mean a cooler with even larger margin?} NGAS and Ball are actively working on increasing the flow rate and compression ratio of the J-T compressor, which should result in significantly higher system efficiency, and in greater heat-lift margin above the PICO requirement. These improvements entail the implementation of well-known techniques (standard thermal engineering) \comblue{what does this sentence mean?}. The NGAS multi-stage J-T compressor has completed PDR-level development, and is expected to reach CDR level well before needed for PICO. Projected performance is shown in Fig.~\ref{fig:CoolerFigure}. The Ball approach started with a larger compressor, required less modification to achieve comparable performance, and eliminated the cold bypass-precooling valve that was problematic for MIRI. \comblue{must we mention problematic valves?} The Ball approach uses $^3$He, while the NGAS approach uses $^4$He. Both employ re-optimized gas heat exchangers (trivial engineering changes). \comblue{what does this mean?}
 
 
 \subsubsection{Radiative cooling}
 \label{sec:radiative_cooling} %3.4.3
 
-A set of four V-groove radiators provides passive cooling. The
-outermost of the four V-groove shields shadows the interior shields
-from the Sun. The V-grooves radiate to space, each reaching
-successively cooler temperatures. The V-groove
-assembly provides a cold radiative environment to the primary
-reflector, structural ring, and telescope box, so radiative loads on
-those elements are smaller than the conductive loads through the
-mechanical support structures.
-
+A set of four V-groove radiators provides passive cooling. The outermost of the four V-groove shields shadows the interior shields from the Sun. The V-grooves radiate to space, each reaching successively cooler temperatures. \comblue{can we be quantitative?} The V-groove assembly provides a cold radiative environment to the primary reflector, structural ring, and telescope box, so radiative loads on those elements are smaller than the conductive loads through the mechanical support structures.
+\comblue{shouldn't we show evidence that say radiative cooling has been worked out successfully before.? }
 
 \subsection{Instrument integration and test}
 \label{sec:iandt} % 3.5
