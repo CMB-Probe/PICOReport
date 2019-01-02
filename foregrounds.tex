@@ -112,31 +112,30 @@ The sky models were analyzed with a variety of techniques, which were based on t
 
 When using the PICO baseline noise levels with the analytic forecasts we find that $\sigma(r) = 2\times 10^{-5}$, a level that is five times lower than required ($\sigma(r) =1 \times 10^{-4}$, see SO1). We consider these forecasts optimistic because they don't capture ... \comor{what?} 
 
-The `gold-standard' map-based simulations give initial evidence that the combination of PICO's sensitivity and broad frequency coverage are effective in foreground removal and that PICO will reach the requirement of $r = 5\times 10^{-4} (5\sigma)$. Fig.~\ref{fig:nilc} shows the results of a foreground-separation exercise over 60\% of the sky. The residual foreground $BB$ power spectrum, encoding the levels of remaining foreground emission after foreground-separation, is at least a factor of 5 below the CMB for $\ell>10$ is  using realistic input foregrounds and an input polarized CMB that has bothonly $B$-mode due to lensingafter separation of foregrounds sky model with an input a result one of the sky models and with an input \ac{IGW} of $r=0.003$. Residual foregrounds are below the cosmological signal over the important low $\ell$ range, where foregrounds are strongest. The residual spectra would likely be lower when analysis is carried out on only 50 or 40\% of the sky, rather than the 60\% used here. 
+The `gold-standard' map-based simulations give initial evidence that the combination of PICO's sensitivity and broad frequency coverage are effective in foreground removal and that PICO will reach the requirement of $r = 5\times 10^{-4} (5\sigma)$. Fig.~\ref{fig:nilc} shows the result of a foreground-separation exercise over 60\% of the sky using GNILC, one of the non-parametric techniques~\citep{gnilc}.  In this exercise GNILC was tuned to give low foregrounds on the largest angular scales, that is, the lowest $\ell$ modes. The reconstructed CMB $BB$ signal, consisting of only lensing $B$-modes, is reconstructed within errors for all $\ell \geq 5$.  The residual foreground $BB$ power spectrum, encoding the levels of remaining foreground emission after foreground-separation, is a factor of 50 (5) below the CMB at $\ell=100\, (10)$. Most importantly, the residual foreground is a factor of ten below an inflationary $BB$ signal for  $r = 5\times 10^{-4}$ at $\ell \simeq 4$, demonstrating a suppression of foregrounds by a factor of ?? at these angular scales. These are the angular scales at which the inflationary signal is stronger than the signal from lensing. 
+
+At intermediate angular scales $\ell \simeq 80$ the residual foreground is a factor of four lower than the inflationary signal. We expect lower residuals when GNILC is optimized for this $\ell$ range. And for reconstructing signals at this $\ell$ range, it is sufficient to analyze data from smaller, 5-10\% regions of the sky. These will have lower mean foregrounds levels, making the foregrounds-separation exercise easier. \comor{connect to Jonathan's analysis?} With its full sky coverage, PICO will have access to several such independent patches, and will thus make several independent detections of its $r$ target. 
+
+%It is an advantage for PICO  which correspond to   The residual is  is  using realistic input foregrounds and an input polarized CMB that has bothonly $B$-mode due to lensingafter separation of foregrounds sky model with an input a result one of the sky models and with an input \ac{IGW} of $r=0.003$. Residual foregrounds are below the cosmological signal over the important low $\ell$ range, where foregrounds are strongest. The residual spectra would likely be lower when analysis is carried out on only 50 or 40\% of the sky, rather than the 60\% used here. 
 
 \begin{figure}
-\hspace{-0.1in}
+\hspace{0.in}
 \parbox{3.0in}{\centerline {
-\includegraphics[width=3.0in]{images/gnilc_pico_90p92_r0_AL0p15_mc_test3_final.pdf}}}
-\hspace{0.25in}
-\parbox{3.0in}{
-\caption{\captiontext
-Power spectrum of residual $BB$ foregrounds (green) has lower level than both the input CMB (blue) and the recovered CMB (red) which match well each other, and the underlying cosmological model (black) after foreground separation with the NILC algorithm. This exercise assumed use of 60\% of the sky.   
-\label{fig:nilc}}}
+\includegraphics[width=3.3in]{images/gnilc_pico_90p92_r0_AL0p15_mc_test3_final.pdf}}}
+\hspace{0.2in}
+\parbox{3.2in}{
+\caption{\captiontext Angular power spectra of $BB$ due to the CMB and of residual foregrounds after an end-to-end map-based foreground-separation exercise. The PICO low noise levels and breadth in frequency coverage enable suppression of foregrounds by a factor of ?? (??) at $\ell=4\, (80)$ relative to their original levels (not shown), such that the residual foreground  spectrum  (yellow dots) is a factor of ten (four) below a $BB$ inflationary signal with $r=5\times10^{-4}$ (black dots). The recovered CMB (red) matches well the input CMB, which consists of only lensing $BB$ (dash black), over most angular scales. In this exercise we used 60\% of the sky.  Lower foreground residual levels are obtainable with smaller, cleaner patches of $\sim$10\% of sky, which would reduce the residual foregrounds at $\ell \simeq 80$. 
+\label{fig:nilc} } }
 \vspace{-0.1in}
 \end{figure}
 
-\comor{now here} 
-
-Our results validate the need for a broad frequency coverage with a strong lever arm on Galactic emission outside of the primary CMB bands. Fig.~\ref{fig:commander} shows that removing several of PICO's frequency bands, particularly those that monitor dust and synchrotron at high and low frequencies, respectively, significantly biases the extracted $BB$ power spectrum, especially at the lowest multipoles. 
+Our results validate the need for a broad frequency coverage with a strong lever arm on Galactic emissions outside of the primary CMB bands. Fig.~\ref{fig:commander} shows that removing several of PICO's frequency bands, particularly those that monitor dust and synchrotron at high and low frequencies, respectively, significantly biases the extracted $BB$ power spectrum, especially at the lowest multipoles. In this exercises the input CMB contained the lensing signal {\it and} an inflationary signal with $r=0.001$.  
 
 There is other evidence that PICO could reach its stated target of $\sigma(r) = 0.0001$. Map-based simulations that were carried out for the forthcoming CMB-S4 experiment have shown that it can reach levels of $\sigma(r) = 0.0005$ in small, 3\%-size, clean patches of the sky. 
 %The analysis only used frequencies up to 300~GHz. 
 The PICO noise level per sky pixel is similar to that of CMB-S4, but PICO will have {\it full} sky coverage and thus access to {\it all} the clean patches available. Data from \planck\ indicate that there are approximately ten %\comor{check!} 
 patches as clean, or cleaner than those used for the CMB-S4 analysis, indicating that PICO's $\sigma(r)$ could be about three times more stringent. This scaling is very conservative because it only assumes CMB-S4's much narrower breadth of frequency coverage and its seven bands; % \comor{check}; 
 it neglects PICOs much stronger rejection of foregrounds with 21 bands and up to 800~GHz.  We note that if there {\it is} a detection of the \ac{IGW} signal with $r=0.001$, PICO will make it with high significance in multiple independent patches of the sky. 
-
-Results from the Fisher-based analytic calculations give $\sigma(r) = 9 \times 10^{-5}$, and indicate a very small foreground residual with an $r_{eff} = 9 \cdot 10^{-7}.$
 
 While our results are encouraging, as they suggest that PICO's frequency coverage and sensitivity will be adequate for this level of $r$, more work should be invested to gain complete confidence. This work includes: running numerous realizations of different sky models, and analyzing them with various approaches; optimizing sky masks; and using combination of techniques to handle large, intermediate, and small angular scale foregrounds differently. 
 \begin{figure}
@@ -148,7 +147,7 @@ While our results are encouraging, as they suggest that PICO's frequency coverag
 %\hspace{0.in}
 %\parbox{2.0in}{
 \caption{\captiontext
-Left: foreground removal with all of PICO's 21 frequency bands recovers the input $BB$ power spectrum (green) without any bias (red) using the Commander algorithm on the \planck\ sky model (with 4$^\circ$ pixels, and 50\% sky fraction). Right: running the same algorithm on the same sky without several of the lowest and highest bands produces an output spectrum (red) that is biased relative to the input (green) at low multipoles. The bias would be interpreted as higher value of $r$ relative to the model input (solid black) with $r=0.001$ (dots) and lensing (dash lines). 
+Foreground separation with all of PICO's 21 frequency bands recovers the input CMB $BB$ power spectrum (solid black, left and right) without bias (left, red). The input CMB spectrum has contribution from lensing (dash, left and right) and an inflationary signal with $r=0.001$ (dots, left and right). This exercise uses a parametric approach~\citep{commander} with foregrounds varying on 4$^\circ$ pixels, and using 50\% sky fraction. Running the same algorithm on the same sky but using only PICOs bands between 43 and 462~GHz produces an output spectrum (right, red) that is biased at low multipoles relative to the input. With real data, the bias would be erroneously interpreted as higher value of $r$. 
 \label{fig:commander}}
 \vspace{-0.0in}
 \end{figure}
@@ -166,10 +165,7 @@ Left: foreground removal with all of PICO's 21 frequency bands recovers the inpu
 %\vspace{-0.1in}
 %\end{figure}
 
-\comor{from Draine: Why no mention of free-free when discussing Galactic
-foregrounds? We of course do not expect the free-free to be
-polarized, but it is a significant contribution to total
-intensity, and component separation needs to take it into account.}
+%\comor{from Draine: Why no mention of free-free when discussing Galactic foregrounds? We of course do not expect the free-free to be polarized, but it is a significant contribution to total intensity, and component separation needs to take it into account.}
 
 \end{document}
 
