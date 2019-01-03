@@ -4,15 +4,6 @@
 \section{Instrument}
 \label{sec:instrument} %3
 
-PICO meets all of its science-derived instrument requirements (Table~\ref{tab:STM}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz. The instrument is built around a two-reflector Dragone-style telescope (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the primary and secondary. The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). The instrument employs a single science observing mode: fixed rate imaging while scanning the sky. \comblue{add section?}
-
-The instrument is configured inside the shadow of a V-grooves assembly that thermally and optically shields it from the Sun (Fig.~\ref{fig:InstrumentCAD}). The V-groove assembly consists of 4 nested radiation shields that provide passive cooling (\S\,\ref{sec:radiative_cooling}). The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
-
-%A V-groove radiator assembly provides passive cooling (\S\,\ref{sec:radiative_cooling}). The instrument is configured inside the shadow of the V-grooves, thermally and optically shielded from the Sun. The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
-
-The V-groove assembly is attached to the bipod struts that support the instrument structural ring. The ring supports the primary reflector and telescope box. The telescope box contains the actively cooled components (\S\,\ref{sec:cadr}, \S\,\ref{sec:4kcooler}), including the secondary reflector, the focal plane and sub-kelvin adiabatic refrigerator structures. Just inside the box, a thermal liner serves as a cold optical baffle and aperture stop. Instrument integration and test (I\&T) are described in \S\,\ref{sec:iandt}.
-
-During the survey, the instrument is spun at 1~rpm (\S\,\ref{sec:survey_design}). Spacecraft control is simplified by mounting the instrument on a spinning spacecraft module, while a larger non-spinning module houses most spacecraft subsystems (\S\,\ref{sec:spacecraft}). Instrument elements that act as heat sources are accommodated on the spinning module of the spacecraft.
 \begin{figure}
 \begin{center}
 \includegraphics[width=6.25in]{figures/InstrumentCAD.png}
@@ -22,7 +13,15 @@ Detailed PICO instrument configuration. \textit{Left}: Side view in cross sectio
 \end{center}
 \end{figure}
 
+PICO meets all of its science-derived instrument requirements (Table~\ref{tab:STM}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz. The instrument is built around a two-reflector Dragone-style telescope (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the primary and secondary. The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). The instrument employs a single science observing mode: fixed rate imaging while scanning the sky. \comblue{add section?}
 
+The instrument is configured inside the shadow of a V-grooves assembly that thermally and optically shields it from the Sun (Fig.~\ref{fig:InstrumentCAD}). The V-groove assembly consists of 4 nested radiation shields that provide passive cooling (\S\,\ref{sec:radiative_cooling}). The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
+
+%A V-groove radiator assembly provides passive cooling (\S\,\ref{sec:radiative_cooling}). The instrument is configured inside the shadow of the V-grooves, thermally and optically shielded from the Sun. The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
+
+The V-groove assembly is attached to the bipod struts that support the instrument structural ring. The ring supports the primary reflector and telescope box. The telescope box contains the actively cooled components (\S\,\ref{sec:cadr}, \S\,\ref{sec:4kcooler}), including the secondary reflector, the focal plane and sub-kelvin adiabatic refrigerator structures. Just inside the box, a thermal liner serves as a cold optical baffle and aperture stop. Instrument integration and test (I\&T) are described in \S\,\ref{sec:iandt}.
+
+During the survey, the instrument is spun at 1~rpm (\S\,\ref{sec:survey_design}). Spacecraft control is simplified by mounting the instrument on a spinning spacecraft module, while a larger non-spinning module houses most spacecraft subsystems (\S\,\ref{sec:spacecraft}). Instrument elements that act as heat sources are accommodated on the spinning module of the spacecraft.
 
 \subsection{Telescope}
 \label{sec:telescope} %3.1
@@ -34,6 +33,20 @@ support $\sim10^4$ detectors, arcminute resolution at 800\,GHz, low
 spurious polarization, and low sidelobe response. All
 requirements are met with PICO's 1.4\,m aperture modified open-Dragone
 design. There are no moving parts in the PICO optical system.
+
+\begin{figure}%[ht]
+\parbox{4.0in}{
+\includegraphics[width=4.0in]{images/ArchitectureBlockDiagram.png} }
+\hspace{0.05in}
+\parbox{2.45in}{
+\caption{\captiontext 
+PICO instrument block diagram. Active coolers provide cooling
+  to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the
+  4.5\,K thermal liner that acts as a cold aperture stop. Data from the focal
+  plane flows to (redundant, cross-strapped) warm readout electronics
+  on the spun module of the spacecraft
+  bus.\label{fig:ArchitectureBlockDiagram} }  }
+\end{figure}
 
 The PICO optical design was selected following a trade study examining
 cross-Dragone, Gregorian Dragone, and open-Dragone designs
@@ -209,63 +222,62 @@ has demonstrated 6.2$\times$ lossless compression
 \subsection{Thermal}
 \label{sec:thermal} %3.4
 
-Like the \planck -HFI instrument, PICO's focal plane is maintained at 
-0.1\,K to enable detector operation (\S\,\ref{sec:cadr}). \comblue{sentence not quite correct} 
-To minimize detector noise due to instrument thermal radiation, the aperture
-stop and reflectors are cooled using both active and radiative cooling
-(\S\,\ref{sec:4kcooler}, \S\,\ref{sec:radiative_cooling}, Fig.~\ref{fig:ArchitectureBlockDiagram}).  All
-thermal requirements are met with robust margins
-(Table~\ref{tab:cooler}).
+Like the \planck -HFI instrument, PICO's focal plane is maintained at 0.1~K to ensure low detector noise with straightforward cooling technology (\S\,\ref{sec:cadr}). To minimize detector noise due to instrument thermal radiation, the aperture stop and reflectors are cooled using both active and radiative cooling (\S\,\ref{sec:4kcooler}, \S\,\ref{sec:radiative_cooling}, Fig.~\ref{fig:ArchitectureBlockDiagram}).  All thermal requirements are met with robust margins (Table~\ref{tab:cooler}).
 
 \input tables/table3.3.tex
-
-\begin{figure}[ht]
-\parbox{4.0in}{
-\includegraphics[width=4.0in]{images/ArchitectureBlockDiagram.png} }
-\hspace{0.05in}
-\parbox{2.45in}{
-\caption{\captiontext 
-PICO instrument block diagram. Active coolers provide cooling
-  to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the
-  4.5\,K thermal liner that acts as a cold aperture stop. Data from the focal
-  plane flows to (redundant, cross-strapped) warm readout electronics
-  on the spun module of the spacecraft
-  bus.\label{fig:ArchitectureBlockDiagram} }  }
-\end{figure}
-
 
 \subsubsection{cADR sub-kelvin cooling}
 \label{sec:cadr} %3.4.1
 
-A multi-stage continuous adiabatic demagnetization refrigerator (cADR) maintains the PICO focal plane at 0.1~K and the surrounding enclosure, filter, and readout components at 1~K. The cADR employs three refrigerant assemblies operating sequentially to absorb heat from the focal plane at 0.1~K and reject it to~1~K. Two additional assemblies, also operating sequentially, absorb this rejected heat at~1~K, cool other components to 1~K, and reject heat at~4.5~K. This configuration provides continuous cooling with small temperature variations at both the 0.1~K and 1~K. Heat straps connect the two cADR cold sinks to multiple points on the focal plane assembly \comor{was 'focal plane assembly' defined? isn't it at 0.1K?}, which has high thermal conductance paths built in, to provide spatial temperature uniformity and stability during operation. The detector arrays are thermally sunk to the mounting frame.  Heat loads in the range of 30~$\mu$W at 0.1~K and 1~mW at 1~K (time-average) are within the capabilities of current cADRs developed by GSFC~\citep{Shirron2012,Shirron2016}. The PICO sub-kelvin loads are estimated at less than half of this capability (Table~\ref{tab:cooler}). \comblue{this paragraph doesn't say anything about the maturity of the multiple stage cADR, and about flight heritage. It should, even if to point to later paragraphs} 
+A multi-stage continuous adiabatic demagnetization refrigerator (cADR) maintains the PICO focal plane at 0.1~K and the surrounding enclosure, filter, and readout components at 1~K. The cADR employs three refrigerant assemblies operating sequentially to absorb heat from the focal plane at 0.1~K and reject it to~1~K. Two additional assemblies, also operating sequentially, absorb this rejected heat at~1~K, cool other components to 1~K, and reject heat at~4.5~K. This configuration provides continuous cooling with small temperature variations at both the 0.1~K and 1~K. Heat straps connect the two cADR cold sinks to multiple points on the focal plane assembly \comor{was 'focal plane assembly' defined? isn't it at 0.1K?}, which has high thermal conductance paths built in, to provide spatial temperature uniformity and stability during operation. The detector arrays are thermally sunk to the mounting frame.  Heat loads in the range of 30~$\mu$W at 0.1~K and 1~mW at 1~K (time-average) are within the capabilities of current cADRs developed by GSFC (\S~\ref{sec:heritage})~\citep{Shirron2012,Shirron2016}. The PICO sub-kelvin heat loads are estimated at less than half of this capability (Table~\ref{tab:cooler}). 
+%\comblue{this paragraph doesn't say anything about the maturity of the multiple stage cADR, and about flight heritage. It should, even if to point to later paragraphs.} 
 
-\subsubsection{4 K Cooler}
+\subsubsection{4.5~K Cooler}
 \label{sec:4kcooler} %3.4.2
 
-A cryocooler system similar to that used on JWST to cool the MIRI detectors~\citep{Durand2008,Rabb2013} removes the heat rejected from the cADR and cools the aperture stop and secondary reflector to 4.5~K. Both NGAS (which provided the MIRI coolers) and Ball Aerospace have developed such coolers under the NASA-sponsored Advanced Cryocooler Technology Development Program~\citep{Glaister2006}. \comblue{is there a demonstration of the ball cooler? } NGAS and Ball use slightly different but functionally-equivalent hardware approaches. A 3-stage precooler (acoustic Stirling by NGAS or mechanical Stirling by Ball) provides $\sim16$\,K precooling to a separate circulated-gas loop driven by a similar compressor modified for DC flow \comblue{very technical; is the reader supposed to follow this? is the difference between the ngas and ball relevant?}. The circulated-gas loop utilizes Joule--Thomson (J-T) expansion, further cooling the gas to 4.5~K. The entire precooler assembly and the J-T circulator compressor are located on the warm spacecraft spun module (Fig.~\ref{fig:ArchitectureBlockDiagram}), with relatively short tubing lengths conducting the gas flow from the precooling point to the J-T expansion point. All waste heat rejected by the cooler compressors and drive electronics is transferred to the spacecraft heat rejection system. Unlike JWST, the PICO cooler does not require deployment of the remote cold head.
+A cryocooler system similar to that used on JWST to cool the MIRI detectors~\citep{Durand2008,Rabb2013} removes the heat rejected from the cADR and cools the aperture stop and secondary reflector to 4.5~K. Both NGAS (which provided the MIRI coolers) and Ball Aerospace have developed such coolers under the NASA-sponsored Advanced Cryocooler Technology Development Program~\citep{Glaister2006}. NGAS and Ball use slightly different but functionally-equivalent hardware approaches. 
+A 3-stage precooler provides $\sim16$~K precooling to a separate circulated-gas loop. 
+%driven by a similar compressor but modified for DC flow \comblue{very technical; is the reader supposed to follow this? is the difference between the ngas and ball relevant?}. 
+The circulated-gas loop utilizes Joule--Thomson (J-T) expansion, further cooling the gas to 4.5~K. 
+The J-T expansion point is located close to the cADR heat rejection point, thereby providing the lowest temperature to the cADR. Subsequently, the gas flow intercepts heat conducted to the focal plane enclosure, then cools the aperture stop and the secondary reflector before returning to the circulation compressor.  Model-based projections indicate that the coolers delivered for MIRI could meet the PICO 4.5~K heat lift requirement with more than $100\,\%$ margin (Table~\ref{tab:cooler}) with these straightforward modifications: replacement of the $^4$He gas used for MIRI's J-T  with $^3$He; and resizing the $^3$He heat exchangers to take advantage of the different gas properties. 
 
-The J-T expansion point is located close to the cADR heat rejection point, thereby providing the lowest temperature to the cADR. Subsequent to cooling the cADR, the gas flow intercepts conducted heat to the focal plane enclosure, then cools the aperture stop and the secondary reflector before returning in counterflow to the circulation compressor.  Model-based projections indicate that the coolers delivered for MIRI could meet the PICO 4.5~K heat lift requirement with more than $100\,\%$ margin with minimal changes: the replacement of the $^4$He gas used for MIRI with $^3$He, plus resizing of the gas counterflow heat exchangers to take advantage of the $^3$He properties. \comblue{have we thought through about the change in gas? is it obvious that no other changes will be required as a consequence of the change in gas type?}
+The entire precooler assembly and the J-T circulator compressor are located on the warm spacecraft spun module (Fig.~\ref{fig:ArchitectureBlockDiagram}). 
+%, with relatively short tubing lengths conducting the gas flow from the precooling point to the J-T expansion point. 
+All waste heat rejected by the cooler compressors and drive electronics is transferred to the spacecraft heat rejection system. Unlike JWST, the PICO cooler does not require deployment of the remote cold head.
+
+%A 3-stage precooler (acoustic Stirling by NGAS or mechanical Stirling by Ball) provides $\sim16$~K precooling to a separate circulated-gas loop driven by a similar compressor modified for DC flow \comblue{very technical; is the reader supposed to follow this? is the difference between the ngas and ball relevant?}. The circulated-gas loop utilizes Joule--Thomson (J-T) expansion, further cooling the gas to 4.5~K. The entire precooler assembly and the J-T circulator compressor are located on the warm spacecraft spun module (Fig.~\ref{fig:ArchitectureBlockDiagram}), with relatively short tubing lengths conducting the gas flow from the precooling point to the J-T expansion point. All waste heat rejected by the cooler compressors and drive electronics is transferred to the spacecraft heat rejection system. Unlike JWST, the PICO cooler does not require deployment of the remote cold head.
+
+%The J-T expansion point is located close to the cADR heat rejection point, thereby providing the lowest temperature to the cADR. Subsequent to cooling the cADR, the gas flow intercepts conducted heat to the focal plane enclosure, then cools the aperture stop and the secondary reflector before returning in counterflow to the circulation compressor.  Model-based projections indicate that the coolers delivered for MIRI could meet the PICO 4.5~K heat lift requirement with more than $100\,\%$ margin with minimal changes: the replacement of the $^4$He gas used for MIRI with $^3$He, plus resizing of the gas counterflow heat exchangers to take advantage of the $^3$He properties. \comblue{have we thought through about the change in gas? is it obvious that no other changes will be required as a consequence of the change in gas type?}
 
 \begin{figure}
 \parbox{3.5in}{\centering 
-\includegraphics[width=3in]{figures/CoolerFigure.png} }
+\includegraphics[width=2.6in]{figures/CoolerFigure.png} }
 \parbox{3.0in}{
 \caption{\captiontext 
-  Projected performance of the NGAS cooler using a multi-stage
-  compressor and $^4$He \citep{Rabb2013} meets PICO's requirements
-  with $>100\,\%$ margin. PICO conservatively carries additional input
-  power contingency on the efficiency of the
-  cooler.\label{fig:CoolerFigure}} }
+Projected performance of the NGAS cooler using a multi-stage
+compressor and $^4$He circulating gas~\citep{Rabb2013} meets PICO's requirements
+with $>100\,\%$ margin. PICO requires heat lift of 42 mW at 4.5~K (Table~\ref{tab:cooler}). With 250~W of input power the NGAS cooler is projected to provide 100~mW of heat lift. We conservatively specify a maximum expected value (MEV) of 350~W as the compressor's input power, giving 100~W of additional input power contingency.
+  \label{fig:CoolerFigure}} }
+\vspace{-0.15in}
 \end{figure}
 
-It is highly likely that a better solution will be available before Phase~A. \comblue{why do we need a better solution? do you mean a cooler with even larger margin?} NGAS and Ball are actively working on increasing the flow rate and compression ratio of the J-T compressor, which should result in significantly higher system efficiency, and in greater heat-lift margin above the PICO requirement. These improvements entail the implementation of well-known techniques (standard thermal engineering) \comblue{what does this sentence mean?}. The NGAS multi-stage J-T compressor has completed PDR-level development, and is expected to reach CDR level well before needed for PICO. Projected performance is shown in Fig.~\ref{fig:CoolerFigure}. The Ball approach started with a larger compressor, required less modification to achieve comparable performance, and eliminated the cold bypass-precooling valve that was problematic for MIRI. \comblue{must we mention problematic valves?} The Ball approach uses $^3$He, while the NGAS approach uses $^4$He. Both employ re-optimized gas heat exchangers (trivial engineering changes). \comblue{what does this mean?}
+There is a second approach that will meet the PICO requirements without assuming modifications of the MIRI cooler. 
+NGAS and Ball are actively working on increasing the flow rate and compression ratio of the J-T compressor,  which should result in significantly higher system efficiency, and in greater heat-lift margin above the PICO requirement. NGAS uses $^4$He as the circulating gas, as was used for MIRI. Ball uses a somewhat larger compressor and $^3$He as the circulating gas. Both employ re-optimized heat exchangers 
+The NGAS project has completed PDR-level development, and is expected to reach CDR well before PICO begins Phase-A. The projected performance of this cooler is shown in Fig.~\ref{fig:CoolerFigure}; it gives more than 100\% heat lift at 250~W input power. For PICO we assumed an input power of 350~W. 
+
+%which requires less modification to achieve comparable performance,
+%These improvements entail the implementation of well-known techniques (standard thermal engineering) \comblue{what does this sentence mean?}. 
+%The NGAS project has completed PDR-level development, and is expected to reach CDR level well before PICO begins PhaseA. The projected performance of this cooler is shown in Fig.~\ref{fig:CoolerFigure}; it gives more than 100\% heat lift at 250~W input power. For PICO we assumed a maximum expected input power of 350~W. The Ball approach started with a larger compressor, required less modification to achieve comparable performance, and eliminated the cold bypass-precooling valve that was problematic for MIRI. \comblue{must we mention problematic valves?} The Ball approach uses $^3$He, while the NGAS approach uses $^4$He. Both employ re-optimized gas heat exchangers (trivial engineering changes). \comblue{what does this mean?}
+
+%It is highly likely that a better solution will be available before Phase~A. \comblue{why do we need a better solution? do you mean a cooler with even larger margin?} NGAS and Ball are actively working on increasing the flow rate and compression ratio of the J-T compressor, which should result in significantly higher system efficiency, and in greater heat-lift margin above the PICO requirement. These improvements entail the implementation of well-known techniques (standard thermal engineering) \comblue{what does this sentence mean?}. The NGAS multi-stage J-T compressor has completed PDR-level development, and is expected to reach CDR level well before needed for PICO. Projected performance is shown in Fig.~\ref{fig:CoolerFigure}. The Ball approach started with a larger compressor, required less modification to achieve comparable performance, and eliminated the cold bypass-precooling valve that was problematic for MIRI. \comblue{must we mention problematic valves?} The Ball approach uses $^3$He, while the NGAS approach uses $^4$He. Both employ re-optimized gas heat exchangers (trivial engineering changes). \comblue{what does this mean?}
 
 
 \subsubsection{Radiative cooling}
 \label{sec:radiative_cooling} %3.4.3
 
-A set of four V-groove radiators provides passive cooling. The outermost of the four V-groove shields shadows the interior shields from the Sun. The V-grooves radiate to space, each reaching successively cooler temperatures. \comblue{can we be quantitative?} The V-groove assembly provides a cold radiative environment to the primary reflector, structural ring, and telescope box, so radiative loads on those elements are smaller than the conductive loads through the mechanical support structures.
-\comblue{shouldn't we show evidence that say radiative cooling has been worked out successfully before.? }
+A set of four V-groove radiators provides passive cooling. This is standard technology, with origins dating to more than 30 years ago~(\S~\ref{sec:heritage}). The outermost of the four V-groove shields shadows the interior shields from the Sun. The V-grooves radiate to space, each reaching successively cooler temperatures. \comblue{can we be quantitative?} The V-groove assembly provides a cold radiative environment to the primary reflector, structural ring, and telescope box, so radiative loads on those elements are smaller than the conductive loads through the mechanical support structures. 
+%\comblue{shouldn't we show evidence that say radiative cooling has been worked out successfully before.? }
+
 
 \subsection{Instrument integration and test}
 \label{sec:iandt} % 3.5
@@ -294,7 +306,6 @@ from the instrument, noise, microphonics, and radio-frequency
 interference (RFI). The observatory is 4.5\,m in diameter and 6.1\,m
 tall, with no deployables.
 
-\bigskip
 %\newpage
 \section{Design reference mission}
 \label{sec:design_reference} %4
