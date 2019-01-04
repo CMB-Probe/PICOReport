@@ -7,10 +7,12 @@
 \begin{figure}
 \begin{center}
 \includegraphics[width=6.25in]{figures/InstrumentCAD.png}
+\vspace{-0.1in}
 \caption{\captiontext 
 Detailed PICO instrument configuration. \textit{Left}: Side view in cross section. \textit{Right}: Front view with V-Groove assembly shown semi-transparent.  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics.
 \label{fig:InstrumentCAD}}
 \end{center}
+\vspace{-0.15in}
 \end{figure}
 
 PICO meets all of its science-derived instrument requirements (Table~\ref{tab:STM}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz. The instrument is built around a two-reflector Dragone-style telescope (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the primary and secondary. The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). The instrument employs a single science observing mode: fixed rate imaging while scanning the sky. \comblue{add section?}
@@ -262,7 +264,7 @@ with $>100\,\%$ margin. PICO requires heat lift of 42 mW at 4.5~K (Table~\ref{ta
 \end{figure}
 
 There is a second approach that will meet the PICO requirements without assuming modifications of the MIRI cooler. 
-NGAS and Ball are actively working on increasing the flow rate and compression ratio of the J-T compressor,  which should result in significantly higher system efficiency, and in greater heat-lift margin above the PICO requirement. NGAS uses $^4$He as the circulating gas, as was used for MIRI. Ball uses a somewhat larger compressor and $^3$He as the circulating gas. Both employ re-optimized heat exchangers 
+NGAS and Ball are actively working on increasing the flow rate and compression ratio of the J-T compressor,  which should result in significantly higher system efficiency, and in greater heat-lift margin above the PICO requirement. NGAS uses $^4$He as the circulating gas, as was used for MIRI. Ball uses a somewhat larger compressor and $^3$He as the circulating gas. Both employ re-optimized heat exchangers. 
 The NGAS project has completed PDR-level development, and is expected to reach CDR well before PICO begins Phase-A. The projected performance of this cooler is shown in Fig.~\ref{fig:CoolerFigure}; it gives more than 100\% heat lift at 250~W input power. For PICO we assumed an input power of 350~W. 
 
 %which requires less modification to achieve comparable performance,
@@ -599,13 +601,7 @@ measurements of each planet only once every 6\,months, demonstrated 0.8\,arcsec 
 \section{Technology Maturation}
 \label{sec:technology_maturation} %5
 
-PICO builds off of the heritage of \textit{Planck} HFI and
-\textit{Herschel}.  Since \textit{Planck} and \textit{Herschel},
-suborbital experiments have used monolithically fabricated TES
-bolometers and multiplexing schemes to field instruments with
-thousands of detectors per camera (Fig.~\ref{fig:spt_fp}). By the
-time PICO enters Phase~A, the Simons Observatory plans to be operating
-60\,000 detectors \citep{Simons2018}.
+PICO builds off of the heritage of \planck-HFI and \textit{Herschel}.  Since \planck\ and \textit{Herschel}, suborbital experiments have used monolithically fabricated TES bolometers and multiplexing schemes to field instruments with thousands of \ac{TES} bolometers per camera (Fig.~\ref{fig:spt_fp}). By the time PICO enters Phase~A, the Simons Observatory plans to be operating 60,000 \ac{TES} bolometers~\citep{Simons2018}. 
 
  The remaining technology developments required to enable the PICO baseline design are:
 \begin{enumerate}
@@ -615,8 +611,7 @@ time PICO enters Phase~A, the Simons Observatory plans to be operating
 \item Expansion of time-division multiplexing to support 128 switched rows per readout column (\S\,\ref{sec:multiplexing}).
 %\item Simulation software (\S\,\ref{sec:simulation}). {\color{red}Shaul to fill this in.}
 \end{enumerate}
-We recommend APRA and SAT support to complete development of these
-technologies through the milestones described in Table~\ref{tab:technologies}.
+All of these developments are straightforward extensions of technologies already available today.  We recommend APRA and SAT support to complete development of these technologies through the milestones described in Table~\ref{tab:technologies}.
 
 
 % ------
@@ -648,23 +643,7 @@ technologies through the milestones described in Table~\ref{tab:technologies}.
 \subsection{21--462\,GHz Bands}
 \label{sec:bolometers} %5.1
 
-Suborbital teams have successfully demonstrated a variety of optical
-coupling schemes, including horns with ortho-mode transducers (OMTs),
-lithographed antenna arrays, and sinuous antennas under lenslets \cite[e.g.,][]{Abitbol2017}.
-%(Fig.~\ref{fig:OpticalCoupling}). 
-All have achieved background-limited
-performance in suborbital instruments with sufficient margin on design
-parameters to achieve this performance in the more demanding low
-background at L2. All have been packaged into modules and focal plane
-units in working cameras representative of the PICO integration.
-Experiments have covered many of PICO's observing bands between
-27\,GHz and 270\,GHz (Table~\ref{tab:suborbital1}). 
-To date, suborbital experiments have achieved statistical map depths
-of 3\,$\mu$K$_{\rm CMB}$\,arcmin on degree-scaled modes over small
-parts of the sky, within an order of magnitude of what PICO achieves over the entire
-sky (Table~\ref{tab:bands}), and have demonstrated systematic control
-better than this level through full-pipeline simulations and null-test analysis
-(jackknife tests). 
+Suborbital teams have successfully demonstrated a variety of optical coupling schemes, including horns with ortho-mode transducers (OMTs), lithographed antenna arrays, and sinuous antennas under lenslets (Table~\ref{tab:suborbital1}). All have achieved background-limited performance in suborbital instruments with sufficient margin on design parameters to achieve this performance in the lower background environment at L2. All have been packaged into modules and focal plane units in working cameras representative of the PICO integration. Experiments have covered many of PICO's observing bands between 27\,GHz and 270\,GHz (Table~\ref{tab:suborbital1}).  To date, suborbital experiments have achieved statistical map depths of 3\,$\mu$K$_{\rm CMB}$\,arcmin on degree-scaled modes over small parts of the sky, within an order of magnitude of what PICO achieves over the entire sky (Table~\ref{tab:bands}), and have demonstrated systematic control better than this level through full-pipeline simulations and null-test analysis (jackknife tests). 
 % Other experiments have
 % successfully deployed two-color pixels. All of these detector arrays
 % have been packaged into modules and focal plane units in working
@@ -673,14 +652,8 @@ better than this level through full-pipeline simulations and null-test analysis
 \input tables/table5.1.tex
 %\costfootnote
 
-The baseline PICO instrument requires three-color dual-polarized
-antenna-coupled bolometers covering bands from 21 to 462\,GHz 
-(\S\,\ref{sec:low_freq_det}.  The sinuous antenna has the
-bandwidth to service three colors per pixel, whereas horns and antenna
-arrays have only been used for two, so some version of the sinuous
-antenna will likely be needed to realize three-color pixels.  SPT-3G
-has used the PICO-baselined three-color pixel design to deploy 16,260
-detectors covering 90--150--220\,GHz \citep{Dutcher2018}.
+The baseline PICO instrument requires three-color dual-polarized antenna-coupled bolometers covering bands from 21 to 462\,GHz 
+(\S\,\ref{sec:low_freq_det}.  The sinuous antenna has the bandwidth to service three bands per pixel, whereas horns and antenna arrays have only been used for two. Our baseline is to use a three-band sinuous antenna, although we have a design for PICO that uses two-bands per pixel and has the same baseline noise as PICO. It has a total of 19 bands instead of PICO's 21. SPT-3G has used the PICO-baselined three-color pixel design to deploy 16,260 detectors covering 90--150--220\,GHz~\citep{Dutcher2018}.
 
 The extension to lower frequencies requires larger antennas and
 therefore control of film properties and lithography over larger
@@ -716,48 +689,19 @@ two-color horn-coupled pixels.
     \begin{center}
     \includegraphics[width=2.5in]{figures/DirectAbsorbing.png}
     \caption{\captiontext 
-      Direct-absorbing dual-polarized detectors and coupling horns used in \textit{Planck} for 143--343\,GHz bands.\label{fig:DirectAbsorbing}}
+Top: \planck\ used horns to couple the electromagnetic radiation to its detectors. Horn coupling has been used in other experiments, and is the baseline for PICO's coupling between 555 and 799~GHz. Bottom: The photograph shows a dual-polarization, direct-absorbing bolometer from BICEP. The technology was also used with SPT-Pol and \planck-HFI for 143--343\,GHz bands.
+\label{fig:DirectAbsorbing} }
     \end{center}
   \end{minipage}
 \end{figure}
 
-% \begin{figure}
-% \begin{center}
-% \includegraphics[width=3in]{figures/OpticalCoupling.png}
-% \caption{Multiple demonstrated optical coupling schemes are available
-%   to PICO. Images from CMB-S4 Technology Book
-%   \citep{Abitbol2017}.\label{fig:OpticalCoupling}}
-% \end{center}
-% \end{figure}
 
-% \begin{figure}
-% \begin{center}
-% \includegraphics[width=3in]{figures/DirectAbsorbing.png}
-% \caption{Direct-absorbing dual-polarized detectors and coupling horns used in \textit{Planck} for 143--343\,GHz bands.\label{fig:DirectAbsorbing}}
-% \end{center}
-% \end{figure}
-
-\subsection{555--799\,GHz Bands}
+\subsection{555--799\,GHz bands}
 \label{sec:dev_arrays}
 
-The baseline PICO instrument requires single-color dual-polarized
-direct-absorbing bolometers from 555 to 799\,GHz
-(\S\,\ref{sec:high_freq_det}).  \textit{Planck} and \textit{Herschel}
-demonstrated the architecture of horns coupled to direct absorbing
-bolometers (Fig.~\ref{fig:DirectAbsorbing}).  Ground experiments with
-similar designs have deployed focal planes with hundreds of
-horn-coupled spiderweb bolometers, replacing the \textit{Planck} and
-\textit{Herschel} NTD-Ge thermistors with TESs, and adjusting time
-constants as necessary (Table~\ref{tab:suborbital2}). \textit{Planck}
-HFI and SPT-pol 90 demonstrated dual-polarized
-detectors. \textit{Herschel} and SPT-SZ demonstrated monolithic
-unpolarized detectors. PICO will require detectors that merge these
-two designs in monolithic dual-polarized arrays. The greatest
-remaining challenge is the low risk development of a packaging
-design. Filled arrays of detectors such as Backshort Under Ground
-(BUG) bolometers are also an option \citep{Staguhn2006}.
+The baseline PICO instrument requires single-color, horn-coupled, dual-polarization, direct-absorbing bolometers from 555 to 799\,GHz (\S\,\ref{sec:high_freq_det}).  \planck and \textit{Herschel} demonstrated the architecture of horns coupled to direct absorbing bolometers (Fig.~\ref{fig:DirectAbsorbing}).    Ground experiments with similar designs have deployed focal planes with hundreds of horn-coupled spiderweb bolometers, replacing the \textit{Planck} and \textit{Herschel} NTD-Ge thermistors with TESs, and adjusting time constants as necessary (Table~\ref{tab:suborbital2}). \planck -HFI, SPT-pol, and BICEP demonstrated dual-polarized detectors. \textit{Herschel} and SPT-SZ demonstrated monolithic unpolarized detectors. PICO will require detectors that merge these two designs in monolithic dual-polarized arrays. Since all the components of the technology already exist, the remaining necessary development is the packaging. Filled arrays of detectors such as Backshort Under Ground (BUG) bolometers are also an option~\citep{Staguhn2006}.
 
-
+%The greatest remaining challenge is the low risk development of a packaging design.
 
 \subsection{Environmental Testing}
 \label{sec:env_testing}
@@ -804,70 +748,11 @@ aliasing will be limited to 15\,\%.  The system engineering study will
 culminate in a demonstration of TDM-128$\times$ SQUID aliased noise
 below PICO detector sensitivity requirements.
 
-% \subsection{Simulation}
-% \label{sec:simulation}
-
-% {\color{red} Shaul to write/delegate this section.}
-
-% \subsubsection{Readout electronics status}
-% \label{sec:readout_status} %5.1.2
-
 
 \input tables/table5.2.tex
 \input tables/table5.3.tex
 
-% \begin{table}
-% \begin{center}
-% \caption{\captiontext 
-% Multiple active suborbital efforts are advancing technologies relevant to PICO.\label{tab:suborbital}}
-% %\includegraphics{tables/tab_suborbital.pdf}
-% \scriptsize\rmfamily
-% \begin{tabular}{lccccccp{0.75in}c}
-% \hline\noalign{\vskip3pt}
-% Project&Type&Polarized&Mono-&$\nu_c$&Colors&$N_{\rm bolo}$&Significance&Reference\\
-%            &       &              &lithic?  &[GHz]&per pixel&\\
-% \noalign{\vskip3pt}\hline\noalign{\vskip3pt}
-% PICO low frequency&Probe&Yes&Yes&21 -- 462&Three&11,796&&\S\,\ref{sec:low_freq_det}\\
-% SPT-3G&Ground&Yes&Yes&90 -- 220&Three&16,260&Trichroic&\cite{Dutcher2018}\\
-% Advanced ACT-pol&Ground&Yes&Yes&27 -- 230&Two&3,072&Dichroic&\cite{Li2018}\\
-% BICEP/Keck&Ground&Yes&Yes&90 -- 270&One&5,120&50\,nK-deg&\cite{bicep_keck2018}\\
-% Berkeley, Caltech, NIST&Lab&Yes&Yes&30 -- 270&Two&--&Band coverage&\cite{Westbrook2016,Hui2018,Simon2018}\\
-% SPIDER&Balloon&Yes&Yes&90 -- 150&One&2,400&Stable to 10\,mHz&\cite{Rahlin2014}\\
-% \noalign{\vskip3pt}\hline\noalign{\vskip3pt}
-% PICO high frequency&Probe&Yes&Yes&555 -- 799&One&1,200&&\S\,\ref{sec:high_freq_det}\\
-% Planck HFI&Flight&Yes*&No&143 -- 857&One&48&TRL 9 absorbing bolometers&\cite{Turner2001}\\
-% SPT-SZ&Ground&No&Yes&90 -- 220&One&840&Monolithic array TESs&\cite{Shirokoff2011}\\
-% SPT-pol-90&Ground&Yes&No&90&One&180&Dual pol absorbing TESs&\cite{Sayre2012}\\
-% \noalign{\vskip3pt}\hline
-% \end{tabular}
-% \vskip5pt {\scriptsize * 143--343\,GHz only}
-% \end{center}
-% \end{table}
 
-% \subsection{Development plan}
-% \label{sec:development_plan}  %5.2
-
-% \subsubsection{Detector development}
-% \label{sec:detector_development} %5.2.1
-
-% .
-
-% \textit{Planck} demonstrated the architecture of horns coupled to
-% direct absorbing bolometers. For PICO's high frequency detectors, this
-% only needs to be generalized to dual polarized arrays. The greatest
-% remaining challenge is the low risk development of a packaging
-% design. Such prototyping could culminate in a field demonstration,
-% best performed in a balloon.
-
-
-% A plan to accomplish all required development is described in rows 1--4 of Table~\ref{tab:technologies}.
-
-
-% \subsubsection{Readout electronics development}
-% \label{sec:readout_development} %5.2.2
-
-
-% A plan to accomplish the required development is described in rows 5 and 6 of Table~\ref{tab:technologies}.
 
 \subsection{Technology Descopes}
 \label{sec:technology_descopes} %5.3
