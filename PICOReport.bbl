@@ -3025,6 +3025,11 @@ R.~G. {Ross}, ``{Estimation of thermal conduction loads for structural supports
   \url{https://ui.adsabs.harvard.edu/#abs/2004Cryo...44..421R}
 \BIBentrySTDinterwordspacing
 
+\bibitem[{Petach} and {Michaelian}(2014)]{Petach2014}
+M.~{Petach} and M.~{Michaelian}, ``{Mid InfraRed Instrument} ({MIRI}) cooler
+  cold head assembly acceptance testing and characterization,''
+  \emph{Cryocoolers}, vol.~18, p.~11, 2014.
+
 \bibitem[{Shirron} et~al.(2012){Shirron}, {Kimball}, {Fixsen}, {Kogut}, {Li},
   and {DiPirro}]{Shirron2012}
 \BIBentryALTinterwordspacing
@@ -3353,22 +3358,6 @@ D.~{Dutcher}, P.~A.~R. {Ade}, Z.~{Ahmed} \emph{et~al.}, ``{Characterization and
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}, vol.
   10708, Jul. 2018, p. 107081Z. Retrieved from:
   \url{https://ui.adsabs.harvard.edu/#abs/2018SPIE10708E..1ZD}
-\BIBentrySTDinterwordspacing
-
-\bibitem[{Abitbol} et~al.(2017){Abitbol}, {Ahmed}, {Barron}, {Basu Thakur},
-  {Bender}, {Benson}, {Bischoff}, {Bryan}, {Carlstrom}, {Chang}, {Chuss},
-  {Crowley}, {Cukierman}, {de Haan}, {Dobbs}, {Essinger-Hileman}, {Filippini},
-  {Ganga}, {Gudmundsson}, {Halverson}, {Hanany}, {Henderson}, {Hill}, {Ho},
-  {Hubmayr}, {Irwin}, {Jeong}, {Johnson}, {Kernasovskiy}, {Kovac}, {Kusaka},
-  {Lee}, {Maria}, {Mauskopf}, {McMahon}, {Moncelsi}, {Nadolski}, {Nagy},
-  {Niemack}, {O'Brient}, {Padin}, {Parshley}, {Pryke}, {Roe}, {Rostem}, {Ruhl},
-  {Simon}, {Staggs}, {Suzuki}, {Switzer}, {Tajima}, {Thompson}, {Timbie},
-  {Tucker}, {Vieira}, {Vieregg}, {Westbrook}, {Wollack}, {Yoon}, {Young}, and
-  {Young}]{Abitbol2017}
-\BIBentryALTinterwordspacing
-M.~H. {Abitbol}, Z.~{Ahmed}, D.~{Barron} \emph{et~al.}, ``{CMB-S4 Technology
-  Book, First Edition},'' \emph{arXiv e-prints}, Jun. 2017. Retrieved from:
-  \url{http://adsabs.harvard.edu/abs/2017arXiv170602464A}
 \BIBentrySTDinterwordspacing
 
 \bibitem[{Staguhn} et~al.(2006){Staguhn}, {Benford}, {Allen}, {Moseley},
