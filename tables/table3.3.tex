@@ -1,10 +1,10 @@
 \begin{table}[tb]
-\caption{\captiontext Projected cooler heat lift capabilities offer  more than $100\,\%$ heat lift margin, complying with space technology best practices~\citep{Donabedian2003}. The cADR lift capability at 1\,K and 0.1\,K is from a Goddard quote. Both NGAS and Ball project $>100$\,mW lift capability at $4.5\,$K using higher compression-ratio compressors currently in development (\S\,\ref{sec:4kcooler}). The required loads were calculated using Thermal Desktop. Reference \citep{Ross2004} was used to estimate the thermal conductive loads through mechanical supports. In addition to the listed components, the total 4.5\,K heat load includes the intercept on the focal plane mechanical supports.\label{tab:cooler}}
+\caption{\captiontext Projected cooler heat lift capabilities offer  more than $100\,\%$ heat lift margin, complying with space technology best practices~\citep{Donabedian2003}.\label{tab:cooler}}
 \begingroup
 %\openup 5pt
 \newdimen\tblskip \tblskip=5pt
 \nointerlineskip
-\vskip -3mm
+\vskip -5mm
 \footnotesize %\footnotesize
 \setbox\tablebox=\vbox{
     \newdimen\digitwidth
@@ -19,26 +19,35 @@
     \catcode`!=\active
     \def!{\kern\signwidth}
 %
-\halign{
-\hbox to 1.8in{#\leaderfil}\tabskip=0.6em&
-\hfil#\hfil&
-\hfil#\hfil&
-\hfil#\hfil&
+\halign to \textwidth{
+\hbox to 2.5in{#\leaderfil}\tabskip=1em plus 1em&
+\hfil#\hfil\tabskip=1em&
+\hfil#\hfil\tabskip=1.5em plus1em&
+\hfil#\hfil\tabskip=1em&
 \hfil#\hfil&
 \hfil#\hfil\tabskip=0pt\cr
 \noalign{\doubleline}
-\omit&$T$ (req'd)&$T$ (CBE)&\multispan3 \hfil Active heat lift\hfil\cr
-\omit\hfil Component\hfil&\omit&\omit&Req'd&Capability&Projected\cr
-\omit&\omit&\omit&per model&today&capability\cr
+\omit&\multispan2 Temperature [K]&\multispan3 \hfil Active Heat Lift [mW]\hfil\cr
+\noalign{\vskip -3pt}
+\omit&\multispan2\hrulefill&\multispan3\hrulefill\cr
+\omit\hfil Component\hfil&Required&CBE&Required&Capability&Projected\cr
+\omit&\omit&\omit&per model$^{a}$&today&capability\cr
 \noalign{\vskip 3pt\hrule\vskip 5pt}
-Primary reflector & $< 40$\,K & $17$\,K & \multispan3\hfil N/A (radiatively cooled) \hfil\cr
-Secondary reflector & $<8$\,K\cr\noalign{\vskip-1em}
-Aperture stop& $4.5$\,K &$\Biggr\}$4.5\,K&\vbox to 1em{\hbox{42\,MW total}\hbox{at 4.5\,K}}&--&\vbox to 1em{\hbox{$>100$\,mW}\hbox{ (\S\,\ref{sec:4kcooler}, Fig.~\ref{fig:CoolerFigure})}}\cr\noalign{\vskip-1em}
-cADR heat rejection & $4.5$\,K\cr
-Focal plane enclosure and filter&$1.0$\,K&$1.0$\,K&$0.36$\,mW&$1.0$\,mW&--\cr
-Focal plane&$0.1$\,K&$0.1$\,K&$5.7$\,$\mu$W&$32$\,$\mu$W&--\cr
+{\color{blue}Primary reflector}& $< 40$& $17$& \multispan3\hfil {\color{blue}N/A (radiatively cooled)} \hfil\cr
+\noalign{\vskip 3pt\hrule\vskip 3pt}
+Secondary reflector & $<8$&$4.5$\cr%\noalign{\vskip-1em}
+Aperture stop& $4.5$&$4.5$&$42$ at 4.5\,K&$> 55$ at 6.2\,K$^{b}$&$>100$ at 4.5\,K$^{c}$\cr%\noalign{\vskip-1em}
+cADR heat rejection$^{d}$ & $4.5$&$4.5$\cr
+\noalign{\vskip 3pt\hrule\vskip 3pt}
+Focal plane enclosure and filter&$1.0$&$1.0$&$0.36$&$1.0$&--\cr
+\noalign{\vskip 3pt\hrule\vskip 3pt}
+Focal plane&$0.1$&$0.1$&$5.7\times10^{-3}$&$32\times10^{-3}$&--\cr
 \noalign{\vskip 5pt\hrule\vskip 3pt}
 } % close halign
+\hangafter=1\hangindent=1em\noindent\strut\hbox to 1em{$^{a}$}The required loads were calculated using Thermal Desktop. Reference \citep{Ross2004} was used to estimate the thermal conductive loads through mechanical supports. In addition to the listed components, the total 4.5\,K heat load includes the intercept on the focal plane mechanical supports.\par
+\hangafter=1\hangindent=1em\noindent\strut\hbox to 1em{$^{b}$}Reference \cite{Petach2014}.\par
+\hangafter=1\hangindent=1em\noindent\strut\hbox to 1em{$^{c}$}Both NGAS and Ball project $>100$\,mW lift capability at $4.5\,$K using higher compression-ratio compressors currently in development (\S\,\ref{sec:4kcooler} and Fig.~\ref{fig:CoolerFigure}).\par
+\hangafter=1\hangindent=1em\noindent\strut\hbox to 1em{$^{d}$}The cADR lift capability at 1\,K and 0.1\,K is from a Goddard quote.\par
 } % close vbox
 \endPlancktable
 \endgroup
