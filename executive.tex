@@ -39,6 +39,20 @@ PICO will give 21 full-sky maps of intensity and polarization, each much deeper 
 
 With its broad frequency coverage PICO is better equipped than any other current or foreseeable instrument to separate the detected signals to their original sources of emission.  This capability is most important for the faintest of signals, the telltale of inflation, which is already known to be dominated by Galactic foregrounds. Our simulations indicate that PICOs combination of low noise and multitude of bands is sufficient to separate the inflationary signal from the foregrounds at the required level. But current uncertainties on the parameters characterizing Galactic foregrounds are large and we recommend support for (1) modeling, simulation, and algorithm development for effective foreground separation, and (2) improved Galactic emission measurements with sub-orbital experiments. 
 
+% [TJP] ------------------------
+% [TJP] The Science Traceability Matrix goes here. The table is in stm.tex, but the following LaTeX invocation makes it appear on a double-wide page
+\afterpage{%
+  % switch to LayoutPageB (includes switching page size)
+  \switchToLayoutPageB{}
+    \input stm.tex
+   \clearpage
+% start with LayoutPageA (includes switching page size)
+\switchToLayoutPageA{}
+% \input stm2.tex  stm2 moved to Legacy science section. (Karl)
+% \clearpage
+}
+% [TJP] end --------------------
+
 Similar to its successful predecessors, WMAP and \planck , PICO will conduct observations from L2, a location that ensures stable thermal environment.  It will execute 10 redundant,  full-sky surveys, each complete within 6 months. The sky scan pattern, which is optimized for control of polarimetric systematic uncertainties, ensures that the measured $I,\, Q$, and $U$ Stokes parameters can be reconstructed by each of the 12,996 polarization sensitive detectors. The combination of large multiplicity of independent maps, sky surveys, and stable environment will give control of systematic uncertainties unmatched by any other platform. We recommend support for more detailed studies of systematic effects, specifically through end-to-end simulations. 
 
 The mission has a single instrument that surveys the sky with the same repeated pattern.  The telescope is a 1.4~m entrance-aperture, two-reflector system, with ambient temperature primary, and 4.5~K actively cooled aperture-stop and secondary. The 0.1~K cooled focal plane is based on 3-color pixels coupling the incident radiation to transition edge sensor bolometers that are read out using a time-domain multiplexed system. All of these technologies are either already in use by sub-orbital experiments, or are simple extensions to higher or lower frequency bands. We recommend continued support for technology development and maturation in the laboratory and by sub-orbital experiments. 
