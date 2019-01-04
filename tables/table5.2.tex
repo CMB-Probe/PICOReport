@@ -6,7 +6,7 @@
 %\openup 5pt
 \newdimen\tblskip \tblskip=5pt
 \nointerlineskip
-\vskip -3mm
+\vskip -5mm
 \footnotesize %\footnotesize
 \setbox\tablebox=\vbox{
     \newdimen\digitwidth
@@ -21,8 +21,8 @@
     \catcode`!=\active
     \def!{\kern\signwidth}
 %
-\halign{
-\hbox to 1.2in{#\leaderfil}\tabskip=0.6em&
+\halign to \textwidth{
+\hbox to 1.2in{#\leaderfil}\tabskip=0.6em plus 0.6em&
 \hfil#\hfil&
 \hfil#\hfil&
 \hfil#\hfil&
