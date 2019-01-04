@@ -39,8 +39,8 @@ design. There are no moving parts in the PICO optical system.
 \begin{figure}%[ht]
 \parbox{4.0in}{
 \includegraphics[width=4.0in]{images/ArchitectureBlockDiagram.png} }
-\hspace{0.05in}
-\parbox{2.45in}{
+\hspace{0.1in}
+\parbox{2.3in}{
 \caption{\captiontext 
 PICO instrument block diagram. Active coolers provide cooling
   to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the
@@ -631,14 +631,13 @@ All of these developments are straightforward extensions of technologies already
 % TES bolometers and multiplexing schemes to field instruments with
 % thousands of detectors per camera (Table~\ref{tab:suborbital})
 
-\begin{figure}[b]
-\parbox{3.5in}{\centering
-\includegraphics[width=3in]{figures/SPT3G.jpg} }
-\parbox{3.0in}{
-\caption{\captiontext 
-  SPT-3G operates a focal plane with sinuous antenna-coupled, three-band pixels with 16,000 bolometers~\citep{Dutcher2018}. Each pixel couples radiation to bands at 90, 150, and 220~GHz. 
-  \label{fig:spt_fp} } }
-\end{figure}
+% \begin{wrapfigure}{R}{0.3\textwidth}  % r is right aligned, l is left. Capital letters allow figure to float on page.
+% \includegraphics[width=0.30\textwidth]{figures/SPT3G.jpg}
+% \vspace{-0.25in}
+% \caption{\captiontext SPT-3G operates a focal plane with sinuous antenna-coupled, three-band pixels with 16,000 bolometers~\citep{Dutcher2018}. Each pixel couples radiation to bands at 90, 150, and 220~GHz.\label{fig:pico_rendered} }
+% \end{wrapfigure}
+
+
 
 
 \subsection{21--462\,GHz Bands}
@@ -660,16 +659,23 @@ The extension to lower frequencies requires larger antennas and therefore contro
 
 The direction of polarization sensitivity of the sinuous antenna varies with frequency. Over 25\% bandwidth, the variation is approximately $\pm 5$~deg. \comor{check} There are potential solutions to this in the focal plane design, analysis, and free parameters of the antenna geometry.  Systematics studies for field demonstrations will be particularly important. The PICO concept is robust to any challenges in developing three-color pixels; \S\,\ref{sec:technology_descopes} describes an option to descope to two-color horn-coupled pixels.
 
+% \begin{wrapfigure}{L}{0.3\textwidth}  % r is right aligned, l is left. Capital letters allow figure to float on page.
+% \includegraphics[width=0.40\textwidth]{figures/DirectAbsorbing.png}
+% \vspace{-0.25in}
+% \caption{\captiontext Top: \planck\ used horns to couple the electromagnetic radiation to its detectors. Horn coupling has been used in other experiments, and is the baseline for PICO's coupling between 555 and 799~GHz. Bottom: The photograph shows a dual-polarization, direct-absorbing bolometer from BICEP. The technology was also used with SPT-Pol and \planck-HFI for 143--343\,GHz bands.
+% \label{fig:DirectAbsorbing} }
+% \end{wrapfigure}
+
 \begin{figure}
-  % \begin{minipage}[b]{0.475\textwidth}
-  %   \begin{center}
-  %   \includegraphics[width=2.5in]{figures/OpticalCoupling.png}
-  %   \caption{\captiontext 
-  %     Multiple demonstrated optical coupling schemes are available   to PICO. Images from CMB-S4 Technology Book   \citep{Abitbol2017}.\label{fig:OpticalCoupling}}
-  %  \end{center}
-  % \end{minipage}
-  % %
-  % \hfill
+\begin{minipage}[b]{0.475\textwidth}
+  \begin{center}
+  \includegraphics[width=2.5in]{figures/SPT3G.jpg} 
+  \caption{\captiontext 
+  SPT-3G operates a focal plane with sinuous antenna-coupled, three-band pixels with 16,000 bolometers~\citep{Dutcher2018}. Each pixel couples radiation to bands at 90, 150, and 220~GHz. 
+  \label{fig:spt_fp} } 
+  \end{center}
+ \end{minipage}
+ \hfill
   \begin{minipage}[b]{0.475\textwidth}
     \begin{center}
     \includegraphics[width=2.5in]{figures/DirectAbsorbing.png}
