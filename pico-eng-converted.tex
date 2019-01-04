@@ -107,7 +107,7 @@ PICO focal plane. Detectors are fabricated on six types of tiles (shown numbered
 
 Bolometers operating in the mm/sub-mm wave band are photon-noise limited. Therefore, increase in sensitivity is achieved through an increase in detector count. The PICO focal plane has 12,996 detectors, 175 times the number flown aboard \planck\ thereby providing a breakthrough increase in sensitivity with a comparably sized telescope. This breakthrough is enabled by development and demonstration in suborbital projects, which now commonly operate arrays of $10^3$--$10^4$ detectors (\S\,\ref{sec:technology_maturation}).
 
-\subsubsection{21--462\,GHz bands}
+\subsubsection{21--462\,GHz Bands}
 \label{sec:low_freq_det} % 3.2.1
 
 Several optical coupling technologies have matured over the past ten
@@ -155,7 +155,7 @@ maturation required for PICO is described in \$\,\ref{sec:bolometers}.
 % partition the feed's wide continuous bandwidth into narrow channels
 % using integrated micro-machined filter circuits \citep{OBrient2013}.
 
-\subsubsection{555--799\,GHz bands}
+\subsubsection{555--799\,GHz Bands}
 \label{sec:high_freq_det} % 3.2.2
 
 PICO's highest three frequency channels are beyond the niobium superconducting band-gap, rendering microstrip filters a poor solution for defining the optical passband. In this regime, PICO instead measures a single band with each pixel using feedhorn-coupled polarization-sensitive bolometers. Radiation is coupled through horns directly to absorber in the throat of a waveguide. TES bolometers detect the incident power.  The waveguide cut-off defines the lower edge of the band, and quasi-optical metal-mesh filters define the upper edge. Numerous experiments have successfully used similar approaches~\citep{Shirokoff2011,Bleem2012,Turner2001}. The technology maturation required for PICO is described in \S\,\ref{sec:dev_arrays}.
@@ -177,7 +177,7 @@ Laboratory experiments have demonstrated that TES bolometers can be made backgro
 
 The sensitivity model assumes white noise at all frequencies. Sub-orbital submillimeter experiments have demonstrated TES detectors that are stable to at least as low as 20\,mHz \citep{Rahlin2014}, meeting the requirements for PICO's scan strategy (\S\,\ref{sec:survey_design}). \comblue{are we saying anything about 1/f? are we saying anything about yield? Is the observing time consistent with Young et al?}
 
-\subsection{Detector readout}
+\subsection{Detector Readout}
 \label{sec:detector_readout} %3.3
 
 Suborbital experiment teams over the past ten years have chosen to use voltage-biased TESs because their current readout scheme lends itself to Superconducting Quantum Interface Device (SQUID) based multiplexing. Multiplexing reduces the number of wires to the cryogenic stages and thus the total thermal load that the cryocoolers must dissipate. This approach also simplifies the instrument design.  
@@ -226,7 +226,7 @@ Like the \planck -HFI instrument, PICO's focal plane is maintained at 0.1~K to e
 
 \input tables/table3.3.tex
 
-\subsubsection{cADR sub-kelvin cooling}
+\subsubsection{cADR Sub-Kelvin Cooling}
 \label{sec:cadr} %3.4.1
 
 A multi-stage continuous adiabatic demagnetization refrigerator (cADR) maintains the PICO focal plane at 0.1~K and the surrounding enclosure, filter, and readout components at 1~K. The cADR employs three refrigerant assemblies operating sequentially to absorb heat from the focal plane at 0.1~K and reject it to~1~K. Two additional assemblies, also operating sequentially, absorb this rejected heat at~1~K, cool other components to 1~K, and reject heat at~4.5~K. This configuration provides continuous cooling with small temperature variations at both the 0.1~K and 1~K. Heat straps connect the two cADR cold sinks to multiple points on the focal plane assembly \comor{was 'focal plane assembly' defined? isn't it at 0.1K?}, which has high thermal conductance paths built in, to provide spatial temperature uniformity and stability during operation. The detector arrays are thermally sunk to the mounting frame.  Heat loads in the range of 30~$\mu$W at 0.1~K and 1~mW at 1~K (time-average) are within the capabilities of current cADRs developed by GSFC (\S~\ref{sec:heritage})~\citep{Shirron2012,Shirron2016}. The PICO sub-kelvin heat loads are estimated at less than half of this capability (Table~\ref{tab:cooler}). 
@@ -272,14 +272,14 @@ The NGAS project has completed PDR-level development, and is expected to reach C
 %It is highly likely that a better solution will be available before Phase~A. \comblue{why do we need a better solution? do you mean a cooler with even larger margin?} NGAS and Ball are actively working on increasing the flow rate and compression ratio of the J-T compressor, which should result in significantly higher system efficiency, and in greater heat-lift margin above the PICO requirement. These improvements entail the implementation of well-known techniques (standard thermal engineering) \comblue{what does this sentence mean?}. The NGAS multi-stage J-T compressor has completed PDR-level development, and is expected to reach CDR level well before needed for PICO. Projected performance is shown in Fig.~\ref{fig:CoolerFigure}. The Ball approach started with a larger compressor, required less modification to achieve comparable performance, and eliminated the cold bypass-precooling valve that was problematic for MIRI. \comblue{must we mention problematic valves?} The Ball approach uses $^3$He, while the NGAS approach uses $^4$He. Both employ re-optimized gas heat exchangers (trivial engineering changes). \comblue{what does this mean?}
 
 
-\subsubsection{Radiative cooling}
+\subsubsection{Radiative Cooling}
 \label{sec:radiative_cooling} %3.4.3
 
 A set of four V-groove radiators provides passive cooling. This is standard technology, with origins dating to more than 30 years ago~(\S~\ref{sec:heritage}). The outermost of the four V-groove shields shadows the interior shields from the Sun. The V-grooves radiate to space, each reaching successively cooler temperatures. \comblue{can we be quantitative?} The V-groove assembly provides a cold radiative environment to the primary reflector, structural ring, and telescope box, so radiative loads on those elements are smaller than the conductive loads through the mechanical support structures. 
 %\comblue{shouldn't we show evidence that say radiative cooling has been worked out successfully before.? }
 
 
-\subsection{Instrument integration and test}
+\subsection{Instrument Integration and Test}
 \label{sec:iandt} % 3.5
 
 PICO instrument I\&T planning benefits greatly from heritage
@@ -307,11 +307,11 @@ interference (RFI). The observatory is 4.5\,m in diameter and 6.1\,m
 tall, with no deployables.
 
 %\newpage
-\section{Design reference mission}
+\section{Design Reference Mission}
 \label{sec:design_reference} %4
 The PICO design reference mission is summarized in Table~\ref{tab:mission_parameters}.
 
-\subsection{Concept of operations}
+\subsection{Concept of Operations}
 \label{sec:operations} %4.1
 
 The PICO concept of operations is similar to that of the successful
@@ -372,7 +372,7 @@ mission.
 % \end{center}
 % \end{figure}
 
-\subsubsection{Mission design and launch}
+\subsubsection{Mission Design and Launch}
 \label{sec:mission_design} %4.1.1
 
 PICO performs its science survey from a quasi-halo orbit around the
@@ -410,7 +410,7 @@ There are no disposal requirements for L2 orbits, but spacecraft are customarily
 decommissioned to heliocentric orbit.
 
 
-\subsubsection{Survey design}
+\subsubsection{Survey Design}
 \label{sec:survey_design} %4.1.2
  
 PICO employs a highly repetitive scan strategy to map the full
@@ -451,7 +451,7 @@ axis precession frequency is $>400\times$ faster than that of
 \textit{Planck}, greatly reducing the effects of any residual $1/f$
 noise by spreading the effects more isotropically across pixels.
 
-\subsection{Ground segment}
+\subsection{Ground Segment}
 \label{sec:ground_segment} %4.2
 
 The PICO Mission Operations System (MOS) and Ground Data System (GDS)
@@ -543,7 +543,7 @@ propellant). Accounting for ullage (14\,kg), the baseline propellant
 tank fill fraction is 77\,\%.
 
 
-\subsubsection{Attitude determination and control}
+\subsubsection{Attitude Determination and Control}
 \label{sec:attitude_determination} %4.3.1
 
 PICO uses a zero net angular momentum control architecture with
@@ -596,7 +596,7 @@ measurements of each planet only once every 6\,months, demonstrated 0.8\,arcsec 
 
 \bigskip
 %\newpage
-\section{Technology maturation}
+\section{Technology Maturation}
 \label{sec:technology_maturation} %5
 
 PICO builds off of the heritage of \textit{Planck} HFI and
@@ -645,13 +645,14 @@ technologies through the milestones described in Table~\ref{tab:technologies}.
 \end{figure}
 
 
-\subsection{21--462\,GHz bands}
+\subsection{21--462\,GHz Bands}
 \label{sec:bolometers} %5.1
 
 Suborbital teams have successfully demonstrated a variety of optical
 coupling schemes, including horns with ortho-mode transducers (OMTs),
-lithographed antenna arrays, and sinuous antennas under lenslets
-(Fig.~\ref{fig:OpticalCoupling}). All have achieved background-limited
+lithographed antenna arrays, and sinuous antennas under lenslets \cite[e.g.,][]{Abitbol2017}.
+%(Fig.~\ref{fig:OpticalCoupling}). 
+All have achieved background-limited
 performance in suborbital instruments with sufficient margin on design
 parameters to achieve this performance in the more demanding low
 background at L2. All have been packaged into modules and focal plane
@@ -702,15 +703,15 @@ robust to any challenges in developing three-color pixels;
 two-color horn-coupled pixels.
 
 \begin{figure}
-  \begin{minipage}[b]{0.475\textwidth}
-    \begin{center}
-    \includegraphics[width=2.5in]{figures/OpticalCoupling.png}
-    \caption{\captiontext 
-      Multiple demonstrated optical coupling schemes are available   to PICO. Images from CMB-S4 Technology Book   \citep{Abitbol2017}.\label{fig:OpticalCoupling}}
-   \end{center}
-  \end{minipage}
-  %
-  \hfill
+  % \begin{minipage}[b]{0.475\textwidth}
+  %   \begin{center}
+  %   \includegraphics[width=2.5in]{figures/OpticalCoupling.png}
+  %   \caption{\captiontext 
+  %     Multiple demonstrated optical coupling schemes are available   to PICO. Images from CMB-S4 Technology Book   \citep{Abitbol2017}.\label{fig:OpticalCoupling}}
+  %  \end{center}
+  % \end{minipage}
+  % %
+  % \hfill
   \begin{minipage}[b]{0.475\textwidth}
     \begin{center}
     \includegraphics[width=2.5in]{figures/DirectAbsorbing.png}
@@ -736,7 +737,7 @@ two-color horn-coupled pixels.
 % \end{center}
 % \end{figure}
 
-\subsection{555--799\,GHz bands}
+\subsection{555--799\,GHz Bands}
 \label{sec:dev_arrays}
 
 The baseline PICO instrument requires single-color dual-polarized
@@ -758,7 +759,7 @@ design. Filled arrays of detectors such as Backshort Under Ground
 
 
 
-\subsection{Environmental testing}
+\subsection{Environmental Testing}
 \label{sec:env_testing}
 Laboratory tests and in-flight data from balloons suggest that TES
 bolometer arrays may be more naturally robust against cosmic rays than
@@ -868,7 +869,7 @@ below PICO detector sensitivity requirements.
 
 % A plan to accomplish the required development is described in rows 5 and 6 of Table~\ref{tab:technologies}.
 
-\subsection{Technology descopes}
+\subsection{Technology Descopes}
 \label{sec:technology_descopes} %5.3
 
 A descope from three-color sinuous antenna/lenslet-coupled pixels to two-color horn-coupled pixels remains a viable
@@ -886,7 +887,7 @@ the 0.87\,$\mu$K$_{\rm CMB}$\,arcmin baseline requirement
 (Table~\ref{tab:bands}), but with coarser spectral resolution.
 Detailed analysis could be performed to assess the impact on signal component separation (\S\,\ref{sec:signal_separation}).
 
-\subsection{Enhancing technologies}
+\subsection{Enhancing Technologies}
 \label{sec:enhancing_technologies} %5.4
 
 The following technologies are neither required nor assumed by the
@@ -914,7 +915,7 @@ TRL-5 before Phase~A.
 
 %\newpage
 \bigskip
-\section{Project management, heritage, risk, and cost}
+\section{Project Management, Heritage, Risk, and Cost}
 \label{sec:project_management} %6
 
 \subsection{PICO Study Participants}
@@ -932,7 +933,7 @@ by inputs from a JPL engineering team and Lockheed Martin.
 
 The full list of study report contributors and endorsers is on page~\pageref{authorlist}.
 
-\subsection{Project management plan}
+\subsection{Project Management Plan}
 \label{sec:management_plan} %6.2
 
 PICO benefits from the experience of predecessor missions such as
@@ -1060,10 +1061,10 @@ data per year, less than the $\sim6,800$\,Tb/year currently returned
 by Landsat~8 and $\sim 9,300$\,Tb/yr planned by NISAR
 \citep{Jasper2017}.
 
-\subsection{Risk assessment}
+\subsection{Risk Assessment}
 \label{sec:risk_assessment} %6.4
 
-\subsubsection{Pre-mission risks}
+\subsubsection{Pre-Mission Risks}
 \label{sec:premission_risks} %6.4.1
 
 Technology development (\S\,\ref{sec:technology_maturation}) is
@@ -1075,7 +1076,7 @@ the availability of the described baseline
 mission. A technology-related mission descope is described in
 \S\,\ref{sec:technology_descopes}.
 
-\subsubsection{Development risks}
+\subsubsection{Development Risks}
 \label{sec:development_risks} %6.4.2
 
 PICO's healthy contingencies, margins, and reserves provide
@@ -1108,7 +1109,7 @@ through advanced planning and allocation of appropriate schedule and
 schedule margin.
 \end{itemize}
 
-\subsubsection{Operations risks}
+\subsubsection{Operations Risks}
 \label{sec:operations_risks} %6.4.3
 
 The PICO design meets the requirements associated with the NASA
@@ -1137,7 +1138,7 @@ As described in \S\,\ref{sec:signal_separation} and
 is recommended to mitigate the challenges associated with foreground
 separation and systematics control.
 
-\subsection{Mission cost}
+\subsection{Mission Cost}
 \label{sec:mission_cost} %6.5
 %\costfootnote
 
@@ -1229,7 +1230,7 @@ instrument with a single science observing mode, surveying the sky
 continuously using a pre-planned repetitive survey pattern. Orbit
 maintenance activities are simple and infrequent.
 
-\subsubsection{Payload cost}
+\subsubsection{Payload Cost}
 \label{sec:instrument_cost} %6.5.1
 
 The PICO payload consists of a single instrument: an imaging
