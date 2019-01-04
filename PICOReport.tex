@@ -28,6 +28,8 @@
 \usepackage{draftwatermark}
 \usepackage[normalem]{ulem}
 \usepackage{wrapfig}
+\usepackage{pdfpages}
+
 
 
 %% [TJP] Display the labels (turn off for final version)
@@ -147,9 +149,6 @@
 
 \begin{document}
 
-\SetWatermarkText{DRAFT}
-\SetWatermarkScale{1}
-
 % generate page layouts first based on layoutwidth as page size;
   % don't switch actual page sizes yet:
   \generatePageLayouts{}
@@ -164,30 +163,39 @@
 
 \pagenumbering{gobble}
 
-\LARGE{ \centerline{\bf{The Probe of Inflation and Cosmic Origins}}}
-\vspace{1.5in}
-%\Large{ \centerline{A Space Mission Study Report}}
-%\Large{ \centerline{December, 2018 }}
-%\vspace{0.5in}
-%\parindent = 0pt
-%\large{Principal Investigator:} \\
-%\large{Steering Committee:} \\
-%\large{Executive Committee:} \\
-%\large{Contributors:} \\
-%\large{Endorsers:} \\
+%% Karl Young adding cover page as full page pdf.
 
-\normalsize
+%\includepdf{images/PICO_Cover_v2-4.pdf} %Full resolution cover
+\includepdf{images/PICO_Cover_v2-4_LoRes.pdf} %Low resolution cover for faster pdf. 
 
-\vspace{0.35in}
-\begin{figure}[!thb]
-%\begin{center}
-\hspace{-0.25in}
-\includegraphics[width=7.0in]{images/PICO_science goals and probes.png}
-%\end{center}
-%\hspace{-0.15in}
-%\caption{PICO science goals and probes}
-\label{fig:PICOsci_probes}
-\end{figure}
+
+%%
+
+%\LARGE{ \centerline{\bf{The Probe of Inflation and Cosmic Origins}}}
+%\vspace{1.5in}
+%%\Large{ \centerline{A Space Mission Study Report}}
+%%\Large{ \centerline{December, 2018 }}
+%%\vspace{0.5in}
+%%\parindent = 0pt
+%%\large{Principal Investigator:} \\
+%%\large{Steering Committee:} \\
+%%\large{Executive Committee:} \\
+%%\large{Contributors:} \\
+%%\large{Endorsers:} \\
+%
+%\normalsize
+%
+%\vspace{0.35in}
+%\begin{figure}[!thb]
+%%\begin{center}
+%\hspace{-0.25in}
+%\includegraphics[width=7.0in]{images/PICO_science goals and probes.png}
+%%\end{center}
+%%\hspace{-0.15in}
+%%\caption{PICO science goals and probes}
+%\label{fig:PICOsci_probes}
+%\end{figure}
+
 \parindent = 15pt
 
 \newpage
@@ -199,7 +207,7 @@
 \pagenumbering{roman} 
 \setcounter{page}{1}
 
-% Author list on single seperate page
+% Author list on seperate pages
 \subfile{authorlist.tex}
 
 
