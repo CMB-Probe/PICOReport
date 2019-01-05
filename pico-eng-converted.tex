@@ -15,7 +15,7 @@ Detailed PICO instrument configuration. \textit{Left}: Side view in cross sectio
 \vspace{-0.15in}
 \end{figure}
 
-PICO meets all of its science-derived instrument requirements (Table~\ref{tab:STM}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz. The instrument is built around a two-reflector Dragone-style telescope (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the primary and secondary. The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). The instrument employs a single science observing mode: fixed rate imaging while scanning the sky. \comblue{add section?}
+PICO meets all of its science-derived instrument requirements (Table~\ref{tab:STM}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz. The instrument is built around a two-reflector Dragone-style telescope (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the primary and secondary. The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). The instrument employs a single science observing mode: fixed rate imaging while scanning the sky (\S~\ref{sec:survey_design}). 
 
 The instrument is configured inside the shadow of a V-grooves assembly that thermally and optically shields it from the Sun (Fig.~\ref{fig:InstrumentCAD}). The V-groove assembly consists of 4 nested radiation shields that provide passive cooling (\S\,\ref{sec:radiative_cooling}). The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
 
@@ -42,45 +42,16 @@ design. There are no moving parts in the PICO optical system.
 \hspace{0.1in}
 \parbox{2.3in}{
 \caption{\captiontext 
-PICO instrument block diagram. Active coolers provide cooling
-  to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the
-  4.5\,K thermal liner that acts as a cold aperture stop. Data from the focal
-  plane flows to (redundant, cross-strapped) warm readout electronics
-  on the spun module of the spacecraft
-  bus.\label{fig:ArchitectureBlockDiagram} }  }
+PICO instrument block diagram. Active coolers provide cooling to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the 4.5\,K thermal liner that acts as a cold aperture stop. Data from the focal plane flows to (redundant, cross-strapped) warm readout electronics on the spun module of the spacecraft bus.
+\label{fig:ArchitectureBlockDiagram} }  }
 \end{figure}
 
-The PICO optical design was selected following a trade study examining
-cross-Dragone, Gregorian Dragone, and open-Dragone designs
-\citep{Young2018}.  The open-Dragone and crossed-Dragone offer more
-diffraction-limited focal plane area than the Gregorian Dragone
-\citep{deBernardis2018}, and are able to support enough detectors to
-provide the required sensitivity. The open-Dragone does not require
-the massive and voluminous baffles that the cross-Dragone does, and
-hence can satisfy the aperture size requirement within the shadow
-cone.
+The PICO optical design was selected following a trade study examining cross-Dragone, Gregorian Dragone, and open-Dragone designs~\citep{Young2018}.  The open-Dragone and crossed-Dragone offer more diffraction-limited focal plane area than the Gregorian Dragone~\citep{deBernardis2018}, and are able to support enough detectors to provide the required sensitivity. The open-Dragone does not require the massive and voluminous baffles that the cross-Dragone does, and hence can satisfy the aperture size requirement within the shadow cone.
 
-PICO's initial open-Dragone design has been modified by adding an
-aperture stop and adding corrections to the primary and secondary
-reflectors to enlarge the DLFOV. The detailed geometric
-parameterization of the PICO optical design is described in
-\cite{Young2018}. The primary reflector (270\,cm $\times$ 205\,cm) is
-passively cooled and the secondary reflector (160\,cm $\times$
-158\,cm) is actively cooled. The highest frequency (900\,GHz) sets the
-surface accuracy requirement of the reflectors at
-$\sim \lambda/14 =24\,\mu{\rm m}$. The focal ratio is 1.42. The
-slightly concave focal surface, which has a radius of curvature of
-4.55\,m, is telecentric to within $0\pdeg12$ across the entire FOV.
+PICO's initial open-Dragone design has been modified by adding an aperture stop and adding corrections to the primary and secondary reflectors to enlarge the DLFOV. The detailed geometric parameterization of the PICO optical design is described in~\citep{Young2018}. The primary reflector (270\,cm $\times$ 205\,cm) is passively cooled and the secondary reflector (160\,cm $\times$ 158\,cm) is actively cooled. The highest frequency (900\,GHz) sets the surface accuracy requirement of the reflectors at $\sim \lambda/14 =24\,\mu{\rm m}$. The focal ratio is 1.42. The slightly concave focal surface, which has a radius of curvature of 4.55~m, is telecentric to within $0\pdeg12$ across the entire FOV.
 
-\comblue{what about the reflector material?}
-An actively cooled circular aperture stop between the primary and
-secondary reflectors reduces detector noise and shields the focal
-plane from stray radiation. Stray-light analysis of the PICO
-open-Dragone design using GRASP confirms that the focal plane is
-protected from direct view of the sky, and that spillover past the
-primary is suppressed by 80\,dB relative to the main lobe for both
-co-pol and cross-pol beams. Detailed baffle design will be performed
-during mission formulation.
+%\comblue{what about the reflector material?}
+An actively cooled circular aperture stop between the primary and secondary reflectors reduces detector noise and shields the focal plane from stray radiation. Stray-light analysis of the PICO open-Dragone design using GRASP confirms that the focal plane is protected from direct view of the sky, and that spillover past the primary is suppressed by 80~dB relative to the main lobe for both co-pol and cross-pol beams. Detailed baffle design will be performed during mission formulation.
 
 
 % \begin{figure}
@@ -96,7 +67,8 @@ during mission formulation.
 PICO's focal plane is populated by an %imaging 
 array of \ac{TES} bolometers operating in 21 %overlapping 
 frequency bands, each with 25\% fractional bandwidth, and band centers ranging from 21 to 799~GHz. 
-Polarimetry is achieved by differencing the signals from pairs of two co-pointed bolometers that are sensitive to two orthogonal polarization states. \comblue{polarimetry is incomplete; need to elaborate more} A conceptual layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}.
+Polarimetry is achieved by differencing the signals from pairs of two co-pointed bolometers that are sensitive to two orthogonal polarization states. %\comblue{polarimetry is incomplete; need to elaborate more} 
+A conceptual layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}.
 
 \begin{figure}
 \centering
@@ -240,9 +212,10 @@ PICO's highest three frequency channels are beyond the niobium superconducting b
 \subsubsection{Sensitivity}
 \label{sec:sensitivity} %3.2.3
 
-PICO's Current Best Estimate (CBE) sensitivity meets the requirements of the baseline mission with \hbox{$>40\,\%$} margin (Table~\ref{tab:bands}). \comblue{this is an odd statement. need to rework}
+PICO's Current Best Estimate (CBE) sensitivity meets the requirements of the baseline mission with \hbox{$>40\,\%$} margin (Table~\ref{tab:bands}). 
+%\comblue{this is an odd statement. need to rework}
 
-We developed an end-to-end noise model of the PICO instrument to predict mission sensitivity and provide a metric by which to evaluate mission design trades. The model includes four noise sources per bolometer: photon, phonon, Johnson, and readout (from both cold and warm readout electronics). To validate our calculations, we compared two independent software packages that have been validated with several operating CMB instruments. The calculations agreed within 1\% both for individual noise terms and for overall mission noise. A detailed description of the PICO noise model and its inputs is available in \citet{Young2018}; small differences between that publication and Table~\ref{tab:bands} are due to refinements of the primary mirror and stope temperatures. 
+We developed an end-to-end noise model of the PICO instrument to predict mission sensitivity and provide a metric by which to evaluate mission design trades. The model includes four noise sources per bolometer: photon, phonon, Johnson, and readout (from both cold and warm readout electronics). To validate our calculations, we compared two independent software packages that have been validated with several operating CMB instruments. The calculations agreed within 1\% both for individual noise terms and for overall mission noise. A detailed description of the PICO noise model and its inputs is available in~\citet{Young2018}; small differences between that publication and Table~\ref{tab:bands} are due to refinements of the primary mirror and stope temperatures. 
 %\comblue{need to explain better}
 
 % removed TES Johnson
@@ -250,7 +223,7 @@ We developed an end-to-end noise model of the PICO instrument to predict mission
 Laboratory experiments have demonstrated that TES bolometers can be made background-limited in the low loading environment they would experience at L2~\citep{Beyer2012}. For PICO, the primary contributor to noise is the optical load. The sources of optical load are the CMB, reflectors, aperture stop, and low-pass filters. The CMB and stop account for at least 50\% of the optical load at all frequencies up to and including 555~GHz. At higher bands emission from the primary mirror dominates. 
 %The CMB gives more than half the load in the middle and upper bands of the multichroic pixels, but the stop dominates the load in the lowest band of each pixel.
 
-The sensitivity model assumes white noise at all frequencies. Sub-orbital submillimeter experiments have demonstrated TES detectors that are stable to at least as low as 20\,mHz \citep{Rahlin2014}, meeting the requirements for PICO's scan strategy (\S\,\ref{sec:survey_design}). \comblue{are we saying anything about 1/f? are we saying anything about yield? Is the observing time consistent with Young et al?}
+The sensitivity model assumes white noise at all frequencies. Sub-orbital submillimeter experiments have demonstrated TES detectors that are stable to at least as low as 20\,mHz \citep{Rahlin2014}, meeting the requirements for PICO's scan strategy (\S\,\ref{sec:survey_design}). %\comblue{are we saying anything about 1/f? are we saying anything about yield? Is the observing time consistent with Young et al?}
 
 \subsection{Detector Readout}
 \label{sec:detector_readout} %3.3
@@ -304,7 +277,9 @@ Like the \planck -HFI instrument, PICO's focal plane is maintained at 0.1~K to e
 \subsubsection{cADR Sub-Kelvin Cooling}
 \label{sec:cadr} %3.4.1
 
-A multi-stage continuous adiabatic demagnetization refrigerator (cADR) maintains the PICO focal plane at 0.1~K and the surrounding enclosure, filter, and readout components at 1~K. The cADR employs three refrigerant assemblies operating sequentially to absorb heat from the focal plane at 0.1~K and reject it to~1~K. Two additional assemblies, also operating sequentially, absorb this rejected heat at~1~K, cool other components to 1~K, and reject heat at~4.5~K. This configuration provides continuous cooling with small temperature variations at both the 0.1~K and 1~K. Heat straps connect the two cADR cold sinks to multiple points on the focal plane assembly \comor{was 'focal plane assembly' defined? isn't it at 0.1K?}, which has high thermal conductance paths built in, to provide spatial temperature uniformity and stability during operation. The detector arrays are thermally sunk to the mounting frame.  Heat loads in the range of 30~$\mu$W at 0.1~K and 1~mW at 1~K (time-average) are within the capabilities of current cADRs developed by GSFC (\S~\ref{sec:heritage})~\citep{Shirron2012,Shirron2016}. The PICO sub-kelvin heat loads are estimated at less than half of this capability (Table~\ref{tab:cooler}). 
+A multi-stage continuous adiabatic demagnetization refrigerator (cADR) maintains the PICO focal plane at 0.1~K and the surrounding enclosure, filter, and readout components at 1~K. The cADR employs three refrigerant assemblies operating sequentially to absorb heat from the focal plane at 0.1~K and reject it to~1~K. Two additional assemblies, also operating sequentially, absorb this rejected heat at~1~K, cool other components to 1~K, and reject heat at~4.5~K. This configuration provides continuous cooling with small temperature variations at both the 0.1~K and 1~K. Heat straps connect the two cADR cold sinks to multiple points on the focal plane assembly, 
+%\comor{was 'focal plane assembly' defined? isn't it at 0.1K?}
+which has high thermal conductance paths built in, to provide spatial temperature uniformity and stability during operation. The detector arrays are thermally sunk to the mounting frame.  Heat loads in the range of 30~$\mu$W at 0.1~K and 1~mW at 1~K (time-average) are within the capabilities of current cADRs developed by GSFC (\S~\ref{sec:heritage})~\citep{Shirron2012,Shirron2016}. The PICO sub-kelvin heat loads are estimated at less than half of this capability (Table~\ref{tab:cooler}). 
 %\comblue{this paragraph doesn't say anything about the maturity of the multiple stage cADR, and about flight heritage. It should, even if to point to later paragraphs.} 
 
 \subsubsection{4.5~K Cooler}
@@ -350,7 +325,9 @@ The NGAS project has completed PDR-level development, and is expected to reach C
 \subsubsection{Radiative Cooling}
 \label{sec:radiative_cooling} %3.4.3
 
-A set of four V-groove radiators provides passive cooling. This is standard technology, with origins dating to more than 30 years ago~(\S~\ref{sec:heritage}). The outermost of the four V-groove shields shadows the interior shields from the Sun. The V-grooves radiate to space, each reaching successively cooler temperatures. \comblue{can we be quantitative?} The V-groove assembly provides a cold radiative environment to the primary reflector, structural ring, and telescope box, so radiative loads on those elements are smaller than the conductive loads through the mechanical support structures. 
+A set of four V-groove radiators provides passive cooling. This is standard technology, with origins dating to more than 30 years ago~(\S~\ref{sec:heritage}). The outermost of the four V-groove shields shadows the interior shields from the Sun. The V-grooves radiate to space, each reaching successively cooler temperatures. 
+%\comblue{can we be quantitative?} 
+The V-groove assembly provides a cold radiative environment to the primary reflector, structural ring, and telescope box, so radiative loads on those elements are smaller than the conductive loads through the mechanical support structures. 
 %\comblue{shouldn't we show evidence that say radiative cooling has been worked out successfully before.? }
 
 
@@ -730,7 +707,9 @@ The baseline PICO instrument requires three-color dual-polarized antenna-coupled
 
 The extension to lower frequencies requires larger antennas and therefore control of film properties and lithography over larger areas. Scaling to higher frequencies requires tighter fabrication tolerances and materials tend to exhibit higher losses. Current anti-reflection technologies for the lenslets need to be extended with thicker and thinner layers to cover the lowest and highest frequency channels. These developments will require tight control of cleanliness and understanding of process parameters. All developments require careful characterization of beam properties.
 
-The direction of polarization sensitivity of the sinuous antenna varies with frequency. Over 25\% bandwidth, the variation is approximately $\pm 5$~deg. \comor{check} There are potential solutions to this in the focal plane design, analysis, and free parameters of the antenna geometry.  Systematics studies for field demonstrations will be particularly important. The PICO concept is robust to any challenges in developing three-color pixels; \S\,\ref{sec:technology_descopes} describes an option to descope to two-color horn-coupled pixels.
+The direction of polarization sensitivity of the sinuous antenna varies with frequency. Over 25\% bandwidth, the variation is approximately $\pm 5$~deg. 
+%\comor{check} 
+There are potential solutions to this in the focal plane design, analysis, and free parameters of the antenna geometry.  Systematics studies for field demonstrations will be particularly important. The PICO concept is robust to any challenges in developing three-color pixels; \S\,\ref{sec:technology_descopes} describes an option to descope to two-color horn-coupled pixels.
 
 % \begin{wrapfigure}[30]{L}{0.5\textwidth}  % r is right aligned, l is left. Capital letters allow figure to float on page.
 % \includegraphics[width=0.4\textwidth]{figures/DirectAbsorbing.png}
@@ -863,7 +842,7 @@ TRL-5 before Phase~A.
 %\costfootnote
 
 %\newpage
-\bigskip
+%\bigskip
 \section{Project Management, Heritage, Risk, and Cost}
 \label{sec:project_management} %6
 
