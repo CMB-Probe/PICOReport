@@ -1,0 +1,108 @@
+
+%\begin{table}[t]
+\begin{wraptable}{r}{0.48\textwidth}
+        \begin{minipage}{0.48\textwidth}
+ \caption{\captiontext
+  Detailed breakdown of Team X and PICO Team cost estimates (in FY18\$). Costs are based on the schedule in Fig.~\ref{fig:Schedule}, which includes 5~years of operations.}\label{tab:cost}
+\begingroup
+%\openup 5pt
+\newdimen\tblskip \tblskip=5pt
+\nointerlineskip
+\vskip -7mm
+\footnotesize
+\setbox\tablebox=\vbox{
+    \newdimen\digitwidth
+    \setbox0=\hbox{\rm 0}
+    \digitwidth=\wd0
+    \catcode`*=\active
+    \def*{\kern\digitwidth}
+%
+    \newdimen\signwidth
+    \setbox0=\hbox{+}
+    \signwidth=\wd0
+    \catcode`!=\active
+    \def!{\kern\signwidth}
+%
+\halign to \textwidth{
+\hbox to 2.0in{\vtop{\hsize1.95in\hangafter=1\hangindent=2em\noindent\raggedright\strut#\strut\par}}\tabskip=0.6em plus 0.6em&
+\hfil#\hfil&
+\hfil#\hfil\tabskip=0pt\cr
+\noalign{\doubleline}
+\omit\hfil Work Breakdown Structure\hfil&&PICO\cr
+\omit\hfil (WBS) elements\hfil&Team X&team\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+Development Cost (Phases A--D)&\$\,724M&\$\,634--677M\cr
+%\noalign{\vskip 3pt\hrule\vskip 5pt}
+\quad 1.0, 2.0, 3.0 Management, Systems Engineering, and Mission Assurance&\$\,*54M&\$\,*47--*50M\cr
+\quad 4.0 Science&\multispan2 \hfil\$\,*19M\hfil\cr
+\quad 5.0 Payload System&\multispan2 \hfil\$\,168M\hfil\cr
+\quad 6.0 Flight System&\$\,248M&\$\,210--240M\cr
+\quad 10.0 Assembly, Test, and Launch Operations (ATLO)&\$\,*24M&\cr
+\quad 7.0 Mission Operations Preparation&\multispan2 \hfil\$\,*16M\hfil\cr
+\quad 9.0 Ground Data Systems&\multispan2 \hfil\$\,*21M\hfil\cr
+\quad 12.0 Mission and Navigation Design&\multispan2 \hfil\$\,**7M\hfil\cr
+\quad Development Reserves (30\%)&\$167M&\$\,146--156M\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+Operations Cost (Phase E)&\multispan2 \hfil \$\,*84M\hfil\cr
+%\noalign{\vskip 3pt\hrule\vskip 5pt}
+\quad 1.0 Management&\multispan2 \hfil \$\,**6M\hfil\cr
+\quad 4.0 Science&\multispan2 \hfil\$\,*20M\hfil\cr
+\quad 7.0 Mission Operations&\multispan2 \hfil\$\,*34M\hfil\cr
+\quad 9.0 Ground Data Systems&\multispan2 \hfil \$\,*14M\hfil\cr
+\quad Operations Reserves (13\%)&\multispan2 \hfil \$\,*10M\hfil\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+Launch Vehicle Cost&\multispan2 \hfil\$\,150M\hfil\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+Total Cost&\$\,958M&\$\,868--911M\cr
+\noalign{\vskip 5pt\hrule\vskip 3pt}
+} % close halign
+} % close vbox
+\endPlancktable
+\endgroup
+        \end{minipage}
+%        \hfill
+\\
+\vskip 10pt
+        \begin{minipage}{0.48\textwidth}
+        %\vskip -30mm
+\caption{\captiontext  Detailed breakdown of PICO instrument costs.}\label{tab:instrument_cost}
+\begingroup
+%\openup 5pt
+\newdimen\tblskip \tblskip=5pt
+\nointerlineskip
+\vskip -7mm
+\footnotesize
+\setbox\tablebox=\vbox{
+    \newdimen\digitwidth
+    \setbox0=\hbox{\rm 0}
+    \digitwidth=\wd0
+    \catcode`*=\active
+    \def*{\kern\digitwidth}
+%
+    \newdimen\signwidth
+    \setbox0=\hbox{+}
+    \signwidth=\wd0
+    \catcode`!=\active
+    \def!{\kern\signwidth}
+%
+\halign to \textwidth{
+\hbox to 2.5in{#\leaderfil}\tabskip=0.6em plus 0.6em&
+\hfil#\hfil\tabskip=0pt\cr
+\noalign{\doubleline}
+\omit\hfil Instrument Elements\hfil&Cost\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+Management, Systems Eng., Assurance&\$\,*18M\cr
+4\,K Cooler and 0.1\,K cADR&\$\,*71M\cr
+Focal plane and electronics&\$\,*27M\cr
+Mechanical, Thermal, Software&\$\,*17M\cr
+Telescope&\$\,**6M\cr
+Instrument integration and test&\$\,*29M\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+Total Instrument Cost&\$\,168M\cr
+\noalign{\vskip 5pt\hrule\vskip 3pt}
+} % close halign
+} % close vbox
+\endPlancktable
+\endgroup
+        \end{minipage}
+    \end{wraptable}
