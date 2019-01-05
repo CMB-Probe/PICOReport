@@ -131,13 +131,6 @@ and thus mixes the power spectra and their correlations, as illustrated in Fig.~
 
 
 %------------------------------------------------------------------------------------------
-\begin{figure}[htb]
-\includegraphics[width=0.6\textwidth]{images/PICO_rotate_eb5_v1.\suffix} 
-\includegraphics[width=0.4\textwidth]{images/calibration_spectrum_BB.pdf}
-\caption{\captiontext
-Left and center: Spurious power due to a rotation of the angle of polarization, assuming the \planck~2018 $\Lambda$CDM model \citep{Planck2018_VI} with $\tau=0.054$ and expected \pico\ noise performance, assuming removal of 85\% of the lensing power.  Right: residual power after removal of temporal gain drifts using the dipole.
-\label{fig:rot_bb_tb_eb} }
-\end{figure}
 
 The most recent constraints on cosmological birefringence \citep{Planck2016_XLIX} were limited by uncertainties on the detector orientations.  In \planck, the detectors were characterized pre-launch to $\pm 0.9^\circ$ (rel.) $\pm 0.3^\circ$ (abs.) \citep{Rosset+2010}. For \pico, the relative rotation of the detectors will be measured to a few $0.1\arcmin$ using the CMB, but the overall rotation is unlikely to be known pre-launch to better than \planck.  Known polarized sources, such as the Crab Nebula, are not characterized well enough independently to serve as calibrators; \citet{Aumont+2018} show that the current uncertainty of $0.33^\circ$ on the Crab polarization orientation, limits a $B$-mode measurement to $r \sim 0.01$, far from \pico's target.
 
@@ -151,7 +144,16 @@ the uncertainty of $r$ by 30\%, while $EB$, $TB$, and $BB$ spectra can measure a
 In principle, the technique of using the $TB$ and $EB$ spectra can measure a global polarization rotation error at levels (around $0.1 \arcmin$) below those affecting $r$ measurements in $BB$ ($> 1 \arcmin$).  However, a future mission should simulate additional aspects of this issue, such as delensing, the interaction with foregrounds, and $1/f$ noise in simulating and assessing the impact of an angle-calibration error.
 
 \subsubsection{Gain Stability}
+\label{sec:gain_stability}
+
 \label{sec:gain}
+\begin{figure}[thb]
+\includegraphics[width=0.6\textwidth]{images/PICO_rotate_eb5_v1.\suffix} 
+\includegraphics[width=0.35\textwidth]{images/calibration_spectrum_BB.pdf}
+\caption{\captiontext
+Left and center: Spurious power due to a rotation of the angle of polarization, assuming the \planck~2018 $\Lambda$CDM model \citep{Planck2018_VI} with $\tau=0.054$ and expected \pico\ noise performance, assuming removal of 85\% of the lensing power.  Right: residual power after removal of temporal gain drifts using the dipole.
+\label{fig:rot_bb_tb_eb} }
+\end{figure}
 
 Photometric calibration is the process of converting the raw output of each detector to physical units via the characterization of the `gain factor' $G(t)$, which is a function of time. Statistical or systematic errors in the determination of $G$ translate to increased uncertainties, or biased results, respectively.  We investigated whether the anticipated error on $G$ is adequate for PICO's requirements on measuring the faint inflationary signal.  
 
