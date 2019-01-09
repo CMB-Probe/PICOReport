@@ -9,28 +9,25 @@ Having flown two space missions (WMAP and \planck ) and fielded numerous sub-orb
 A rich literature investigates the types of systematic errors due to the environment, the instrumentation, observation strategies, and data analysis that could confound polarization measurements by creating a bias or an increased variance \cite{hu03,shimon2008,yadav2010,Griffiths2014,LFI_systematics,Kaplan2002,Miller2009,Pagano2009}. Teams have used the accumulated experience to incorporate technological solutions during the design phase, and to optimize data analysis techniques to identify and compensate for systematic errors. 
 %As a consequence, all of the cosmological results reported to date are noise, not systematic uncertainty limited. In several cases systematic effects have been identified in the data, but then suppressed to levels below the noise. 
 
-Just as requirements on signal separation (\S~\ref{sec:signal_separation}) are determined by the need to reach the faintest inflationary signal so are the requirements on control of systematic uncertainties. Since an inflationary $BB$ power spectrum with $r = 5 \times 10^{-4}$ has a peak signal level of 7~nK, systematic effects need to be controlled to a level of $\sim$1~nK. It has long been recognized that exquisite control of systematic uncertainties will be required from any experiment attempting to reach levels of $r \lesssim 1\times 10^{-3}$, and it is widely accepted that the stability provided aboard a space platform makes it best suited to control systematic uncertainties compared to other platforms. This is one of the most compelling reasons to observe from space.  As WMAP and \planck~ demonstrated, an L2 orbit offers excellent stability, as well as flexibility in the choice of scan strategy.  PICO takes advantage of an L2 orbit, using a rotating spacecraft (at 1~rpm) whose spin axis precesses with a 10~hour period, thus scanning the sky in a way that is crosslinked on many time scales and at many angles, without interference from the Sun, Earth, or Moon; this reduces the effects of low frequency noise without the need for additional internal-to-the-instrument mechanical modulation. The redundancy of observations allows the checking of consistency of results and an improved ability to calibrate and to correct systematic errors in post-processing analysis.
+Just as requirements on signal separation (\S~\ref{sec:signal_separation}) are determined by the need to reach the faintest inflationary signal so are the requirements on control of systematic uncertainties. Since an inflationary $BB$ power spectrum with $r = 5 \times 10^{-4}$ has a peak signal level of 7~nK, systematic effects need to be controlled to a level of $\sim$1~nK. It has long been recognized that exquisite control of systematic uncertainties will be required from any experiment attempting to reach levels of $r \lesssim 1\times 10^{-3}$, and it is widely accepted that the stability provided aboard a space platform makes it best suited to control systematic uncertainties compared to other platforms. This is one of the most compelling reasons to observe from space.  As WMAP and \planck~ demonstrated, an L2 orbit offers excellent stability, as well as flexibility in the choice of scan strategy.  
 
-\comor{now here}
+Sources of systematic effects and their ultimate degree of severity are a function of the instrument implementation, the spacecraft scan strategy, and mitigations methods developed during the data analysis pipeline. Thus, a proper assessment requires end-to-end simulation of the mission. Such a simulation should include realistic instabilities and non-idealities of the spacecraft, telescope, and instrument, as well as folding in data post-processing techniques. Developing such a simulation is a significant undertaking, which took years to develop for the \planck\ mission, and was beyond the scope for this study. We have instead opted to (1) implement design features that would provide strong data redundancy and enable cross-checks during the data analysis~(\S~\ref{sec:systematics_key}), and (2) enumerate the sources of possible systematic errors, assess their effects, and investigate three that were deemed the highest risk~(\S~\ref{sec:systematics_list}). 
+
+%PICO takes advantage of an L2 orbit, using a rotating spacecraft (at 1~rpm) whose spin axis precesses with a 10~hour period, thus scanning the sky in a way that is crosslinked on many time scales and at many angles, without interference from the Sun, Earth, or Moon; this reduces the effects of low frequency noise without the need for additional internal-to-the-instrument mechanical modulation. The redundancy of observations allows the checking of consistency of results and an improved ability to calibrate and to correct systematic errors in post-processing analysis.\comor{should we say it here or in the end?}
+
 % redundancy: 13,000 independent q,u,i maps; 10 independent surveys maps of the sky
 %We expect the following paradigm to continue: if a systematic effect is large enough to exist above the noise level, it can be characterized and suppressed. 
 
+%In the near term, the ground-based and suborbital CMB community will continue to develop new techniques in handling systematics, particularly in developing the CMB-S4 project.
 
-%A rich literature investigates the types of systematic errors due to the environment, the instrumentation, observation strategies, and data analysis that could confound polarization measurements by creating a bias or an increased variance \cite{hu03,shimon2008,yadav2010}. Every measurement to date has  reached a systematic error limit, 
+%As an example, BICEP systematics limited it to r=0.1\cite{Takahashi2010} while through additional effort within the program, BICEP2 achieved a systematics limit of r=6$\times$10$^{-3}$\cite{BICEP2_III}). In the near term, the ground-based and suborbital CMB community will continue to develop new techniques in handling systematics, particularly in developing the CMB-S4 project.
 
-%\comor{what do you mean?} 
-and many sophisticated techniques have been advanced to mitigate systematics, finding both new technological solutions and new analysis techniques. As an example, BICEP systematics limited it to r=0.1\cite{Takahashi2010} while through additional effort within the program, BICEP2 achieved a systematics limit of r=6$\times$10$^{-3}$\cite{BICEP2_III}). In the near term, the ground-based and suborbital CMB community will continue to develop new techniques in handling systematics, particularly in developing the CMB-S4 project.
-
-%\comor{what does paragraph try to say?}
-All prior on-orbit measurements of CMB polarization were limited by systematic errors until an in-depth study of the systematics was performed allowing a post-processing data analysis to suppress them \cite{Bennett13,planck2016_xlvi,Planck2018_I}. Particularly we note figure 3 of Ref.\cite{Planck2018_I} which quantifies \planck's systematic error limits on the polarization power spectral measurements. Recently studied space missions, such as EPIC-IM, LiteBird and  \core, have placed systematic error mitigation at the forefront of the case for their mission and have developed tools and strategies for estimating and mitigating these\cite{hazumi2012,wallis2017,Natoli2018}.
-
-Systematic effects are coupled with the spacecraft scan strategy, and the details of the data analysis pipeline. Thus, end-to-end simulation of the experiment is an essential tool, including realistic instabilities and non-idealities of the spacecraft, telescope, and instrument, as well as folding in data post-processing techniques used to mitigate the systematic effects.    
+%All prior on-orbit measurements of CMB polarization were limited by systematic errors until an in-depth study of the systematics was performed allowing a post-processing data analysis to suppress them \cite{Bennett13,planck2016_xlvi,Planck2018_I}. Particularly we note figure 3 of Ref.\cite{Planck2018_I} which quantifies \planck's systematic error limits on the polarization power spectral measurements. Recently studied space missions, such as EPIC-IM, LiteBird and  \core, have placed systematic error mitigation at the forefront of the case for their mission and have developed tools and strategies for estimating and mitigating these\cite{hazumi2012,wallis2017,Natoli2018}.
 
 \subsubsection{List of Systematics}
 \label{sec:systematics_list}
 
-The systematic errors faced by PICO can be categorized into three broad categories: 
-1) Coupling of the intensity into the polarization signal; 2) stability; and 3) straylight. These are listed in Table \ref{tbl:SystematicsList2col} and were prioritized for further study using a risk factor incorporating the working group's assessment of how mission-limiting the effect is, how well these effects are understood by the community and whether mitigation techniques exist.  
+The systematic errors faced by PICO can be grouped into three broad categories: 1) Coupling of the intensity into the polarization signal; 2) stability; and 3) stray light. These are listed in Table \ref{tbl:SystematicsList2col} and were prioritized for further study using a risk factor incorporating the working group's assessment of how mission-limiting the effect is, how well these effects are understood by the community and whether mitigation techniques exist.  
 
 The three highest risk systematic errors were studied further and are discussed in subsections below.  The PICO team used 
  simulation and analysis tools developed for \planck~\cite{plank2015_xii_focalplane} and \core, adapting them for PICO.
@@ -38,20 +35,22 @@ The three highest risk systematic errors were studied further and are discussed 
 %We note that many of the systematics could be mitigated further through the use of polarization modulation such as a half-wave plate or a variable phase delay modulator.  
 %For the purposes of the cost constraints of PICO, we investigated mitigation techniques that do not require a modulator.  
 
+Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, and/or isn't well understood.  Level 4 indicates an effect that is either known to be large but is understood reasonably well, or a smaller effect that requires precise modeling.  Level 3 indicates that we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase A study. We used simulations to investigate effects with risk level 5.
+
 \begin{table}[h!]
 \hspace{-0.1in}
-\parbox{3.5in}{
+\parbox{4.0in}{
 \centering
 \scriptsize
  \begin{tabular}{p{3.3cm} p{0.5cm} p{1.4cm} p{1.7cm}}
  \hline
 \textbf{Name} & \textbf{Risk}&\textbf{Effect} \\
  \hline
-\textbf{Leakage}& &\\
+\textbf{Coupling of Signals}& &\\
 Polarization angle calibration\dotfill& 
 5&
 $E{\to}B$ &
-Sect.~\ref{sec:angle}.
+\S~\ref{sec:angle}.
 \\
  Bandpass mismatch\dotfill&
  4& 
@@ -60,7 +59,7 @@ $T{\to}$P, $E{\to}B$
 Beam mismatch\dotfill& 
 4&
 $T{\to}$P, $E{\to}B$
-& Sect.~\ref{sec:angle}
+& %Sect.~\ref{sec:angle}
 \\
 Time response accuracy and stability\dotfill&
 4&
@@ -91,7 +90,7 @@ Gain stability\dotfill&
 5&
 $T{\to}$P, $E{\to} B$
 & 
-Sect.~\ref{sec:gain}
+\S~\ref{sec:gain_stability}
 \\
 Pointing jitter\dotfill&
 3&
@@ -104,7 +103,7 @@ Far sidelobes\dotfill&
 5&
 spurious P
 &
-Sect.~\ref{sec:fsl}.\\
+\S~\ref{sec:fsl}.\\
  \hline
 \textbf{Other} \\
 Residual correlated noise (1/f, cosmic ray hits)\dotfill&
@@ -115,11 +114,12 @@ increased variance
  \end{tabular}
 }
 \hspace{-0.0in}
-\parbox{3.1in}{
+\parbox{2.5in}{
 \caption{\captiontext
 Enumeration of potential systematic errors anticipated in \pico's measurements together with their assessed risk level, 
 %for affecting measurement of the inflationary signal, 
-their effect on the measurements, and, in few cases, subsections with further discussion. The symbol $T \rightarrow P$ denotes coupling of the intensity (=temperature) signal into polarization; similar meaning holds for the $E$ and $B$ modes.  Risk level rises with value. Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, and/or isn't well understood.  Level 4 indicates an effect that is either known to be large but is understood reasonably well, or a smaller effect that requires precise modeling.  Level 3 indicates that we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase A study. We used simulations to investigate effects with risk level 5.
+their effect on the measurements, and in few cases subsections with further discussion. The symbol $T\,\, (E) \rightarrow P\,\, (B) $ denotes coupling of the intensity (labeled as $T$ to denote temperature) signal into polarization, which would generally be both $E$ and $B$. Similar meaning holds for $E \rightarrow B$. Risk level rises with value. Effects with risk level 5 have been analyzed in more detail. 
+%Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, and/or isn't well understood.  Level 4 indicates an effect that is either known to be large but is understood reasonably well, or a smaller effect that requires precise modeling.  Level 3 indicates that we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase A study. We used simulations to investigate effects with risk level 5.
 \label{tbl:SystematicsList2col} }}
 \hspace{-0.0in}
 \end{table}
