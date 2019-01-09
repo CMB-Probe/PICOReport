@@ -364,7 +364,9 @@ The PICO design reference mission is summarized in Table~\ref{tab:mission_parame
 
 \subsection{Concept of Operations}
 \label{sec:operations} %4.1
-
+%
+\input tables/table4.1_wrap.tex
+%
 The PICO concept of operations is similar to that of the successful
 \textit{WMAP} \citep{Bennett2003} and \textit{Planck} \citep{Tauber2010} missions. After launch,
 PICO cruises to a quasi-halo orbit around the Earth--Sun L2 Lagrange point
@@ -425,9 +427,7 @@ mission.
 
 \subsubsection{Mission Design and Launch}
 \label{sec:mission_design} %4.1.1
-%
-\input tables/table4.1_wrap.tex
-%
+
 PICO performs its science survey from a quasi-halo orbit around the
 Earth--Sun L2 Lagrange point. Predecessor missions \textit{Planck} and
 \textit{WMAP} both operated in L2 orbits.
@@ -736,24 +736,27 @@ There are potential solutions to this in the focal plane design, analysis, and f
 %   \end{minipage}
 % \end{figure}
 
+\newpage  % temporay newpage to make wrapfig work and allow better length estimate of document.  to be removed!!
 
 \subsection{555--799\,GHz bands}
 \label{sec:dev_arrays}
 %
-\label{sec:env_testing}
-\begin{wrapfigure}[28]{R}{0.35\textwidth}  % r is right aligned, l is left. Capital letters allow figure to float on page.
+\begin{wrapfigure}[29]{r}{0.35\textwidth}  % r is right aligned, l is left. Capital letters allow figure to float on page.
 \centering
+% \vspace{-0.3in} % move figure up to align with section headings.
 \includegraphics[width=0.35\textwidth]{figures/DirectAbsorbing.png}  %% figure was 2.5 in, .4 /textwidth is 2.6in.
 \vspace{-0.25in}
 \caption{\captiontext Top: \planck\ used horns to couple the electromagnetic radiation to its detectors. Horn coupling has been used in other experiments, and is the baseline for PICO's coupling between 555 and 799~GHz. Bottom: The photograph shows a dual-polarization, direct-absorbing bolometer from BICEP. The technology was also used with SPT-Pol and \planck-HFI for 143--343\,GHz bands.
 \label{fig:DirectAbsorbing} }
 \end{wrapfigure}
 %
+
 The baseline PICO instrument requires single-color, horn-coupled, dual-polarization, direct-absorbing bolometers from 555 to 799\,GHz (\S\,\ref{sec:high_freq_det}).  \planck and \textit{Herschel} demonstrated the architecture of horns coupled to direct absorbing bolometers (Fig.~\ref{fig:DirectAbsorbing}).    Ground experiments with similar designs have deployed focal planes with hundreds of horn-coupled spiderweb bolometers, replacing the \textit{Planck} and \textit{Herschel} NTD-Ge thermistors with TESs, and adjusting time constants as necessary (Table~\ref{tab:suborbital2}). \planck -HFI, SPT-pol, and BICEP demonstrated dual-polarized detectors. \textit{Herschel} and SPT-SZ demonstrated monolithic unpolarized detectors. PICO will require detectors that merge these two designs in monolithic dual-polarized arrays. Since all the components of the technology already exist, the remaining necessary development is the packaging. Filled arrays of detectors such as Backshort Under Ground (BUG) bolometers are also an option~\citep{Staguhn2006}.
 
 %The greatest remaining challenge is the low risk development of a packaging design.
 
 \subsection{Environmental Testing}
+\label{sec:env_testing}
 
 Laboratory tests and in-flight data from balloons suggest that TES
 bolometer arrays may be more naturally robust against cosmic rays than
@@ -801,7 +804,6 @@ below PICO detector sensitivity requirements.
 
 \input tables/table5.2.tex
 \input tables/table5.3.tex
-
 
 
 \subsection{Technology Descopes}
