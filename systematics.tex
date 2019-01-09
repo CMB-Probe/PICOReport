@@ -24,18 +24,16 @@ Sources of systematic effects and their ultimate degree of severity are a functi
 
 %All prior on-orbit measurements of CMB polarization were limited by systematic errors until an in-depth study of the systematics was performed allowing a post-processing data analysis to suppress them \cite{Bennett13,planck2016_xlvi,Planck2018_I}. Particularly we note figure 3 of Ref.\cite{Planck2018_I} which quantifies \planck's systematic error limits on the polarization power spectral measurements. Recently studied space missions, such as EPIC-IM, LiteBird and  \core, have placed systematic error mitigation at the forefront of the case for their mission and have developed tools and strategies for estimating and mitigating these\cite{hazumi2012,wallis2017,Natoli2018}.
 
-\subsubsection{List of Systematics}
+\subsubsection{Potential Systematics Effects}
 \label{sec:systematics_list}
 
-The systematic errors faced by PICO can be grouped into three broad categories: (1)~Coupling of the intensity into the polarization signal; (2)~stability; and (3)~stray light. These are listed in Table~\ref{tbl:SystematicsList2col} and were prioritized for further study using a risk factor incorporating the working group's assessment of how mission-limiting the effect is, how well these effects are understood by the community and whether mitigation techniques exist.  
 
-The three highest risk systematic errors were studied further and are discussed in subsections below.  The PICO team used 
- simulation and analysis tools developed for \planck~\cite{plank2015_xii_focalplane} and \core, adapting them for PICO.
+The systematic effects faced by PICO can be grouped into three broad categories: 1)~Coupling between signals; 2)~stability; and 3)~stray light. For the first category the most important couplings are the intensity (commonly referred as `temperature' $T$) coupling into polarization (both $E$ and $B$) and $E$ into $B$. This is because $T$ is approximately ten times stronger than $E$, which is approximately ten times stronger than $B$. The systematic effects are listed in Table \ref{tbl:SystematicsList2col} and were prioritized for further study using a risk factor incorporating a PICO Systematics Working Group's assessment of how mission-limiting the effect is, how well these effects are understood by the community and whether mitigation techniques exist.  Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, or isn't well understood.  Level 4 is an effect that is either known to be large but is understood reasonably well, or is a smaller effect that requires precise modeling.  In Level 3 we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase A study. Level 2 indicates a well-understood or minimal effect that may not need modeling, and Level 1 is for an effect that is not significant and  doesn't need modeling. 
+
+We used simulations to investigate three effects with risk level 5. We adapted tools developed for \planck~\cite{plank2015_xii_focalplane} and in the context of a European-led mission concept~\citep{core_systematics}. To understand the severity of the effects, we analyzed each in isolation, and in most cases without complicating effects such as inclusion of foreground-separation steps. Considering the combination of effects and inclusion of foreground separation step are important and are left to more detailed studies in the future. 
 
 %We note that many of the systematics could be mitigated further through the use of polarization modulation such as a half-wave plate or a variable phase delay modulator.  
 %For the purposes of the cost constraints of PICO, we investigated mitigation techniques that do not require a modulator.  
-
-Level~5 indicates a highly significant, design-driving effect; it may have limited past measurements, and/or is not well understood.  Level~4 indicates an effect that is either known to be large but is understood reasonably well, or a smaller effect that requires precise modeling.  Level~3 indicates that we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase~A study. We used simulations to investigate effects with risk level~5.
 
 \begin{table}[h!]
 \hspace{-0.1in}
@@ -128,32 +126,24 @@ their effect on the measurements, and in few cases subsections with further disc
 \subsubsection{Absolute Polarization Angle Calibration}
 \label{sec:angle}
 
-The measured CMB polarization can be rotated due to (1) a birefringent primordial Universe, or a Faraday rotation
-due a primordial magnetic field \citep{Pogosian+2018}; (2) birefringent
-foregrounds, or interaction with the Galactic magnetic field;
-(3) systematic effects in the instrument, and in particular an error in
-the direction of polarization measured by each detector.  
-While the first two sources create a rotation that may depend on scale,
-position and/or frequency, the latter depends mainly on
-the detector itself. 
+In PICO each of the Stokes $Q$ and $U$ parameters along any line of sight are evaluated by comparing the signals detected by having sensitivity to two orthogonal polarizations of the incident signal. The $Q$ and $U$ signals are derived from pairs that are oriented 45~deg apart. A systematic error of magnitude $\alpha$ in the implementation (or estimation) of these angles causes signals in $Q$ and $U$, and thus in $E$ and $B$ to mix. Because the CMB $E$ is much larger than $B$, mixing between $E$ and $B$ leads to the generation of a spurious $BB$ angular power spectrum that mirrors the shape of the $EE$ spectrum~(Fig.~\ref{fig:rot_bb_tb_eb}). The level of spurious $BB$ is proportional to $\alpha$; such spurious $BB$ may be erroneously interpreted as the inflationary signal $r$. \comor{At angular multipoles $\ell \lesssim 100$ a systematic error $\alpha\approx 10\arcmin$ will result in a biased value $r \sim 0.001$~\citep{which?}} \comred{check!} The mixing of $E$ and $B$ also leads to spurious cross-spectra $EB$ and $TB$, that also distinctly mimic the $EE$ spectrum. 
 
-A rotation {\prang} of the direction of polarization mixes the $Q$ and $U$ Stokes parameters via
-$Q\pm iU \longrightarrow e^{\mp i 2 \prang} (Q\pm iU)$
-and thus mixes the power spectra and their correlations, as illustrated in Fig.~\ref{fig:rot_bb_tb_eb}.
+The systematic error is most usefully split to two contributions: an overall `absolute' error in the assumed instrument's sensitivity to polarization orientations relative to fixed sky coordinates, and a `relative' rotation error between various pairs of detectors. For PICO, the relative rotation of the detectors will be measured to a few $0.1\arcmin$ by comparing the measured polarization signals between many independent detectors and pairs. However, directly measuring the overall rotation in flight -- a process referred to as `calibrating the polarization angle' --  is challenging as there are no sufficiently well calibrated polarized astronomical sources. For example, \citet{Aumont+2018} showed that the current uncertainty of $0.33^\circ$ on the Crab polarization orientation limits measurements to $r \sim 0.01$, which is far from any next decade target. 
+
+PICO will overcome this potential source of error through using its high \ac{SNR} to identify and reduce it below relevant levels in data analysis. \citet{who} showed that because the $T$ and $E$ signals are much stronger than $B$, an experiment that searches for a specific level of cosmological $BB$ will have high \ac{SNR} for detecting the spurious $EB$ and $TB$ spectra. Applying their method to the PICO specifications we find that with PICO's baseline we will constrain overall rotation to a level of $\alpha=0.2, \,\, \mbox{and}\,\, 0.6 \,\, (3\sigma)$~\arcmin\ using the $EB$ and $TB$ spectra, respectively, suppressing this systematic effects to negligible levels~(Fig.~\ref{fig:rot_bb_tb_eb}). The constraints quoted include delensing level of 73\%, which is the PICO forecast including foreground separation. 
+
+
+%The measured CMB polarization can be rotated due to (1) a birefringent primordial Universe, or a Faraday rotation due a primordial magnetic field \citep{Pogosian+2018}; (2) birefringent foregrounds, or interaction with the Galactic magnetic field; (3) systematic effects in the instrument, and in particular an error in the direction of polarization measured by each detector.   While the first two sources create a rotation that may depend on scale, position and/or frequency, the latter depends mainly on the detector itself. 
+
+%A rotation {\prang} of the direction of polarization mixes the $Q$ and $U$ Stokes parameters via $Q\pm iU \longrightarrow e^{\mp i 2 \prang} (Q\pm iU)$ and thus mixes the power spectra and their correlations, as illustrated in Fig.~\ref{fig:rot_bb_tb_eb}.
 
 
 %------------------------------------------------------------------------------------------
 
-The most recent constraints on cosmological birefringence \citep{Planck2016_XLIX} were limited by uncertainties on the detector orientations.  In \planck, the detectors were characterized pre-launch to $\pm 0.9^\circ$ (rel.) $\pm 0.3^\circ$ (abs.) \citep{Rosset+2010}. For \pico, the relative rotation of the detectors will be measured to a few $0.1\arcmin$ using the CMB, but the overall rotation is unlikely to be known pre-launch to better than \planck.  Known polarized sources, such as the Crab Nebula, are not characterized well enough independently to serve as calibrators; \citet{Aumont+2018} show that the current uncertainty of $0.33^\circ$ on the Crab polarization orientation, limits a $B$-mode measurement to $r \sim 0.01$, far from \pico's target.
+%The most recent constraints on cosmological birefringence \citep{Planck2016_XLIX} were limited by uncertainties on the detector orientations.  In \planck, the detectors were characterized pre-launch to $\pm 0.9^\circ$ (rel.) $\pm 0.3^\circ$ (abs.) \citep{Rosset+2010}. For \pico, the relative rotation of the detectors will be measured to a few $0.1\arcmin$ using the CMB, but the overall rotation is unlikely to be known pre-launch to better than \planck.  Known polarized sources, such as the Crab Nebula, are not characterized well enough independently to serve as calibrators; \citet{Aumont+2018} show that the current uncertainty of $0.33^\circ$ on the Crab polarization orientation, limits a $B$-mode measurement to $r \sim 0.01$, far from \pico's target.
 
 %Figures \ref{fig:rot_sens_0} and \ref{fig:rot_sens_2} show how the measurement of $r$ by \pico\ is degraded because of an overall rotation of polarization, and how $TB$ and $EB$ can be used to monitor this rotation, assuming that the only source of polarization rotation is instrumental.
 %These results are obtained assuming the spectra to have a Gaussian likelihood, with a variance $\propto 1/\fsky$, and ignoring the foreground contributions.
-
-In the absence of other systematics and foregrounds, a polarization rotation error $\alpha$ of $10\arcmin$ degrades 
-the uncertainty of $r$ by 30\%, while $EB$, $TB$, and $BB$ spectra can measure a rotation $\alpha$ at 3$\sigma$ when $\alpha = 0.07, 0.2$  and $0.9\arcmin$, respectively,
- on perfectly delensed maps, and $0.25, 0.9$, and $4.5\arcmin$ on raw maps.
-
-In principle, the technique of using the $TB$ and $EB$ spectra can measure a global polarization rotation error at levels (around $0.1 \arcmin$) below those affecting $r$ measurements in $BB$ ($> 1 \arcmin$).  However, a future mission should simulate additional aspects of this issue, such as delensing, the interaction with foregrounds, and $1/f$ noise in simulating and assessing the impact of an angle-calibration error.
 
 \subsubsection{Gain Stability}
 \label{sec:gain_stability}
