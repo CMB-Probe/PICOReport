@@ -28,7 +28,8 @@ Sources of systematic effects and their ultimate degree of severity are a functi
 \label{sec:systematics_list}
 
 
-The systematic effects faced by PICO can be grouped into three broad categories: 1)~Coupling between signals; 2)~stability; and 3)~stray light. For the first category the most important couplings are the intensity (commonly referred as `temperature' $T$) coupling into polarization (both $E$ and $B$) and $E$ into $B$. This is because $T$ is approximately ten times stronger than $E$, which is approximately ten times stronger than $B$. The systematic effects are listed in Table \ref{tbl:SystematicsList2col} and were prioritized for further study using a risk factor incorporating a PICO Systematics Working Group's assessment of how mission-limiting the effect is, how well these effects are understood by the community and whether mitigation techniques exist.  Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, or isn't well understood.  Level 4 is an effect that is either known to be large but is understood reasonably well, or is a smaller effect that requires precise modeling.  In Level 3 we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase A study. Level 2 indicates a well-understood or minimal effect that may not need modeling, and Level 1 is for an effect that is not significant and  doesn't need modeling. 
+The systematic effects faced by PICO can be grouped into three broad categories: 1)~Coupling between signals; 2)~stability; and 3)~stray light. For the first category the most important couplings are the intensity (commonly referred as `temperature' $T$) coupling into polarization (both $E$ and $B$) and $E$ into $B$. This is because $T$ is approximately ten times stronger than $E$, which is approximately ten times stronger than $B$. The systematic effects are listed in Table \ref{tbl:SystematicsList2col} and were prioritized for further study using a risk factor incorporating a PICO Systematics Working Group's assessment of how mission-limiting the effect is, how well these effects are understood by the community and whether mitigation techniques exist.  
+
 
 We used simulations to investigate the following three effects that had risk level 5: error in the absolute calibration of polarization angle; error in the differential gain between two orthogonally oriented detectors, and the effect the telescope sidelobes~(\S~\ref{sec:angle} - \S~\ref{sec:fsl}). We adapted tools developed for \planck~\cite{plank2015_xii_focalplane} and in the context of a European-led mission concept~\citep{core_systematics}. To understand the severity of the effects, we analyzed each in isolation, and in most cases without complicating effects such as inclusion of foreground-separation steps. Considering the combination of effects and inclusion of foreground separation step are important and are left to more detailed studies in the future. 
 
@@ -148,7 +149,7 @@ PICO will overcome this potential source of error through using its high \ac{SNR
 %Figures \ref{fig:rot_sens_0} and \ref{fig:rot_sens_2} show how the measurement of $r$ by \pico\ is degraded because of an overall rotation of polarization, and how $TB$ and $EB$ can be used to monitor this rotation, assuming that the only source of polarization rotation is instrumental.
 %These results are obtained assuming the spectra to have a Gaussian likelihood, with a variance $\propto 1/\fsky$, and ignoring the foreground contributions.
 
-\subsubsection{Gain Stability}
+\subsubsection{Differential Gain}
 \label{sec:gain_stability}
 
 Photometric calibration is the process of converting the raw output of each detector -- typically given in digital detector readout units -- to physical units via the characterization of the `gain factor' $G(t)$, which is a function of time. One straightforward way for PICO to derive $Q$ and $U$ is through differencing detectors that are sensitive to two orthogonal polarization states $A$ and $B$. A systematic error in the determination of the differential gain $\Delta G(t) = G_{A}(t) - G_{B}(t)$ will translate to a biased $Q$ or $U$. We investigated whether the anticipated error on $G_{A,B} (t)$ is adequate for PICO's requirements on measuring the faint inflationary signal.  
@@ -173,15 +174,21 @@ Left and center: Spurious power due to a rotation of the angle of polarization, 
 
 %Results of the simulation (neglecting foregrounds) are shown as power spectrum residuals in Fig.~\ref{fig:rot_bb_tb_eb}. We estimate the gain fluctuations to better than 10$^{-4}$ when solving for the gain every 40 hours (4 precession periods). The scanning strategy employed by PICO allows for a much better calibration than was possible for \planck, thanks to the much faster precession.
 
-\subsubsection{Far-Sidelobe Pickup}
+\subsubsection{Far Sidelobes}
 \label{sec:fsl}
 %The main beam (within a few degrees of the axis of beam response) in a CMB mission can be measured to high precision using the planets .  
 
-Measurement of each detector's response to signals off axis, which tends to be weak (--80dB less than the peak response) but spread over a very large solid angle, is difficult to do pre-launch, and may not even be done accurately after launch.  Nonetheless, this far sidelobe can couple bright Galactic signals from many tens of degrees off-axis and confuse it with polarized signal from the CMB off the Galactic plane.    To evaluate this systematic error, GRASP software
-\footnote{https://www.ticra.com} 
-was used to compute the PICO telescope's response over the full sky.  The computed full-sky beams showed features peaking at about -80\,dB of the on-axis beam.   
-This full-sky beam was convolved with a polarized Galactic signal and a one-year \pico\ mission scan using the simulation pipeline; this preliminarily shows that the far sidelobe pickup must be reduced by 90\%  to keep the sidelobe signal from appreciably increasing the variance on the B-mode power measurement.
+Differences between the assumed and actual antenna pattern response of any of the detectors will give rise to systematic errors. \planck 's ground-bases measurements mapped the antenna response to levels down to -90~dB from the main lobe. The best in-flight measurements, made through repeated passes of solar system planets reached levels of -60~dB in stacking of several detectors. Thus in-flight measurements were only useful  within few degrees of the main lobe, not in the `far sidelobe' regions of the antennae response.  
+
+Unknown far sidelobe response can couple bright Galactic signals from many tens of degrees off-axis. Such signals could be interpreted as faint cosmological signals. To evaluate PICO's susceptibility to this systematic effect we used the same physical optics software used by \planck\ to compute the PICO's antenna response over $4\pi$~sr. \comor{how many detectors? where in the focal plane? } 
+
+\comred{now here}
+This antenna response was convolved with a polarized Galactic signal and a one-year \pico\ mission scan using the simulation pipeline; this preliminarily shows that the far sidelobe pickup must be reduced by 90\%  to keep the sidelobe signal from appreciably increasing the variance on the B-mode power measurement.
 This reduction can be achieved by adjusting the instrument design or by modeling, measuring, and removing the sidelobe pickup during data analysis.
+
+
+%Measurement of each detector's response to signals off axis, which tends to be weak (--80dB less than the peak response) but spread over a very large solid angle, is difficult to do pre-launch, and may not even be done accurately after launch.  Nonetheless, this far sidelobe can couple bright Galactic signals from many tens of degrees off-axis and confuse it with polarized signal from the CMB off the Galactic plane.    To evaluate this systematic error, GRASP software was used to compute the PICO telescope's response over the full sky.  The computed full-sky beams showed features peaking at about -80\,dB of the on-axis beam.   
+
 
 \subsubsection{Key Findings}
 \label{sec:systematics_key}
