@@ -1,14 +1,24 @@
 \begin{table}[h!]
-\hspace{-0.1in}
-\centering
 \scriptsize
+%\footnotesize
+{\centering
+\caption{\captiontext
+Enumeration of potential systematic errors anticipated in \pico's measurements together with their assessed risk level,
+%for affecting measurement of the inflationary signal,
+their effects on the measurements, and subsections with further discussion for effects with risk level 5.
+%Risk level rises with value. Effects with risk level 5 have been analyzed in more detail.
+\label{tbl:SystematicsList2col}
+}
+\vspace{-2mm}
  \begin{tabular}{p{4.2cm} p{0.5cm} p{1.4cm} p{1.0cm} p{0.04cm} p{2.8cm} p{0.5cm} p{1.4cm} p{1.0cm}}
  %\hline
  \cline{1-4} \cline{6-9}
-\textbf{Name} & \textbf{Risk}&\textbf{Effect} & &  & \textbf{Name} & \textbf{Risk}&\textbf{Effect} \\
+ \noalign{ \vskip 1pt}
+\textbf{Name} & \textbf{Risk$^a$}&\textbf{Effect$^b$} & &  & \textbf{Name} & \textbf{Risk$^a$}&\textbf{Effect$^b$} \\
  %\hline
  \cline{1-4} \cline{6-9}
-\textbf{Coupling of Signals}& & & & &   \textbf{Stability} & & \\    
+  \noalign{ \vskip 1pt}
+\textbf{Coupling of Signals}& & & & &   \textbf{Stability} & & \\
 Polarization angle calibration\dotfill&
 5&
 $E{\to}B$ &
@@ -29,16 +39,17 @@ Pointing jitter\dotfill&
 $T{\to}$P, $E{\to}B$
    \\
 \cline{6-9}
+ \noalign{ \vskip 1pt}
 Beam mismatch\dotfill&
 4&
 $T{\to}$P, $E{\to}B$ & &
 & %Sect.~\ref{sec:angle}
 % 2nd half table
-\textbf{Straylight}& & 
+\textbf{Straylight}& &
 \\
 Time response accuracy and stability\dotfill&
 4&
-$T{\to}$P, $E{\to}B$ & & & 
+$T{\to}$P, $E{\to}B$ & & &
 % 2nd half table
 Far sidelobes\dotfill&
 5&
@@ -47,11 +58,12 @@ spurious P
 \S~\ref{sec:fsl}.
 \\
 \cline{6-9}
+\noalign{ \vskip 1pt}
 Readout cross-talk\dotfill&
 4&
 spurious P & & &
 % 2nd half table
-\textbf{Other} 
+\textbf{Other}
 \\
 Chromatic beam shape\dotfill&
 4&
@@ -71,16 +83,25 @@ $E{\to}B$
 \\
 \cline{1-4}
 \cline{6-9}
- \end{tabular}
-\hspace{-0.0in}
-\vspace{-0.1in}
-\caption{\captiontext
-Enumeration of potential systematic errors anticipated in \pico's measurements together with their assessed risk level,
-%for affecting measurement of the inflationary signal, 
-their effect on the measurements, and in few cases subsections with further discussion. The symbol $T \rightarrow P $ denotes coupling of the intensity signal (labeled as $T$ to denote temperature) into polarization, which would generally be both $E$ and $B$. Similar meaning holds for $E \rightarrow B$. Risk level rises with value. Effects with risk level 5 have been analyzed in more detail.
-Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, or isn't well understood.  Level 4 is an effect that is either known to be large but is understood reasonably well, or is a smaller effect that requires precise modeling.  In Level 3 we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase A study. Level 2 indicates a well-understood or minimal effect that may not need modeling, and Level 1 is for an effect that is not significant and  doesn't need modeling. 
-%Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, and/or isn't well understood.  Level 4 indicates an effect that is either known to be large but is understood reasonably well, or a smaller effect that requires precise modeling.  Level 3 indicates that we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase~A study. We used simulations to investigate effects with risk level 5.
-\label{tbl:SystematicsList2col} }
-\hspace{-0.0in}
-\vspace{-0.15in}
+\end{tabular}
+\vskip 3pt
+} % end centering
+ \noindent
+ \footnotesize
+ {$^{a}$}~Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, or isn't well understood.  Level 4 is an effect that is either known to be large but is understood reasonably well, or is a smaller effect that requires precise modeling.  In Level 3 we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase A study. Level 2 indicates a well-understood or minimal effect that may not need modeling, and Level 1 is for an effect that is not significant and  doesn't need modeling.\qquad
+ {$^{b}$}~$T \rightarrow P $ denotes coupling of the intensity signal (labeled as $T$ to denote temperature) into polarization, which would generally be both $E$ and $B$. Similar meaning holds for $E \rightarrow B$.\par
+%\vspace{-0.1in}
 \end{table}
+
+
+%% Caption text before Friday Jan 11, 5 pm.
+% \caption{\captiontext
+% Enumeration of potential systematic errors anticipated in \pico's measurements together with their assessed risk level,
+% %for affecting measurement of the inflationary signal,
+% their effects on the measurements, and in few cases subsections with further discussion. The symbol $T \rightarrow P $ denotes coupling of the intensity signal (labeled as $T$ to denote temperature) into polarization, which would generally be both $E$ and $B$. Similar meaning holds for $E \rightarrow B$. Risk level rises with value. Effects with risk level 5 have been analyzed in more detail.
+% Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, or isn't well understood.  Level 4 is an effect that is either known to be large but is understood reasonably well, or is a smaller effect that requires precise modeling.  In Level 3 we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase A study. Level 2 indicates a well-understood or minimal effect that may not need modeling, and Level 1 is for an effect that is not significant and  doesn't need modeling.
+% %Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, and/or isn't well understood.  Level 4 indicates an effect that is either known to be large but is understood reasonably well, or a smaller effect that requires precise modeling.  Level 3 indicates that we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase~A study. We used simulations to investigate effects with risk level 5.
+% \label{tbl:SystematicsList2col}
+% }
+
+%Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, and/or isn't well understood.  Level 4 indicates an effect that is either known to be large but is understood reasonably well, or a smaller effect that requires precise modeling.  Level 3 indicates that we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase~A study. We used simulations to investigate effects with risk level 5.
