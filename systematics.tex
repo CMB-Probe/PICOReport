@@ -11,7 +11,7 @@ A rich literature investigates the types of systematic errors due to the environ
 
 Just as requirements on signal separation (\S~\ref{sec:signal_separation}) are determined by the need to reach the faintest inflationary signal, so are the requirements on control of systematic uncertainties. Since an inflationary $BB$ power spectrum with $r = 5 \times 10^{-4}$ has a peak signal level of 7~nK, systematic effects need to be controlled to a level of $\sim$1~nK. It has long been recognized that exquisite control of systematic uncertainties will be required from any experiment attempting to reach levels of $r \lesssim 1\times 10^{-3}$, and it is widely accepted that the stability provided aboard a space platform makes it best suited to control systematic uncertainties compared to other platforms. This is one of the most compelling reasons to observe from space.  As WMAP and \planck~ demonstrated, an L2 orbit offers excellent stability, as well as flexibility in the choice of scan strategy.  
 
-Sources of systematic effects and their ultimate degree of severity are a function of the instrument implementation, the spacecraft scan strategy, and mitigations methods developed during the data analysis pipeline. Thus, a proper assessment requires end-to-end simulation of the mission. Such a simulation should include realistic instabilities and non-idealities of the spacecraft, telescope, and instrument, as well as folding in data post-processing techniques. Developing such a simulation is a significant undertaking, which took years  for the \planck\ mission, and was beyond the scope of this study. We have instead opted to (1)~implement design features within PICO that would provide strong data redundancy and enable cross-checks during the data analysis~(\S~\ref{sec:systematics_key}), and (2)~enumerate the sources of possible systematic errors, assess their effects, and investigate three that were deemed the highest risk~(\S~\ref{sec:systematics_list}). 
+Sources of systematic effects and their ultimate degree of severity are a function of the instrument implementation, the spacecraft scan strategy, and mitigations methods developed during the data analysis pipeline. Thus, a proper assessment requires end-to-end simulation of the mission. Such a simulation should include realistic instabilities and non-idealities of the spacecraft, telescope, and instrument, as well as folding in data post-processing techniques. Developing such a simulation is a significant undertaking, which took years  for the \planck\ mission, and was beyond the scope of this study. We have instead opted to (1)~implement design features within PICO that would provide strong data redundancy and enable cross-checks during the data analysis~(\S~\ref{sec:systematics_key}), and (2)~enumerate the sources of possible systematic errors, assess their effects, and investigate three that were deemed the highest risk~(\S~\ref{sec:systematics_list} - \S~\ref{sec:fsl}). 
 
 %PICO takes advantage of an L2 orbit, using a rotating spacecraft (at 1~rpm) whose spin axis precesses with a 10~hour period, thus scanning the sky in a way that is crosslinked on many time scales and at many angles, without interference from the Sun, Earth, or Moon; this reduces the effects of low frequency noise without the need for additional internal-to-the-instrument mechanical modulation. The redundancy of observations allows the checking of consistency of results and an improved ability to calibrate and to correct systematic errors in post-processing analysis.\comor{should we say it here or in the end?}
 
@@ -28,10 +28,9 @@ Sources of systematic effects and their ultimate degree of severity are a functi
 \label{sec:systematics_list}
 
 
-The systematic effects faced by PICO can be grouped into three broad categories: 1)~Coupling between signals; 2)~stability; and 3)~stray light. For the first category the most important couplings are the intensity (commonly referred as `temperature' $T$) coupling into polarization (both $E$ and $B$) and $E$ into $B$. This is because $T$ is approximately ten times stronger than $E$, which is approximately ten times stronger than $B$. The systematic effects are listed in Table \ref{tbl:SystematicsList2col} and were prioritized for further study using a risk factor incorporating a PICO Systematics Working Group's assessment of how mission-limiting the effect is, how well these effects are understood by the community and whether mitigation techniques exist.  
+The systematic effects faced by PICO can be grouped into three broad categories: 1)~Coupling between signals; 2)~stability; and 3)~stray light. For the first category, the most important are the intensity coupling into polarization (both $E$ and $B$) and $E$ coupling into $B$. This is because $T$ (denoting intensity) is approximately ten times stronger than $E$, which is approximately ten times stronger than $B$. The systematic effects are listed in Table \ref{tbl:SystematicsList2col} and were prioritized for further study using a risk factor incorporating a PICO Systematics Working Group's assessment of how mission-limiting the effect is, how well these effects are understood by the community and whether mitigation techniques exist.  
 
-
-We used simulations to investigate the following three effects that had risk level 5: error in the absolute calibration of polarization angle; error in the differential gain between two orthogonally oriented detectors, and the effect the telescope sidelobes~(\S~\ref{sec:angle} - \S~\ref{sec:fsl}). We adapted tools developed for \planck~\cite{plank2015_xii_focalplane} and in the context of a European-led mission concept~\citep{core_systematics}. To understand the severity of the effects, we analyzed each in isolation, and in most cases without complicating effects such as inclusion of foreground-separation steps. Considering the combination of effects and inclusion of foreground separation step are important and are left to more detailed studies in the future. 
+We used simulations to investigate the following three effects that had risk level 5: error in the absolute calibration of polarization angle; error in the differential gain between orthogonally oriented detectors, and the effect of the telescope sidelobes. We adapted tools developed for \planck~\cite{plank2015_xii_focalplane} and in the context of a European-led mission concept~\citep{core_systematics}. To understand the severity of the effects, we analyzed each in isolation, and in most cases without complicating effects such as inclusion of foreground-separation steps. Considering the combination of effects and inclusion of foreground separation step are important and are left to more detailed studies in the future. 
 
 %We note that many of the systematics could be mitigated further through the use of polarization modulation such as a half-wave plate or a variable phase delay modulator.  
 %For the purposes of the cost constraints of PICO, we investigated mitigation techniques that do not require a modulator.  
@@ -39,102 +38,15 @@ We used simulations to investigate the following three effects that had risk lev
 %\input tables/table2.2.tex
 \input tables/table2.2_wide.tex
 
-% \begin{table}[h!]
-% \hspace{-0.1in}
-% \parbox{4.0in}{
-% \centering
-% \scriptsize
-%  \begin{tabular}{p{3.3cm} p{0.5cm} p{1.4cm} p{1.7cm}}
-%  \hline
-% \textbf{Name} & \textbf{Risk}&\textbf{Effect} \\
-%  \hline
-% \textbf{Coupling of Signals}& &\\
-% Polarization angle calibration\dotfill& 
-% 5&
-% $E{\to}B$ &
-% \S~\ref{sec:angle}.
-% \\
-%  Bandpass mismatch\dotfill&
-%  4& 
-% $T{\to}$P, $E{\to}B$  
-%    \\
-% Beam mismatch\dotfill& 
-% 4&
-% $T{\to}$P, $E{\to}B$
-% & %Sect.~\ref{sec:angle}
-% \\
-% Time response accuracy and stability\dotfill&
-% 4&
-% $T{\to}$P, $E{\to}B$
-% \\
-% Readout cross-talk\dotfill& 
-% 4&
-% spurious P
-% \\
-% Chromatic beam shape\dotfill&
-% 4&
-% spurious P
-% \\
-% 
-% Gain mismatch\dotfill&
-% 3&
-% $T{\to}$P   
-% \\
-% 
-% 
-% Cross-polarization\dotfill&
-% 3&
-% $E{\to}B$
-% \\
-% \hline 
-% \textbf{Stability} & & \\
-% Gain stability\dotfill& 
-% 5&
-% $T{\to}$P, $E{\to} B$
-% & 
-% \S~\ref{sec:gain_stability}
-% \\
-% Pointing jitter\dotfill&
-% 3&
-% $T{\to}$P, $E{\to}B$
-% \\
-% 
-% \hline
-% \textbf{Straylight}& & \\
-% Far sidelobes\dotfill& 
-% 5&
-% spurious P
-% &
-% \S~\ref{sec:fsl}.\\
-%  \hline
-% \textbf{Other} \\
-% Residual correlated noise (1/f, cosmic ray hits)\dotfill&
-% 3 &
-% increased variance
-% \\
-% \hline
-%  \end{tabular}
-% }
-% \hspace{-0.0in}
-% \parbox{2.5in}{
-% \caption{\captiontext
-% Enumeration of potential systematic errors anticipated in \pico's measurements together with their assessed risk level, 
-% %for affecting measurement of the inflationary signal, 
-% their effect on the measurements, and in few cases subsections with further discussion. The symbol $T \rightarrow P $ denotes coupling of the intensity (labeled as $T$ to denote temperature) signal into polarization, which would generally be both $E$ and $B$. Similar meaning holds for $E \rightarrow B$. Risk level rises with value. Effects with risk level 5 have been analyzed in more detail. 
-% %Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, and/or isn't well understood.  Level 4 indicates an effect that is either known to be large but is understood reasonably well, or a smaller effect that requires precise modeling.  Level 3 indicates that we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase~A study. We used simulations to investigate effects with risk level 5.
-% \label{tbl:SystematicsList2col} }}
-% \hspace{-0.0in}
-% \end{table}
-
 
 \subsubsection{Absolute Polarization Angle Calibration}
 \label{sec:angle}
 
-In PICO, each of the Stokes $Q$ and $U$ parameters along any line of sight are evaluated through having sensitivity to two orthogonal polarizations states. The relative designation of $Q$ and $U$ is derived from having sensitivity to pairs of polarization orientations that are 45~deg apart. A systematic error in the implementation (or estimation) of these angles by an amount $\alpha$ causes signals in $Q$ and $U$, and thus in $E$ and $B$ to mix. Because the CMB $E$ is much larger than $B$, mixing between $E$ and $B$ leads to the generation of a spurious $BB$ angular power spectrum that mirrors the shape of the $EE$ spectrum~(Fig.~\ref{fig:rot_bb_tb_eb}). The level of spurious $BB$ is proportional to $\alpha^{2} \times EE$. \comor{At angular multipoles $\ell \lesssim 100$ a systematic error $\alpha\approx 10\arcmin$ will result in a spurious $BB$ level that is approximately equivalent to $r \sim 0.001$~\citep{which?}} \comred{check!} The mixing of $E$ and $B$ also leads to spurious cross-spectra $EB$ and $TB$, that respectively mimic the $EE$ and $TE$ spectra. 
+In PICO, each of the Stokes $Q$ and $U$ parameters along any line of sight are evaluated through having sensitivity to two orthogonal polarizations states. The relative designation of $Q$ and $U$ is derived from having sensitivity to pairs of polarization orientations that are 45~deg apart. A systematic error in the implementation (or estimation) of these angles by an amount $\alpha$ causes signals in $Q$ and $U$, and thus in $E$ and $B$ to mix. Because the CMB $E$ is much larger than $B$, mixing between $E$ and $B$ leads to the generation of a spurious $BB$ angular power spectrum that mirrors the shape of the $EE$ spectrum~(Fig.~\ref{fig:rot_bb_tb_eb}). The level of spurious $BB$ is proportional to $\alpha^{2} \times EE$. At angular multipoles $\ell \lesssim 100$ a systematic error $\alpha\approx 10\arcmin$ will result in a spurious $BB$ level that is approximately equivalent to $r \sim 1\times10^{-4}$~\citep{which?}  The mixing of $E$ and $B$ also leads to spurious cross-spectra $EB$ and $TB$, that respectively mimic the $EE$ and $TE$ spectra. 
 
-The systematic error is most usefully split to two contributions: an overall `absolute' error in the assumed instrument's sensitivity to polarization orientations relative to fixed sky coordinates, and a `relative' rotation error between various pairs of detectors. For PICO, the relative rotation of the detectors will be measured to a few $0.1\arcmin$ by comparing the measured polarization signals between many independent detectors and pairs. However, directly measuring the overall rotation in flight -- which is the process of calibrating the polarization angles --  is challenging as there are no sufficiently well calibrated polarized astronomical sources. For example, \citet{Aumont+2018} showed that the current uncertainty of $0.33$~deg on the Crab polarization orientation limits measurements to $r \sim 0.01$, which is far from any next decade target. 
+The systematic error is most usefully split to two contributions: an overall `absolute' error in the assumed instrument's sensitivity to polarization orientations relative to fixed sky coordinates, and a `relative' rotation error between various pairs of detectors. For PICO, the relative rotation of the detectors will be measured to $\sim 0.1\arcmin$ by comparing the measured polarization signals between many independent detectors and pairs. However, directly measuring the overall rotation in flight -- which is the process of calibrating the polarization angles --  is challenging as there are no sufficiently well calibrated polarized astronomical sources. For example, \citet{Aumont+2018} showed that the current uncertainty of $0.33$~deg on the Crab polarization orientation limits measurements to $r \sim 0.01$, which is much larger than any next decade target. 
 
-PICO will overcome this potential source of error through using its high \ac{SNR} to identify and reduce it below relevant levels in data analysis. \citet{yadav} showed that because the $T$ and $E$ signals are much stronger than $B$, an experiment that searches for a specific level of cosmological $BB$ will have high \ac{SNR} for detecting the spurious $EB$ and $TB$ cross-spectra. Applying their method to the PICO baseline specifications we find that with PICO's we will constrain overall rotation to a level of $\alpha=0.2, \,\, \mbox{and}\,\, 0.6 \,\, (3\sigma)$~\arcmin\ using the $EB$ and $TB$ spectra, respectively, suppressing this systematic effects to negligible levels~(Fig.~\ref{fig:rot_bb_tb_eb}). The constraints quoted include delensing level of 73\%, which is the PICO forecast including foreground separation. 
+PICO will overcome this potential source of error through using its high \ac{SNR} to identify and reduce it below relevant levels in data analysis. \citet{yadav} showed that because the $T$ and $E$ signals are much stronger than $B$, an experiment that searches for a specific level of cosmological $BB$ will have high \ac{SNR} for detecting the spurious $EB$ and $TB$ cross-spectra. Applying their method to the PICO baseline specifications we find that with PICO's we will constrain overall rotation to a level of $\alpha=0.2, \,\, \mbox{and}\,\, 0.6$~arcmin $(3\sigma)$ using the $EB$ and $TB$ spectra, respectively, suppressing this systematic effect to negligible levels~(Fig.~\ref{fig:rot_bb_tb_eb}). The constraints quoted include delensing level of 73\%, which is the PICO forecast including foreground separation. 
 
 
 %The measured CMB polarization can be rotated due to (1) a birefringent primordial Universe, or a Faraday rotation due a primordial magnetic field \citep{Pogosian+2018}; (2) birefringent foregrounds, or interaction with the Galactic magnetic field; (3) systematic effects in the instrument, and in particular an error in the direction of polarization measured by each detector.   While the first two sources create a rotation that may depend on scale, position and/or frequency, the latter depends mainly on the detector itself. 
@@ -160,12 +72,12 @@ The inflationary signal will be extracted from data in the primary CMB bands bet
 The simulation included signals from the anisotropy of the CMB, including the dipole and $BB$ lensing. Full details of the simulation pipeline are available in the PICO website~\citep{pico_web}. Fig.~\ref{fig:rot_bb_tb_eb} demonstrates that the power spectrum due to error in $G_{A,B} (T)$ is much lower than the PICO requirement of $\sigma(r) = 1\times 10^{-4}$. 
 \begin{figure}[thb]
 \centerline{
-\includegraphics[width=0.375\textwidth]{images/PICO_rotate_eb6_v1.\suffix} 
+\includegraphics[width=0.375\textwidth]{images/PICO_rotate_eb6_v3.\suffix} 
 \hspace{0.3in}
-\includegraphics[width=0.4\textwidth]{images/calibration_spectrum_BB.pdf} }
+\includegraphics[width=0.41\textwidth]{images/calibration_spectrum_BB.pdf} }
 \vspace{-0.1in}
 \caption{\captiontext
-Two of the initially-estimated highest risk systematic effects for PICO have been shown to have low impact relative to requirements; we show inflationary signals with  $r = 1\times 10^{-4}\,\, \mbox{and} \,\, 1\times 10^{-3}$ (solid and dash orange, respectively), and $BB$ lensing (black, theory on the left; realization on right). Left: The expected spurious $BB$ spectrum due to 0.2\arcmin\ mis-calibration of PICO's angles of polarization sensitivity (solid blue) is negligible compared the requirement, compared to the baseline statistical noise level (grey dash). A level of mis-calibration by $\alpha = 1$\arcmin\ is also shown (red) to illustrate the scaling with $\alpha^{2}$. Right: residual $BB$ power after calibrating gain drifts is small compared to the requirement. 
+Two of the initially-estimated highest risk systematic effects for PICO can be suppressed to low levels relative to requirements; we show inflationary signals with  $r = 1\times 10^{-4}\,\, \mbox{and} \,\, 1\times 10^{-3}$ (solid and dash orange, respectively), and $BB$ lensing (black, theory on the left; realization on right). Left: The residual spurious $BB$ spectrum due to 0.2\arcmin\ mis-calibration of PICO's angles of polarization sensitivity (solid blue) has the shape of the $EE$ spectrum, and is small compared to the requirement for $\ell<200$ and compared to the baseline statistical noise level (grey dash). Right: simulated residual $BB$ power after calibrating gain drifts (solid blue). 
 \label{fig:rot_bb_tb_eb} }
 \vspace{-0.1in}
 \end{figure}
@@ -184,36 +96,35 @@ Two of the initially-estimated highest risk systematic effects for PICO have bee
 
 Differences between the assumed and actual antenna pattern of any of the detectors will give rise to systematic errors. \planck 's ground-based measurements mapped the antenna response to levels down to -90~dB from the main lobe \comor{give range from Karl}. The best in-flight measurements, made through repeated passes of solar system planets reached levels of -60~dB in stacking of several detectors~\citep{tauber2018}. Thus in-flight measurements were only useful to reconstruct in-flight antenna pattern within a region of few degrees of the main lobe, not in the `far sidelobes' of the antennae response.  
 
-Unknown far sidelobe response can couple bright Galactic signals from many tens of degrees off-axis. Such signals could be interpreted as faint cosmological signals and bias estimates of their magnitude. To evaluate PICO's susceptibility to this systematic effect we used the same physical optics software used by \planck\ to compute the PICO's antenna response over $4\pi$~sr. \comor{how many detectors? 2 one, in each polarization, at center of focal plane at 150~GHz. where in the focal plane? } 
+Far sidelobe response can couple bright Galactic signals when the telescope points tens of degrees away from the Galactic plane. If such far-sidelobe response is not known, the signals could be interpreted as faint cosmological signals and bias estimates of their magnitude. To evaluate PICO's susceptibility to this systematic effect we used the same physical optics software used by \planck\ to compute PICO's $4\pi$~sr antenna response for four 155~GHz detectors located at the center of the focal plane. We simulated the time domain response of the detectors as they scanned the sky over a year of PICO observations. We convolved their antenna response with a full-sky Galactic emission model~\citep{pysm}, reconstructed maps of $I$, $Q$, and $U$, and calculated the resulting $BB$ angular power spectrum when using sky area excluding Galactic latitudes \comred{??}. 
 
-%\comred{now here}
-This antenna response was convolved with a polarized Galactic signal and a one-year \pico\ mission scan using the simulation pipeline; this preliminarily shows that the far sidelobe pickup must be reduced by 90\%  to keep the sidelobe signal from appreciably increasing the variance on the B-mode power measurement.
-This reduction can be achieved by adjusting the instrument design or by modeling, measuring, and removing the sidelobe pickup during data analysis.
+\comor{The largest sidelobe in the antenna response is at a level of -80~dB from the main lobe. We find that if that sidelobe is known with \ac{SNR} of 20, or further suppressed by that factor, the contamination from the sidelobe is suppressed to more than a factor of 10 below the requirement of $\sigma(r) = 1 \times 10^{-4}$. } \comred{check} 
+This suppression can be achieved by adjusting the instrument design, e.g. adding baffles, or by modeling, measuring, and removing the sidelobe pickup during data analysis. 
 
-
+ 
 %Measurement of each detector's response to signals off axis, which tends to be weak (--80dB less than the peak response) but spread over a very large solid angle, is difficult to do pre-launch, and may not even be done accurately after launch.  Nonetheless, this far sidelobe can couple bright Galactic signals from many tens of degrees off-axis and confuse it with polarized signal from the CMB off the Galactic plane.    To evaluate this systematic error, GRASP software was used to compute the PICO telescope's response over the full sky.  The computed full-sky beams showed features peaking at about -80\,dB of the on-axis beam.   
 
 
 \subsubsection{Key Findings}
 \label{sec:systematics_key}
 
-Properly modeling, engineering for, and controlling the effects of systematic errors in a
-next-generation CMB probe is critical.  As of today, we conclude that there is a clear path to demonstrate that state-of-the-art technology and data processing can take advantage of the L2 environment and control systematic errors to a level that enables the science goals of PICO. In particular we note the following points:
+
+Properly modeling, engineering for, and controlling systematic effects are key for the success for any experimental endeavor striving to achieve $\sigma(r) \lesssim 1 \times 10^{-4}$. Based on extensive community experience with both hardware and analysis of data collected in space and in sub-orbital experiments we note the following points:
+$\bullet$ \hspace{0.1in}  Relative to other platforms, a space-based mission provides the most thermally stable platform, and thus the pre-requisite for control of systematic effects. PICO's orbit at $L2$ is among the most thermally stable of other possible orbits. 
+$\bullet$ \hspace{0.1in} PICO's sky scan pattern will provide give strong redundancy, which will enable numerous cross-checks. Each of the 12,996 detectors will make independent maps of the $I,\,Q$, and $U$ Stokes parameters enabling many comparisons within and across frequency bands, within and across sections of the focal plane, and within and across bolometers that have the same (or different) polarization sensitivities. A portion of 50\% of the sky is scanned every two weeks, and the entire sky is scanned in 6 months. Thus combinations of maps constructed at different times during of the mission will be differenced to search for residual time dependent systematic effects. 
+$\bullet$ \hspace{0.1in}  Two out of the three highest risk systematic effects have been shown 
+
+\comred{ STILL WORKING HERE}
+
+Systematic effects can only be identified if they are above the noise level. The raw sensitivity of the instrument should include enough margin that data subsets can independently achieve the science goals. This allows testing of the results in the data analysis and additional data cuts, if needed.
+
+We designed to PICO to have low noise
+As of today, we conclude that there is a clear path to demonstrate that state-of-the-art technology and data processing can take advantage of the L2 environment and control systematic errors to a level that enables the science goals of PICO. In particular we note the following points:
 \begin{itemize}
-\item The raw sensitivity of the instrument should include enough margin
-that data subsets can independently achieve the science goals.
-This allows testing of the results in the data analysis and additional
-data cuts, if needed.
+\item The raw sensitivity of the instrument should include enough margin that data subsets can independently achieve the science goals. This allows testing of the results in the data analysis and additional data cuts, if needed.
 \item For PICO mission, a physical optics model of the telescope should be developed, enabling full-sky beam calculations, which should be validated as much as possible on the ground.  This will be needed to characterize and remove far-sidelobe pickup seen during the mission. 
 \item NASA's support of ground-based and suborbital CMB missions will mitigate risk to a future space mission such as PICO by continuing to develop analysis techniques and technology for the reduction of systematic errors.
-
-\item In the PICO mission's Phase~A, a complete end-to-end system-level
-simulation software facility should be developed to assist the team in setting 
-requirements and conducting trade-offs between subsystem requirements while
-realistically accounting for post-processing mitigation.  Any future
-CMB mission is likely to have similar orbit  
-and scan characteristics to those of PICO, thus there is an opportunity for NASA and
-the CMB community to invest in further development of this capability now.
+\item In the PICO mission's Phase~A, a complete end-to-end system-level simulation software facility should be developed to assist the team in setting requirements and conducting trade-offs between subsystem requirements while realistically accounting for post-processing mitigation.  Any future CMB mission is likely to have similar orbit  and scan characteristics to those of PICO, thus there is an opportunity for NASA and the CMB community to invest in further development of this capability now.
 \item Low frequency excess noise (also called 1/f noise) should be studied in detail as part of a simulation effort to set detailed detector and systems level requirements.  The systematics simulations performed here show that PICO's science goals can be achieved with no additional modulation and assuming current state-of-the-art levels of low frequency noise (a total knee frequency of 20~mHz) based on demonstrated TES performance, and system-level residuals achieved by \planck.
 \end{itemize}
 
