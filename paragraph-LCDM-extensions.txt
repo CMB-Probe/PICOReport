@@ -1,0 +1,18 @@
+With a cosmic-variance limited full-sky survey of all of T,E, and B, PICO will harvest essentially all of what CMB temperature and polarization anisotropies can tell us. Although PICO has many other science objectives, this alone is already worth a probe-class space mission.
+
+Indeed, while $\Lambda$CDM provides a good phenomenological fit to current CMB and cosmological observations with a 6-parameter cosmological model, fundamental open questions remain.
+
+Some of them are major. Besides questions concerning the seeds for structure in the very early universe, perhaps the biggest challenge is the fact that our Universe seems composed of 95% dark matter and dark energy of unknown nature, both of which are necessary to explain cosmological observations at scales ranging from that of a galaxy to that of our present Hubble volume. However, no direct detection of dark matter particles has been made so far, and a compelling theoretical model for dark energy is still lacking.
+
+In this context, tensions between $\Lambda$CDM parameter constraints obtained from CMB observations and from other probes, such as the direct measurement of the Hubble constant, or the constraints on the amplitude of late time pertubations $\sigma_8$ from galaxy clusters and from weak lensing, call for stringent tests of the global consistency of the model and investigation of possible alternatives.
+
+In particular, natural extensions of the 6-parameter LCDM that include parameters for dark energy, neutrino masses, number of relativistic species, and inflationary parameters, are well motivated. Table /textcolor{red}{XXX} lists the improvement obtained by PICO alone over Planck 2018 results when such extensions are considered. The improvement is quantified with a figure of merit (FoM) that is proportional to the inverse of the volume of the error box
+\begin{equation}
+{\rm FoM} = (\det [ \cov\{\omega_b, \omega_c, \theta, \tau, A_s, n_s, p_i \} ])^{-1/2},
+\end{equation}
+where $p_i$ are the extra parameters being considered.
+
+The improvement of the FoM \emph{with CMB alone}, by a factor of more than ten billion (when $r$ is included in the extra parameters) or close to ten million (excluring $r$) provides a test of $\Lambda$CDM that, is so stringent that it is hard to imagine that $\Lambda$CDM can survive such a scrutiny if it is not fundamentally correct. This is true in particular considering that in parallel to the improvement of CMB constraints, other probes such as weak lensing, BAO, clusters of galaxies (the later with PICO itself), will also experiment similar tightening of their own error boxes based on largely independent obsevrables.
+
+PICO, in addition, will also improve constraints on other extensions of $\Lambda$CDM, such as interacting dark matter (with constraints on scattering cross sections), modifications of the laws of gravitation, primordial non-Gaussianity, etc. The history of the development of physical cosmology has taought us that discoveries often come from unexpected directions. PICO is ideally suited to look at the surprises that the Universe still has to reveal.
+
