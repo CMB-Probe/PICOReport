@@ -6,13 +6,33 @@ Some of them are major. Besides questions concerning the seeds for structure in 
 
 In this context, tensions between $\Lambda$CDM parameter constraints obtained from CMB observations and from other probes, such as the direct measurement of the Hubble constant, or the constraints on the amplitude of late time pertubations $\sigma_8$ from galaxy clusters and from weak lensing, call for stringent tests of the global consistency of the model and investigation of possible alternatives.
 
-In particular, natural extensions of the 6-parameter LCDM that include parameters for dark energy, neutrino masses, number of relativistic species, and inflationary parameters, are well motivated. Table /textcolor{red}{XXX} lists the improvement obtained by PICO alone over Planck 2018 results when such extensions are considered. The improvement is quantified with a figure of merit (FoM) that is proportional to the inverse of the volume of the error box
+In particular, natural extensions of the 6-parameter LCDM that include parameters for dark energy, neutrino masses, number of relativistic species, and inflationary parameters, are well motivated. Table~\ref{tabFoM} lists the improvement obtained by PICO alone over Planck 2018 results when such extensions are considered. The improvement is quantified with a figure of merit (FoM) that is proportional to the inverse of the volume of the error box
 \begin{equation}
 {\rm FoM} = (\det [ \cov\{\omega_b, \omega_c, \theta, \tau, A_s, n_s, p_i \} ])^{-1/2},
 \end{equation}
 where $p_i$ are the extra parameters being considered.
 
-The improvement of the FoM \emph{with CMB alone}, by a factor of more than ten billion (when $r$ is included in the extra parameters) or close to ten million (excluring $r$) provides a test of $\Lambda$CDM that, is so stringent that it is hard to imagine that $\Lambda$CDM can survive such a scrutiny if it is not fundamentally correct. This is true in particular considering that in parallel to the improvement of CMB constraints, other probes such as weak lensing, BAO, clusters of galaxies (the later with PICO itself), will also experiment similar tightening of their own error boxes based on largely independent obsevrables.
+The improvement of the FoM \emph{with CMB alone}, by a factor between $3$ and $10$ billions (when $r$ is included in the extra parameters) or close to five million (excluding $r$) provides a test of $\Lambda$CDM that, is so stringent that it is hard to imagine that $\Lambda$CDM can survive such a scrutiny if it is not fundamentally correct. This is true in particular considering that in parallel to the improvement of CMB constraints, other probes such as weak lensing, BAO, clusters of galaxies (the later with PICO itself), will also experiment similar tightening of their own error boxes based on largely independent observables.
 
-PICO, in addition, will also improve constraints on other extensions of $\Lambda$CDM, such as interacting dark matter (with constraints on scattering cross sections), modifications of the laws of gravitation, primordial non-Gaussianity, etc. The history of the development of physical cosmology has taought us that discoveries often come from unexpected directions. PICO is ideally suited to look at the surprises that the Universe still has to reveal.
+PICO, in addition, will also improve constraints on other extensions of $\Lambda$CDM, such as interacting dark matter (with constraints on scattering cross sections), modifications of the laws of gravitation, primordial non-Gaussianity, etc. The history of the development of physical cosmology has taught us that discoveries often come from unexpected directions. PICO is ideally suited to look at the surprises that the Universe still has to reveal.
+
+\begin{table*}
+\begin{center}\footnotesize
+\begin{tabular}{cccc}
+\hline \hline
+    Model     & PICO v4.0 & PICO v4.1 &  Planck18   \\                   
+\hline
+$\Lambda$CDM + $\neff$ +$\alpha_1$+$w_0$+$w_a$+$\mnu$ & $7.4\times10^{6}$ & $4.8\times10^{6}$& $1$  \\
+$\Lambda$CDM + $\neff$ +$\alpha_1$+$w_0$+$w_a$+$r$+$\mnu$ & $2.7\times10^{9}$ & $9.5\times10^{9}$& $1$  \\
+\hline
+\hline
+\end{tabular}
+%\caption{}
+\label{tabFoM}
+\end{center}
+\end{table*}
+
+
+The base set includes the baryon density, the dark matter density, the amplitude and spectral index of a power-law spectrum of initial perturbations, the angular scale the acoustic oscillations, and the optical depth to reionization. Extensions include parameters for e.g. dark energy, neutrino masses, the number of relativistic species, and inflation. To gauge the strength of additional constraints PICO will provide relative to information available today we used a figure of merit that quantifies the volume of the uncertainty in the $N$ dimensional parameter space. Given any experiment's baseline noise and angular resolution, and a set of fiducial parameters, it is straightforward to calculate the uncertainty with which the parameters can be determined~\cite{??}. \comblue{what else are we including? delensing? foreground separation? Can we point to other papers in which this specific code and FOM have been used? }
+
 
