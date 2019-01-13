@@ -10,7 +10,7 @@ their effects on the measurements, and subsections with further discussion for e
 \label{tbl:SystematicsList2col}
 }
 \vspace{-2mm}
- \begin{tabular}{p{4.2cm} p{0.5cm} p{1.4cm} p{1.0cm} p{0.04cm} p{2.8cm} p{0.5cm} p{1.4cm} p{1.0cm}}
+ \begin{tabular}{@{}p{4.2cm} p{0.5cm} p{1.5cm} p{0.8cm}@{} p{0.5cm} @{}p{2.8cm} p{0.5cm} p{1.5cm} p{0.8cm}@{}}
  %\hline
  \cline{1-4} \cline{6-9}
  \noalign{ \vskip 1pt}
@@ -22,52 +22,52 @@ their effects on the measurements, and subsections with further discussion for e
 Polarization angle calibration\dotfill&
 5&
 $E{\to}B$ &
-\S~\ref{sec:angle}. & &
+\S~\ref{sec:angle} & &
 % 2nd half table
 Gain stability\dotfill&
 5&
-$T{\to}$P, $E{\to} B$
+$T{\to}P$, $E{\to} B$
 &
-\S~\ref{sec:gain_stability}.
+\S~\ref{sec:gain_stability}
 \\
  Bandpass mismatch\dotfill&
  4&
-$T{\to}$P, $E{\to}B$ & & &
+$T{\to}P$, $E{\to}B$ & & &
 % 2nd half table
 Pointing jitter\dotfill&
 3&
-$T{\to}$P, $E{\to}B$
+$T{\to}P$, $E{\to}B$
    \\
 \cline{6-9}
  \noalign{ \vskip 1pt}
 Beam mismatch\dotfill&
 4&
-$T{\to}$P, $E{\to}B$ & &
+$T{\to}P$, $E{\to}B$ & &
 & %Sect.~\ref{sec:angle}
 % 2nd half table
 \textbf{Straylight}& &
 \\
 Time response accuracy and stability\dotfill&
 4&
-$T{\to}$P, $E{\to}B$ & & &
+$T{\to}P$, $E{\to}B$ & & &
 % 2nd half table
 Far sidelobes\dotfill&
 5&
-spurious P
+spurious $P$
 &
-\S~\ref{sec:fsl}.
+\S~\ref{sec:fsl}
 \\
 \cline{6-9}
 \noalign{ \vskip 1pt}
 Readout cross-talk\dotfill&
 4&
-spurious P & & &
+spurious $P$ & & &
 % 2nd half table
 \textbf{Other}
 \\
 Chromatic beam shape\dotfill&
 4&
-spurious P & & &
+spurious $P$ & & &
 % 2nd half table
 \multirow{2}{3.3cm}{Residual correlated noise (1/f, cosmic ray hits)\dotfill}&
 3 &
@@ -75,7 +75,7 @@ spurious P & & &
 \\
 Gain mismatch\dotfill&
 3&
-$T{\to}$P
+$T{\to}P$
 \\
 Cross-polarization\dotfill&
 3&
@@ -88,7 +88,7 @@ $E{\to}B$
 } % end centering
  \noindent
  \footnotesize
- {$^{a}$}~Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, or isn't well understood.  Level 4 is an effect that is either known to be large but is understood reasonably well, or is a smaller effect that requires precise modeling.  In Level 3 we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase A study. Level 2 indicates a well-understood or minimal effect that may not need modeling, and Level 1 is for an effect that is not significant and  doesn't need modeling.\qquad
+ {$^{a}$}~Level 5 indicates a highly significant, design-driving effect; it may have limited past measurements, or is not well understood.  Level 4 is an effect that is either known to be large but is understood reasonably well, or is a smaller effect that requires precise modeling.  In Level 3 we expect the effect to be small, but it is not sufficiently well understood and detailed modeling will be done during Phase A study. Level 2 indicates a well-understood or minimal effect that may not need modeling, and Level 1 is for an effect that is not significant and  does not need modeling.\qquad
  {$^{b}$}~$T \rightarrow P $ denotes coupling of the intensity signal (labeled as $T$ to denote temperature) into polarization, which would generally be both $E$ and $B$. Similar meaning holds for $E \rightarrow B$.\par
 %\vspace{-0.1in}
 \end{table}
