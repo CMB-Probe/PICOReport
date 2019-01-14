@@ -1,0 +1,46 @@
+%% Table 6.2
+
+\begin{wraptable}[10]{R}{2.6in}
+\vspace{-8pt}
+ \begin{minipage}{2.6in}
+\caption{\captiontext  Detailed breakdown of PICO instrument costs.}\label{tab:instrument_cost}
+\begingroup
+%\openup 5pt
+\newdimen\tblskip \tblskip=5pt
+\nointerlineskip
+\vskip -7mm
+\footnotesize %\footnotesize
+\setbox\tablebox=\vbox{
+    \newdimen\digitwidth
+    \setbox0=\hbox{\rm 0}
+    \digitwidth=\wd0
+    \catcode`*=\active
+    \def*{\kern\digitwidth}
+%
+    \newdimen\signwidth
+    \setbox0=\hbox{+}
+    \signwidth=\wd0
+    \catcode`!=\active
+    \def!{\kern\signwidth}
+%
+\halign{
+\hbox to 2.1in{#\leaderfil}\tabskip=0.6em&
+\hfil#\hfil\tabskip=0pt\cr
+\noalign{\doubleline}
+\omit\hfil Instrument Elements\hfil&Cost\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+Management, Systems Eng., Assurance&\$\,*18M\cr
+4\,K Cooler and 0.1\,K cADR&\$\,*71M\cr
+Focal plane and electronics&\$\,*27M\cr
+Mechanical, Thermal, Software&\$\,*17M\cr
+Telescope&\$\,**6M\cr
+Instrument integration and test&\$\,*29M\cr
+\noalign{\vskip 3pt\hrule\vskip 5pt}
+Total Instrument Cost&\$\,168M\cr
+\noalign{\vskip 5pt\hrule\vskip 3pt}
+} % close halign
+} % close vbox
+\endPlancktable
+\endgroup
+\end{minipage}
+\end{wraptable}

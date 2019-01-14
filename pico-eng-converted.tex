@@ -393,7 +393,7 @@ mission.
 \begin{figure}[!b]
   \begin{minipage}[b]{0.29\textwidth}
     \begin{center}
-    \includegraphics[width=1.0in]{figures/InFairing.JPG}
+    \includegraphics[width=1.5in]{figures/InFairing.JPG}
 \caption{\captiontext PICO is compatible with the Falcon~9.\label{fig:InFairing}}
     \end{center}
   \end{minipage}
@@ -689,7 +689,7 @@ All of these developments are straightforward extensions of technologies already
 \label{sec:bolometers} %5.1
 %
 \begin{wrapfigure}{R}{3.80in}  % r is right aligned, l is left. Capital letters allow figure to float on page.
-%\vspace{-10pt} % move figure up to align with section headings.
+\vspace{-5pt} % move figure up to align with section headings.
 \parbox{2.35in}{
 \includegraphics[width=2.35in]{figures/SPT3G.jpg} }  %% image was 3 in wide in past version.
 \parbox{1.40in}{
@@ -713,11 +713,27 @@ Suborbital teams have successfully demonstrated a variety of optical coupling sc
 The baseline PICO instrument requires three-color dual-polarized antenna-coupled bolometers covering bands from 21 to 462\,GHz
 (\S\,\ref{sec:low_freq_det}.  The sinuous antenna has the bandwidth to service three bands per pixel, whereas horns and antenna arrays have only been used for two. Our baseline is to use a three-band sinuous antenna, although we have a design for PICO that uses two-bands per pixel and has the same baseline noise as PICO. It has a total of 19 bands instead of PICO's 21. SPT-3G has used the PICO-baselined three-color pixel design to deploy 16,000 detectors covering 90--150--220\,GHz~\citep{Dutcher2018}.
 
+%% figure 5.2 goes with section 5.2, but putting it here to make wrap figure work.
+%
+%
+\begin{wrapfigure}[29]{r}{0.35\textwidth}  % r is right aligned, l is left. Capital letters allow figure to float on page.
+\centering
+\vspace{-5pt} % move figure up to align with section headings.
+\includegraphics[width=0.35\textwidth]{figures/DirectAbsorbing.png}  %% figure was 2.5 in, .4 /textwidth is 2.6in.
+\vspace{-0.25in}
+\caption{\captiontext Top: \planck\ used horns to couple the electromagnetic radiation to its detectors. Horn coupling has been used in other experiments, and is the baseline for PICO's coupling between 555 and 799~GHz. Bottom: The photograph shows a dual-polarization, direct-absorbing bolometer from BICEP. The technology was also used with SPT-Pol and \planck-HFI for 143--343\,GHz bands.
+\label{fig:DirectAbsorbing} }
+\end{wrapfigure}
+%
+%
 The extension to lower frequencies requires larger antennas and therefore control of film properties and lithography over larger areas. Scaling to higher frequencies requires tighter fabrication tolerances and materials tend to exhibit higher losses. Current anti-reflection technologies for the lenslets need to be extended with thicker and thinner layers to cover the lowest and highest frequency channels. These developments will require tight control of cleanliness and understanding of process parameters. All developments require careful characterization of beam properties.
+
+\input tables/table5.2.tex
 
 The direction of polarization sensitivity of the sinuous antenna varies with frequency. Over 25\% bandwidth, the variation is approximately $\pm 5$~deg.
 %\comor{check}
 There are potential solutions to this in the focal plane design, analysis, and free parameters of the antenna geometry.  Systematics studies for field demonstrations will be particularly important. The PICO concept is robust to any challenges in developing three-color pixels; \S\,\ref{sec:technology_descopes} describes an option to descope to two-color horn-coupled pixels.
+
 
 % \begin{figure}
 % \begin{minipage}[b]{0.475\textwidth}
@@ -739,22 +755,12 @@ There are potential solutions to this in the focal plane design, analysis, and f
 %   \end{minipage}
 % \end{figure}
 
-%\newpage  % temporay newpage to make wrapfig work and allow better length estimate of document.  to be removed!!
-
 \subsection{555--799\,GHz bands}
 \label{sec:dev_arrays}
-%
-\begin{wrapfigure}[22]{r}{0.35\textwidth}  % r is right aligned, l is left. Capital letters allow figure to float on page.
-\centering
-\vspace{-40pt} % move figure up to align with section headings.
-\includegraphics[width=0.35\textwidth]{figures/DirectAbsorbing.png}  %% figure was 2.5 in, .4 /textwidth is 2.6in.
-\vspace{-0.25in}
-\caption{\captiontext Top: \planck\ used horns to couple the electromagnetic radiation to its detectors. Horn coupling has been used in other experiments, and is the baseline for PICO's coupling between 555 and 799~GHz. Bottom: The photograph shows a dual-polarization, direct-absorbing bolometer from BICEP. The technology was also used with SPT-Pol and \planck-HFI for 143--343\,GHz bands.
-\label{fig:DirectAbsorbing} }
-\end{wrapfigure}
-%
 
 The baseline PICO instrument requires single-color, horn-coupled, dual-polarization, direct-absorbing bolometers from 555 to 799\,GHz (\S\,\ref{sec:high_freq_det}).  \planck and \textit{Herschel} demonstrated the architecture of horns coupled to direct absorbing bolometers (Fig.~\ref{fig:DirectAbsorbing}).    Ground experiments with similar designs have deployed focal planes with hundreds of horn-coupled spiderweb bolometers, replacing the \textit{Planck} and \textit{Herschel} NTD-Ge thermistors with TESs, and adjusting time constants as necessary (Table~\ref{tab:suborbital2}). \planck -HFI, SPT-pol, and BICEP demonstrated dual-polarized detectors. \textit{Herschel} and SPT-SZ demonstrated monolithic unpolarized detectors. PICO will require detectors that merge these two designs in monolithic dual-polarized arrays. Since all the components of the technology already exist, the remaining necessary development is the packaging. Filled arrays of detectors such as Backshort Under Ground (BUG) bolometers are also an option~\citep{Staguhn2006}.
+
+\input tables/table5.3.tex
 
 %The greatest remaining challenge is the low risk development of a packaging design.
 
@@ -803,10 +809,6 @@ same TDM multiplexer SQUID design, the increased total noise due to
 aliasing will be limited to 15\,\%.  The system engineering study will
 culminate in a demonstration of TDM-128$\times$ SQUID aliased noise
 below PICO detector sensitivity requirements.
-
-
-\input tables/table5.2.tex
-\input tables/table5.3.tex
 
 
 \subsection{Technology Descopes}
@@ -1078,14 +1080,15 @@ As described in \S\,\ref{sec:signal_separation} and
 is recommended to mitigate the challenges associated with foreground
 separation and systematics control.
 
-\newpage  % temporay newpage to make wrapfig work and allow better length estimate of document.  to be removed!!
+%\newpage  % temporay newpage to make wrapfig work and allow better length estimate of document.  to be removed!!
 
 \subsection{Mission Cost}
 \label{sec:mission_cost} %6.5
 %\costfootnote
 %
-\input tables/table6.1-2_vert_wrap.tex
-%
+%\input tables/table6.1-2_vert_wrap.tex
+\input tables/table6.1_wrap.tex
+
 We estimate PICO's total Phase A--E lifecycle cost between \$870M and
 \$960M, including the \$150M allocation for the Launch Vehicle (per
 NASA direction). These cost estimates include 30\,\% reserves for
@@ -1177,6 +1180,8 @@ maintenance activities are simple and infrequent.
 
 \subsubsection{Payload Cost}
 \label{sec:instrument_cost} %6.5.1
+
+\input tables/table6.2_wrap.tex
 
 The PICO payload consists of a single instrument: an imaging
 polarimeter. Payload costs are tabulated in
