@@ -168,7 +168,7 @@ Bolometers operating in the mm/sub-mm wave band are photon-noise limited. Theref
 \subsubsection{21--462\,GHz Bands}
 \label{sec:low_freq_det} % 3.2.1
 %
-\input tables/table3.1_wrap.tex
+%\input tables/table3.1_wrap.tex
 
 Several optical coupling technologies have matured over the past ten
 years to efficiently use focal plane area: horns with ortho-mode
@@ -216,6 +216,8 @@ maturation required for PICO is described in \$\,\ref{sec:bolometers}.
 
 \subsubsection{555--799\,GHz Bands}
 \label{sec:high_freq_det} % 3.2.2
+%
+\input tables/table3.1_wrap.tex
 
 PICO's highest three frequency channels are beyond the niobium superconducting band-gap, rendering microstrip filters a poor solution for defining the optical passband. In this regime, PICO instead measures a single band with each pixel using feedhorn-coupled polarization-sensitive bolometers. Radiation is coupled through horns directly to an absorber in the throat of a waveguide. TES bolometers detect the incident power.  The waveguide cut-off defines the lower edge of the band, and quasi-optical metal-mesh filters define the upper edge. Numerous experiments have successfully used similar approaches~\citep{Shirokoff2011,Bleem2012,Turner2001}. The technology maturation required for PICO is described in \S\,\ref{sec:dev_arrays}.
 
@@ -700,8 +702,8 @@ All of these developments are straightforward extensions of technologies already
 \subsection{21--462\,GHz Bands}
 \label{sec:bolometers} %5.1
 %
-\begin{wrapfigure}{R}{3.80in}  % r is right aligned, l is left. Capital letters allow figure to float on page.
-\vspace{-5pt} % move figure up to align with section headings.
+\begin{wrapfigure}[8]{r}{3.80in}  % r is right aligned, l is left. Capital letters allow figure to float on page.
+\vspace{-15pt} % move figure up to align with section headings.
 \parbox{2.35in}{
 \includegraphics[width=2.35in]{figures/SPT3G.jpg} }  %% image was 3 in wide in past version.
 \parbox{1.40in}{
@@ -725,10 +727,20 @@ Suborbital teams have successfully demonstrated a variety of optical coupling sc
 The baseline PICO instrument requires three-color dual-polarized antenna-coupled bolometers covering bands from 21 to 462\,GHz
 (\S\,\ref{sec:low_freq_det}).  The sinuous antenna has the bandwidth to service three bands per pixel, whereas horns and antenna arrays have only been used for two. Our baseline is to use a three-band sinuous antenna, although we have a design for PICO that uses two-bands per pixel and has the same baseline noise as PICO~(\S~\ref{sec:technology_descopes}). SPT-3G has used the PICO-baselined three-color pixel design to deploy 16,000 detectors covering 90--150--220\,GHz~\citep{Dutcher2018}.
 
-%% figure 5.2 goes with section 5.2, but putting it here to make wrap figure work.
+
+The extension to lower frequencies requires larger antennas and therefore control of film properties and lithography over larger areas. Scaling to higher frequencies requires tighter fabrication tolerances and materials tend to exhibit higher losses. Current anti-reflection technologies for the lenslets need to be extended with thicker and thinner layers to cover the lowest and highest frequency channels. These developments will require tight control of cleanliness and understanding of process parameters. All developments require careful characterization of beam properties.
+
+\input tables/table5.2.tex
+
+The direction of polarization sensitivity of the sinuous antenna varies with frequency. Over 25\% bandwidth, the variation is approximately $\pm 5$~deg~\citep{obrient2008b}. 
+There are potential solutions to this in the focal plane design, measurements, data analysis, and free parameters of the antenna geometry.  A recent study found that pre-flight characterization of the effect through measurements can readily mitigate this systematic effect~\citep{picoweb_wobble}. Systematic effect studies for current field demonstrations, such as with the data of SPT-3G, will be particularly important. The PICO concept is robust to any challenges in developing three-color pixels; 
+%  !!!! Paragraph continues after figure!  Difficult tex to force wrapfigure to behave.
 %
 %
-\begin{wrapfigure}[29]{r}{0.35\textwidth}  % r is right aligned, l is left. Capital letters allow figure to float on page.
+%% figure 5.2 goes with section 5.2, but putting it here to make wrap figure work.  
+%
+%
+\begin{wrapfigure}[27]{r}{0.35\textwidth}  % r is right aligned, l is left. Capital letters allow figure to float on page.
 \centering
 \vspace{-5pt} % move figure up to align with section headings.
 \includegraphics[width=0.35\textwidth]{figures/DirectAbsorbing.png}  %% figure was 2.5 in, .4 /textwidth is 2.6in.
@@ -737,13 +749,8 @@ The baseline PICO instrument requires three-color dual-polarized antenna-coupled
 \label{fig:DirectAbsorbing} }
 \end{wrapfigure}
 %
-%
-The extension to lower frequencies requires larger antennas and therefore control of film properties and lithography over larger areas. Scaling to higher frequencies requires tighter fabrication tolerances and materials tend to exhibit higher losses. Current anti-reflection technologies for the lenslets need to be extended with thicker and thinner layers to cover the lowest and highest frequency channels. These developments will require tight control of cleanliness and understanding of process parameters. All developments require careful characterization of beam properties.
-
-\input tables/table5.2.tex
-
-The direction of polarization sensitivity of the sinuous antenna varies with frequency. Over 25\% bandwidth, the variation is approximately $\pm 5$~deg~\citep{obrient2008b}. 
-There are potential solutions to this in the focal plane design, measurements, data analysis, and free parameters of the antenna geometry.  A recent study found that pre-flight characterization of the effect through measurements can readily mitigate this systematic effect~\citep{picoweb_wobble}. Systematic effect studies for current field demonstrations, such as with the data of SPT-3G, will be particularly important. The PICO concept is robust to any challenges in developing three-color pixels; \S\,\ref{sec:technology_descopes} describes an option to descope to two-color horn-coupled pixels, a technology with which the polarization sensitivity is constant as a function of frequency.
+\S\,\ref{sec:technology_descopes} describes an option to descope to two-color horn-coupled pixels, 
+a technology with which the polarization sensitivity is constant as a function of frequency.
 
 
 % \begin{figure}
