@@ -37,6 +37,7 @@ Launch mass & 2147\,kg \cr
 Total power &1320\,W \cr
 Data rate & 6.1\,Tbits/day \cr
 Cost&\$\,958M\cr
+Launch&2029\cr
 \noalign{\vskip 5pt\hrule\vskip 3pt}
 \noalign{$^{a}$ CBE = Current best estimate.} % footnote to table
 } % close halign
@@ -117,7 +118,7 @@ FWHM [arcmin]&38.4&32.0&28.3&23.6&22.2&18.4&12.8&10.7&9.5&7.9&7.4&6.2&4.3&3.6&3.
 \caption{\textbf{Science Traceability Matrix (STM) }}\label{tab:STM}
 %\small
 \footnotesize
-\begin{tabular}{cccccccc}
+\begin{tabular}{ccccccccc}
 %\noalign{\vskip 2mm}
 \hline
 \noalign{\vskip 2mm}    
@@ -126,12 +127,13 @@ FWHM [arcmin]&38.4&32.0&28.3&23.6&22.2&18.4&12.8&10.7&9.5&7.9&7.4&6.2&4.3&3.6&3.
 \multicolumn{1}{c}{\multirow{2}{1in}{\centering \bf Science Goals (from NASA Science Plan)}}&
 \multicolumn{1}{c}{\multirow{2}{2in}{\centering \bf Science Objectives}}& 
 \multicolumn{3}{c}{\bf Scientific Measurement Requirements}&
+\multicolumn{1}{c}{}&
 \multicolumn{2}{c}{\bf Instrument (single instrument, single mode)}&
 \multicolumn{1}{c}{\multirow{2}{1.75in}{\centering \bf Mission Functional Requirements}} 
 \\
 %Header line 2
 \noalign{\vskip 2mm}    
-\cline{3-7}
+\cline{3-8}
 \noalign{\vskip 2mm}    
 %\rowcolor[HTML]{EFEFEF} 
 \multicolumn{1}{c}{} &
@@ -139,6 +141,7 @@ FWHM [arcmin]&38.4&32.0&28.3&23.6&22.2&18.4&12.8&10.7&9.5&7.9&7.4&6.2&4.3&3.6&3.
 \multicolumn{1}{c}{Model Parameters} &
 \multicolumn{1}{c}{Physical Parameters} & 
 \multicolumn{1}{c}{Observables} &
+\multicolumn{1}{c}{} &
 \multicolumn{1}{c}{Functional Requirements} &
 \multicolumn{1}{c}{Projected Performance} & 
 \\
@@ -150,6 +153,7 @@ FWHM [arcmin]&38.4&32.0&28.3&23.6&22.2&18.4&12.8&10.7&9.5&7.9&7.4&6.2&4.3&3.6&3.
 \multicolumn{1}{l}{\parbox[t]{2in}{Tensor-to-scalar ratio $r$: \\ $\sigma(r) = 1\times10^{-4}$ at $r = 0$; \\ $r < 5 \times 10^{-4}$ at $5\sigma$ confidence level$^a$}} &
 \multicolumn{1}{l}{\parbox[t]{2in}{CMB polarization $BB$ power spectrum for modes $2<\ell<300$ to cosmic-variance limit, and CMB lensing power spectrum for modes $2<\ell<1000$ to cosmic-variance limit}}&
 \multicolumn{1}{l}{\parbox[t]{2in}{Linear polarization across $62 < \nu < 223$\,GHz over entire sky; foreground separation requires $21 < \nu < 799$\,GHz}}& 
+\multicolumn{1}{c}{} &
 \multicolumn{1}{l}{\multirow{5}{1.75in}{%
 \vskip15pt
 Frequency coverage: central frequencies $\nu_c$ from 21 to 799\,GHz
@@ -168,27 +172,27 @@ Sampling rate: $( 3 / {\rm Beam FWHM} ) \times ( 336' / {\rm s})$
 \multicolumn{1}{l}{\parbox[t]{1.5in}{}}& 
 \multicolumn{1}{l}{\multirow{7}{1.75in}{%
 \vskip10pt
-Sun-Earth L2 orbit with Sun-Probe-Earth $< 15^\circ$
+Sun-Earth L2 orbit with Sun-Probe-Earth $< 15^\circ$ (\S\,\ref{sec:mission_design}) 
 \vskip5pt
-5 yr survey with $\ge 95\%$ survey efficiency
+5 yr survey (\S\,\ref{sec:operations})
 \vskip5pt
 Full sky survey: Spin instrument at 1 rpm; boresight $69^\circ$ off spin axis;
-spin axis $26^\circ$ off anti-Sun line, precessing $360^\circ$ / 10hr
+spin axis $26^\circ$ off anti-Sun line, precessing $360^\circ$ / 10hr (\S\,\ref{sec:survey_design})
 \vskip5pt
-Pointing control: Spin axis $60'$ ($3\sigma$, radial); spin \@ $1 \pm 0.1$ rpm ($3\sigma$)
+Pointing control: Spin axis $60'$ ($3\sigma$, radial); spin \@ $1 \pm 0.1$ rpm ($3\sigma$) (\S\,\ref{sec:attitude_determination})
 \vskip5pt
 Pointing stability: Drift of spin axis $< 1'$/1min ($3\sigma$, radial);
-jitter $< 20''$/20 ms ($3\sigma$, radial)
+jitter $< 20''$/20 ms ($3\sigma$, radial) (\S\,\ref{sec:attitude_determination})
 \vskip5pt
 Pointing knowledge
 (telescope boresight):
 $10'' \, (3\sigma$, each axis) from spacecraft attitude;
-$1'' \, (1\sigma$, total) final reconstructed
+$1'' \, (1\sigma$, total) final reconstructed (\S\,\ref{sec:attitude_determination})
 \vskip5pt
 Return and process instrument data:
-1.5 Tbits/day (after 4$\times$ compression)
+1.5 Tbits/day (after 4$\times$ compression) (\S\,\ref{sec:ground_segment}, \ref{sec:spacecraft})
 \vskip5pt
-Thermally isolate instrument from solar radiation and from spacecraft bus
+Thermally isolate instrument from solar radiation and from spacecraft bus (\S\, \ref{sec:radiative_cooling}, \ref{sec:spacecraft})
 }}\\
 % Line SO2
 \noalign{\vskip 1mm}
@@ -201,6 +205,7 @@ Thermally isolate instrument from solar radiation and from spacecraft bus
 \multicolumn{1}{l}{\multirow{3}{2in}{
 \vskip15pt
 Intensity and linear polarization across $62 < \nu < 223$\,GHz over the entire sky; foreground separation encompassed by SO1}}& 
+\multicolumn{1}{c}{} &
 \multicolumn{1}{l}{\parbox[t]{1.75in}{}}& 
 \multicolumn{1}{l}{\multirow{7}{1.5in}{%
 Frequency coverage: See Table~\ref{tab:specs} %\ref{tab:freq}.
@@ -231,6 +236,7 @@ $( 3 / {\rm Beam FWHM}) \times ( 336' / {\rm s})$
 \multicolumn{1}{l}{\parbox[t]{2in}{Sum of neutrino masses ($\Sigma m_\nu$): $\sigma(\Sigma m_\nu) = 14$\,meV with DESI or Euclid$^b$; independently  $\sigma(\Sigma m_\nu) = 14$\,meV using cluster counts$^c$ }}& %; \comred{$\Sigma m_\nu < ??$\,meV alone}}}&
 \multicolumn{1}{l}{\parbox[t]{2in}{CMB polarization power spectra for modes $2<\ell<4000$; CMB intensity maps (to identify clusters using the Compton-$y$ signal)}}&
 \multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{c}{} &
 \multicolumn{1}{l}{\parbox[t]{1.75in}{}}& 
 \multicolumn{1}{l}{\parbox[t]{1.5in}{}}& 
 \multicolumn{1}{l}{\parbox[t]{1in}{}}
@@ -244,6 +250,7 @@ $( 3 / {\rm Beam FWHM}) \times ( 336' / {\rm s})$
 \multicolumn{1}{l}{\parbox[t]{2in}{Number of light relic particle species $N_{\rm eff}$: $ \Delta N_{\rm eff}<0.06\,\, (95\%)$ }}&
 \multicolumn{1}{l}{\parbox[t]{2in}{CMB temperature and polarization auto and cross power spectra $2<\ell<4000$}}&
 \multicolumn{1}{l}{\parbox[t]{2in}{}}& 
+\multicolumn{1}{c}{} &
 \multicolumn{1}{l}{\parbox[t]{1.75in}{}}& 
 \multicolumn{1}{l}{\parbox[t]{1.5in}{}}& 
 \multicolumn{1}{l}{\parbox[t]{1in}{}}
@@ -257,19 +264,21 @@ $( 3 / {\rm Beam FWHM}) \times ( 336' / {\rm s})$
 \multicolumn{1}{l}{\parbox[t]{2in}{Optical depth to reionization ($\tau$): $\sigma(\tau) < 0.002$}}&
 \multicolumn{1}{l}{\parbox[t]{2in}{CMB polarization $EE$ power spectrum for modes $2<\ell<40$ to cosmic-variance limit}}&
 \multicolumn{1}{l}{\parbox[t]{2in}{Linear polarization across $62 < \nu < 223$\,GHz over entire sky; foreground separation encompassed by SO1}}& 
+\multicolumn{1}{c}{} &
 \multicolumn{1}{l}{\parbox[t]{1.75in}{}}& 
 \multicolumn{1}{l}{\parbox[t]{1.5in}{}}& 
 \multicolumn{1}{l}{\parbox[t]{1in}{}}
 \\
 % Line SO6
 \noalign{\vskip 1mm}
-\cline{1-6}
+\cline{1-7}
 \noalign{\vskip 1mm}
 \multicolumn{1}{l}{\multirow{2}{1in}{{\vskip5pt \textbf{\textit{Explore how the Universe evolved: Galactic structure and dynamics}}}}}&
-\multicolumn{1}{l}{\parbox[t]{2in}{\textbf{SO6}. Constrain the temperatures and emissivities characterizing the Milky Way's interstellar dust (\S\,\ref{sec:galacticsci})}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{\textbf{SO6}. Constrain the temperatures and emissivities characterizing the Milky Way's interstellar dust (\S\,\ref{sec:test_composition_models})}}&
 \multicolumn{1}{l}{\parbox[t]{2in}{Intrinsic polarization fractions of Galactic dust components to accuracy better than 3\% when averaged over $10'$ pixels }}&
 \multicolumn{1}{l}{\parbox[t]{2in}{Intensity and polarized intensity as a function of frequency}}&
 \multicolumn{1}{l}{\parbox[t]{2in}{Intensity and linear polarization maps in 12 frequency bands between 108 and 799\,GHz.}}& 
+\multicolumn{1}{c}{} &
 \multicolumn{1}{l}{\parbox[t]{1.75in}{ Encompassed by S01--5}
 }& 
 \multicolumn{1}{l}{\parbox[t]{1.5in}{}}& 
@@ -277,15 +286,16 @@ $( 3 / {\rm Beam FWHM}) \times ( 336' / {\rm s})$
 \\
 % Line SO7
 \noalign{\vskip 1mm}
-\cline{2-6}
+\cline{2-7}
 \noalign{\vskip 1mm}
 \multicolumn{1}{l}{}&
-\multicolumn{1}{l}{\parbox[t]{2in}{\textbf{SO7}. Determine if magnetic fields are the dominant cause of low Galactic star-formation efficiency (\S\,\ref{sec:galacticsci})}}&
+\multicolumn{1}{l}{\parbox[t]{2in}{\textbf{SO7}. Determine if magnetic fields are the dominant cause of low Galactic star-formation efficiency (\S\,\ref{sec:magnetic_fields})}}&
 \multicolumn{1}{l}{\parbox[t]{2in}{Ratio of cloud mass to maximum mass that can be supported by magnetic field (``Mass to flux ratio'' $\mu$); %\comred{$\sigma(\mu) < ??$};
 ratio of turbulent energy to magnetic energy (Alfv\'{e}n Mach number $\mathcal{M}_A$) on scales 0.05--100\,pc  }}&%\comred{$\sigma(\mathcal{M}_A) < ??$}}}&
 \multicolumn{1}{l}{\parbox[t]{2in}{The turbulence power spectrum on scales 0.05--100\,pc; magnetic field strength ($B$) as a function of spatial scale and density; hydrogen column density; gas velocity dispersion$^d$
 }}&
 \multicolumn{1}{l}{\parbox[t]{2in}{Intensity and linear polarization with $<1$\,pc resolution for thousands of molecular clouds and with $< 0.05$\,pc for the 10 nearest molecular clouds; maps of polarization with 1' resolution over the entire sky}}& 
+\multicolumn{1}{c}{} &
 \multicolumn{1}{l}{\parbox[t]{1.75in}{
 Encompassed by SO1--5, except:
 \vskip4pt
