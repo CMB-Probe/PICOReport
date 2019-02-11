@@ -6,16 +6,18 @@
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=6.25in]{figures/InstrumentCAD.png}
-\vspace{-0.1in}
-\caption{\captiontext
-Detailed PICO instrument configuration. \textit{Left}: Side view in cross section. \textit{Right}: Front view with V-Groove assembly shown semi-transparent.  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics.
-\label{fig:InstrumentCAD}}
+\includegraphics[width=5.25in]{figures/InstrumentCAD.png} 
 \end{center}
-\vspace{-0.15in}
+\vspace{-0.25in}
+\caption{\captiontext
+%PICO instrument configuration \textit{Left:} Side view in cross section. \textit{Right}: Front view with V-Groove assembly shown semi-transparent.  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics.
+PICO instrument configuration in side view and cross section (left), and front view with V-Groove assembly shown semi-transparent (right).  \comor{The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics. }
+\label{fig:InstrumentCAD}}
+%\end{center}
+\vspace{-0.25in}
 \end{figure}
 
-PICO meets all of its science-derived instrument requirements (\S\,\ref{sec:requirements}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz (Table~\ref{tab:STM}). The instrument is built around a two-reflector Dragone-style telescope (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the primary and secondary. The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). The instrument employs a single science observing mode: fixed rate imaging while scanning the sky (\S~\ref{sec:survey_design}).
+PICO meets all of its science-derived instrument requirements (\S\,\ref{sec:requirements}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz (Table~\ref{tab:STM}). The instrument is built around a two-reflector Dragone-style telescope~\citep{open_dragone} (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the primary and secondary. The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). The instrument employs a single science observing mode: fixed rate imaging while scanning the sky (\S~\ref{sec:survey_design}).
 
 The instrument is configured inside the shadow of a V-groove assembly that thermally and optically shields it from the Sun (Fig.~\ref{fig:InstrumentCAD}). The V-groove assembly consists of 4 nested radiation shields that provide passive cooling (\S\,\ref{sec:radiative_cooling}). The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
 
@@ -38,7 +40,7 @@ design. There are no moving parts in the PICO optical system.
 
 \begin{figure}%[ht]
 \parbox{4.0in}{
-\includegraphics[width=4.0in]{images/ArchitectureBlockDiagram.png} }
+\includegraphics[width=3.5in]{images/ArchitectureBlockDiagram.png} }
 \hspace{0.1in}
 \parbox{2.3in}{
 \caption{\captiontext
