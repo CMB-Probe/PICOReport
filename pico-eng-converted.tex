@@ -5,23 +5,46 @@
 \label{sec:instrument} %3
 
 \begin{figure}
-\begin{center}
-\includegraphics[width=5.25in]{figures/InstrumentCAD.png} 
-\end{center}
-\vspace{-0.25in}
+\hspace{-0.1in}
+\parbox{5.1in}{\centerline{
+\includegraphics[width=5.25in]{figures/InstrumentCAD.png} }}
+\hspace{0.05in}
+\parbox{1.3in}{
 \caption{\captiontext
 %PICO instrument configuration \textit{Left:} Side view in cross section. \textit{Right}: Front view with V-Groove assembly shown semi-transparent.  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics.
-PICO instrument configuration in side view and cross section (left), and front view with V-Groove assembly shown semi-transparent (right).  \comor{The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics. }
-\label{fig:InstrumentCAD}}
+PICO instrument configuration in side view and cross section (left), and front view with V-Groove assembly shown semi-transparent (right).  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics. 
+\label{fig:InstrumentCAD}} }
 %\end{center}
-\vspace{-0.25in}
+\vspace{-0.1in}
 \end{figure}
+
+%\begin{figure}
+%\begin{center}
+%\includegraphics[width=5.25in]{figures/InstrumentCAD.png} 
+%\end{center}
+%\vspace{-0.25in}
+%\caption{\captiontext
+%%PICO instrument configuration \textit{Left:} Side view in cross section. \textit{Right}: Front view with V-Groove assembly shown semi-transparent.  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics.
+%PICO instrument configuration in side view and cross section (left), and front view with V-Groove assembly shown semi-transparent (right).  \comor{The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics. }
+%\label{fig:InstrumentCAD}}
+%%\end{center}
+%\vspace{-0.25in}
+%\end{figure}
 
 PICO meets all of its science-derived instrument requirements (\S\,\ref{sec:requirements}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz (Table~\ref{tab:STM}). The instrument is built around a two-reflector Dragone-style telescope~\citep{open_dragone} (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the primary and secondary. The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). The instrument employs a single science observing mode: fixed rate imaging while scanning the sky (\S~\ref{sec:survey_design}).
 
 The instrument is configured inside the shadow of a V-groove assembly that thermally and optically shields it from the Sun (Fig.~\ref{fig:InstrumentCAD}). The V-groove assembly consists of 4 nested radiation shields that provide passive cooling (\S\,\ref{sec:radiative_cooling}). The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
 
 %A V-groove radiator assembly provides passive cooling (\S\,\ref{sec:radiative_cooling}). The instrument is configured inside the shadow of the V-grooves, thermally and optically shielded from the Sun. The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
+\begin{wrapfigure}{r}{0.6\textwidth}
+\vskip -8pt
+\hfill
+\includegraphics[width=0.6\textwidth]{images/ArchitectureBlockDiagram.png} 
+\vskip -2pt
+\caption{\captiontext
+PICO instrument block diagram. Active coolers provide cooling to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the 4.5\,K thermal liner that acts as a cold aperture stop. Data from the focal plane flows to (redundant, cross-strapped) warm readout electronics on the spun module of the spacecraft bus.
+\label{fig:ArchitectureBlockDiagram} }  
+\end{wrapfigure}
 
 The V-groove assembly is attached to the bipod struts that support the instrument structural ring. The ring supports the primary reflector and telescope box. The telescope box contains the actively cooled components (\S\,\ref{sec:cadr}, \S\,\ref{sec:4kcooler}), including the secondary reflector, the focal plane and sub-kelvin adiabatic refrigerator structures. Just inside the box, a thermal liner serves as a cold optical baffle and aperture stop. Instrument integration and test (I\&T) are described in \S\,\ref{sec:iandt}.
 
@@ -30,23 +53,19 @@ During the survey, the instrument is spun at 1~rpm (\S\,\ref{sec:survey_design})
 \subsection{Telescope}
 \label{sec:telescope} %3.1
 
-The PICO telescope design is driven by a combination of science
-requirements and physical volume limits. The science requirements are:
-a large diffraction-limited field of view (DLFOV) sufficient to
-support $\sim10^4$ detectors, arcminute resolution at 800\,GHz, low
-spurious polarization, and low sidelobe response. All
-requirements are met with PICO's 1.4\,m aperture modified open-Dragone
-design. There are no moving parts in the PICO optical system.
 
-\begin{figure}%[ht]
-\parbox{4.0in}{
-\includegraphics[width=3.5in]{images/ArchitectureBlockDiagram.png} }
-\hspace{0.1in}
-\parbox{2.3in}{
-\caption{\captiontext
-PICO instrument block diagram. Active coolers provide cooling to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the 4.5\,K thermal liner that acts as a cold aperture stop. Data from the focal plane flows to (redundant, cross-strapped) warm readout electronics on the spun module of the spacecraft bus.
-\label{fig:ArchitectureBlockDiagram} }  }
-\end{figure}
+The PICO telescope design is driven by a combination of science requirements and physical volume limits. The science requirements are: a large diffraction-limited field of view (DLFOV) sufficient to support $\sim10^4$ detectors, arcminute resolution at 800\,GHz, low spurious polarization, and low sidelobe response. All requirements are met with PICO's 1.4\,m aperture modified open-Dragone design. There are no moving parts in the PICO optical system.
+
+
+%\begin{figure}%[ht]
+%\parbox{4.0in}{
+%\includegraphics[width=3.5in]{images/ArchitectureBlockDiagram.png} }
+%\hspace{0.1in}
+%\parbox{2.3in}{
+%\caption{\captiontext
+%PICO instrument block diagram. Active coolers provide cooling to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the 4.5\,K thermal liner that acts as a cold aperture stop. Data from the focal plane flows to (redundant, cross-strapped) warm readout electronics on the spun module of the spacecraft bus.
+%\label{fig:ArchitectureBlockDiagram} }  }
+%\end{figure}
 
 The PICO optical design was selected following a trade study examining cross-Dragone, Gregorian Dragone, and open-Dragone designs~\citep{Young2018}.  The open-Dragone and crossed-Dragone offer more diffraction-limited focal plane area than the Gregorian Dragone~\citep{deBernardis2018}, and are able to support enough detectors to provide the required sensitivity. The open-Dragone does not require the massive and voluminous baffles that the cross-Dragone does, and hence can satisfy the aperture size requirement within the shadow cone.
 
@@ -249,17 +268,16 @@ We screen detector wafers prior to selection of flight wafers and focal plane in
 
 The focal plane is integrated with the reflectors and structures, and alignment verified with photogrammetry at cold temperatures in a TVAC chamber.  The completely integrated observatory (instrument and spacecraft bus) is tested in TVAC to measure parasitic optical loading from the instrument, noise, microphonics, and radio-frequency interference (RFI). The observatory is 4.5\,m in diameter and 6.1\,m tall, with no deployables.
 
-%\newpage
-
 \section{Design Reference Mission}
 \label{sec:design_reference} %4
+%
+\input tables/table4.1_wrap.tex
+%
 The PICO design reference mission is summarized in Table~\ref{tab:mission_parameters}.
 
 \subsection{Concept of Operations}
 \label{sec:operations} %4.1
-%
-\input tables/table4.1_wrap.tex
-%
+
 The PICO concept of operations is similar to that of the successful
 \textit{WMAP} \citep{Bennett2003} and \textit{Planck} \citep{Tauber2010} missions. After launch,
 PICO cruises to a quasi-halo orbit around the Earth--Sun L2 Lagrange point
@@ -280,7 +298,6 @@ does not require cryogenic consumables (as the \textit{Planck} mission did),
 permitting consideration of significant mission extension beyond the prime
 mission.
 
-
 \begin{figure}[!b]
   \begin{minipage}[b]{0.29\textwidth}
     \begin{center}
@@ -298,25 +315,7 @@ mission.
   precessing axis.\label{fig:MissionDesignFigure}}
    \end{center}
   \end{minipage}
- 
 \end{figure}
-
-
-% \begin{figure}
-% \begin{center}
-% \includegraphics[width=3in]{figures/MissionDesignFigure.png}
-% \caption{PICO surveys by continuously spinning the instrument about a
-%   precessing axis.\label{fig:MissionDesignFigure}}
-% \end{center}
-% \end{figure}
-
-
-% \begin{figure}
-% \begin{center}
-% \includegraphics[width=1in]{figures/InFairing.png}
-% \caption{PICO is compatible with the Falcon~9.\label{fig:InFairing}}
-% \end{center}
-% \end{figure}
 
 \subsubsection{Mission Design and Launch}
 \label{sec:mission_design} %4.1.1
@@ -424,14 +423,14 @@ retransmission or missed-pass recovery.
 
 
 \begin{figure}
-\begin{center}
-\includegraphics[width=0.8\textwidth]{figures/Spacecraft.png}
-\end{center}
-\vspace{-0.25in}
+\hspace{-0.15in}
+\parbox{5.1in}{\centering{
+\includegraphics[width=5.25in]{figures/Spacecraft.png} } }
+\hspace{0.12in}
+\parbox{1.3in}{
 \caption{\captiontext
-Modular equipment bays provide easy access to all components in the spacecraft de-spun module and enable parallel integration of spacecraft subsystems.\label{fig:Spacecraft}}
-%\end{center}
-\vspace{-0.1in}
+Modular equipment bays provide easy access to all components in the spacecraft de-spun module and enable parallel integration of spacecraft subsystems.\label{fig:Spacecraft}} }
+\vspace{-0.25in}
 \end{figure}
 
 \subsection{Spacecraft}
@@ -491,52 +490,16 @@ tank fill fraction is 77\,\%.
 \subsubsection{Attitude Determination and Control}
 \label{sec:attitude_determination} %4.3.1
 
-PICO uses a zero net angular momentum control architecture with
-heritage from the SMAP mission (\S\,\ref{sec:heritage}). PICO's instrument
-spin rate (1\,rpm) matches that of the \textit{Planck} mission, but
-the precession of the spin axis is much faster (10\,hr vs 6\, months),
-and the precession angle much larger ($26\degree$ vs
-$7.5\degree$). These differences make the spin-stabilized
-\textit{Planck} control architecture impractical because of the amount
-of torque that would be required to drive precession.
+PICO uses a zero net angular momentum control architecture with heritage from the SMAP mission (\S\,\ref{sec:heritage}). PICO's instrument spin rate (1\,rpm) matches that of the \planck\ mission, but the precession of the spin axis is faster (10\,hr vs 6\, months), and the precession angle larger ($26\degree$ vs $7.5\degree$). These differences make the spin-stabilized \planck \ control architecture impractical. 
+% because of the amount of torque that would be required to drive precession.
 
-The PICO 1\,rpm instrument spin rate is achieved and maintained using
-a spin motor. The spin motor drive electronics provide the coarse spin
-rate knowledge used for controlling the spin rate to meet the
-$\pm0.1$\,rpm requirement. Data and power are passed across the
-interface using slip rings.
+The PICO instrument spin rate is achieved and maintained using a spin motor. The spin motor drive electronics provide the coarse spin rate knowledge used for controlling the spin rate to meet the $\pm0.1$\,rpm requirement. Data and power are passed across the interface using slip rings.
 
-Based on mass properties derived from the PICO CAD model, PICO
-requires $\sim220$\,N\,m\,s to cancel the angular momentum of the
-instrument and spacecraft spun module (including mass contingency) at
-1\,rpm. Three Honeywell HR-16 reaction wheel assemblies (RWAs), each
-capable of 150\,N\,m\,s, are mounted on the despun module parallel to
-the instrument spin axis, and spin opposite to the instrument to
-achieve zero net angular momentum. The despun module is three-axis
-stabilized. The spin axis is precessed using three RWAs mounted normal
-to the spin axis in a triangle configuration. Each set of three RWAs
-is sized such that two could perform the required function with
-margin, providing single fault tolerance.
+PICO requires $220$\,N\,m\,s to cancel the angular momentum of the instrument and spacecraft spun module at 1\,RPM. This value includes mass contingency and is based on the CAD model. Three Honeywell HR-16 reaction wheel assemblies (RWAs), each capable of 150\,N\,m\,s, are mounted on the despun module parallel to the instrument spin axis, and spin opposite to the instrument to achieve zero net angular momentum. The despun module is three-axis stabilized. The spin axis is precessed using three RWAs mounted normal to the spin axis in a triangle configuration. Each set of three RWAs is sized such that two could perform the required function with margin, providing single fault tolerance.
 
-Spin axis pointing and spin rate knowledge are achieved and maintained
-using star tracker and inertial measurement unit (IMU) data. The
-attitude determination system is single-fault tolerant, with two IMUs
-each on the spun and despun modules, and two star trackers each on the
-spun and despun modules. Two sun sensors on the despun module are used
-for safe-mode contingencies and instrument Sun avoidance. All attitude
-control and reconstruction requirements are met, including spin axis
-control $< 60$\,arcmin with $< 1$\,arcmin/min stability, and
-reconstructed pointing knowledge $< 10$\,arcsec (each axis, $3\sigma$).
+Spin axis pointing and spin rate knowledge are achieved and maintained using star tracker and inertial measurement unit (IMU) data. The attitude determination system is single-fault tolerant, with two IMUs each on the spun and despun modules, and two star trackers each on the spun and despun modules. Two sun sensors on the despun module are used for safe-mode contingencies and instrument Sun avoidance. All attitude control and reconstruction requirements are met, including spin axis control $< 60$\,arcmin with $< 1$\,arcmin/min stability, and reconstructed pointing knowledge $< 10$\,arcsec (each axis, $3\sigma$).
 
-Additional pointing reconstruction is performed in post-processing
-using the science data.  The PICO instrument will observe planets
-(compact, bright sources) nearly every day.  By fitting the telescope
-pointing to the known planetary ephemerides, the knowledge of the
-telescope boresight pointing and the relative pointing of each
-detector will improve to better than 1\,arcsec (each axis, $3\sigma$). \textit{Planck},
-with fewer detectors, making lower signal-to-noise ratio measurements
-of the planets, and observing with a scan strategy that acquired
-measurements of each planet only once every 6\,months, demonstrated 0.8\,arcsec ($1\sigma$) pointing reconstruction uncertainty in-scan and 1.9\,arcsec ($1\sigma$) cross-scan \citep{2016A&A...594A...1P}.
+Additional pointing reconstruction is performed in post-processing using the science data.  The PICO instrument will observe planets (compact, bright sources) nearly every day.  By fitting the telescope pointing to the known planetary ephemerides, the knowledge of the telescope boresight pointing and the relative pointing of each detector will improve to better than 1\,arcsec (each axis, $3\sigma$). \planck , with fewer detectors, making lower \ac{SNR} measurements of the planets, and observing with a scan strategy that acquired measurements of each planet only once every 6\,months, demonstrated 0.8\,arcsec ($1\sigma$) pointing reconstruction uncertainty in-scan and 1.9\,arcsec ($1\sigma$) cross-scan~\citep{2016A&A...594A...1P}.
 %(Planck, Planck 2015 results. I. Overview of products and scientific results 2016)
 
 %\bigskip
@@ -725,20 +688,9 @@ The full list of study report contributors and endorsers is on page~\pageref{aut
 \subsection{Project Management Plan}
 \label{sec:management_plan} %6.2
 
-PICO benefits from the experience of predecessor missions such as
-\textit{Planck} and \textit{WMAP}, as well as many years of investment
-in technology development and a multitude of suborbital
-experiments. In addition to demonstrated science and engineering
-capabilities, this heritage has developed a community of people with
-the expertise required to field a successful mission.
+PICO benefits from the experience of predecessor missions such as \planck\ and \textit{WMAP}, as well as many years of investment in technology development and a multitude of suborbital experiments. In addition to demonstrated science and engineering capabilities, this heritage has developed a community of people with the expertise required to field a successful mission.
 
-This study assumes mission management by JPL with a Principal
-Investigator leading a single science team. A Project Manager provides
-project oversight for schedule, budget, and deliverables. A Project
-Systems Engineer leads systems engineering activities and serves as
-the Engineering Technical Authority. A Mission Assurance Manager
-serves as the Independent Technical Authority. The PICO mission
-development schedule is shown in Fig.~\ref{fig:Schedule}.
+This study assumes mission management by JPL with a Principal Investigator leading a single science team. A Project Manager provides project oversight for schedule, budget, and deliverables. A Project Systems Engineer leads systems engineering activities and serves as the Engineering Technical Authority. A Mission Assurance Manager serves as the Independent Technical Authority. The PICO mission development schedule is shown in Fig.~\ref{fig:Schedule}.
 
 \begin{figure}[hb]
 \begin{center}
@@ -771,70 +723,19 @@ with New Frontiers missions Juno and OSIRIS-REx.
 The successful \textit{Planck} mission provides science heritage for
 PICO. Technical heritage traces to multiple missions.
 
-Because PICO observes in the mm/sub-mm regime, the surface accuracy
-requirement for the reflectors is relatively easy to meet. PICO's
-reflectors are similar to \textit{Planck}'s, but somewhat larger
-($270\,{\rm cm} \times 205\,{\rm cm}$ primary vs.\
-$189\,{\rm cm} \times 155\,{\rm cm}$)
-\citep{Gloesener2006}. \textit{Herschel} observed at wavelengths more
-demanding than PICO's and was larger ($350\,{\rm cm}$ diameter
-primary) \citep{Toulemont2004}.
+Because PICO observes in the mm/sub-mm regime, the surface accuracy requirement for the reflectors is relatively easy to meet. PICO's reflectors are similar to \planck 's, but somewhat larger ($270 \,\, {\rm cm} \times 205\,{\rm cm}$ primary vs.\ $189\,{\rm cm} \times 155\,{\rm cm}$)~\citep{Gloesener2006}. \textit{Herschel} observed at wavelengths more demanding than PICO's and had a larger reflector ($350\, \,{\rm cm}$ diameter primary)~\citep{Toulemont2004}.
 
-The heritage of the PICO detectors and readout electronics
-(\S\,\ref{sec:focal_plane}, \S\,\ref{sec:detector_readout}) is
-described in \S\,\ref{sec:technology_maturation}.
+The heritage of the PICO detectors and readout electronics (which are described in \S\,\ref{sec:focal_plane}, \S\,\ref{sec:detector_readout}) is described in \S\,\ref{sec:technology_maturation}.
 
+PICO's detectors are cooled by a cADR (\S\,\ref{sec:cadr}) with requirements that are within the capabilities of current ADRs developed by Goddard Space Flight Center. These systems have been applied to several JAXA missions, including \textit{Hitomi}~\citep{Shirron2016}. PICO's 4\,K cryocooler (\S\,\ref{sec:4kcooler}) is a direct extension of the JWST MIRI design~\citep{Durand2008,Rabb2013}. PICO benefits from a simpler and more reliable implementation of the J-T system than was required for MIRI, in that no deployment of cooling lines is required, and all flow valving is performed on the warm spacecraft. Cooling multiple independent points with a J-T loop has been demonstrated on \planck\ with the JPL-supplied 18\,K cooler~\citep{Planck2011}. Structures similar to PICO's V-groove radiator assembly (\S\,\ref{sec:radiative_cooling}) are a standard approach for passive cooling, and were first described more than thirty years ago~\citep{Bard1987}. We baselined a simple honeycomb material construction like that successfully flown by \planck~\citep{ESA2009,Planck2011}.
 
-PICO's detectors are cooled by a cADR (\S\,\ref{sec:cadr}) with
-requirements that are within the capabilities of current ADRs
-developed by Goddard Space Flight Center. These systems have been
-applied to several JAXA missions, including \textit{Hitomi} \citep{Shirron2016}.
-
-PICO's 4\,K cryocooler (\S\,\ref{sec:4kcooler}) is a direct extension
-of the JWST MIRI design \citep{Durand2008,Rabb2013}. PICO benefits
-from a simpler and more reliable implementation of the J-T system than
-was required for MIRI, in that no deployment of cooling lines is
-required, and all flow valving is performed on the warm
-spacecraft. Cooling multiple independent points with a J-T loop has
-been demonstrated on \textit{Planck} with the JPL-supplied 18\,K
-cooler \citep{Planck2011}.
-
-Structures similar to PICO's V-groove radiator assembly
-(\S\,\ref{sec:radiative_cooling}) are a standard approach for passive
-cooling first described more than thirty years ago
-\citep{Bard1987}.
 %PICO's 4.5\,m diameter V-groove assembly fits inside the launch vehicle fairing.
-PICO
-has baselined a simple honeycomb material construction like that
-successfully flown by the \textit{Planck} mission
-\citep{ESA2009,Planck2011}.
 
-Most requirements on the PICO spacecraft are well within typical
-ranges and can be met with standard high heritage systems
-(\S\,\ref{sec:spacecraft}). PICO's spin architecture and data volume
-requirements are less typical, and discussed below.
+Most requirements on the PICO spacecraft are well within typical ranges and can be met with standard high heritage systems (\S\,\ref{sec:spacecraft}). PICO's spin architecture and data volume requirements are less typical, and are discussed below.
 
-PICO's spin system is generally less demanding than the successful
-SMAP spin system. PICO spins its instrument at 1\,rpm, passes data and
-power across the spin interface (Fig.~\ref{fig:ArchitectureBlockDiagram}), and requires $\sim220$\,N\,m\,s of
-spin momentum cancellation (\S\,\ref{sec:attitude_determination}). SMAP spins its 6-m instrument
-antenna at 14.6\,rpm, successfully passes data and power across the
-spin interface, and requires 359\,N\,m\,s of spin momentum cancellation~\citep{Brown2016}.
+The spin system is less demanding than the successful SMAP spin system. The PICO spin rate is 1\,rpm, data and power pass across the spin interface (Fig.~\ref{fig:ArchitectureBlockDiagram}), and the mission requires $\sim220$\,N\,m\,s of spin angular momentum cancellation (\S\,\ref{sec:attitude_determination}). SMAP spin its 6-m instrument antenna at 14.6\,rpm, successfully passes data and power across the spin interface, and requires 359\,N\,m\,s of spin angular momentum cancellation~\citep{Brown2016}.
 
-Though PICO's data volume is notable by current standards, it is
-already enveloped by missions in development. PICO produces
-6.1\,Tb/day of raw data which is compressed to 1.5\,Tb/day
-(\S\,\ref{sec:detector_readout}). PICO downlinks data daily, but
-baselines storage of 3\,days of (compressed) data to mitigate missed
-telecom passes. This requires 4.5\,Tb of onboard storage, in family
-with the 3.14\,Tb solid state recorder currently in use by Landsat~8
-and much smaller than the 12\,Tb flash memory planned for NISAR
-\citep{Jasper2017}. The PICO baseline 150\,Mb/s Ka-band data downlink
-is an existing DSN catalog service \citep{DSN2015}. The
-baseline PICO mission generates $\sim2,200$\,Tb of raw (uncompressed)
-data per year, less than the $\sim6,800$\,Tb/year currently returned
-by Landsat~8 and $\sim 9,300$\,Tb/yr planned by NISAR
-\citep{Jasper2017}.
+Though PICO's data volume is notable by current standards, it is already enveloped by missions in development. The mission produces 6.1\,Tb/day of raw data which is compressed to 1.5\,Tb/day (\S\,\ref{sec:detector_readout}). Data downlinks occur daily, but we baseline storage of 3\,days of (compressed) data to mitigate missed telecom passes. This requires 4.5\,Tb of onboard storage, in family with the 3.14\,Tb solid state recorder currently in use by Landsat~8 and much smaller than the 12\,Tb flash memory planned for NISAR~\citep{Jasper2017}. The baseline 150\,Mb/s Ka-band data downlink is an existing DSN catalog service~\citep{DSN2015}. The baseline mission generates $\sim2,200$\,Tb of raw (uncompressed) data per year, less than the $\sim6,800$\,Tb/year currently returned by Landsat~8 and $\sim 9,300$\,Tb/yr planned by NISAR~\citep{Jasper2017}.
 
 \subsection{Risk Assessment}
 \label{sec:risk_assessment} %6.4
