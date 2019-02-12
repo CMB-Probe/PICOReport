@@ -3,6 +3,7 @@
 % This is two tables in minipage environment
 %
 \begin{table}[tb]
+\hskip3cm
 \begin{minipage}[t]{0.3\textwidth}
 \caption{\textbf{Mission Parameters}\label{tab:specs}}
 \begingroup
@@ -46,9 +47,8 @@ Cost&\$\,958M\cr
 \endgroup
 %\end{table}
 \end{minipage}
-\hskip 2cm
-\begin{minipage}[t]{0.69\textwidth}
-%\begin{table}[tb]
+\hskip 3cm
+\begin{minipage}[t]{0.5\textwidth}
 \caption{\textbf{Frequency Bands, Resolution, and Noise Level}\label{tab:spec_bands}}
 \begingroup
 %\openup 5pt
@@ -118,7 +118,7 @@ FWHM [arcmin]&38.4&32.0&28.3&23.6&22.2&18.4&12.8&10.7&9.5&7.9&7.4&6.2&4.3&3.6&3.
 \caption{\textbf{Science Traceability Matrix (STM) }}\label{tab:STM}
 %\small
 \footnotesize
-\begin{tabular}{ccccccccc}
+\begin{tabular}{@{}lcccccccc@{}}
 %\noalign{\vskip 2mm}
 \hline
 \noalign{\vskip 2mm}    
@@ -133,7 +133,7 @@ FWHM [arcmin]&38.4&32.0&28.3&23.6&22.2&18.4&12.8&10.7&9.5&7.9&7.4&6.2&4.3&3.6&3.
 \\
 %Header line 2
 \noalign{\vskip 2mm}    
-\cline{3-8}
+\cline{3-5}\cline{7-8}
 \noalign{\vskip 2mm}    
 %\rowcolor[HTML]{EFEFEF} 
 \multicolumn{1}{c}{} &
