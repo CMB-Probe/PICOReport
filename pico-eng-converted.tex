@@ -216,6 +216,17 @@ which has high thermal conductance paths built in, to provide spatial temperatur
 \subsubsection{4.5~K Cooler}
 \label{sec:4kcooler} %3.4.2
 
+\begin{wrapfigure}{r}{0.4\textwidth}
+\vspace{-8pt}
+\includegraphics[width=2.6in]{figures/CoolerFigure.png} 
+\caption{\captiontext
+Projected performance of the NGAS cooler using a multi-stage
+compressor and $^4$He circulating gas~\citep{Rabb2013} meets PICO's requirements
+with $>100\,\%$ margin. PICO requires heat lift of 42 mW at 4.5~K (Table~\ref{tab:cooler}). With 250~W of input power the NGAS cooler is projected to provide 100~mW of heat lift. We conservatively specify a maximum expected value (MEV) of 350~W as the compressor's input power, giving 100~W of additional input power contingency.
+\label{fig:CoolerFigure}} 
+%\vspace{-0.15in}
+\end{wrapfigure}
+%
 A cryocooler system similar to that used on JWST to cool the MIRI detectors~\citep{Durand2008,Rabb2013} removes the heat rejected from the cADR and cools the aperture stop and secondary reflector to 4.5~K. Both NGAS (which provided the MIRI coolers) and Ball Aerospace have developed such coolers under the NASA-sponsored Advanced Cryocooler Technology Development Program~\citep{Glaister2006}. NGAS and Ball use slightly different but functionally-equivalent hardware approaches. A 3-stage precooler provides $\sim16$~K precooling to a separate circulated-gas loop.
 %driven by a similar compressor but modified for DC flow \comblue{very technical; is the reader supposed to follow this? is the difference between the ngas and ball relevant?}.
 The circulated-gas loop utilizes Joule--Thomson (J-T) expansion, further cooling the gas to 4.5~K.
@@ -233,17 +244,21 @@ All waste heat rejected by the cooler compressors and drive electronics is trans
 
 %The J-T expansion point is located close to the cADR heat rejection point, thereby providing the lowest temperature to the cADR. Subsequent to cooling the cADR, the gas flow intercepts conducted heat to the focal plane enclosure, then cools the aperture stop and the secondary reflector before returning in counterflow to the circulation compressor.  Model-based projections indicate that the coolers delivered for MIRI could meet the PICO 4.5~K heat lift requirement with more than $100\,\%$ margin with minimal changes: the replacement of the $^4$He gas used for MIRI with $^3$He, plus resizing of the gas counterflow heat exchangers to take advantage of the $^3$He properties. \comblue{have we thought through about the change in gas? is it obvious that no other changes will be required as a consequence of the change in gas type?}
 
-\begin{figure}
-\parbox{3.5in}{\centering
-\includegraphics[width=2.6in]{figures/CoolerFigure.png} }
-\parbox{3.0in}{
-\caption{\captiontext
-Projected performance of the NGAS cooler using a multi-stage
-compressor and $^4$He circulating gas~\citep{Rabb2013} meets PICO's requirements
-with $>100\,\%$ margin. PICO requires heat lift of 42 mW at 4.5~K (Table~\ref{tab:cooler}). With 250~W of input power the NGAS cooler is projected to provide 100~mW of heat lift. We conservatively specify a maximum expected value (MEV) of 350~W as the compressor's input power, giving 100~W of additional input power contingency.
-  \label{fig:CoolerFigure}} }
-\vspace{-0.15in}
-\end{figure}
+% \begin{figure}
+% \parbox{3.5in}{\centering
+% \includegraphics[width=2.6in]{figures/CoolerFigure.png} }
+% \parbox{3.0in}{
+% \caption{\captiontext
+% Projected performance of the NGAS cooler using a multi-stage
+% compressor and $^4$He circulating gas~\citep{Rabb2013} meets PICO's requirements
+% with $>100\,\%$ margin. PICO requires heat lift of 42 mW at 4.5~K (Table~\ref{tab:cooler}). With 250~W of input power the NGAS cooler is projected to provide 100~mW of heat lift. We conservatively specify a maximum expected value (MEV) of 350~W as the compressor's input power, giving 100~W of additional input power contingency.
+%   \label{fig:CoolerFigure}} }
+% \vspace{-0.15in}
+% \end{figure}
+
+
+
+
 
 
 \subsubsection{Radiative Cooling}
