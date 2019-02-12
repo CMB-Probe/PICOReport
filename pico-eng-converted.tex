@@ -83,96 +83,14 @@ frequency bands, each with 25\% fractional bandwidth, and band centers ranging f
 Polarimetry is achieved by differencing the signals from pairs of two co-pointed bolometers that are sensitive to two orthogonal polarization states. %\comblue{polarimetry is incomplete; need to elaborate more}
 A conceptual layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}.
 
-% \begin{figure}
-% \centering
-% \begin{minipage}{0.49\textwidth}
-% \centering
-% \includegraphics[width=\textwidth]{figures/FocalPlaneMechanical.png}
-% \caption{\captiontext PICO focal plane. Detectors are fabricated on six types of tiles (shown numbered and colored as in Table~\ref{tab:focal_plane}). The wafers are located on the focal plane such that higher frequency bands, which require better optical performance, are placed nearer to the center.\label{fig:FocalPlaneMechanical}}
-% \end{minipage}
-% \hfill
-% \begin{minipage}{0.49\textwidth}
-% \centering
-% \captionsetup{type=table}
-% \caption{\captiontext PICO makes efficient use of the focal area with multichroic pixels (three bands per pixel, \S\,\ref{sec:low_freq_det}). The sampling rate is based on the smallest beam (Table~\ref{tab:bands}), with 3 samples per FWHM at a scan speed $(360\degree/{\rm min})\sin(\beta=69\degree) = 336\degree/{\rm min}$. Scaling from suborbital experience, we anticipate that TES bolometers can support these sampling rates with a factor of $\sim4\times$ margin.\label{tab:focal_plane}}{%
-% \begingroup
-% \definecolor{A}{RGB}{209, 209, 209}
-% \definecolor{B}{RGB}{64, 128, 159}
-% \definecolor{C}{RGB}{112, 208, 85}
-% \definecolor{D}{RGB}{109, 196, 232}
-% \definecolor{E}{RGB}{32, 49, 184}
-% \definecolor{F}{RGB}{119, 120, 199}
-% \definecolor{G}{RGB}{235, 92, 243}
-% %\openup 5pt
-% \newdimen\tblskip \tblskip=5pt
-% \nointerlineskip
-% \vskip -6mm
-% \footnotesize %\footnotesize
-% \setbox\tablebox=\vbox{
-%     \newdimen\digitwidth
-%     \setbox0=\hbox{\rm 0}
-%     \digitwidth=\wd0
-%     \catcode`*=\active
-%     \def*{\kern\digitwidth}
-% %
-%     \newdimen\signwidth
-%     \setbox0=\hbox{+}
-%     \signwidth=\wd0
-%     \catcode`!=\active
-%     \def!{\kern\signwidth}
-% %
-% \halign to \textwidth{
-% \hfil#\hfil\tabskip=0.6em plus 0.6em&
-% \hfil#\hfil&
-% \hfil#\hfil&
-% \hfil#\hfil&
-% \hfil#\hfil&
-% \hfil#\hfil\tabskip=0pt\cr
-% \noalign{\doubleline}
-% \omit \hfil Tile\hfil&&Pixels/&Pixel&Bandcenters&Sampling\cr
-% \omit \hfil type\hfil&$N_{\rm tile}$&tile&type&[GHz]&rate [Hz]\cr
-% \noalign{\vskip 3pt\hrule\vskip 5pt}
-% 1&6&10&\colorbox{A}{A}&21, 30, 43&45\cr
-% \noalign{\vskip 5pt\hrule height 0.2pt\vskip 3pt}
-% 2&10&10&\colorbox{B}{\textcolor{White}B}&25, 36, 52&55\cr
-% \noalign{\vskip 5pt\hrule height 0.2pt\vskip 3pt}
-% 3&6&61&\colorbox{C}{C}&62, 90, 129&136\cr
-% \noalign{\vskip 5pt\hrule height 0.2pt\vskip 3pt}
-% 4&6&85&\colorbox{D}{D}&75, 108, 155&163\cr
-% \omit&\omit&80&\colorbox{E}{\textcolor{White}E}&186, 268, 385&403\cr
-% \noalign{\vskip 5pt\hrule height 0.2pt\vskip 3pt}
-% 5&2&450&\colorbox{F}{\textcolor{White}F}&223, 321, 462&480\cr
-% \noalign{\vskip 5pt\hrule height 0.2pt\vskip 3pt}
-% 6&1&220&\colorbox{G}{G}&555&917\cr
-% \omit&\omit&200&\colorbox{G}{H}&666\cr
-% \omit&\omit&180&\colorbox{G}{I}&799\cr
-% \noalign{\vskip 5pt\hrule\vskip 3pt}
-% } % close halign
-% } % close vbox
-% \endPlancktable
-% \endgroup
-% }
-% \end{minipage}
-% \end{figure}
-
-% version of 3.3 with text beside image.
-% \begin{figure}
-% \parbox{3in}{\centering
-% \includegraphics[width=3in]{figures/FocalPlaneMechanical.png}
-% }
-% \parbox{3.5in}{\centering
-% \caption{\captiontext
-% PICO focal plane. Detectors are fabricated on six types of tiles (shown numbered and colored as in Table~\ref{tab:focal_plane}). The wafers are located on the focal plane such that higher frequency bands, which require better optical performance, are placed nearer to the center.\label{fig:FocalPlaneMechanical}}
-% }
-% \end{figure}
-
 Bolometers operating in the mm/sub-mm wave band are photon-noise limited. Therefore, increase in sensitivity is achieved through an increase in detector count. The PICO focal plane has 12,996 detectors, 175 times the number flown aboard \planck\ thereby providing a breakthrough increase in sensitivity with a comparably sized telescope. This breakthrough is enabled by development and demonstration in suborbital projects, which now commonly operate arrays of $10^3$--$10^4$ detectors (\S\,\ref{sec:technology_maturation}).
 
 \subsubsection{21--462\,GHz Bands}
 \label{sec:low_freq_det} % 3.2.1
-%
-%\input tables/table3.1_wrap.tex
 
+%%%%%%%%
+\input tables/table3.1_wrap.tex
+%%%%%%%%
 Several optical coupling technologies have matured over the past ten
 years to efficiently use focal plane area: horns with ortho-mode
 transducers (OMTs) \citep{Duff2016}, lithographed antenna arrays
@@ -184,12 +102,6 @@ or three colors per pixel.  Alternatively, antenna-array coupling has
 only demonstrated single-color pixels to date, but uniformly
 illuminated feeds enable much smaller pixels and therefore more
 densely packed focal planes.
-% Amy:I'd very much like to be able to add this sentence if its true,
-% but I haven't seen the antenna-array analysis, and it isn’t yet
-% included in 5.5: “Any of these technologies could be used to deliver
-% dramatic increases in instrument sensitivity relative to the Planck
-% mission (§5.5).”
-
 
 The PICO baseline focal-plane design
 employs three-color sinuous antenna/lenslet-coupling \citep{Suzuki2014}
@@ -199,32 +111,15 @@ continuous bandwidth into three narrow channels using integrated
 micro-machined filter circuits \citep{OBrient2013}. The technology
 maturation required for PICO is described in \$\,\ref{sec:bolometers}.
 
-% The majority of the PICO FOV is populated with multichroic pixels (MCPs)
-% \citep{Suzuki2014,Datta2014}, which make optimal use of the focal
-% plane area by feeding three photometric bands from a common broad-band
-% antenna, with two single-polarization bolometers per band and
-% therefore six bolometers per pixel.
-
-% Several competing optical coupling technologies have matured over the
-% past ten years using horn-coupling \citep{Duff2016}, antenna-array
-% coupling \citep{BICEP2015}, and sinuous antenna/lenslet-coupling
-% \citep{Edwards2012}, delivering quantum efficiency $> 70\,\%$ over more than
-% an octave of bandwidth. Pixel size, number, and spacing are relatively
-% agnostic to the coupling scheme, so multiple options are open to PICO
-% (technology maturation plan described in
-% \S\,\ref{sec:bolometers}). For all of these schemes, niobium
-% microstrips mediate the signals between the antenna and detectors, and
-% partition the feed's wide continuous bandwidth into narrow channels
-% using integrated micro-machined filter circuits \citep{OBrient2013}.
-
 \subsubsection{555--799\,GHz Bands}
 \label{sec:high_freq_det} % 3.2.2
 %
-\input tables/table3.1_wrap.tex
 
 PICO's highest three frequency channels are beyond the niobium superconducting band-gap, rendering microstrip filters a poor solution for defining the optical passband. In this regime, PICO instead measures a single band with each pixel using feedhorn-coupled polarization-sensitive bolometers. Radiation is coupled through horns directly to an absorber in the throat of a waveguide. TES bolometers detect the incident power.  The waveguide cut-off defines the lower edge of the band, and quasi-optical metal-mesh filters define the upper edge. Numerous experiments have successfully used similar approaches~\citep{Shirokoff2011,Bleem2012,Turner2001}. The technology maturation required for PICO is described in \S\,\ref{sec:dev_arrays}.
 
+%%%%%
 \input tables/table3.2.tex
+%%%%%
 
 \subsubsection{Sensitivity}
 \label{sec:sensitivity} %3.2.3
@@ -331,52 +226,31 @@ with $>100\,\%$ margin. PICO requires heat lift of 42 mW at 4.5~K (Table~\ref{ta
 \vspace{-0.15in}
 \end{figure}
 
-%There is a second approach that will meet the PICO requirements without assuming modifications of the MIRI cooler.
-
-%which requires less modification to achieve comparable performance,
-%These improvements entail the implementation of well-known techniques (standard thermal engineering) \comblue{what does this sentence mean?}.
-%The NGAS project has completed PDR-level development, and is expected to reach CDR level well before PICO begins PhaseA. The projected performance of this cooler is shown in Fig.~\ref{fig:CoolerFigure}; it gives more than 100\% heat lift at 250~W input power. For PICO we assumed a maximum expected input power of 350~W. The Ball approach started with a larger compressor, required less modification to achieve comparable performance, and eliminated the cold bypass-precooling valve that was problematic for MIRI. \comblue{must we mention problematic valves?} The Ball approach uses $^3$He, while the NGAS approach uses $^4$He. Both employ re-optimized gas heat exchangers (trivial engineering changes). \comblue{what does this mean?}
-
-%It is highly likely that a better solution will be available before Phase~A. \comblue{why do we need a better solution? do you mean a cooler with even larger margin?} NGAS and Ball are actively working on increasing the flow rate and compression ratio of the J-T compressor, which should result in significantly higher system efficiency, and in greater heat-lift margin above the PICO requirement. These improvements entail the implementation of well-known techniques (standard thermal engineering) \comblue{what does this sentence mean?}. The NGAS multi-stage J-T compressor has completed PDR-level development, and is expected to reach CDR level well before needed for PICO. Projected performance is shown in Fig.~\ref{fig:CoolerFigure}. The Ball approach started with a larger compressor, required less modification to achieve comparable performance, and eliminated the cold bypass-precooling valve that was problematic for MIRI. \comblue{must we mention problematic valves?} The Ball approach uses $^3$He, while the NGAS approach uses $^4$He. Both employ re-optimized gas heat exchangers (trivial engineering changes). \comblue{what does this mean?}
-
 
 \subsubsection{Radiative Cooling}
 \label{sec:radiative_cooling} %3.4.3
 
-A set of four V-groove radiators provides passive cooling. This is standard technology, with origins dating to more than 30 years ago~(\S~\ref{sec:heritage}). The outermost of the four V-groove shields shadows the interior shields from the Sun. The V-grooves radiate to space, each reaching successively cooler temperatures.
+A set of four V-groove radiators assembly provides passive cooling (Fig.~\ref{fig:InstrumentCAD}). This is standard, 30-years old technology~(\S~\ref{sec:heritage}). The outermost shield shadows the interior ones from the Sun. The V-grooves radiate to space, each reaching successively cooler temperatures.
 %\comblue{can we be quantitative?}
-The V-groove assembly provides a cold radiative environment to the primary reflector, structural ring, and telescope box, so radiative loads on those elements are smaller than the conductive loads through the mechanical support structures.
+The assembly provides a cold radiative environment to the primary reflector, structural ring, and telescope box. As a consequence radiative loads on those elements are smaller than the conductive loads through the mechanical support structures.
 %\comblue{shouldn't we show evidence that say radiative cooling has been worked out successfully before.? }
 
 
 \subsection{Instrument Integration and Test}
 \label{sec:iandt} % 3.5
 
-PICO instrument I\&T planning benefits greatly from heritage
-experience with the \textit{Planck} HFI instrument \citep{ Pajot2010}.
+PICO instrument I\&T planning benefits from heritage and experience with the \planck\ HFI instrument~\citep{Pajot2010}.
 
-PICO screens detector wafer performance prior to selection of
-flight wafers and focal plane integration. The cADR and 4\,K
-cryocooler are qualified prior to delivery. The relative alignment
-of the two reflectors under thermal contraction is
-photogrammetrically verified in a thermal vacuum (TVAC) chamber.
+We screen detector wafers prior to selection of flight wafers and focal plane integration. The cADR and 4\,K cryocooler vendors will qualify them prior to delivery. We will determine the relative alignment of the two reflectors under in-flight thermal conditions using a thermal vacuum (TVAC) chamber and photogrammetry. We integrate the flight focal plane assembly and flight cADR in a dedicated sub-kelvin cryogenic testbed. We characterize noise, responsivity, and focal-plane temperature stability using a representative optical load for each frequency band (temperature-controlled blackbody), and we perform polarimetric and spectroscopic calibration.
 
-PICO integrates the flight focal plane assembly and flight cADR in
-a dedicated sub-kelvin cryogenic testbed. Noise, responsivity, and focal-plane
-temperature stability are characterized using a representative
-optical load for each frequency band (temperature-controlled
-blackbody). Polarimetric and spectroscopic calibration are
-performed.
+%PICO screens detector wafer performance prior to selection of flight wafers and focal plane integration. The cADR and 4\,K cryocooler are qualified prior to delivery. The relative alignment of the two reflectors under thermal contraction is photogrammetrically verified in a thermal vacuum (TVAC) chamber.
 
-The focal plane is integrated with the reflectors and structures, and
-alignment verified photogrammetrically at cold temperatures in a TVAC
-chamber.  The completely integrated observatory (instrument and
-spacecraft bus) is tested in TVAC to measure parasitic optical loading
-from the instrument, noise, microphonics, and radio-frequency
-interference (RFI). The observatory is 4.5\,m in diameter and 6.1\,m
-tall, with no deployables.
+%PICO integrates the flight focal plane assembly and flight cADR in a dedicated sub-kelvin cryogenic testbed. Noise, responsivity, and focal-plane temperature stability are characterized using a representative optical load for each frequency band (temperature-controlled blackbody). Polarimetric and spectroscopic calibration are performed.
+
+The focal plane is integrated with the reflectors and structures, and alignment verified with photogrammetry at cold temperatures in a TVAC chamber.  The completely integrated observatory (instrument and spacecraft bus) is tested in TVAC to measure parasitic optical loading from the instrument, noise, microphonics, and radio-frequency interference (RFI). The observatory is 4.5\,m in diameter and 6.1\,m tall, with no deployables.
 
 %\newpage
+
 \section{Design Reference Mission}
 \label{sec:design_reference} %4
 The PICO design reference mission is summarized in Table~\ref{tab:mission_parameters}.
@@ -551,12 +425,13 @@ retransmission or missed-pass recovery.
 
 \begin{figure}
 \begin{center}
-\includegraphics[width=\textwidth]{figures/Spacecraft.png}
-\caption{\captiontext
-  Modular equipment bays provide easy access to all components
-  in the spacecraft de-spun module and enable parallel integration of
-  spacecraft subsystems.\label{fig:Spacecraft}}
+\includegraphics[width=0.8\textwidth]{figures/Spacecraft.png}
 \end{center}
+\vspace{-0.25in}
+\caption{\captiontext
+Modular equipment bays provide easy access to all components in the spacecraft de-spun module and enable parallel integration of spacecraft subsystems.\label{fig:Spacecraft}}
+%\end{center}
+\vspace{-0.1in}
 \end{figure}
 
 \subsection{Spacecraft}
@@ -664,7 +539,7 @@ of the planets, and observing with a scan strategy that acquired
 measurements of each planet only once every 6\,months, demonstrated 0.8\,arcsec ($1\sigma$) pointing reconstruction uncertainty in-scan and 1.9\,arcsec ($1\sigma$) cross-scan \citep{2016A&A...594A...1P}.
 %(Planck, Planck 2015 results. I. Overview of products and scientific results 2016)
 
-\bigskip
+%\bigskip
 %\newpage
 \section{Technology Maturation}
 \label{sec:technology_maturation} %5
@@ -680,25 +555,6 @@ PICO builds off of the heritage of \planck-HFI and \textit{Herschel}.  Since \pl
 %\item Simulation software (\S\,\ref{sec:simulation}). {\color{red}Shaul to fill this in.}
 \end{enumerate}
 All of these developments are straightforward extensions of technologies already available today.  We recommend APRA and SAT support to complete development of these technologies through the milestones described in Table~\ref{tab:technologies}.
-
-
-% ------
-
-% PICO's detector and readout technologies have already been
-% substantially matured through complementary suborbital experiments,
-% and can be developed by the APRA and SAT programs to NASA's Technology
-% Readiness Level (TRL)~5 before Phase~A (October 2023) (Table~\ref{tab:technologies}).
-% % The 4\,K cryocooler baselined by PICO requires only standard thermal engineering (\S\,\ref{sec:4kcooler}).
-
-% \subsection{Current state of technologies}
-% \label{sec:current_state} %5.1
-
-% PICO builds off of the heritage of the \textit{Planck} HFI
-% instrument. Since \textit{Planck},
-% numerous suborbital experiments have used monolithically fabricated
-% TES bolometers and multiplexing schemes to field instruments with
-% thousands of detectors per camera (Table~\ref{tab:suborbital})
-
 
 \subsection{21--462\,GHz Bands}
 \label{sec:bolometers} %5.1
@@ -741,38 +597,9 @@ There are potential solutions to this in the focal plane design, measurements, d
 %% figure 5.2 goes with section 5.2, but putting it here to make wrap figure work.  
 %
 %
-\begin{wrapfigure}[27]{r}{0.35\textwidth}  % r is right aligned, l is left. Capital letters allow figure to float on page.
-\centering
-\vspace{-5pt} % move figure up to align with section headings.
-\includegraphics[width=0.35\textwidth]{figures/DirectAbsorbing.png}  %% figure was 2.5 in, .4 /textwidth is 2.6in.
-\vspace{-0.25in}
-\caption{\captiontext Top: \planck\ used horns to couple the electromagnetic radiation to its detectors. Horn coupling has been used in other experiments, and is the baseline for PICO's coupling between 555 and 799~GHz. Bottom: The photograph shows a dual-polarization, direct-absorbing bolometer from BICEP. The technology was also used with SPT-Pol and \planck-HFI for 143--343\,GHz bands.
-\label{fig:DirectAbsorbing} }
-\end{wrapfigure}
 %
 \S\,\ref{sec:technology_descopes} describes an option to descope to two-color horn-coupled pixels, 
 a technology with which the polarization sensitivity is constant as a function of frequency.
-
-
-% \begin{figure}
-% \begin{minipage}[b]{0.475\textwidth}
-%   \begin{center}
-%   \includegraphics[width=2.5in]{figures/SPT3G.jpg}
-%   \caption{\captiontext
-%   SPT-3G operates a focal plane with sinuous antenna-coupled, three-band pixels with 16,000 bolometers~\citep{Dutcher2018}. Each pixel couples radiation to bands at 90, 150, and 220~GHz.
-%   \label{fig:spt_fp} }
-%   \end{center}
-%  \end{minipage}
-%  \hfill
-%   \begin{minipage}[b]{0.475\textwidth}
-%     \begin{center}
-%     \includegraphics[width=2.5in]{figures/DirectAbsorbing.png}
-%     \caption{\captiontext
-% Top: \planck\ used horns to couple the electromagnetic radiation to its detectors. Horn coupling has been used in other experiments, and is the baseline for PICO's coupling between 555 and 799~GHz. Bottom: The photograph shows a dual-polarization, direct-absorbing bolometer from BICEP. The technology was also used with SPT-Pol and \planck-HFI for 143--343\,GHz bands.
-% \label{fig:DirectAbsorbing} }
-%     \end{center}
-%   \end{minipage}
-% \end{figure}
 
 \subsection{555--799\,GHz bands}
 \label{sec:dev_arrays}
@@ -785,6 +612,15 @@ The baseline PICO instrument requires single-color, horn-coupled, dual-polarizat
 
 \subsection{Environmental Testing}
 \label{sec:env_testing}
+
+%\begin{wrapfigure}[27]{r}{0.35\textwidth}  % r is right aligned, l is left. Capital letters allow figure to float on page.
+%\centering
+%\vspace{-5pt} % move figure up to align with section headings.
+%\includegraphics[width=0.35\textwidth]{figures/DirectAbsorbing.png}  %% figure was 2.5 in, .4 /textwidth is 2.6in.
+%\vspace{-0.25in}
+%\caption{\captiontext Top: \planck\ used horns to couple the electromagnetic radiation to its detectors. Horn coupling has been used in other experiments, and is the baseline for PICO's coupling between 555 and 799~GHz. Bottom: The photograph shows a dual-polarization, direct-absorbing bolometer from BICEP. The technology was also used with SPT-Pol and \planck-HFI for 143--343\,GHz bands.
+%\label{fig:DirectAbsorbing} }
+%\end{wrapfigure}
 
 Laboratory tests and in-flight data from balloons suggest that TES
 bolometer arrays may be more naturally robust against cosmic rays than
@@ -809,11 +645,9 @@ PICO's sensitivity requirements dictate the use of $\sim 13\,000$
 transition-edge-sensor bolometers, requiring a highly multiplexed
 system.  The PICO baseline design calls for TDM
 with 128 switched rows per readout column (TDM-128$\times$). The leap
-to TDM-128$\times$ requires:
-\begin{itemize}
-\item development of fast-switched room temperature electronics; and
-\item system engineering of room temperature to cryogenic row select cabling to ensure sufficiently fast row switch settling times.
-\end{itemize}
+to TDM-128$\times$ requires: \\
+$\bullet$ development of fast-switched room temperature electronics; and \\
+$\bullet$ system engineering of room temperature to cryogenic row select cabling to ensure sufficiently fast row switch settling times.
 
 The historical row revisit rate for bolometric instruments using
 32$\times$ TDM has been 25\,kHz \cite[e.g.,][]{BICEP2015}. However,
@@ -909,11 +743,10 @@ development schedule is shown in Fig.~\ref{fig:Schedule}.
 \begin{figure}[hb]
 \begin{center}
 \includegraphics[width=\textwidth]{figures/Schedule.png}
-\caption{\captiontext
-  The PICO baseline schedule is based on historical actuals
-  from similarly-sized missions such as Juno and
-  SMAP. Per NASA direction, Probe studies assume a Phase~A start in October 2023.\label{fig:Schedule}}
 \end{center}
+\vspace{-0.25in}
+\caption{\captiontext The PICO baseline schedule is based on historical actuals from similarly-sized missions such as Juno and SMAP. Per NASA direction, Probe studies assume a Phase~A start in October 2023.\label{fig:Schedule}}
+\vspace{-0.05in}
 \end{figure}
 
 Probes are medium-class missions, similar in cost scope to NASA's
@@ -987,19 +820,6 @@ power across the spin interface (Fig.~\ref{fig:ArchitectureBlockDiagram}), and r
 spin momentum cancellation (\S\,\ref{sec:attitude_determination}). SMAP spins its 6-m instrument
 antenna at 14.6\,rpm, successfully passes data and power across the
 spin interface, and requires 359\,N\,m\,s of spin momentum cancellation~\citep{Brown2016}.
-
-% The PICO zero-momentum control architecture
-% (\S\,\ref{sec:attitude_determination}) has heritage from the SMAP
-% mission's successful control architecture. PICO has a slower spin rate and less cancelled angular
-% momentum than SMAP. SMAP requires 359\,N\,m\,s to cancel the momentum of a
-% 6\,m instrument antenna spun at 14.6\,rpm \citep{Brown2016}.
-% Based on mass properties derived from the PICO CAD model, PICO requires XXX N\,m\,s to cancel the momentum of the instrument and spacecraft spun module (XXX\,kg including contingency) at 1\,rpm.
-%The PICO launch
-% mass (2147\,kg including contingency) is similar to the \textit{Planck} launch mass (1912\,kg \citep{Tauber2010}. If
-% we assume \textit{Planck} moments of inertia \citep{ESA2016}, the PICO spun elements
-% would have an angular momentum of 210\,N\,m\,s at 1\,rpm. This is
-% conservative because, unlike \textit{Planck}, the entire PICO
-% observatory does not spin.
 
 Though PICO's data volume is notable by current standards, it is
 already enveloped by missions in development. PICO produces
@@ -1100,7 +920,6 @@ separation and systematics control.
 %\costfootnote
 %
 %\input tables/table6.1-2_vert_wrap.tex
-\input tables/table6.1_wrap.tex
 
 We estimate PICO's total Phase A--E lifecycle cost between \$870M and
 \$960M, including the \$150M allocation for the Launch Vehicle (per
@@ -1119,46 +938,7 @@ mission-level studies. Their accuracy is commensurate with the level
 of understanding typical to Pre-Phase-A concept development. They do
 not constitute an implementation or cost commitment on the part of JPL
 or Caltech.
-
-%\input tables/table6.1-2.tex
-
-%\costfootnote
-
-% \begin{table}
-% \centering
-% \caption{\captiontext
-%   Detailed breakdown of Team X and PICO Team cost estimates (in FY18\$). Costs are based on the schedule in Fig.~\ref{fig:Schedule}, which includes 5~years of operations.}\label{tab:cost}
-% \footnotesize\rmfamily
-% \begin{tabular}{p{2.5in}cc}
-% \hline\noalign{\vskip3pt}
-% \textbf{Work Breakdown Structure (WBS) Elements}&\textbf{Team~X}&\textbf{PICO Team}\\
-% \noalign{\vskip3pt}\hline\noalign{\vskip3pt}
-% Development Cost (Phases A--D)&\$724M&\$634M--\$677M\\
-% \noalign{\vskip3pt}\hline\noalign{\vskip3pt}
-% \quad 1.0, 2.0, 3.0 Management, Systems Engineering, and Mission Assurance&\$54M&\$47M--\$50M\\
-% \quad 4.0 Science&\multicolumn{2}{c}{\$19M}\\
-% \quad 5.0 Payload System&\multicolumn{2}{c}{\$168M}\\
-% \quad 6.0 Flight System&\$248M&\$210M--\$240M\\
-% \quad 10.0 Assembly, Test, and Launch Operations (ATLO)&\$24M&\\
-% \quad 7.0 Mission Operations Preparation&\multicolumn{2}{c}{\$16M}\\
-% \quad 9.0 Ground Data Systems&\multicolumn{2}{c}{\$21M}\\
-% \quad 12.0 Mission and Navigation Design&\multicolumn{2}{c}{\$7M}\\
-% \quad Development Reserves (30\%)&\$167M&\$146M--\$156M\\
-% \noalign{\vskip3pt}\hline\noalign{\vskip3pt}
-% Operations Cost (Phase E)&\multicolumn{2}{c}{\$84M}\\
-% \noalign{\vskip3pt}\hline\noalign{\vskip3pt}
-% \quad 1.0 Management&\multicolumn{2}{c}{\$6M}\\
-% \quad 4.0 Science&\multicolumn{2}{c}{\$20M}\\
-% \quad 7.0 Mission Operations&\multicolumn{2}{c}{\$34M}\\
-% \quad 9.0 Ground Data Systems&\multicolumn{2}{c}{\$14M}\\
-% \quad Operations Reserves (13\%)&\multicolumn{2}{c}{\$10M}\\
-% \noalign{\vskip3pt}\hline\noalign{\vskip3pt}
-% Launch Vehicle Cost&\multicolumn{2}{c}{\$150M}\\
-% \noalign{\vskip3pt}\hline\noalign{\vskip3pt}
-% Total Cost&\$958M&\$868M--\$911M\\
-% \noalign{\vskip3pt}\hline
-% \end{tabular}
-% \end{table}
+\input tables/table6.1_wrap.tex
 
 The PICO team has generally adopted the Team~X estimates, but also
 obtained a parametrically estimated cost range for the Flight System
@@ -1199,28 +979,6 @@ maintenance activities are simple and infrequent.
 The PICO payload consists of a single instrument: an imaging
 polarimeter. Payload costs are tabulated in
 Table~\ref{tab:instrument_cost}.
-
-%\input tables/table6.2.tex
-%\costfootnote
-% \begin{table}
-% \centering
-% \caption{\captiontext  Detailed breakdown of PICO instrument costs.}\label{tab:instrument_cost}
-% \footnotesize\rmfamily
-% \begin{tabular}{p{2.5in}c}
-% \hline\noalign{\vskip3pt}
-% \bf  Instrument Elements&\bf Cost\\
-% \noalign{\vskip3pt}\hline\noalign{\vskip3pt}
-% Management, Systems Eng., Assurance&\$18M\\
-% 4\,K Cooler and 0.1\,K cADR&\$71M\\
-% Focal plane and electronics&\$27M\\
-% Mechanical, Thermal, Software&\$17M\\
-% Telescope&\$6M\\
-% Instrument integration and test&\$29M\\
-% \noalign{\vskip3pt}\hline\noalign{\vskip3pt}
-% Total Instrument Cost&\$168M\\
-% \noalign{\vskip3pt}\hline
-% \end{tabular}
-% \end{table}
 
 The superconducting detectors require sub-kelvin cooling to
 operate. The active cooling system (the 0.1\,K cADR and 4\,K
