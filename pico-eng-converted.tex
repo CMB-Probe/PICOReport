@@ -46,15 +46,14 @@ PICO instrument block diagram. Active coolers provide cooling to the 100\,mK foc
 \label{fig:ArchitectureBlockDiagram} }  
 \end{wrapfigure}
 
-The V-groove assembly is attached to the bipod struts that support the instrument structural ring. The ring supports the primary reflector and telescope box. The telescope box contains the actively cooled components (\S\,\ref{sec:cadr}, \S\,\ref{sec:4kcooler}), including the secondary reflector, the focal plane and sub-kelvin adiabatic refrigerator structures. Just inside the box, a thermal liner serves as a cold optical baffle and aperture stop. Instrument integration and test (I\&T) are described in \S\,\ref{sec:iandt}.
+The V-groove assembly is attached to the bipod struts that support the instrument structural ring. The ring supports the primary reflector and telescope box. The telescope box contains the actively cooled components (\S\,\ref{sec:cadr}, \S\,\ref{sec:4kcooler}), including the secondary reflector, the focal plane and sub-kelvin refrigerator structures. Just inside the box, a thermal liner serves as a cold optical baffle and aperture stop. Instrument integration and test (I\&T) are described in \S\,\ref{sec:iandt}.
 
-During the survey, the instrument is spun at 1~rpm (\S\,\ref{sec:survey_design}). Spacecraft control is simplified by mounting the instrument on a spinning spacecraft module, while a larger non-spinning module houses most spacecraft subsystems (\S\,\ref{sec:spacecraft}). Instrument elements that act as heat sources are accommodated on the spinning module of the spacecraft.
+During the survey, the instrument is spun at 1~rpm and the spin axis is made to precess about the anti-sun direction (\S\,\ref{sec:survey_design}). Spacecraft control is simplified by mounting the instrument on a spinning spacecraft module, while a larger non-spinning module houses most spacecraft subsystems (\S\,\ref{sec:spacecraft}). Instrument elements that act as heat sources are accommodated on the spinning module of the spacecraft.
 
 \subsection{Telescope}
 \label{sec:telescope} %3.1
 
-
-The PICO telescope design is driven by a combination of science requirements and physical volume limits. The science requirements are: a large diffraction-limited field of view (DLFOV) sufficient to support $\sim10^4$ detectors, arcminute resolution at 800\,GHz, low spurious polarization, and low sidelobe response. All requirements are met with PICO's 1.4\,m aperture modified open-Dragone design. There are no moving parts in the PICO optical system.
+The PICO telescope design is driven by a combination of science requirements and physical volume limits. The science requirements are: a large diffraction-limited field of view (DLFOV) sufficient to support approximately $10^4$ detectors, arcminute resolution at 800\,GHz, low spurious polarization, and low sidelobe response. All requirements are met with PICO's 1.4\,m aperture modified open-Dragone design. There are no moving parts in the PICO optical system.
 
 
 %\begin{figure}%[ht]
@@ -67,9 +66,9 @@ The PICO telescope design is driven by a combination of science requirements and
 %\label{fig:ArchitectureBlockDiagram} }  }
 %\end{figure}
 
-The PICO optical design was selected following a trade study examining cross-Dragone, Gregorian Dragone, and open-Dragone designs~\citep{Young2018}.  The open-Dragone and crossed-Dragone offer more diffraction-limited focal plane area than the Gregorian Dragone~\citep{deBernardis2018}, and are able to support enough detectors to provide the required sensitivity. The open-Dragone does not require the massive and voluminous baffles that the cross-Dragone does, and hence can satisfy the aperture size requirement within the shadow cone.
+The PICO optical design was selected following a trade study examining cross-Dragone, Gregorian Dragone, and open-Dragone designs~\citep{Young2018}.  The open-Dragone and crossed-Dragone systems offer more diffraction-limited focal plane area than the Gregorian Dragone~\citep{deBernardis2018}, and are able to support enough detectors to provide the required sensitivity. The open-Dragone does not require the more massive and voluminous baffles that the cross-Dragone does, and hence can satisfy the aperture size requirement within the shadow cone.
 
-PICO's initial open-Dragone design has been modified by adding an aperture stop and adding corrections to the primary and secondary reflectors to enlarge the DLFOV. The detailed geometric parameterization of the PICO optical design is described in~\citep{Young2018}. The primary reflector (270\,cm $\times$ 205\,cm) is passively cooled and the secondary reflector (160\,cm $\times$ 158\,cm) is actively cooled. The highest frequency (900\,GHz) sets the surface accuracy requirement of the reflectors at $\sim \lambda/14 =24\,\mu{\rm m}$. The focal ratio is 1.42. The slightly concave focal surface, which has a radius of curvature of 4.55~m, is telecentric to within $0\pdeg12$ across the entire FOV.
+PICO's initial open-Dragone design has been modified by adding an aperture stop and adding corrections to the primary and secondary reflectors to enlarge the DLFOV. The detailed geometric parameterization of the PICO optical design is described by~\citet{Young2018}. The primary reflector (270\,cm $\times$ 205\,cm) is passively cooled and the secondary reflector (160\,cm $\times$ 158\,cm) is actively cooled. The highest frequency (900\,GHz) sets the surface accuracy requirement of the reflectors at $\sim \lambda/14 =24\,\mu{\rm m}$. The focal ratio is 1.42. The slightly concave focal surface, which has a radius of curvature of 4.55~m, is telecentric to within $0\pdeg12$ across the entire FOV.
 
 %\comblue{what about the reflector material?}
 An actively cooled circular aperture stop between the primary and secondary reflectors reduces detector noise and shields the focal plane from stray radiation. Stray-light analysis of the PICO open-Dragone design using GRASP confirms that the focal plane is protected from direct view of the sky, and that spillover past the primary is suppressed by 80~dB relative to the main lobe for both co-pol and cross-pol beams. Detailed baffle design will be performed during mission formulation.
@@ -96,13 +95,13 @@ An actively cooled circular aperture stop between the primary and secondary refl
 \end{wrapfigure}
 
 
-PICO's focal plane is populated by an %imaging
-array of \ac{TES} bolometers operating in 21 %overlapping
-frequency bands, each with 25\% fractional bandwidth, and band centers ranging from 21 to 799~GHz.
-Polarimetry is achieved by differencing the signals from pairs of two co-pointed bolometers that are sensitive to two orthogonal polarization states. %\comblue{polarimetry is incomplete; need to elaborate more}
-A conceptual layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}.
+PICO's focal plane is populated by an array of \ac{TES} bolometers operating in 21 frequency bands, each with 25\% fractional bandwidth, and band centers ranging from 21 to 799~GHz. 
+%Polarimetry is achieved by differencing the signals from pairs of two co-pointed bolometers that are sensitive to two orthogonal polarization states.  
+%\comblue{polarimetry is incomplete; need to elaborate more}
+The layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}. 
+%A conceptual layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}.
 
-Bolometers operating in the mm/sub-mm wave band are photon-noise limited. Therefore, increase in sensitivity is achieved through an increase in detector count. The PICO focal plane has 12,996 detectors, 175 times the number flown aboard \planck\ thereby providing a breakthrough increase in sensitivity with a comparably sized telescope. This breakthrough is enabled by development and demonstration in suborbital projects, which now commonly operate arrays of $10^3$--$10^4$ detectors (\S\,\ref{sec:technology_maturation}).
+Bolometers operating in the mm/sub-mm wave band are photon-noise limited. Therefore, increase in sensitivity is achieved through an increase in detector count. The PICO focal plane has 12,996 detectors, 175 times the number flown aboard \planck\ thereby providing a breakthrough increase in sensitivity with a comparably sized telescope. This breakthrough is enabled by development and demonstration in suborbital projects, which now commonly operate arrays of $10^3$--$10^4$ detectors (\S\,\ref{sec:technology_maturation}). Further technology maturation required for PICO is described in Section~\S\,\ref{sec:technology_maturation}.
 
 \subsubsection{21--462\,GHz Bands}
 \label{sec:low_freq_det} % 3.2.1
@@ -110,35 +109,28 @@ Bolometers operating in the mm/sub-mm wave band are photon-noise limited. Theref
 %%%%%%%%
 \input tables/table3.1_wrap.tex
 %%%%%%%%
-Several optical coupling technologies have matured over the past ten
-years to efficiently use focal plane area: horns with ortho-mode
-transducers (OMTs) \citep{Duff2016}, lithographed antenna arrays
-\citep{BICEP2015}, and sinuous antennas under lenslets
-\citep{Edwards2012}. Horn-coupling and sinuous
-antenna/lenslet-coupling deliver quantum efficiency $>70\,\%$ over
-more than an octave of bandwidth, which can be partitioned into two
-or three colors per pixel.  Alternatively, antenna-array coupling has
-only demonstrated single-color pixels to date, but uniformly
-illuminated feeds enable much smaller pixels and therefore more
-densely packed focal planes.
+Several optical coupling technologies have matured over the past ten years to efficiently use focal plane area: horns with ortho-mode transducers (OMTs) \citep{Duff2016}, lithographed antenna arrays~\citep{BICEP2015}, and sinuous antennas under lenslets~\citep{Edwards2012}. Horn-coupling and sinuous antenna/lenslet-coupling deliver quantum efficiency $>70\,\%$ over more than an octave of bandwidth, which have been partitioned into two or three colors per pixel.  
+Alternatively, only single-color pixels have been demonstrated to date with antenna-arrays, but this coupling enables smaller pixels and therefore they can be more densely packed.
+%Alternatively, antenna-array coupling has only demonstrated single-color pixels to date, but uniformly illuminated feeds enable smaller pixels and therefore more densely packed focal planes.
 
-The PICO baseline focal-plane design
-employs three-color sinuous antenna/lenslet-coupling \citep{Suzuki2014}
-for the 21--462\,GHz bands. Niobium microstrips mediate the signals
-between the antenna and detectors, and partition the feed's wide
-continuous bandwidth into three narrow channels using integrated
-micro-machined filter circuits \citep{OBrient2013}. The technology
-maturation required for PICO is described in \$\,\ref{sec:bolometers}.
+The PICO baseline focal-plane employs three-color sinuous antenna/lenslet pixels~\citep{Suzuki2014} for the 21--462\,GHz bands. Niobium microstrips mediate the signals between the antenna and detectors, and partition the feed's wide continuous bandwidth into three narrow channels using integrated, on-wafer, micro-machined filter circuits~\citep{OBrient2013}. Six transition edge sensor bolometers per pixel detect the radiation in two orthogonal polarization states. %The technology maturation required for PICO is described in \$\,\ref{sec:bolometers}.
 
 \subsubsection{555--799\,GHz Bands}
 \label{sec:high_freq_det} % 3.2.2
 %
 
-PICO's highest three frequency channels are beyond the niobium superconducting band-gap, rendering microstrip filters a poor solution for defining the optical passband. In this regime, PICO instead measures a single band with each pixel using feedhorn-coupled polarization-sensitive bolometers. Radiation is coupled through horns directly to an absorber in the throat of a waveguide. TES bolometers detect the incident power.  The waveguide cut-off defines the lower edge of the band, and quasi-optical metal-mesh filters define the upper edge. Numerous experiments have successfully used similar approaches~\citep{Shirokoff2011,Bleem2012,Turner2001}. The technology maturation required for PICO is described in \S\,\ref{sec:dev_arrays}.
+PICO's highest three frequency channels are beyond the niobium superconducting band-gap, rendering on-wafer, microstrip filters a poor solution for defining the optical passband. For these bands we use feedhorns to couple the radiation to two single-color polarization-sensitive TES bolometers. %Radiation is coupled through horns directly to an absorber in the throat of a waveguide. TES bolometers detect the incident power.  
+The waveguide cut-off defines the lower edge of the band, and quasi-optical metal-mesh filters define the upper edge. Numerous experiments have successfully used similar approaches~\citep{Shirokoff2011,Bleem2012,Turner2001}. 
+%The technology maturation required for PICO is described in \S\,\ref{sec:dev_arrays}.
 
 %%%%%
 \input tables/table3.2.tex
 %%%%%
+
+\subsubsection{Polarimetry}
+\label{sec:polarimetry} %3.2.3
+
+Polarimetry is achieved by differencing the signals from pairs of two co-pointed bolometers within a pixel that are sensitive to two orthogonal polarization states. Half the pixels in the focal plane are sensitive to the $Q$ and half to the $U$ Stokes parameters of the incident radiation. Two layouts for the distribution of the $Q$ and $U$ pixels on the focal plane have been investigated~\citep{polarization_website}; both would satisfy mission requirements. Stokes $I$ is obtained from the sum of the signals of orthogonal detectors.  
 
 \subsubsection{Sensitivity}
 \label{sec:sensitivity} %3.2.3
@@ -165,43 +157,16 @@ In the multiplexing circuitry, SQUIDs function as low-noise amplifiers and cryog
 %, requiring some technology maturation (\S\,\ref{sec:multiplexing}).
 The thermal loading on the cold stages from the wire harnesses is subdominant to conductive loading through the mechanical support structures.
 
-Because SQUIDs are sensitive magnetometers, suborbital experiments
-have developed techniques to shield them from Earth's magnetic field
-using highly permeable materials and superconducting materials
-\citep{Hui2018}.  Total suppression factors better than $10^7$ have
-been demonstrated for dynamic magnetic fields \citep{Runyan2010}. PICO
-will use these demonstrated techniques to shield SQUID readout chips
-from the ambient magnetic environment, which is 20,000 times smaller
-than near Earth, as well as from fields generated by on-board
-components including the cADR (\S\,\ref{sec:cadr}). The cADR is
-delivered with its own magnetic shielding which reduces the field to
-less than 0.1\,G (less than that experienced by suborbital
-experiments).
+Because SQUIDs are sensitive magnetometers, suborbital experiments have developed techniques to shield them from Earth's magnetic field using highly permeable materials and superconducting materials~\citep{Hui2018}.  Total suppression factors better than $10^7$ have been demonstrated for dynamic magnetic fields \citep{Runyan2010}. PICO will use these demonstrated techniques to shield SQUID readout chips from the ambient magnetic environment, which is 20,000 times smaller than near Earth, as well as from fields generated by on-board components including the cADR (\S\,\ref{sec:cadr}). The cADR is delivered with its own magnetic shielding which reduces the field at the distance of the SQUIDs to less than 0.1\,G, which is less than Earth's field experienced by SQUIDs aboard suborbital experiments.
 
-SQUIDS are also sensitive to radio-frequency interference
-(RFI). Several suborbital experiments have demonstrated RFI shielding
-using aluminized mylar wrapped at cryogenic stages to form a Faraday
-cage around the SQUIDs \citep{Kermish2012,EBEX2018,BICEP2014}.
- Cable shielding extends the Faraday cage to
-the detector warm readout electronics.
+SQUIDS are also sensitive to radio-frequency interference (RFI). Several suborbital experiments have demonstrated RFI shielding using aluminized mylar wrapped at cryogenic stages to form a Faraday cage around the SQUIDs~\citep{Kermish2012,EBEX2018,BICEP2014}. Cable shielding extends the Faraday cage to the detector warm readout electronics.
 
-Redundant warm electronics boxes perform detector readout and
-instrument housekeeping using commercially available radiation
-hardened analog-to-digital converters (ADCs), requiring 75\,W total.
-The readout electronics compress the data before delivering them to
-the spacecraft, requiring an additional 15\,W. PICO detectors produce
-a total of 6.1\,Tbits/day assuming 16\,bits/sample, sampling rates
-from Table~\ref{tab:focal_plane}, and bolometer counts from
-Table~\ref{tab:bands}. \textit{Planck} HFI typically achieved
-4.7$\times$ compression in flight with information loss increasing
-noise by $\sim10\,\%$ \citep{Pajot2018,PlanckHFI2011}. Suborbital work
-has demonstrated 6.2$\times$ lossless compression
-\citep{EBEX2017}. PICO assumes 4$\times$ lossless compression.
+Redundant warm electronics boxes perform detector readout and instrument housekeeping using commercially available radiation hardened analog-to-digital converters (ADCs), requiring 75\,W total. The readout electronics compress the data before delivering them to the spacecraft, requiring an additional 15\,W. PICO detectors produce a total of 6.1\,Tbits/day assuming 16\,bits/sample, sampling rates from Table~\ref{tab:focal_plane}, and bolometer counts from Table~\ref{tab:bands}. \planck \ HFI had a typical 4.7$\times$ compression in flight with information loss increasing noise by $\sim10\,\%$~\citep{Pajot2018,PlanckHFI2011}. Suborbital work has demonstrated 6.2$\times$ lossless compression~\citep{EBEX2017}. PICO assumes 4$\times$ lossless compression.
 
 \subsection{Thermal}
 \label{sec:thermal} %3.4
 
-Like the \planck -HFI instrument, PICO's focal plane is maintained at 0.1~K to ensure low detector noise while implementing a readily available technology~(\S\,\ref{sec:cadr}). To minimize detector noise due to instrument thermal radiation, the aperture stop and reflectors are cooled using both active and radiative cooling (\S\,\ref{sec:4kcooler}, \S\,\ref{sec:radiative_cooling}, Fig.~\ref{fig:ArchitectureBlockDiagram}).  All thermal requirements are met with robust margins (Table~\ref{tab:cooler}).
+Like the \planck -HFI instrument, PICO's focal plane is maintained at 0.1~K to ensure low detector noise while implementing readily available technology~(\S\,\ref{sec:cadr}). To minimize detector noise due to instrument thermal radiation, the aperture stop and reflectors are cooled using both active and radiative cooling (\S\,\ref{sec:4kcooler}, \S\,\ref{sec:radiative_cooling}, Fig.~\ref{fig:ArchitectureBlockDiagram}).  All thermal requirements are met with robust margins (Table~\ref{tab:cooler}).
 
 \input tables/table3.3.tex
 
@@ -240,27 +205,6 @@ The entire precooler assembly and the J-T circulator compressor are located on t
 %, with relatively short tubing lengths conducting the gas flow from the precooling point to the J-T expansion point.
 All waste heat rejected by the cooler compressors and drive electronics is transferred to the spacecraft heat rejection system. Unlike JWST, the PICO cooler does not require deployment of the remote cold head.
 
-%A 3-stage precooler (acoustic Stirling by NGAS or mechanical Stirling by Ball) provides $\sim16$~K precooling to a separate circulated-gas loop driven by a similar compressor modified for DC flow \comblue{very technical; is the reader supposed to follow this? is the difference between the ngas and ball relevant?}. The circulated-gas loop utilizes Joule--Thomson (J-T) expansion, further cooling the gas to 4.5~K. The entire precooler assembly and the J-T circulator compressor are located on the warm spacecraft spun module (Fig.~\ref{fig:ArchitectureBlockDiagram}), with relatively short tubing lengths conducting the gas flow from the precooling point to the J-T expansion point. All waste heat rejected by the cooler compressors and drive electronics is transferred to the spacecraft heat rejection system. Unlike JWST, the PICO cooler does not require deployment of the remote cold head.
-
-%The J-T expansion point is located close to the cADR heat rejection point, thereby providing the lowest temperature to the cADR. Subsequent to cooling the cADR, the gas flow intercepts conducted heat to the focal plane enclosure, then cools the aperture stop and the secondary reflector before returning in counterflow to the circulation compressor.  Model-based projections indicate that the coolers delivered for MIRI could meet the PICO 4.5~K heat lift requirement with more than $100\,\%$ margin with minimal changes: the replacement of the $^4$He gas used for MIRI with $^3$He, plus resizing of the gas counterflow heat exchangers to take advantage of the $^3$He properties. \comblue{have we thought through about the change in gas? is it obvious that no other changes will be required as a consequence of the change in gas type?}
-
-% \begin{figure}
-% \parbox{3.5in}{\centering
-% \includegraphics[width=2.6in]{figures/CoolerFigure.png} }
-% \parbox{3.0in}{
-% \caption{\captiontext
-% Projected performance of the NGAS cooler using a multi-stage
-% compressor and $^4$He circulating gas~\citep{Rabb2013} meets PICO's requirements
-% with $>100\,\%$ margin. PICO requires heat lift of 42 mW at 4.5~K (Table~\ref{tab:cooler}). With 250~W of input power the NGAS cooler is projected to provide 100~mW of heat lift. We conservatively specify a maximum expected value (MEV) of 350~W as the compressor's input power, giving 100~W of additional input power contingency.
-%   \label{fig:CoolerFigure}} }
-% \vspace{-0.15in}
-% \end{figure}
-
-
-
-
-
-
 \subsubsection{Radiative Cooling}
 \label{sec:radiative_cooling} %3.4.3
 
@@ -281,7 +225,7 @@ We screen detector wafers prior to selection of flight wafers and focal plane in
 
 %PICO integrates the flight focal plane assembly and flight cADR in a dedicated sub-kelvin cryogenic testbed. Noise, responsivity, and focal-plane temperature stability are characterized using a representative optical load for each frequency band (temperature-controlled blackbody). Polarimetric and spectroscopic calibration are performed.
 
-The focal plane is integrated with the reflectors and structures, and alignment verified with photogrammetry at cold temperatures in a TVAC chamber.  The completely integrated observatory (instrument and spacecraft bus) is tested in TVAC to measure parasitic optical loading from the instrument, noise, microphonics, and radio-frequency interference (RFI). The observatory is 4.5\,m in diameter and 6.1\,m tall, with no deployables.
+The focal plane is integrated with the reflectors and structures, and alignment verified with photogrammetry at cold temperatures in a TVAC chamber.  The completely integrated observatory (instrument and spacecraft bus) is tested in TVAC to measure parasitic optical loading from the instrument, noise, microphonics, and radio-frequency interference (RFI). The observatory is 4.5\,m in diameter and 6.1\,m tall. There are no deployables.
 
 \section{Design Reference Mission}
 \label{sec:design_reference} %4
@@ -293,25 +237,9 @@ The PICO design reference mission is summarized in Table~\ref{tab:mission_parame
 \subsection{Concept of Operations}
 \label{sec:operations} %4.1
 
-The PICO concept of operations is similar to that of the successful
-\textit{WMAP} \citep{Bennett2003} and \textit{Planck} \citep{Tauber2010} missions. After launch,
-PICO cruises to a quasi-halo orbit around the Earth--Sun L2 Lagrange point
-(\S\,\ref{sec:mission_design}). A two-week decontamination period is followed by
-instrument cooldown, lasting about two months. After in-orbit checkout is complete, PICO begins
-the science survey.
+The PICO concept of operations is similar to that of the successful \textit{WMAP}~\citep{Bennett2003} and \planck~\citep{Tauber2010} missions. After launch, PICO cruises to a quasi-halo orbit around the Earth--Sun L2 Lagrange point (\S\,\ref{sec:mission_design}). A two-week decontamination period is followed by instrument cooldown, lasting about two months. After in-orbit checkout is complete, PICO begins the science survey.
 
-PICO has a single science observing mode, surveying the sky
-continuously for 5 years using a pre-planned repetitive survey pattern
-(\S\,\ref{sec:survey_design}). Instrument data are compressed and stored on-board, then
-returned to Earth in daily 4-hr Ka-band science downlink passes
-(concurrent with science observations). Because PICO is observing
-relatively static Galactic, extragalactic, and cosmological targets,
-there are no requirements for time-critical observations or data
-latency. Presently, there are no plans for targets of opportunity or
-guest observer programs during the prime mission. The PICO instrument
-does not require cryogenic consumables (as the \textit{Planck} mission did),
-permitting consideration of significant mission extension beyond the prime
-mission.
+PICO has a single science observing mode, surveying the sky continuously for 5 years using a pre-planned repetitive survey pattern (\S\,\ref{sec:survey_design}). Instrument data are compressed and stored on-board, then returned to Earth in daily 4-hr Ka-band science downlink passes (concurrent with science observations). Because PICO is observing relatively static Galactic, extragalactic, and cosmological targets, there are no requirements for time-critical observations or data latency. Presently, there are no plans for targets of opportunity or guest observer programs during the prime mission. The PICO instrument does not require cryogenic consumables (as the \textit{Planck} mission did), permitting consideration of significant mission extension beyond the prime mission.
 
 \begin{figure}[!b]
   \begin{minipage}[b]{0.29\textwidth}
@@ -335,17 +263,7 @@ mission.
 \subsubsection{Mission Design and Launch}
 \label{sec:mission_design} %4.1.1
 
-PICO performs its science survey from a quasi-halo orbit around the
-Earth--Sun L2 Lagrange point. Predecessor missions \textit{Planck} and
-\textit{WMAP} both operated in L2 orbits.
-
-L2 orbits provide favorable survey geometry (relative to Earth orbits)
-by mitigating viewing restrictions imposed by terrestrial and lunar
-stray light. The PICO orbit around L2 is small enough to ensure than
-the Sun--Probe--Earth (SPE) angle is less than $15\degree$. This
-maintains the telescope boresight $>70\degree$ away from the Earth
-(Fig.~\ref{fig:MissionDesignFigure},
-$70\degree = 180\degree -\alpha - \beta - \rm{SPE}$).
+The science survey is conducted from a quasi-halo orbit around the Earth--Sun L2 Lagrange point. \planck \ and \textit{WMAP} also operated in L2 orbits. L2 orbits provide favorable survey geometry relative to Earth orbits by mitigating viewing restrictions imposed by terrestrial and lunar stray light. The PICO orbit around L2 is small enough to ensure than the Sun--Probe--Earth (SPE) angle is less than $15\degree$. This maintains the telescope boresight $>70\degree$ away from the Earth (Fig.~\ref{fig:MissionDesignFigure}, $70\degree = 180\degree -\alpha - \beta - \rm{SPE}$).
 
 %\input tables/table4.1.tex
 
@@ -354,20 +272,10 @@ from L2 using near-Earth Ka bands. L2 provides a stable thermal
 environment, simplifying thermal control. The PICO orbit exhibits no
 post-launch eclipses.
  
-NASA requires that Probes be compatible with an Evolved Expendable
-Launch Vehicle (EELV). For the purpose of this study, the Falcon~9
-\citep{SpaceX2015} is used as the reference
-vehicle. Figure~\ref{fig:InFairing} shows PICO configured for launch
-in a Falcon~9 fairing. The Falcon~9 launch capability for ocean
-recovery exceeds PICO's 2147\,kg total launch mass (including contingency) by a
-$\sim 50\,\%$ margin.
+NASA requires that Probes be compatible with an Evolved Expendable Launch Vehicle (EELV). For the purpose of this study, the Falcon~9~\citep{SpaceX2015} is used as the reference vehicle. Figure~\ref{fig:InFairing} shows PICO configured for launch in a Falcon~9 fairing. The Falcon~9 launch capability for ocean recovery exceeds PICO's 2147\,kg total launch mass (including contingency) by a $\sim 50\,\%$ margin.
 
-Insertion to the halo manifold and associated trajectory correction
-maneuvers (TCMs) require 150\,m\,s$^{-1}$ of total $\Delta V$ by the
-spacecraft. Orbit maintenance requires minimal propellant (statistical
-$\Delta V\sim 2$\,m\,s$^{-1}$\,year$^{-1}$). The orbital period is $\sim6$\,months.
-There are no disposal requirements for L2 orbits, but spacecraft are customarily
-decommissioned to heliocentric orbit.
+Insertion to the halo manifold and associated trajectory correction maneuvers %(TCMs) 
+require 150\,m\,s$^{-1}$ of total $\Delta V$ by the spacecraft. Orbit maintenance requires minimal propellant (statistical $\Delta V\sim 2$\,m\,s$^{-1}$\,year$^{-1}$). The orbital period is $\sim6$\,months. There are no disposal requirements for L2 orbits, but spacecraft are customarily decommissioned to heliocentric orbit.
 
 
 \subsubsection{Survey Design}
