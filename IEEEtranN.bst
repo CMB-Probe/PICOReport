@@ -142,7 +142,9 @@ FUNCTION {default.name.latex.cmd}{ "" }
 
 
 % The default URL prefix.
-FUNCTION {default.name.url.prefix}{ "Retrieved from:" }
+% FUNCTION {default.name.url.prefix}{ "Retrieved from:" }
+% KY edit to change text before urls in bibliography.  Just no text for now.
+FUNCTION {default.name.url.prefix}{ "" }
 
 
 % Other controls that cannot be accessed via IEEEtranBSTCTL entry type.
