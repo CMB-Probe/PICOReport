@@ -4,20 +4,6 @@
 \section{Instrument}
 \label{sec:instrument} %3
 
-\begin{figure}
-\hspace{-0.1in}
-\parbox{5.1in}{\centerline{
-\includegraphics[width=5.25in]{figures/InstrumentCAD.png} }}
-\hspace{0.05in}
-\parbox{1.3in}{
-\caption{\captiontext
-%PICO instrument configuration \textit{Left:} Side view in cross section. \textit{Right}: Front view with V-Groove assembly shown semi-transparent.  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics.
-PICO instrument configuration in side view and cross section (left), and front view with V-Groove assembly shown semi-transparent (right).  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics. 
-\label{fig:InstrumentCAD}} }
-%\end{center}
-\vspace{-0.1in}
-\end{figure}
-
 %\begin{figure}
 %\begin{center}
 %\includegraphics[width=5.25in]{figures/InstrumentCAD.png} 
@@ -30,17 +16,37 @@ PICO instrument configuration in side view and cross section (left), and front v
 %%\end{center}
 %\vspace{-0.25in}
 %\end{figure}
-\begin{wrapfigure}{r}{0.6\textwidth}
-\vskip -8pt
-\hfill
-\includegraphics[width=0.6\textwidth]{images/ArchitectureBlockDiagram.png} 
-\vskip -2pt
-\caption{\captiontext
-PICO instrument block diagram. Active coolers provide cooling to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the 4.5\,K thermal liner that acts as a cold aperture stop. Data from the focal plane flows to (redundant, cross-strapped) warm readout electronics on the spun module of the spacecraft bus.
-\label{fig:ArchitectureBlockDiagram} }  
-\end{wrapfigure}
 
-PICO meets all of its science-derived instrument requirements (\S\,\ref{sec:requirements}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz (Table~\ref{tab:STM}). The instrument is built around a two-reflector Dragone-style telescope (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the primary and secondary. The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). The instrument employs a single science observing mode: fixed rate imaging while scanning the sky (\S~\ref{sec:survey_design}).
+
+
+%\begin{wrapfigure}{r}{0.6\textwidth}
+%\vskip -8pt
+%\hfill
+%\includegraphics[width=0.6\textwidth]{images/ArchitectureBlockDiagram.png} 
+%\vskip -2pt
+%\caption{\captiontext
+%PICO instrument block diagram. Active coolers provide cooling to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the 4.5\,K thermal liner that acts as a cold aperture stop. Data from the focal plane flows to (redundant, cross-strapped) warm readout electronics on the spun module of the spacecraft bus.
+%\label{fig:ArchitectureBlockDiagram} }  
+%\end{wrapfigure}
+
+PICO meets all of its science-derived instrument requirements (\S\,\ref{sec:requirements}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz (Table~\ref{tab:STM}). The instrument is built around a two-reflector Dragone-style telescope (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the primary and secondary. The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). The instrument employs a single science observing mode: fixed rate imaging while scanning the sky (\S~\ref{sec:survey_design}). 
+\begin{figure}[h] 
+\hspace{-0.1in}
+\parbox{5.1in}{\centerline{
+\includegraphics[width=5.25in]{figures/InstrumentCAD.png} }}
+\hspace{0.05in}
+\parbox{1.3in}{
+\caption{\captiontext
+PICO overall configuration in side view and cross section (left), and front view with V-Groove assembly shown semi-transparent (right).  The mission consists of a single science instrument mounted on a structural ring. The ring is supported by bipods on a stage spinning at constant speed relative to a despun module. Figure~\ref{fig:ArchitectureBlockDiagram} shows the functions hosted by each of the modules. 
+%PICO instrument configuration \textit{Left:} Side view in cross section. \textit{Right}: Front view with V-Groove assembly shown semi-transparent.  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics.
+%PICO instrument configuration in side view and cross section (left), and front view with V-Groove assembly shown semi-transparent (right).  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics. 
+\label{fig:InstrumentCAD}} }
+%\end{center}
+\vspace{-0.1in}
+\end{figure}
+
+%The spun module accommodates the coolers and the detector readout electronics.
+
 
 The instrument is configured inside the shadow of a V-groove assembly that thermally and optically shields it from the Sun (Fig.~\ref{fig:InstrumentCAD}). The V-groove assembly consists of 4 nested radiation shields that provide passive cooling (\S\,\ref{sec:radiative_cooling}). The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
 
@@ -48,7 +54,20 @@ The instrument is configured inside the shadow of a V-groove assembly that therm
 
 The V-groove assembly is attached to the bipod struts that support the instrument structural ring. The ring supports the primary reflector and telescope box. The telescope box contains the actively cooled components (\S\,\ref{sec:cadr}, \S\,\ref{sec:4kcooler}), including the secondary reflector, the focal plane and sub-kelvin refrigerator structures. Just inside the box, a thermal liner serves as a cold optical baffle and aperture stop. Instrument integration and test (I\&T) are described in \S\,\ref{sec:iandt}.
 
-During the survey, the instrument is spun at 1~rpm and the spin axis is made to precess about the anti-sun direction (\S\,\ref{sec:survey_design}). Spacecraft control is simplified by mounting the instrument on a spinning spacecraft module, while a larger non-spinning module houses most spacecraft subsystems (\S\,\ref{sec:spacecraft}). Instrument elements that act as heat sources are accommodated on the spinning module of the spacecraft.
+During the survey, the instrument is spun at 1~rpm and the spin axis is made to precess about the anti-sun direction (\S\,\ref{sec:survey_design}). Spacecraft control is simplified by mounting the instrument on a spinning spacecraft module, while a larger non-spinning module houses most spacecraft subsystems (\S\,\ref{sec:spacecraft}). Instrument elements that act as heat sources are accommodated on the spinning module of the spacecraft. A functional block diagram of the spacecraft is shown in Figure~\ref{fig:ArchitectureBlockDiagram}. 
+
+\begin{figure}[h]
+\hspace{-0.in}
+\parbox{4.1in}{\centering{
+\includegraphics[width=4.0in]{images/ArchitectureBlockDiagram.png} } }
+\hspace{0.12in}
+\parbox{2.4in}{
+\caption{\captiontext
+PICO instrument block diagram. The despun module hosts power, telemetry, attitude control, and communication systems. Only power and digitial data lines cross into the spun module, which hosts the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics. The V-grooves, giving passive cooling to the instrument, and the reflectors and telescope box are spinning with the spun module at a rate of 1~RPM. The active coolers provide cooling to the 100\,mK focal plane, the surrounding 1\,K box, the 4.5\,K secondary reflector, and the 4.5\,K thermal liner that acts as a cold aperture stop. 
+\label{fig:ArchitectureBlockDiagram} } } 
+\vspace{-0.in}
+\end{figure}
+
 
 \subsection{Telescope}
 \label{sec:telescope} %3.1
@@ -73,7 +92,6 @@ PICO's initial open-Dragone design~\citep{dragone78, granet2001} has been modifi
 %\comblue{what about the reflector material?}
 An actively cooled circular aperture stop between the primary and secondary reflectors reduces detector noise and shields the focal plane from stray radiation. Stray-light analysis of the PICO open-Dragone design using GRASP confirms that the focal plane is protected from direct view of the sky, and that spillover past the primary is suppressed by 80~dB relative to the main lobe for both co-pol and cross-pol beams. Detailed baffle design will be performed during mission formulation.
 
-
 % \begin{figure}
 % \begin{center}
 % \includegraphics[width=3in]{figures/OpticsDiagram.png}
@@ -85,33 +103,32 @@ An actively cooled circular aperture stop between the primary and secondary refl
 \label{sec:focal_plane} %3.2
 %
 % wrap version of figure 3.3.  Unwrapped version is below.
+
+
+PICO's focal plane is populated by an array of \ac{TES} bolometers operating in 21 frequency bands, each with 25\% fractional bandwidth, and band centers ranging from 21 to 799~GHz. 
+The layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}. 
+%A conceptual layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}.
+
+Bolometers operating in the mm/sub-mm wave band are photon-noise limited. Therefore, increase in sensitivity is achieved through an increase in detector count. The PICO focal plane has 12,996 detectors, 175~times the number flown aboard \planck\ thereby providing a breakthrough increase
 \begin{wrapfigure}{r}{0.45\textwidth}
-\vskip -24pt
+\vskip -8pt
 \hfill
 \includegraphics[width=0.45\textwidth]{figures/FocalPlaneMechanical.png}
 \vskip -2pt
 \caption{\captiontext PICO focal plane. Detectors are fabricated on six types of tiles (shown numbered and colored as in Table~\ref{tab:focal_plane}). The wafers are located on the focal plane such that higher frequency bands, which require better optical performance, are placed nearer to the center. All detectors are within the diffraction-limited performance for their respective frequency bands.  
 \label{fig:FocalPlaneMechanical}}
 \end{wrapfigure}
-
-
-PICO's focal plane is populated by an array of \ac{TES} bolometers operating in 21 frequency bands, each with 25\% fractional bandwidth, and band centers ranging from 21 to 799~GHz. 
-%Polarimetry is achieved by differencing the signals from pairs of two co-pointed bolometers that are sensitive to two orthogonal polarization states.  
-%\comblue{polarimetry is incomplete; need to elaborate more}
-The layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}. 
-%A conceptual layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}.
-
-Bolometers operating in the mm/sub-mm wave band are photon-noise limited. Therefore, increase in sensitivity is achieved through an increase in detector count. The PICO focal plane has 12,996 detectors, 175 times the number flown aboard \planck\ thereby providing a breakthrough increase in sensitivity with a comparably sized telescope. This breakthrough is enabled by development and demonstration in suborbital projects, which now commonly operate arrays of $10^3$--$10^4$ detectors (\S\,\ref{sec:technology_maturation}). Further technology maturation required for PICO is described in Section~\S\,\ref{sec:technology_maturation}.
+in sensitivity with a comparably sized telescope. This breakthrough is enabled by development and demonstration in suborbital projects, which now commonly operate arrays of $10^3$--$10^4$ detectors (\S\,\ref{sec:technology_maturation}). Further technology maturation required for PICO is described in Section~\S\,\ref{sec:technology_maturation}.
 
 \subsubsection{21--462\,GHz Bands}
 \label{sec:low_freq_det} % 3.2.1
 
-%%%%%%%%
-\input tables/table3.1_wrap.tex
-%%%%%%%%
 Several optical coupling technologies have matured over the past ten years to efficiently use focal plane area: horns with ortho-mode transducers (OMTs) \citep{Duff2016}, lithographed antenna arrays~\citep{BICEP2015}, and sinuous antennas under lenslets~\citep{Edwards2012}. Horn-coupling and sinuous antenna/lenslet-coupling deliver quantum efficiency $>70\,\%$ over more than an octave of bandwidth, which have been partitioned into two or three colors per pixel.  
 Alternatively, only single-color pixels have been demonstrated to date with antenna-arrays, but this coupling enables smaller pixels and therefore they can be more densely packed.
 %Alternatively, antenna-array coupling has only demonstrated single-color pixels to date, but uniformly illuminated feeds enable smaller pixels and therefore more densely packed focal planes.
+%%%%%%%%
+\input tables/table3.1_wrap.tex
+%%%%%%%%
 
 The PICO baseline focal-plane employs three-color sinuous antenna/lenslet pixels~\citep{Suzuki2014} for the 21--462\,GHz bands. Niobium microstrips mediate the signals between the antenna and detectors, and partition the feed's wide continuous bandwidth into three narrow channels using integrated, on-wafer, micro-machined filter circuits~\citep{OBrient2013}. Six transition edge sensor bolometers per pixel detect the radiation in two orthogonal polarization states. %The technology maturation required for PICO is described in \$\,\ref{sec:bolometers}.
 
