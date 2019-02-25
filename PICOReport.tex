@@ -172,7 +172,7 @@
 %% Karl Young adding cover page as full page pdf.
 
 %\includepdf{images/PICO_Cover_v2-4.pdf} %Full resolution cover
-\includepdf{images/PICO_Cover_v6_s.pdf} %Low resolution cover for faster pdf. 
+\includepdf{images/PICO_Cover_v6_s.pdf} %Low resolution cover for faster pdf.
 
 
 %%
@@ -210,28 +210,29 @@
 
 %test figure in main file
 %
-\pagenumbering{roman} 
+\pagenumbering{roman}
 \setcounter{page}{1}
 
 % Author list on seperate pages
 \subfile{authorlist.tex}
-
-
-
+%
+{
 \begin{centering}
+\small
 {***}\\
-\bigskip
+\smallskip
 {This research was funded by a NASA grant NNX17AK52G to the University of Minnesota / Twin Cities, by the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration, and by Lockheed Martin Corporation. \\ Substantial contributions to the development of PICO were volunteered by scientists at many institutions world-wide.  They are very gratefully acknowledged.} \\
-\bigskip
+\medskip
 
 {The information presented about the PICO mission concept is pre-decisional and is provided for planning and discussion purposes only.}\\
-\bigskip
+\medskip
 
 {The cost information contained in this document is of a budgetary and planning nature and is intended for informational purposes only.  It does not constitute a commitment on the part of JPL and/or Caltech.}\\
-\bigskip
+%\bigskip
 
 %{\copyright\ 2018. All rights reserved.}\\
 \end{centering}
+}
 \newpage
 {
              % KY: making table of contents links black instead of red.
@@ -239,7 +240,7 @@
 \tableofcontents
 }
 \newpage
-\pagenumbering{arabic} 
+\pagenumbering{arabic}
 \setcounter{page}{1}
 \setcounter{figure}{0}
 
