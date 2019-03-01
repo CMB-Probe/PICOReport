@@ -30,7 +30,7 @@
 
 \bibitem[{NASA}({\natexlab{b}})]{latest_nasa_strategic_plan}
 \BIBentryALTinterwordspacing
-------, ``{NASA 2018 Strategic Plan}.''
+{NASA}, ``{NASA 2018 Strategic Plan}.''
   \url{https://smd-prod.s3.amazonaws.com/science-red/s3fs-public/atoms/files/nasa_2018_strategic_plan_0.pdf}
 \BIBentrySTDinterwordspacing
 
@@ -2110,9 +2110,10 @@ A.~{Lazarian}, ``{Enhancement and Suppression of Heat Transfer by MHD
 
 \bibitem[{Lazarian}(2016)]{Lazarian:2016}
 \BIBentryALTinterwordspacing
-------, ``{Damping of Alfv{\'e}n Waves by Turbulence and Its Consequences: From
-  Cosmic-ray Streaming to Launching Winds},'' \emph{\apj}, vol. 833, p. 131,
-  Dec. 2016.  \url{http://adsabs.harvard.edu/abs/2016ApJ...833..131L}
+A.~{Lazarian}, ``{Damping of Alfv{\'e}n Waves by Turbulence and Its
+  Consequences: From Cosmic-ray Streaming to Launching Winds},'' \emph{\apj},
+  vol. 833, p. 131, Dec. 2016.
+  \url{http://adsabs.harvard.edu/abs/2016ApJ...833..131L}
 \BIBentrySTDinterwordspacing
 
 \bibitem[{Lazarian} and {Vishniac}(1999)]{Lazarian_Vishniac:1999}
