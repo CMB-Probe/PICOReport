@@ -15,7 +15,7 @@
 %\label{fig:ArchitectureBlockDiagram} }  
 %\end{wrapfigure}
 
-PICO meets all of its science-derived instrument requirements (\S\,\ref{sec:requirements}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz (Table~\ref{tab:STM}). The instrument is built around a two-reflector Dragone-style telescope (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}) with an internal aperture stop between the primary and secondary. The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). The instrument employs a single science observing mode: fixed rate imaging while scanning the sky (\S~\ref{sec:survey_design}). 
+PICO meets all of its science-derived instrument requirements (\S\,\ref{sec:requirements}) with a single instrument: an imaging polarimeter with 21 logarithmically spaced frequency bands centered between 21 and 799\,GHz (Table~\ref{tab:STM}). The instrument has a two-reflector Dragone-style telescope (\S\,\ref{sec:telescope} and Fig.~\ref{fig:InstrumentCAD}). The focal plane is populated by 12,996 \ac{TES} bolometers (\S\,\ref{sec:focal_plane}) and read out using a time-domain multiplexing scheme (\S\,\ref{sec:detector_readout}). PICO employs a single science observing mode: fixed rate imaging while scanning the sky (\S~\ref{sec:survey_design}). 
 \begin{figure}[h] 
 \hspace{-0.1in}
 \parbox{5.1in}{\centerline{
@@ -24,23 +24,18 @@ PICO meets all of its science-derived instrument requirements (\S\,\ref{sec:requ
 \parbox{1.3in}{
 \caption{\captiontext
 PICO overall configuration in side view and cross section (left), and front view with V-Groove assembly shown semi-transparent (right).  The mission consists of a single science instrument mounted on a structural ring. The ring is supported by bipods on a stage spinning at constant speed relative to a despun module. Figure~\ref{fig:ArchitectureBlockDiagram} shows the functions hosted by each of the modules. 
-%PICO instrument configuration \textit{Left:} Side view in cross section. \textit{Right}: Front view with V-Groove assembly shown semi-transparent.  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics.
-%PICO instrument configuration in side view and cross section (left), and front view with V-Groove assembly shown semi-transparent (right).  The spacecraft spun module accommodates warm instrument components: the 4\,K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics. 
 \label{fig:InstrumentCAD}} }
 %\end{center}
 \vspace{-0.1in}
 \end{figure}
 
-%The spun module accommodates the coolers and the detector readout electronics.
+The instrument is configured inside the shadow of a V-groove assembly that thermally and optically shields it from the Sun (Fig.~\ref{fig:InstrumentCAD} and \S\,\ref{sec:radiative_cooling}). 
+%The V-groove assembly consists of four nested radiation shields that provide passive cooling (\S\,\ref{sec:radiative_cooling}). 
+The Sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the Sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
 
+The V-groove assembly is attached to the bipod struts that support the instrument structural ring. The ring supports the primary reflector and telescope box. The telescope box contains the actively cooled components (\S\,\ref{sec:cadr}, \S\,\ref{sec:4kcooler}), including the secondary reflector, the focal plane and sub-kelvin refrigerator structures. Just inside the box, a thermal liner serves as a cold optical baffle and aperture stop. Instrument integration and test are described in \S\,\ref{sec:iandt}.
 
-The instrument is configured inside the shadow of a V-groove assembly that thermally and optically shields it from the Sun (Fig.~\ref{fig:InstrumentCAD}). The V-groove assembly consists of 4 nested radiation shields that provide passive cooling (\S\,\ref{sec:radiative_cooling}). The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
-
-%A V-groove radiator assembly provides passive cooling (\S\,\ref{sec:radiative_cooling}). The instrument is configured inside the shadow of the V-grooves, thermally and optically shielded from the Sun. The sun shadow cone depicted in Fig.~\ref{fig:InstrumentCAD} is $29\degree$. The angle to the Sun during the survey, $\alpha = 26\degree$ (\S\,\ref{sec:survey_design} and Fig.~\ref{fig:MissionDesignFigure}), is supplemented with a margin of $3\degree$ to account for the radius of the sun ($0\pdeg25$), pointing control error, design margin, and alignment tolerances.
-
-The V-groove assembly is attached to the bipod struts that support the instrument structural ring. The ring supports the primary reflector and telescope box. The telescope box contains the actively cooled components (\S\,\ref{sec:cadr}, \S\,\ref{sec:4kcooler}), including the secondary reflector, the focal plane and sub-kelvin refrigerator structures. Just inside the box, a thermal liner serves as a cold optical baffle and aperture stop. Instrument integration and test (I\&T) are described in \S\,\ref{sec:iandt}.
-
-During the survey, the instrument is spun at 1~rpm and the spin axis is made to precess about the anti-sun direction (\S\,\ref{sec:survey_design}). Spacecraft control is simplified by mounting the instrument on a spinning spacecraft module, while a larger non-spinning module houses most spacecraft subsystems (\S\,\ref{sec:spacecraft}). Instrument elements that act as heat sources are accommodated on the spinning module of the spacecraft. A functional block diagram of the spacecraft is shown in Figure~\ref{fig:ArchitectureBlockDiagram}. 
+During the survey, the instrument is spun at 1~rpm and the spin axis is made to precess about the anti-Sun direction (\S\,\ref{sec:survey_design}). Spacecraft control is simplified by mounting the instrument on a spinning spacecraft module, while a larger non-spinning module houses most spacecraft subsystems (\S\,\ref{sec:spacecraft}). Instrument elements that act as heat sources are accommodated on the spinning module of the spacecraft. Only power and digital data lines cross between the spinning and non-spinning modules.  A functional block diagram of the spacecraft is shown in Figure~\ref{fig:ArchitectureBlockDiagram}. 
 
 \begin{figure}[h]
 \hspace{-0.in}
@@ -58,7 +53,7 @@ PICO configuration block diagram. The despun module hosts power, telemetry, atti
 \subsection{Telescope}
 \label{sec:telescope} %3.1
 
-The PICO telescope design is driven by a combination of science requirements and physical volume limits. The science requirements are: a large diffraction-limited field of view (DLFOV) sufficient to support approximately $10^4$ detectors, arcminute resolution at 800\,GHz, low spurious polarization, and low sidelobe response. All requirements are met with PICO's 1.4\,m aperture modified open-Dragone design. There are no moving parts in the PICO optical system.
+The PICO telescope design is driven by a combination of science requirements and physical volume limits. The science requirements are: a large diffraction-limited field of view (DLFOV) sufficient to support approximately $10^4$ detectors; arcminute resolution at 800\,GHz; low spurious polarization; and low sidelobe response. All requirements are met with PICO's 1.4\,m aperture modified open-Dragone design. There are no moving parts in the PICO optical system.
 
 
 %\begin{figure}%[ht]
@@ -71,9 +66,9 @@ The PICO telescope design is driven by a combination of science requirements and
 %\label{fig:ArchitectureBlockDiagram} }  }
 %\end{figure}
 
-The PICO optical design was selected following a trade study examining cross-Dragone, Gregorian Dragone, and open-Dragone designs~\citep{Young2018}.  The open-Dragone and crossed-Dragone systems offer more diffraction-limited focal plane area than the Gregorian Dragone~\citep{deBernardis2018}, and are able to support enough detectors to provide the required sensitivity. The open-Dragone does not require the more massive and voluminous baffles that the cross-Dragone does, and hence can satisfy the aperture size requirement within the shadow cone.
+The PICO optical design was selected following a trade study examining cross-Dragone, Gregorian Dragone, and open-Dragone designs~\citep{Young2018}.  The open-Dragone and crossed-Dragone systems offer more diffraction-limited focal plane area than the Gregorian Dragone one~\citep{deBernardis2018} and are able to support enough detectors to provide the required sensitivity. The open-Dragone design does not require the more massive and voluminous baffles that the cross-Dragone does, and hence can satisfy the aperture size requirement within the shadow cone.
 
-PICO's initial open-Dragone design~\citep{dragone78, granet2001} has been modified by adding an aperture stop and adding corrections to the primary and secondary reflectors to enlarge the DLFOV. The detailed geometric parameterization of the PICO optical design is described by~\citet{Young2018}. The primary reflector (270\,cm $\times$ 205\,cm) is passively cooled and the secondary reflector (160\,cm $\times$ 158\,cm) is actively cooled. The highest frequency (900\,GHz) sets the surface accuracy requirement of the reflectors at $\sim \lambda/14 =24\,\mu{\rm m}$. The focal ratio is 1.42. The slightly concave focal surface, which has a radius of curvature of 4.55~m, is telecentric to within $0\pdeg12$ across the entire FOV.
+PICO's initial open-Dragone design~\citep{dragone78, granet2001} has been modified with the addition of an aperture stop and adding corrections to the primary and secondary reflectors to enlarge the DLFOV. The detailed geometric parameterization of the PICO optical design is described by~\citet{Young2018}. The primary reflector (270\,cm $\times$ 205\,cm) is passively cooled and the secondary reflector (160\,cm $\times$ 158\,cm) is actively cooled. The highest frequency (900\,GHz) sets the surface accuracy requirement of the reflectors at $\lambda/14 =24\,\mu{\rm m}$. The focal ratio is 1.42. The slightly concave focal surface, which has a radius of curvature of 4.55~m, is telecentric to within $0\pdeg12$ across the entire FOV.
 
 %\comblue{what about the reflector material?}
 An actively cooled circular aperture stop between the primary and secondary reflectors reduces detector noise and shields the focal plane from stray radiation. Stray-light analysis of the PICO open-Dragone design using GRASP confirms that the focal plane is protected from direct view of the sky, and that spillover past the primary is suppressed by 80~dB relative to the main lobe for both co-pol and cross-pol beams. Detailed baffle design will be performed during mission formulation.
@@ -95,7 +90,7 @@ PICO's focal plane is populated by an array of \ac{TES} bolometers operating in 
 The layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}. 
 %A conceptual layout of the PICO focal plane is shown in Fig.~\ref{fig:FocalPlaneMechanical} and detailed in Table~\ref{tab:focal_plane}.
 
-Bolometers operating in the mm/sub-mm wave band are photon-noise limited. Therefore, increase in sensitivity is achieved through an increase in detector count. The PICO focal plane has 12,996 detectors, 175~times the number flown aboard \planck\ thereby providing a breakthrough increase
+Bolometers operating in the mm/sub-mm wave band are photon-noise limited. Therefore, increase in sensitivity is achieved through an increase in detector count. The PICO focal plane has 12,996 detectors, 175~times the number flown aboard \planck , thereby providing a breakthrough increase
 \begin{wrapfigure}{r}{0.45\textwidth}
 \vskip -8pt
 \hfill
@@ -109,9 +104,8 @@ in sensitivity with a comparably sized telescope. This breakthrough is enabled b
 \subsubsection{21--462\,GHz Bands}
 \label{sec:low_freq_det} % 3.2.1
 
-Several optical coupling technologies have matured over the past ten years to efficiently use focal plane area: horns with ortho-mode transducers (OMTs) \citep{Duff2016}, lithographed antenna arrays~\citep{BICEP2015}, and sinuous antennas under lenslets~\citep{Edwards2012}. Horn-coupling and sinuous antenna/lenslet-coupling deliver quantum efficiency $>70\,\%$ over more than an octave of bandwidth, which have been partitioned into two or three colors per pixel.  
+Several optical-coupling technologies have matured over the past ten years to efficiently use focal plane area: horns with ortho-mode transducers (OMTs) \citep{Duff2016}; lithographed antenna arrays~\citep{BICEP2015}; and sinuous antennas under lenslets~\citep{Edwards2012}. Horn-coupling and sinuous antenna/lenslet-coupling deliver quantum efficiency $>70\,\%$ over more than an octave of bandwidth, which have been partitioned into two or three colors per pixel.  
 Alternatively, only single-color pixels have been demonstrated to date with antenna-arrays, but this coupling enables smaller pixels and therefore they can be more densely packed.
-%Alternatively, antenna-array coupling has only demonstrated single-color pixels to date, but uniformly illuminated feeds enable smaller pixels and therefore more densely packed focal planes.
 %%%%%%%%
 \input tables/table3.1_wrap.tex
 %%%%%%%%
@@ -211,16 +205,15 @@ All waste heat rejected by the cooler compressors and drive electronics is trans
 \subsubsection{Radiative Cooling}
 \label{sec:radiative_cooling} %3.4.3
 
-A set of four V-groove radiators assembly provides passive cooling (Fig.~\ref{fig:InstrumentCAD}). This is standard, 30-years old technology~(\S~\ref{sec:heritage}). The outermost shield shadows the interior ones from the Sun. The V-grooves radiate to space, each reaching successively cooler temperatures.
-%\comblue{can we be quantitative?}
+%The V-groove assembly consists of four nested radiation shields that provide passive cooling (\S\,\ref{sec:radiative_cooling}). 
+An assembly of four nested V-groove radiators, acting as radiation shields, provides passive cooling (Fig.~\ref{fig:InstrumentCAD}). This is standard, 30-years old technology~(\S~\ref{sec:heritage}). The outermost shield shadows the interior ones from the Sun. The V-grooves radiate to space, each reaching successively cooler temperatures.
 The assembly provides a cold radiative environment to the primary reflector, structural ring, and telescope box. As a consequence radiative loads on those elements are smaller than the conductive loads through the mechanical support structures.
-%\comblue{shouldn't we show evidence that say radiative cooling has been worked out successfully before.? }
 
 
 \subsection{Instrument Integration and Test}
 \label{sec:iandt} % 3.5
 
-PICO instrument I\&T planning benefits from heritage and experience with the \planck\ HFI instrument~\citep{Pajot2010}.
+The PICO instrument integration and testing plan benefits from heritage and experience with the \planck\ HFI instrument~\citep{Pajot2010}.
 
 We screen detector wafers prior to selection of flight wafers and focal plane integration. The cADR and 4\,K cryocooler vendors will qualify them prior to delivery. We will determine the relative alignment of the two reflectors under in-flight thermal conditions using a thermal vacuum (TVAC) chamber and photogrammetry. We integrate the flight focal plane assembly and flight cADR in a dedicated sub-kelvin cryogenic testbed. We characterize noise, responsivity, and focal-plane temperature stability using a representative optical load for each frequency band (temperature-controlled blackbody), and we perform polarimetric and spectroscopic calibration.
 
@@ -300,9 +293,9 @@ PICO's $\alpha=26\degree$ is chosen to be substantially larger than
 the \textit{Planck} mission's $\alpha$ angle ($7.5\degree$) to
 mitigate systematic effects by scanning across each sky pixel with a
 greater diversity of orientations \citep{Hu2003}. Increasing $\alpha$
-further would decrease the sun-shadowed volume available for the
+further would decrease the Sun-shadowed volume available for the
 optics and consequently reduce the telescope aperture size. A
-deployable sun shade was considered but found not to be required, and
+deployable Sunshade was considered but found not to be required, and
 was thus excluded in favor of a more conservative and less costly
 approach.
 
@@ -423,7 +416,7 @@ The PICO instrument spin rate is achieved and maintained using a spin motor. The
 
 PICO requires $220$\,N\,m\,s to cancel the angular momentum of the instrument and spacecraft spun module at 1\,RPM. This value includes mass contingency and is based on the CAD model. Three Honeywell HR-16 reaction wheel assemblies (RWAs), each capable of 150\,N\,m\,s, are mounted on the despun module parallel to the instrument spin axis, and spin opposite to the instrument to achieve zero net angular momentum. The despun module is three-axis stabilized. The spin axis is precessed using three RWAs mounted normal to the spin axis in a triangle configuration. Each set of three RWAs is sized such that two could perform the required function with margin, providing single fault tolerance.
 
-Spin axis pointing and spin rate knowledge are achieved and maintained using star tracker and inertial measurement unit (IMU) data. The attitude determination system is single-fault tolerant, with two IMUs each on the spun and despun modules, and two star trackers each on the spun and despun modules. Two sun sensors on the despun module are used for safe-mode contingencies and instrument Sun avoidance. All attitude control and reconstruction requirements are met, including spin axis control $< 60$\,arcmin with $< 1$\,arcmin/min stability, and reconstructed pointing knowledge $< 10$\,arcsec (each axis, $3\sigma$).
+Spin axis pointing and spin rate knowledge are achieved and maintained using star tracker and inertial measurement unit (IMU) data. The attitude determination system is single-fault tolerant, with two IMUs each on the spun and despun modules, and two star trackers each on the spun and despun modules. Two Sun sensors on the despun module are used for safe-mode contingencies and instrument Sun avoidance. All attitude control and reconstruction requirements are met, including spin axis control $< 60$\,arcmin with $< 1$\,arcmin/min stability, and reconstructed pointing knowledge $< 10$\,arcsec (each axis, $3\sigma$).
 
 Additional pointing reconstruction is performed in post-processing using the science data.  The PICO instrument will observe planets (compact, bright sources) nearly every day.  By fitting the telescope pointing to the known planetary ephemerides, the knowledge of the telescope boresight pointing and the relative pointing of each detector will improve to better than 1\,arcsec (each axis, $3\sigma$). \planck , with fewer detectors, making lower \ac{SNR} measurements of the planets, and observing with a scan strategy that acquired measurements of each planet only once every 6\,months, demonstrated 0.8\,arcsec ($1\sigma$) pointing reconstruction uncertainty in-scan and 1.9\,arcsec ($1\sigma$) cross-scan~\citep{2016A&A...594A...1P}.
 %(Planck, Planck 2015 results. I. Overview of products and scientific results 2016)
@@ -747,24 +740,11 @@ We estimate PICO's total Phase A--E lifecycle cost between \$870M and \$960M, in
 will be accomplished through the normal APRA and SAT processes, and is not included in the mission cost. 
 %(per NASA direction).
 
-Table~\ref{tab:cost} shows the mission cost breakdown, including the
-JPL Team~X cost estimate as well as the PICO team cost estimate. Team~X
- is JPL's concurrent design facility. Team~X estimates are generally
-model-based, and were generated after a series of instrument and
-mission-level studies. Their accuracy is commensurate with the level
-of understanding typical to Pre-Phase-A concept development. They do
-not constitute an implementation or cost commitment on the part of JPL
-or Caltech.
+Table~\ref{tab:cost} shows the mission cost breakdown, including the JPL Team~X\footnote{Team~X
+ is JPL's concurrent design facility.} cost estimate, as well as the PICO team cost estimate. Team~X estimates are generally model-based, and were generated after a series of instrument and mission-level studies. Their accuracy is commensurate with the level of understanding typical to Pre-Phase-A concept development. They do not constitute an implementation or cost commitment on the part of JPL or Caltech.
 
 The PICO team has %generally 
-adopted the Team~X estimates, but also
-obtained a parametrically estimated cost range for the Flight System
-(WBS 6) and Assembly, Test and Launch Operations (ATLO, WBS~7) from
-Lockheed Martin Corporation to represent the cost benefits that might
-be realized by working with an industry partner. After adding
-estimated JPL overhead and Team~X estimated V-groove assembly costs
-(not included in the Lockheed estimate), the PICO team cost is
-in-family with but lower than the Team~X cost.%~(Table~\ref{tab:cost}).
+adopted the Team~X estimates, but also obtained a parametrically estimated cost range for the Flight System (WBS 6) and Assembly, Test, and Launch Operations (ATLO, WBS~7) from Lockheed Martin Corporation to represent the cost benefits that might be realized by working with an industry partner. After adding estimated JPL overhead and Team~X estimated V-groove assembly costs (not included in the Lockheed estimate), the PICO team cost is in-family with but lower than the Team~X cost.%~(Table~\ref{tab:cost}).
 
 
 
@@ -786,7 +766,7 @@ prototypes are budgeted. The V-groove assembly (\S\,\ref{sec:radiative_cooling})
 is costed in WBS~6.  Mission operations (WBS~7), Ground Data Systems
 (WBS~9), and Mission Navigation and Design (WBS~12) costs reflect a
 relatively simple concept of operations (\S\,\ref{sec:operations}). PICO has a single
-instrument with a single science observing mode, surveying the sky
+instrument and a single science observing mode. It surveys the sky
 continuously using a pre-planned repetitive survey pattern. Orbit
 maintenance activities are simple and infrequent.
 
@@ -803,7 +783,7 @@ The superconducting detectors require sub-kelvin cooling to
 operate. The active cooling system (the 0.1\,K cADR and 4\,K
 cryocooler, \S\,\ref{sec:cadr} and \S\,\ref{sec:4kcooler}) comprises nearly half of the payload
 cost. The cADR cost for this study is an estimate from NASA Goddard
-Space Flight Center (GSFC), and assumes the provision of both a flight
+Space Flight Center, and assumes the provision of both a flight
 model and an engineering model. GSFC has produced ADRs for multiple
 spaceflight missions. The 4\,K cryocooler cost for this study is based
 on the NASA Instrument Cost Model (NICM) VIII CER Cryocooler model
@@ -816,13 +796,7 @@ the cost of the focal plane and dual string readout electronics (\S\,\ref{sec:fo
 because the reflectors only need to be diffraction limited at 330\,$\mu$m
 (900\,GHz) (\S\,\ref{sec:telescope}).
 
-Based on JPL experience, 18\,\% of the instrument cost is allocated
-for integration and test. This includes integration and test of the
-flight focal-plane assembly with the flight cADR and then integration
-and test of the complete instrument including the focal-plane
-assembly, reflectors, structures, and coolers (\S\,\ref{sec:iandt}). Integration and
-test of the instrument with the spacecraft is costed in WBS~10
-(ATLO).
+Based on JPL experience, 18\,\% of the instrument cost is allocated for integration and testing (I\&T). This includes I\&T of the flight focal-plane assembly with the flight cADR and then I\&T of the complete instrument including the focal-plane assembly, reflectors, structures, and coolers (\S\,\ref{sec:iandt}). I\&T of the instrument with the spacecraft is costed in WBS~10 (ATLO).
 %\costfootnote
 
 \newpage
