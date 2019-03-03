@@ -405,7 +405,7 @@ Additional pointing reconstruction is performed in post-processing using the sci
 \section{Technology Maturation}
 \label{sec:technology_maturation} %5
 
-PICO builds off of the heritage of \planck-HFI and \textit{Herschel}.  Since the time of \planck\ and \textit{Herschel}, suborbital experiments have used monolithically fabricated TES bolometers and multiplexing schemes to field instruments with thousands of \ac{TES} bolometers per camera (Fig.~\ref{fig:spt_fp}). By the time PICO enters Phase~A, the Simons Observatory and Keck Array plan to be operating nearly 100,000 \ac{TES} bolometers~\citep{Simons2018,keck}.
+PICO builds off of the heritage of \planck-HFI and \textit{Herschel}.  Since the time of \planck\ and \textit{Herschel}, suborbital experiments have used monolithically fabricated TES bolometers and multiplexing schemes to field instruments with thousands of \ac{TES} bolometers per camera (Fig.~\ref{fig:spt_fp}). By the time PICO enters Phase~A, S3 experiments plan to be operating nearly 100,000 \ac{TES} bolometers in several independent cameras~\citep{Simons2018,biceparray,spt3g}.
 
  The remaining technology developments required to enable the PICO baseline design are:
 \begin{enumerate}
@@ -493,7 +493,7 @@ PICO's sensitivity requirements dictate the use of 13,000 transition-edge-sensor
 $\bullet$ development of fast-switched room temperature electronics; and \\
 $\bullet$ system engineering of room temperature to cryogenic row-select cabling to ensure sufficiently fast row-switch settling times.
 
-The historical row revisit rate for bolometric instruments using 32$\times$ TDM has been 25\,kHz \cite[e.g.,][]{BICEP2015}. However, X-ray instruments using TDM routinely switch between rows at a rate of 160\,ns (6.25~MHz)~\citep{Doriese2016}. The PICO baseline assumes a 160\,ns switch rate and TDM-128$\times$, which dictates a row-revisit rate (effective sampling rate) of 48.8\,kHz. To limit aliased noise, PICO implements L/R filters in each readout channel with a bandwidth of 6\,kHz, dictated by detector stability considerations and the required $\sim1$\,kHz signal bandwidth.  With these parameters and using the same TDM multiplexer SQUID design, the increased total noise due to aliasing will be limited to 15\,\%.  The system engineering study will culminate in a demonstration of TDM-128$\times$ SQUID aliased noise below PICO detector sensitivity requirements.
+The historical row revisit rate for bolometric instruments using 32$\times$ TDM has been 25\,kHz \cite[e.g.,][]{BICEP2015}. However, X-ray instruments using TDM routinely switch between rows at a rate of 160\,ns (6.25~MHz)~\citep{Doriese2016}. The PICO baseline assumes a 160\,ns switch rate and TDM-128$\times$, which dictates a row-revisit rate (effective sampling rate) of 48.8\,kHz. To limit aliased noise, PICO implements low-pass filters in each readout channel with a bandwidth of 6\,kHz, dictated by detector stability considerations and the required $\sim1$\,kHz signal bandwidth.  With these parameters and using the same TDM multiplexer SQUID design, the increased total noise due to aliasing will be limited to 15\,\%.  The system engineering study will culminate in a demonstration of TDM-128$\times$ SQUID aliased noise below PICO detector sensitivity requirements.
 
 
 \subsection{Technology Descopes}
