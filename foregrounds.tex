@@ -50,12 +50,6 @@ These levels are appreciable compared to the goals of PICO and other next-decade
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-%Faced with these uncertainties, but also with the opportunity provided by a platform that can host a broad range of frequencies -- ground-based experiments are limited to several atmospheric windows and to frequencies of less than 300~GHz -- PICO is designed with 21 frequency bands between 21 and 800 GHz; see Fig.~\ref{fig:pico-channels-and-fg} and Table 3.2. This is the broadest frequency lever arm proposed by any imaging instrument to characterize and enable separation of Galactic emissions. 
-
-%The level of fidelity required in the characterization of foreground emissions compels new approaches to the way we assess and forecast the performance of a future experiment. We can no longer impose specific models upon the data; rather, the data collected should provide information to constrain Galactic emissions with sufficient accuracy.  
-
-%Two broad approaches are used for foreground separation and for assessment of its precision.  In the parametric approach the foregrounds are assumed to follow emission laws described by a number of free parameters. Parametric models use the frequency dependence of the data in each line of sight to determine the values of the parameters~\citep{eriksen/etal:2008}.  Since the CMB spectrum is well determined, measurements with a sufficient number of frequency bands and appropriately broad frequency coverage can distinguish foreground emission from the CMB using their different spectral dependences. Non-parametric techniques, in contrast, rely on the fact that CMB emission is uncorrelated with the foregrounds and thus correlations within a given spatial/frequency data-cube can be used to separate the two distinct sources of emission~\citep{delabrouille2003,Cardoso2008,Delabrouille2009,nilc,gnilc}.  Simulated data are used to assess the efficacy of both techniques as the complexity of the assumed foreground emission is increased. For the parametric models, we can also employ analytic methods to estimate the uncertainty on emission parameters as a function of instrument noise, but specific assumptions must be made about the underlying nature of the emission laws~\citep{errard_and_finney}. 
-
 To investigate the efficacy of PICO in addressing the foreground-separation challenge, we used both an analytic forecast and map-domain simulations. \\ 
 %
 \noindent$\bullet$ {\bf Analytic Forecast} \hspace{0.1in} The analytic forecast relies on an established, documented, publicly available, cosmological parameters forecasting code~\citep{errard_and_finney}. The code uses \planck -reported Galactic emissions; it assumes that the foreground spectral indices are constant across patch sizes of $\sim$15\degree\ on a side; it employs a parametric maximum-likelihood approach\footnote{In a parametric approach, foregrounds are assumed to follow emission laws described by a number of free parameters. Parametric models use the frequency dependence of the data along each line of sight to determine the values of the parameters~\citep{eriksen/etal:2008}.} to remove the foregrounds and to forecast $\sigma(r)$; and it uses the cleanest 60\% of the sky. Lensing $B$-modes are included in the input spectra (and are partially removed via delensing, taking into account both noise and foregrounds), but the input for the inflationary signal is $r=0$. \\ 
@@ -65,24 +59,8 @@ To investigate the efficacy of PICO in addressing the foreground-separation chal
 %
 \noindent$\bullet$ {\bf Map-Domain Simulations} \hspace{0.1in} Map-domain simulations have become the `gold standard' in the community. In this approach, we simulate sky maps that are constrained by available data, but otherwise have a mixture of foreground properties. We `observe' these maps just like a realistic experiment would do, and then apply foreground separation techniques -- both parametric and non-parametric\footnote{\label{nonparametric}Non-parametric techniques rely on the fact that CMB emission is uncorrelated with the foregrounds and thus a correlations analysis within a given spatial/frequency data-cube can be used to separate the two sources of emission~\citep{delabrouille2003,Cardoso2008,Delabrouille2009,nilc,gnilc}.} -- to separate the Galactic and CMB emissions. 
 
-%To investigate the capacity of PICO to address this foreground-separation problem, we use the approach that has become the `gold standard' in the community. In this approach we simulate sky maps that are constrained by available data, but otherwise have a mixture of foreground properties. We  `observe' these maps just like a realistic experiment will do, and then apply foreground separation techniques to separate the Galactic and CMB emission. We also provide forecasts using different techniques which use analytic calculations to estimate the efficacy of foreground separation, or others in which the simulated sky map is assumed to follow specific Galactic emission models, which are then fitted. 
 
-%\begin{figure}[t]
-%\begin{center}
-%\includegraphics[width=.95\textwidth]{images/foregrounds_maps_planck_models}
-%\vspace{-0.1in}
-%\caption{\captiontext
-%Foreground maps: \planck~measured sky (left) at 143~GHz, models at 155~GHz from PySM (middle)~\citep{thorne2018_pysm} and Galactic MHD simulations (right). \comor{The model generated by MHD simulations is only constrained to match \planck\ Galactic foregrounds spatial power spectra, not the actual spatial realization.} 
-%\label{fig:pysm_foregrounds} }
-%\end{center} 
-%\vspace{-0.2in}
-%\end{figure}
-
-% To capture the potential impact of ...
-
-%\comor{what exactly do you want to say here}
 To test the results we constructed a variety of full-sky models~\citep{gnilc_memo}. All the models were broadly consistent with available data and with uncertainties from \wmap\ and \planck , but they differed in their degrees of Galactic emission complexity. Models included spectral parameters varying spatially and along the line of sight, anomalous microwave emission up to 2\% polarized, dust polarization that rotates slightly as a function of frequency because of projection effects, or dust \ac{SED}s that depart from a simple modified blackbody. All the foreground maps were generated at native resolution of 7\arcmin\ pixels~\citep{gorski/etal:2005}, with widely-used and thoroughly-tested map-generation codes~\citep{thorne2018_pysm,delabrouille/etal:2013}. 
-%Fig.~\ref{fig:pysm_foregrounds} shows two of the eight models and data from \planck . \comor{The right panel is constructed to mimic the \planck\ Galactic emissions statistically. The middle panel is constructed to mimic the observed spatial distribution of Galactic emission. The differences between these and the \planck\ map illustrate that different realizations of the sky are allowed by current data, and highlight the level of current Galactic emission uncertainties. }
 
 For each of the models, we added CMB signals in both intensity and polarization, matching a $\Lambda$CDM universe. The input inflationary signal was $r=0$, i.e., no signal, and the $BB$-lensing matched the level after 85\% delensing as forecast for PICO. Each of these sky models had 50 realizations of the PICO noise level. 
 %, and 50 others had a level of $r=0.003$. \comor{do you want to talk about r=0.003?}
