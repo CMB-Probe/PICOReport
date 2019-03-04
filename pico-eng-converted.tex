@@ -49,14 +49,6 @@ PICO instrument block diagram. Active coolers provide cooling to the 100\,mK foc
 \vspace{-0.in}
 \end{figure}
 
-
-% Amy
-
-
-% Amy
-%PICO instrument block diagram. Active coolers provide cooling to the 100 mK focal plane, the surrounding 1 K box, the 4.5 K secondary reflector, and the 4.5 K thermal liner that acts as a cold aperture stop. V-grooves provide passive cooling. The instrument, V-grooves, and spacecraft ?spun module? spin together at a rate of 1 RPM. The spacecraft spun module hosts the 4K cooler compressor and drive electronics, the sub-K cooler drive electronics, and the detector warm readout electronics. Only power and digital data lines cross to the spacecraft despun module, which hosts the spacecraft power, telemetry, attitude control, and communication systems (S4.3).
-
-
 \subsection{Telescope}
 \label{sec:telescope} %3.1
 
@@ -102,7 +94,7 @@ Bolometers operating in the mm/sub-mm wave band are photon-noise limited. Theref
 \vskip -8pt
 \hfill
 \includegraphics[width=0.45\textwidth]{figures/FocalPlaneMechanical.png}
-\vskip -2pt
+\vskip -4pt
 \caption{\captiontext PICO focal plane. Detectors are fabricated on six types of tiles (shown numbered and colored as in Table~\ref{tab:focal_plane}). The wafers are located on the focal plane such that higher frequency bands, which require better optical performance, are placed nearer to the center. All detectors are within the diffraction-limited performance for their respective frequency bands.  
 \label{fig:FocalPlaneMechanical}}
 \end{wrapfigure}
@@ -110,14 +102,15 @@ with a comparably sized telescope. This breakthrough is enabled by development a
 
 \subsubsection{21--462\,GHz Bands}
 \label{sec:low_freq_det} % 3.2.1
+\vspace{0.02in}
 
-Several optical-coupling technologies have matured over the past ten years to efficiently use focal-plane area: horns with ortho-mode transducers (OMTs) \citep{Duff2016}; lithographed antenna arrays~\citep{BICEP2015}; and sinuous antennas under lenslets~\citep{Edwards2012}. Horn-coupling and sinuous antenna/lenslet-coupling deliver quantum efficiency $>70\,\%$ over more than an octave of bandwidth, which have been partitioned into two or three colors per pixel.  
-Only single-color pixels have been demonstrated to date with antenna-arrays, but this coupling enables smaller pixels and therefore they can be more densely packed.
+Several optical-coupling technologies have matured over the past ten years to efficiently use focal-plane area: horns with ortho-mode transducers (OMTs) \citep{Duff2016}; lithographed antenna arrays~\citep{BICEP2015}; and sinuous antennas under lenslets~\citep{Edwards2012}. Horn-coupling and sinuous antenna/lenslet-coupling deliver quantum efficiency $>70\,\%$ over more than an octave of bandwidth, which have been partitioned into two or three colors per pixel.  Only single-color pixels have been demonstrated to date with antenna-arrays, but this coupling enables smaller pixels and therefore they can be more densely packed.
 %%%%%%%%
 \input tables/table3.1_wrap.tex
 %%%%%%%%
 
-The PICO baseline focal plane employs three-color sinuous antenna/lenslet pixels~\citep{Suzuki2014} for the 21--462\,GHz bands. Niobium microstrips mediate the signals between the antenna and detectors, and partition the feed's wide continuous bandwidth into three narrow channels using integrated, on-wafer, micro-machined filter circuits~\citep{OBrient2013}. Six transition edge sensor bolometers per pixel detect the radiation in two orthogonal polarization states. %The technology maturation required for PICO is described in \$\,\ref{sec:bolometers}.
+The PICO baseline focal plane employs three-color sinuous antenna/lenslet pixels~\citep{Suzuki2014} for the 21--462\,GHz bands. Niobium microstrips mediate the signals between the antenna and detectors, and partition the %feed's 
+wide continuous bandwidth into three narrow channels using integrated, on-wafer, micro-machined filter circuits~\citep{OBrient2013}. Six transition edge sensor bolometers per pixel detect the radiation in two orthogonal polarization states. %The technology maturation required for PICO is described in \$\,\ref{sec:bolometers}.
 
 \subsubsection{555--799\,GHz Bands}
 \label{sec:high_freq_det} % 3.2.2
