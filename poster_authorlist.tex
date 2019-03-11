@@ -1,0 +1,255 @@
+\documentclass[17pt]{extarticle}
+\usepackage{amssymb,amsmath,times}
+\usepackage{mathptmx}
+
+% Double-page paper
+\newlength{\pagewidthB}
+\newlength{\pageheightB}
+\setlength{\pagewidthB}{44in}
+\setlength{\pageheightB}{4in}
+
+\newlength{\stockwidth}
+\newlength{\stockheight}
+
+\usepackage{geometry}
+\newcommand{\generatePageLayouts}{%
+\newgeometry{layoutwidth=\pagewidthB,layoutheight=\pageheightB, left=2in,right=1.5in,top=.1in,bottom=.1in}
+\savegeometry{LayoutPageB}
+  }
+
+
+\newcommand{\switchToLayoutPageB}{%
+    % switch page size first:
+    \pdfpagewidth=\pagewidthB \pdfpageheight=\pageheightB % for PDF output
+    \paperwidth=\pagewidthB \paperheight=\pageheightB     % for TikZ
+    \stockwidth=\pagewidthB \stockheight=\pageheightB % hyperref (memoir)?!
+    \loadgeometry{LayoutPageB} % note; \loadgeometry may reset paperwidth/h!
+	    }
+
+% define formatting
+%\pagestyle{empty}
+\parindent=0pt
+\topmargin=0.in \headheight=0in \headsep=-0.1in \textheight=9.2in
+\textwidth=40in \oddsidemargin=0in
+
+
+		
+\begin{document}
+\generatePageLayouts{}
+
+\switchToLayoutPageB{}
+
+\parindent = 0pt
+\normalsize{
+%\small{
+Principal Investigator: Shaul Hanany (hanany@umn.edu)\,$^{1}$ } 
+%\\
+\qquad \qquad
+%\vspace{-6pt} \\
+\normalsize{
+%\small{
+Steering Committee: Charles Bennett\,$^{2}$, Scott Dodelson\,$^{3}$, Lyman Page\,$^{4}$ } \\
+\vspace{-6pt} 
+
+\normalsize{
+%\small{
+\raggedright
+Executive Committee:
+James~Bartlett\,$^{5,6}$,
+Nick~Battaglia\,$^{7}$,
+Jamie~Bock\,$^{8,6}$,
+Julian~Borrill\,$^{9,10}$,
+David~Chuss\,$^{11}$,
+Brendan~P.~Crill\,$^{6}$,
+Jacques~Delabrouille\,$^{5,12}$,
+Mark~Devlin\,$^{13}$,
+Laura~Fissel\,$^{14}$,
+Raphael~Flauger\,$^{15}$,
+Dan~Green\,$^{16}$,
+J.~Colin~Hill\,$^{17,18}$,
+Johannes~Hubmayr\,$^{19}$,
+William~Jones\,$^{4}$,
+Lloyd~Knox\,$^{20}$,
+Al~Kogut\,$^{21}$,
+Charles~Lawrence\,$^{6}$,
+Jeff~McMahon\,$^{22}$,
+Tim~Pearson\,$^{8}$,
+Clem~Pryke\,$^{1}$,
+Marcel~Schmittfull\,$^{18}$,
+Amy~Trangsrud\,$^{6}$,
+Alexander~van~Engelen\,$^{23}$ }
+\\
+%\vspace{9pt}
+\vspace{-6pt} 
+
+
+Authors: 
+%\vskip 0pt
+%
+%\footnotesize 
+\small{
+% change to left justified
+%Marcelo Alvarez~$^{9}$,
+Marcelo Alvarez~$^{9,16}$,
+Emmanuel Artis~$^{12}$,
+%Peter Ashton~$^{9}$,
+Peter Ashton~$^{24,16,9}$ ,
+%Peter Ashton~$^{24}$,
+Jonathan Aumont~$^{25}$,
+Ragnhild Aurlien~$^{26}$,
+Ranajoy Banerji~$^{26}$,
+R. Belen Barreiro~$^{27}$,
+James G. Bartlett~$^{5,6}$,
+%James G. Bartlett~$^{6}$,
+Soumen Basak~$^{28}$,
+Nick Battaglia~$^{7}$,
+Jamie Bock~$^{8,6}$,
+%Jamie Bock   !!Caltech then JPL!!~$^{6}$   ,
+Kimberly K. Boddy~$^{2}$,
+Matteo Bonato~$^{29}$,
+Julian Borrill~$^{9,10}$,
+%Julian Borrill~$^{10}$,
+Fran,c{c}ois Bouchet~$^{30}$,
+Fran,c{c}ois Boulanger~$^{31}$,
+Blakesley Burkhart~$^{32}$,
+Jens Chluba~$^{33}$,
+David Chuss~$^{11}$,
+Susan E. Clark~$^{18,34}$,
+Joelle Cooperrider~$^{6}$,
+Brendan P. Crill~$^{6}$,
+Gianfranco De Zotti~$^{35}$,
+Jacques Delabrouille~$^{5,12}$,
+%Jacques Delabrouille~$^{12}$,
+%Mark Devlin~$^{13}$ ,
+Eleonora Di Valentino~$^{36}$,
+Joy Didier~$^{37}$,
+Olivier Dor,'e~$^{6,8}$,
+%Olivier Dor,'e    !!! JPL then Caltech!!!~$^{8}$   ,
+Hans K. Eriksen~$^{26}$,
+Josquin Errard~$^{5}$,
+Tom Essinger-Hileman~$^{21}$,
+Stephen Feeney~$^{17}$,
+Jeffrey Filippini~$^{38}$,
+Laura Fissel~$^{14}$,
+Raphael Flauger~$^{15}$,
+Unni Fuskeland~$^{26}$,
+Vera Gluscevic~$^{39}$,
+Krzysztof M. Gorski~$^{6}$,
+Dan Green~$^{16}$,
+Shaul Hanany~$^{1}$,
+Brandon Hensley~$^{4}$,
+Diego Herranz~$^{27}$,
+J. Colin Hill~$^{17,18}$,
+%J. Colin Hill~$^{18}$,
+Eric Hivon~$^{30}$,
+Ren,'{e}e  Hlo,v{z}ek~$^{40}$,
+Johannes Hubmayr~$^{19}$,
+Bradley R. Johnson~$^{41}$,
+William Jones~$^{4}$,
+Terry Jones~$^{1}$,
+Lloyd Knox~$^{20}$,
+Al Kogut~$^{21}$,
+Marcos L,'{o}pez-Caniego~$^{42}$,
+Charles Lawrence~$^{6}$,
+Alex Lazarian~$^{43}$,
+Zack Li~$^{4}$,
+Mathew Madhavacheril~$^{4}$,
+%Jeff McMahon~$^{22}$,
+Jean-Baptiste Melin~$^{12}$,
+Joel Meyers~$^{44}$,
+Calum Murray~$^{5}$,
+Mattia Negrello~$^{45}$,
+Giles Novak~$^{46}$,
+Roger O'Brient~$^{6,8}$,
+%Roger O'Brient      !!! JPL then Caltech!!!~$^{8}$   ,
+Christopher Paine~$^{6}$,
+Tim Pearson~$^{8}$,
+Levon Pogosian~$^{47}$,
+Clem Pryke~$^{1}$,
+%Giuseppe Puglisi~$^{48}$,
+Giuseppe Puglisi~$^{48,49}$,
+Mathieu Remazeilles~$^{33}$,
+Graca Rocha~$^{6,8}$,
+%Graca Rocha~$^{8}$,
+Marcel Schmittfull~$^{18}$,
+Douglas Scott~$^{50}$,
+Peter Shirron~$^{21}$,
+Ian Stephens~$^{51}$,
+Brian Sutin~$^{6}$,
+Maurizio Tomasi~$^{52}$ ,
+Amy Trangsrud~$^{6}$,
+Alexander van Engelen~$^{23}$,
+Flavien Vansyngel~$^{53}$,
+Ingunn K. Wehus~$^{26}$,
+Qi Wen~$^{1}$,
+Siyao Xu~$^{43}$,
+Karl Young~$^{1}$,
+Andrea Zonca~$^{54}$
+}
+\\
+\vspace{-6pt} 
+
+
+\normalsize {Affiliations:}
+%\vspace{-6pt}
+%
+\raggedright
+\footnotesize {
+1.~University of Minnesota - Twin Cities, \enskip
+2.~Johns Hopkins University, \enskip
+3.~Carnegie Melon University, \enskip
+4.~Princeton University, \enskip
+5.~APC, Univ Paris Diderot, CNRS/IN2P3, CEA/lrfu, Obs de Paris, Sorbonne Paris Cit,'e, France, \enskip
+6.~Jet Propulsion Laboratory, California Institute of Technology, \enskip
+7.~Cornell University, \enskip
+8.~California Institute of Technology, \enskip
+9.~Lawrence Berkeley National Laboratory, \enskip
+10.~Space Sciences Laboratory, University of California, Berkeley, \enskip
+11.~Villanova University, \enskip
+12.~IRFU, CEA, Universit,'e Paris-Saclay, France, \enskip
+13.~University of Pennsylvania, \enskip
+14.~National Radio Astronomy Observatory, \enskip
+15.~University of California, San Diego, \enskip
+16.~University of California, Berkeley, \enskip
+17.~Center for Computational Astrophysics, Flatiron Institute, \enskip
+18.~Institute for Advanced Study, Princeton, \enskip
+19.~National Institute of Standards and Technology, \enskip
+20.~University of California, Davis, \enskip
+21.~NASA Goddard Space Flight Center, \enskip
+22.~University of Michigan, \enskip
+23.~Canadian Institute for Theoretical Astrophysics, University of Toronto, Canada, \enskip
+24.~Kavli Institute for the Physics and Mathematics of the Universe (WPI), \enskip
+25.~IRAP, Universit,'e de Toulouse, France, \enskip
+26.~University of Oslo, Norway, \enskip
+27.~Instituto de F,'isica de Cantabria (CSIC-Universidad de Cantabria), Spain, \enskip
+28.~School of Physics, Indian Institute of Science Education and Research Thiruvananthapuram, India, \enskip
+29.~INAF-Istituto di Radioastronomia and Italian ALMA Regional Centre, Italy, \enskip
+30.~Institut d'Astrophysique de Paris, CNRS and Sorbonne Universit,'e, France, \enskip
+31.~Ecole Normale Superieure, Paris, France, \enskip
+32.~Rutgers University, \enskip
+33.~JBCA, University of Manchester, \enskip
+34.~Hubble Fellow          , \enskip
+35.~INAF-Osservatorio Astronomico di Padova, Italy, \enskip
+36.~University of Manchester, \enskip
+37.~University of Southern California, \enskip
+38.~University of Illinois, Urbana-Champaign, \enskip
+39.~University of Florida, \enskip
+40.~Department of Astronomy \& Astrophysics and Dunlap Institute, University of Toronto, Canada, \enskip
+41.~Columbia University, \enskip
+42.~European Space Astronomy Centre, \enskip
+43.~University of Wisconsin - Madison, \enskip
+44.~Southern Methodist University, \enskip
+45.~Cardiff University School of Physics and Astronomy, \enskip
+46.~Northwestern University, \enskip
+47.~Simon Fraser University, \enskip
+48.~Stanford University, \enskip
+49.~Kavli Institute for Particle Astrophysics and Cosmology, \enskip
+50.~University of British Columbia, Canada, \enskip
+51.~Harvard-Smithsonian Center for Astrophysics, \enskip
+52.~Universit,`a degli studi di Milano, \enskip
+53.~Institut d'Astrophysique Spatiale, CNRS, Univ. Paris-Sud, Universit,'e Paris-Saclay, France, \enskip
+54.~San Diego Supercomputer Center, University of California, San Diego
+}
+
+
+\end{document}
